@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Round Door Studios</title>
+  <meta name="description" content="Round Door Studios — coming soon. Join the waitlist for early access." />
+
+  <style>
+    /* ─── Reset ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* ─── Tokens ─────────────────────────────────────────── */
+    :root {
+      --bg:        #F5F0E8;
+      --surface:   #FAF7F2;
+      --border:    #DDD0BB;
+      --text:      #3D2B1F;
+      --muted:     #8B7355;
+      --accent:    #C4694F;
+      --accent-dk: #A8513A;
+      --shadow:    rgba(196, 105, 79, 0.22);
+    }
+
+    /* ─── Base ───────────────────────────────────────────── */
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100dvh;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+
+    /* ─── Logo ───────────────────────────────────────────── */
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+      box-shadow: 0 8px 32px var(--shadow);
+    }
+
+    .logo-ring {
+      width: 104px;
+      height: 104px;
+      border-radius: 50%;
+      border: 2.5px solid rgba(245, 240, 232, 0.55);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-initials {
+      color: #F5F0E8;
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+    }
+
+    /* ─── Heading ────────────────────────────────────────── */
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      line-height: 1.15;
+      margin-bottom: 0.6rem;
+    }
+
+    .tagline {
+      font-size: 0.85rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 3rem;
+    }
+
+    /* ─── CTA Button ─────────────────────────────────────── */
+    .btn-primary {
+      display: inline-block;
+      background: var(--accent);
+      color: #F5F0E8;
+      border: none;
+      padding: 0.95rem 2.8rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .btn-primary:hover  { background: var(--accent-dk); transform: translateY(-2px); }
+    .btn-primary:active { transform: translateY(0); }
+
+    /* ─── Modal overlay ──────────────────────────────────── */
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(40, 25, 15, 0.78);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 1.25rem;
+    }
+
+    .overlay.open { display: flex; }
+
+    /* ─── Modal card ─────────────────────────────────────── */
+    .modal {
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 2.5rem 2.25rem 2.25rem;
+      width: 100%;
+      max-width: 420px;
+      position: relative;
+      text-align: left;
+      animation: riseIn 0.26s cubic-bezier(.22,.61,.36,1) both;
+    }
+
+    @keyframes riseIn {
+      from { opacity: 0; transform: translateY(18px) scale(0.98); }
+      to   { opacity: 1; transform: translateY(0)    scale(1);    }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1rem;
+      right: 1.25rem;
+      background: none;
+      border: none;
+      font-size: 1.6rem;
+      line-height: 1;
+      cursor: pointer;
+      color: var(--muted);
+      transition: color 0.15s;
+    }
+
+    .modal-close:hover { color: var(--text); }
+
+    .modal h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 0.45rem;
+    }
+
+    .modal .sub {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.65;
+      margin-bottom: 1.75rem;
+    }
+
+    /* ─── Form ───────────────────────────────────────────── */
+    .field { margin-bottom: 1rem; }
+
+    .field label {
+      display: block;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .field input[type="email"],
+    .field input[type="text"] {
+      width: 100%;
+      padding: 0.78rem 1rem;
+      border: 1.5px solid var(--border);
+      background: var(--surface);
+      border-radius: 4px;
+      font-size: 1rem;
+      font-family: inherit;
+      color: var(--text);
+      transition: border-color 0.2s;
+      -webkit-appearance: none;
+    }
+
+    .field input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .btn-submit {
+      width: 100%;
+      margin-top: 0.4rem;
+      background: var(--accent);
+      color: #F5F0E8;
+      border: none;
+      padding: 0.9rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+
+    .btn-submit:hover { background: var(--accent-dk); }
+
+    /* ─── Success state ──────────────────────────────────── */
+    .success { display: none; text-align: center; padding: 2rem 0; }
+
+    .success-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: #EDE3D8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.25rem;
+      font-size: 1.5rem;
+    }
+
+    .success h3 {
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin-bottom: 0.4rem;
+    }
+
+    .success p { font-size: 0.9rem; color: var(--muted); line-height: 1.6; }
+
+    /* ─── Responsive ─────────────────────────────────────── */
+    @media (max-width: 420px) {
+      .logo       { width: 112px; height: 112px; }
+      .logo-ring  { width: 82px;  height: 82px;  }
+      .modal      { padding: 2rem 1.5rem 1.75rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── Logo ── -->
+  <div class="logo" aria-hidden="true">
+    <div class="logo-ring">
+      <span class="logo-initials">RDS</span>
+    </div>
+  </div>
+
+  <!-- ── Hero ── -->
+  <h1>Round Door Studios</h1>
+  <p class="tagline">Coming Soon</p>
+
+  <!-- ── CTA ── -->
+  <button class="btn-primary" onclick="openModal()">Join the Waitlist</button>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       MODAL
+  ════════════════════════════════════════════════════════ -->
+  <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle"
+       onclick="closeOnOverlay(event)">
+
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+
+      <!-- Form panel -->
+      <div id="formPanel">
+        <h2 id="modalTitle">Get Early Access</h2>
+        <p class="sub">Be the first to hear from us. Drop your email and we'll reach out when we're ready.</p>
+
+        <!--
+          ╔══════════════════════════════════════════════════════╗
+          ║  MAILCHIMP SETUP — replace the three values below   ║
+          ║                                                      ║
+          ║  1. Go to Mailchimp → Audience → Signup forms       ║
+          ║  2. Choose "Embedded forms"                          ║
+          ║  3. Copy the <form action="..."> URL                 ║
+          ║  4. Paste it as MAILCHIMP_ACTION_URL below           ║
+          ║  5. Also copy the hidden `u` and `id` field values   ║
+          ╚══════════════════════════════════════════════════════╝
+        -->
+        <form id="waitlistForm"
+              action="https://rounddoorstudio.us6.list-manage.com/subscribe/post?u=8bde15c3be445ba4466406eab&id=276e094dfc&f_id=00cfcbe1f0"
+              method="post"
+              target="mc_iframe"
+              onsubmit="handleSubmit(event)">
+
+          <div class="field">
+            <label for="mce-EMAIL">Email Address</label>
+            <input type="email" id="mce-EMAIL" name="EMAIL"
+                   placeholder="you@example.com" autocomplete="email" required />
+          </div>
+
+          <!-- Hidden Mailchimp fields -->
+          <input type="hidden" name="u"  value="8bde15c3be445ba4466406eab" />
+          <input type="hidden" name="id" value="276e094dfc" />
+
+          <!-- Anti-bot honeypot — DO NOT REMOVE -->
+          <div style="position:absolute;left:-5000px" aria-hidden="true">
+            <input type="text" name="b_8bde15c3be445ba4466406eab_276e094dfc" tabindex="-1" value="" />
+          </div>
+
+          <button type="submit" class="btn-submit">Get Early Access →</button>
+        </form>
+
+        <!-- Invisible iframe so Mailchimp POST doesn't navigate away -->
+        <iframe name="mc_iframe" style="display:none" title="mc_iframe"></iframe>
+      </div>
+
+      <!-- Success panel (shown after submit) -->
+      <div class="success" id="successPanel">
+        <div class="success-icon">✓</div>
+        <h3>You're on the list!</h3>
+        <p>We'll be in touch soon.<br>Keep an eye on your inbox.</p>
+      </div>
+    </div>
+  </div><!-- /overlay -->
+
+
+  <script>
+    /* ── Modal open/close ── */
+    function openModal() {
+      const overlay = document.getElementById('overlay');
+      overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      setTimeout(() => document.getElementById('mce-EMAIL').focus(), 60);
+    }
+
+    function closeModal() {
+      document.getElementById('overlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function closeOnOverlay(e) {
+      if (e.target === document.getElementById('overlay')) closeModal();
+    }
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    /* ── Form submit ── */
+    function handleSubmit(e) {
+      // Form submits into hidden iframe (no page navigation).
+      // Show success state after a short delay.
+      setTimeout(() => {
+        document.getElementById('formPanel').style.display = 'none';
+        document.getElementById('successPanel').style.display = 'block';
+      }, 350);
+    }
+  </script>
+
+</body>
+</html>
