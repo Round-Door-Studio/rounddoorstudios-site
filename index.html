@@ -7,6 +7,14 @@
   <meta name="description" content="Round Door Studios — coming soon. Join the waitlist for early access." />
 
   <style>
+    /* ─── Fonts ──────────────────────────────────────────── */
+    @font-face {
+      font-family: 'Stropica';
+      src: url('fonts/stropica/StropicaDEMO.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
     /* ─── Reset ─────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -72,6 +80,7 @@
 
     /* ─── Heading ────────────────────────────────────────── */
     h1 {
+      font-family: 'Stropica', 'Georgia', serif;
       font-size: clamp(2rem, 6vw, 3.5rem);
       font-weight: 400;
       letter-spacing: 0.02em;
@@ -95,7 +104,7 @@
       border: none;
       padding: 0.95rem 2.8rem;
       font-size: 0.9rem;
-      font-family: inherit;
+      font-family: 'Stropica', 'Georgia', serif;
       font-weight: 400;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -207,7 +216,7 @@
       border: none;
       padding: 0.9rem;
       font-size: 0.9rem;
-      font-family: inherit;
+      font-family: 'Stropica', 'Georgia', serif;
       letter-spacing: 0.09em;
       text-transform: uppercase;
       cursor: pointer;
@@ -240,11 +249,61 @@
 
     .success p { font-size: 0.9rem; color: var(--muted); line-height: 1.6; }
 
+    /* ─── Founders ──────────────────────────────────────── */
+    .founders {
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+      margin-top: 4rem;
+      max-width: 560px;
+      text-align: left;
+    }
+
+    .founder-photo {
+      flex-shrink: 0;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid var(--border);
+      box-shadow: 0 4px 16px var(--shadow);
+    }
+
+    .founder-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 72% 12%;
+    }
+
+    .founder-bio h2 {
+      font-family: 'Stropica', 'Georgia', serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.2rem;
+    }
+
+    .founder-names {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.85rem;
+    }
+
+    .founder-bio p:last-child {
+      font-size: 0.92rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
     /* ─── Responsive ─────────────────────────────────────── */
     @media (max-width: 420px) {
       .logo       { width: 112px; height: 112px; }
       .logo-ring  { width: 82px;  height: 82px;  }
       .modal      { padding: 2rem 1.5rem 1.75rem; }
+      .founders   { flex-direction: column; text-align: center; }
     }
   </style>
 </head>
@@ -264,6 +323,18 @@
 
   <!-- ── CTA ── -->
   <button class="btn-primary" onclick="openModal()">Join the Waitlist</button>
+
+  <!-- ── Founders ── -->
+  <section class="founders">
+    <div class="founder-photo">
+      <img src="founders.jpg" alt="Lanssie and Catherine, founders of Round Door Studios" />
+    </div>
+    <div class="founder-bio">
+      <h2>About Us</h2>
+      <p class="founder-names">Lanssie &amp; Catherine</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </section>
 
 
   <!-- ═══════════════════════════════════════════════════════
