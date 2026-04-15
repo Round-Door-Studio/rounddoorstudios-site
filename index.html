@@ -6,7 +6,7 @@
   <title>Round Door Studios</title>
   <meta name="description" content="Round Door Studios — coming soon. Join the waitlist for early access." />
 
-  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&family=Noto+Serif+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&family=Noto+Serif+SC&family=Noto+Serif+TC&family=Noto+Sans+TC&family=LXGW+WenKai+TC&family=Zen+Old+Mincho&family=Shippori+Mincho&display=swap" rel="stylesheet">
   <style>
     /* ─── Fonts ──────────────────────────────────────────── */
     @font-face {
@@ -108,15 +108,20 @@
     .tagline-zh {
       font-family: 'Ma Shan Zheng', serif;
       font-size: 1rem;
+      line-height: 1.8;
+      height: 1.8rem;
       color: var(--muted);
       letter-spacing: 0.08em;
       margin-bottom: 2rem;
       opacity: 0.75;
+      overflow: hidden;
     }
 
     .zh {
       font-family: 'Ma Shan Zheng', serif;
       font-size: 1.2em;
+      line-height: 1;
+      vertical-align: middle;
     }
 
     .product-blurb {
@@ -346,6 +351,40 @@
       opacity: 0.6;
     }
 
+    /* ─── Script Toggle ─────────────────────────────────── */
+    .script-toggle {
+      position: fixed;
+      top: 1.25rem;
+      left: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      z-index: 100;
+    }
+
+    .script-btn {
+      background: none;
+      border: none;
+      font-family: 'Ma Shan Zheng', serif;
+      font-size: 1.1rem;
+      color: var(--muted);
+      cursor: pointer;
+      padding: 0.15rem 0.3rem;
+      opacity: 0.5;
+      transition: color 0.2s, opacity 0.2s;
+    }
+
+    .script-btn.active {
+      color: var(--text);
+      opacity: 1;
+    }
+
+    .script-divider {
+      color: var(--border);
+      font-size: 0.75rem;
+      font-family: Georgia, serif;
+    }
+
     /* ─── Responsive ─────────────────────────────────────── */
     @media (max-width: 420px) {
       .logo       { width: 112px; height: 112px; }
@@ -358,6 +397,13 @@
 
 <body>
 
+  <!-- ── Script Toggle ── -->
+  <div class="script-toggle">
+    <button class="script-btn active" id="btn-simplified" onclick="setScript('simplified')">简</button>
+    <span class="script-divider">|</span>
+    <button class="script-btn" id="btn-traditional" onclick="setScript('traditional')">繁</button>
+  </div>
+
   <div class="container">
 
   <!-- ── Logo ── -->
@@ -369,14 +415,14 @@
 
   <!-- ── Hero ── -->
   <h1>Round Door Studio</h1>
-  <p class="tagline">Mandarin stories for the modern bilingual family.</p>
-  <p class="tagline-zh">为双语家庭而生的故事</p>
+  <p class="tagline">Mandarin stories for the modern bilingual family</p>
+  <p class="tagline-zh" data-simplified="为双语家庭而生的故事" data-traditional="為雙語家庭而生的故事">为双语家庭而生的故事</p>
 
   <!-- ── Product blurb ── -->
-  <p class="product-blurb">We bring Chinese folklore, fables, and culture to life through audio stories designed for children growing up between two worlds. Heritage shouldn't feel like homework — it should feel like an adventure worth sharing.</p>
+  <p class="product-blurb">We bring Chinese folklore, fables, and culture to life through audio stories designed for children growing up between two worlds. Heritage shouldn't feel like homework, it should feel like an adventure worth sharing.</p>
 
   <!-- ── CTA ── -->
-  <p class="launching-soon">Launching soon! Be the <span class="zh">第一</span> to know.</p>
+  <p class="launching-soon">Launching soon! Be the <span class="zh" data-simplified="第一" data-traditional="第一">第一</span> to know.</p>
   <button class="btn-primary" onclick="openModal()">Join the Waitlist</button>
 
   <!-- ── Founders ── -->
@@ -386,8 +432,8 @@
     </div>
     <div class="founder-bio">
       <h2>About Us</h2>
-      <p class="founder-names"><span class="zh">嘿!</span> — we're Lanssie &amp; Catherine</p>
-      <p>Two Asian American moms — with Chinese and Taiwanese roots — asking the same question: how do we raise kids who feel at home in their heritage and their American life? Round Door Studio is our answer. Stories for every family that wants their kids to grow up knowing the myths, the culture, and the language that makes them who they are.</p>
+      <p class="founder-names"><span class="zh" data-simplified="嘿!" data-traditional="嘿!">嘿!</span> We're Lanssie &amp; Catherine</p>
+      <p>Two Asian American moms (with Chinese and Taiwanese roots) asking the same question: how do we raise kids who feel at home in their heritage and their American life? Round Door Studio is our answer. Stories for every family that wants their kids to grow up knowing the myths, the culture, and the language that makes them who they are.</p>
     </div>
   </section>
 
@@ -395,11 +441,18 @@
 
   <!-- ── Font Test (temporary) ── -->
   <div style="margin-top: 4rem; width: 100%; max-width: 720px; text-align: left; border-top: 1px solid var(--border); padding-top: 2rem;">
-    <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.5rem;">Font Test — 为双语家庭而生的故事</p>
+    <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.5rem;">Simplified Font Test — 为双语家庭而生的故事</p>
     <p style="font-family: 'Ma Shan Zheng', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Ma Shan Zheng</span></p>
     <p style="font-family: 'ZCOOL XiaoWei', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">ZCOOL XiaoWei</span></p>
     <p style="font-family: 'ZCOOL QingKe HuangYou', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">ZCOOL QingKe HuangYou</span></p>
     <p style="font-family: 'Noto Serif SC', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Noto Serif SC</span></p>
+
+    <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 1.5rem;">Traditional Font Test — 為雙語家庭而生的故事</p>
+    <p style="font-family: 'Noto Serif TC', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Noto Serif TC</span></p>
+    <p style="font-family: 'Noto Sans TC', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Noto Sans TC</span></p>
+    <p style="font-family: 'LXGW WenKai TC', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">LXGW WenKai TC</span></p>
+    <p style="font-family: 'Zen Old Mincho', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Zen Old Mincho</span></p>
+    <p style="font-family: 'ZCOOL XiaoWei', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">ZCOOL XiaoWei (if supported)</span></p>
   </div>
 
   <footer class="site-footer">
@@ -453,7 +506,7 @@
             <input type="text" name="b_8bde15c3be445ba4466406eab_276e094dfc" tabindex="-1" value="" />
           </div>
 
-          <button type="submit" class="btn-submit"><span class="zh">出发！</span>Let's Go</button>
+          <button type="submit" class="btn-submit"><span class="zh" data-simplified="出发！" data-traditional="出發！">出发！</span>Let's Go</button>
         </form>
 
         <!-- Invisible iframe so Mailchimp POST doesn't navigate away -->
@@ -471,6 +524,17 @@
 
 
   <script>
+    /* ── Script toggle ── */
+    function setScript(script) {
+      const zhFont = script === 'simplified' ? "'Ma Shan Zheng', serif" : "'LXGW WenKai TC', serif";
+      document.querySelectorAll('[data-simplified]').forEach(el => {
+        el.textContent = el.dataset[script];
+        el.style.fontFamily = zhFont;
+      });
+      document.getElementById('btn-simplified').classList.toggle('active', script === 'simplified');
+      document.getElementById('btn-traditional').classList.toggle('active', script === 'traditional');
+    }
+
     /* ── Modal open/close ── */
     function openModal() {
       const overlay = document.getElementById('overlay');
