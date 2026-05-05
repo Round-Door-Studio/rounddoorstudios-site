@@ -6,6 +6,7 @@
   <title>Round Door Studios</title>
   <meta name="description" content="Round Door Studios — coming soon. Join the waitlist for early access." />
 
+  <link rel="icon" type="image/svg+xml" href="ICONS/FULLDOORSHADEGRADIENT.svg" />
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&family=Noto+Serif+SC&family=Noto+Serif+TC&family=Noto+Sans+TC&family=LXGW+WenKai+TC&family=Zen+Old+Mincho&family=Shippori+Mincho&display=swap" rel="stylesheet">
   <style>
     /* ─── Fonts ──────────────────────────────────────────── */
@@ -21,14 +22,19 @@
 
     /* ─── Tokens ─────────────────────────────────────────── */
     :root {
-      --bg:        #F5F0E8;
-      --surface:   #FAF7F2;
-      --border:    #DDD0BB;
-      --text:      #3D2B1F;
-      --muted:     #8B7355;
-      --accent:    #C4694F;
-      --accent-dk: #A8513A;
-      --shadow:    rgba(196, 105, 79, 0.22);
+      --bg:          #F1EAEA;
+      --surface:     #F8F2F1;
+      --border:      #DBC4C2;
+      --text:        #36202A;
+      --muted:       #8C6B73;
+      --accent:      #9B4761;
+      --accent-dk:   #7B324A;
+      --shadow:      rgba(155, 71, 97, 0.22);
+      --accent-tint: #ECD0D6;
+      --rule:        #B89999;
+      --locked-bg:   #ECDDDC;
+      --ink-soft:    #5A3742;
+      --warning:     #C4994F;
     }
 
     /* ─── Base ───────────────────────────────────────────── */
@@ -38,7 +44,13 @@
 
     body {
       font-family: 'Georgia', 'Times New Roman', serif;
-      background: var(--bg);
+      background-color: #E5D5D2;
+      background-image:
+        url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22turbulence%22 baseFrequency=%220.4%22 numOctaves=%225%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22400%22 height=%22400%22 filter=%22url(%23n)%22 opacity=%220.06%22/%3E%3C/svg%3E'),
+        url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Cfilter id=%22f%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%221.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22200%22 height=%22200%22 filter=%22url(%23f)%22 opacity=%220.04%22/%3E%3C/svg%3E'),
+        radial-gradient(ellipse at 20% 50%, rgba(219,196,194,0.35) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 30%, rgba(155,71,97,0.07) 0%, transparent 40%),
+        radial-gradient(ellipse at 50% 90%, rgba(184,153,153,0.10) 0%, transparent 40%);
       color: var(--text);
       display: flex;
       flex-direction: column;
@@ -61,27 +73,21 @@
     .logo {
       width: 140px;
       height: 140px;
-      border-radius: 50%;
-      background: var(--accent);
-      display: flex;
-      align-items: center;
-      justify-content: center;
       margin-bottom: 2rem;
-      box-shadow: 0 8px 32px var(--shadow);
     }
 
     .logo-ring {
       width: 104px;
       height: 104px;
       border-radius: 50%;
-      border: 2.5px solid rgba(245, 240, 232, 0.55);
+      border: 2.5px solid rgba(241, 234, 234, 0.55);
       display: flex;
       align-items: center;
       justify-content: center;
     }
 
     .logo-initials {
-      color: #F5F0E8;
+      color: #F1EAEA;
       font-size: 1.6rem;
       font-weight: 700;
       letter-spacing: 0.06em;
@@ -144,7 +150,7 @@
     .btn-primary {
       display: inline-block;
       background: var(--accent);
-      color: #F5F0E8;
+      color: #F1EAEA;
       border: none;
       padding: 0.95rem 2.8rem;
       font-size: 1.1rem;
@@ -165,7 +171,7 @@
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(40, 25, 15, 0.78);
+      background: rgba(54, 32, 42, 0.82);
       backdrop-filter: blur(3px);
       -webkit-backdrop-filter: blur(3px);
       z-index: 200;
@@ -256,7 +262,7 @@
       width: 100%;
       margin-top: 0.4rem;
       background: var(--accent);
-      color: #F5F0E8;
+      color: #F1EAEA;
       border: none;
       padding: 0.9rem;
       font-size: 0.9rem;
@@ -277,7 +283,7 @@
       width: 56px;
       height: 56px;
       border-radius: 50%;
-      background: #EDE3D8;
+      background: var(--locked-bg);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -317,7 +323,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: 72% 12%;
+      object-position: center 40%;
     }
 
     .founder-bio h2 {
@@ -408,9 +414,9 @@
 
   <!-- ── Logo ── -->
   <div class="logo" aria-hidden="true">
-    <div class="logo-ring">
-      <span class="logo-initials">RDS</span>
-    </div>
+    <img src="ICONS/FULLDOORSHADEGRADIENT.svg" width="140" height="140"
+         style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
+         alt="Round Door Studios logo" />
   </div>
 
   <!-- ── Hero ── -->
@@ -428,7 +434,7 @@
   <!-- ── Founders ── -->
   <section class="founders">
     <div class="founder-photo">
-      <img src="founders.jpg" alt="Lanssie and Catherine, founders of Round Door Studios" />
+      <img src="founders2.jpg" alt="Lanssie and Catherine, founders of Round Door Studios" />
     </div>
     <div class="founder-bio">
       <h2>About Us</h2>
@@ -440,7 +446,7 @@
   </div><!-- /container -->
 
   <!-- ── Font Test (temporary) ── -->
-  <div style="margin-top: 4rem; width: 100%; max-width: 720px; text-align: left; border-top: 1px solid var(--border); padding-top: 2rem;">
+  <div style="display: none; margin-top: 4rem; width: 100%; max-width: 720px; text-align: left; border-top: 1px solid var(--border); padding-top: 2rem;">
     <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.5rem;">Simplified Font Test — 为双语家庭而生的故事</p>
     <p style="font-family: 'Ma Shan Zheng', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Ma Shan Zheng</span></p>
     <p style="font-family: 'ZCOOL XiaoWei', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">ZCOOL XiaoWei</span></p>
@@ -453,6 +459,91 @@
     <p style="font-family: 'LXGW WenKai TC', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">LXGW WenKai TC</span></p>
     <p style="font-family: 'Zen Old Mincho', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Zen Old Mincho</span></p>
     <p style="font-family: 'ZCOOL XiaoWei', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">ZCOOL XiaoWei (if supported)</span></p>
+
+    <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 1.5rem;">Background Texture Test</p>
+
+    <!-- Option A: Lantern / Scripture Paper -->
+    <div style="
+      margin-bottom: 1.5rem;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    ">
+      <div style="
+        padding: 2.5rem;
+        background-color: #EEE0A8;
+        background-image:
+          url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22400%22 height=%22400%22 filter=%22url(%23n)%22 opacity=%220.07%22/%3E%3C/svg%3E'),
+          radial-gradient(ellipse at 30% 20%, rgba(255,240,180,0.4) 0%, transparent 60%),
+          radial-gradient(ellipse at 70% 80%, rgba(200,160,80,0.15) 0%, transparent 50%),
+          repeating-linear-gradient(0deg, transparent, transparent 28px, rgba(160,120,60,0.04) 29px);
+      ">
+        <p style="font-family: 'Stropica', Georgia, serif; font-size: 1.5rem; color: #3D2B1F; margin-bottom: 0.5rem;">Round Door Studios</p>
+        <p style="font-family: 'Ma Shan Zheng', serif; font-size: 1rem; color: #8B7355;">为双语家庭而生的故事</p>
+        <p style="font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: #8B7355; margin-top: 1rem; opacity: 0.7;">Option A — Lantern / Scripture Paper</p>
+      </div>
+    </div>
+
+    <!-- Option B: Homemade Paper -->
+    <div style="
+      margin-bottom: 1.5rem;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    ">
+      <div style="
+        padding: 2.5rem;
+        background-color: #EDE4D4;
+        background-image:
+          url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22turbulence%22 baseFrequency=%220.4%22 numOctaves=%225%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22400%22 height=%22400%22 filter=%22url(%23n)%22 opacity=%220.22%22/%3E%3C/svg%3E'),
+          url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Cfilter id=%22f%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%221.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22200%22 height=%22200%22 filter=%22url(%23f)%22 opacity=%220.12%22/%3E%3C/svg%3E'),
+          radial-gradient(ellipse at 20% 50%, rgba(200,180,150,0.6) 0%, transparent 50%),
+          radial-gradient(ellipse at 80% 30%, rgba(160,140,110,0.35) 0%, transparent 40%),
+          radial-gradient(ellipse at 50% 90%, rgba(140,120,90,0.25) 0%, transparent 40%),
+          radial-gradient(ellipse at 60% 60%, rgba(180,160,130,0.2) 0%, transparent 35%);
+      ">
+        <p style="font-family: 'Stropica', Georgia, serif; font-size: 1.5rem; color: #3D2B1F; margin-bottom: 0.5rem;">Round Door Studios</p>
+        <p style="font-family: 'Ma Shan Zheng', serif; font-size: 1rem; color: #8B7355;">为双语家庭而生的故事</p>
+        <p style="font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: #8B7355; margin-top: 1rem; opacity: 0.7;">Option B — Homemade Paper</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SVG Logo Test (temporary) ── -->
+  <div style="display: none; margin-top: 3rem; width: 100%; max-width: 720px; text-align: left; border-top: 1px solid var(--border); padding-top: 2rem; padding-bottom: 2rem;">
+    <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.5rem;">SVG Logo Test</p>
+    <div style="display: flex; justify-content: space-evenly; align-items: flex-end; flex-wrap: nowrap;">
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
+        <img src="ICONS/FULLDOOR.svg" width="120" height="120"
+             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
+             alt="Full Door" />
+        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Full Door</span>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
+        <img src="ICONS/DOORCHARACTER.svg" width="120" height="120"
+             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
+             alt="Door Character" />
+        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Door Character</span>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
+        <img src="ICONS/SIMPLE.svg" width="120" height="120"
+             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
+             alt="Simple" />
+        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Simple</span>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
+        <img src="ICONS/FULLDOORSHADE.svg" width="120" height="120"
+             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
+             alt="Full Door Shade" />
+        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Full Door Shade</span>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
+        <img src="ICONS/FULLDOORSHADEGRADIENT.svg" width="120" height="120"
+             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
+             alt="Full Door Shade Gradient" />
+        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Shade + Gradient</span>
+      </div>
+    </div>
   </div>
 
   <footer class="site-footer">
