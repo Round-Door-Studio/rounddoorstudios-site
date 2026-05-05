@@ -7,7 +7,7 @@
   <meta name="description" content="Round Door Studios — coming soon. Join the waitlist for early access." />
 
   <link rel="icon" type="image/svg+xml" href="ICONS/FULLDOORSHADEGRADIENT.svg" />
-  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&family=Noto+Serif+SC&family=Noto+Serif+TC&family=Noto+Sans+TC&family=LXGW+WenKai+TC&family=Zen+Old+Mincho&family=Shippori+Mincho&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
   <style>
     /* ─── Fonts ──────────────────────────────────────────── */
     @font-face {
@@ -30,11 +30,7 @@
       --accent:      #9B4761;
       --accent-dk:   #7B324A;
       --shadow:      rgba(155, 71, 97, 0.22);
-      --accent-tint: #ECD0D6;
-      --rule:        #B89999;
       --locked-bg:   #ECDDDC;
-      --ink-soft:    #5A3742;
-      --warning:     #C4994F;
     }
 
     /* ─── Base ───────────────────────────────────────────── */
@@ -74,23 +70,6 @@
       width: 140px;
       height: 140px;
       margin-bottom: 2rem;
-    }
-
-    .logo-ring {
-      width: 104px;
-      height: 104px;
-      border-radius: 50%;
-      border: 2.5px solid rgba(241, 234, 234, 0.55);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .logo-initials {
-      color: #F1EAEA;
-      font-size: 1.6rem;
-      font-weight: 700;
-      letter-spacing: 0.06em;
     }
 
     /* ─── Heading ────────────────────────────────────────── */
@@ -240,8 +219,7 @@
       margin-bottom: 0.4rem;
     }
 
-    .field input[type="email"],
-    .field input[type="text"] {
+    .field input[type="email"] {
       width: 100%;
       padding: 0.78rem 1rem;
       border: 1.5px solid var(--border);
@@ -467,12 +445,9 @@
         <h2 id="modalTitle">Get Early Access</h2>
         <p class="sub">Be the first to hear from us. Drop your email and we'll reach out when we have good news to share!</p>
 
-        <div id="mlb2-40832965" class="ml-subscribe-form-40832965">
-          <form id="waitlistForm"
-                class="ml-block-form"
-                action="https://assets.mailerlite.com/jsonp/2318264/forms/186598057362589116/subscribe"
-                data-code=""
-                method="post">
+        <form id="waitlistForm"
+              action="https://assets.mailerlite.com/jsonp/2318264/forms/186598057362589116/subscribe"
+              method="post">
 
             <div class="field">
               <label for="ml-email">Email Address</label>
@@ -484,8 +459,7 @@
             <input type="hidden" name="anticsrf" value="true">
 
             <button type="submit" class="btn-submit"><span class="zh" data-simplified="出发！" data-traditional="出發！">出发！</span>Let's Go</button>
-          </form>
-        </div>
+        </form>
       </div>
 
       <!-- Success panel (shown after submit) -->
