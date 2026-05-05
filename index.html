@@ -467,43 +467,25 @@
         <h2 id="modalTitle">Get Early Access</h2>
         <p class="sub">Be the first to hear from us. Drop your email and we'll reach out when we have good news to share!</p>
 
-        <!--
-          ╔══════════════════════════════════════════════════════╗
-          ║  MAILCHIMP SETUP — replace the three values below   ║
-          ║                                                      ║
-          ║  1. Go to Mailchimp → Audience → Signup forms       ║
-          ║  2. Choose "Embedded forms"                          ║
-          ║  3. Copy the <form action="..."> URL                 ║
-          ║  4. Paste it as MAILCHIMP_ACTION_URL below           ║
-          ║  5. Also copy the hidden `u` and `id` field values   ║
-          ╚══════════════════════════════════════════════════════╝
-        -->
-        <form id="waitlistForm"
-              action="https://rounddoorstudio.us6.list-manage.com/subscribe/post?u=8bde15c3be445ba4466406eab&id=276e094dfc&f_id=00cfcbe1f0"
-              method="post"
-              target="mc_iframe"
-              onsubmit="handleSubmit(event)">
+        <div id="mlb2-40832965" class="ml-subscribe-form-40832965">
+          <form id="waitlistForm"
+                class="ml-block-form"
+                action="https://assets.mailerlite.com/jsonp/2318264/forms/186598057362589116/subscribe"
+                data-code=""
+                method="post">
 
-          <div class="field">
-            <label for="mce-EMAIL">Email Address</label>
-            <input type="email" id="mce-EMAIL" name="EMAIL"
-                   placeholder="you@example.com" autocomplete="email" required />
-          </div>
+            <div class="field">
+              <label for="ml-email">Email Address</label>
+              <input type="email" id="ml-email" aria-label="email" aria-required="true"
+                     name="fields[email]" placeholder="you@example.com" autocomplete="email" required />
+            </div>
 
-          <!-- Hidden Mailchimp fields -->
-          <input type="hidden" name="u"  value="8bde15c3be445ba4466406eab" />
-          <input type="hidden" name="id" value="276e094dfc" />
+            <input type="hidden" name="ml-submit" value="1">
+            <input type="hidden" name="anticsrf" value="true">
 
-          <!-- Anti-bot honeypot — DO NOT REMOVE -->
-          <div style="position:absolute;left:-5000px" aria-hidden="true">
-            <input type="text" name="b_8bde15c3be445ba4466406eab_276e094dfc" tabindex="-1" value="" />
-          </div>
-
-          <button type="submit" class="btn-submit"><span class="zh" data-simplified="出发！" data-traditional="出發！">出发！</span>Let's Go</button>
-        </form>
-
-        <!-- Invisible iframe so Mailchimp POST doesn't navigate away -->
-        <iframe name="mc_iframe" style="display:none" title="mc_iframe"></iframe>
+            <button type="submit" class="btn-submit"><span class="zh" data-simplified="出发！" data-traditional="出發！">出发！</span>Let's Go</button>
+          </form>
+        </div>
       </div>
 
       <!-- Success panel (shown after submit) -->
@@ -533,7 +515,7 @@
       const overlay = document.getElementById('overlay');
       overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
-      setTimeout(() => document.getElementById('mce-EMAIL').focus(), 60);
+      setTimeout(() => document.getElementById('ml-email').focus(), 60);
     }
 
     function closeModal() {
@@ -549,15 +531,18 @@
       if (e.key === 'Escape') closeModal();
     });
 
-    /* ── Form submit ── */
-    function handleSubmit(e) {
-      // Form submits into hidden iframe (no page navigation).
-      // Show success state after a short delay.
-      setTimeout(() => {
+    /* ── Form submit → MailerLite via fetch ── */
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('waitlistForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const form = e.target;
+        try {
+          await fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' });
+        } catch (_) {}
         document.getElementById('formPanel').style.display = 'none';
         document.getElementById('successPanel').style.display = 'block';
-      }, 350);
-    }
+      });
+    });
   </script>
 
 </body>
