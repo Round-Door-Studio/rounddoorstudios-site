@@ -131,11 +131,12 @@
     }
 
     .product-blurb {
-      max-width: 720px;
-      font-size: 0.97rem;
+      width: 100%;
+      font-size: 1rem;
       line-height: 1.8;
       color: var(--muted);
       margin-bottom: 2rem;
+      text-align: justify;
     }
 
     .launching-soon {
@@ -305,7 +306,7 @@
       align-items: center;
       gap: 2.5rem;
       margin-top: 3.5rem;
-      max-width: 720px;
+      width: 100%;
       text-align: left;
     }
 
@@ -345,6 +346,7 @@
       font-size: 0.88rem;
       line-height: 1.7;
       color: var(--muted);
+      text-align: justify;
     }
 
     /* ─── Footer ────────────────────────────────────────── */
@@ -445,106 +447,6 @@
 
   </div><!-- /container -->
 
-  <!-- ── Font Test (temporary) ── -->
-  <div style="display: none; margin-top: 4rem; width: 100%; max-width: 720px; text-align: left; border-top: 1px solid var(--border); padding-top: 2rem;">
-    <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.5rem;">Simplified Font Test — 为双语家庭而生的故事</p>
-    <p style="font-family: 'Ma Shan Zheng', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Ma Shan Zheng</span></p>
-    <p style="font-family: 'ZCOOL XiaoWei', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">ZCOOL XiaoWei</span></p>
-    <p style="font-family: 'ZCOOL QingKe HuangYou', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">ZCOOL QingKe HuangYou</span></p>
-    <p style="font-family: 'Noto Serif SC', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">为双语家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Noto Serif SC</span></p>
-
-    <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 1.5rem;">Traditional Font Test — 為雙語家庭而生的故事</p>
-    <p style="font-family: 'Noto Serif TC', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Noto Serif TC</span></p>
-    <p style="font-family: 'Noto Sans TC', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Noto Sans TC</span></p>
-    <p style="font-family: 'LXGW WenKai TC', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">LXGW WenKai TC</span></p>
-    <p style="font-family: 'Zen Old Mincho', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">Zen Old Mincho</span></p>
-    <p style="font-family: 'ZCOOL XiaoWei', serif; font-size: 1.4rem; margin-bottom: 1rem; color: var(--text);">為雙語家庭而生的故事 <span style="font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-family: Georgia, serif;">ZCOOL XiaoWei (if supported)</span></p>
-
-    <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 1.5rem;">Background Texture Test</p>
-
-    <!-- Option A: Lantern / Scripture Paper -->
-    <div style="
-      margin-bottom: 1.5rem;
-      border-radius: 6px;
-      overflow: hidden;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-    ">
-      <div style="
-        padding: 2.5rem;
-        background-color: #EEE0A8;
-        background-image:
-          url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22400%22 height=%22400%22 filter=%22url(%23n)%22 opacity=%220.07%22/%3E%3C/svg%3E'),
-          radial-gradient(ellipse at 30% 20%, rgba(255,240,180,0.4) 0%, transparent 60%),
-          radial-gradient(ellipse at 70% 80%, rgba(200,160,80,0.15) 0%, transparent 50%),
-          repeating-linear-gradient(0deg, transparent, transparent 28px, rgba(160,120,60,0.04) 29px);
-      ">
-        <p style="font-family: 'Stropica', Georgia, serif; font-size: 1.5rem; color: #3D2B1F; margin-bottom: 0.5rem;">Round Door Studios</p>
-        <p style="font-family: 'Ma Shan Zheng', serif; font-size: 1rem; color: #8B7355;">为双语家庭而生的故事</p>
-        <p style="font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: #8B7355; margin-top: 1rem; opacity: 0.7;">Option A — Lantern / Scripture Paper</p>
-      </div>
-    </div>
-
-    <!-- Option B: Homemade Paper -->
-    <div style="
-      margin-bottom: 1.5rem;
-      border-radius: 6px;
-      overflow: hidden;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-    ">
-      <div style="
-        padding: 2.5rem;
-        background-color: #EDE4D4;
-        background-image:
-          url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22turbulence%22 baseFrequency=%220.4%22 numOctaves=%225%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22400%22 height=%22400%22 filter=%22url(%23n)%22 opacity=%220.22%22/%3E%3C/svg%3E'),
-          url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Cfilter id=%22f%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%221.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22200%22 height=%22200%22 filter=%22url(%23f)%22 opacity=%220.12%22/%3E%3C/svg%3E'),
-          radial-gradient(ellipse at 20% 50%, rgba(200,180,150,0.6) 0%, transparent 50%),
-          radial-gradient(ellipse at 80% 30%, rgba(160,140,110,0.35) 0%, transparent 40%),
-          radial-gradient(ellipse at 50% 90%, rgba(140,120,90,0.25) 0%, transparent 40%),
-          radial-gradient(ellipse at 60% 60%, rgba(180,160,130,0.2) 0%, transparent 35%);
-      ">
-        <p style="font-family: 'Stropica', Georgia, serif; font-size: 1.5rem; color: #3D2B1F; margin-bottom: 0.5rem;">Round Door Studios</p>
-        <p style="font-family: 'Ma Shan Zheng', serif; font-size: 1rem; color: #8B7355;">为双语家庭而生的故事</p>
-        <p style="font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: #8B7355; margin-top: 1rem; opacity: 0.7;">Option B — Homemade Paper</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── SVG Logo Test (temporary) ── -->
-  <div style="display: none; margin-top: 3rem; width: 100%; max-width: 720px; text-align: left; border-top: 1px solid var(--border); padding-top: 2rem; padding-bottom: 2rem;">
-    <p style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.5rem;">SVG Logo Test</p>
-    <div style="display: flex; justify-content: space-evenly; align-items: flex-end; flex-wrap: nowrap;">
-      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
-        <img src="ICONS/FULLDOOR.svg" width="120" height="120"
-             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
-             alt="Full Door" />
-        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Full Door</span>
-      </div>
-      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
-        <img src="ICONS/DOORCHARACTER.svg" width="120" height="120"
-             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
-             alt="Door Character" />
-        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Door Character</span>
-      </div>
-      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
-        <img src="ICONS/SIMPLE.svg" width="120" height="120"
-             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
-             alt="Simple" />
-        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Simple</span>
-      </div>
-      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
-        <img src="ICONS/FULLDOORSHADE.svg" width="120" height="120"
-             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
-             alt="Full Door Shade" />
-        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Full Door Shade</span>
-      </div>
-      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
-        <img src="ICONS/FULLDOORSHADEGRADIENT.svg" width="120" height="120"
-             style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
-             alt="Full Door Shade Gradient" />
-        <span style="font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Shade + Gradient</span>
-      </div>
-    </div>
-  </div>
 
   <footer class="site-footer">
     <p>&copy; 2026 Round Door Studios. All rights reserved.</p>
