@@ -6,20 +6,31 @@
   <title>Round Door Studios</title>
   <meta name="description" content="Round Door Studios — coming soon. Join the waitlist for early access." />
 
+  <link rel="icon" type="image/svg+xml" href="ICONS/FULLDOORSHADEGRADIENT.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
   <style>
+    /* ─── Fonts ──────────────────────────────────────────── */
+    @font-face {
+      font-family: 'Stropica';
+      src: url('fonts/stropica/StropicaDEMO.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
     /* ─── Reset ─────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     /* ─── Tokens ─────────────────────────────────────────── */
     :root {
-      --bg:        #F5F0E8;
-      --surface:   #FAF7F2;
-      --border:    #DDD0BB;
-      --text:      #3D2B1F;
-      --muted:     #8B7355;
-      --accent:    #C4694F;
-      --accent-dk: #A8513A;
-      --shadow:    rgba(196, 105, 79, 0.22);
+      --bg:          #F1EAEA;
+      --surface:     #F8F2F1;
+      --border:      #DBC4C2;
+      --text:        #36202A;
+      --muted:       #8C6B73;
+      --accent:      #9B4761;
+      --accent-dk:   #7B324A;
+      --shadow:      rgba(155, 71, 97, 0.22);
+      --locked-bg:   #ECDDDC;
     }
 
     /* ─── Base ───────────────────────────────────────────── */
@@ -29,50 +40,42 @@
 
     body {
       font-family: 'Georgia', 'Times New Roman', serif;
-      background: var(--bg);
+      background-color: #E5D5D2;
+      background-image:
+        url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22turbulence%22 baseFrequency=%220.4%22 numOctaves=%225%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22400%22 height=%22400%22 filter=%22url(%23n)%22 opacity=%220.06%22/%3E%3C/svg%3E'),
+        url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Cfilter id=%22f%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%221.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22200%22 height=%22200%22 filter=%22url(%23f)%22 opacity=%220.04%22/%3E%3C/svg%3E'),
+        radial-gradient(ellipse at 20% 50%, rgba(219,196,194,0.35) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 30%, rgba(155,71,97,0.07) 0%, transparent 40%),
+        radial-gradient(ellipse at 50% 90%, rgba(184,153,153,0.10) 0%, transparent 40%);
       color: var(--text);
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100dvh;
-      padding: 2.5rem 1.5rem;
+      padding: 5rem 1.5rem 2.5rem;
       text-align: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     /* ─── Logo ───────────────────────────────────────────── */
     .logo {
       width: 140px;
       height: 140px;
-      border-radius: 50%;
-      background: var(--accent);
-      display: flex;
-      align-items: center;
-      justify-content: center;
       margin-bottom: 2rem;
-      box-shadow: 0 8px 32px var(--shadow);
-    }
-
-    .logo-ring {
-      width: 104px;
-      height: 104px;
-      border-radius: 50%;
-      border: 2.5px solid rgba(245, 240, 232, 0.55);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .logo-initials {
-      color: #F5F0E8;
-      font-size: 1.6rem;
-      font-weight: 700;
-      letter-spacing: 0.06em;
     }
 
     /* ─── Heading ────────────────────────────────────────── */
     h1 {
-      font-size: clamp(2rem, 6vw, 3.5rem);
+      font-family: 'Stropica', 'Georgia', serif;
+      font-size: clamp(2.5rem, 7vw, 4.5rem);
       font-weight: 400;
       letter-spacing: 0.02em;
       line-height: 1.15;
@@ -84,18 +87,54 @@
       letter-spacing: 0.14em;
       text-transform: uppercase;
       color: var(--muted);
-      margin-bottom: 3rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .tagline-zh {
+      font-family: 'Ma Shan Zheng', serif;
+      font-size: 1rem;
+      line-height: 1.8;
+      height: 1.8rem;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      margin-bottom: 2rem;
+      opacity: 0.75;
+      overflow: hidden;
+    }
+
+    .zh {
+      font-family: 'Ma Shan Zheng', serif;
+      font-size: 1.2em;
+      line-height: 1;
+      vertical-align: middle;
+    }
+
+    .product-blurb {
+      width: 100%;
+      font-size: 1rem;
+      line-height: 1.8;
+      color: var(--muted);
+      margin-bottom: 2rem;
+      text-align: justify;
+    }
+
+    .launching-soon {
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
     }
 
     /* ─── CTA Button ─────────────────────────────────────── */
     .btn-primary {
       display: inline-block;
       background: var(--accent);
-      color: #F5F0E8;
+      color: #F1EAEA;
       border: none;
       padding: 0.95rem 2.8rem;
-      font-size: 0.9rem;
-      font-family: inherit;
+      font-size: 1.1rem;
+      font-family: 'Stropica', 'Georgia', serif;
       font-weight: 400;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -112,7 +151,7 @@
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(40, 25, 15, 0.78);
+      background: rgba(54, 32, 42, 0.82);
       backdrop-filter: blur(3px);
       -webkit-backdrop-filter: blur(3px);
       z-index: 200;
@@ -180,8 +219,7 @@
       margin-bottom: 0.4rem;
     }
 
-    .field input[type="email"],
-    .field input[type="text"] {
+    .field input[type="email"] {
       width: 100%;
       padding: 0.78rem 1rem;
       border: 1.5px solid var(--border);
@@ -203,11 +241,11 @@
       width: 100%;
       margin-top: 0.4rem;
       background: var(--accent);
-      color: #F5F0E8;
+      color: #F1EAEA;
       border: none;
       padding: 0.9rem;
       font-size: 0.9rem;
-      font-family: inherit;
+      font-family: 'Stropica', 'Georgia', serif;
       letter-spacing: 0.09em;
       text-transform: uppercase;
       cursor: pointer;
@@ -224,7 +262,7 @@
       width: 56px;
       height: 56px;
       border-radius: 50%;
-      background: #EDE3D8;
+      background: var(--locked-bg);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -240,30 +278,157 @@
 
     .success p { font-size: 0.9rem; color: var(--muted); line-height: 1.6; }
 
+    /* ─── Founders ──────────────────────────────────────── */
+    .founders {
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+      margin-top: 3.5rem;
+      width: 100%;
+      text-align: left;
+    }
+
+    .founder-photo {
+      flex-shrink: 0;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid var(--border);
+      box-shadow: 0 4px 16px var(--shadow);
+    }
+
+    .founder-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+    }
+
+    .founder-bio h2 {
+      font-family: 'Stropica', 'Georgia', serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.2rem;
+    }
+
+    .founder-names {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 0.85rem;
+    }
+
+    .founder-bio p:last-child {
+      font-size: 0.88rem;
+      line-height: 1.7;
+      color: var(--muted);
+      text-align: justify;
+    }
+
+    /* ─── Footer ────────────────────────────────────────── */
+    .site-footer {
+      margin-top: 5rem;
+      padding-bottom: 3rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      opacity: 0.6;
+    }
+
+    /* ─── Script Toggle ─────────────────────────────────── */
+    .script-toggle {
+      position: fixed;
+      top: 1.25rem;
+      left: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      z-index: 100;
+    }
+
+    .script-btn {
+      background: none;
+      border: none;
+      font-family: 'Ma Shan Zheng', serif;
+      font-size: 1.1rem;
+      color: var(--muted);
+      cursor: pointer;
+      padding: 0.15rem 0.3rem;
+      opacity: 0.5;
+      transition: color 0.2s, opacity 0.2s;
+    }
+
+    .script-btn.active {
+      color: var(--text);
+      opacity: 1;
+    }
+
+    .script-divider {
+      color: var(--border);
+      font-size: 0.75rem;
+      font-family: Georgia, serif;
+    }
+
     /* ─── Responsive ─────────────────────────────────────── */
     @media (max-width: 420px) {
       .logo       { width: 112px; height: 112px; }
       .logo-ring  { width: 82px;  height: 82px;  }
       .modal      { padding: 2rem 1.5rem 1.75rem; }
+      .founders   { flex-direction: column; text-align: center; }
     }
   </style>
 </head>
 
 <body>
 
+  <!-- ── Script Toggle ── -->
+  <div class="script-toggle">
+    <button class="script-btn active" id="btn-simplified" onclick="setScript('simplified')">简</button>
+    <span class="script-divider">|</span>
+    <button class="script-btn" id="btn-traditional" onclick="setScript('traditional')">繁</button>
+  </div>
+
+  <div class="container">
+
   <!-- ── Logo ── -->
   <div class="logo" aria-hidden="true">
-    <div class="logo-ring">
-      <span class="logo-initials">RDS</span>
-    </div>
+    <img src="ICONS/FULLDOORSHADEGRADIENT.svg" width="140" height="140"
+         style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
+         alt="Round Door Studios logo" />
   </div>
 
   <!-- ── Hero ── -->
-  <h1>Round Door Studios</h1>
-  <p class="tagline">Coming Soon</p>
+  <h1>Round Door Studio</h1>
+  <p class="tagline">Mandarin stories for the modern bilingual family</p>
+  <p class="tagline-zh" data-simplified="为双语家庭而生的故事" data-traditional="為雙語家庭而生的故事">为双语家庭而生的故事</p>
+
+  <!-- ── Product blurb ── -->
+  <p class="product-blurb">We bring Chinese folklore, fables, and culture to life through audio stories designed for children growing up between two worlds. Heritage shouldn't feel like homework, it should feel like an adventure worth sharing.</p>
 
   <!-- ── CTA ── -->
+  <p class="launching-soon">Launching soon! Be the <span class="zh" data-simplified="第一" data-traditional="第一">第一</span> to know.</p>
   <button class="btn-primary" onclick="openModal()">Join the Waitlist</button>
+
+  <!-- ── Founders ── -->
+  <section class="founders">
+    <div class="founder-photo">
+      <img src="founders2.jpg" alt="Lanssie and Catherine, founders of Round Door Studios" />
+    </div>
+    <div class="founder-bio">
+      <h2>About Us</h2>
+      <p class="founder-names"><span class="zh" data-simplified="嘿!" data-traditional="嘿!">嘿!</span> We're Lanssie &amp; Catherine</p>
+      <p>Two Asian American moms (with Chinese and Taiwanese roots) asking the same question: how do we raise kids who feel at home in their heritage and their American life? Round Door Studio is our answer. Stories for every family that wants their kids to grow up knowing the myths, the culture, and the language that makes them who they are.</p>
+    </div>
+  </section>
+
+  </div><!-- /container -->
+
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Round Door Studios. All rights reserved.</p>
+  </footer>
 
 
   <!-- ═══════════════════════════════════════════════════════
@@ -278,45 +443,23 @@
       <!-- Form panel -->
       <div id="formPanel">
         <h2 id="modalTitle">Get Early Access</h2>
-        <p class="sub">Be the first to hear from us. Drop your email and we'll reach out when we're ready.</p>
+        <p class="sub">Be the first to hear from us. Drop your email and we'll reach out when we have good news to share!</p>
 
-        <!--
-          ╔══════════════════════════════════════════════════════╗
-          ║  MAILCHIMP SETUP — replace the three values below   ║
-          ║                                                      ║
-          ║  1. Go to Mailchimp → Audience → Signup forms       ║
-          ║  2. Choose "Embedded forms"                          ║
-          ║  3. Copy the <form action="..."> URL                 ║
-          ║  4. Paste it as MAILCHIMP_ACTION_URL below           ║
-          ║  5. Also copy the hidden `u` and `id` field values   ║
-          ╚══════════════════════════════════════════════════════╝
-        -->
         <form id="waitlistForm"
-              action="https://rounddoorstudio.us6.list-manage.com/subscribe/post?u=8bde15c3be445ba4466406eab&id=276e094dfc&f_id=00cfcbe1f0"
-              method="post"
-              target="mc_iframe"
-              onsubmit="handleSubmit(event)">
+              action="https://assets.mailerlite.com/jsonp/2318264/forms/186598057362589116/subscribe"
+              method="post">
 
-          <div class="field">
-            <label for="mce-EMAIL">Email Address</label>
-            <input type="email" id="mce-EMAIL" name="EMAIL"
-                   placeholder="you@example.com" autocomplete="email" required />
-          </div>
+            <div class="field">
+              <label for="ml-email">Email Address</label>
+              <input type="email" id="ml-email" aria-label="email" aria-required="true"
+                     name="fields[email]" placeholder="you@example.com" autocomplete="email" required />
+            </div>
 
-          <!-- Hidden Mailchimp fields -->
-          <input type="hidden" name="u"  value="8bde15c3be445ba4466406eab" />
-          <input type="hidden" name="id" value="276e094dfc" />
+            <input type="hidden" name="ml-submit" value="1">
+            <input type="hidden" name="anticsrf" value="true">
 
-          <!-- Anti-bot honeypot — DO NOT REMOVE -->
-          <div style="position:absolute;left:-5000px" aria-hidden="true">
-            <input type="text" name="b_8bde15c3be445ba4466406eab_276e094dfc" tabindex="-1" value="" />
-          </div>
-
-          <button type="submit" class="btn-submit">Get Early Access →</button>
+            <button type="submit" class="btn-submit"><span class="zh" data-simplified="出发！" data-traditional="出發！">出发！</span>Let's Go</button>
         </form>
-
-        <!-- Invisible iframe so Mailchimp POST doesn't navigate away -->
-        <iframe name="mc_iframe" style="display:none" title="mc_iframe"></iframe>
       </div>
 
       <!-- Success panel (shown after submit) -->
@@ -330,12 +473,23 @@
 
 
   <script>
+    /* ── Script toggle ── */
+    function setScript(script) {
+      const zhFont = script === 'simplified' ? "'Ma Shan Zheng', serif" : "'LXGW WenKai TC', serif";
+      document.querySelectorAll('[data-simplified]').forEach(el => {
+        el.textContent = el.dataset[script];
+        el.style.fontFamily = zhFont;
+      });
+      document.getElementById('btn-simplified').classList.toggle('active', script === 'simplified');
+      document.getElementById('btn-traditional').classList.toggle('active', script === 'traditional');
+    }
+
     /* ── Modal open/close ── */
     function openModal() {
       const overlay = document.getElementById('overlay');
       overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
-      setTimeout(() => document.getElementById('mce-EMAIL').focus(), 60);
+      setTimeout(() => document.getElementById('ml-email').focus(), 60);
     }
 
     function closeModal() {
@@ -351,15 +505,18 @@
       if (e.key === 'Escape') closeModal();
     });
 
-    /* ── Form submit ── */
-    function handleSubmit(e) {
-      // Form submits into hidden iframe (no page navigation).
-      // Show success state after a short delay.
-      setTimeout(() => {
+    /* ── Form submit → MailerLite via fetch ── */
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('waitlistForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const form = e.target;
+        try {
+          await fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' });
+        } catch (_) {}
         document.getElementById('formPanel').style.display = 'none';
         document.getElementById('successPanel').style.display = 'block';
-      }, 350);
-    }
+      });
+    });
   </script>
 
 </body>
