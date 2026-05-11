@@ -327,6 +327,27 @@
       text-align: justify;
     }
 
+    /* ─── Social Links ──────────────────────────────────── */
+    .social-links {
+      position: fixed;
+      top: 1.25rem;
+      right: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      z-index: 100;
+    }
+
+    .social-link {
+      display: flex;
+      opacity: 0.5;
+      transition: opacity 0.2s;
+    }
+
+    .social-link:hover {
+      opacity: 1;
+    }
+
     /* ─── Footer ────────────────────────────────────────── */
     .site-footer {
       margin-top: 5rem;
@@ -382,6 +403,16 @@
 </head>
 
 <body>
+
+  <!-- ── Social Links ── -->
+  <div class="social-links">
+    <a class="social-link" href="https://instagram.com/therounddoorpodcast" target="_blank" rel="noopener" aria-label="Instagram">
+      <img src="https://cdn.simpleicons.org/instagram/9B4761" width="22" height="22" alt="Instagram" />
+    </a>
+    <a class="social-link" href="https://tiktok.com/@rounddoorstudio" target="_blank" rel="noopener" aria-label="TikTok">
+      <img src="https://cdn.simpleicons.org/tiktok/9B4761" width="22" height="22" alt="TikTok" />
+    </a>
+  </div>
 
   <!-- ── Script Toggle ── -->
   <div class="script-toggle">
