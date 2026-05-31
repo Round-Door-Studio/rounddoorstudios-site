@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Frog at the Bottom of the Well</title>
+<style>
+/* ── Fonts ── */
+@font-face {
+    font-family: 'Bpmf Huninn';
+    src: url('BpmfHuninn-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bpmf HuninnAlt';
+    src: url('BpmfHuninn-Alt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hanzi Pinyin Font';
+    src: url('Hanzi-Pinyin-Font.top.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ── Reset / base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: Arial, 'Microsoft YaHei', sans-serif;
+    background: #eef1f5;
+    padding: 24px 20px 48px;
+    color: #222;
+}
+
+/* ── Title block ── */
+.title-block {
+    text-align: center;
+    margin-bottom: 28px;
+    padding: 20px 24px 16px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.12);
+}
+.title-trad {
+    font-family: 'Bpmf Huninn', serif;
+    font-size: 30px;
+    line-height: 3;
+    display: block;
+}
+.title-simp {
+    font-family: 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC',
+                 'Source Han Sans SC', 'Hiragino Sans GB', sans-serif;
+    font-size: 24px;
+    line-height: 1.6;
+    display: block;
+}
+.title-en {
+    font-style: italic;
+    font-size: 20px;
+    display: block;
+    margin-top: 6px;
+    color: #444;
+}
+
+/* ── Table ── */
+table.script-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.12);
+    overflow: hidden;
+    table-layout: fixed;
+}
+table.script-table col.col-trad { width: 35%; }
+table.script-table col.col-simp { width: 35%; }
+table.script-table col.col-en   { width: 30%; }
+
+table.script-table thead th {
+    background: #2E5C8A;
+    color: white;
+    padding: 10px 14px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .3px;
+}
+table.script-table tbody tr:nth-child(even) { background: #f4f7fb; }
+table.script-table tbody tr:hover           { background: #e8eef6; }
+table.script-table tbody td {
+    padding: 10px 14px;
+    vertical-align: top;
+    border: 1px solid #dde4ee;
+}
+
+/* ── Chinese text ── */
+.zh-trad {
+    font-family: 'Bpmf Huninn', serif;
+    font-size: 26px;
+    line-height: 3.0;
+    display: inline;
+}
+/* Alt-font segment: uses the cmap-redirected sibling for polyphonic chars */
+.zh-trad-alt {
+    font-family: 'Bpmf HuninnAlt', serif;
+    font-size: 26px;
+    line-height: 3.0;
+    display: inline;
+}
+/* Simplified column renders pinyin via <ruby><rt>...</rt></ruby> sourced from
+   the per-line pinyin field, NOT from Hanzi-Pinyin-Font's baked-in overlay.
+   Reason: Hanzi-Pinyin-Font has no GSUB alternates - it ships exactly one
+   pinyin reading per character, so polyphonic compounds (地方 = dì fāng, 慢慢地
+   = màn màn dì in Cat's convention, 好奇 = hào qí, 数一数 = shǔ yī shǔ,
+   睡觉 = shuì jiào, 睡着 = shuì zháo, etc.) all render with the wrong reading.
+   Ruby annotation lets every occurrence carry the correct pinyin. */
+.zh-simp {
+    font-family: 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC',
+                 'Source Han Sans SC', 'Hiragino Sans GB', sans-serif;
+    font-size: 26px;
+    line-height: 3.0;
+    display: inline;
+}
+.zh-simp ruby {
+    ruby-align: center;
+    margin: 0 1px;
+}
+.zh-simp rt {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    color: #444;
+    /* Push the ruby text a touch closer to the base char so the row height
+       stays balanced against the Traditional zhuyin column. */
+    transform: translateY(2px);
+}
+
+/* ── English ── */
+.en-text {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* ── OpenType polyphonic overrides (applied on top of zh-trad / zh-trad-alt) ── */
+/* Use these when the alt font is not available and a direct feature toggle works. */
+.ss01 { font-feature-settings: "ss01" 1; }
+.ss02 { font-feature-settings: "ss02" 1; }
+.ss03 { font-feature-settings: "ss03" 1; }
+.ss04 { font-feature-settings: "ss04" 1; }
+.ss05 { font-feature-settings: "ss05" 1; }
+.ss10 { font-feature-settings: "ss10" 1; }
+
+</style>
+</head>
+<body>
+<div class="title-block">
+  <span class="title-trad">井底之蛙</span>
+  <span class="title-simp">井底之蛙</span>
+  <span class="title-en">The Frog at the Bottom of the Well</span>
+</div>
+
+<table class="script-table">
+  <colgroup>
+    <col class="col-trad">
+    <col class="col-simp">
+    <col class="col-en">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>繁體中文 Traditional / ㄓㄨˋㄧㄣ Zhuyin</th>
+      <th>简体中文 Simplified / 拼音 Pinyin</th>
+      <th>English</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">很久以前，在</span><span class="zh-trad ss01">一</span><span class="zh-trad">座安靜的小山腳下，有</span><span class="zh-trad ss02">一</span><span class="zh-trad">口被人遺忘的廢棄水井。井口</span><span class="zh-trad ss01">長</span><span class="zh-trad">滿了綠綠的青苔，井底還積了</span><span class="zh-trad ss02">一</span><span class="zh-trad">些清涼的水。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>很<rt>hěn</rt></ruby><ruby>久<rt>jiǔ</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>前<rt>qián</rt></ruby>，<ruby>在<rt>zài</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>座<rt>zuò</rt></ruby><ruby>安<rt>ān</rt></ruby><ruby>静<rt>jìng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>山<rt>shān</rt></ruby><ruby>脚<rt>jiǎo</rt></ruby><ruby>下<rt>xià</rt></ruby>，<ruby>有<rt>yǒu</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>被<rt>bèi</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>遗<rt>yí</rt></ruby><ruby>忘<rt>wàng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>废<rt>fèi</rt></ruby><ruby>弃<rt>qì</rt></ruby><ruby>水<rt>shuǐ</rt></ruby><ruby>井<rt>jǐng</rt></ruby>。<ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>长<rt>zhǎng</rt></ruby><ruby>满<rt>mǎn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>绿<rt>lǜ</rt></ruby><ruby>绿<rt>lǜ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>苔<rt>tái</rt></ruby>，<ruby>井<rt>jǐng</rt></ruby><ruby>底<rt>dǐ</rt></ruby><ruby>还<rt>hái</rt></ruby><ruby>积<rt>jī</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>些<rt>xiē</rt></ruby><ruby>清<rt>qīng</rt></ruby><ruby>凉<rt>liáng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>水<rt>shuǐ</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">A long time ago, at the foot of a quiet little mountain, there was a forgotten, abandoned water well. The mouth of the well was covered with bright green moss, and at the bottom there was a small pool of cool water.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">這口井雖然又老又舊，可是有</span><span class="zh-trad ss01">一</span><span class="zh-trad">位小小的住戶，把它當成全世界最棒的家。他是</span><span class="zh-trad ss02">一</span><span class="zh-trad">隻綠油油的小青蛙，名</span><span class="zh-trad ss01">字</span><span class="zh-trad">叫呱呱。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>这<rt>zhè</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>虽<rt>suī</rt></ruby><ruby>然<rt>rán</rt></ruby><ruby>又<rt>yòu</rt></ruby><ruby>老<rt>lǎo</rt></ruby><ruby>又<rt>yòu</rt></ruby><ruby>旧<rt>jiù</rt></ruby>，<ruby>可<rt>kě</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>位<rt>wèi</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>住<rt>zhù</rt></ruby><ruby>户<rt>hù</rt></ruby>，<ruby>把<rt>bǎ</rt></ruby><ruby>它<rt>tā</rt></ruby><ruby>当<rt>dang</rt></ruby><ruby>成<rt>chéng</rt></ruby><ruby>全<rt>quán</rt></ruby><ruby>世<rt>shì</rt></ruby><ruby>界<rt>jiè</rt></ruby><ruby>最<rt>zuì</rt></ruby><ruby>棒<rt>bàng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>家<rt>jiā</rt></ruby>。<ruby>他<rt>tā</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>只<rt>zhī</rt></ruby><ruby>绿<rt>lǜ</rt></ruby><ruby>油<rt>yóu</rt></ruby><ruby>油<rt>yóu</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>蛙<rt>wā</rt></ruby>，<ruby>名<rt>míng</rt></ruby><ruby>字<rt>zi</rt></ruby><ruby>叫<rt>jiào</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">Though the well was old and worn, it had one tiny resident who was a tiny bright green frog, and his name was Gua Gua.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱每天早上</span><span class="zh-trad ss02">一</span><span class="zh-trad">睜開眼睛，就會先伸</span><span class="zh-trad ss01">個</span><span class="zh-trad">大大的懶腰，然後跳進井底的小水窪裡洗洗臉，再爬上井壁的石頭，抬頭看看天空。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>每<rt>měi</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>早<rt>zǎo</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>睁<rt>zhēng</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>眼<rt>yǎn</rt></ruby><ruby>睛<rt>jīng</rt></ruby>，<ruby>就<rt>jiù</rt></ruby><ruby>会<rt>huì</rt></ruby><ruby>先<rt>xiān</rt></ruby><ruby>伸<rt>shēn</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>懒<rt>lǎn</rt></ruby><ruby>腰<rt>yāo</rt></ruby>，<ruby>然<rt>rán</rt></ruby><ruby>后<rt>hòu</rt></ruby><ruby>跳<rt>tiào</rt></ruby><ruby>进<rt>jìn</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>底<rt>dǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>水<rt>shuǐ</rt></ruby><ruby>洼<rt>wā</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>洗<rt>xǐ</rt></ruby><ruby>洗<rt>xǐ</rt></ruby><ruby>脸<rt>liǎn</rt></ruby>，<ruby>再<rt>zài</rt></ruby><ruby>爬<rt>pá</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>壁<rt>bì</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>石<rt>shí</rt></ruby><ruby>头<rt>tóu</rt></ruby>，<ruby>抬<rt>tái</rt></ruby><ruby>头<rt>tóu</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">Every morning when Gua Gua opened his eyes, he would first stretch, let out a big yawn, then hop into the wee puddle at the bottom of the well to wash his face. Then he would climb up the stones on the well wall to look up at the sky.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">對呱呱來說，天空就是井口那</span><span class="zh-trad ss02">一</span><span class="zh-trad">圈，圓圓的、藍藍的，有時候有白雲飄過，有時候有麻雀飛過。這就是他所知道的整</span><span class="zh-trad ss01">個</span><span class="zh-trad">世界。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>对<rt>duì</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>说<rt>shuō</rt></ruby>，<ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby><ruby>就<rt>jiù</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>圈<rt>quān</rt></ruby>，<ruby>圆<rt>yuán</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>的<rt>de</rt></ruby>、<ruby>蓝<rt>lán</rt></ruby><ruby>蓝<rt>lán</rt></ruby><ruby>的<rt>de</rt></ruby>，<ruby>有<rt>yǒu</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>白<rt>bái</rt></ruby><ruby>云<rt>yún</rt></ruby><ruby>飘<rt>piāo</rt></ruby><ruby>过<rt>guò</rt></ruby>，<ruby>有<rt>yǒu</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>麻<rt>má</rt></ruby><ruby>雀<rt>què</rt></ruby><ruby>飞<rt>fēi</rt></ruby><ruby>过<rt>guò</rt></ruby>。<ruby>这<rt>zhè</rt></ruby><ruby>就<rt>jiù</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>他<rt>tā</rt></ruby><ruby>所<rt>suǒ</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>整<rt>zhěng</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>世<rt>shì</rt></ruby><ruby>界<rt>jiè</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">To Gua Gua, the sky was just that round circle at the mouth of the well, round and blue, sometimes with white clouds drifting past, sometimes with a sparrow flying by. This was the whole world he knew.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">吃飯的時候，呱呱會吃</span><span class="zh-trad ss02">一</span><span class="zh-trad">些掉進井裡的小蟲</span><span class="zh-trad ss01">子</span><span class="zh-trad">。他拍拍肚</span><span class="zh-trad ss01">子</span><span class="zh-trad">，開心</span><span class="zh-trad ss01">地</span><span class="zh-trad">說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>吃<rt>chī</rt></ruby><ruby>饭<rt>fàn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby>，<ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>会<rt>huì</rt></ruby><ruby>吃<rt>chī</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>些<rt>xiē</rt></ruby><ruby>掉<rt>diào</rt></ruby><ruby>进<rt>jìn</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>虫<rt>chóng</rt></ruby><ruby>子<rt>zi</rt></ruby>。<ruby>他<rt>tā</rt></ruby><ruby>拍<rt>pāi</rt></ruby><ruby>拍<rt>pāi</rt></ruby><ruby>肚<rt>dù</rt></ruby><ruby>子<rt>zi</rt></ruby>，<ruby>开<rt>kāi</rt></ruby><ruby>心<rt>xīn</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">At mealtimes, Gua Gua would eat the little bugs that fell into the well. He patted his tummy and said happily,</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「嗯，今天的午餐真好吃！」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>嗯<rt>èn</rt></ruby>，<ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>午<rt>wǔ</rt></ruby><ruby>餐<rt>cān</rt></ruby><ruby>真<rt>zhēn</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>吃<rt>chī</rt></ruby>！」</span></td>
+      <td class="col-en"><span class="en-text">"Mmm, today's lunch is so tasty!"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱覺</span><span class="zh-trad ss01">得</span><span class="zh-trad">自己過著神仙</span><span class="zh-trad ss01">一</span><span class="zh-trad">樣的日</span><span class="zh-trad ss01">子</span><span class="zh-trad">。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>自<rt>zì</rt></ruby><ruby>己<rt>jǐ</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>神<rt>shén</rt></ruby><ruby>仙<rt>xiān</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>样<rt>yàng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>日<rt>rì</rt></ruby><ruby>子<rt>zi</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua felt like he was living the good life.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">晚上的時候，他會躺在井壁的小</span><span class="zh-trad ss01">縫</span><span class="zh-trad">裡，看著井口那</span><span class="zh-trad ss02">一</span><span class="zh-trad">圈黑黑的天空，</span><span class="zh-trad ss01">數</span><span class="zh-trad ss02">一</span><span class="zh-trad ss01">數</span><span class="zh-trad">那幾顆閃亮的小星星：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>晚<rt>wǎn</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>会<rt>huì</rt></ruby><ruby>躺<rt>tǎng</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>壁<rt>bì</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>缝<rt>fèng</rt></ruby><ruby>里<rt>lǐ</rt></ruby>，<ruby>看<rt>kàn</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>圈<rt>quān</rt></ruby><ruby>黑<rt>hēi</rt></ruby><ruby>黑<rt>hēi</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby>，<ruby>数<rt>shǔ</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>数<rt>shǔ</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>几<rt>jǐ</rt></ruby><ruby>颗<rt>kē</rt></ruby><ruby>闪<rt>shǎn</rt></ruby><ruby>亮<rt>liàng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>星<rt>xīng</rt></ruby><ruby>星<rt>xīng</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">In the evening, he would lie down in a thin crack in the stone wall of the well, look up at that dark circle of sky at the well's mouth, and count the few bright stars:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「</span><span class="zh-trad ss02">一</span><span class="zh-trad">顆，兩顆，三顆⋯⋯」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>一<rt>yì</rt></ruby><ruby>颗<rt>kē</rt></ruby>，<ruby>两<rt>liǎng</rt></ruby><ruby>颗<rt>kē</rt></ruby>，<ruby>三<rt>sān</rt></ruby><ruby>颗<rt>kē</rt></ruby>⋯⋯」</span></td>
+      <td class="col-en"><span class="en-text">"One, two, three..."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱</span><span class="zh-trad ss01">數</span><span class="zh-trad">著</span><span class="zh-trad ss01">數</span><span class="zh-trad">著就睡</span><span class="zh-trad ss03">著</span><span class="zh-trad">了，做著甜蜜的夢。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>数<rt>shǔ</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>数<rt>shǔ</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>就<rt>jiù</rt></ruby><ruby>睡<rt>shuì</rt></ruby><ruby>着<rt>zháo</rt></ruby><ruby>了<rt>le</rt></ruby>，<ruby>做<rt>zuò</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>甜<rt>tián</rt></ruby><ruby>蜜<rt>mì</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>梦<rt>mèng</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua counted and counted, and before long he fell asleep, dreaming sweet dreams.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱在井裡住了好多年,從來沒出去過。他覺</span><span class="zh-trad ss01">得</span><span class="zh-trad">自己的小井，就是天底下最好的地方。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>住<rt>zhù</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>年<rt>nián</rt></ruby>，<ruby>从<rt>cóng</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>没<rt>méi</rt></ruby><ruby>出<rt>chū</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>过<rt>guò</rt></ruby>。<ruby>他<rt>tā</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>自<rt>zì</rt></ruby><ruby>己<rt>jǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>井<rt>jǐng</rt></ruby>，<ruby>就<rt>jiù</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>底<rt>dǐ</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>最<rt>zuì</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>地<rt>dì</rt></ruby><ruby>方<rt>fāng</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua had lived in the well for many years, and had never once been outside. He thought his little well was the best place under the sky.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">有</span><span class="zh-trad ss02">一</span><span class="zh-trad">天，呱呱正在井底打盹兒，忽然聽到井口傳來</span><span class="zh-trad ss01">一</span><span class="zh-trad">陣奇怪的聲音。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>有<rt>yǒu</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>天<rt>tiān</rt></ruby>，<ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>正<rt>zhèng</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>底<rt>dǐ</rt></ruby><ruby>打<rt>dǎ</rt></ruby><ruby>盹<rt>dùn</rt></ruby><ruby>儿<rt>ér</rt></ruby>，<ruby>忽<rt>hū</rt></ruby><ruby>然<rt>rán</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>传<rt>chuán</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>阵<rt>zhèn</rt></ruby><ruby>奇<rt>qí</rt></ruby><ruby>怪<rt>guài</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>声<rt>shēng</rt></ruby><ruby>音<rt>yīn</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">One day, while Gua Gua was dozing at the bottom of the well, he suddenly heard a strange sound coming down from the well's mouth.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱</span><span class="zh-trad ss01">一</span><span class="zh-trad">下</span><span class="zh-trad ss01">子</span><span class="zh-trad">跳起來，眼睛睜</span><span class="zh-trad ss01">得</span><span class="zh-trad">大大的說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>子<rt>zi</rt></ruby><ruby>跳<rt>tiào</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>来<rt>lái</rt></ruby>，<ruby>眼<rt>yǎn</rt></ruby><ruby>睛<rt>jīng</rt></ruby><ruby>睁<rt>zhēng</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua jumped up at once, his eyes wide open, and said:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「咦？這是什麼聲音？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>咦<rt>yí</rt></ruby>？<ruby>这<rt>zhè</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>声<rt>shēng</rt></ruby><ruby>音<rt>yīn</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Huh? What's that sound?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">那聲音越來越近，又重又慢，好像有什麼很大、很大的東西，正在靠近這口井。呱呱呆呆</span><span class="zh-trad ss01">地</span><span class="zh-trad">站在那裡，等著看看到底是什麼東西。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>那<rt>nà</rt></ruby><ruby>声<rt>shēng</rt></ruby><ruby>音<rt>yīn</rt></ruby><ruby>越<rt>yuè</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>越<rt>yuè</rt></ruby><ruby>近<rt>jìn</rt></ruby>，<ruby>又<rt>yòu</rt></ruby><ruby>重<rt>zhòng</rt></ruby><ruby>又<rt>yòu</rt></ruby><ruby>慢<rt>màn</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>大<rt>dà</rt></ruby>、<ruby>很<rt>hěn</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>东<rt>dōng</rt></ruby><ruby>西<rt>xī</rt></ruby>，<ruby>正<rt>zhèng</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>靠<rt>kào</rt></ruby><ruby>近<rt>jìn</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>井<rt>jǐng</rt></ruby>。<ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>呆<rt>dāi</rt></ruby><ruby>呆<rt>dāi</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>站<rt>zhàn</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>里<rt>lǐ</rt></ruby>，<ruby>等<rt>děng</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>底<rt>dǐ</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>东<rt>dōng</rt></ruby><ruby>西<rt>xī</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">The sound came closer and closer, heavy and slow, as if something very, very big was approaching the well. Gua Gua stood frozen, waiting to see what it was.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">哇！</span><span class="zh-trad ss02">一</span><span class="zh-trad">雙大大的眼睛從井口邊上往下看著他。呱呱整</span><span class="zh-trad ss01">個</span><span class="zh-trad">人都呆住了！</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>哇<rt>wā</rt></ruby>！<ruby>一<rt>yì</rt></ruby><ruby>双<rt>shuāng</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>眼<rt>yǎn</rt></ruby><ruby>睛<rt>jīng</rt></ruby><ruby>从<rt>cóng</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>边<rt>biān</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>往<rt>wǎng</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>他<rt>tā</rt></ruby>。<ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>整<rt>zhěng</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>呆<rt>dāi</rt></ruby><ruby>住<rt>zhù</rt></ruby><ruby>了<rt>le</rt></ruby>！</span></td>
+      <td class="col-en"><span class="en-text">Whoa! A huge pair of eyes was looking down at him over the edge of the well opening. Gua Gua froze on the spot!</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">只見</span><span class="zh-trad ss02">一</span><span class="zh-trad">隻巨大的動物在井邊低頭看著他，背上有</span><span class="zh-trad ss01">一</span><span class="zh-trad ss01">個</span><span class="zh-trad">又圓又厚的硬殼，殼上還有漂亮的格</span><span class="zh-trad ss01">子</span><span class="zh-trad">花紋。他有皺皺的脖</span><span class="zh-trad ss01">子</span><span class="zh-trad">，還有</span><span class="zh-trad ss02">一</span><span class="zh-trad">雙很溫柔的眼睛。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>只<rt>zhǐ</rt></ruby><ruby>见<rt>jiàn</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>只<rt>zhī</rt></ruby><ruby>巨<rt>jù</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>动<rt>dòng</rt></ruby><ruby>物<rt>wù</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>边<rt>biān</rt></ruby><ruby>低<rt>dī</rt></ruby><ruby>头<rt>tóu</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>他<rt>tā</rt></ruby>，<ruby>背<rt>bèi</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>又<rt>yòu</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>又<rt>yòu</rt></ruby><ruby>厚<rt>hòu</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>硬<rt>yìng</rt></ruby><ruby>壳<rt>ké</rt></ruby>，<ruby>壳<rt>ké</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>还<rt>hái</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>漂<rt>piào</rt></ruby><ruby>亮<rt>liàng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>格<rt>gé</rt></ruby><ruby>子<rt>zi</rt></ruby><ruby>花<rt>huā</rt></ruby><ruby>纹<rt>wén</rt></ruby>。<ruby>他<rt>tā</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>皱<rt>zhòu</rt></ruby><ruby>皱<rt>zhòu</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>脖<rt>bó</rt></ruby><ruby>子<rt>zi</rt></ruby>，<ruby>还<rt>hái</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>双<rt>shuāng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>温<rt>wēn</rt></ruby><ruby>柔<rt>róu</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>眼<rt>yǎn</rt></ruby><ruby>睛<rt>jīng</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">There leaning down over the well stood a huge animal. On his back was a round, thick, hard shell, with a beautiful pattern of squares. He had a wrinkled neck and a pair of very gentle eyes.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱</span><span class="zh-trad ss01">結</span><span class="zh-trad ss01">結</span><span class="zh-trad">巴巴</span><span class="zh-trad ss01">地</span><span class="zh-trad">問：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>结<rt>jiē</rt></ruby><ruby>结<rt>jiē</rt></ruby><ruby>巴<rt>bā</rt></ruby><ruby>巴<rt>bā</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>问<rt>wèn</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua asked, stammering:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「你⋯⋯你是誰啊？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>你<rt>nǐ</rt></ruby>⋯⋯<ruby>你<rt>nǐ</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>谁<rt>shéi</rt></ruby><ruby>啊<rt>a</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Y...you... who are you?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">那隻大動物低下頭，朝井裡瞧了瞧，慢慢</span><span class="zh-trad ss01">地</span><span class="zh-trad">說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>那<rt>nà</rt></ruby><ruby>只<rt>zhī</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>动<rt>dòng</rt></ruby><ruby>物<rt>wù</rt></ruby><ruby>低<rt>dī</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>头<rt>tóu</rt></ruby>，<ruby>朝<rt>cháo</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>瞧<rt>qiáo</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>瞧<rt>qiáo</rt></ruby>，<ruby>慢<rt>màn</rt></ruby><ruby>慢<rt>màn</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">The big animal lowered his head, peeked down into the well, and said slowly:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「你好呀，小朋友。我叫做老海，是</span><span class="zh-trad ss02">一</span><span class="zh-trad">隻海龜。我從很遠的地方走過來，想找</span><span class="zh-trad ss01">個</span><span class="zh-trad">地方歇歇腳。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>你<rt>nǐ</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>呀<rt>ya</rt></ruby>，<ruby>小<rt>xiǎo</rt></ruby><ruby>朋<rt>péng</rt></ruby><ruby>友<rt>yǒu</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>叫<rt>jiào</rt></ruby><ruby>做<rt>zuò</rt></ruby><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby>，<ruby>是<rt>shì</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>只<rt>zhī</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>龟<rt>guī</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>从<rt>cóng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>远<rt>yuǎn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>地<rt>dì</rt></ruby><ruby>方<rt>fāng</rt></ruby><ruby>走<rt>zǒu</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>来<rt>lái</rt></ruby>，<ruby>想<rt>xiǎng</rt></ruby><ruby>找<rt>zhǎo</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>地<rt>dì</rt></ruby><ruby>方<rt>fāng</rt></ruby><ruby>歇<rt>xiē</rt></ruby><ruby>歇<rt>xiē</rt></ruby><ruby>脚<rt>jiǎo</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"Hello there, little friend. My name is Lao Hai, and I'm a sea turtle. I've walked here from a very faraway place, and I'm looking for somewhere to rest my feet."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱從來沒聽過這</span><span class="zh-trad ss01">個</span><span class="zh-trad">名</span><span class="zh-trad ss01">字</span><span class="zh-trad">，</span><span class="zh-trad ss01">好</span><span class="zh-trad">奇</span><span class="zh-trad ss01">地</span><span class="zh-trad">問：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>从<rt>cóng</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>没<rt>méi</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>名<rt>míng</rt></ruby><ruby>字<rt>zi</rt></ruby>，<ruby>好<rt>hào</rt></ruby><ruby>奇<rt>qí</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>问<rt>wèn</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua had never heard that name before, and asked curiously:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「海⋯⋯龜？海龜是什麼呢？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>海<rt>hǎi</rt></ruby>⋯⋯<ruby>龟<rt>guī</rt></ruby>？<ruby>海<rt>hǎi</rt></ruby><ruby>龟<rt>guī</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>呢<rt>ne</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Sea... turtle? What's a sea turtle?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海笑了笑，沒有馬上回答，反而問呱呱：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>笑<rt>xiào</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>笑<rt>xiào</rt></ruby>，<ruby>没<rt>méi</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>马<rt>mǎ</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>回<rt>huí</rt></ruby><ruby>答<rt>dá</rt></ruby>，<ruby>反<rt>fǎn</rt></ruby><ruby>而<rt>ér</rt></ruby><ruby>问<rt>wèn</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai chuckled. He didn't answer right away, but instead asked Gua Gua:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「小青蛙呀，你住在這口井裡多久啦？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>小<rt>xiǎo</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>蛙<rt>wā</rt></ruby><ruby>呀<rt>ya</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>住<rt>zhù</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>久<rt>jiǔ</rt></ruby><ruby>啦<rt>la</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Little frog, how long have you lived in this well?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱挺起胸膛，得意</span><span class="zh-trad ss01">地</span><span class="zh-trad">說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>挺<rt>tǐng</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>胸<rt>xiōng</rt></ruby><ruby>膛<rt>táng</rt></ruby>，<ruby>得<rt>dé</rt></ruby><ruby>意<rt>yì</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua puffed out his chest and said proudly:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「我住了好久好久喔！這裡是我的家！我跟你說，我這</span><span class="zh-trad ss01">個</span><span class="zh-trad">家可棒了！要</span><span class="zh-trad ss01">不</span><span class="zh-trad">要我帶你參觀</span><span class="zh-trad ss01">一</span><span class="zh-trad">下？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>我<rt>wǒ</rt></ruby><ruby>住<rt>zhù</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>久<rt>jiǔ</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>久<rt>jiǔ</rt></ruby><ruby>喔<rt>wō</rt></ruby>！<ruby>这<rt>zhè</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>家<rt>jiā</rt></ruby>！<ruby>我<rt>wǒ</rt></ruby><ruby>跟<rt>gēn</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>说<rt>shuō</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>家<rt>jiā</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>棒<rt>bàng</rt></ruby><ruby>了<rt>le</rt></ruby>！<ruby>要<rt>yào</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>要<rt>yào</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>带<rt>dài</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>参<rt>cān</rt></ruby><ruby>观<rt>guān</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>下<rt>xià</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"I've lived here for a long, long time! This is my home! Let me tell you, my home is the greatest! Would you like me to give you a tour?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海眨眨眼睛，覺</span><span class="zh-trad ss01">得</span><span class="zh-trad">這隻小青蛙真可愛，就點點頭說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>眨<rt>zhǎ</rt></ruby><ruby>眨<rt>zhǎ</rt></ruby><ruby>眼<rt>yǎn</rt></ruby><ruby>睛<rt>jīng</rt></ruby>，<ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>只<rt>zhī</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>蛙<rt>wā</rt></ruby><ruby>真<rt>zhēn</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>爱<rt>ài</rt></ruby>，<ruby>就<rt>jiù</rt></ruby><ruby>点<rt>diǎn</rt></ruby><ruby>点<rt>diǎn</rt></ruby><ruby>头<rt>tóu</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai blinked, thinking what a cute little frog he was, and nodded:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「好啊，你說來聽聽。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>好<rt>hǎo</rt></ruby><ruby>啊<rt>a</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>说<rt>shuō</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>听<rt>tīng</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"All right then, tell me about it."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱開心極了，難得有客人來，他立刻興奮</span><span class="zh-trad ss01">地</span><span class="zh-trad">介紹起來。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>心<rt>xīn</rt></ruby><ruby>极<rt>jí</rt></ruby><ruby>了<rt>le</rt></ruby>，<ruby>难<rt>nán</rt></ruby><ruby>得<rt>dé</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>客<rt>kè</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>来<rt>lái</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>立<rt>lì</rt></ruby><ruby>刻<rt>kè</rt></ruby><ruby>兴<rt>xīng</rt></ruby><ruby>奋<rt>fèn</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>介<rt>jiè</rt></ruby><ruby>绍<rt>shào</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>来<rt>lái</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua was overjoyed. It was so rare to have a visitor, and he immediately started introducing things excitedly.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱興奮</span><span class="zh-trad ss01">地</span><span class="zh-trad">說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>兴<rt>xīng</rt></ruby><ruby>奋<rt>fèn</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua exclaimed:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「你看你看！我這口井裡有清清涼涼的水，渴了就可以喝</span><span class="zh-trad ss02">一</span><span class="zh-trad">口！井壁上有好多軟軟的青苔，睡</span><span class="zh-trad ss01">覺</span><span class="zh-trad">的時候躺在上面，比棉花還要舒服喔！你抬頭看看，天空圓圓的、藍藍的，多漂亮啊！晚上還有星星閃閃發光呢！」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>你<rt>nǐ</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>看<rt>kàn</rt></ruby>！<ruby>我<rt>wǒ</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>清<rt>qīng</rt></ruby><ruby>清<rt>qīng</rt></ruby><ruby>凉<rt>liáng</rt></ruby><ruby>凉<rt>liáng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>水<rt>shuǐ</rt></ruby>，<ruby>渴<rt>kě</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>就<rt>jiù</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>喝<rt>hē</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>口<rt>kǒu</rt></ruby>！<ruby>井<rt>jǐng</rt></ruby><ruby>壁<rt>bì</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>软<rt>ruǎn</rt></ruby><ruby>软<rt>ruǎn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>苔<rt>tái</rt></ruby>，<ruby>睡<rt>shuì</rt></ruby><ruby>觉<rt>jiào</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby><ruby>躺<rt>tǎng</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>面<rt>miàn</rt></ruby>，<ruby>比<rt>bǐ</rt></ruby><ruby>棉<rt>mián</rt></ruby><ruby>花<rt>huā</rt></ruby><ruby>还<rt>hái</rt></ruby><ruby>要<rt>yào</rt></ruby><ruby>舒<rt>shū</rt></ruby><ruby>服<rt>fú</rt></ruby><ruby>喔<rt>wō</rt></ruby>！<ruby>你<rt>nǐ</rt></ruby><ruby>抬<rt>tái</rt></ruby><ruby>头<rt>tóu</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>看<rt>kàn</rt></ruby>，<ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>的<rt>de</rt></ruby>、<ruby>蓝<rt>lán</rt></ruby><ruby>蓝<rt>lán</rt></ruby><ruby>的<rt>de</rt></ruby>，<ruby>多<rt>duō</rt></ruby><ruby>漂<rt>piào</rt></ruby><ruby>亮<rt>liàng</rt></ruby><ruby>啊<rt>a</rt></ruby>！<ruby>晚<rt>wǎn</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>还<rt>hái</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>星<rt>xīng</rt></ruby><ruby>星<rt>xīng</rt></ruby><ruby>闪<rt>shǎn</rt></ruby><ruby>闪<rt>shǎn</rt></ruby><ruby>发<rt>fā</rt></ruby><ruby>光<rt>guāng</rt></ruby><ruby>呢<rt>ne</rt></ruby>！」</span></td>
+      <td class="col-en"><span class="en-text">"Look, look! My well here has cool, refreshing water, so when I'm thirsty I can take a sip! The walls are covered in soft moss, and when it's time to sleep, lying on it is more comfortable than cotton! Look up: the sky is round and blue, so beautiful! And at night there are even twinkling stars!"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱越說越興奮，蹦來蹦去</span><span class="zh-trad ss01">地</span><span class="zh-trad">問：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>越<rt>yuè</rt></ruby><ruby>说<rt>shuō</rt></ruby><ruby>越<rt>yuè</rt></ruby><ruby>兴<rt>xīng</rt></ruby><ruby>奋<rt>fèn</rt></ruby>，<ruby>蹦<rt>bèng</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>蹦<rt>bèng</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>问<rt>wèn</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">The more Gua Gua talked, the more excited he got, hopping back and forth and asking:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「你說，是</span><span class="zh-trad ss01">不</span><span class="zh-trad">是天底下最棒的家？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>你<rt>nǐ</rt></ruby><ruby>说<rt>shuō</rt></ruby>，<ruby>是<rt>shì</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>底<rt>dǐ</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>最<rt>zuì</rt></ruby><ruby>棒<rt>bàng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>家<rt>jiā</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Tell me, isn't this the best home in all the world?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海聽完了，慢慢</span><span class="zh-trad ss01">地</span><span class="zh-trad">點點頭：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>完<rt>wán</rt></ruby><ruby>了<rt>le</rt></ruby>，<ruby>慢<rt>màn</rt></ruby><ruby>慢<rt>màn</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>点<rt>diǎn</rt></ruby><ruby>点<rt>diǎn</rt></ruby><ruby>头<rt>tóu</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">After Lao Hai had listened, he slowly nodded:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「嗯，這口井確實很有意思，看起來小巧又溫馨。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>嗯<rt>èn</rt></ruby>，<ruby>这<rt>zhè</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>确<rt>què</rt></ruby><ruby>实<rt>shí</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>意<rt>yì</rt></ruby><ruby>思<rt>sī</rt></ruby>，<ruby>看<rt>kàn</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>巧<rt>qiǎo</rt></ruby><ruby>又<rt>yòu</rt></ruby><ruby>温<rt>wēn</rt></ruby><ruby>馨<rt>xīn</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"Mm, this well really is interesting. It looks small and very cozy."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱聽到客人誇獎自己的家，得意</span><span class="zh-trad ss01">得</span><span class="zh-trad">不得</span><span class="zh-trad ss01">了</span><span class="zh-trad">。他熱情</span><span class="zh-trad ss01">地</span><span class="zh-trad">邀請：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>客<rt>kè</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>夸<rt>kuā</rt></ruby><ruby>奖<rt>jiǎng</rt></ruby><ruby>自<rt>zì</rt></ruby><ruby>己<rt>jǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>家<rt>jiā</rt></ruby>，<ruby>得<rt>dé</rt></ruby><ruby>意<rt>yì</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>得<rt>dé</rt></ruby><ruby>了<rt>liǎo</rt></ruby>。<ruby>他<rt>tā</rt></ruby><ruby>热<rt>rè</rt></ruby><ruby>情<rt>qíng</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>邀<rt>yāo</rt></ruby><ruby>请<rt>qǐng</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Hearing his guest praise his home, Gua Gua felt enormously proud. He warmly invited him:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「老海大哥，要</span><span class="zh-trad ss01">不</span><span class="zh-trad">要下來坐坐呀？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>哥<rt>gē</rt></ruby>，<ruby>要<rt>yào</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>要<rt>yào</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>坐<rt>zuò</rt></ruby><ruby>坐<rt>zuò</rt></ruby><ruby>呀<rt>ya</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Big Brother Lao Hai, would you like to come down and have a seat?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海看了看井口，又看了看自己又圓又厚的大殼，搖搖頭笑著說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby>，<ruby>又<rt>yòu</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>自<rt>zì</rt></ruby><ruby>己<rt>jǐ</rt></ruby><ruby>又<rt>yòu</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>又<rt>yòu</rt></ruby><ruby>厚<rt>hòu</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>壳<rt>ké</rt></ruby>，<ruby>摇<rt>yáo</rt></ruby><ruby>摇<rt>yáo</rt></ruby><ruby>头<rt>tóu</rt></ruby><ruby>笑<rt>xiào</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai looked at the well's opening, then looked at his own round, thick shell, shook his head, and said with a smile:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「謝謝你的好意，小青蛙。可是你看，我的身體這麼大，井口這麼小，我恐怕進</span><span class="zh-trad ss01">不</span><span class="zh-trad">去呢。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>谢<rt>xiè</rt></ruby><ruby>谢<rt>xiè</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>意<rt>yì</rt></ruby>，<ruby>小<rt>xiǎo</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>蛙<rt>wā</rt></ruby>。<ruby>可<rt>kě</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>看<rt>kàn</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>身<rt>shēn</rt></ruby><ruby>体<rt>tǐ</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>大<rt>dà</rt></ruby>，<ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>小<rt>xiǎo</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>恐<rt>kǒng</rt></ruby><ruby>怕<rt>pà</rt></ruby><ruby>进<rt>jìn</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>呢<rt>ne</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"Thank you for the kind invitation, little frog. But look, my body is so large and the well's opening is so small. I'm afraid I wouldn't fit."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱低下頭看了看自己的小井，又抬頭看了看老海大大的身體，這才發現確實是這樣。他有點不好意思</span><span class="zh-trad ss01">地</span><span class="zh-trad">說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>低<rt>dī</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>头<rt>tóu</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>自<rt>zì</rt></ruby><ruby>己<rt>jǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>井<rt>jǐng</rt></ruby>，<ruby>又<rt>yòu</rt></ruby><ruby>抬<rt>tái</rt></ruby><ruby>头<rt>tóu</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>身<rt>shēn</rt></ruby><ruby>体<rt>tǐ</rt></ruby>，<ruby>这<rt>zhè</rt></ruby><ruby>才<rt>cái</rt></ruby><ruby>发<rt>fā</rt></ruby><ruby>现<rt>xiàn</rt></ruby><ruby>确<rt>què</rt></ruby><ruby>实<rt>shí</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>样<rt>yàng</rt></ruby>。<ruby>他<rt>tā</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>点<rt>diǎn</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>意<rt>yì</rt></ruby><ruby>思<rt>sī</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua lowered his head to look at his little well, then looked up at Lao Hai's big body, and only then realized it was true. Feeling a little embarrassed, he said:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「對不起呀，我的家有點小⋯⋯」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>对<rt>duì</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>呀<rt>ya</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>家<rt>jiā</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>点<rt>diǎn</rt></ruby><ruby>小<rt>xiǎo</rt></ruby>⋯⋯」</span></td>
+      <td class="col-en"><span class="en-text">"I'm sorry, my home is kind of small..."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海連忙搖頭，笑著說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>连<rt>lián</rt></ruby><ruby>忙<rt>máng</rt></ruby><ruby>摇<rt>yáo</rt></ruby><ruby>头<rt>tóu</rt></ruby>，<ruby>笑<rt>xiào</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai quickly shook his head and said with a smile:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「</span><span class="zh-trad ss01">不</span><span class="zh-trad ss01">不</span><span class="zh-trad">不，你的家很好，是我太大了。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>不<rt>bú</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>不<rt>bù</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>家<rt>jiā</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>，<ruby>是<rt>shì</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>太<rt>tài</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>了<rt>le</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"No, no, no, your home is wonderful. It's just that I'm too big."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海頓了</span><span class="zh-trad ss01">一</span><span class="zh-trad">下，慢慢</span><span class="zh-trad ss01">地</span><span class="zh-trad">問：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>顿<rt>dùn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>下<rt>xià</rt></ruby>，<ruby>慢<rt>màn</rt></ruby><ruby>慢<rt>màn</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>问<rt>wèn</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai paused for a moment, then slowly asked:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「小青蛙，我想問問你，你看過大海嗎？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>小<rt>xiǎo</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>蛙<rt>wā</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>问<rt>wèn</rt></ruby><ruby>问<rt>wèn</rt></ruby><ruby>你<rt>nǐ</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>吗<rt>ma</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Little frog, I'd like to ask you something. Have you ever seen the sea?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱歪著頭，疑惑</span><span class="zh-trad ss01">地</span><span class="zh-trad">問：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>歪<rt>wāi</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>头<rt>tóu</rt></ruby>，<ruby>疑<rt>yí</rt></ruby><ruby>惑<rt>huò</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>问<rt>wèn</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua tilted his head and asked, puzzled:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「大海？那是什麼呀？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>大<rt>dà</rt></ruby><ruby>海<rt>hǎi</rt></ruby>？<ruby>那<rt>nà</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>呀<rt>ya</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"The sea? What's that?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海溫柔</span><span class="zh-trad ss01">地</span><span class="zh-trad">說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>温<rt>wēn</rt></ruby><ruby>柔<rt>róu</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai said gently:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「大海呀，是</span><span class="zh-trad ss01">一</span><span class="zh-trad ss01">個</span><span class="zh-trad">非常非常非常大的地方。那裡的水，從這</span><span class="zh-trad ss02">一</span><span class="zh-trad">邊看</span><span class="zh-trad ss01">不</span><span class="zh-trad">到那</span><span class="zh-trad ss02">一</span><span class="zh-trad">邊，從早上游到晚上，也游</span><span class="zh-trad ss01">不</span><span class="zh-trad">到盡頭。海面上有大大小小的浪花，</span><span class="zh-trad ss02">一</span><span class="zh-trad">波接著</span><span class="zh-trad ss02">一</span><span class="zh-trad">波。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>大<rt>dà</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>呀<rt>ya</rt></ruby>，<ruby>是<rt>shì</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>非<rt>fēi</rt></ruby><ruby>常<rt>cháng</rt></ruby><ruby>非<rt>fēi</rt></ruby><ruby>常<rt>cháng</rt></ruby><ruby>非<rt>fēi</rt></ruby><ruby>常<rt>cháng</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>地<rt>dì</rt></ruby><ruby>方<rt>fāng</rt></ruby>。<ruby>那<rt>nà</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>水<rt>shuǐ</rt></ruby>，<ruby>从<rt>cóng</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>边<rt>biān</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>边<rt>biān</rt></ruby>，<ruby>从<rt>cóng</rt></ruby><ruby>早<rt>zǎo</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>游<rt>yóu</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>晚<rt>wǎn</rt></ruby><ruby>上<rt>shàng</rt></ruby>，<ruby>也<rt>yě</rt></ruby><ruby>游<rt>yóu</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>尽<rt>jìn</rt></ruby><ruby>头<rt>tóu</rt></ruby>。<ruby>海<rt>hǎi</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>浪<rt>làng</rt></ruby><ruby>花<rt>huā</rt></ruby>，<ruby>一<rt>yì</rt></ruby><ruby>波<rt>bō</rt></ruby><ruby>接<rt>jiē</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>波<rt>bō</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"The sea is an extremely vast place. The water there is so wide that from one side you can't see the other, and even swimming from morning until night, you'd never reach the end. On its surface there are waves big and small, one rolling in after another."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱睜大了眼睛，問：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>睁<rt>zhēng</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>眼<rt>yǎn</rt></ruby><ruby>睛<rt>jīng</rt></ruby>，<ruby>问<rt>wèn</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua opened his eyes wide and asked:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「真的有那麼大嗎？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>真<rt>zhēn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>吗<rt>ma</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Is it really that big?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海繼續說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>继<rt>jì</rt></ruby><ruby>续<rt>xù</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai continued:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「不只是這樣呢。大海裡住著很多動物。有像房</span><span class="zh-trad ss01">子</span><span class="zh-trad">那麼大的鯨魚，會從水面噴出高高的水柱；還有閃閃發光的小魚群，幾千幾萬條</span><span class="zh-trad ss02">一</span><span class="zh-trad">起游來游去。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>不<rt>bù</rt></ruby><ruby>只<rt>zhǐ</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>样<rt>yàng</rt></ruby><ruby>呢<rt>ne</rt></ruby>。<ruby>大<rt>dà</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>住<rt>zhù</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>动<rt>dòng</rt></ruby><ruby>物<rt>wù</rt></ruby>。<ruby>有<rt>yǒu</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>房<rt>fáng</rt></ruby><ruby>子<rt>zi</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>鲸<rt>jīng</rt></ruby><ruby>鱼<rt>yú</rt></ruby>，<ruby>会<rt>huì</rt></ruby><ruby>从<rt>cóng</rt></ruby><ruby>水<rt>shuǐ</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>喷<rt>pēn</rt></ruby><ruby>出<rt>chū</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>水<rt>shuǐ</rt></ruby><ruby>柱<rt>zhù</rt></ruby>；<ruby>还<rt>hái</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>闪<rt>shǎn</rt></ruby><ruby>闪<rt>shǎn</rt></ruby><ruby>发<rt>fā</rt></ruby><ruby>光<rt>guāng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>鱼<rt>yú</rt></ruby><ruby>群<rt>qún</rt></ruby>，<ruby>几<rt>jǐ</rt></ruby><ruby>千<rt>qiān</rt></ruby><ruby>几<rt>jǐ</rt></ruby><ruby>万<rt>wàn</rt></ruby><ruby>条<rt>tiáo</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>游<rt>yóu</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>游<rt>yóu</rt></ruby><ruby>去<rt>qù</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"And that's not all. The sea is home to many animals. There are whales as big as houses that shoot tall fountains of water from the surface, and shimmering schools of little fish, thousands upon thousands of them swimming together."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱聽</span><span class="zh-trad ss01">得</span><span class="zh-trad">目瞪口呆，嘴巴張</span><span class="zh-trad ss01">得</span><span class="zh-trad">大大的：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>目<rt>mù</rt></ruby><ruby>瞪<rt>dèng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>呆<rt>dāi</rt></ruby>，<ruby>嘴<rt>zuǐ</rt></ruby><ruby>巴<rt>bā</rt></ruby><ruby>张<rt>zhāng</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>的<rt>de</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua listened, dumbfounded, his mouth hanging wide open:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「比⋯⋯比我這口井還要大嗎？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>比<rt>bǐ</rt></ruby>⋯⋯<ruby>比<rt>bǐ</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>还<rt>hái</rt></ruby><ruby>要<rt>yào</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>吗<rt>ma</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Bigger... bigger than my well here?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海忍</span><span class="zh-trad ss01">不</span><span class="zh-trad">住笑了：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>忍<rt>rěn</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>住<rt>zhù</rt></ruby><ruby>笑<rt>xiào</rt></ruby><ruby>了<rt>le</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai couldn't help laughing:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「小青蛙，大海的大，是你完全沒辦法想像的。把你這口井裝進大海裡，就像在天空中放進</span><span class="zh-trad ss01">一</span><span class="zh-trad">粒小小的米，根本看</span><span class="zh-trad ss01">不</span><span class="zh-trad">見的。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>小<rt>xiǎo</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>蛙<rt>wā</rt></ruby>，<ruby>大<rt>dà</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>大<rt>dà</rt></ruby>，<ruby>是<rt>shì</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>完<rt>wán</rt></ruby><ruby>全<rt>quán</rt></ruby><ruby>没<rt>méi</rt></ruby><ruby>办<rt>bàn</rt></ruby><ruby>法<rt>fǎ</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>的<rt>de</rt></ruby>。<ruby>把<rt>bǎ</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>装<rt>zhuāng</rt></ruby><ruby>进<rt>jìn</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>里<rt>lǐ</rt></ruby>，<ruby>就<rt>jiù</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby><ruby>中<rt>zhōng</rt></ruby><ruby>放<rt>fàng</rt></ruby><ruby>进<rt>jìn</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>粒<rt>lì</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>米<rt>mǐ</rt></ruby>，<ruby>根<rt>gēn</rt></ruby><ruby>本<rt>běn</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>见<rt>jiàn</rt></ruby><ruby>的<rt>de</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"Little frog, the sea's vastness is something you simply cannot imagine. To put your well into the sea would be like dropping a single tiny grain of rice into the sky. You wouldn't even be able to see it."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱呆呆</span><span class="zh-trad ss01">地</span><span class="zh-trad">，小聲</span><span class="zh-trad ss01">地</span><span class="zh-trad">說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>呆<rt>dāi</rt></ruby><ruby>呆<rt>dāi</rt></ruby><ruby>地<rt>de</rt></ruby>，<ruby>小<rt>xiǎo</rt></ruby><ruby>声<rt>shēng</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua, completely stunned, said softly:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「哇⋯⋯」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>哇<rt>wā</rt></ruby>⋯⋯」</span></td>
+      <td class="col-en"><span class="en-text">"Whoa..."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海看著呱呱發愣的小臉，又輕輕問了</span><span class="zh-trad ss01">一</span><span class="zh-trad">句：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>发<rt>fā</rt></ruby><ruby>愣<rt>lèng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>脸<rt>liǎn</rt></ruby>，<ruby>又<rt>yòu</rt></ruby><ruby>轻<rt>qīng</rt></ruby><ruby>轻<rt>qīng</rt></ruby><ruby>问<rt>wèn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>句<rt>jù</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai looked at Gua Gua's dazed little face and asked softly:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「那麼，小青蛙，你知道天空有多大嗎？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>那<rt>nà</rt></ruby><ruby>么<rt>me</rt></ruby>，<ruby>小<rt>xiǎo</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>蛙<rt>wā</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>吗<rt>ma</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Then tell me, little frog, do you know how big the sky is?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱聽到這</span><span class="zh-trad ss01">個</span><span class="zh-trad">問題，立刻又得意起來，因</span><span class="zh-trad ss01">為</span><span class="zh-trad">這</span><span class="zh-trad ss01">個</span><span class="zh-trad">他每天都在看呀！他指著井口，神氣</span><span class="zh-trad ss01">地</span><span class="zh-trad">回答：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>问<rt>wèn</rt></ruby><ruby>题<rt>tí</rt></ruby>，<ruby>立<rt>lì</rt></ruby><ruby>刻<rt>kè</rt></ruby><ruby>又<rt>yòu</rt></ruby><ruby>得<rt>dé</rt></ruby><ruby>意<rt>yì</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>来<rt>lái</rt></ruby>，<ruby>因<rt>yīn</rt></ruby><ruby>为<rt>wèi</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>他<rt>tā</rt></ruby><ruby>每<rt>měi</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>呀<rt>ya</rt></ruby>！<ruby>他<rt>tā</rt></ruby><ruby>指<rt>zhǐ</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby>，<ruby>神<rt>shén</rt></ruby><ruby>气<rt>qì</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>回<rt>huí</rt></ruby><ruby>答<rt>dá</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Hearing this question, Gua Gua was instantly proud again, because this was something he looked at every single day! He pointed at the well's opening and answered confidently:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「這</span><span class="zh-trad ss01">個</span><span class="zh-trad">我知道！天空就只有井口那麼大，圓圓的</span><span class="zh-trad ss01">一</span><span class="zh-trad">塊呀！」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>这<rt>zhè</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby>！<ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby><ruby>就<rt>jiù</rt></ruby><ruby>只<rt>zhǐ</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>大<rt>dà</rt></ruby>，<ruby>圆<rt>yuán</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>块<rt>kuài</rt></ruby><ruby>呀<rt>ya</rt></ruby>！」</span></td>
+      <td class="col-en"><span class="en-text">"That one I know! The sky is just as big as the well's mouth, one round patch!"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海聽了，慢慢</span><span class="zh-trad ss01">地</span><span class="zh-trad">搖了搖頭，嘆了</span><span class="zh-trad ss02">一</span><span class="zh-trad">口氣，溫和</span><span class="zh-trad ss01">地</span><span class="zh-trad">說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>了<rt>le</rt></ruby>，<ruby>慢<rt>màn</rt></ruby><ruby>慢<rt>màn</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>摇<rt>yáo</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>摇<rt>yáo</rt></ruby><ruby>头<rt>tóu</rt></ruby>，<ruby>叹<rt>tàn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>气<rt>qì</rt></ruby>，<ruby>温<rt>wēn</rt></ruby><ruby>和<rt>hé</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">When Lao Hai heard that, he slowly shook his head, sighed, and said gently:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「小青蛙呀，天空其實比你想像的大太多了。它</span><span class="zh-trad ss01">一</span><span class="zh-trad">望無際，從這座山</span><span class="zh-trad ss02">一</span><span class="zh-trad">直延伸到那座山。白天的時候，太陽從東邊升起，從西邊落下，要花</span><span class="zh-trad ss02">一</span><span class="zh-trad">整天才走</span><span class="zh-trad ss01">得</span><span class="zh-trad">完。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>小<rt>xiǎo</rt></ruby><ruby>青<rt>qīng</rt></ruby><ruby>蛙<rt>wā</rt></ruby><ruby>呀<rt>ya</rt></ruby>，<ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby><ruby>其<rt>qí</rt></ruby><ruby>实<rt>shí</rt></ruby><ruby>比<rt>bǐ</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>太<rt>tài</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>了<rt>le</rt></ruby>。<ruby>它<rt>tā</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>望<rt>wàng</rt></ruby><ruby>无<rt>wú</rt></ruby><ruby>际<rt>jì</rt></ruby>，<ruby>从<rt>cóng</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>座<rt>zuò</rt></ruby><ruby>山<rt>shān</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>直<rt>zhí</rt></ruby><ruby>延<rt>yán</rt></ruby><ruby>伸<rt>shēn</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>座<rt>zuò</rt></ruby><ruby>山<rt>shān</rt></ruby>。<ruby>白<rt>bái</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby>，<ruby>太<rt>tài</rt></ruby><ruby>阳<rt>yáng</rt></ruby><ruby>从<rt>cóng</rt></ruby><ruby>东<rt>dōng</rt></ruby><ruby>边<rt>biān</rt></ruby><ruby>升<rt>shēng</rt></ruby><ruby>起<rt>qǐ</rt></ruby>，<ruby>从<rt>cóng</rt></ruby><ruby>西<rt>xī</rt></ruby><ruby>边<rt>biān</rt></ruby><ruby>落<rt>luò</rt></ruby><ruby>下<rt>xià</rt></ruby>，<ruby>要<rt>yào</rt></ruby><ruby>花<rt>huā</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>整<rt>zhěng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>才<rt>cái</rt></ruby><ruby>走<rt>zǒu</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>完<rt>wán</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"Little frog, the sky is actually far, far bigger than you imagine. It stretches on without end, reaching from this mountain all the way to that one. During the day, the sun rises in the east and sets in the west, and it takes a whole day for it to cross the sky."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海繼續說：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>继<rt>jì</rt></ruby><ruby>续<rt>xù</rt></ruby><ruby>说<rt>shuō</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">Lao Hai continued:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「夜裡呢，星星不只有幾顆，而是幾千幾萬顆，像</span><span class="zh-trad ss01">撒</span><span class="zh-trad">了</span><span class="zh-trad ss02">一</span><span class="zh-trad">把鹽巴在黑布上，密密麻麻、亮晶晶的。月亮有時候圓</span><span class="zh-trad ss01">得</span><span class="zh-trad">像</span><span class="zh-trad ss01">一</span><span class="zh-trad ss01">個</span><span class="zh-trad">白盤</span><span class="zh-trad ss01">子</span><span class="zh-trad">，有時候彎</span><span class="zh-trad ss01">得</span><span class="zh-trad">像</span><span class="zh-trad ss02">一</span><span class="zh-trad">把小鐮刀。下雨之後，天空還會出現美麗的彩虹⋯⋯這些，你都沒有看過呀。」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>夜<rt>yè</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>呢<rt>ne</rt></ruby>，<ruby>星<rt>xīng</rt></ruby><ruby>星<rt>xīng</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>只<rt>zhǐ</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>几<rt>jǐ</rt></ruby><ruby>颗<rt>kē</rt></ruby>，<ruby>而<rt>ér</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>几<rt>jǐ</rt></ruby><ruby>千<rt>qiān</rt></ruby><ruby>几<rt>jǐ</rt></ruby><ruby>万<rt>wàn</rt></ruby><ruby>颗<rt>kē</rt></ruby>，<ruby>像<rt>xiàng</rt></ruby><ruby>撒<rt>sǎ</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>把<rt>bǎ</rt></ruby><ruby>盐<rt>yán</rt></ruby><ruby>巴<rt>bā</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>黑<rt>hēi</rt></ruby><ruby>布<rt>bù</rt></ruby><ruby>上<rt>shàng</rt></ruby>，<ruby>密<rt>mì</rt></ruby><ruby>密<rt>mì</rt></ruby><ruby>麻<rt>má</rt></ruby><ruby>麻<rt>má</rt></ruby>、<ruby>亮<rt>liàng</rt></ruby><ruby>晶<rt>jīng</rt></ruby><ruby>晶<rt>jīng</rt></ruby><ruby>的<rt>de</rt></ruby>。<ruby>月<rt>yuè</rt></ruby><ruby>亮<rt>liàng</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>白<rt>bái</rt></ruby><ruby>盘<rt>pán</rt></ruby><ruby>子<rt>zi</rt></ruby>，<ruby>有<rt>yǒu</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby><ruby>弯<rt>wān</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>把<rt>bǎ</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>镰<rt>lián</rt></ruby><ruby>刀<rt>dāo</rt></ruby>。<ruby>下<rt>xià</rt></ruby><ruby>雨<rt>yǔ</rt></ruby><ruby>之<rt>zhī</rt></ruby><ruby>后<rt>hòu</rt></ruby>，<ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby><ruby>还<rt>hái</rt></ruby><ruby>会<rt>huì</rt></ruby><ruby>出<rt>chū</rt></ruby><ruby>现<rt>xiàn</rt></ruby><ruby>美<rt>měi</rt></ruby><ruby>丽<rt>lì</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>彩<rt>cǎi</rt></ruby><ruby>虹<rt>hóng</rt></ruby>⋯⋯<ruby>这<rt>zhè</rt></ruby><ruby>些<rt>xiē</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>没<rt>méi</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>呀<rt>ya</rt></ruby>。」</span></td>
+      <td class="col-en"><span class="en-text">"And at night, there aren't just a few stars but thousands upon thousands, like a handful of salt scattered across a black cloth, packed tight and twinkling brightly. The moon is sometimes round like a white plate, sometimes curved like a little sickle. After it rains, a beautiful rainbow appears in the sky too... all of these you have yet to see."</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱靜靜</span><span class="zh-trad ss01">地</span><span class="zh-trad">聽著，心裡好像第一次有了</span><span class="zh-trad ss02">一</span><span class="zh-trad">種奇怪的感覺。他抬頭望著井口那</span><span class="zh-trad ss02">一</span><span class="zh-trad">小塊圓圓的藍天，忽然覺</span><span class="zh-trad ss01">得</span><span class="zh-trad">，好像真的有點小小的。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>静<rt>jìng</rt></ruby><ruby>静<rt>jìng</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>着<rt>zhe</rt></ruby>，<ruby>心<rt>xīn</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>第<rt>dì</rt></ruby><ruby>一<rt>yī</rt></ruby><ruby>次<rt>cì</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>种<rt>zhǒng</rt></ruby><ruby>奇<rt>qí</rt></ruby><ruby>怪<rt>guài</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>感<rt>gǎn</rt></ruby><ruby>觉<rt>jué</rt></ruby>。<ruby>他<rt>tā</rt></ruby><ruby>抬<rt>tái</rt></ruby><ruby>头<rt>tóu</rt></ruby><ruby>望<rt>wàng</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>块<rt>kuài</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>蓝<rt>lán</rt></ruby><ruby>天<rt>tiān</rt></ruby>，<ruby>忽<rt>hū</rt></ruby><ruby>然<rt>rán</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>真<rt>zhēn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>点<rt>diǎn</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>的<rt>de</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua listened quietly. For the first time, something strange seemed to stir inside him. He looked up at the small round patch of blue sky at the well's mouth and suddenly thought it really did seem rather small.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">老海</span><span class="zh-trad ss01">背</span><span class="zh-trad">著他厚厚的殼，</span><span class="zh-trad ss01">一</span><span class="zh-trad">步</span><span class="zh-trad ss01">一</span><span class="zh-trad">步、慢慢</span><span class="zh-trad ss01">地</span><span class="zh-trad">走了。腳步聲越來越輕，越來越遠。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>背<rt>bei</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>他<rt>tā</rt></ruby><ruby>厚<rt>hòu</rt></ruby><ruby>厚<rt>hòu</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>壳<rt>ké</rt></ruby>，<ruby>一<rt>yí</rt></ruby><ruby>步<rt>bù</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>步<rt>bù</rt></ruby>、<ruby>慢<rt>màn</rt></ruby><ruby>慢<rt>màn</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>走<rt>zǒu</rt></ruby><ruby>了<rt>le</rt></ruby>。<ruby>脚<rt>jiǎo</rt></ruby><ruby>步<rt>bù</rt></ruby><ruby>声<rt>shēng</rt></ruby><ruby>越<rt>yuè</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>越<rt>yuè</rt></ruby><ruby>轻<rt>qīng</rt></ruby>，<ruby>越<rt>yuè</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>越<rt>yuè</rt></ruby><ruby>远<rt>yuǎn</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">Carrying his thick shell on his back, Lao Hai walked away, step by slow step. His footsteps grew lighter, and farther, and farther away.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">呱呱</span><span class="zh-trad ss01">一</span><span class="zh-trad ss01">個</span><span class="zh-trad">人留在井邊，望著老海離開的方向，看了好久。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>留<rt>liú</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>边<rt>biān</rt></ruby>，<ruby>望<rt>wàng</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>离<rt>lí</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>方<rt>fāng</rt></ruby><ruby>向<rt>xiàng</rt></ruby>，<ruby>看<rt>kàn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>久<rt>jiǔ</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">Gua Gua was left alone at the edge of the well, gazing in the direction Lao Hai had gone for a long, long time.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">過了</span><span class="zh-trad ss02">一</span><span class="zh-trad ss02">會</span><span class="zh-trad ss01">兒</span><span class="zh-trad">，他轉身回到井底自己最熟悉的小水窪。可是不知道</span><span class="zh-trad ss01">為</span><span class="zh-trad">什麼，今天的井，好像跟以前</span><span class="zh-trad ss01">不</span><span class="zh-trad">太</span><span class="zh-trad ss01">一</span><span class="zh-trad">樣了。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>过<rt>guò</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>会<rt>huǐ</rt></ruby><ruby>儿<rt>ēr</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>转<rt>zhuǎn</rt></ruby><ruby>身<rt>shēn</rt></ruby><ruby>回<rt>huí</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>底<rt>dǐ</rt></ruby><ruby>自<rt>zì</rt></ruby><ruby>己<rt>jǐ</rt></ruby><ruby>最<rt>zuì</rt></ruby><ruby>熟<rt>shú</rt></ruby><ruby>悉<rt>xī</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>水<rt>shuǐ</rt></ruby><ruby>洼<rt>wā</rt></ruby>。<ruby>可<rt>kě</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby><ruby>为<rt>wèi</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby>，<ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>井<rt>jǐng</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>像<rt>xiàng</rt></ruby><ruby>跟<rt>gēn</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>前<rt>qián</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>太<rt>tài</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>样<rt>yàng</rt></ruby><ruby>了<rt>le</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">After a while, he turned back to the little puddle at the bottom that he knew so well. But somehow today, the well felt different from before.</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">他抬頭看看那</span><span class="zh-trad ss02">一</span><span class="zh-trad">小塊圓圓的天空，心裡輕輕</span><span class="zh-trad ss01">地</span><span class="zh-trad">想：</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>他<rt>tā</rt></ruby><ruby>抬<rt>tái</rt></ruby><ruby>头<rt>tóu</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>块<rt>kuài</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>圆<rt>yuán</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby>，<ruby>心<rt>xīn</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>轻<rt>qīng</rt></ruby><ruby>轻<rt>qīng</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>想<rt>xiǎng</rt></ruby>：</span></td>
+      <td class="col-en"><span class="en-text">He looked up at that small round patch of sky, and thought softly to himself:</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">「天空，真的有那麼大嗎？外面真的有那麼多奇妙的東西嗎？我是</span><span class="zh-trad ss01">不</span><span class="zh-trad">是真的什麼都不知道呢？」</span></td>
+      <td class="col-simp"><span class="zh-simp">「<ruby>天<rt>tiān</rt></ruby><ruby>空<rt>kōng</rt></ruby>，<ruby>真<rt>zhēn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>外<rt>wài</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>真<rt>zhēn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>奇<rt>qí</rt></ruby><ruby>妙<rt>miào</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>东<rt>dōng</rt></ruby><ruby>西<rt>xī</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>我<rt>wǒ</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>真<rt>zhēn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby><ruby>呢<rt>ne</rt></ruby>？」</span></td>
+      <td class="col-en"><span class="en-text">"Is the sky really that big? Are there really so many wondrous things out there? Could it be that I really don't know anything at all?"</span></td>
+    </tr>
+    <tr>
+      <td class="col-trad"><span class="zh-trad">那天晚上，呱呱躺在井壁上，看著星星，第一次睡不</span><span class="zh-trad ss03">著</span><span class="zh-trad ss01">覺</span><span class="zh-trad">。他開始想：也許有</span><span class="zh-trad ss02">一</span><span class="zh-trad">天，他真的應該想辦法跳出這口小井，去看看老海說的那</span><span class="zh-trad ss01">個</span><span class="zh-trad">世界。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>那<rt>nà</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>晚<rt>wǎn</rt></ruby><ruby>上<rt>shàng</rt></ruby>，<ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>躺<rt>tǎng</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>壁<rt>bì</rt></ruby><ruby>上<rt>shàng</rt></ruby>，<ruby>看<rt>kàn</rt></ruby><ruby>着<rt>zhe</rt></ruby><ruby>星<rt>xīng</rt></ruby><ruby>星<rt>xīng</rt></ruby>，<ruby>第<rt>dì</rt></ruby><ruby>一<rt>yī</rt></ruby><ruby>次<rt>cì</rt></ruby><ruby>睡<rt>shuì</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>着<rt>zháo</rt></ruby><ruby>觉<rt>jiào</rt></ruby>。<ruby>他<rt>tā</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>始<rt>shǐ</rt></ruby><ruby>想<rt>xiǎng</rt></ruby>：<ruby>也<rt>yé</rt></ruby><ruby>许<rt>xǔ</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>天<rt>tiān</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>真<rt>zhēn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>应<rt>yīng</rt></ruby><ruby>该<rt>gāi</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>办<rt>bàn</rt></ruby><ruby>法<rt>fǎ</rt></ruby><ruby>跳<rt>tiào</rt></ruby><ruby>出<rt>chū</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>井<rt>jǐng</rt></ruby>，<ruby>去<rt>qù</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>老<rt>lǎo</rt></ruby><ruby>海<rt>hǎi</rt></ruby><ruby>说<rt>shuō</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>世<rt>shì</rt></ruby><ruby>界<rt>jiè</rt></ruby>。</span></td>
+      <td class="col-en"><span class="en-text">That night, Gua Gua laid down looking up at the stars, and for the first time he could not fall asleep. He began to think: maybe one day, he really should find a way to leap out of this little well, and go see the world Lao Hai had spoken of.</span></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
