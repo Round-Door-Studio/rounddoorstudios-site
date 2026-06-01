@@ -146,12 +146,42 @@ table.script-table tbody td {
 
 /* ── OpenType polyphonic overrides (applied on top of zh-trad / zh-trad-alt) ── */
 /* Use these when the alt font is not available and a direct feature toggle works. */
+.ss00 { font-feature-settings: "ss00" 1; }  /* strips the built-in zhuyin overlay */
 .ss01 { font-feature-settings: "ss01" 1; }
 .ss02 { font-feature-settings: "ss02" 1; }
 .ss03 { font-feature-settings: "ss03" 1; }
 .ss04 { font-feature-settings: "ss04" 1; }
 .ss05 { font-feature-settings: "ss05" 1; }
 .ss10 { font-feature-settings: "ss10" 1; }
+
+/* Manual zhuyin overlay for characters that BpmfHuninn lacks the right
+   alternate for (e.g. 悄 which only ships qiǎo 3rd tone, no qiāo 1st-tone
+   variant). Use a wrapper that places the character (with ss00 to strip the
+   built-in zhuyin) on the left and a manual zhuyin string on the right, in
+   the empty space where BpmfHuninn would normally have rendered zhuyin. */
+.zh-trad-manual {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    font-family: 'Bpmf Huninn', serif;
+    font-feature-settings: "ss00" 1;
+    font-size: 26px;
+    line-height: 3.0;
+}
+.zh-trad-manual .manual-zhuyin {
+    position: absolute;
+    top: 50%;
+    left: 0.62em;
+    transform: translateY(-50%);
+    font-family: 'Microsoft JhengHei', 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: #000;
+    letter-spacing: -1px;
+    font-feature-settings: normal;
+}
 
 </style>
 </head>
@@ -233,7 +263,7 @@ table.script-table tbody td {
     </tr>
     <tr>
       <td class="col-trad"><span class="zh-trad">有</span><span class="zh-trad ss02">一</span><span class="zh-trad">天，呱呱正在井底打盹兒，忽然聽到井口傳來</span><span class="zh-trad ss01">一</span><span class="zh-trad">陣奇怪的聲音。</span></td>
-      <td class="col-simp"><span class="zh-simp"><ruby>有<rt>yǒu</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>天<rt>tiān</rt></ruby>，<ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>正<rt>zhèng</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>底<rt>dǐ</rt></ruby><ruby>打<rt>dǎ</rt></ruby><ruby>盹<rt>dùn</rt></ruby><ruby>儿<rt>ér</rt></ruby>，<ruby>忽<rt>hū</rt></ruby><ruby>然<rt>rán</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>传<rt>chuán</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>阵<rt>zhèn</rt></ruby><ruby>奇<rt>qí</rt></ruby><ruby>怪<rt>guài</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>声<rt>shēng</rt></ruby><ruby>音<rt>yīn</rt></ruby>。</span></td>
+      <td class="col-simp"><span class="zh-simp"><ruby>有<rt>yǒu</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>天<rt>tiān</rt></ruby>，<ruby>呱<rt>guā</rt></ruby><ruby>呱<rt>guā</rt></ruby><ruby>正<rt>zhèng</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>底<rt>dǐ</rt></ruby><ruby>打<rt>dǎ</rt></ruby><ruby>盹<rt>dǔn</rt></ruby><ruby>儿<rt>ér</rt></ruby>，<ruby>忽<rt>hū</rt></ruby><ruby>然<rt>rán</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>井<rt>jǐng</rt></ruby><ruby>口<rt>kǒu</rt></ruby><ruby>传<rt>chuán</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>阵<rt>zhèn</rt></ruby><ruby>奇<rt>qí</rt></ruby><ruby>怪<rt>guài</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>声<rt>shēng</rt></ruby><ruby>音<rt>yīn</rt></ruby>。</span></td>
       <td class="col-en"><span class="en-text">One day, while Gua Gua was dozing at the bottom of the well, he suddenly heard a strange sound coming down from the well's mouth.</span></td>
     </tr>
     <tr>
