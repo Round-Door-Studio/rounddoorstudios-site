@@ -1,0 +1,69 @@
+{
+  "slug": "frog-at-the-bottom-of-the-well",
+  "vocab": [
+    {
+      "tier": "door",
+      "simp": "井",
+      "trad": "井",
+      "pinyin": "jǐng",
+      "en": "well",
+      "example": { "simp": "呱呱住在井底。", "trad": "呱呱住在井底。", "en": "Gua Gua lived at the bottom of the well." }
+    },
+    {
+      "tier": "door",
+      "simp": "青蛙",
+      "trad": "青蛙",
+      "pinyin": "qīng wā",
+      "en": "frog",
+      "example": { "simp": "他是一只小青蛙。", "trad": "他是一隻小青蛙。", "en": "He is a little frog." }
+    },
+    {
+      "tier": "door",
+      "simp": "天空",
+      "trad": "天空",
+      "pinyin": "tiān kōng",
+      "en": "sky",
+      "example": { "simp": "天空圆圆的。", "trad": "天空圓圓的。", "en": "The sky is round." }
+    },
+    {
+      "tier": "door",
+      "simp": "星星",
+      "trad": "星星",
+      "pinyin": "xīng xīng",
+      "en": "stars",
+      "example": { "simp": "晚上有星星。", "trad": "晚上有星星。", "en": "There are stars at night." }
+    },
+    {
+      "tier": "beyond",
+      "simp": "海龟",
+      "trad": "海龜",
+      "pinyin": "hǎi guī",
+      "en": "sea turtle",
+      "example": { "simp": "老海是一只海龟。", "trad": "老海是一隻海龜。", "en": "Lao Hai is a sea turtle." }
+    },
+    {
+      "tier": "beyond",
+      "simp": "大海",
+      "trad": "大海",
+      "pinyin": "dà hǎi",
+      "en": "the ocean",
+      "example": { "simp": "大海非常大。", "trad": "大海非常大。", "en": "The ocean is very big." }
+    },
+    {
+      "tier": "beyond",
+      "simp": "朋友",
+      "trad": "朋友",
+      "pinyin": "péng yǒu",
+      "en": "friend",
+      "example": { "simp": "老海是呱呱的朋友。", "trad": "老海是呱呱的朋友。", "en": "Lao Hai is Gua Gua's friend." }
+    },
+    {
+      "tier": "beyond",
+      "simp": "世界",
+      "trad": "世界",
+      "pinyin": "shì jiè",
+      "en": "world",
+      "example": { "simp": "外面的世界很大。", "trad": "外面的世界很大。", "en": "The world outside is big." }
+    }
+  ]
+}

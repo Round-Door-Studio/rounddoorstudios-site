@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" data-script="simp">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Round Door Studio · Library</title>
+  <meta name="description" content="The Round Door Studio library — Mandarin and English folktales, fables, and culture for bilingual families." />
+  <link rel="icon" type="image/png" href="assets/icons/round-door.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=LXGW+WenKai+TC&family=Noto+Serif+TC&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/rds.css" />
+</head>
+<body>
+
+  <!-- ── Nav ── -->
+  <header class="nav">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/icons/round-door.png" alt="Round Door Studio" />
+      <b>Round Door Studio</b>
+    </a>
+    <nav class="nav-links">
+      <a href="library.html" class="is-on">Library</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="script-toggle" id="scriptToggle" aria-label="Choose script">
+        <button data-s="simp">简 <span class="lbl">Simplified</span></button>
+        <span class="sep">·</span>
+        <button data-s="trad">繁 <span class="lbl">Traditional</span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Library ── -->
+  <section class="section" id="library">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow" style="margin-bottom:6px;">The Story Library</p>
+        <h2>Open the book — start anywhere.</h2>
+      </div>
+      <div class="toggle" id="viewToggle">
+        <button data-v="book" class="is-on">📖 Book</button>
+        <button data-v="grid">▦ Grid</button>
+      </div>
+    </div>
+    <div id="library-mount"></div>
+  </section>
+
+  <!-- ── Library CTA ── -->
+  <section class="library-cta" aria-labelledby="libraryCtaTitle">
+    <div class="library-cta-in">
+      <h2 id="libraryCtaTitle">🚪 A New Story is Always On Its Way.</h2>
+      <p>Get future story packs, family activities, and new episodes delivered to your inbox.</p>
+      <button type="button" class="btn btn-primary" onclick="openModal()">Get New Stories</button>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="footer-in">
+      <div class="footer-brand">
+        <img src="assets/icons/round-door.png" alt="Round Door Studio" />
+        <span class="footer-legal">© 2026 Round Door Studio · 月門故事</span>
+      </div>
+      <div class="footer-soc">
+        <a class="soc" href="https://instagram.com/therounddoorpodcast" target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="https://cdn.simpleicons.org/instagram/9B4761" width="18" height="18" alt="Instagram" />
+        </a>
+        <a class="soc" href="https://tiktok.com/@therounddoorpodcast" target="_blank" rel="noopener" aria-label="TikTok">
+          <img src="https://cdn.simpleicons.org/tiktok/9B4761" width="18" height="18" alt="TikTok" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/stories.js"></script>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,912 @@
+{
+  "slug": "frog-at-the-bottom-of-the-well",
+  "title": {
+    "en": "The Frog at the Bottom of the Well",
+    "simp": "井底之蛙",
+    "trad": "井底之蛙"
+  },
+  "readAlong": {
+    "lines": [
+      {
+        "id": "p001",
+        "simp": {
+          "text": "很久以前，在一座安静的小山脚下，有一口被人遗忘的废弃水井。井口长满了绿绿的青苔，井底还积了一些清凉的水。",
+          "pinyin": "hěn jiǔ yǐ qián, zài yí zuò ān jìng de xiǎo shān jiǎo xià, yǒu yì kǒu bèi rén yí wàng de fèi qì shuǐ jǐng. jǐng kǒu zhǎng mǎn le lǜ lǜ de qīng tái, jǐng dǐ hái jī le yì xiē qīng liáng de shuǐ."
+        },
+        "trad": {
+          "text": "很久以前，在一座安靜的小山腳下，有一口被人遺忘的廢棄水井。井口長滿了綠綠的青苔，井底還積了一些清涼的水。",
+          "zhuyin": "ㄏㄣˇ ㄐㄧㄡˇ ㄧˇ ㄑㄧㄢˊ，ㄗㄞˋ ㄧˊ ㄗㄨㄛˋ ㄢ ㄐㄧㄥˋ ㄉㄜ˙ ㄒㄧㄠˇ ㄕㄢ ㄐㄧㄠˇ ㄒㄧㄚˋ，ㄧㄡˇ ㄧˋ ㄎㄡˇ ㄅㄟˋ ㄖㄣˊ ㄧˊ ㄨㄤˋ ㄉㄜ˙ ㄈㄟˋ ㄑㄧˋ ㄕㄨㄟˇ ㄐㄧㄥˇ。ㄐㄧㄥˇ ㄎㄡˇ ㄓㄤˇ ㄇㄢˇ ㄌㄜ˙ ㄌㄩˋ ㄌㄩˋ ㄉㄜ˙ ㄑㄧㄥ ㄊㄞˊ，ㄐㄧㄥˇ ㄉㄧˇ ㄏㄞˊ ㄐㄧ ㄌㄜ˙ ㄧˋ ㄒㄧㄝ ㄑㄧㄥ ㄌㄧㄤˊ ㄉㄜ˙ ㄕㄨㄟˇ。"
+        },
+        "en": "A long time ago, at the foot of a quiet little mountain, there was a forgotten, abandoned water well. The mouth of the well was covered with bright green moss, and at the bottom there was a small pool of cool water."
+      },
+      {
+        "id": "p002",
+        "simp": {
+          "text": "这口井虽然又老又旧，可是有一位小小的住户，把它当成全世界最棒的家。他是一只绿油油的小青蛙，名字叫呱呱。",
+          "pinyin": "zhè kǒu jǐng suī rán yòu lǎo yòu jiù, kě shì yǒu yí wèi xiǎo xiǎo de zhù hù, bǎ tā dang chéng quán shì jiè zuì bàng de jiā. tā shì yì zhī lǜ yóu yóu de xiǎo qīng wā, míng zi jiào guā guā."
+        },
+        "trad": {
+          "text": "這口井雖然又老又舊，可是有一位小小的住戶，把它當成全世界最棒的家。他是一隻綠油油的小青蛙，名字叫呱呱。",
+          "zhuyin": "ㄓㄜˋ ㄎㄡˇ ㄐㄧㄥˇ ㄙㄨㄟ ㄖㄢˊ ㄧㄡˋ ㄌㄠˇ ㄧㄡˋ ㄐㄧㄡˋ，ㄎㄜˇ ㄕˋ ㄧㄡˇ ㄧˊ ㄨㄟˋ ㄒㄧㄠˇ ㄒㄧㄠˇ ㄉㄜ˙ ㄓㄨˋ ㄏㄨˋ，ㄅㄚˇ ㄊㄚ ㄉㄤ˙ ㄔㄥˊ ㄑㄩㄢˊ ㄕˋ ㄐㄧㄝˋ ㄗㄨㄟˋ ㄅㄤˋ ㄉㄜ˙ ㄐㄧㄚ。ㄊㄚ ㄕˋ ㄧˋ ㄓ ㄌㄩˋ ㄧㄡˊ ㄧㄡˊ ㄉㄜ˙ ㄒㄧㄠˇ ㄑㄧㄥ ㄨㄚ，ㄇㄧㄥˊ ㄗ˙ ㄐㄧㄠˋ ㄍㄨㄚ ㄍㄨㄚ。"
+        },
+        "en": "Though the well was old and worn, it had one tiny resident who was a tiny bright green frog, and his name was Gua Gua."
+      },
+      {
+        "id": "p003",
+        "simp": {
+          "text": "呱呱每天早上一睁开眼睛，就会先伸个大大的懒腰，然后跳进井底的小水洼里洗洗脸，再爬上井壁的石头，抬头看看天空。",
+          "pinyin": "guā guā měi tiān zǎo shàng yì zhēng kāi yǎn jīng, jiù huì xiān shēn ge dà dà de lǎn yāo, rán hòu tiào jìn jǐng dǐ de xiǎo shuǐ wā lǐ xǐ xǐ liǎn, zài pá shàng jǐng bì de shí tóu, tái tóu kàn kàn tiān kōng."
+        },
+        "trad": {
+          "text": "呱呱每天早上一睜開眼睛，就會先伸個大大的懶腰，然後跳進井底的小水窪裡洗洗臉，再爬上井壁的石頭，抬頭看看天空。",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄇㄟˇ ㄊㄧㄢ ㄗㄠˇ ㄕㄤˋ ㄧˋ ㄓㄥ ㄎㄞ ㄧㄢˇ ㄐㄧㄥ，ㄐㄧㄡˋ ㄏㄨㄟˋ ㄒㄧㄢ ㄕㄣ ㄍㄜ˙ ㄉㄚˋ ㄉㄚˋ ㄉㄜ˙ ㄌㄢˇ ㄧㄠ，ㄖㄢˊ ㄏㄡˋ ㄊㄧㄠˋ ㄐㄧㄣˋ ㄐㄧㄥˇ ㄉㄧˇ ㄉㄜ˙ ㄒㄧㄠˇ ㄕㄨㄟˇ ㄨㄚ ㄌㄧˇ ㄒㄧˇ ㄒㄧˇ ㄌㄧㄢˇ，ㄗㄞˋ ㄆㄚˊ ㄕㄤˋ ㄐㄧㄥˇ ㄅㄧˋ ㄉㄜ˙ ㄕˊ ㄊㄡˊ，ㄊㄞˊ ㄊㄡˊ ㄎㄢˋ ㄎㄢˋ ㄊㄧㄢ ㄎㄨㄥ。"
+        },
+        "en": "Every morning when Gua Gua opened his eyes, he would first stretch, let out a big yawn, then hop into the wee puddle at the bottom of the well to wash his face. Then he would climb up the stones on the well wall to look up at the sky."
+      },
+      {
+        "id": "p004",
+        "simp": {
+          "text": "对呱呱来说，天空就是井口那一圈，圆圆的、蓝蓝的，有时候有白云飘过，有时候有麻雀飞过。这就是他所知道的整个世界。",
+          "pinyin": "duì guā guā lái shuō, tiān kōng jiù shì jǐng kǒu nà yì quān, yuán yuán de, lán lán de, yǒu shí hòu yǒu bái yún piāo guò, yǒu shí hòu yǒu má què fēi guò. zhè jiù shì tā suǒ zhī dào de zhěng ge shì jiè."
+        },
+        "trad": {
+          "text": "對呱呱來說，天空就是井口那一圈，圓圓的、藍藍的，有時候有白雲飄過，有時候有麻雀飛過。這就是他所知道的整個世界。",
+          "zhuyin": "ㄉㄨㄟˋ ㄍㄨㄚ ㄍㄨㄚ ㄌㄞˊ ㄕㄨㄛ，ㄊㄧㄢ ㄎㄨㄥ ㄐㄧㄡˋ ㄕˋ ㄐㄧㄥˇ ㄎㄡˇ ㄋㄚˋ ㄧˋ ㄑㄩㄢ，ㄩㄢˊ ㄩㄢˊ ㄉㄜ˙、ㄌㄢˊ ㄌㄢˊ ㄉㄜ˙，ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄧㄡˇ ㄅㄞˊ ㄩㄣˊ ㄆㄧㄠ ㄍㄨㄛˋ，ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄧㄡˇ ㄇㄚˊ ㄑㄩㄝˋ ㄈㄟ ㄍㄨㄛˋ。ㄓㄜˋ ㄐㄧㄡˋ ㄕˋ ㄊㄚ ㄙㄨㄛˇ ㄓ ㄉㄠˋ ㄉㄜ˙ ㄓㄥˇ ㄍㄜ˙ ㄕˋ ㄐㄧㄝˋ。"
+        },
+        "en": "To Gua Gua, the sky was just that round circle at the mouth of the well, round and blue, sometimes with white clouds drifting past, sometimes with a sparrow flying by. This was the whole world he knew."
+      },
+      {
+        "id": "p005",
+        "simp": {
+          "text": "吃饭的时候，呱呱会吃一些掉进井里的小虫子。他拍拍肚子，开心地说：",
+          "pinyin": "chī fàn de shí hòu, guā guā huì chī yì xiē diào jìn jǐng lǐ de xiǎo chóng zi. tā pāi pāi dù zi, kāi xīn de shuō:"
+        },
+        "trad": {
+          "text": "吃飯的時候，呱呱會吃一些掉進井裡的小蟲子。他拍拍肚子，開心地說：",
+          "zhuyin": "ㄔ ㄈㄢˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ，ㄍㄨㄚ ㄍㄨㄚ ㄏㄨㄟˋ ㄔ ㄧˋ ㄒㄧㄝ ㄉㄧㄠˋ ㄐㄧㄣˋ ㄐㄧㄥˇ ㄌㄧˇ ㄉㄜ˙ ㄒㄧㄠˇ ㄔㄨㄥˊ ㄗ˙。ㄊㄚ ㄆㄞ ㄆㄞ ㄉㄨˋ ㄗ˙，ㄎㄞ ㄒㄧㄣ ㄉㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "At mealtimes, Gua Gua would eat the little bugs that fell into the well. He patted his tummy and said happily,"
+      },
+      {
+        "id": "p006",
+        "simp": {
+          "text": "「嗯，今天的午餐真好吃！」",
+          "pinyin": "èn, jīn tiān de wǔ cān zhēn hǎo chī!"
+        },
+        "trad": {
+          "text": "「嗯，今天的午餐真好吃！」",
+          "zhuyin": "「ㄣˋ，ㄐㄧㄣ ㄊㄧㄢ ㄉㄜ˙ ㄨˇ ㄘㄢ ㄓㄣ ㄏㄠˇ ㄔ！」"
+        },
+        "en": "\"Mmm, today's lunch is so tasty!\""
+      },
+      {
+        "id": "p007",
+        "simp": {
+          "text": "呱呱觉得自己过着神仙一样的日子。",
+          "pinyin": "guā guā jué de zì jǐ guò zhe shén xiān yí yàng de rì zi."
+        },
+        "trad": {
+          "text": "呱呱覺得自己過著神仙一樣的日子。",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄐㄩㄝˊ ㄉㄜ˙ ㄗˋ ㄐㄧˇ ㄍㄨㄛˋ ㄓㄜ˙ ㄕㄣˊ ㄒㄧㄢ ㄧˊ ㄧㄤˋ ㄉㄜ˙ ㄖˋ ㄗ˙。"
+        },
+        "en": "Gua Gua felt like he was living the good life."
+      },
+      {
+        "id": "p008",
+        "simp": {
+          "text": "晚上的时候，他会躺在井壁的小缝里，看着井口那一圈黑黑的天空，数一数那几颗闪亮的小星星：",
+          "pinyin": "wǎn shàng de shí hòu, tā huì tǎng zài jǐng bì de xiǎo fèng lǐ, kàn zhe jǐng kǒu nà yì quān hēi hēi de tiān kōng, shǔ yì shǔ nà jǐ kē shǎn liàng de xiǎo xīng xīng:"
+        },
+        "trad": {
+          "text": "晚上的時候，他會躺在井壁的小縫裡，看著井口那一圈黑黑的天空，數一數那幾顆閃亮的小星星：",
+          "zhuyin": "ㄨㄢˇ ㄕㄤˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ，ㄊㄚ ㄏㄨㄟˋ ㄊㄤˇ ㄗㄞˋ ㄐㄧㄥˇ ㄅㄧˋ ㄉㄜ˙ ㄒㄧㄠˇ ㄈㄥˋ ㄌㄧˇ，ㄎㄢˋ ㄓㄜ˙ ㄐㄧㄥˇ ㄎㄡˇ ㄋㄚˋ ㄧˋ ㄑㄩㄢ ㄏㄟ ㄏㄟ ㄉㄜ˙ ㄊㄧㄢ ㄎㄨㄥ，ㄕㄨˇ ㄧˋ ㄕㄨˇ ㄋㄚˋ ㄐㄧˇ ㄎㄜ ㄕㄢˇ ㄌㄧㄤˋ ㄉㄜ˙ ㄒㄧㄠˇ ㄒㄧㄥ ㄒㄧㄥ："
+        },
+        "en": "In the evening, he would lie down in a thin crack in the stone wall of the well, look up at that dark circle of sky at the well's mouth, and count the few bright stars:"
+      },
+      {
+        "id": "p009",
+        "simp": {
+          "text": "「一颗，两颗，三颗⋯⋯」",
+          "pinyin": "yì kē, liǎng kē, sān kē..."
+        },
+        "trad": {
+          "text": "「一顆，兩顆，三顆⋯⋯」",
+          "zhuyin": "「ㄧˋ ㄎㄜ，ㄌㄧㄤˇ ㄎㄜ，ㄙㄢ ㄎㄜ⋯⋯」"
+        },
+        "en": "\"One, two, three...\""
+      },
+      {
+        "id": "p010",
+        "simp": {
+          "text": "呱呱数着数着就睡着了，做着甜蜜的梦。",
+          "pinyin": "guā guā shǔ zhe shǔ zhe jiù shuì zháo le, zuò zhe tián mì de mèng."
+        },
+        "trad": {
+          "text": "呱呱數著數著就睡著了，做著甜蜜的夢。",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄕㄨˇ ㄓㄜ˙ ㄕㄨˇ ㄓㄜ˙ ㄐㄧㄡˋ ㄕㄨㄟˋ ㄓㄠˊ ㄌㄜ˙，ㄗㄨㄛˋ ㄓㄜ˙ ㄊㄧㄢˊ ㄇㄧˋ ㄉㄜ˙ ㄇㄥˋ。"
+        },
+        "en": "Gua Gua counted and counted, and before long he fell asleep, dreaming sweet dreams."
+      },
+      {
+        "id": "p011",
+        "simp": {
+          "text": "呱呱在井里住了好多年，从来没出去过。他觉得自己的小井，就是天底下最好的地方。",
+          "pinyin": "guā guā zài jǐng lǐ zhù le hǎo duō nián, cóng lái méi chū qù guò. tā jué de zì jǐ de xiǎo jǐng, jiù shì tiān dǐ xià zuì hǎo de dì fāng."
+        },
+        "trad": {
+          "text": "呱呱在井裡住了好多年,從來沒出去過。他覺得自己的小井，就是天底下最好的地方。",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄗㄞˋ ㄐㄧㄥˇ ㄌㄧˇ ㄓㄨˋ ㄌㄜ˙ ㄏㄠˇ ㄉㄨㄛ ㄋㄧㄢˊ，ㄘㄨㄥˊ ㄌㄞˊ ㄇㄟˊ ㄔㄨ ㄑㄩˋ ㄍㄨㄛˋ。ㄊㄚ ㄐㄩㄝˊ ㄉㄜ˙ ㄗˋ ㄐㄧˇ ㄉㄜ˙ ㄒㄧㄠˇ ㄐㄧㄥˇ，ㄐㄧㄡˋ ㄕˋ ㄊㄧㄢ ㄉㄧˇ ㄒㄧㄚˋ ㄗㄨㄟˋ ㄏㄠˇ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ。"
+        },
+        "en": "Gua Gua had lived in the well for many years, and had never once been outside. He thought his little well was the best place under the sky."
+      },
+      {
+        "id": "p012",
+        "simp": {
+          "text": "有一天，呱呱正在井底打盹儿，忽然听到井口传来一阵奇怪的声音。",
+          "pinyin": "yǒu yì tiān, guā guā zhèng zài jǐng dǐ dǎ dǔn ér, hū rán tīng dào jǐng kǒu chuán lái yí zhèn qí guài de shēng yīn."
+        },
+        "trad": {
+          "text": "有一天，呱呱正在井底打盹兒，忽然聽到井口傳來一陣奇怪的聲音。",
+          "zhuyin": "ㄧㄡˇ ㄧˋ ㄊㄧㄢ，ㄍㄨㄚ ㄍㄨㄚ ㄓㄥˋ ㄗㄞˋ ㄐㄧㄥˇ ㄉㄧˇ ㄉㄚˇ ㄉㄨㄣˇ ㄦˊ，ㄏㄨ ㄖㄢˊ ㄊㄧㄥ ㄉㄠˋ ㄐㄧㄥˇ ㄎㄡˇ ㄔㄨㄢˊ ㄌㄞˊ ㄧˊ ㄓㄣˋ ㄑㄧˊ ㄍㄨㄞˋ ㄉㄜ˙ ㄕㄥ ㄧㄣ。"
+        },
+        "en": "One day, while Gua Gua was dozing at the bottom of the well, he suddenly heard a strange sound coming down from the well's mouth."
+      },
+      {
+        "id": "p013",
+        "simp": {
+          "text": "呱呱一下子跳起来，眼睛睁得大大的说：",
+          "pinyin": "guā guā yí xià zi tiào qǐ lái, yǎn jīng zhēng de dà dà de shuō:"
+        },
+        "trad": {
+          "text": "呱呱一下子跳起來，眼睛睜得大大的說：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄧˊ ㄒㄧㄚˋ ㄗ˙ ㄊㄧㄠˋ ㄑㄧˇ ㄌㄞˊ，ㄧㄢˇ ㄐㄧㄥ ㄓㄥ ㄉㄜ˙ ㄉㄚˋ ㄉㄚˋ ㄉㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "Gua Gua jumped up at once, his eyes wide open, and said:"
+      },
+      {
+        "id": "p014",
+        "simp": {
+          "text": "「咦？这是什么声音？」",
+          "pinyin": "yí? zhè shì shén me shēng yīn?"
+        },
+        "trad": {
+          "text": "「咦？這是什麼聲音？」",
+          "zhuyin": "「ㄧˊ？ㄓㄜˋ ㄕˋ ㄕㄣˊ ㄇㄜ˙ ㄕㄥ ㄧㄣ？」"
+        },
+        "en": "\"Huh? What's that sound?\""
+      },
+      {
+        "id": "p015",
+        "simp": {
+          "text": "那声音越来越近，又重又慢，好像有什么很大、很大的东西，正在靠近这口井。呱呱呆呆地站在那里，等着看看到底是什么东西。",
+          "pinyin": "nà shēng yīn yuè lái yuè jìn, yòu zhòng yòu màn, hǎo xiàng yǒu shén me hěn dà, hěn dà de dōng xī, zhèng zài kào jìn zhè kǒu jǐng. guā guā dāi dāi de zhàn zài nà lǐ, děng zhe kàn kàn dào dǐ shì shén me dōng xī."
+        },
+        "trad": {
+          "text": "那聲音越來越近，又重又慢，好像有什麼很大、很大的東西，正在靠近這口井。呱呱呆呆地站在那裡，等著看看到底是什麼東西。",
+          "zhuyin": "ㄋㄚˋ ㄕㄥ ㄧㄣ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄐㄧㄣˋ，ㄧㄡˋ ㄓㄨㄥˋ ㄧㄡˋ ㄇㄢˋ，ㄏㄠˇ ㄒㄧㄤˋ ㄧㄡˇ ㄕㄣˊ ㄇㄜ˙ ㄏㄣˇ ㄉㄚˋ、ㄏㄣˇ ㄉㄚˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ，ㄓㄥˋ ㄗㄞˋ ㄎㄠˋ ㄐㄧㄣˋ ㄓㄜˋ ㄎㄡˇ ㄐㄧㄥˇ。ㄍㄨㄚ ㄍㄨㄚ ㄉㄞ ㄉㄞ ㄉㄜ˙ ㄓㄢˋ ㄗㄞˋ ㄋㄚˋ ㄌㄧˇ，ㄉㄥˇ ㄓㄜ˙ ㄎㄢˋ ㄎㄢˋ ㄉㄠˋ ㄉㄧˇ ㄕˋ ㄕㄣˊ ㄇㄜ˙ ㄉㄨㄥ ㄒㄧ。"
+        },
+        "en": "The sound came closer and closer, heavy and slow, as if something very, very big was approaching the well. Gua Gua stood frozen, waiting to see what it was."
+      },
+      {
+        "id": "p016",
+        "simp": {
+          "text": "哇！一双大大的眼睛从井口边上往下看着他。呱呱整个人都呆住了！",
+          "pinyin": "wā! yì shuāng dà dà de yǎn jīng cóng jǐng kǒu biān shàng wǎng xià kàn zhe tā. guā guā zhěng ge rén dōu dāi zhù le!"
+        },
+        "trad": {
+          "text": "哇！一雙大大的眼睛從井口邊上往下看著他。呱呱整個人都呆住了！",
+          "zhuyin": "ㄨㄚ！ㄧˋ ㄕㄨㄤ ㄉㄚˋ ㄉㄚˋ ㄉㄜ˙ ㄧㄢˇ ㄐㄧㄥ ㄘㄨㄥˊ ㄐㄧㄥˇ ㄎㄡˇ ㄅㄧㄢ ㄕㄤˋ ㄨㄤˇ ㄒㄧㄚˋ ㄎㄢˋ ㄓㄜ˙ ㄊㄚ。ㄍㄨㄚ ㄍㄨㄚ ㄓㄥˇ ㄍㄜ˙ ㄖㄣˊ ㄉㄡ ㄉㄞ ㄓㄨˋ ㄌㄜ˙！"
+        },
+        "en": "Whoa! A huge pair of eyes was looking down at him over the edge of the well opening. Gua Gua froze on the spot!"
+      },
+      {
+        "id": "p017",
+        "simp": {
+          "text": "只见一只巨大的动物在井边低头看着他，背上有一个又圆又厚的硬壳，壳上还有漂亮的格子花纹。他有皱皱的脖子，还有一双很温柔的眼睛。",
+          "pinyin": "zhǐ jiàn yì zhī jù dà de dòng wù zài jǐng biān dī tóu kàn zhe tā, bèi shàng yǒu yí ge yòu yuán yòu hòu de yìng ké, ké shàng hái yǒu piào liàng de gé zi huā wén. tā yǒu zhòu zhòu de bó zi, hái yǒu yì shuāng hěn wēn róu de yǎn jīng."
+        },
+        "trad": {
+          "text": "只見一隻巨大的動物在井邊低頭看著他，背上有一個又圓又厚的硬殼，殼上還有漂亮的格子花紋。他有皺皺的脖子，還有一雙很溫柔的眼睛。",
+          "zhuyin": "ㄓˇ ㄐㄧㄢˋ ㄧˋ ㄓ ㄐㄩˋ ㄉㄚˋ ㄉㄜ˙ ㄉㄨㄥˋ ㄨˋ ㄗㄞˋ ㄐㄧㄥˇ ㄅㄧㄢ ㄉㄧ ㄊㄡˊ ㄎㄢˋ ㄓㄜ˙ ㄊㄚ，ㄅㄟˋ ㄕㄤˋ ㄧㄡˇ ㄧˊ ㄍㄜ˙ ㄧㄡˋ ㄩㄢˊ ㄧㄡˋ ㄏㄡˋ ㄉㄜ˙ ㄧㄥˋ ㄎㄜˊ，ㄎㄜˊ ㄕㄤˋ ㄏㄞˊ ㄧㄡˇ ㄆㄧㄠˋ ㄌㄧㄤˋ ㄉㄜ˙ ㄍㄜˊ ㄗ˙ ㄏㄨㄚ ㄨㄣˊ。ㄊㄚ ㄧㄡˇ ㄓㄡˋ ㄓㄡˋ ㄉㄜ˙ ㄅㄛˊ ㄗ˙，ㄏㄞˊ ㄧㄡˇ ㄧˋ ㄕㄨㄤ ㄏㄣˇ ㄨㄣ ㄖㄡˊ ㄉㄜ˙ ㄧㄢˇ ㄐㄧㄥ。"
+        },
+        "en": "There leaning down over the well stood a huge animal. On his back was a round, thick, hard shell, with a beautiful pattern of squares. He had a wrinkled neck and a pair of very gentle eyes."
+      },
+      {
+        "id": "p018",
+        "simp": {
+          "text": "呱呱结结巴巴地问：",
+          "pinyin": "guā guā jiē jiē bā bā de wèn:"
+        },
+        "trad": {
+          "text": "呱呱結結巴巴地問：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄐㄧㄝ ㄐㄧㄝ ㄅㄚ ㄅㄚ ㄉㄜ˙ ㄨㄣˋ："
+        },
+        "en": "Gua Gua asked, stammering:"
+      },
+      {
+        "id": "p019",
+        "simp": {
+          "text": "「你⋯⋯你是谁啊？」",
+          "pinyin": "nǐ... nǐ shì shéi a?"
+        },
+        "trad": {
+          "text": "「你⋯⋯你是誰啊？」",
+          "zhuyin": "「ㄋㄧˇ⋯⋯ㄋㄧˇ ㄕˋ ㄕㄟˊ ㄚ˙？」"
+        },
+        "en": "\"Y...you... who are you?\""
+      },
+      {
+        "id": "p020",
+        "simp": {
+          "text": "那只大动物低下头，朝井里瞧了瞧，慢慢地说：",
+          "pinyin": "nà zhī dà dòng wù dī xià tóu, cháo jǐng lǐ qiáo le qiáo, màn màn de shuō:"
+        },
+        "trad": {
+          "text": "那隻大動物低下頭，朝井裡瞧了瞧，慢慢地說：",
+          "zhuyin": "ㄋㄚˋ ㄓ ㄉㄚˋ ㄉㄨㄥˋ ㄨˋ ㄉㄧ ㄒㄧㄚˋ ㄊㄡˊ，ㄔㄠˊ ㄐㄧㄥˇ ㄌㄧˇ ㄑㄧㄠˊ ㄌㄜ˙ ㄑㄧㄠˊ，ㄇㄢˋ ㄇㄢˋ ㄉㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "The big animal lowered his head, peeked down into the well, and said slowly:"
+      },
+      {
+        "id": "p021",
+        "simp": {
+          "text": "「你好呀，小朋友。我叫做老海，是一只海龟。我从很远的地方走过来，想找个地方歇歇脚。」",
+          "pinyin": "nǐ hǎo ya, xiǎo péng yǒu. wǒ jiào zuò lǎo hǎi, shì yì zhī hǎi guī. wǒ cóng hěn yuǎn de dì fāng zǒu guò lái, xiǎng zhǎo ge dì fāng xiē xiē jiǎo."
+        },
+        "trad": {
+          "text": "「你好呀，小朋友。我叫做老海，是一隻海龜。我從很遠的地方走過來，想找個地方歇歇腳。」",
+          "zhuyin": "「ㄋㄧˇ ㄏㄠˇ ㄧㄚ˙，ㄒㄧㄠˇ ㄆㄥˊ ㄧㄡˇ。ㄨㄛˇ ㄐㄧㄠˋ ㄗㄨㄛˋ ㄌㄠˇ ㄏㄞˇ，ㄕˋ ㄧˋ ㄓ ㄏㄞˇ ㄍㄨㄟ。ㄨㄛˇ ㄘㄨㄥˊ ㄏㄣˇ ㄩㄢˇ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ ㄗㄡˇ ㄍㄨㄛˋ ㄌㄞˊ，ㄒㄧㄤˇ ㄓㄠˇ ㄍㄜ˙ ㄉㄧˋ ㄈㄤ ㄒㄧㄝ ㄒㄧㄝ ㄐㄧㄠˇ。」"
+        },
+        "en": "\"Hello there, little friend. My name is Lao Hai, and I'm a sea turtle. I've walked here from a very faraway place, and I'm looking for somewhere to rest my feet.\""
+      },
+      {
+        "id": "p022",
+        "simp": {
+          "text": "呱呱从来没听过这个名字，好奇地问：",
+          "pinyin": "guā guā cóng lái méi tīng guò zhè ge míng zi, hào qí de wèn:"
+        },
+        "trad": {
+          "text": "呱呱從來沒聽過這個名字，好奇地問：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄘㄨㄥˊ ㄌㄞˊ ㄇㄟˊ ㄊㄧㄥ ㄍㄨㄛˋ ㄓㄜˋ ㄍㄜ˙ ㄇㄧㄥˊ ㄗ˙，ㄏㄠˋ ㄑㄧˊ ㄉㄜ˙ ㄨㄣˋ："
+        },
+        "en": "Gua Gua had never heard that name before, and asked curiously:"
+      },
+      {
+        "id": "p023",
+        "simp": {
+          "text": "「海⋯⋯龟？海龟是什么呢？」",
+          "pinyin": "hǎi... guī? hǎi guī shì shén me ne?"
+        },
+        "trad": {
+          "text": "「海⋯⋯龜？海龜是什麼呢？」",
+          "zhuyin": "「ㄏㄞˇ⋯⋯ㄍㄨㄟ？ㄏㄞˇ ㄍㄨㄟ ㄕˋ ㄕㄣˊ ㄇㄜ˙ ㄋㄜ˙？」"
+        },
+        "en": "\"Sea... turtle? What's a sea turtle?\""
+      },
+      {
+        "id": "p024",
+        "simp": {
+          "text": "老海笑了笑，没有马上回答，反而问呱呱：",
+          "pinyin": "lǎo hǎi xiào le xiào, méi yǒu mǎ shàng huí dá, fǎn ér wèn guā guā:"
+        },
+        "trad": {
+          "text": "老海笑了笑，沒有馬上回答，反而問呱呱：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄒㄧㄠˋ ㄌㄜ˙ ㄒㄧㄠˋ，ㄇㄟˊ ㄧㄡˇ ㄇㄚˇ ㄕㄤˋ ㄏㄨㄟˊ ㄉㄚˊ，ㄈㄢˇ ㄦˊ ㄨㄣˋ ㄍㄨㄚ ㄍㄨㄚ："
+        },
+        "en": "Lao Hai chuckled. He didn't answer right away, but instead asked Gua Gua:"
+      },
+      {
+        "id": "p025",
+        "simp": {
+          "text": "「小青蛙呀，你住在这口井里多久啦？」",
+          "pinyin": "xiǎo qīng wā ya, nǐ zhù zài zhè kǒu jǐng lǐ duō jiǔ la?"
+        },
+        "trad": {
+          "text": "「小青蛙呀，你住在這口井裡多久啦？」",
+          "zhuyin": "「ㄒㄧㄠˇ ㄑㄧㄥ ㄨㄚ ㄧㄚ˙，ㄋㄧˇ ㄓㄨˋ ㄗㄞˋ ㄓㄜˋ ㄎㄡˇ ㄐㄧㄥˇ ㄌㄧˇ ㄉㄨㄛ ㄐㄧㄡˇ ㄌㄚ˙？」"
+        },
+        "en": "\"Little frog, how long have you lived in this well?\""
+      },
+      {
+        "id": "p026",
+        "simp": {
+          "text": "呱呱挺起胸膛，得意地说：",
+          "pinyin": "guā guā tǐng qǐ xiōng táng, dé yì de shuō:"
+        },
+        "trad": {
+          "text": "呱呱挺起胸膛，得意地說：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄊㄧㄥˇ ㄑㄧˇ ㄒㄩㄥ ㄊㄤˊ，ㄉㄜˊ ㄧˋ ㄉㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "Gua Gua puffed out his chest and said proudly:"
+      },
+      {
+        "id": "p027",
+        "simp": {
+          "text": "「我住了好久好久喔！这里是我的家！我跟你说，我这个家可棒了！要不要我带你参观一下？」",
+          "pinyin": "wǒ zhù le hǎo jiǔ hǎo jiǔ wō! zhè lǐ shì wǒ de jiā! wǒ gēn nǐ shuō, wǒ zhè ge jiā kě bàng le! yào bú yào wǒ dài nǐ cān guān yí xià?"
+        },
+        "trad": {
+          "text": "「我住了好久好久喔！這裡是我的家！我跟你說，我這個家可棒了！要不要我帶你參觀一下？」",
+          "zhuyin": "「ㄨㄛˇ ㄓㄨˋ ㄌㄜ˙ ㄏㄠˇ ㄐㄧㄡˇ ㄏㄠˇ ㄐㄧㄡˇ ㄨㄛ！ㄓㄜˋ ㄌㄧˇ ㄕˋ ㄨㄛˇ ㄉㄜ˙ ㄐㄧㄚ！ㄨㄛˇ ㄍㄣ ㄋㄧˇ ㄕㄨㄛ，ㄨㄛˇ ㄓㄜˋ ㄍㄜ˙ ㄐㄧㄚ ㄎㄜˇ ㄅㄤˋ ㄌㄜ˙！ㄧㄠˋ ㄅㄨˊ ㄧㄠˋ ㄨㄛˇ ㄉㄞˋ ㄋㄧˇ ㄘㄢ ㄍㄨㄢ ㄧˊ ㄒㄧㄚˋ？」"
+        },
+        "en": "\"I've lived here for a long, long time! This is my home! Let me tell you, my home is the greatest! Would you like me to give you a tour?\""
+      },
+      {
+        "id": "p028",
+        "simp": {
+          "text": "老海眨眨眼睛，觉得这只小青蛙真可爱，就点点头说：",
+          "pinyin": "lǎo hǎi zhǎ zhǎ yǎn jīng, jué de zhè zhī xiǎo qīng wā zhēn kě ài, jiù diǎn diǎn tóu shuō:"
+        },
+        "trad": {
+          "text": "老海眨眨眼睛，覺得這隻小青蛙真可愛，就點點頭說：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄓㄚˇ ㄓㄚˇ ㄧㄢˇ ㄐㄧㄥ，ㄐㄩㄝˊ ㄉㄜ˙ ㄓㄜˋ ㄓ ㄒㄧㄠˇ ㄑㄧㄥ ㄨㄚ ㄓㄣ ㄎㄜˇ ㄞˋ，ㄐㄧㄡˋ ㄉㄧㄢˇ ㄉㄧㄢˇ ㄊㄡˊ ㄕㄨㄛ："
+        },
+        "en": "Lao Hai blinked, thinking what a cute little frog he was, and nodded:"
+      },
+      {
+        "id": "p029",
+        "simp": {
+          "text": "「好啊，你说来听听。」",
+          "pinyin": "hǎo a, nǐ shuō lái tīng tīng."
+        },
+        "trad": {
+          "text": "「好啊，你說來聽聽。」",
+          "zhuyin": "「ㄏㄠˇ ㄚ˙，ㄋㄧˇ ㄕㄨㄛ ㄌㄞˊ ㄊㄧㄥ ㄊㄧㄥ。」"
+        },
+        "en": "\"All right then, tell me about it.\""
+      },
+      {
+        "id": "p030",
+        "simp": {
+          "text": "呱呱开心极了，难得有客人来，他立刻兴奋地介绍起来。",
+          "pinyin": "guā guā kāi xīn jí le, nán dé yǒu kè rén lái, tā lì kè xīng fèn de jiè shào qǐ lái."
+        },
+        "trad": {
+          "text": "呱呱開心極了，難得有客人來，他立刻興奮地介紹起來。",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄎㄞ ㄒㄧㄣ ㄐㄧˊ ㄌㄜ˙，ㄋㄢˊ ㄉㄜˊ ㄧㄡˇ ㄎㄜˋ ㄖㄣˊ ㄌㄞˊ，ㄊㄚ ㄌㄧˋ ㄎㄜˋ ㄒㄧㄥ ㄈㄣˋ ㄉㄜ˙ ㄐㄧㄝˋ ㄕㄠˋ ㄑㄧˇ ㄌㄞˊ。"
+        },
+        "en": "Gua Gua was overjoyed. It was so rare to have a visitor, and he immediately started introducing things excitedly."
+      },
+      {
+        "id": "p031",
+        "simp": {
+          "text": "呱呱兴奋地说：",
+          "pinyin": "guā guā xīng fèn de shuō:"
+        },
+        "trad": {
+          "text": "呱呱興奮地說：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄒㄧㄥ ㄈㄣˋ ㄉㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "Gua Gua exclaimed:"
+      },
+      {
+        "id": "p032",
+        "simp": {
+          "text": "「你看你看！我这口井里有清清凉凉的水，渴了就可以喝一口！井壁上有好多软软的青苔，睡觉的时候躺在上面，比棉花还要舒服喔！你抬头看看，天空圆圆的、蓝蓝的，多漂亮啊！晚上还有星星闪闪发光呢！」",
+          "pinyin": "nǐ kàn nǐ kàn! wǒ zhè kǒu jǐng lǐ yǒu qīng qīng liáng liáng de shuǐ, kě le jiù kě yǐ hē yì kǒu! jǐng bì shàng yǒu hǎo duō ruǎn ruǎn de qīng tái, shuì jiào de shí hòu tǎng zài shàng miàn, bǐ mián huā hái yào shū fú wō! nǐ tái tóu kàn kàn, tiān kōng yuán yuán de, lán lán de, duō piào liàng a! wǎn shàng hái yǒu xīng xīng shǎn shǎn fā guāng ne!"
+        },
+        "trad": {
+          "text": "「你看你看！我這口井裡有清清涼涼的水，渴了就可以喝一口！井壁上有好多軟軟的青苔，睡覺的時候躺在上面，比棉花還要舒服喔！你抬頭看看，天空圓圓的、藍藍的，多漂亮啊！晚上還有星星閃閃發光呢！」",
+          "zhuyin": "「ㄋㄧˇ ㄎㄢˋ ㄋㄧˇ ㄎㄢˋ！ㄨㄛˇ ㄓㄜˋ ㄎㄡˇ ㄐㄧㄥˇ ㄌㄧˇ ㄧㄡˇ ㄑㄧㄥ ㄑㄧㄥ ㄌㄧㄤˊ ㄌㄧㄤˊ ㄉㄜ˙ ㄕㄨㄟˇ，ㄎㄜˇ ㄌㄜ˙ ㄐㄧㄡˋ ㄎㄜˇ ㄧˇ ㄏㄜ ㄧˋ ㄎㄡˇ！ㄐㄧㄥˇ ㄅㄧˋ ㄕㄤˋ ㄧㄡˇ ㄏㄠˇ ㄉㄨㄛ ㄖㄨㄢˇ ㄖㄨㄢˇ ㄉㄜ˙ ㄑㄧㄥ ㄊㄞˊ，ㄕㄨㄟˋ ㄐㄧㄠˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄊㄤˇ ㄗㄞˋ ㄕㄤˋ ㄇㄧㄢˋ，ㄅㄧˇ ㄇㄧㄢˊ ㄏㄨㄚ ㄏㄞˊ ㄧㄠˋ ㄕㄨ ㄈㄨˊ ㄨㄛ！ㄋㄧˇ ㄊㄞˊ ㄊㄡˊ ㄎㄢˋ ㄎㄢˋ，ㄊㄧㄢ ㄎㄨㄥ ㄩㄢˊ ㄩㄢˊ ㄉㄜ˙、ㄌㄢˊ ㄌㄢˊ ㄉㄜ˙，ㄉㄨㄛ ㄆㄧㄠˋ ㄌㄧㄤˋ ㄚ˙！ㄨㄢˇ ㄕㄤˋ ㄏㄞˊ ㄧㄡˇ ㄒㄧㄥ ㄒㄧㄥ ㄕㄢˇ ㄕㄢˇ ㄈㄚ ㄍㄨㄤ ㄋㄜ˙！」"
+        },
+        "en": "\"Look, look! My well here has cool, refreshing water, so when I'm thirsty I can take a sip! The walls are covered in soft moss, and when it's time to sleep, lying on it is more comfortable than cotton! Look up: the sky is round and blue, so beautiful! And at night there are even twinkling stars!\""
+      },
+      {
+        "id": "p033",
+        "simp": {
+          "text": "呱呱越说越兴奋，蹦来蹦去地问：",
+          "pinyin": "guā guā yuè shuō yuè xīng fèn, bèng lái bèng qù de wèn:"
+        },
+        "trad": {
+          "text": "呱呱越說越興奮，蹦來蹦去地問：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄩㄝˋ ㄕㄨㄛ ㄩㄝˋ ㄒㄧㄥ ㄈㄣˋ，ㄅㄥˋ ㄌㄞˊ ㄅㄥˋ ㄑㄩˋ ㄉㄜ˙ ㄨㄣˋ："
+        },
+        "en": "The more Gua Gua talked, the more excited he got, hopping back and forth and asking:"
+      },
+      {
+        "id": "p034",
+        "simp": {
+          "text": "「你说，是不是天底下最棒的家？」",
+          "pinyin": "nǐ shuō, shì bú shì tiān dǐ xià zuì bàng de jiā?"
+        },
+        "trad": {
+          "text": "「你說，是不是天底下最棒的家？」",
+          "zhuyin": "「ㄋㄧˇ ㄕㄨㄛ，ㄕˋ ㄅㄨˊ ㄕˋ ㄊㄧㄢ ㄉㄧˇ ㄒㄧㄚˋ ㄗㄨㄟˋ ㄅㄤˋ ㄉㄜ˙ ㄐㄧㄚ？」"
+        },
+        "en": "\"Tell me, isn't this the best home in all the world?\""
+      },
+      {
+        "id": "p035",
+        "simp": {
+          "text": "老海听完了，慢慢地点点头：",
+          "pinyin": "lǎo hǎi tīng wán le, màn màn de diǎn diǎn tóu:"
+        },
+        "trad": {
+          "text": "老海聽完了，慢慢地點點頭：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄊㄧㄥ ㄨㄢˊ ㄌㄜ˙，ㄇㄢˋ ㄇㄢˋ ㄉㄜ˙ ㄉㄧㄢˇ ㄉㄧㄢˇ ㄊㄡˊ："
+        },
+        "en": "After Lao Hai had listened, he slowly nodded:"
+      },
+      {
+        "id": "p036",
+        "simp": {
+          "text": "「嗯，这口井确实很有意思，看起来小巧又温馨。」",
+          "pinyin": "èn, zhè kǒu jǐng què shí hěn yǒu yì sī, kàn qǐ lái xiǎo qiǎo yòu wēn xīn."
+        },
+        "trad": {
+          "text": "「嗯，這口井確實很有意思，看起來小巧又溫馨。」",
+          "zhuyin": "「ㄣˋ，ㄓㄜˋ ㄎㄡˇ ㄐㄧㄥˇ ㄑㄩㄝˋ ㄕˊ ㄏㄣˇ ㄧㄡˇ ㄧˋ ㄙ，ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄒㄧㄠˇ ㄑㄧㄠˇ ㄧㄡˋ ㄨㄣ ㄒㄧㄣ。」"
+        },
+        "en": "\"Mm, this well really is interesting. It looks small and very cozy.\""
+      },
+      {
+        "id": "p037",
+        "simp": {
+          "text": "呱呱听到客人夸奖自己的家，得意得不得了。他热情地邀请：",
+          "pinyin": "guā guā tīng dào kè rén kuā jiǎng zì jǐ de jiā, dé yì de bù dé liǎo. tā rè qíng de yāo qǐng:"
+        },
+        "trad": {
+          "text": "呱呱聽到客人誇獎自己的家，得意得不得了。他熱情地邀請：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄊㄧㄥ ㄉㄠˋ ㄎㄜˋ ㄖㄣˊ ㄎㄨㄚ ㄐㄧㄤˇ ㄗˋ ㄐㄧˇ ㄉㄜ˙ ㄐㄧㄚ，ㄉㄜˊ ㄧˋ ㄉㄜ˙ ㄅㄨˋ ㄉㄜˊ ㄌㄧㄠˇ。ㄊㄚ ㄖㄜˋ ㄑㄧㄥˊ ㄉㄜ˙ ㄧㄠ ㄑㄧㄥˇ："
+        },
+        "en": "Hearing his guest praise his home, Gua Gua felt enormously proud. He warmly invited him:"
+      },
+      {
+        "id": "p038",
+        "simp": {
+          "text": "「老海大哥，要不要下来坐坐呀？」",
+          "pinyin": "lǎo hǎi dà gē, yào bú yào xià lái zuò zuò ya?"
+        },
+        "trad": {
+          "text": "「老海大哥，要不要下來坐坐呀？」",
+          "zhuyin": "「ㄌㄠˇ ㄏㄞˇ ㄉㄚˋ ㄍㄜ，ㄧㄠˋ ㄅㄨˊ ㄧㄠˋ ㄒㄧㄚˋ ㄌㄞˊ ㄗㄨㄛˋ ㄗㄨㄛˋ ㄧㄚ˙？」"
+        },
+        "en": "\"Big Brother Lao Hai, would you like to come down and have a seat?\""
+      },
+      {
+        "id": "p039",
+        "simp": {
+          "text": "老海看了看井口，又看了看自己又圆又厚的大壳，摇摇头笑着说：",
+          "pinyin": "lǎo hǎi kàn le kàn jǐng kǒu, yòu kàn le kàn zì jǐ yòu yuán yòu hòu de dà ké, yáo yáo tóu xiào zhe shuō:"
+        },
+        "trad": {
+          "text": "老海看了看井口，又看了看自己又圓又厚的大殼，搖搖頭笑著說：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄎㄢˋ ㄌㄜ˙ ㄎㄢˋ ㄐㄧㄥˇ ㄎㄡˇ，ㄧㄡˋ ㄎㄢˋ ㄌㄜ˙ ㄎㄢˋ ㄗˋ ㄐㄧˇ ㄧㄡˋ ㄩㄢˊ ㄧㄡˋ ㄏㄡˋ ㄉㄜ˙ ㄉㄚˋ ㄎㄜˊ，ㄧㄠˊ ㄧㄠˊ ㄊㄡˊ ㄒㄧㄠˋ ㄓㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "Lao Hai looked at the well's opening, then looked at his own round, thick shell, shook his head, and said with a smile:"
+      },
+      {
+        "id": "p040",
+        "simp": {
+          "text": "「谢谢你的好意，小青蛙。可是你看，我的身体这么大，井口这么小，我恐怕进不去呢。」",
+          "pinyin": "xiè xiè nǐ de hǎo yì, xiǎo qīng wā. kě shì nǐ kàn, wǒ de shēn tǐ zhè me dà, jǐng kǒu zhè me xiǎo, wǒ kǒng pà jìn bú qù ne."
+        },
+        "trad": {
+          "text": "「謝謝你的好意，小青蛙。可是你看，我的身體這麼大，井口這麼小，我恐怕進不去呢。」",
+          "zhuyin": "「ㄒㄧㄝˋ ㄒㄧㄝˋ ㄋㄧˇ ㄉㄜ˙ ㄏㄠˇ ㄧˋ，ㄒㄧㄠˇ ㄑㄧㄥ ㄨㄚ。ㄎㄜˇ ㄕˋ ㄋㄧˇ ㄎㄢˋ，ㄨㄛˇ ㄉㄜ˙ ㄕㄣ ㄊㄧˇ ㄓㄜˋ ㄇㄜ˙ ㄉㄚˋ，ㄐㄧㄥˇ ㄎㄡˇ ㄓㄜˋ ㄇㄜ˙ ㄒㄧㄠˇ，ㄨㄛˇ ㄎㄨㄥˇ ㄆㄚˋ ㄐㄧㄣˋ ㄅㄨˊ ㄑㄩˋ ㄋㄜ˙。」"
+        },
+        "en": "\"Thank you for the kind invitation, little frog. But look, my body is so large and the well's opening is so small. I'm afraid I wouldn't fit.\""
+      },
+      {
+        "id": "p041",
+        "simp": {
+          "text": "呱呱低下头看了看自己的小井，又抬头看了看老海大大的身体，这才发现确实是这样。他有点不好意思地说：",
+          "pinyin": "guā guā dī xià tóu kàn le kàn zì jǐ de xiǎo jǐng, yòu tái tóu kàn le kàn lǎo hǎi dà dà de shēn tǐ, zhè cái fā xiàn què shí shì zhè yàng. tā yǒu diǎn bù hǎo yì sī de shuō:"
+        },
+        "trad": {
+          "text": "呱呱低下頭看了看自己的小井，又抬頭看了看老海大大的身體，這才發現確實是這樣。他有點不好意思地說：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄉㄧ ㄒㄧㄚˋ ㄊㄡˊ ㄎㄢˋ ㄌㄜ˙ ㄎㄢˋ ㄗˋ ㄐㄧˇ ㄉㄜ˙ ㄒㄧㄠˇ ㄐㄧㄥˇ，ㄧㄡˋ ㄊㄞˊ ㄊㄡˊ ㄎㄢˋ ㄌㄜ˙ ㄎㄢˋ ㄌㄠˇ ㄏㄞˇ ㄉㄚˋ ㄉㄚˋ ㄉㄜ˙ ㄕㄣ ㄊㄧˇ，ㄓㄜˋ ㄘㄞˊ ㄈㄚ ㄒㄧㄢˋ ㄑㄩㄝˋ ㄕˊ ㄕˋ ㄓㄜˋ ㄧㄤˋ。ㄊㄚ ㄧㄡˇ ㄉㄧㄢˇ ㄅㄨˋ ㄏㄠˇ ㄧˋ ㄙ ㄉㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "Gua Gua lowered his head to look at his little well, then looked up at Lao Hai's big body, and only then realized it was true. Feeling a little embarrassed, he said:"
+      },
+      {
+        "id": "p042",
+        "simp": {
+          "text": "「对不起呀，我的家有点小⋯⋯」",
+          "pinyin": "duì bù qǐ ya, wǒ de jiā yǒu diǎn xiǎo..."
+        },
+        "trad": {
+          "text": "「對不起呀，我的家有點小⋯⋯」",
+          "zhuyin": "「ㄉㄨㄟˋ ㄅㄨˋ ㄑㄧˇ ㄧㄚ˙，ㄨㄛˇ ㄉㄜ˙ ㄐㄧㄚ ㄧㄡˇ ㄉㄧㄢˇ ㄒㄧㄠˇ⋯⋯」"
+        },
+        "en": "\"I'm sorry, my home is kind of small...\""
+      },
+      {
+        "id": "p043",
+        "simp": {
+          "text": "老海连忙摇头，笑着说：",
+          "pinyin": "lǎo hǎi lián máng yáo tóu, xiào zhe shuō:"
+        },
+        "trad": {
+          "text": "老海連忙搖頭，笑著說：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄌㄧㄢˊ ㄇㄤˊ ㄧㄠˊ ㄊㄡˊ，ㄒㄧㄠˋ ㄓㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "Lao Hai quickly shook his head and said with a smile:"
+      },
+      {
+        "id": "p044",
+        "simp": {
+          "text": "「不不不，你的家很好，是我太大了。」",
+          "pinyin": "bú bú bù, nǐ de jiā hěn hǎo, shì wǒ tài dà le."
+        },
+        "trad": {
+          "text": "「不不不，你的家很好，是我太大了。」",
+          "zhuyin": "「ㄅㄨˊ ㄅㄨˊ ㄅㄨˋ，ㄋㄧˇ ㄉㄜ˙ ㄐㄧㄚ ㄏㄣˇ ㄏㄠˇ，ㄕˋ ㄨㄛˇ ㄊㄞˋ ㄉㄚˋ ㄌㄜ˙。」"
+        },
+        "en": "\"No, no, no, your home is wonderful. It's just that I'm too big.\""
+      },
+      {
+        "id": "p045",
+        "simp": {
+          "text": "老海顿了一下，慢慢地问：",
+          "pinyin": "lǎo hǎi dùn le yí xià, màn màn de wèn:"
+        },
+        "trad": {
+          "text": "老海頓了一下，慢慢地問：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄉㄨㄣˋ ㄌㄜ˙ ㄧˊ ㄒㄧㄚˋ，ㄇㄢˋ ㄇㄢˋ ㄉㄜ˙ ㄨㄣˋ："
+        },
+        "en": "Lao Hai paused for a moment, then slowly asked:"
+      },
+      {
+        "id": "p046",
+        "simp": {
+          "text": "「小青蛙，我想问问你，你看过大海吗？」",
+          "pinyin": "xiǎo qīng wā, wǒ xiǎng wèn wèn nǐ, nǐ kàn guò dà hǎi ma?"
+        },
+        "trad": {
+          "text": "「小青蛙，我想問問你，你看過大海嗎？」",
+          "zhuyin": "「ㄒㄧㄠˇ ㄑㄧㄥ ㄨㄚ，ㄨㄛˇ ㄒㄧㄤˇ ㄨㄣˋ ㄨㄣˋ ㄋㄧˇ，ㄋㄧˇ ㄎㄢˋ ㄍㄨㄛˋ ㄉㄚˋ ㄏㄞˇ ㄇㄚ˙？」"
+        },
+        "en": "\"Little frog, I'd like to ask you something. Have you ever seen the sea?\""
+      },
+      {
+        "id": "p047",
+        "simp": {
+          "text": "呱呱歪着头，疑惑地问：",
+          "pinyin": "guā guā wāi zhe tóu, yí huò de wèn:"
+        },
+        "trad": {
+          "text": "呱呱歪著頭，疑惑地問：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄨㄞ ㄓㄜ˙ ㄊㄡˊ，ㄧˊ ㄏㄨㄛˋ ㄉㄜ˙ ㄨㄣˋ："
+        },
+        "en": "Gua Gua tilted his head and asked, puzzled:"
+      },
+      {
+        "id": "p048",
+        "simp": {
+          "text": "「大海？那是什么呀？」",
+          "pinyin": "dà hǎi? nà shì shén me ya?"
+        },
+        "trad": {
+          "text": "「大海？那是什麼呀？」",
+          "zhuyin": "「ㄉㄚˋ ㄏㄞˇ？ㄋㄚˋ ㄕˋ ㄕㄣˊ ㄇㄜ˙ ㄧㄚ˙？」"
+        },
+        "en": "\"The sea? What's that?\""
+      },
+      {
+        "id": "p049",
+        "simp": {
+          "text": "老海温柔地说：",
+          "pinyin": "lǎo hǎi wēn róu de shuō:"
+        },
+        "trad": {
+          "text": "老海溫柔地說：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄨㄣ ㄖㄡˊ ㄉㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "Lao Hai said gently:"
+      },
+      {
+        "id": "p050",
+        "simp": {
+          "text": "「大海呀，是一个非常非常非常大的地方。那里的水，从这一边看不到那一边，从早上游到晚上，也游不到尽头。海面上有大大小小的浪花，一波接着一波。」",
+          "pinyin": "dà hǎi ya, shì yí ge fēi cháng fēi cháng fēi cháng dà de dì fāng. nà lǐ de shuǐ, cóng zhè yì biān kàn bú dào nà yì biān, cóng zǎo shàng yóu dào wǎn shàng, yě yóu bú dào jìn tóu. hǎi miàn shàng yǒu dà dà xiǎo xiǎo de làng huā, yì bō jiē zhe yì bō."
+        },
+        "trad": {
+          "text": "「大海呀，是一個非常非常非常大的地方。那裡的水，從這一邊看不到那一邊，從早上游到晚上，也游不到盡頭。海面上有大大小小的浪花，一波接著一波。」",
+          "zhuyin": "「ㄉㄚˋ ㄏㄞˇ ㄧㄚ˙，ㄕˋ ㄧˊ ㄍㄜ˙ ㄈㄟ ㄔㄤˊ ㄈㄟ ㄔㄤˊ ㄈㄟ ㄔㄤˊ ㄉㄚˋ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ。ㄋㄚˋ ㄌㄧˇ ㄉㄜ˙ ㄕㄨㄟˇ，ㄘㄨㄥˊ ㄓㄜˋ ㄧˋ ㄅㄧㄢ ㄎㄢˋ ㄅㄨˊ ㄉㄠˋ ㄋㄚˋ ㄧˋ ㄅㄧㄢ，ㄘㄨㄥˊ ㄗㄠˇ ㄕㄤˋ ㄧㄡˊ ㄉㄠˋ ㄨㄢˇ ㄕㄤˋ，ㄧㄝˇ ㄧㄡˊ ㄅㄨˊ ㄉㄠˋ ㄐㄧㄣˋ ㄊㄡˊ。ㄏㄞˇ ㄇㄧㄢˋ ㄕㄤˋ ㄧㄡˇ ㄉㄚˋ ㄉㄚˋ ㄒㄧㄠˇ ㄒㄧㄠˇ ㄉㄜ˙ ㄌㄤˋ ㄏㄨㄚ，ㄧˋ ㄅㄛ ㄐㄧㄝ ㄓㄜ˙ ㄧˋ ㄅㄛ。」"
+        },
+        "en": "\"The sea is an extremely vast place. The water there is so wide that from one side you can't see the other, and even swimming from morning until night, you'd never reach the end. On its surface there are waves big and small, one rolling in after another.\""
+      },
+      {
+        "id": "p051",
+        "simp": {
+          "text": "呱呱睁大了眼睛，问：",
+          "pinyin": "guā guā zhēng dà le yǎn jīng, wèn:"
+        },
+        "trad": {
+          "text": "呱呱睜大了眼睛，問：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄓㄥ ㄉㄚˋ ㄌㄜ˙ ㄧㄢˇ ㄐㄧㄥ，ㄨㄣˋ："
+        },
+        "en": "Gua Gua opened his eyes wide and asked:"
+      },
+      {
+        "id": "p052",
+        "simp": {
+          "text": "「真的有那么大吗？」",
+          "pinyin": "zhēn de yǒu nà me dà ma?"
+        },
+        "trad": {
+          "text": "「真的有那麼大嗎？」",
+          "zhuyin": "「ㄓㄣ ㄉㄜ˙ ㄧㄡˇ ㄋㄚˋ ㄇㄜ˙ ㄉㄚˋ ㄇㄚ˙？」"
+        },
+        "en": "\"Is it really that big?\""
+      },
+      {
+        "id": "p053",
+        "simp": {
+          "text": "老海继续说：",
+          "pinyin": "lǎo hǎi jì xù shuō:"
+        },
+        "trad": {
+          "text": "老海繼續說：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄐㄧˋ ㄒㄩˋ ㄕㄨㄛ："
+        },
+        "en": "Lao Hai continued:"
+      },
+      {
+        "id": "p054",
+        "simp": {
+          "text": "「不只是这样呢。大海里住着很多动物。有像房子那么大的鲸鱼，会从水面喷出高高的水柱；还有闪闪发光的小鱼群，几千几万条一起游来游去。」",
+          "pinyin": "bù zhǐ shì zhè yàng ne. dà hǎi lǐ zhù zhe hěn duō dòng wù. yǒu xiàng fáng zi nà me dà de jīng yú, huì cóng shuǐ miàn pēn chū gāo gāo de shuǐ zhù; hái yǒu shǎn shǎn fā guāng de xiǎo yú qún, jǐ qiān jǐ wàn tiáo yì qǐ yóu lái yóu qù."
+        },
+        "trad": {
+          "text": "「不只是這樣呢。大海裡住著很多動物。有像房子那麼大的鯨魚，會從水面噴出高高的水柱；還有閃閃發光的小魚群，幾千幾萬條一起游來游去。」",
+          "zhuyin": "「ㄅㄨˋ ㄓˇ ㄕˋ ㄓㄜˋ ㄧㄤˋ ㄋㄜ˙。ㄉㄚˋ ㄏㄞˇ ㄌㄧˇ ㄓㄨˋ ㄓㄜ˙ ㄏㄣˇ ㄉㄨㄛ ㄉㄨㄥˋ ㄨˋ。ㄧㄡˇ ㄒㄧㄤˋ ㄈㄤˊ ㄗ˙ ㄋㄚˋ ㄇㄜ˙ ㄉㄚˋ ㄉㄜ˙ ㄐㄧㄥ ㄩˊ，ㄏㄨㄟˋ ㄘㄨㄥˊ ㄕㄨㄟˇ ㄇㄧㄢˋ ㄆㄣ ㄔㄨ ㄍㄠ ㄍㄠ ㄉㄜ˙ ㄕㄨㄟˇ ㄓㄨˋ；ㄏㄞˊ ㄧㄡˇ ㄕㄢˇ ㄕㄢˇ ㄈㄚ ㄍㄨㄤ ㄉㄜ˙ ㄒㄧㄠˇ ㄩˊ ㄑㄩㄣˊ，ㄐㄧˇ ㄑㄧㄢ ㄐㄧˇ ㄨㄢˋ ㄊㄧㄠˊ ㄧˋ ㄑㄧˇ ㄧㄡˊ ㄌㄞˊ ㄧㄡˊ ㄑㄩˋ。」"
+        },
+        "en": "\"And that's not all. The sea is home to many animals. There are whales as big as houses that shoot tall fountains of water from the surface, and shimmering schools of little fish, thousands upon thousands of them swimming together.\""
+      },
+      {
+        "id": "p055",
+        "simp": {
+          "text": "呱呱听得目瞪口呆，嘴巴张得大大的：",
+          "pinyin": "guā guā tīng de mù dèng kǒu dāi, zuǐ bā zhāng de dà dà de:"
+        },
+        "trad": {
+          "text": "呱呱聽得目瞪口呆，嘴巴張得大大的：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄊㄧㄥ ㄉㄜ˙ ㄇㄨˋ ㄉㄥˋ ㄎㄡˇ ㄉㄞ，ㄗㄨㄟˇ ㄅㄚ ㄓㄤ ㄉㄜ˙ ㄉㄚˋ ㄉㄚˋ ㄉㄜ˙："
+        },
+        "en": "Gua Gua listened, dumbfounded, his mouth hanging wide open:"
+      },
+      {
+        "id": "p056",
+        "simp": {
+          "text": "「比⋯⋯比我这口井还要大吗？」",
+          "pinyin": "bǐ... bǐ wǒ zhè kǒu jǐng hái yào dà ma?"
+        },
+        "trad": {
+          "text": "「比⋯⋯比我這口井還要大嗎？」",
+          "zhuyin": "「ㄅㄧˇ⋯⋯ㄅㄧˇ ㄨㄛˇ ㄓㄜˋ ㄎㄡˇ ㄐㄧㄥˇ ㄏㄞˊ ㄧㄠˋ ㄉㄚˋ ㄇㄚ˙？」"
+        },
+        "en": "\"Bigger... bigger than my well here?\""
+      },
+      {
+        "id": "p057",
+        "simp": {
+          "text": "老海忍不住笑了：",
+          "pinyin": "lǎo hǎi rěn bú zhù xiào le:"
+        },
+        "trad": {
+          "text": "老海忍不住笑了：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄖㄣˇ ㄅㄨˊ ㄓㄨˋ ㄒㄧㄠˋ ㄌㄜ˙："
+        },
+        "en": "Lao Hai couldn't help laughing:"
+      },
+      {
+        "id": "p058",
+        "simp": {
+          "text": "「小青蛙，大海的大，是你完全没办法想像的。把你这口井装进大海里，就像在天空中放进一粒小小的米，根本看不见的。」",
+          "pinyin": "xiǎo qīng wā, dà hǎi de dà, shì nǐ wán quán méi bàn fǎ xiǎng xiàng de. bǎ nǐ zhè kǒu jǐng zhuāng jìn dà hǎi lǐ, jiù xiàng zài tiān kōng zhōng fàng jìn yí lì xiǎo xiǎo de mǐ, gēn běn kàn bú jiàn de."
+        },
+        "trad": {
+          "text": "「小青蛙，大海的大，是你完全沒辦法想像的。把你這口井裝進大海裡，就像在天空中放進一粒小小的米，根本看不見的。」",
+          "zhuyin": "「ㄒㄧㄠˇ ㄑㄧㄥ ㄨㄚ，ㄉㄚˋ ㄏㄞˇ ㄉㄜ˙ ㄉㄚˋ，ㄕˋ ㄋㄧˇ ㄨㄢˊ ㄑㄩㄢˊ ㄇㄟˊ ㄅㄢˋ ㄈㄚˇ ㄒㄧㄤˇ ㄒㄧㄤˋ ㄉㄜ˙。ㄅㄚˇ ㄋㄧˇ ㄓㄜˋ ㄎㄡˇ ㄐㄧㄥˇ ㄓㄨㄤ ㄐㄧㄣˋ ㄉㄚˋ ㄏㄞˇ ㄌㄧˇ，ㄐㄧㄡˋ ㄒㄧㄤˋ ㄗㄞˋ ㄊㄧㄢ ㄎㄨㄥ ㄓㄨㄥ ㄈㄤˋ ㄐㄧㄣˋ ㄧˊ ㄌㄧˋ ㄒㄧㄠˇ ㄒㄧㄠˇ ㄉㄜ˙ ㄇㄧˇ，ㄍㄣ ㄅㄣˇ ㄎㄢˋ ㄅㄨˊ ㄐㄧㄢˋ ㄉㄜ˙。」"
+        },
+        "en": "\"Little frog, the sea's vastness is something you simply cannot imagine. To put your well into the sea would be like dropping a single tiny grain of rice into the sky. You wouldn't even be able to see it.\""
+      },
+      {
+        "id": "p059",
+        "simp": {
+          "text": "呱呱呆呆地，小声地说：",
+          "pinyin": "guā guā dāi dāi de, xiǎo shēng de shuō:"
+        },
+        "trad": {
+          "text": "呱呱呆呆地，小聲地說：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄉㄞ ㄉㄞ ㄉㄜ˙，ㄒㄧㄠˇ ㄕㄥ ㄉㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "Gua Gua, completely stunned, said softly:"
+      },
+      {
+        "id": "p060",
+        "simp": {
+          "text": "「哇⋯⋯」",
+          "pinyin": "wā..."
+        },
+        "trad": {
+          "text": "「哇⋯⋯」",
+          "zhuyin": "「ㄨㄚ⋯⋯」"
+        },
+        "en": "\"Whoa...\""
+      },
+      {
+        "id": "p061",
+        "simp": {
+          "text": "老海看着呱呱发愣的小脸，又轻轻问了一句：",
+          "pinyin": "lǎo hǎi kàn zhe guā guā fā lèng de xiǎo liǎn, yòu qīng qīng wèn le yí jù:"
+        },
+        "trad": {
+          "text": "老海看著呱呱發愣的小臉，又輕輕問了一句：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄎㄢˋ ㄓㄜ˙ ㄍㄨㄚ ㄍㄨㄚ ㄈㄚ ㄌㄥˋ ㄉㄜ˙ ㄒㄧㄠˇ ㄌㄧㄢˇ，ㄧㄡˋ ㄑㄧㄥ ㄑㄧㄥ ㄨㄣˋ ㄌㄜ˙ ㄧˊ ㄐㄩˋ："
+        },
+        "en": "Lao Hai looked at Gua Gua's dazed little face and asked softly:"
+      },
+      {
+        "id": "p062",
+        "simp": {
+          "text": "「那么，小青蛙，你知道天空有多大吗？」",
+          "pinyin": "nà me, xiǎo qīng wā, nǐ zhī dào tiān kōng yǒu duō dà ma?"
+        },
+        "trad": {
+          "text": "「那麼，小青蛙，你知道天空有多大嗎？」",
+          "zhuyin": "「ㄋㄚˋ ㄇㄜ˙，ㄒㄧㄠˇ ㄑㄧㄥ ㄨㄚ，ㄋㄧˇ ㄓ ㄉㄠˋ ㄊㄧㄢ ㄎㄨㄥ ㄧㄡˇ ㄉㄨㄛ ㄉㄚˋ ㄇㄚ˙？」"
+        },
+        "en": "\"Then tell me, little frog, do you know how big the sky is?\""
+      },
+      {
+        "id": "p063",
+        "simp": {
+          "text": "呱呱听到这个问题，立刻又得意起来，因为这个他每天都在看呀！他指着井口，神气地回答：",
+          "pinyin": "guā guā tīng dào zhè ge wèn tí, lì kè yòu dé yì qǐ lái, yīn wèi zhè ge tā měi tiān dōu zài kàn ya! tā zhǐ zhe jǐng kǒu, shén qì de huí dá:"
+        },
+        "trad": {
+          "text": "呱呱聽到這個問題，立刻又得意起來，因為這個他每天都在看呀！他指著井口，神氣地回答：",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄊㄧㄥ ㄉㄠˋ ㄓㄜˋ ㄍㄜ˙ ㄨㄣˋ ㄊㄧˊ，ㄌㄧˋ ㄎㄜˋ ㄧㄡˋ ㄉㄜˊ ㄧˋ ㄑㄧˇ ㄌㄞˊ，ㄧㄣ ㄨㄟˋ ㄓㄜˋ ㄍㄜ˙ ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄉㄡ ㄗㄞˋ ㄎㄢˋ ㄧㄚ˙！ㄊㄚ ㄓˇ ㄓㄜ˙ ㄐㄧㄥˇ ㄎㄡˇ，ㄕㄣˊ ㄑㄧˋ ㄉㄜ˙ ㄏㄨㄟˊ ㄉㄚˊ："
+        },
+        "en": "Hearing this question, Gua Gua was instantly proud again, because this was something he looked at every single day! He pointed at the well's opening and answered confidently:"
+      },
+      {
+        "id": "p064",
+        "simp": {
+          "text": "「这个我知道！天空就只有井口那么大，圆圆的一块呀！」",
+          "pinyin": "zhè ge wǒ zhī dào! tiān kōng jiù zhǐ yǒu jǐng kǒu nà me dà, yuán yuán de yí kuài ya!"
+        },
+        "trad": {
+          "text": "「這個我知道！天空就只有井口那麼大，圓圓的一塊呀！」",
+          "zhuyin": "「ㄓㄜˋ ㄍㄜ˙ ㄨㄛˇ ㄓ ㄉㄠˋ！ㄊㄧㄢ ㄎㄨㄥ ㄐㄧㄡˋ ㄓˇ ㄧㄡˇ ㄐㄧㄥˇ ㄎㄡˇ ㄋㄚˋ ㄇㄜ˙ ㄉㄚˋ，ㄩㄢˊ ㄩㄢˊ ㄉㄜ˙ ㄧˊ ㄎㄨㄞˋ ㄧㄚ˙！」"
+        },
+        "en": "\"That one I know! The sky is just as big as the well's mouth, one round patch!\""
+      },
+      {
+        "id": "p065",
+        "simp": {
+          "text": "老海听了，慢慢地摇了摇头，叹了一口气，温和地说：",
+          "pinyin": "lǎo hǎi tīng le, màn màn de yáo le yáo tóu, tàn le yì kǒu qì, wēn hé de shuō:"
+        },
+        "trad": {
+          "text": "老海聽了，慢慢地搖了搖頭，嘆了一口氣，溫和地說：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄊㄧㄥ ㄌㄜ˙，ㄇㄢˋ ㄇㄢˋ ㄉㄜ˙ ㄧㄠˊ ㄌㄜ˙ ㄧㄠˊ ㄊㄡˊ，ㄊㄢˋ ㄌㄜ˙ ㄧˋ ㄎㄡˇ ㄑㄧˋ，ㄨㄣ ㄏㄜˊ ㄉㄜ˙ ㄕㄨㄛ："
+        },
+        "en": "When Lao Hai heard that, he slowly shook his head, sighed, and said gently:"
+      },
+      {
+        "id": "p066",
+        "simp": {
+          "text": "「小青蛙呀，天空其实比你想像的大太多了。它一望无际，从这座山一直延伸到那座山。白天的时候，太阳从东边升起，从西边落下，要花一整天才走得完。」",
+          "pinyin": "xiǎo qīng wā ya, tiān kōng qí shí bǐ nǐ xiǎng xiàng de dà tài duō le. tā yí wàng wú jì, cóng zhè zuò shān yì zhí yán shēn dào nà zuò shān. bái tiān de shí hòu, tài yáng cóng dōng biān shēng qǐ, cóng xī biān luò xià, yào huā yì zhěng tiān cái zǒu de wán."
+        },
+        "trad": {
+          "text": "「小青蛙呀，天空其實比你想像的大太多了。它一望無際，從這座山一直延伸到那座山。白天的時候，太陽從東邊升起，從西邊落下，要花一整天才走得完。」",
+          "zhuyin": "「ㄒㄧㄠˇ ㄑㄧㄥ ㄨㄚ ㄧㄚ˙，ㄊㄧㄢ ㄎㄨㄥ ㄑㄧˊ ㄕˊ ㄅㄧˇ ㄋㄧˇ ㄒㄧㄤˇ ㄒㄧㄤˋ ㄉㄜ˙ ㄉㄚˋ ㄊㄞˋ ㄉㄨㄛ ㄌㄜ˙。ㄊㄚ ㄧˊ ㄨㄤˋ ㄨˊ ㄐㄧˋ，ㄘㄨㄥˊ ㄓㄜˋ ㄗㄨㄛˋ ㄕㄢ ㄧˋ ㄓˊ ㄧㄢˊ ㄕㄣ ㄉㄠˋ ㄋㄚˋ ㄗㄨㄛˋ ㄕㄢ。ㄅㄞˊ ㄊㄧㄢ ㄉㄜ˙ ㄕˊ ㄏㄡˋ，ㄊㄞˋ ㄧㄤˊ ㄘㄨㄥˊ ㄉㄨㄥ ㄅㄧㄢ ㄕㄥ ㄑㄧˇ，ㄘㄨㄥˊ ㄒㄧ ㄅㄧㄢ ㄌㄨㄛˋ ㄒㄧㄚˋ，ㄧㄠˋ ㄏㄨㄚ ㄧˋ ㄓㄥˇ ㄊㄧㄢ ㄘㄞˊ ㄗㄡˇ ㄉㄜ˙ ㄨㄢˊ。」"
+        },
+        "en": "\"Little frog, the sky is actually far, far bigger than you imagine. It stretches on without end, reaching from this mountain all the way to that one. During the day, the sun rises in the east and sets in the west, and it takes a whole day for it to cross the sky.\""
+      },
+      {
+        "id": "p067",
+        "simp": {
+          "text": "老海继续说：",
+          "pinyin": "lǎo hǎi jì xù shuō:"
+        },
+        "trad": {
+          "text": "老海繼續說：",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄐㄧˋ ㄒㄩˋ ㄕㄨㄛ："
+        },
+        "en": "Lao Hai continued:"
+      },
+      {
+        "id": "p068",
+        "simp": {
+          "text": "「夜里呢，星星不只有几颗，而是几千几万颗，像撒了一把盐巴在黑布上，密密麻麻、亮晶晶的。月亮有时候圆得像一个白盘子，有时候弯得像一把小镰刀。下雨之后，天空还会出现美丽的彩虹⋯⋯这些，你都没有看过呀。」",
+          "pinyin": "yè lǐ ne, xīng xīng bù zhǐ yǒu jǐ kē, ér shì jǐ qiān jǐ wàn kē, xiàng sǎ le yì bǎ yán bā zài hēi bù shàng, mì mì má má, liàng jīng jīng de. yuè liàng yǒu shí hòu yuán de xiàng yí ge bái pán zi, yǒu shí hòu wān de xiàng yì bǎ xiǎo lián dāo. xià yǔ zhī hòu, tiān kōng hái huì chū xiàn měi lì de cǎi hóng... zhè xiē, nǐ dōu méi yǒu kàn guò ya."
+        },
+        "trad": {
+          "text": "「夜裡呢，星星不只有幾顆，而是幾千幾萬顆，像撒了一把鹽巴在黑布上，密密麻麻、亮晶晶的。月亮有時候圓得像一個白盤子，有時候彎得像一把小鐮刀。下雨之後，天空還會出現美麗的彩虹⋯⋯這些，你都沒有看過呀。」",
+          "zhuyin": "「ㄧㄝˋ ㄌㄧˇ ㄋㄜ˙，ㄒㄧㄥ ㄒㄧㄥ ㄅㄨˋ ㄓˇ ㄧㄡˇ ㄐㄧˇ ㄎㄜ，ㄦˊ ㄕˋ ㄐㄧˇ ㄑㄧㄢ ㄐㄧˇ ㄨㄢˋ ㄎㄜ，ㄒㄧㄤˋ ㄙㄚˇ ㄌㄜ˙ ㄧˋ ㄅㄚˇ ㄧㄢˊ ㄅㄚ ㄗㄞˋ ㄏㄟ ㄅㄨˋ ㄕㄤˋ，ㄇㄧˋ ㄇㄧˋ ㄇㄚˊ ㄇㄚˊ、ㄌㄧㄤˋ ㄐㄧㄥ ㄐㄧㄥ ㄉㄜ˙。ㄩㄝˋ ㄌㄧㄤˋ ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄩㄢˊ ㄉㄜ˙ ㄒㄧㄤˋ ㄧˊ ㄍㄜ˙ ㄅㄞˊ ㄆㄢˊ ㄗ˙，ㄧㄡˇ ㄕˊ ㄏㄡˋ ㄨㄢ ㄉㄜ˙ ㄒㄧㄤˋ ㄧˋ ㄅㄚˇ ㄒㄧㄠˇ ㄌㄧㄢˊ ㄉㄠ。ㄒㄧㄚˋ ㄩˇ ㄓ ㄏㄡˋ，ㄊㄧㄢ ㄎㄨㄥ ㄏㄞˊ ㄏㄨㄟˋ ㄔㄨ ㄒㄧㄢˋ ㄇㄟˇ ㄌㄧˋ ㄉㄜ˙ ㄘㄞˇ ㄏㄨㄥˊ⋯⋯ㄓㄜˋ ㄒㄧㄝ，ㄋㄧˇ ㄉㄡ ㄇㄟˊ ㄧㄡˇ ㄎㄢˋ ㄍㄨㄛˋ ㄧㄚ˙。」"
+        },
+        "en": "\"And at night, there aren't just a few stars but thousands upon thousands, like a handful of salt scattered across a black cloth, packed tight and twinkling brightly. The moon is sometimes round like a white plate, sometimes curved like a little sickle. After it rains, a beautiful rainbow appears in the sky too... all of these you have yet to see.\""
+      },
+      {
+        "id": "p069",
+        "simp": {
+          "text": "呱呱静静地听着，心里好像第一次有了一种奇怪的感觉。他抬头望着井口那一小块圆圆的蓝天，忽然觉得，好像真的有点小小的。",
+          "pinyin": "guā guā jìng jìng de tīng zhe, xīn lǐ hǎo xiàng dì yī cì yǒu le yì zhǒng qí guài de gǎn jué. tā tái tóu wàng zhe jǐng kǒu nà yì xiǎo kuài yuán yuán de lán tiān, hū rán jué de, hǎo xiàng zhēn de yǒu diǎn xiǎo xiǎo de."
+        },
+        "trad": {
+          "text": "呱呱靜靜地聽著，心裡好像第一次有了一種奇怪的感覺。他抬頭望著井口那一小塊圓圓的藍天，忽然覺得，好像真的有點小小的。",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄐㄧㄥˋ ㄐㄧㄥˋ ㄉㄜ˙ ㄊㄧㄥ ㄓㄜ˙，ㄒㄧㄣ ㄌㄧˇ ㄏㄠˇ ㄒㄧㄤˋ ㄉㄧˋ ㄧ ㄘˋ ㄧㄡˇ ㄌㄜ˙ ㄧˋ ㄓㄨㄥˇ ㄑㄧˊ ㄍㄨㄞˋ ㄉㄜ˙ ㄍㄢˇ ㄐㄩㄝˊ。ㄊㄚ ㄊㄞˊ ㄊㄡˊ ㄨㄤˋ ㄓㄜ˙ ㄐㄧㄥˇ ㄎㄡˇ ㄋㄚˋ ㄧˋ ㄒㄧㄠˇ ㄎㄨㄞˋ ㄩㄢˊ ㄩㄢˊ ㄉㄜ˙ ㄌㄢˊ ㄊㄧㄢ，ㄏㄨ ㄖㄢˊ ㄐㄩㄝˊ ㄉㄜ˙，ㄏㄠˇ ㄒㄧㄤˋ ㄓㄣ ㄉㄜ˙ ㄧㄡˇ ㄉㄧㄢˇ ㄒㄧㄠˇ ㄒㄧㄠˇ ㄉㄜ˙。"
+        },
+        "en": "Gua Gua listened quietly. For the first time, something strange seemed to stir inside him. He looked up at the small round patch of blue sky at the well's mouth and suddenly thought it really did seem rather small."
+      },
+      {
+        "id": "p070",
+        "simp": {
+          "text": "老海背着他厚厚的壳，一步一步、慢慢地走了。脚步声越来越轻，越来越远。",
+          "pinyin": "lǎo hǎi bei zhe tā hòu hòu de ké, yí bù yí bù, màn màn de zǒu le. jiǎo bù shēng yuè lái yuè qīng, yuè lái yuè yuǎn."
+        },
+        "trad": {
+          "text": "老海背著他厚厚的殼，一步一步、慢慢地走了。腳步聲越來越輕，越來越遠。",
+          "zhuyin": "ㄌㄠˇ ㄏㄞˇ ㄅㄟ˙ ㄓㄜ˙ ㄊㄚ ㄏㄡˋ ㄏㄡˋ ㄉㄜ˙ ㄎㄜˊ，ㄧˊ ㄅㄨˋ ㄧˊ ㄅㄨˋ、ㄇㄢˋ ㄇㄢˋ ㄉㄜ˙ ㄗㄡˇ ㄌㄜ˙。ㄐㄧㄠˇ ㄅㄨˋ ㄕㄥ ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄑㄧㄥ，ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ ㄩㄢˇ。"
+        },
+        "en": "Carrying his thick shell on his back, Lao Hai walked away, step by slow step. His footsteps grew lighter, and farther, and farther away."
+      },
+      {
+        "id": "p071",
+        "simp": {
+          "text": "呱呱一个人留在井边，望着老海离开的方向，看了好久。",
+          "pinyin": "guā guā yí ge rén liú zài jǐng biān, wàng zhe lǎo hǎi lí kāi de fāng xiàng, kàn le hǎo jiǔ."
+        },
+        "trad": {
+          "text": "呱呱一個人留在井邊，望著老海離開的方向，看了好久。",
+          "zhuyin": "ㄍㄨㄚ ㄍㄨㄚ ㄧˊ ㄍㄜ˙ ㄖㄣˊ ㄌㄧㄡˊ ㄗㄞˋ ㄐㄧㄥˇ ㄅㄧㄢ，ㄨㄤˋ ㄓㄜ˙ ㄌㄠˇ ㄏㄞˇ ㄌㄧˊ ㄎㄞ ㄉㄜ˙ ㄈㄤ ㄒㄧㄤˋ，ㄎㄢˋ ㄌㄜ˙ ㄏㄠˇ ㄐㄧㄡˇ。"
+        },
+        "en": "Gua Gua was left alone at the edge of the well, gazing in the direction Lao Hai had gone for a long, long time."
+      },
+      {
+        "id": "p072",
+        "simp": {
+          "text": "过了一会儿，他转身回到井底自己最熟悉的小水洼。可是不知道为什么，今天的井，好像跟以前不太一样了。",
+          "pinyin": "guò le yì huǐ ēr, tā zhuǎn shēn huí dào jǐng dǐ zì jǐ zuì shú xī de xiǎo shuǐ wā. kě shì bù zhī dào wèi shén me, jīn tiān de jǐng, hǎo xiàng gēn yǐ qián bú tài yí yàng le."
+        },
+        "trad": {
+          "text": "過了一會兒，他轉身回到井底自己最熟悉的小水窪。可是不知道為什麼，今天的井，好像跟以前不太一樣了。",
+          "zhuyin": "ㄍㄨㄛˋ ㄌㄜ˙ ㄧˋ ㄏㄨㄟˇ ㄦ，ㄊㄚ ㄓㄨㄢˇ ㄕㄣ ㄏㄨㄟˊ ㄉㄠˋ ㄐㄧㄥˇ ㄉㄧˇ ㄗˋ ㄐㄧˇ ㄗㄨㄟˋ ㄕㄨˊ ㄒㄧ ㄉㄜ˙ ㄒㄧㄠˇ ㄕㄨㄟˇ ㄨㄚ。ㄎㄜˇ ㄕˋ ㄅㄨˋ ㄓ ㄉㄠˋ ㄨㄟˋ ㄕㄣˊ ㄇㄜ˙，ㄐㄧㄣ ㄊㄧㄢ ㄉㄜ˙ ㄐㄧㄥˇ，ㄏㄠˇ ㄒㄧㄤˋ ㄍㄣ ㄧˇ ㄑㄧㄢˊ ㄅㄨˊ ㄊㄞˋ ㄧˊ ㄧㄤˋ ㄌㄜ˙。"
+        },
+        "en": "After a while, he turned back to the little puddle at the bottom that he knew so well. But somehow today, the well felt different from before."
+      },
+      {
+        "id": "p073",
+        "simp": {
+          "text": "他抬头看看那一小块圆圆的天空，心里轻轻地想：",
+          "pinyin": "tā tái tóu kàn kàn nà yì xiǎo kuài yuán yuán de tiān kōng, xīn lǐ qīng qīng de xiǎng:"
+        },
+        "trad": {
+          "text": "他抬頭看看那一小塊圓圓的天空，心裡輕輕地想：",
+          "zhuyin": "ㄊㄚ ㄊㄞˊ ㄊㄡˊ ㄎㄢˋ ㄎㄢˋ ㄋㄚˋ ㄧˋ ㄒㄧㄠˇ ㄎㄨㄞˋ ㄩㄢˊ ㄩㄢˊ ㄉㄜ˙ ㄊㄧㄢ ㄎㄨㄥ，ㄒㄧㄣ ㄌㄧˇ ㄑㄧㄥ ㄑㄧㄥ ㄉㄜ˙ ㄒㄧㄤˇ："
+        },
+        "en": "He looked up at that small round patch of sky, and thought softly to himself:"
+      },
+      {
+        "id": "p074",
+        "simp": {
+          "text": "「天空，真的有那么大吗？外面真的有那么多奇妙的东西吗？我是不是真的什么都不知道呢？」",
+          "pinyin": "tiān kōng, zhēn de yǒu nà me dà ma? wài miàn zhēn de yǒu nà me duō qí miào de dōng xī ma? wǒ shì bú shì zhēn de shén me dōu bù zhī dào ne?"
+        },
+        "trad": {
+          "text": "「天空，真的有那麼大嗎？外面真的有那麼多奇妙的東西嗎？我是不是真的什麼都不知道呢？」",
+          "zhuyin": "「ㄊㄧㄢ ㄎㄨㄥ，ㄓㄣ ㄉㄜ˙ ㄧㄡˇ ㄋㄚˋ ㄇㄜ˙ ㄉㄚˋ ㄇㄚ˙？ㄨㄞˋ ㄇㄧㄢˋ ㄓㄣ ㄉㄜ˙ ㄧㄡˇ ㄋㄚˋ ㄇㄜ˙ ㄉㄨㄛ ㄑㄧˊ ㄇㄧㄠˋ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ ㄇㄚ˙？ㄨㄛˇ ㄕˋ ㄅㄨˊ ㄕˋ ㄓㄣ ㄉㄜ˙ ㄕㄣˊ ㄇㄜ˙ ㄉㄡ ㄅㄨˋ ㄓ ㄉㄠˋ ㄋㄜ˙？」"
+        },
+        "en": "\"Is the sky really that big? Are there really so many wondrous things out there? Could it be that I really don't know anything at all?\""
+      },
+      {
+        "id": "p075",
+        "simp": {
+          "text": "那天晚上，呱呱躺在井壁上，看着星星，第一次睡不着觉。他开始想：也许有一天，他真的应该想办法跳出这口小井，去看看老海说的那个世界。",
+          "pinyin": "nà tiān wǎn shàng, guā guā tǎng zài jǐng bì shàng, kàn zhe xīng xīng, dì yī cì shuì bù zháo jiào. tā kāi shǐ xiǎng: yé xǔ yǒu yì tiān, tā zhēn de yīng gāi xiǎng bàn fǎ tiào chū zhè kǒu xiǎo jǐng, qù kàn kàn lǎo hǎi shuō de nà ge shì jiè."
+        },
+        "trad": {
+          "text": "那天晚上，呱呱躺在井壁上，看著星星，第一次睡不著覺。他開始想：也許有一天，他真的應該想辦法跳出這口小井，去看看老海說的那個世界。",
+          "zhuyin": "ㄋㄚˋ ㄊㄧㄢ ㄨㄢˇ ㄕㄤˋ，ㄍㄨㄚ ㄍㄨㄚ ㄊㄤˇ ㄗㄞˋ ㄐㄧㄥˇ ㄅㄧˋ ㄕㄤˋ，ㄎㄢˋ ㄓㄜ˙ ㄒㄧㄥ ㄒㄧㄥ，ㄉㄧˋ ㄧ ㄘˋ ㄕㄨㄟˋ ㄅㄨˋ ㄓㄠˊ ㄐㄧㄠˋ。ㄊㄚ ㄎㄞ ㄕˇ ㄒㄧㄤˇ：ㄧㄝˊ ㄒㄩˇ ㄧㄡˇ ㄧˋ ㄊㄧㄢ，ㄊㄚ ㄓㄣ ㄉㄜ˙ ㄧㄥ ㄍㄞ ㄒㄧㄤˇ ㄅㄢˋ ㄈㄚˇ ㄊㄧㄠˋ ㄔㄨ ㄓㄜˋ ㄎㄡˇ ㄒㄧㄠˇ ㄐㄧㄥˇ，ㄑㄩˋ ㄎㄢˋ ㄎㄢˋ ㄌㄠˇ ㄏㄞˇ ㄕㄨㄛ ㄉㄜ˙ ㄋㄚˋ ㄍㄜ˙ ㄕˋ ㄐㄧㄝˋ。"
+        },
+        "en": "That night, Gua Gua laid down looking up at the stars, and for the first time he could not fall asleep. He began to think: maybe one day, he really should find a way to leap out of this little well, and go see the world Lao Hai had spoken of."
+      }
+    ]
+  }
+}

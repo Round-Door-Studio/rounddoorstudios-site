@@ -1,42 +1,79 @@
 # Round Door Studios — Deployment Guide
 
 ## Overview
-This is a single-file static website (`index.html`). No build step needed.  
-Hosting: **Vercel** (free tier) → custom domain `www.rounddoorstudio.com`
 
----
+This is a static website served directly from the repository root. No build step is needed.
 
-## Step 1 — Set up Mailchimp (free, ~5 min)
+The site is made from:
+- Root HTML pages: `index.html`, `about.html`, `library.html`, `story.html`, `bundle.html`, `membership.html`
+- Shared assets in `assets/`
+- Story catalog data in `data/stories.js`
+- Story content JSON in `content/<story-slug>/`
 
-Mailchimp's free plan covers up to **500 contacts** and is plenty for a waitlist.
+Hosting: Vercel static deployment → custom domain `www.rounddoorstudio.com`
 
-1. Sign up or log in at [mailchimp.com](https://mailchimp.com)
-2. Go to **Audience → Manage Audience → Signup forms**
-3. Choose **Embedded forms**
-4. In the embed code, find the `<form action="...">` line — copy that full URL  
-   It looks like: `https://yourdomain.us1.list-manage.com/subscribe/post?u=abc123&amp;id=def456`
-5. Open `index.html` and replace the three placeholder values:
-   - `MAILCHIMP_ACTION_URL` → the URL you just copied (use `&` not `&amp;`)
-   - `MAILCHIMP_U_VALUE` → the `u=` part of that URL (e.g. `abc123`)
-   - `MAILCHIMP_ID_VALUE` → the `id=` part of that URL (e.g. `def456`)
-6. Also update the honeypot field name:  
-   `b_MAILCHIMP_U_VALUE_MAILCHIMP_ID_VALUE` → e.g. `b_abc123_def456`
-
----
-
-## Step 2 — Push to GitHub
-
-1. Create a new **public** repo at [github.com/new](https://github.com/new)  
-   Name it something like `rounddoorstudios-site`
-2. In your terminal, from this folder:
+For local testing, do not open `index.html` directly with `file://`. Run a local server instead:
 
 ```bash
-git init
-git add index.html
-git commit -m "Initial site"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/rounddoorstudios-site.git
-git push -u origin main
+python3 -m http.server 8123
+```
+Then visit http://127.0.0.1:8123/.
+
+
+---
+
+## Step 1 — Confirm the MailerLite waitlist form
+
+The waitlist modal is powered by MailerLite and is defined in `assets/js/modal.js`.
+
+The current form submits to:
+
+```text
+https://assets.mailerlite.com/jsonp/2318264/forms/186598057362589116/subscribe
+```
+You only need to update this if you create a new MailerLite form or switch accounts.
+
+To update it:
+
+In MailerLite, open your embedded/signup form.
+Copy the form action URL.
+Open assets/js/modal.js.
+Replace the URL inside the waitlist form:
+<form id="waitlistForm" action="YOUR_MAILERLITE_FORM_URL" method="post">
+Keep the email input name as:
+name="fields[email]"
+Test the form on the deployed site or local server, then confirm the email appears in MailerLite.
+For local testing, run:
+
+```bash
+python3 -m http.server 8123
+Then visit http://127.0.0.1:8123/.
+```
+
+Small note: the form currently shows the success message after submit even though MailerLite is called with `no-cors`, so the real confirmation is checking that the email appears in MailerLite.
+
+---
+
+## Step 2 — Commit and push the website files
+
+This folder is already a Git repo, so you do not need to create a new one. After you make website changes, commit the full static site, including HTML pages, assets, story data, and any deleted old files.
+
+From the `RoundDoorStudios` folder, run:
+
+```bash
+git status
+git add -A
+git status
+git commit -m "Update Round Door Studio website"
+git push
+```
+
+Use `git add -A` instead of adding only `index.html`, because the site now depends on `assets/`, `content/`, `data/`, and the other root HTML pages.
+
+If you are pushing a brand-new branch for the first time, use:
+
+```bash
+git push -u origin <branch-name>
 ```
 
 ---
@@ -64,11 +101,11 @@ git push -u origin main
 
 ## Future updates
 
-Whenever you edit `index.html`, just push to GitHub:
+Whenever you edit the website, commit and push all changed files:
 
 ```bash
-git add index.html
-git commit -m "Update site"
+git add -A
+git commit -m "Update website"
 git push
 ```
 
