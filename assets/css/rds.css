@@ -12,7 +12,7 @@
   font-display: swap;
 }
 
-/* Bopomofo font — zhuyin is baked into each glyph (used for Traditional read-along) */
+/* Bopomofo font for zhuyin ruby annotations. */
 @font-face {
   font-family: 'Bpmf Huninn';
   src: url('../fonts/BpmfHuninn.woff') format('woff');
@@ -172,6 +172,7 @@ a { color: inherit; }
 .cover .stripes { position: absolute; inset: 0; background-image: repeating-linear-gradient(45deg, transparent 0 12px, rgba(0,0,0,0.04) 12px 13px); }
 .cover .grad { position: absolute; inset: 0; mix-blend-mode: multiply; opacity: 0.92; }
 .cover .ph-label { display: none; }
+.cover--image img { width: 100%; height: 100%; object-fit: cover; }
 .cover .c-title { position: absolute; left: 14px; right: 14px; bottom: 14px; color: #FAF7F2; font-family: var(--display); font-size: 14px; line-height: 1.15; text-shadow: 0 1px 6px rgba(0,0,0,0.35); }
 .cover .c-zh { position: absolute; right: 14px; top: 14px; color: rgba(255,255,255,0.82); font-size: 17px; text-shadow: 0 1px 4px rgba(0,0,0,0.3); }
 
@@ -419,10 +420,29 @@ a { color: inherit; }
 .rd-col { display: block; color: var(--ink); }
 .rd-col--simp { font-family: var(--zh-simp); font-size: clamp(23px, 2.7vw, 27px); line-height: 2.35; }
 .rd-col--trad { font-family: var(--zh-trad); font-size: clamp(23px, 2.7vw, 27px); line-height: 2.35; }
-.rd-col--trad.rd-col--trad-baked { font-family: 'Bpmf Huninn', var(--zh-trad); font-size: clamp(18px, 2.1vw, 21px); line-height: 3.0; }
 .rd-col--simp rt { font-family: var(--serif); font-size: 0.42em; color: var(--muted); font-weight: 400; letter-spacing: 0; }
 .rd-col--trad rt { font-family: var(--zh-trad); font-size: 0.4em; color: var(--muted); font-weight: 400; letter-spacing: 0.01em; }
-.rd-col--trad-baked rt { display: none; }
+.zhuyin-ruby {
+  ruby-position: over;
+}
+.zhuyin-ruby rt {
+  font-family: 'Bpmf Huninn', sans-serif;
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+  font-size: 0.42em;
+  line-height: 1;
+  color: var(--muted);
+}
+.zhuyin-fallback-text,
+.zhuyin-fallback-line { display: block; }
+.zhuyin-fallback-line {
+  margin-top: 6px;
+  font-family: 'Bpmf Huninn', sans-serif;
+  font-size: 0.62em;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.reading.mode-compare .zhuyin-fallback { grid-column: 1 / -1; }
 .rd-compare { display: none; }
 .rd-en { display: block; margin-top: 8px; font-size: 18px; line-height: 1.62; color: var(--ink-soft); }
 
@@ -431,9 +451,9 @@ a { color: inherit; }
 .reading.mode-trad .rd-col--simp { display: none; }
 .reading.mode-compare .rd-zh { display: none; }
 .reading.mode-compare .rd-compare {
-  --rd-compare-cell: 2rem;
-  --rd-compare-cell: clamp(2rem, 4cqw, 3rem);
-  --rd-compare-row: 4.75rem;
+  --rd-compare-cell: 2.65rem;
+  --rd-compare-cell: clamp(2.65rem, 5.2cqw, 3.55rem);
+  --rd-compare-row: 5.45rem;
   container-type: inline-size;
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -139,6 +139,12 @@
           '<div class="soon-badge">Coming soon</div>' +
         '</div>';
     }
+    if (st.coverImage) {
+      return '' +
+        '<div class="cover cover--image">' +
+          '<img src="' + escAttr(st.coverImage) + '" alt="' + escAttr(st.title.en + ' cover art') + '" loading="lazy" />' +
+        '</div>';
+    }
     return '' +
       '<div class="cover">' +
         '<div class="stripes"></div>' +
@@ -171,6 +177,45 @@
       '<span class="tag-soon">✦ Unreleased</span>';
   }
   function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+  function latestReleasedStory(stories) {
+    return (stories || []).filter(function (st) { return st.released; }).sort(function (a, b) {
+      return (b.season || 0) - (a.season || 0) || (b.ep || 0) - (a.ep || 0);
+    })[0];
+  }
+
+  function featuredView(st) {
+    return '<article class="featured">' +
+      '<a class="featured-cover" href="' + href(st) + '" aria-label="' + escAttr(st.title.en) + '">' + cover(st) + '</a>' +
+      '<div class="featured-body">' +
+        '<p class="eyebrow">Episode ' + pad(st.ep) + ' · Season ' + st.season + '</p>' +
+        '<h3 class="featured-zh">' +
+          '<span class="only-simp zh-simp">' + st.title.simp + '</span>' +
+          '<span class="only-trad zh-trad">' + st.title.trad + '</span>' +
+        '</h3>' +
+        '<p class="featured-en">' + st.title.en + '</p>' +
+        '<p class="featured-teaser">' + (st.blurb || '') + '</p>' +
+        '<div class="featured-meta">' +
+          '<span><b>' + (st.runtime || 'New') + '</b> listen</span>' +
+          '<span class="dot-sep">·</span>' +
+          '<span>Ages <b>' + (st.ageRange || 'all') + '</b></span>' +
+        '</div>' +
+        '<div class="featured-cta">' +
+          '<a class="btn btn-primary" href="' + href(st) + '">Listen Now</a>' +
+        '</div>' +
+      '</div>' +
+    '</article>';
+  }
+
+  function initFeatured() {
+    if (!window.RDS_STORIES) return;
+    var st = latestReleasedStory(window.RDS_STORIES);
+    if (!st) return;
+    var mount = document.getElementById('featured-mount');
+    if (mount) mount.innerHTML = featuredView(st);
+    var sample = document.getElementById('sample-story-link');
+    if (sample) sample.setAttribute('href', href(st));
+  }
 
   /* ---- Grid view ---- */
   function gridView(stories) {
@@ -285,6 +330,7 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     initScript();
+    initFeatured();
     initLibrary();
   });
 })();

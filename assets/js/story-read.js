@@ -31,7 +31,18 @@
     });
   }
 
+  function escAttr(value) {
+    return String(value || '').replace(/[&<>"']/g, function (ch) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch];
+    });
+  }
+
   function cover(st) {
+    if (st.coverImage) {
+      return '<div class="cover cover--image">' +
+        '<img src="' + escAttr(st.coverImage) + '" alt="' + escAttr(st.title.en + ' cover art') + '" loading="lazy" />' +
+      '</div>';
+    }
     var c = st.coverColor || '#9B4761';
     return '<div class="cover">' +
       '<div class="stripes"></div>' +
@@ -176,6 +187,7 @@
      many (多音字), we never guess from a font — we pair each Han
      character with its own syllable, in order, as a <ruby> annotation. */
   var HAN_RE = /[\u3400-\u9FFF\uF900-\uFAFF\u{20000}-\u{2A6DF}]/u;
+  var ZHUYIN_PUNCT_RE = /[，。！？：；「」『』（）、⋯…]/g;
 
   function syllablesOf(str, kind) {
     if (!str) return [];
@@ -203,6 +215,58 @@
 
   function rubyHtml(text, syllableStr, kind) {
     return rubyTokens(text, syllableStr, kind).join('');
+  }
+
+  function zhuyinSyllables(str) {
+    if (!str) return [];
+    return str.split(/\s+/).reduce(function (out, token) {
+      token.replace(ZHUYIN_PUNCT_RE, ' ').split(/\s+/).forEach(function (part) {
+        if (part) out.push(part);
+      });
+      return out;
+    }, []);
+  }
+
+  function countHan(text) {
+    return Array.from(text || '').filter(function (ch) { return HAN_RE.test(ch); }).length;
+  }
+
+  function zhuyinFallback(text, zhuyin) {
+    return '<span class="zhuyin-fallback">' +
+      '<span class="zhuyin-fallback-text">' + escapeHtml(text) + '</span>' +
+      '<span class="zhuyin-fallback-line">' + escapeHtml(zhuyin) + '</span>' +
+    '</span>';
+  }
+
+  function zhuyinRubyTokens(lineId, text, zhuyin) {
+    var syllables = zhuyinSyllables(zhuyin);
+    var chineseCount = countHan(text);
+    if (syllables.length !== chineseCount) {
+      console.warn('Round Door read-along zhuyin mismatch', {
+        lineId: lineId || '(unknown)',
+        chineseCharacterCount: chineseCount,
+        zhuyinSyllableCount: syllables.length
+      });
+      return {
+        fallback: true,
+        html: zhuyinFallback(text, zhuyin),
+        tokens: [zhuyinFallback(text, zhuyin)]
+      };
+    }
+
+    var si = 0;
+    var tokens = Array.from(text || '').map(function (ch) {
+      if (!HAN_RE.test(ch)) return escapeHtml(ch);
+      return '<ruby class="zhuyin-ruby">' +
+        escapeHtml(ch) +
+        '<rt>' + escapeHtml(syllables[si++]) + '</rt>' +
+      '</ruby>';
+    });
+    return {
+      fallback: false,
+      html: tokens.join(''),
+      tokens: tokens
+    };
   }
 
   function isNewFormatLine(ln) {
@@ -250,23 +314,24 @@
   }
 
   function renderLine(ln) {
-    var simpHtml, tradHtml, simpTokens, tradTokens, tradBaked = false;
+    var simpHtml, tradHtml, simpTokens, tradTokens, tradFallback = false;
     if (isNewFormatLine(ln)) {
       simpHtml = rubyHtml(ln.simp.text, ln.simp.pinyin, 'pinyin');
-      tradHtml = rubyHtml(ln.trad.text, ln.trad.zhuyin, 'zhuyin');
       simpTokens = normalizeCompareTokens(rubyTokens(ln.simp.text, ln.simp.pinyin, 'pinyin'));
-      tradTokens = normalizeCompareTokens(rubyTokens(ln.trad.text, ln.trad.zhuyin, 'zhuyin'));
+      var tradResult = zhuyinRubyTokens(ln.id, ln.trad.text, ln.trad.zhuyin);
+      tradHtml = tradResult.html;
+      tradFallback = tradResult.fallback;
+      tradTokens = tradFallback ? tradResult.tokens : normalizeCompareTokens(tradResult.tokens);
     } else {
-      /* legacy format: simp carries <ruby> pinyin HTML, trad is plain
-         (zhuyin supplied by the Bpmf Huninn font) */
+      /* legacy format: simp carries <ruby> pinyin HTML, trad is plain */
       simpHtml = ln.simp;
       tradHtml = ln.trad;
-      tradBaked = true;
       simpTokens = simpCompareTokens(ln.simp);
       tradTokens = normalizeCompareTokens(Array.from(ln.trad || '').map(escapeHtml));
     }
-    var tradCls = 'rd-col rd-col--trad' + (tradBaked ? ' rd-col--trad-baked' : '');
+    var tradCls = 'rd-col rd-col--trad';
     var count = Math.max(simpTokens.length, tradTokens.length);
+    var tradCompare = tradFallback ? zhuyinFallback(ln.trad.text, ln.trad.zhuyin) : compareCells(tradTokens, count);
     return '<div class="rd-line">' +
         '<div class="rd-zh">' +
           '<div class="rd-col rd-col--simp">' + simpHtml + '</div>' +
@@ -274,7 +339,7 @@
         '</div>' +
         '<div class="rd-compare">' +
           '<div class="rd-col rd-col--simp rd-col--compare">' + compareCells(simpTokens, count) + '</div>' +
-          '<div class="' + tradCls + ' rd-col--compare">' + compareCells(tradTokens, count) + '</div>' +
+          '<div class="' + tradCls + ' rd-col--compare">' + tradCompare + '</div>' +
         '</div>' +
         '<div class="rd-en">' + escapeHtml(ln.en) + '</div>' +
       '</div>';

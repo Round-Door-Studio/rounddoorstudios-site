@@ -16,6 +16,8 @@ window.RDS_STORIES = [
     title: { en: 'The Frog at the Bottom of the Well', simp: '井底之蛙', trad: '井底之蛙' },
     blurb: 'A little frog who is sure his well is the whole world — until a sea turtle who has seen the ocean comes to rest by the rim.',
     ageRange: '4–8', runtime: '12 min', pub: 'Jun 10, 2026', coverColor: '#5C8358',
+    coverImage: 'assets/img/covers/frog-at-the-bottom-of-the-well-square.png',
+    coverImageLandscape: 'assets/img/covers/frog-at-the-bottom-of-the-well-landscape.png',
     audio: { en: { spotify: '#', youtube: '#', apple: '#' }, zh: { spotify: '#', youtube: '#', apple: '#' } },
     hasBundle: true,
   },
