@@ -21,6 +21,15 @@
   font-display: swap;
 }
 
+/* Simplified Chinese body font (variable). */
+@font-face {
+  font-family: 'ResourceHanRounded CN';
+  src: url('../fonts/ResourceHanRoundedCN-VF.otf') format('opentype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ── Brand tokens (plum — matches the live rounddoorstudio.com) ── */
 :root {
   --bg:          #F1EAEA;
@@ -75,6 +84,7 @@ a { color: inherit; }
 }
 .zh-simp { font-family: var(--zh-simp); }
 .zh-trad { font-family: var(--zh-trad); }
+.zh-bpmf { font-family: 'Bpmf Huninn', 'LXGW WenKai TC', serif; }
 .muted { color: var(--muted); }
 
 /* Script-toggle visibility — driven by [data-script] on <html> */
@@ -418,8 +428,8 @@ a { color: inherit; }
 .rd-line:last-child { border-bottom: 0; }
 .rd-zh { display: block; }
 .rd-col { display: block; color: var(--ink); }
-.rd-col--simp { font-family: var(--zh-simp); font-size: clamp(23px, 2.7vw, 27px); line-height: 2.35; }
-.rd-col--trad { font-family: var(--zh-trad); font-size: clamp(23px, 2.7vw, 27px); line-height: 2.35; }
+.rd-col--simp { font-family: var(--zh-simp); font-size: clamp(20px, 2.3vw, 23px); line-height: 2.35; }
+.rd-col--trad { font-family: var(--zh-trad); font-size: clamp(20px, 2.3vw, 23px); line-height: 2.35; }
 .rd-col--simp rt { font-family: var(--serif); font-size: 0.42em; color: var(--muted); font-weight: 400; letter-spacing: 0; }
 .rd-col--trad rt { font-family: var(--zh-trad); font-size: 0.4em; color: var(--muted); font-weight: 400; letter-spacing: 0.01em; }
 .zhuyin-ruby {
@@ -453,7 +463,7 @@ a { color: inherit; }
 .reading.mode-compare .rd-compare {
   --rd-compare-cell: 2.65rem;
   --rd-compare-cell: clamp(2.65rem, 5.2cqw, 3.55rem);
-  --rd-compare-row: 5.45rem;
+  --rd-compare-row: 3rem;
   container-type: inline-size;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -479,8 +489,13 @@ a { color: inherit; }
 }
 .reading.mode-compare .rd-cmp-cell ruby { text-align: center; }
 .reading.mode-compare .rd-cmp-cell rt { line-height: 1; }
-.reading:not(.show-en) .rd-en { display: none; }
-.reading.mode-compare .rd-en { margin-top: 24px; }
+/* Show English — controlled by show-en on #read-mount, covers all panels */
+#read-mount:not(.show-en) .rd-en { display: none; }
+#read-mount:not(.show-en) .pack-q-text { display: none; }
+/* Hide Compare button when not on the Read Along tab */
+#read-controls[data-active-tab]:not([data-active-tab="read"]) .rc-compare { display: none; }
+.reading.mode-compare .rd-line { padding: 10px 0; }
+.reading.mode-compare .rd-en { margin-top: 10px; }
 @media (max-width: 680px) {
   .reading.mode-compare .rd-compare { grid-template-columns: 1fr; }
   .reading.mode-compare .rd-col--compare.rd-col--simp { padding-right: 0; }
@@ -625,7 +640,7 @@ a { color: inherit; }
 }
 .pack-tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-.pack-panels { margin-top: 4px; }
+.pack-panels { margin-top: 4px; --zh-simp: 'ResourceHanRounded CN', 'Ma Shan Zheng', 'Georgia', serif; }
 .pack-panel[hidden] { display: none !important; }
 
 .pack-tier { margin-bottom: 28px; }
@@ -683,7 +698,12 @@ a { color: inherit; }
   font-family: var(--display); font-size: 14px; color: var(--accent);
   background: var(--accent-tint); border-radius: 50%;
 }
-.pack-q-text { font-size: 16px; line-height: 1.55; color: var(--ink); }
+.pack-q-body { flex: 1; min-width: 0; }
+.pack-q-zh { margin: 0 0 5px; line-height: 1.55; }
+.pack-q-zh .zh-simp { font-size: 17px; line-height: 2.2; }
+.pack-q-zh .zh-simp rt { font-family: var(--serif); font-size: 0.42em; color: var(--muted); font-weight: 400; letter-spacing: 0; }
+.pack-q-zh .zh-bpmf { font-size: 17px; }
+.pack-q-text { font-size: 16px; line-height: 1.55; color: var(--ink); margin: 0; }
 
 /* Activity cards */
 .pack-act-grid { display: grid; gap: 18px; }
@@ -732,8 +752,16 @@ a { color: inherit; }
 /* ── Print ── */
 @media print {
   .nav, .read-controls, .footer, .read-back, .read-listen, .book-arrow,
-  .pack-summary, .pack-nav-block, .pack-panel:not(#pack-panel-read) { display: none !important; }
-  #pack-panel-read { display: block !important; }
+  .pack-summary, .pack-nav-block { display: none !important; }
+  /* Show only the active panel — set by data-print-tab on #read-mount */
+  .pack-panel { display: none !important; }
+  #read-mount:not([data-print-tab]) #pack-panel-read,
+  #read-mount[data-print-tab="read"] #pack-panel-read,
+  #read-mount[data-print-tab="words"] #pack-panel-words,
+  #read-mount[data-print-tab="questions"] #pack-panel-questions,
+  #read-mount[data-print-tab="explore"] #pack-panel-explore { display: block !important; }
+  /* Always show English when printing */
+  .rd-en, .pack-q-text { display: block !important; }
   body { background: #fff; }
   .read-wrap { max-width: 100%; padding: 0; }
   .line { break-inside: avoid; }

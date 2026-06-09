@@ -19,10 +19,26 @@
   function setScript(s) {
     document.documentElement.setAttribute('data-script', s);
     localStorage.setItem('rds-script', s);
+
+    /* Sync header toggle */
     var tog = document.getElementById('scriptToggle');
     if (tog) tog.querySelectorAll('button').forEach(function (b) {
       b.classList.toggle('is-on', b.dataset.s === s);
     });
+
+    /* Sync Reading View mode buttons (simp/trad only — leave compare alone) */
+    document.querySelectorAll('.rc-mode[data-mode="simp"], .rc-mode[data-mode="trad"]').forEach(function (b) {
+      var on = b.dataset.mode === s;
+      b.classList.toggle('is-on', on);
+      b.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+
+    /* Sync #reading mode class unless the user is in compare view */
+    var reading = document.getElementById('reading');
+    if (reading && !reading.classList.contains('mode-compare')) {
+      reading.classList.remove('mode-simp', 'mode-trad');
+      reading.classList.add('mode-' + s);
+    }
   }
 
   function href(st) { return 'story.html?story=' + encodeURIComponent(st.slug); }
@@ -126,6 +142,8 @@
     render: listenControl,
     bind: bindListen
   };
+
+  window.RDS_SCRIPT = { set: setScript };
 
   /* ---- Covers ---- */
   function cover(st) {

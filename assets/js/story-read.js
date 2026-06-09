@@ -111,9 +111,19 @@
   }
 
   function questionCard(q, i) {
+    var zh = '';
+    if (q.simp && q.trad) {
+      zh = '<p class="pack-q-zh">' +
+        '<span class="only-simp zh-simp">' + rubyHtml(q.simp.text, q.simp.pinyin, 'pinyin') + '</span>' +
+        '<span class="only-trad zh-bpmf">' + escapeHtml(q.trad.bpmf || q.trad.text) + '</span>' +
+      '</p>';
+    }
     return '<article class="pack-q-card">' +
       '<span class="pack-q-num">' + (i + 1) + '</span>' +
-      '<p class="pack-q-text">' + q.en + '</p>' +
+      '<div class="pack-q-body">' +
+        zh +
+        '<p class="pack-q-text">' + escapeHtml(q.en) + '</p>' +
+      '</div>' +
     '</article>';
   }
 
@@ -200,9 +210,23 @@
   }
 
   function rubyTokens(text, syllableStr, kind) {
-    var syl = syllablesOf(syllableStr, kind);
     var tokens = [];
     var si = 0;
+    if (Array.isArray(syllableStr)) {
+      /* New format: array of {text, reading} indexed 1:1 with text chars */
+      Array.from(text || '').forEach(function (ch) {
+        var reading = (syllableStr[si] && syllableStr[si].reading) || '';
+        si++;
+        if (HAN_RE.test(ch)) {
+          tokens.push('<ruby>' + escapeHtml(ch) + '<rt>' + escapeHtml(reading) + '</rt></ruby>');
+        } else {
+          tokens.push(escapeHtml(ch));
+        }
+      });
+      return tokens;
+    }
+    /* Legacy format: space-separated syllable string */
+    var syl = syllablesOf(syllableStr, kind);
     Array.from(text || '').forEach(function (ch) {
       if (HAN_RE.test(ch)) {
         tokens.push('<ruby>' + escapeHtml(ch) + '<rt>' + escapeHtml(syl[si++] || '') + '</rt></ruby>');
@@ -231,42 +255,31 @@
     return Array.from(text || '').filter(function (ch) { return HAN_RE.test(ch); }).length;
   }
 
-  function zhuyinFallback(text, zhuyin) {
-    return '<span class="zhuyin-fallback">' +
-      '<span class="zhuyin-fallback-text">' + escapeHtml(text) + '</span>' +
-      '<span class="zhuyin-fallback-line">' + escapeHtml(zhuyin) + '</span>' +
-    '</span>';
+  /* ── Bpmf font rendering (new approach) ─────────────────────────
+     The bpmf field contains traditional text with Unicode Variation
+     Selectors Supplement (U+E0100–U+E01EF) that tell Bpmf Huninn
+     which glyph variant (reading) to render inline — no ruby needed.
+     We split the string keeping each VS attached to its base char. */
+  function bpmfSplitTokens(str) {
+    var tokens = [];
+    Array.from(str || '').forEach(function (ch) {
+      var cp = ch.codePointAt(0);
+      var isVS = (cp >= 0xFE00 && cp <= 0xFE0F) || (cp >= 0xE0100 && cp <= 0xE01EF);
+      if (isVS && tokens.length) {
+        tokens[tokens.length - 1] += ch;
+      } else {
+        tokens.push(ch);
+      }
+    });
+    return tokens;
   }
 
-  function zhuyinRubyTokens(lineId, text, zhuyin) {
-    var syllables = zhuyinSyllables(zhuyin);
-    var chineseCount = countHan(text);
-    if (syllables.length !== chineseCount) {
-      console.warn('Round Door read-along zhuyin mismatch', {
-        lineId: lineId || '(unknown)',
-        chineseCharacterCount: chineseCount,
-        zhuyinSyllableCount: syllables.length
-      });
-      return {
-        fallback: true,
-        html: zhuyinFallback(text, zhuyin),
-        tokens: [zhuyinFallback(text, zhuyin)]
-      };
+  function compareCellsBpmf(tokens, count) {
+    var out = [];
+    for (var i = 0; i < count; i++) {
+      out.push('<span class="rd-cmp-cell zh-bpmf">' + (tokens[i] || '') + '</span>');
     }
-
-    var si = 0;
-    var tokens = Array.from(text || '').map(function (ch) {
-      if (!HAN_RE.test(ch)) return escapeHtml(ch);
-      return '<ruby class="zhuyin-ruby">' +
-        escapeHtml(ch) +
-        '<rt>' + escapeHtml(syllables[si++]) + '</rt>' +
-      '</ruby>';
-    });
-    return {
-      fallback: false,
-      html: tokens.join(''),
-      tokens: tokens
-    };
+    return out.join('');
   }
 
   function isNewFormatLine(ln) {
@@ -314,14 +327,13 @@
   }
 
   function renderLine(ln) {
-    var simpHtml, tradHtml, simpTokens, tradTokens, tradFallback = false;
+    var simpHtml, tradHtml, simpTokens, tradTokens;
     if (isNewFormatLine(ln)) {
       simpHtml = rubyHtml(ln.simp.text, ln.simp.pinyin, 'pinyin');
       simpTokens = normalizeCompareTokens(rubyTokens(ln.simp.text, ln.simp.pinyin, 'pinyin'));
-      var tradResult = zhuyinRubyTokens(ln.id, ln.trad.text, ln.trad.zhuyin);
-      tradHtml = tradResult.html;
-      tradFallback = tradResult.fallback;
-      tradTokens = tradFallback ? tradResult.tokens : normalizeCompareTokens(tradResult.tokens);
+      var bpmfStr = ln.trad.bpmf || ln.trad.text;
+      tradHtml = '<span class="zh-bpmf">' + escapeHtml(bpmfStr) + '</span>';
+      tradTokens = normalizeCompareTokens(bpmfSplitTokens(bpmfStr).map(escapeHtml));
     } else {
       /* legacy format: simp carries <ruby> pinyin HTML, trad is plain */
       simpHtml = ln.simp;
@@ -329,42 +341,44 @@
       simpTokens = simpCompareTokens(ln.simp);
       tradTokens = normalizeCompareTokens(Array.from(ln.trad || '').map(escapeHtml));
     }
-    var tradCls = 'rd-col rd-col--trad';
     var count = Math.max(simpTokens.length, tradTokens.length);
-    var tradCompare = tradFallback ? zhuyinFallback(ln.trad.text, ln.trad.zhuyin) : compareCells(tradTokens, count);
     return '<div class="rd-line">' +
         '<div class="rd-zh">' +
           '<div class="rd-col rd-col--simp">' + simpHtml + '</div>' +
-          '<div class="' + tradCls + '">' + tradHtml + '</div>' +
+          '<div class="rd-col rd-col--trad">' + tradHtml + '</div>' +
         '</div>' +
         '<div class="rd-compare">' +
           '<div class="rd-col rd-col--simp rd-col--compare">' + compareCells(simpTokens, count) + '</div>' +
-          '<div class="' + tradCls + ' rd-col--compare">' + tradCompare + '</div>' +
+          '<div class="rd-col rd-col--trad rd-col--compare">' + compareCellsBpmf(tradTokens, count) + '</div>' +
         '</div>' +
         '<div class="rd-en">' + escapeHtml(ln.en) + '</div>' +
       '</div>';
   }
 
-  function readAlongSection(lines) {
-    var def = 'simp';
-    function modeBtn(mode, label) {
+  function readControlsHtml() {
+    var def = localStorage.getItem('rds-script') || 'simp';
+    function modeBtn(mode, label, extraClass) {
       var on = mode === def;
-      return '<button type="button" class="rc-mode' + (on ? ' is-on' : '') + '" data-mode="' + mode + '" role="tab" aria-selected="' + (on ? 'true' : 'false') + '">' + label + '</button>';
+      var cls = 'rc-mode' + (on ? ' is-on' : '') + (extraClass ? ' ' + extraClass : '');
+      return '<button type="button" class="' + cls + '" data-mode="' + mode + '" role="tab" aria-selected="' + (on ? 'true' : 'false') + '">' + label + '</button>';
     }
-    return '<p class="pack-parent-note">Read together, take turns, or listen along as you follow the podcast episode.</p>' +
-      '<div class="read-controls">' +
-        '<div class="rc-group">' +
-          '<span class="rc-label">Reading View</span>' +
-          '<div class="rc-seg" role="tablist" aria-label="Reading view">' +
-            modeBtn('simp', '简 Simplified') +
-            modeBtn('trad', '繁 Traditional') +
-            modeBtn('compare', '简 + 繁 Compare') +
-          '</div>' +
+    return '<div class="read-controls" id="read-controls" data-active-tab="read">' +
+      '<div class="rc-group">' +
+        '<span class="rc-label">Reading View</span>' +
+        '<div class="rc-seg" role="tablist" aria-label="Reading view">' +
+          modeBtn('simp', '简 Simplified') +
+          modeBtn('trad', '繁 Traditional') +
+          modeBtn('compare', '简 + 繁 Compare', 'rc-compare') +
         '</div>' +
-        '<label class="rc-toggle"><input type="checkbox" id="c-en" checked> Show English</label>' +
-        '<button class="btn btn-ghost btn-sm" id="c-print">⤓ Print / PDF</button>' +
       '</div>' +
-      '<div class="reading mode-' + def + ' show-en" id="reading">' + lines + '</div>';
+      '<label class="rc-toggle"><input type="checkbox" id="c-en" checked> Show English</label>' +
+      '<button class="btn btn-ghost btn-sm" id="c-print">⤓ Print / PDF</button>' +
+    '</div>';
+  }
+
+  function readAlongSection(lines) {
+    return '<p class="pack-parent-note">Read together, take turns, or listen along as you follow the podcast episode.</p>' +
+      '<div class="reading" id="reading">' + lines + '</div>';
   }
 
   function render(mount, st, story, vocab, questions, activities) {
@@ -417,6 +431,8 @@
         '<div class="pack-cards" role="tablist" aria-label="Inside this Story Pack">' + tabButtons + '</div>' +
       '</div>' +
 
+      readControlsHtml() +
+
       '<div class="pack-panels">' + tabPanels + '</div>';
 
     bindReadControls();
@@ -427,31 +443,57 @@
 
   function bindReadControls() {
     var reading = document.getElementById('reading');
-    if (!reading) return;
+    var mount = document.getElementById('read-mount');
+    var def = localStorage.getItem('rds-script') || 'simp';
+
+    /* Set the initial reading mode to match the stored script preference */
+    if (reading) reading.classList.add('mode-' + def);
+
+    /* Initialize show-en on the mount so all panels start with English visible */
+    if (mount) mount.classList.add('show-en');
+
     var modes = document.querySelectorAll('.rc-mode');
     modes.forEach(function (btn) {
       btn.addEventListener('click', function () {
+        var mode = btn.dataset.mode;
         modes.forEach(function (b) {
           var on = b === btn;
           b.classList.toggle('is-on', on);
           b.setAttribute('aria-selected', on ? 'true' : 'false');
         });
-        reading.classList.remove('mode-simp', 'mode-trad', 'mode-compare');
-        reading.classList.add('mode-' + btn.dataset.mode);
+        if (reading) {
+          reading.classList.remove('mode-simp', 'mode-trad', 'mode-compare');
+          reading.classList.add('mode-' + mode);
+        }
+        /* Sync the site-wide script toggle so all four panels respond */
+        if (mode === 'simp' || mode === 'trad') {
+          if (window.RDS_SCRIPT) window.RDS_SCRIPT.set(mode);
+        }
       });
     });
+
     var en = document.getElementById('c-en');
     if (en) en.addEventListener('change', function (e) {
-      reading.classList.toggle('show-en', e.target.checked);
+      if (mount) mount.classList.toggle('show-en', e.target.checked);
     });
+
     var printBtn = document.getElementById('c-print');
-    if (printBtn) printBtn.addEventListener('click', function () { window.print(); });
+    if (printBtn) printBtn.addEventListener('click', function () {
+      var activeTab = document.querySelector('.pack-card.is-on');
+      if (mount) mount.dataset.printTab = activeTab ? activeTab.dataset.tab : 'read';
+      window.print();
+      window.addEventListener('afterprint', function cleanup() {
+        window.removeEventListener('afterprint', cleanup);
+        if (mount) delete mount.dataset.printTab;
+      });
+    });
   }
 
   function bindPackTabs() {
     var tabs = document.querySelectorAll('.pack-card');
     var panels = document.querySelectorAll('.pack-panel');
-  
+    var controls = document.getElementById('read-controls');
+
     function select(id) {
       tabs.forEach(function (btn) {
         var on = btn.dataset.tab === id;
@@ -459,12 +501,27 @@
         btn.setAttribute('aria-selected', on ? 'true' : 'false');
         btn.tabIndex = on ? 0 : -1;
       });
-  
+
       panels.forEach(function (panel) {
         panel.hidden = panel.id !== 'pack-panel-' + id;
       });
+
+      /* Track active tab so Compare button can hide on non-read tabs */
+      if (controls) controls.dataset.activeTab = id;
+
+      /* When leaving Read Along, always sync simp/trad buttons to data-script.
+         This ensures the correct button is active regardless of whether the
+         user was in Compare mode or not. */
+      if (id !== 'read') {
+        var lastScript = document.documentElement.dataset.script || 'simp';
+        document.querySelectorAll('.rc-mode').forEach(function (b) {
+          var on = b.dataset.mode === lastScript;
+          b.classList.toggle('is-on', on);
+          b.setAttribute('aria-selected', on ? 'true' : 'false');
+        });
+      }
     }
-  
+
     tabs.forEach(function (btn) {
       btn.addEventListener('click', function () {
         select(btn.dataset.tab);
