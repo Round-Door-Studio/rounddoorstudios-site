@@ -492,6 +492,8 @@ a { color: inherit; }
 /* Show English — controlled by show-en on #read-mount, covers all panels */
 #read-mount:not(.show-en) .rd-en { display: none; }
 #read-mount:not(.show-en) .pack-q-text { display: none; }
+#read-mount:not(.show-en) .pack-vocab-en { display: none; }
+#read-mount:not(.show-en) .pack-vocab-ex-en { display: none; }
 /* Hide Compare button when not on the Read Along tab */
 #read-controls[data-active-tab]:not([data-active-tab="read"]) .rc-compare { display: none; }
 .reading.mode-compare .rd-line { padding: 10px 0; }
@@ -668,7 +670,7 @@ a { color: inherit; }
   border-radius: 12px; padding: 16px 18px;
   box-shadow: 0 8px 22px -14px var(--shadow);
 }
-.pack-vocab-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 8px; }
+.pack-vocab-head { display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; }
 .pack-vocab-char { font-size: 32px; line-height: 1; color: var(--ink); }
 .pack-vocab-char.only-simp { font-family: var(--zh-simp); }
 .pack-vocab-char.only-trad { font-family: var(--zh-trad); }
@@ -680,9 +682,11 @@ a { color: inherit; }
 }
 .pack-vocab-ex .only-simp,
 .pack-vocab-ex .only-trad { display: block; margin-bottom: 4px; }
-[data-script="simp"] .pack-vocab-ex .only-simp { font-family: var(--zh-simp); font-size: 16px; }
-[data-script="trad"] .pack-vocab-ex .only-trad { font-family: var(--zh-trad); font-size: 16px; }
+[data-script="simp"] .pack-vocab-ex .only-simp { font-family: var(--zh-simp); font-size: 16px; line-height: 2.4; }
+[data-script="simp"] .pack-vocab-ex .only-simp rt { font-family: var(--serif); font-size: 0.42em; color: var(--muted); font-weight: 400; letter-spacing: 0; }
+[data-script="trad"] .pack-vocab-ex .only-trad { font-size: 16px; }
 .pack-vocab-ex-en { display: block; font-size: 13px; color: var(--muted); }
+.vocab-hl { font-weight: 700; color: var(--accent); font-style: normal; }
 
 /* Question cards */
 .pack-q-grid { display: grid; gap: 12px; }
@@ -719,8 +723,16 @@ a { color: inherit; }
 }
 .pack-act-door { width: 52px; opacity: 0.75; }
 .pack-act-body { padding: 18px 20px; }
-.pack-act-title { font-family: var(--display); font-size: 18px; margin-bottom: 6px; }
-.pack-act-desc { font-size: 14px; line-height: 1.55; color: var(--ink-soft); margin-bottom: 12px; }
+.pack-act-title { font-family: var(--display); font-size: 18px; margin-bottom: 2px; }
+.pack-act-title-zh { font-size: 15px; line-height: 2.2; margin: 0 0 8px; }
+.pack-act-title-zh .zh-simp { font-family: var(--zh-simp); }
+.pack-act-title-zh .zh-simp rt { font-family: var(--serif); font-size: 0.42em; color: var(--muted); font-weight: 400; letter-spacing: 0; }
+.pack-act-title-zh .zh-bpmf { font-family: 'Bpmf Huninn', 'LXGW WenKai TC', serif; }
+.pack-act-desc { font-size: 14px; line-height: 1.55; color: var(--ink-soft); margin-bottom: 6px; }
+.pack-act-desc-zh { font-size: 14px; line-height: 2.2; color: var(--ink-soft); margin-bottom: 12px; }
+.pack-act-desc-zh .zh-simp { font-family: var(--zh-simp); }
+.pack-act-desc-zh .zh-simp rt { font-family: var(--serif); font-size: 0.42em; color: var(--muted); font-weight: 400; letter-spacing: 0; }
+.pack-act-desc-zh .zh-bpmf { font-family: 'Bpmf Huninn', 'LXGW WenKai TC', serif; }
 .pack-act-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .pack-act-time { font-size: 12px; color: var(--muted); letter-spacing: 0.04em; }
 .pack-act-detail {
@@ -728,7 +740,16 @@ a { color: inherit; }
   border-top: 1px dashed var(--rule);
   font-size: 14px; line-height: 1.6; color: var(--ink-soft);
 }
-.pack-act-detail-lead { font-family: var(--display); color: var(--ink); margin-bottom: 6px; }
+.pack-act-detail-lead { font-family: var(--display); color: var(--ink); margin-bottom: 10px; }
+.pack-act-section { margin-bottom: 14px; }
+.pack-act-section-label { font-family: var(--display); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.pack-act-materials, .pack-act-steps { margin: 0; padding-left: 20px; }
+.pack-act-materials li, .pack-act-steps li { margin-bottom: 8px; }
+.pack-act-item-zh { display: block; line-height: 2.2; }
+.pack-act-item-zh .zh-simp { font-family: var(--zh-simp); font-size: 15px; }
+.pack-act-item-zh .zh-simp rt { font-family: var(--serif); font-size: 0.42em; color: var(--muted); font-weight: 400; letter-spacing: 0; }
+.pack-act-item-zh .zh-bpmf { font-family: 'Bpmf Huninn', 'LXGW WenKai TC', serif; font-size: 15px; }
+.pack-act-item-en { display: block; font-size: 13px; color: var(--muted); }
 .pack-act-card.is-open { border-color: var(--rule); }
 
 @media (max-width: 720px) {

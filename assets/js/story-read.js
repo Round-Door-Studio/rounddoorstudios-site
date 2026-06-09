@@ -77,20 +77,47 @@
 
   function vocabCard(w) {
     var ex = w.example;
+    /* Support new nested format: w.simp = {text, pinyin[]}, w.trad = {text, bpmf} */
+    var simpText = (w.simp && w.simp.text) || w.simp || '';
+    var tradText = (w.trad && w.trad.bpmf) || (w.trad && w.trad.text) || w.trad || '';
+    /* Pinyin for the headword: join readings from array, or use legacy string */
+    var pinyinDisplay = '';
+    if (w.simp && Array.isArray(w.simp.pinyin)) {
+      pinyinDisplay = w.simp.pinyin.map(function (p) { return p.reading || ''; }).filter(Boolean).join(' ');
+    } else {
+      pinyinDisplay = w.pinyin || '';
+    }
+    var exHtml = '';
+    if (ex) {
+      var exSimpHtml = '';
+      var exTradHtml = '';
+      if (ex.simp && ex.simp.text) {
+        exSimpHtml = rubyHtmlHighlight(ex.simp.text, ex.simp.pinyin, 'pinyin', simpText);
+      } else {
+        exSimpHtml = escapeHtml(ex.simp || '');
+      }
+      if (ex.trad && (ex.trad.bpmf || ex.trad.text)) {
+        var bpmfSrc = ex.trad.bpmf || ex.trad.text;
+        exTradHtml = '<span class="zh-bpmf">' + bpmfHtmlHighlight(bpmfSrc, tradText) + '</span>';
+      } else {
+        exTradHtml = escapeHtml(ex.trad || '');
+      }
+      exHtml = '<p class="pack-vocab-ex">' +
+        '<span class="only-simp zh-simp">' + exSimpHtml + '</span>' +
+        '<span class="only-trad">' + exTradHtml + '</span>' +
+        '<span class="pack-vocab-ex-en">' + escapeHtml(ex.en || '') + '</span>' +
+      '</p>';
+    }
     return '<article class="pack-vocab-card">' +
       '<div class="pack-vocab-head">' +
-        '<span class="pack-vocab-char only-simp zh-simp">' + w.simp + '</span>' +
-        '<span class="pack-vocab-char only-trad zh-trad">' + w.trad + '</span>' +
+        '<span class="pack-vocab-char only-simp zh-simp">' + escapeHtml(simpText) + '</span>' +
+        '<span class="pack-vocab-char only-trad zh-bpmf">' + escapeHtml(tradText) + '</span>' +
         '<div class="pack-vocab-meta">' +
-          '<div class="pack-vocab-pinyin">' + w.pinyin + '</div>' +
-          '<div class="pack-vocab-en">' + w.en + '</div>' +
+          '<div class="pack-vocab-pinyin">' + escapeHtml(pinyinDisplay) + '</div>' +
+          '<div class="pack-vocab-en">' + escapeHtml(w.en || '') + '</div>' +
         '</div>' +
       '</div>' +
-      (ex ? '<p class="pack-vocab-ex">' +
-        '<span class="only-simp zh-simp">' + ex.simp + '</span>' +
-        '<span class="only-trad zh-trad">' + ex.trad + '</span>' +
-        '<span class="pack-vocab-ex-en">' + ex.en + '</span>' +
-      '</p>' : '') +
+      exHtml +
     '</article>';
   }
 
@@ -146,20 +173,74 @@
 
   function activityCard(a) {
     var accent = a.accent || '#5C8358';
+    /* Support new nested format: a.title = {en, simp:{text}, trad:{bpmf}} */
+    var titleEn = (a.title && a.title.en) || a.title || '';
+    var descEn = (a.desc && a.desc.en) || a.desc || '';
+    var titleZh = '';
+    if (a.title && a.title.simp) {
+      titleZh = '<p class="pack-act-title-zh">' +
+        '<span class="only-simp zh-simp">' + rubyHtml(a.title.simp.text, a.title.simp.pinyin, 'pinyin') + '</span>' +
+        '<span class="only-trad zh-bpmf">' + escapeHtml((a.title.trad && (a.title.trad.bpmf || a.title.trad.text)) || '') + '</span>' +
+      '</p>';
+    }
+    var descZh = '';
+    if (a.desc && a.desc.simp) {
+      descZh = '<p class="pack-act-desc-zh">' +
+        '<span class="only-simp zh-simp">' + rubyHtml(a.desc.simp.text, a.desc.simp.pinyin, 'pinyin') + '</span>' +
+        '<span class="only-trad zh-bpmf">' + escapeHtml((a.desc.trad && (a.desc.trad.bpmf || a.desc.trad.text)) || '') + '</span>' +
+      '</p>';
+    }
     return '<article class="pack-act-card" id="activity-' + a.id + '">' +
       '<div class="pack-act-art" style="background:linear-gradient(145deg,' + accent + '33 0%,' + accent + '18 55%,var(--paper) 100%);">' +
         '<img src="assets/icons/round-door.png" alt="" class="pack-act-door" />' +
       '</div>' +
       '<div class="pack-act-body">' +
-        '<h3 class="pack-act-title">' + a.title + '</h3>' +
-        '<p class="pack-act-desc">' + a.desc + '</p>' +
+        '<h3 class="pack-act-title">' + escapeHtml(titleEn) + '</h3>' +
+        titleZh +
+        '<p class="pack-act-desc">' + escapeHtml(descEn) + '</p>' +
+        descZh +
         '<div class="pack-act-foot">' +
-          '<span class="pack-act-time">⏱ ' + a.time + '</span>' +
+          '<span class="pack-act-time">⏱ ' + escapeHtml(a.time || '') + '</span>' +
           '<button type="button" class="btn btn-primary btn-sm pack-act-open" data-act="' + a.id + '">Open Activity</button>' +
         '</div>' +
         '<div class="pack-act-detail" hidden>' +
           '<p class="pack-act-detail-lead">Here\'s how to try it:</p>' +
-          '<p>' + a.desc + '</p>' +
+          (a.materials && a.materials.length ? (
+            '<div class="pack-act-section">' +
+              '<p class="pack-act-section-label">You\'ll need</p>' +
+              '<ul class="pack-act-materials">' +
+              a.materials.map(function (m) {
+                var enText = (typeof m === 'string') ? m : (m.en || '');
+                var zhHtml = '';
+                if (m.simp) {
+                  zhHtml = '<span class="pack-act-item-zh">' +
+                    '<span class="only-simp zh-simp">' + rubyHtml(m.simp.text, m.simp.pinyin, 'pinyin') + '</span>' +
+                    '<span class="only-trad zh-bpmf">' + escapeHtml((m.trad && (m.trad.bpmf || m.trad.text)) || '') + '</span>' +
+                  '</span>';
+                }
+                return '<li>' + zhHtml + '<span class="pack-act-item-en">' + escapeHtml(enText) + '</span></li>';
+              }).join('') +
+              '</ul>' +
+            '</div>'
+          ) : '') +
+          (a.steps && a.steps.length ? (
+            '<div class="pack-act-section">' +
+              '<p class="pack-act-section-label">Steps</p>' +
+              '<ol class="pack-act-steps">' +
+              a.steps.map(function (s) {
+                var enText = (typeof s === 'string') ? s : (s.en || '');
+                var zhHtml = '';
+                if (s.simp) {
+                  zhHtml = '<span class="pack-act-item-zh">' +
+                    '<span class="only-simp zh-simp">' + rubyHtml(s.simp.text, s.simp.pinyin, 'pinyin') + '</span>' +
+                    '<span class="only-trad zh-bpmf">' + escapeHtml((s.trad && (s.trad.bpmf || s.trad.text)) || '') + '</span>' +
+                  '</span>';
+                }
+                return '<li>' + zhHtml + '<span class="pack-act-item-en">' + escapeHtml(enText) + '</span></li>';
+              }).join('') +
+              '</ol>' +
+            '</div>'
+          ) : '') +
         '</div>' +
       '</div>' +
     '</article>';
@@ -239,6 +320,52 @@
 
   function rubyHtml(text, syllableStr, kind) {
     return rubyTokens(text, syllableStr, kind).join('');
+  }
+
+  /* Wrap the first occurrence of highlightWord characters in the ruby token
+     array with <strong class="vocab-hl">…</strong>. */
+  function rubyHtmlHighlight(text, syllableStr, kind, highlightWord) {
+    var tokens = rubyTokens(text, syllableStr, kind);
+    if (!highlightWord) return tokens.join('');
+    var chars = Array.from(text || '');
+    var hlChars = Array.from(highlightWord);
+    var startIdx = -1;
+    outer: for (var i = 0; i <= chars.length - hlChars.length; i++) {
+      for (var j = 0; j < hlChars.length; j++) {
+        if (chars[i + j] !== hlChars[j]) { continue outer; }
+      }
+      startIdx = i;
+      break;
+    }
+    if (startIdx === -1) return tokens.join('');
+    var endIdx = startIdx + hlChars.length;
+    return tokens.slice(0, startIdx).join('') +
+      '<strong class="vocab-hl">' + tokens.slice(startIdx, endIdx).join('') + '</strong>' +
+      tokens.slice(endIdx).join('');
+  }
+
+  /* Same for bpmf strings — strips variation selectors before comparing. */
+  function bpmfHtmlHighlight(bpmfStr, tradWord) {
+    var tokens = bpmfSplitTokens(bpmfStr);
+    if (!tradWord) return tokens.map(escapeHtml).join('');
+    var hlChars = Array.from(tradWord);
+    function base(tok) { return Array.from(tok).filter(function (ch) {
+      var cp = ch.codePointAt(0);
+      return !((cp >= 0xFE00 && cp <= 0xFE0F) || (cp >= 0xE0100 && cp <= 0xE01EF));
+    }).join(''); }
+    var startIdx = -1;
+    outer: for (var i = 0; i <= tokens.length - hlChars.length; i++) {
+      for (var j = 0; j < hlChars.length; j++) {
+        if (base(tokens[i + j]) !== hlChars[j]) { continue outer; }
+      }
+      startIdx = i;
+      break;
+    }
+    if (startIdx === -1) return tokens.map(escapeHtml).join('');
+    var endIdx = startIdx + hlChars.length;
+    return tokens.slice(0, startIdx).map(escapeHtml).join('') +
+      '<strong class="vocab-hl">' + tokens.slice(startIdx, endIdx).map(escapeHtml).join('') + '</strong>' +
+      tokens.slice(endIdx).map(escapeHtml).join('');
   }
 
   function zhuyinSyllables(str) {
