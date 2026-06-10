@@ -1,0 +1,2924 @@
+{
+  "slug": "frog-at-the-bottom-of-the-well",
+  "activities": [
+    {
+      "id": "well-window",
+      "title": {
+        "en": "My Well Window",
+        "simp": {
+          "text": "我的井口小窗",
+          "pinyin": [
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "我的井口小窗",
+          "zhuyin": [
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            }
+          ],
+          "bpmf": "我的井口小窗"
+        }
+      },
+      "desc": {
+        "en": "Cut a circle from paper and draw what you can see through your own well window — then draw what is outside the circle too.",
+        "simp": {
+          "text": "剪出一个圆形，画出你从自己的井口小窗里看见的东西，再画出圆形外面的世界。",
+          "pinyin": [
+            {
+              "text": "剪",
+              "reading": "jiǎn"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "圆",
+              "reading": "yuán"
+            },
+            {
+              "text": "形",
+              "reading": "xíng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "己",
+              "reading": "jǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "见",
+              "reading": "jiàn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "东",
+              "reading": "dōng"
+            },
+            {
+              "text": "西",
+              "reading": "xi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "圆",
+              "reading": "yuán"
+            },
+            {
+              "text": "形",
+              "reading": "xíng"
+            },
+            {
+              "text": "外",
+              "reading": "wài"
+            },
+            {
+              "text": "面",
+              "reading": "miàn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "世",
+              "reading": "shì"
+            },
+            {
+              "text": "界",
+              "reading": "jiè"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "剪出一個圓形，畫出你從自己的井口小窗裡看見的東西，再畫出圓形外面的世界。",
+          "zhuyin": [
+            {
+              "text": "剪",
+              "reading": "ㄐㄧㄢˇ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "圓",
+              "reading": "ㄩㄢˊ"
+            },
+            {
+              "text": "形",
+              "reading": "ㄒㄧㄥˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "己",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "見",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "東",
+              "reading": "ㄉㄨㄥ"
+            },
+            {
+              "text": "西",
+              "reading": "ㄒㄧ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "圓",
+              "reading": "ㄩㄢˊ"
+            },
+            {
+              "text": "形",
+              "reading": "ㄒㄧㄥˊ"
+            },
+            {
+              "text": "外",
+              "reading": "ㄨㄞˋ"
+            },
+            {
+              "text": "面",
+              "reading": "ㄇㄧㄢˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "世",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "界",
+              "reading": "ㄐㄧㄝˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "剪出一󠇡個󠇡圓形，畫出你從自己的井口小窗裡看見的東西󠇡，再畫出圓形外面的世界。"
+        }
+      },
+      "time": "15 min",
+      "accent": "#5C8358",
+      "materials": [
+        {
+          "en": "paper",
+          "simp": {
+            "text": "纸",
+            "pinyin": [
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "紙",
+            "zhuyin": [
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "紙"
+          }
+        },
+        {
+          "en": "scissors",
+          "simp": {
+            "text": "剪刀",
+            "pinyin": [
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "刀",
+                "reading": "dāo"
+              }
+            ]
+          },
+          "trad": {
+            "text": "剪刀",
+            "zhuyin": [
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "刀",
+                "reading": "ㄉㄠ"
+              }
+            ],
+            "bpmf": "剪刀"
+          }
+        },
+        {
+          "en": "crayons or colored pencils",
+          "simp": {
+            "text": "蜡笔或彩色铅笔",
+            "pinyin": [
+              {
+                "text": "蜡",
+                "reading": "là"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "铅",
+                "reading": "qiān"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "蠟筆或彩色鉛筆",
+            "zhuyin": [
+              {
+                "text": "蠟",
+                "reading": "ㄌㄚˋ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "鉛",
+                "reading": "ㄑㄧㄢ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "蠟筆或彩色鉛筆"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cut a circle in the middle of the paper.",
+          "simp": {
+            "text": "在纸的中间剪出一个圆。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "间",
+                "reading": "jiān"
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在紙的中間剪出一個圓。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "間",
+                "reading": "ㄐㄧㄢ"
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在紙的中間剪出一󠇡個󠇡圓。"
+          }
+        },
+        {
+          "en": "Look through the circle and draw what you can see inside it.",
+          "simp": {
+            "text": "透过圆圈往外看，把你看见的东西画在圆圈里。",
+            "pinyin": [
+              {
+                "text": "透",
+                "reading": "tòu"
+              },
+              {
+                "text": "过",
+                "reading": "guò"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "往",
+                "reading": "wǎng"
+              },
+              {
+                "text": "外",
+                "reading": "wài"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "东",
+                "reading": "dōng"
+              },
+              {
+                "text": "西",
+                "reading": "xi"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "透過圓圈往外看，把你看見的東西畫在圓圈裡。",
+            "zhuyin": [
+              {
+                "text": "透",
+                "reading": "ㄊㄡˋ"
+              },
+              {
+                "text": "過",
+                "reading": "ㄍㄨㄛˋ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "往",
+                "reading": "ㄨㄤˇ"
+              },
+              {
+                "text": "外",
+                "reading": "ㄨㄞˋ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "東",
+                "reading": "ㄉㄨㄥ"
+              },
+              {
+                "text": "西",
+                "reading": "ㄒㄧ˙"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "透過圓圈往外看，把你看見的東西󠇡畫在圓圈裡。"
+          }
+        },
+        {
+          "en": "Now draw what is outside the circle too.",
+          "simp": {
+            "text": "接着，也把圆圈外面的世界画出来。",
+            "pinyin": [
+              {
+                "text": "接",
+                "reading": "jiē"
+              },
+              {
+                "text": "着",
+                "reading": "zhe"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "外",
+                "reading": "wài"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "世",
+                "reading": "shì"
+              },
+              {
+                "text": "界",
+                "reading": "jiè"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "接著，也把圓圈外面的世界畫出來。",
+            "zhuyin": [
+              {
+                "text": "接",
+                "reading": "ㄐㄧㄝ"
+              },
+              {
+                "text": "著",
+                "reading": "ㄓㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "外",
+                "reading": "ㄨㄞˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "世",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "界",
+                "reading": "ㄐㄧㄝˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "接著，也把圓圈外面的世界畫出來。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ocean-map",
+      "title": {
+        "en": "Map the Big Wide World",
+        "simp": {
+          "text": "画出大世界地图",
+          "pinyin": [
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "世",
+              "reading": "shì"
+            },
+            {
+              "text": "界",
+              "reading": "jiè"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "图",
+              "reading": "tú"
+            }
+          ]
+        },
+        "trad": {
+          "text": "畫出大世界地圖",
+          "zhuyin": [
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "世",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "界",
+              "reading": "ㄐㄧㄝˋ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "圖",
+              "reading": "ㄊㄨˊ"
+            }
+          ],
+          "bpmf": "畫出大世界地圖"
+        }
+      },
+      "desc": {
+        "en": "On a large sheet, draw Gua Gua's well, the mountain, and Lao Hai's ocean. Label three places in English and Chinese.",
+        "simp": {
+          "text": "在一张大纸上，画出呱呱的井、那座山，还有老海的大海。用英文和中文标出三个地方。",
+          "pinyin": [
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "张",
+              "reading": "zhāng"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "座",
+              "reading": "zuò"
+            },
+            {
+              "text": "山",
+              "reading": "shān"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "还",
+              "reading": "hái"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "老",
+              "reading": "lǎo"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "用",
+              "reading": "yòng"
+            },
+            {
+              "text": "英",
+              "reading": "yīng"
+            },
+            {
+              "text": "文",
+              "reading": "wén"
+            },
+            {
+              "text": "和",
+              "reading": "hé"
+            },
+            {
+              "text": "中",
+              "reading": "zhōng"
+            },
+            {
+              "text": "文",
+              "reading": "wén"
+            },
+            {
+              "text": "标",
+              "reading": "biāo"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "三",
+              "reading": "sān"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "方",
+              "reading": "fāng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "在一張大紙上，畫出呱呱的井、那座山，還有老海的大海。用英文和中文標出三個地方。",
+          "zhuyin": [
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "張",
+              "reading": "ㄓㄤ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "座",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "山",
+              "reading": "ㄕㄢ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "還",
+              "reading": "ㄏㄞˊ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "老",
+              "reading": "ㄌㄠˇ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "用",
+              "reading": "ㄩㄥˋ"
+            },
+            {
+              "text": "英",
+              "reading": "ㄧㄥ"
+            },
+            {
+              "text": "文",
+              "reading": "ㄨㄣˊ"
+            },
+            {
+              "text": "和",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "中",
+              "reading": "ㄓㄨㄥ"
+            },
+            {
+              "text": "文",
+              "reading": "ㄨㄣˊ"
+            },
+            {
+              "text": "標",
+              "reading": "ㄅㄧㄠ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "三",
+              "reading": "ㄙㄢ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "方",
+              "reading": "ㄈㄤ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "在一󠇢張大紙上，畫出呱呱的井、那座山，還󠇡有老海的大海。用英文和中文標出三個󠇡地方。"
+        }
+      },
+      "time": "20 min",
+      "accent": "#5B5C9D",
+      "materials": [
+        {
+          "en": "a large sheet of paper",
+          "simp": {
+            "text": "一张大纸",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一張大紙",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "一󠇢張大紙"
+          }
+        },
+        {
+          "en": "markers",
+          "simp": {
+            "text": "彩色笔",
+            "pinyin": [
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "彩色筆",
+            "zhuyin": [
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "彩色筆"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Lay out a large sheet of paper.",
+          "simp": {
+            "text": "铺开一张大纸。",
+            "pinyin": [
+              {
+                "text": "铺",
+                "reading": "pū"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "鋪開一張大紙。",
+            "zhuyin": [
+              {
+                "text": "鋪",
+                "reading": "ㄆㄨ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "鋪開一󠇢張大紙。"
+          }
+        },
+        {
+          "en": "Draw Gua Gua's well, the mountain, and Lao Hai's ocean.",
+          "simp": {
+            "text": "画出呱呱的井、那座山，还有老海的大海。",
+            "pinyin": [
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "呱",
+                "reading": "guā"
+              },
+              {
+                "text": "呱",
+                "reading": "guā"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "井",
+                "reading": "jǐng"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "座",
+                "reading": "zuò"
+              },
+              {
+                "text": "山",
+                "reading": "shān"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "还",
+                "reading": "hái"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "老",
+                "reading": "lǎo"
+              },
+              {
+                "text": "海",
+                "reading": "hǎi"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "海",
+                "reading": "hǎi"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "畫出呱呱的井、那座山，還有老海的大海。",
+            "zhuyin": [
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "呱",
+                "reading": "ㄍㄨㄚ"
+              },
+              {
+                "text": "呱",
+                "reading": "ㄍㄨㄚ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "井",
+                "reading": "ㄐㄧㄥˇ"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "座",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "山",
+                "reading": "ㄕㄢ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "還",
+                "reading": "ㄏㄞˊ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "老",
+                "reading": "ㄌㄠˇ"
+              },
+              {
+                "text": "海",
+                "reading": "ㄏㄞˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "海",
+                "reading": "ㄏㄞˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "畫出呱呱的井、那座山，還󠇡有老海的大海。"
+          }
+        },
+        {
+          "en": "Label the three places in both English and Chinese.",
+          "simp": {
+            "text": "用英文和中文，把这三个地方的名字写上去。",
+            "pinyin": [
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "英",
+                "reading": "yīng"
+              },
+              {
+                "text": "文",
+                "reading": "wén"
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "文",
+                "reading": "wén"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "三",
+                "reading": "sān"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "名",
+                "reading": "míng"
+              },
+              {
+                "text": "字",
+                "reading": "zi"
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "去",
+                "reading": "qù"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "用英文和中文，把這三個地方的名字寫上去。",
+            "zhuyin": [
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "英",
+                "reading": "ㄧㄥ"
+              },
+              {
+                "text": "文",
+                "reading": "ㄨㄣˊ"
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "文",
+                "reading": "ㄨㄣˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "三",
+                "reading": "ㄙㄢ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "名",
+                "reading": "ㄇㄧㄥˊ"
+              },
+              {
+                "text": "字",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "去",
+                "reading": "ㄑㄩˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "用英文和中文，把這三個󠇡地方的名字󠇡寫上去。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "star-count",
+      "title": {
+        "en": "Count the Real Stars",
+        "simp": {
+          "text": "数一数真正的星星",
+          "pinyin": [
+            {
+              "text": "数",
+              "reading": "shǔ"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "数",
+              "reading": "shǔ"
+            },
+            {
+              "text": "真",
+              "reading": "zhēn"
+            },
+            {
+              "text": "正",
+              "reading": "zhèng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "星",
+              "reading": "xīng"
+            },
+            {
+              "text": "星",
+              "reading": "xīng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "數一數真正的星星",
+          "zhuyin": [
+            {
+              "text": "數",
+              "reading": "ㄕㄨˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "數",
+              "reading": "ㄕㄨˇ"
+            },
+            {
+              "text": "真",
+              "reading": "ㄓㄣ"
+            },
+            {
+              "text": "正",
+              "reading": "ㄓㄥˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "星",
+              "reading": "ㄒㄧㄥ"
+            },
+            {
+              "text": "星",
+              "reading": "ㄒㄧㄥ"
+            }
+          ],
+          "bpmf": "數󠇡一󠇢數󠇡真正的星星"
+        }
+      },
+      "desc": {
+        "en": "Tonight, step outside and count stars you can see. Compare your number to Gua Gua's few stars in the well.",
+        "simp": {
+          "text": "今天晚上，走到屋外，数一数你能看见几颗星星。再和呱呱在井底只能看见的那几颗星星比一比。",
+          "pinyin": [
+            {
+              "text": "今",
+              "reading": "jīn"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "晚",
+              "reading": "wǎn"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "走",
+              "reading": "zǒu"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "屋",
+              "reading": "wū"
+            },
+            {
+              "text": "外",
+              "reading": "wài"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "数",
+              "reading": "shǔ"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "数",
+              "reading": "shǔ"
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "能",
+              "reading": "néng"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "见",
+              "reading": "jiàn"
+            },
+            {
+              "text": "几",
+              "reading": "jǐ"
+            },
+            {
+              "text": "颗",
+              "reading": "kē"
+            },
+            {
+              "text": "星",
+              "reading": "xīng"
+            },
+            {
+              "text": "星",
+              "reading": "xīng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "和",
+              "reading": "hé"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "底",
+              "reading": "dǐ"
+            },
+            {
+              "text": "只",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "能",
+              "reading": "néng"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "见",
+              "reading": "jiàn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "几",
+              "reading": "jǐ"
+            },
+            {
+              "text": "颗",
+              "reading": "kē"
+            },
+            {
+              "text": "星",
+              "reading": "xīng"
+            },
+            {
+              "text": "星",
+              "reading": "xīng"
+            },
+            {
+              "text": "比",
+              "reading": "bǐ"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "比",
+              "reading": "bǐ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "今天晚上，走到屋外，數一數你能看見幾顆星星。再和呱呱在井底只能看見的那幾顆星星比一比。",
+          "zhuyin": [
+            {
+              "text": "今",
+              "reading": "ㄐㄧㄣ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "晚",
+              "reading": "ㄨㄢˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "走",
+              "reading": "ㄗㄡˇ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "屋",
+              "reading": "ㄨ"
+            },
+            {
+              "text": "外",
+              "reading": "ㄨㄞˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "數",
+              "reading": "ㄕㄨˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "數",
+              "reading": "ㄕㄨˇ"
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "能",
+              "reading": "ㄋㄥˊ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "見",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "幾",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "顆",
+              "reading": "ㄎㄜ"
+            },
+            {
+              "text": "星",
+              "reading": "ㄒㄧㄥ"
+            },
+            {
+              "text": "星",
+              "reading": "ㄒㄧㄥ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "和",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "底",
+              "reading": "ㄉㄧˇ"
+            },
+            {
+              "text": "只",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "能",
+              "reading": "ㄋㄥˊ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "見",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "幾",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "顆",
+              "reading": "ㄎㄜ"
+            },
+            {
+              "text": "星",
+              "reading": "ㄒㄧㄥ"
+            },
+            {
+              "text": "星",
+              "reading": "ㄒㄧㄥ"
+            },
+            {
+              "text": "比",
+              "reading": "ㄅㄧˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "比",
+              "reading": "ㄅㄧˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "今天晚上，走到屋外，數󠇡一󠇢數󠇡你能看見幾顆星星。再和呱呱在井底只能看見的那幾顆星星比一󠇢比。"
+        }
+      },
+      "time": "10 min",
+      "accent": "#9B4761",
+      "materials": [
+        {
+          "en": "a clear night sky",
+          "simp": {
+            "text": "晴朗的夜空",
+            "pinyin": [
+              {
+                "text": "晴",
+                "reading": "qíng"
+              },
+              {
+                "text": "朗",
+                "reading": "lǎng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "夜",
+                "reading": "yè"
+              },
+              {
+                "text": "空",
+                "reading": "kōng"
+              }
+            ]
+          },
+          "trad": {
+            "text": "晴朗的夜空",
+            "zhuyin": [
+              {
+                "text": "晴",
+                "reading": "ㄑㄧㄥˊ"
+              },
+              {
+                "text": "朗",
+                "reading": "ㄌㄤˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "夜",
+                "reading": "ㄧㄝˋ"
+              },
+              {
+                "text": "空",
+                "reading": "ㄎㄨㄥ"
+              }
+            ],
+            "bpmf": "晴朗的夜空"
+          }
+        },
+        {
+          "en": "paper and a pencil",
+          "simp": {
+            "text": "纸和笔",
+            "pinyin": [
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "紙和筆",
+            "zhuyin": [
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "紙和筆"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "After dark, go outside to a safe, open spot.",
+          "simp": {
+            "text": "天黑以后，走到屋外安全又开阔的地方。",
+            "pinyin": [
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "黑",
+                "reading": "hēi"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "走",
+                "reading": "zǒu"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "屋",
+                "reading": "wū"
+              },
+              {
+                "text": "外",
+                "reading": "wài"
+              },
+              {
+                "text": "安",
+                "reading": "ān"
+              },
+              {
+                "text": "全",
+                "reading": "quán"
+              },
+              {
+                "text": "又",
+                "reading": "yòu"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "阔",
+                "reading": "kuò"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "天黑以後，走到屋外安全又開闊的地方。",
+            "zhuyin": [
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "黑",
+                "reading": "ㄏㄟ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "後",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "走",
+                "reading": "ㄗㄡˇ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "屋",
+                "reading": "ㄨ"
+              },
+              {
+                "text": "外",
+                "reading": "ㄨㄞˋ"
+              },
+              {
+                "text": "安",
+                "reading": "ㄢ"
+              },
+              {
+                "text": "全",
+                "reading": "ㄑㄩㄢˊ"
+              },
+              {
+                "text": "又",
+                "reading": "ㄧㄡˋ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "闊",
+                "reading": "ㄎㄨㄛˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "天黑以後，走到屋外安全又開闊的地方。"
+          }
+        },
+        {
+          "en": "Look up at the sky and count how many stars you can see.",
+          "simp": {
+            "text": "抬头看看天空，数一数你能看见几颗星星。",
+            "pinyin": [
+              {
+                "text": "抬",
+                "reading": "tái"
+              },
+              {
+                "text": "头",
+                "reading": "tóu"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "空",
+                "reading": "kōng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "数",
+                "reading": "shǔ"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "数",
+                "reading": "shǔ"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "能",
+                "reading": "néng"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "几",
+                "reading": "jǐ"
+              },
+              {
+                "text": "颗",
+                "reading": "kē"
+              },
+              {
+                "text": "星",
+                "reading": "xīng"
+              },
+              {
+                "text": "星",
+                "reading": "xīng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "抬頭看看天空，數一數你能看見幾顆星星。",
+            "zhuyin": [
+              {
+                "text": "抬",
+                "reading": "ㄊㄞˊ"
+              },
+              {
+                "text": "頭",
+                "reading": "ㄊㄡˊ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "空",
+                "reading": "ㄎㄨㄥ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "數",
+                "reading": "ㄕㄨˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "數",
+                "reading": "ㄕㄨˇ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "能",
+                "reading": "ㄋㄥˊ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "幾",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "顆",
+                "reading": "ㄎㄜ"
+              },
+              {
+                "text": "星",
+                "reading": "ㄒㄧㄥ"
+              },
+              {
+                "text": "星",
+                "reading": "ㄒㄧㄥ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "抬頭看看天空，數󠇡一󠇢數󠇡你能看見幾顆星星。"
+          }
+        },
+        {
+          "en": "Compare your number with the few stars Gua Gua could see from the bottom of the well.",
+          "simp": {
+            "text": "把你数到的数字，和呱呱在井底只能看见的那几颗星星比一比。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "数",
+                "reading": "shǔ"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "数",
+                "reading": "shù"
+              },
+              {
+                "text": "字",
+                "reading": "zì"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "呱",
+                "reading": "guā"
+              },
+              {
+                "text": "呱",
+                "reading": "guā"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "井",
+                "reading": "jǐng"
+              },
+              {
+                "text": "底",
+                "reading": "dǐ"
+              },
+              {
+                "text": "只",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "能",
+                "reading": "néng"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "几",
+                "reading": "jǐ"
+              },
+              {
+                "text": "颗",
+                "reading": "kē"
+              },
+              {
+                "text": "星",
+                "reading": "xīng"
+              },
+              {
+                "text": "星",
+                "reading": "xīng"
+              },
+              {
+                "text": "比",
+                "reading": "bǐ"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "比",
+                "reading": "bǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把你數到的數字，和呱呱在井底只能看見的那幾顆星星比一比。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "數",
+                "reading": "ㄕㄨˇ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "數",
+                "reading": "ㄕㄨˋ"
+              },
+              {
+                "text": "字",
+                "reading": "ㄗˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "呱",
+                "reading": "ㄍㄨㄚ"
+              },
+              {
+                "text": "呱",
+                "reading": "ㄍㄨㄚ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "井",
+                "reading": "ㄐㄧㄥˇ"
+              },
+              {
+                "text": "底",
+                "reading": "ㄉㄧˇ"
+              },
+              {
+                "text": "只",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "能",
+                "reading": "ㄋㄥˊ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "幾",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "顆",
+                "reading": "ㄎㄜ"
+              },
+              {
+                "text": "星",
+                "reading": "ㄒㄧㄥ"
+              },
+              {
+                "text": "星",
+                "reading": "ㄒㄧㄥ"
+              },
+              {
+                "text": "比",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "比",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把你數󠇡到的數字，和呱呱在井底只能看見的那幾顆星星比一󠇢比。"
+          }
+        }
+      ]
+    }
+  ]
+}

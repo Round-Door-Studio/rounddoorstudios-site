@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <title>BPMFVS Selector Test</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bpmf+Huninn&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      padding: 40px;
+      font-family: system-ui, sans-serif;
+    }
+
+    .row {
+      margin-bottom: 28px;
+    }
+
+    .label {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 6px;
+    }
+
+    .bpmf {
+      font-family: "Bpmf Huninn", sans-serif;
+      font-size: 64px;
+      line-height: 2.4;
+    }
+
+    code {
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>BPMFVS Selector Test</h1>
+
+  <div class="row">
+    <div class="label">Default 會 — should show ㄏㄨㄟˋ</div>
+    <div class="bpmf">會</div>
+    <code>U+6703</code>
+  </div>
+
+  <div class="row">
+    <div class="label">會 + U+E01E1 — should show ㄎㄨㄞˋ</div>
+    <div class="bpmf">會&#xE01E1;</div>
+    <code>U+6703 U+E01E1</code>
+  </div>
+
+  <div class="row">
+    <div class="label">會 + U+E01E2 — should show ㄏㄨㄟˇ</div>
+    <div class="bpmf">會&#xE01E2;</div>
+    <code>U+6703 U+E01E2</code>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="label">Sentence test</div>
+    <div class="bpmf">我會去開會&#xE01E1;。</div>
+    <code>Second 會 has U+E01E1 selector</code>
+  </div>
+</body>
+</html>

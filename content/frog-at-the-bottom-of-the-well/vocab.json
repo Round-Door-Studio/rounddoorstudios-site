@@ -1,0 +1,6139 @@
+{
+  "slug": "frog-at-the-bottom-of-the-well",
+  "vocab": [
+    {
+      "tier": "door",
+      "simp": {
+        "text": "青蛙",
+        "pinyin": [
+          {
+            "text": "青",
+            "reading": "qīng"
+          },
+          {
+            "text": "蛙",
+            "reading": "wā"
+          }
+        ]
+      },
+      "trad": {
+        "text": "青蛙",
+        "zhuyin": [
+          {
+            "text": "青",
+            "reading": "ㄑㄧㄥ"
+          },
+          {
+            "text": "蛙",
+            "reading": "ㄨㄚ"
+          }
+        ],
+        "bpmf": "青蛙"
+      },
+      "en": "frog",
+      "example": {
+        "simp": {
+          "text": "他是一只绿油油的小青蛙，名字叫呱呱。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "只",
+              "reading": "zhī"
+            },
+            {
+              "text": "绿",
+              "reading": "lǜ"
+            },
+            {
+              "text": "油",
+              "reading": "yóu"
+            },
+            {
+              "text": "油",
+              "reading": "yóu"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "青",
+              "reading": "qīng"
+            },
+            {
+              "text": "蛙",
+              "reading": "wā"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "名",
+              "reading": "míng"
+            },
+            {
+              "text": "字",
+              "reading": "zi"
+            },
+            {
+              "text": "叫",
+              "reading": "jiào"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他是一隻綠油油的小青蛙，名字叫呱呱。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "隻",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "綠",
+              "reading": "ㄌㄩˋ"
+            },
+            {
+              "text": "油",
+              "reading": "ㄧㄡˊ"
+            },
+            {
+              "text": "油",
+              "reading": "ㄧㄡˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "青",
+              "reading": "ㄑㄧㄥ"
+            },
+            {
+              "text": "蛙",
+              "reading": "ㄨㄚ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "名",
+              "reading": "ㄇㄧㄥˊ"
+            },
+            {
+              "text": "字",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "叫",
+              "reading": "ㄐㄧㄠˋ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他是一󠇢隻綠油油的小青蛙，名字󠇡叫呱呱。"
+        },
+        "en": "He was a tiny, bright green frog, and his name was Gua Gua."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "井",
+        "pinyin": [
+          {
+            "text": "井",
+            "reading": "jǐng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "井",
+        "zhuyin": [
+          {
+            "text": "井",
+            "reading": "ㄐㄧㄥˇ"
+          }
+        ],
+        "bpmf": "井"
+      },
+      "en": "well",
+      "example": {
+        "simp": {
+          "text": "呱呱在井里住了好多年，从来没出去过。",
+          "pinyin": [
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "好",
+              "reading": "hǎo"
+            },
+            {
+              "text": "多",
+              "reading": "duō"
+            },
+            {
+              "text": "年",
+              "reading": "nián"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "没",
+              "reading": "méi"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "去",
+              "reading": "qù"
+            },
+            {
+              "text": "过",
+              "reading": "guò"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "呱呱在井裡住了好多年,從來沒出去過。",
+          "zhuyin": [
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "好",
+              "reading": "ㄏㄠˇ"
+            },
+            {
+              "text": "多",
+              "reading": "ㄉㄨㄛ"
+            },
+            {
+              "text": "年",
+              "reading": "ㄋㄧㄢˊ"
+            },
+            {
+              "text": ",",
+              "reading": ""
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "沒",
+              "reading": "ㄇㄟˊ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "去",
+              "reading": "ㄑㄩˋ"
+            },
+            {
+              "text": "過",
+              "reading": "ㄍㄨㄛˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "呱呱在井裡住了好多年,從來沒出去過。"
+        },
+        "en": "Gua Gua had lived in the well for many years and had never once been outside."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "水",
+        "pinyin": [
+          {
+            "text": "水",
+            "reading": "shuǐ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "水",
+        "zhuyin": [
+          {
+            "text": "水",
+            "reading": "ㄕㄨㄟˇ"
+          }
+        ],
+        "bpmf": "水"
+      },
+      "en": "water",
+      "example": {
+        "simp": {
+          "text": "很久以前，在一座安静的小山脚下，有一口被人遗忘的废弃水井。",
+          "pinyin": [
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "久",
+              "reading": "jiǔ"
+            },
+            {
+              "text": "以",
+              "reading": "yǐ"
+            },
+            {
+              "text": "前",
+              "reading": "qián"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "座",
+              "reading": "zuò"
+            },
+            {
+              "text": "安",
+              "reading": "ān"
+            },
+            {
+              "text": "静",
+              "reading": "jìng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "山",
+              "reading": "shān"
+            },
+            {
+              "text": "脚",
+              "reading": "jiǎo"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "被",
+              "reading": "bèi"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "遗",
+              "reading": "yí"
+            },
+            {
+              "text": "忘",
+              "reading": "wàng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "废",
+              "reading": "fèi"
+            },
+            {
+              "text": "弃",
+              "reading": "qì"
+            },
+            {
+              "text": "水",
+              "reading": "shuǐ"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "很久以前，在一座安靜的小山腳下，有一口被人遺忘的廢棄水井。",
+          "zhuyin": [
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "久",
+              "reading": "ㄐㄧㄡˇ"
+            },
+            {
+              "text": "以",
+              "reading": "ㄧˇ"
+            },
+            {
+              "text": "前",
+              "reading": "ㄑㄧㄢˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "座",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "安",
+              "reading": "ㄢ"
+            },
+            {
+              "text": "靜",
+              "reading": "ㄐㄧㄥˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "山",
+              "reading": "ㄕㄢ"
+            },
+            {
+              "text": "腳",
+              "reading": "ㄐㄧㄠˇ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "被",
+              "reading": "ㄅㄟˋ"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "遺",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "忘",
+              "reading": "ㄨㄤˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "廢",
+              "reading": "ㄈㄟˋ"
+            },
+            {
+              "text": "棄",
+              "reading": "ㄑㄧˋ"
+            },
+            {
+              "text": "水",
+              "reading": "ㄕㄨㄟˇ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "很久以前，在一󠇡座安靜的小山腳下，有一󠇢口被人遺忘的廢棄水井。"
+        },
+        "en": "A long time ago, at the foot of a quiet little mountain, there was a forgotten, abandoned water well."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "眼睛",
+        "pinyin": [
+          {
+            "text": "眼",
+            "reading": "yǎn"
+          },
+          {
+            "text": "睛",
+            "reading": "jīng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "眼睛",
+        "zhuyin": [
+          {
+            "text": "眼",
+            "reading": "ㄧㄢˇ"
+          },
+          {
+            "text": "睛",
+            "reading": "ㄐㄧㄥ"
+          }
+        ],
+        "bpmf": "眼睛"
+      },
+      "en": "eyes",
+      "example": {
+        "simp": {
+          "text": "呱呱每天早上一睁开眼睛，就会先伸个大大的懒腰。",
+          "pinyin": [
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "每",
+              "reading": "měi"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "早",
+              "reading": "zǎo"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "睁",
+              "reading": "zhēng"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "眼",
+              "reading": "yǎn"
+            },
+            {
+              "text": "睛",
+              "reading": "jīng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "会",
+              "reading": "huì"
+            },
+            {
+              "text": "先",
+              "reading": "xiān"
+            },
+            {
+              "text": "伸",
+              "reading": "shēn"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "懒",
+              "reading": "lǎn"
+            },
+            {
+              "text": "腰",
+              "reading": "yāo"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "呱呱每天早上一睜開眼睛，就會先伸個大大的懶腰。",
+          "zhuyin": [
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "每",
+              "reading": "ㄇㄟˇ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "早",
+              "reading": "ㄗㄠˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "睜",
+              "reading": "ㄓㄥ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "眼",
+              "reading": "ㄧㄢˇ"
+            },
+            {
+              "text": "睛",
+              "reading": "ㄐㄧㄥ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "會",
+              "reading": "ㄏㄨㄟˋ"
+            },
+            {
+              "text": "先",
+              "reading": "ㄒㄧㄢ"
+            },
+            {
+              "text": "伸",
+              "reading": "ㄕㄣ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "懶",
+              "reading": "ㄌㄢˇ"
+            },
+            {
+              "text": "腰",
+              "reading": "ㄧㄠ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "呱呱每天早上一󠇢睜開眼睛，就會先伸個󠇡大大的懶腰。"
+        },
+        "en": "Every morning when Gua Gua opened his eyes, he would first stretch with a big yawn."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "天空",
+        "pinyin": [
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "空",
+            "reading": "kōng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "天空",
+        "zhuyin": [
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "空",
+            "reading": "ㄎㄨㄥ"
+          }
+        ],
+        "bpmf": "天空"
+      },
+      "en": "sky",
+      "example": {
+        "simp": {
+          "text": "对呱呱来说，天空就是井口那一圈，圆圆的、蓝蓝的。",
+          "pinyin": [
+            {
+              "text": "对",
+              "reading": "duì"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "空",
+              "reading": "kōng"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "圈",
+              "reading": "quān"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "圆",
+              "reading": "yuán"
+            },
+            {
+              "text": "圆",
+              "reading": "yuán"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "蓝",
+              "reading": "lán"
+            },
+            {
+              "text": "蓝",
+              "reading": "lán"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "對呱呱來說，天空就是井口那一圈，圓圓的、藍藍的。",
+          "zhuyin": [
+            {
+              "text": "對",
+              "reading": "ㄉㄨㄟˋ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "空",
+              "reading": "ㄎㄨㄥ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "圈",
+              "reading": "ㄑㄩㄢ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "圓",
+              "reading": "ㄩㄢˊ"
+            },
+            {
+              "text": "圓",
+              "reading": "ㄩㄢˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "藍",
+              "reading": "ㄌㄢˊ"
+            },
+            {
+              "text": "藍",
+              "reading": "ㄌㄢˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "對呱呱來說，天空就是井口那一󠇢圈，圓圓的、藍藍的。"
+        },
+        "en": "To Gua Gua, the sky was just that circle at the mouth of the well, round and blue."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "星星",
+        "pinyin": [
+          {
+            "text": "星",
+            "reading": "xīng"
+          },
+          {
+            "text": "星",
+            "reading": "xīng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "星星",
+        "zhuyin": [
+          {
+            "text": "星",
+            "reading": "ㄒㄧㄥ"
+          },
+          {
+            "text": "星",
+            "reading": "ㄒㄧㄥ"
+          }
+        ],
+        "bpmf": "星星"
+      },
+      "en": "stars",
+      "example": {
+        "simp": {
+          "text": "看着井口那一圈黑黑的天空，数一数那几颗闪亮的小星星。",
+          "pinyin": [
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "圈",
+              "reading": "quān"
+            },
+            {
+              "text": "黑",
+              "reading": "hēi"
+            },
+            {
+              "text": "黑",
+              "reading": "hēi"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "空",
+              "reading": "kōng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "数",
+              "reading": "shǔ"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "数",
+              "reading": "shǔ"
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "几",
+              "reading": "jǐ"
+            },
+            {
+              "text": "颗",
+              "reading": "kē"
+            },
+            {
+              "text": "闪",
+              "reading": "shǎn"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "星",
+              "reading": "xīng"
+            },
+            {
+              "text": "星",
+              "reading": "xīng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "看著井口那一圈黑黑的天空，數一數那幾顆閃亮的小星星。",
+          "zhuyin": [
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "圈",
+              "reading": "ㄑㄩㄢ"
+            },
+            {
+              "text": "黑",
+              "reading": "ㄏㄟ"
+            },
+            {
+              "text": "黑",
+              "reading": "ㄏㄟ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "空",
+              "reading": "ㄎㄨㄥ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "數",
+              "reading": "ㄕㄨˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "數",
+              "reading": "ㄕㄨˇ"
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "幾",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "顆",
+              "reading": "ㄎㄜ"
+            },
+            {
+              "text": "閃",
+              "reading": "ㄕㄢˇ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "星",
+              "reading": "ㄒㄧㄥ"
+            },
+            {
+              "text": "星",
+              "reading": "ㄒㄧㄥ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "看著井口那一󠇢圈黑黑的天空，數󠇡一󠇢數󠇡那幾顆閃亮的小星星。"
+        },
+        "en": "Gazing up at that dark circle of sky at the well's mouth, he counted the few bright little stars."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "肚子",
+        "pinyin": [
+          {
+            "text": "肚",
+            "reading": "dù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "肚子",
+        "zhuyin": [
+          {
+            "text": "肚",
+            "reading": "ㄉㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          }
+        ],
+        "bpmf": "肚子󠇡"
+      },
+      "en": "tummy / belly",
+      "example": {
+        "simp": {
+          "text": "他拍拍肚子，开心地说。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "拍",
+              "reading": "pāi"
+            },
+            {
+              "text": "拍",
+              "reading": "pāi"
+            },
+            {
+              "text": "肚",
+              "reading": "dù"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他拍拍肚子，開心地說。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "拍",
+              "reading": "ㄆㄞ"
+            },
+            {
+              "text": "拍",
+              "reading": "ㄆㄞ"
+            },
+            {
+              "text": "肚",
+              "reading": "ㄉㄨˋ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他拍拍肚子󠇡，開心地󠇡說。"
+        },
+        "en": "He patted his tummy and spoke happily."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "名字",
+        "pinyin": [
+          {
+            "text": "名",
+            "reading": "míng"
+          },
+          {
+            "text": "字",
+            "reading": "zi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "名字",
+        "zhuyin": [
+          {
+            "text": "名",
+            "reading": "ㄇㄧㄥˊ"
+          },
+          {
+            "text": "字",
+            "reading": "ㄗ˙"
+          }
+        ],
+        "bpmf": "名字󠇡"
+      },
+      "en": "name",
+      "example": {
+        "simp": {
+          "text": "他是一只绿油油的小青蛙，名字叫呱呱。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "只",
+              "reading": "zhī"
+            },
+            {
+              "text": "绿",
+              "reading": "lǜ"
+            },
+            {
+              "text": "油",
+              "reading": "yóu"
+            },
+            {
+              "text": "油",
+              "reading": "yóu"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "青",
+              "reading": "qīng"
+            },
+            {
+              "text": "蛙",
+              "reading": "wā"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "名",
+              "reading": "míng"
+            },
+            {
+              "text": "字",
+              "reading": "zi"
+            },
+            {
+              "text": "叫",
+              "reading": "jiào"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他是一隻綠油油的小青蛙，名字叫呱呱。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "隻",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "綠",
+              "reading": "ㄌㄩˋ"
+            },
+            {
+              "text": "油",
+              "reading": "ㄧㄡˊ"
+            },
+            {
+              "text": "油",
+              "reading": "ㄧㄡˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "青",
+              "reading": "ㄑㄧㄥ"
+            },
+            {
+              "text": "蛙",
+              "reading": "ㄨㄚ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "名",
+              "reading": "ㄇㄧㄥˊ"
+            },
+            {
+              "text": "字",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "叫",
+              "reading": "ㄐㄧㄠˋ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他是一󠇢隻綠油油的小青蛙，名字󠇡叫呱呱。"
+        },
+        "en": "He was a tiny, bright green frog, and his name was Gua Gua."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "家",
+        "pinyin": [
+          {
+            "text": "家",
+            "reading": "jiā"
+          }
+        ]
+      },
+      "trad": {
+        "text": "家",
+        "zhuyin": [
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          }
+        ],
+        "bpmf": "家"
+      },
+      "en": "home",
+      "example": {
+        "simp": {
+          "text": "这口井虽然又老又旧，可是有一位小小的住户，把它当成全世界最棒的家。",
+          "pinyin": [
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "虽",
+              "reading": "suī"
+            },
+            {
+              "text": "然",
+              "reading": "rán"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "老",
+              "reading": "lǎo"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "旧",
+              "reading": "jiù"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "可",
+              "reading": "kě"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "位",
+              "reading": "wèi"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "户",
+              "reading": "hù"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "它",
+              "reading": "tā"
+            },
+            {
+              "text": "当",
+              "reading": "dang"
+            },
+            {
+              "text": "成",
+              "reading": "chéng"
+            },
+            {
+              "text": "全",
+              "reading": "quán"
+            },
+            {
+              "text": "世",
+              "reading": "shì"
+            },
+            {
+              "text": "界",
+              "reading": "jiè"
+            },
+            {
+              "text": "最",
+              "reading": "zuì"
+            },
+            {
+              "text": "棒",
+              "reading": "bàng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "家",
+              "reading": "jiā"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "這口井雖然又老又舊，可是有一位小小的住戶，把它當成全世界最棒的家。",
+          "zhuyin": [
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "雖",
+              "reading": "ㄙㄨㄟ"
+            },
+            {
+              "text": "然",
+              "reading": "ㄖㄢˊ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "老",
+              "reading": "ㄌㄠˇ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "舊",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "可",
+              "reading": "ㄎㄜˇ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "位",
+              "reading": "ㄨㄟˋ"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "戶",
+              "reading": "ㄏㄨˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "它",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "當",
+              "reading": "ㄉㄤ˙"
+            },
+            {
+              "text": "成",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "全",
+              "reading": "ㄑㄩㄢˊ"
+            },
+            {
+              "text": "世",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "界",
+              "reading": "ㄐㄧㄝˋ"
+            },
+            {
+              "text": "最",
+              "reading": "ㄗㄨㄟˋ"
+            },
+            {
+              "text": "棒",
+              "reading": "ㄅㄤˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "家",
+              "reading": "ㄐㄧㄚ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "這口井雖然又老又舊，可是有一󠇡位小小的住戶，把它當成全世界最棒的家。"
+        },
+        "en": "Though the well was old and worn, it had one tiny resident who treated it as the best home in all the world."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "石头",
+        "pinyin": [
+          {
+            "text": "石",
+            "reading": "shí"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          }
+        ]
+      },
+      "trad": {
+        "text": "石頭",
+        "zhuyin": [
+          {
+            "text": "石",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          }
+        ],
+        "bpmf": "石頭"
+      },
+      "en": "stone",
+      "example": {
+        "simp": {
+          "text": "再爬上井壁的石头，抬头看看天空。",
+          "pinyin": [
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "爬",
+              "reading": "pá"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "壁",
+              "reading": "bì"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "石",
+              "reading": "shí"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "抬",
+              "reading": "tái"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "空",
+              "reading": "kōng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "再爬上井壁的石頭，抬頭看看天空。",
+          "zhuyin": [
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "爬",
+              "reading": "ㄆㄚˊ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "壁",
+              "reading": "ㄅㄧˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "石",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "抬",
+              "reading": "ㄊㄞˊ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "空",
+              "reading": "ㄎㄨㄥ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "再爬上井壁的石頭，抬頭看看天空。"
+        },
+        "en": "Then he would climb up the stones of the well wall and look up at the sky."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "脖子",
+        "pinyin": [
+          {
+            "text": "脖",
+            "reading": "bó"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "脖子",
+        "zhuyin": [
+          {
+            "text": "脖",
+            "reading": "ㄅㄛˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          }
+        ],
+        "bpmf": "脖子󠇡"
+      },
+      "en": "neck",
+      "example": {
+        "simp": {
+          "text": "他有皱皱的脖子，还有一双很温柔的眼睛。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "皱",
+              "reading": "zhòu"
+            },
+            {
+              "text": "皱",
+              "reading": "zhòu"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "脖",
+              "reading": "bó"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "还",
+              "reading": "hái"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "双",
+              "reading": "shuāng"
+            },
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "温",
+              "reading": "wēn"
+            },
+            {
+              "text": "柔",
+              "reading": "róu"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "眼",
+              "reading": "yǎn"
+            },
+            {
+              "text": "睛",
+              "reading": "jīng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他有皺皺的脖子，還有一雙很溫柔的眼睛。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "皺",
+              "reading": "ㄓㄡˋ"
+            },
+            {
+              "text": "皺",
+              "reading": "ㄓㄡˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "脖",
+              "reading": "ㄅㄛˊ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "還",
+              "reading": "ㄏㄞˊ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "雙",
+              "reading": "ㄕㄨㄤ"
+            },
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "溫",
+              "reading": "ㄨㄣ"
+            },
+            {
+              "text": "柔",
+              "reading": "ㄖㄡˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "眼",
+              "reading": "ㄧㄢˇ"
+            },
+            {
+              "text": "睛",
+              "reading": "ㄐㄧㄥ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他有皺皺的脖子󠇡，還󠇡有一󠇢雙很溫柔的眼睛。"
+        },
+        "en": "He had a wrinkled neck and a pair of very gentle eyes."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "月亮",
+        "pinyin": [
+          {
+            "text": "月",
+            "reading": "yuè"
+          },
+          {
+            "text": "亮",
+            "reading": "liàng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "月亮",
+        "zhuyin": [
+          {
+            "text": "月",
+            "reading": "ㄩㄝˋ"
+          },
+          {
+            "text": "亮",
+            "reading": "ㄌㄧㄤˋ"
+          }
+        ],
+        "bpmf": "月亮"
+      },
+      "en": "moon",
+      "example": {
+        "simp": {
+          "text": "月亮有时候圆得像一个白盘子，有时候弯得像一把小镰刀。",
+          "pinyin": [
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "时",
+              "reading": "shí"
+            },
+            {
+              "text": "候",
+              "reading": "hòu"
+            },
+            {
+              "text": "圆",
+              "reading": "yuán"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "像",
+              "reading": "xiàng"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "白",
+              "reading": "bái"
+            },
+            {
+              "text": "盘",
+              "reading": "pán"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "时",
+              "reading": "shí"
+            },
+            {
+              "text": "候",
+              "reading": "hòu"
+            },
+            {
+              "text": "弯",
+              "reading": "wān"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "像",
+              "reading": "xiàng"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "镰",
+              "reading": "lián"
+            },
+            {
+              "text": "刀",
+              "reading": "dāo"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "月亮有時候圓得像一個白盤子，有時候彎得像一把小鐮刀。",
+          "zhuyin": [
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "時",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "候",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "圓",
+              "reading": "ㄩㄢˊ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "像",
+              "reading": "ㄒㄧㄤˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "白",
+              "reading": "ㄅㄞˊ"
+            },
+            {
+              "text": "盤",
+              "reading": "ㄆㄢˊ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "時",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "候",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "彎",
+              "reading": "ㄨㄢ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "像",
+              "reading": "ㄒㄧㄤˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "鐮",
+              "reading": "ㄌㄧㄢˊ"
+            },
+            {
+              "text": "刀",
+              "reading": "ㄉㄠ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "月亮有時候圓得󠇡像一󠇡個󠇡白盤子󠇡，有時候彎得󠇡像一󠇢把小鐮刀。"
+        },
+        "en": "The moon is sometimes round like a white plate, and sometimes curved like a little sickle."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "海龟",
+        "pinyin": [
+          {
+            "text": "海",
+            "reading": "hǎi"
+          },
+          {
+            "text": "龟",
+            "reading": "guī"
+          }
+        ]
+      },
+      "trad": {
+        "text": "海龜",
+        "zhuyin": [
+          {
+            "text": "海",
+            "reading": "ㄏㄞˇ"
+          },
+          {
+            "text": "龜",
+            "reading": "ㄍㄨㄟ"
+          }
+        ],
+        "bpmf": "海龜"
+      },
+      "en": "sea turtle",
+      "example": {
+        "simp": {
+          "text": "我叫做老海，是一只海龟。",
+          "pinyin": [
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "叫",
+              "reading": "jiào"
+            },
+            {
+              "text": "做",
+              "reading": "zuò"
+            },
+            {
+              "text": "老",
+              "reading": "lǎo"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "只",
+              "reading": "zhī"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "龟",
+              "reading": "guī"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "我叫做老海，是一隻海龜。",
+          "zhuyin": [
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "叫",
+              "reading": "ㄐㄧㄠˋ"
+            },
+            {
+              "text": "做",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "老",
+              "reading": "ㄌㄠˇ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "隻",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "龜",
+              "reading": "ㄍㄨㄟ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "我叫做老海，是一󠇢隻海龜。"
+        },
+        "en": "My name is Lao Hai, and I'm a sea turtle."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "大海",
+        "pinyin": [
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "海",
+            "reading": "hǎi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "大海",
+        "zhuyin": [
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "海",
+            "reading": "ㄏㄞˇ"
+          }
+        ],
+        "bpmf": "大海"
+      },
+      "en": "the sea / ocean",
+      "example": {
+        "simp": {
+          "text": "大海呀，是一个非常非常非常大的地方。",
+          "pinyin": [
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "呀",
+              "reading": "ya"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "非",
+              "reading": "fēi"
+            },
+            {
+              "text": "常",
+              "reading": "cháng"
+            },
+            {
+              "text": "非",
+              "reading": "fēi"
+            },
+            {
+              "text": "常",
+              "reading": "cháng"
+            },
+            {
+              "text": "非",
+              "reading": "fēi"
+            },
+            {
+              "text": "常",
+              "reading": "cháng"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "方",
+              "reading": "fāng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "大海呀，是一個非常非常非常大的地方。",
+          "zhuyin": [
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "呀",
+              "reading": "ㄧㄚ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "非",
+              "reading": "ㄈㄟ"
+            },
+            {
+              "text": "常",
+              "reading": "ㄔㄤˊ"
+            },
+            {
+              "text": "非",
+              "reading": "ㄈㄟ"
+            },
+            {
+              "text": "常",
+              "reading": "ㄔㄤˊ"
+            },
+            {
+              "text": "非",
+              "reading": "ㄈㄟ"
+            },
+            {
+              "text": "常",
+              "reading": "ㄔㄤˊ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "方",
+              "reading": "ㄈㄤ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "大海呀，是一󠇡個󠇡非常非常非常大的地方。"
+        },
+        "en": "The sea is an extremely, extremely vast place."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "开心",
+        "pinyin": [
+          {
+            "text": "开",
+            "reading": "kāi"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "開心",
+        "zhuyin": [
+          {
+            "text": "開",
+            "reading": "ㄎㄞ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          }
+        ],
+        "bpmf": "開心"
+      },
+      "en": "happy",
+      "example": {
+        "simp": {
+          "text": "他拍拍肚子，开心地说。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "拍",
+              "reading": "pāi"
+            },
+            {
+              "text": "拍",
+              "reading": "pāi"
+            },
+            {
+              "text": "肚",
+              "reading": "dù"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他拍拍肚子，開心地說。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "拍",
+              "reading": "ㄆㄞ"
+            },
+            {
+              "text": "拍",
+              "reading": "ㄆㄞ"
+            },
+            {
+              "text": "肚",
+              "reading": "ㄉㄨˋ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他拍拍肚子󠇡，開心地󠇡說。"
+        },
+        "en": "He patted his tummy and spoke happily."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "奇怪",
+        "pinyin": [
+          {
+            "text": "奇",
+            "reading": "qí"
+          },
+          {
+            "text": "怪",
+            "reading": "guài"
+          }
+        ]
+      },
+      "trad": {
+        "text": "奇怪",
+        "zhuyin": [
+          {
+            "text": "奇",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "怪",
+            "reading": "ㄍㄨㄞˋ"
+          }
+        ],
+        "bpmf": "奇怪"
+      },
+      "en": "strange",
+      "example": {
+        "simp": {
+          "text": "有一天，呱呱正在井底打盹儿，忽然听到井口传来一阵奇怪的声音。",
+          "pinyin": [
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "正",
+              "reading": "zhèng"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "底",
+              "reading": "dǐ"
+            },
+            {
+              "text": "打",
+              "reading": "dǎ"
+            },
+            {
+              "text": "盹",
+              "reading": "dǔn"
+            },
+            {
+              "text": "儿",
+              "reading": "ér"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "忽",
+              "reading": "hū"
+            },
+            {
+              "text": "然",
+              "reading": "rán"
+            },
+            {
+              "text": "听",
+              "reading": "tīng"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "传",
+              "reading": "chuán"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "阵",
+              "reading": "zhèn"
+            },
+            {
+              "text": "奇",
+              "reading": "qí"
+            },
+            {
+              "text": "怪",
+              "reading": "guài"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "声",
+              "reading": "shēng"
+            },
+            {
+              "text": "音",
+              "reading": "yīn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "有一天，呱呱正在井底打盹兒，忽然聽到井口傳來一陣奇怪的聲音。",
+          "zhuyin": [
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "正",
+              "reading": "ㄓㄥˋ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "底",
+              "reading": "ㄉㄧˇ"
+            },
+            {
+              "text": "打",
+              "reading": "ㄉㄚˇ"
+            },
+            {
+              "text": "盹",
+              "reading": "ㄉㄨㄣˇ"
+            },
+            {
+              "text": "兒",
+              "reading": "ㄦˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "忽",
+              "reading": "ㄏㄨ"
+            },
+            {
+              "text": "然",
+              "reading": "ㄖㄢˊ"
+            },
+            {
+              "text": "聽",
+              "reading": "ㄊㄧㄥ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "傳",
+              "reading": "ㄔㄨㄢˊ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "陣",
+              "reading": "ㄓㄣˋ"
+            },
+            {
+              "text": "奇",
+              "reading": "ㄑㄧˊ"
+            },
+            {
+              "text": "怪",
+              "reading": "ㄍㄨㄞˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "聲",
+              "reading": "ㄕㄥ"
+            },
+            {
+              "text": "音",
+              "reading": "ㄧㄣ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "有一󠇢天，呱呱正在井底打盹兒，忽然聽到井口傳來一󠇡陣奇怪的聲音。"
+        },
+        "en": "One day, while Gua Gua was dozing at the bottom of the well, he suddenly heard a strange sound coming down from the well's mouth."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "温柔",
+        "pinyin": [
+          {
+            "text": "温",
+            "reading": "wēn"
+          },
+          {
+            "text": "柔",
+            "reading": "róu"
+          }
+        ]
+      },
+      "trad": {
+        "text": "溫柔",
+        "zhuyin": [
+          {
+            "text": "溫",
+            "reading": "ㄨㄣ"
+          },
+          {
+            "text": "柔",
+            "reading": "ㄖㄡˊ"
+          }
+        ],
+        "bpmf": "溫柔"
+      },
+      "en": "gentle",
+      "example": {
+        "simp": {
+          "text": "他有皱皱的脖子，还有一双很温柔的眼睛。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "皱",
+              "reading": "zhòu"
+            },
+            {
+              "text": "皱",
+              "reading": "zhòu"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "脖",
+              "reading": "bó"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "还",
+              "reading": "hái"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "双",
+              "reading": "shuāng"
+            },
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "温",
+              "reading": "wēn"
+            },
+            {
+              "text": "柔",
+              "reading": "róu"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "眼",
+              "reading": "yǎn"
+            },
+            {
+              "text": "睛",
+              "reading": "jīng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他有皺皺的脖子，還有一雙很溫柔的眼睛。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "皺",
+              "reading": "ㄓㄡˋ"
+            },
+            {
+              "text": "皺",
+              "reading": "ㄓㄡˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "脖",
+              "reading": "ㄅㄛˊ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "還",
+              "reading": "ㄏㄞˊ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "雙",
+              "reading": "ㄕㄨㄤ"
+            },
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "溫",
+              "reading": "ㄨㄣ"
+            },
+            {
+              "text": "柔",
+              "reading": "ㄖㄡˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "眼",
+              "reading": "ㄧㄢˇ"
+            },
+            {
+              "text": "睛",
+              "reading": "ㄐㄧㄥ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他有皺皺的脖子󠇡，還󠇡有一󠇢雙很溫柔的眼睛。"
+        },
+        "en": "He had a wrinkled neck and a pair of very gentle eyes."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "好奇",
+        "pinyin": [
+          {
+            "text": "好",
+            "reading": "hào"
+          },
+          {
+            "text": "奇",
+            "reading": "qí"
+          }
+        ]
+      },
+      "trad": {
+        "text": "好奇",
+        "zhuyin": [
+          {
+            "text": "好",
+            "reading": "ㄏㄠˋ"
+          },
+          {
+            "text": "奇",
+            "reading": "ㄑㄧˊ"
+          }
+        ],
+        "bpmf": "好󠇡奇"
+      },
+      "en": "curious",
+      "example": {
+        "simp": {
+          "text": "呱呱从来没听过这个名字，好奇地问。",
+          "pinyin": [
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "没",
+              "reading": "méi"
+            },
+            {
+              "text": "听",
+              "reading": "tīng"
+            },
+            {
+              "text": "过",
+              "reading": "guò"
+            },
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "名",
+              "reading": "míng"
+            },
+            {
+              "text": "字",
+              "reading": "zi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "好",
+              "reading": "hào"
+            },
+            {
+              "text": "奇",
+              "reading": "qí"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "问",
+              "reading": "wèn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "呱呱從來沒聽過這個名字，好奇地問。",
+          "zhuyin": [
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "沒",
+              "reading": "ㄇㄟˊ"
+            },
+            {
+              "text": "聽",
+              "reading": "ㄊㄧㄥ"
+            },
+            {
+              "text": "過",
+              "reading": "ㄍㄨㄛˋ"
+            },
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "名",
+              "reading": "ㄇㄧㄥˊ"
+            },
+            {
+              "text": "字",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "好",
+              "reading": "ㄏㄠˋ"
+            },
+            {
+              "text": "奇",
+              "reading": "ㄑㄧˊ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "問",
+              "reading": "ㄨㄣˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "呱呱從來沒聽過這個󠇡名字󠇡，好󠇡奇地󠇡問。"
+        },
+        "en": "Gua Gua had never heard that name before, and asked curiously."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "得意",
+        "pinyin": [
+          {
+            "text": "得",
+            "reading": "dé"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          }
+        ]
+      },
+      "trad": {
+        "text": "得意",
+        "zhuyin": [
+          {
+            "text": "得",
+            "reading": "ㄉㄜˊ"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          }
+        ],
+        "bpmf": "得意"
+      },
+      "en": "proud / pleased with oneself",
+      "example": {
+        "simp": {
+          "text": "呱呱挺起胸膛，得意地说。",
+          "pinyin": [
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "挺",
+              "reading": "tǐng"
+            },
+            {
+              "text": "起",
+              "reading": "qǐ"
+            },
+            {
+              "text": "胸",
+              "reading": "xiōng"
+            },
+            {
+              "text": "膛",
+              "reading": "táng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "得",
+              "reading": "dé"
+            },
+            {
+              "text": "意",
+              "reading": "yì"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "呱呱挺起胸膛，得意地說。",
+          "zhuyin": [
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "挺",
+              "reading": "ㄊㄧㄥˇ"
+            },
+            {
+              "text": "起",
+              "reading": "ㄑㄧˇ"
+            },
+            {
+              "text": "胸",
+              "reading": "ㄒㄩㄥ"
+            },
+            {
+              "text": "膛",
+              "reading": "ㄊㄤˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜˊ"
+            },
+            {
+              "text": "意",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "呱呱挺起胸膛，得意地󠇡說。"
+        },
+        "en": "Gua Gua puffed out his chest and spoke proudly."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "兴奋",
+        "pinyin": [
+          {
+            "text": "兴",
+            "reading": "xīng"
+          },
+          {
+            "text": "奋",
+            "reading": "fèn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "興奮",
+        "zhuyin": [
+          {
+            "text": "興",
+            "reading": "ㄒㄧㄥ"
+          },
+          {
+            "text": "奮",
+            "reading": "ㄈㄣˋ"
+          }
+        ],
+        "bpmf": "興奮"
+      },
+      "en": "excited",
+      "example": {
+        "simp": {
+          "text": "呱呱开心极了，难得有客人来，他立刻兴奋地介绍起来。",
+          "pinyin": [
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "极",
+              "reading": "jí"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "难",
+              "reading": "nán"
+            },
+            {
+              "text": "得",
+              "reading": "dé"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "客",
+              "reading": "kè"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "立",
+              "reading": "lì"
+            },
+            {
+              "text": "刻",
+              "reading": "kè"
+            },
+            {
+              "text": "兴",
+              "reading": "xīng"
+            },
+            {
+              "text": "奋",
+              "reading": "fèn"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "介",
+              "reading": "jiè"
+            },
+            {
+              "text": "绍",
+              "reading": "shào"
+            },
+            {
+              "text": "起",
+              "reading": "qǐ"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "呱呱開心極了，難得有客人來，他立刻興奮地介紹起來。",
+          "zhuyin": [
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "極",
+              "reading": "ㄐㄧˊ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "難",
+              "reading": "ㄋㄢˊ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜˊ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "客",
+              "reading": "ㄎㄜˋ"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "立",
+              "reading": "ㄌㄧˋ"
+            },
+            {
+              "text": "刻",
+              "reading": "ㄎㄜˋ"
+            },
+            {
+              "text": "興",
+              "reading": "ㄒㄧㄥ"
+            },
+            {
+              "text": "奮",
+              "reading": "ㄈㄣˋ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "介",
+              "reading": "ㄐㄧㄝˋ"
+            },
+            {
+              "text": "紹",
+              "reading": "ㄕㄠˋ"
+            },
+            {
+              "text": "起",
+              "reading": "ㄑㄧˇ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "呱呱開心極了，難得有客人來，他立刻興奮地󠇡介紹起來。"
+        },
+        "en": "Gua Gua was overjoyed. It was rare to have a visitor, and he immediately began introducing things excitedly."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "夸奖",
+        "pinyin": [
+          {
+            "text": "夸",
+            "reading": "kuā"
+          },
+          {
+            "text": "奖",
+            "reading": "jiǎng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "誇獎",
+        "zhuyin": [
+          {
+            "text": "誇",
+            "reading": "ㄎㄨㄚ"
+          },
+          {
+            "text": "獎",
+            "reading": "ㄐㄧㄤˇ"
+          }
+        ],
+        "bpmf": "誇獎"
+      },
+      "en": "to praise",
+      "example": {
+        "simp": {
+          "text": "呱呱听到客人夸奖自己的家，得意得不得了。",
+          "pinyin": [
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "听",
+              "reading": "tīng"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "客",
+              "reading": "kè"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "夸",
+              "reading": "kuā"
+            },
+            {
+              "text": "奖",
+              "reading": "jiǎng"
+            },
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "己",
+              "reading": "jǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "家",
+              "reading": "jiā"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "得",
+              "reading": "dé"
+            },
+            {
+              "text": "意",
+              "reading": "yì"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "得",
+              "reading": "dé"
+            },
+            {
+              "text": "了",
+              "reading": "liǎo"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "呱呱聽到客人誇獎自己的家，得意得不得了。",
+          "zhuyin": [
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "聽",
+              "reading": "ㄊㄧㄥ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "客",
+              "reading": "ㄎㄜˋ"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "誇",
+              "reading": "ㄎㄨㄚ"
+            },
+            {
+              "text": "獎",
+              "reading": "ㄐㄧㄤˇ"
+            },
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "己",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "家",
+              "reading": "ㄐㄧㄚ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜˊ"
+            },
+            {
+              "text": "意",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜˊ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄧㄠˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "呱呱聽到客人誇獎自己的家，得意得󠇡不得了󠇡。"
+        },
+        "en": "Hearing his guest praise his home, Gua Gua felt enormously proud."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "邀请",
+        "pinyin": [
+          {
+            "text": "邀",
+            "reading": "yāo"
+          },
+          {
+            "text": "请",
+            "reading": "qǐng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "邀請",
+        "zhuyin": [
+          {
+            "text": "邀",
+            "reading": "ㄧㄠ"
+          },
+          {
+            "text": "請",
+            "reading": "ㄑㄧㄥˇ"
+          }
+        ],
+        "bpmf": "邀請"
+      },
+      "en": "to invite",
+      "example": {
+        "simp": {
+          "text": "他热情地邀请。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "热",
+              "reading": "rè"
+            },
+            {
+              "text": "情",
+              "reading": "qíng"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "邀",
+              "reading": "yāo"
+            },
+            {
+              "text": "请",
+              "reading": "qǐng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他熱情地邀請。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "熱",
+              "reading": "ㄖㄜˋ"
+            },
+            {
+              "text": "情",
+              "reading": "ㄑㄧㄥˊ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "邀",
+              "reading": "ㄧㄠ"
+            },
+            {
+              "text": "請",
+              "reading": "ㄑㄧㄥˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他熱情地󠇡邀請。"
+        },
+        "en": "He warmly invited him."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "神仙",
+        "pinyin": [
+          {
+            "text": "神",
+            "reading": "shén"
+          },
+          {
+            "text": "仙",
+            "reading": "xiān"
+          }
+        ]
+      },
+      "trad": {
+        "text": "神仙",
+        "zhuyin": [
+          {
+            "text": "神",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "仙",
+            "reading": "ㄒㄧㄢ"
+          }
+        ],
+        "bpmf": "神仙"
+      },
+      "en": "immortal / celestial being",
+      "example": {
+        "simp": {
+          "text": "呱呱觉得自己过着神仙一样的日子。",
+          "pinyin": [
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "觉",
+              "reading": "jué"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "己",
+              "reading": "jǐ"
+            },
+            {
+              "text": "过",
+              "reading": "guò"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "神",
+              "reading": "shén"
+            },
+            {
+              "text": "仙",
+              "reading": "xiān"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "样",
+              "reading": "yàng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "日",
+              "reading": "rì"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "呱呱覺得自己過著神仙一樣的日子。",
+          "zhuyin": [
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "覺",
+              "reading": "ㄐㄩㄝˊ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "己",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "過",
+              "reading": "ㄍㄨㄛˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "神",
+              "reading": "ㄕㄣˊ"
+            },
+            {
+              "text": "仙",
+              "reading": "ㄒㄧㄢ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "樣",
+              "reading": "ㄧㄤˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "日",
+              "reading": "ㄖˋ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "呱呱覺得󠇡自己過著神仙一󠇡樣的日子󠇡。"
+        },
+        "en": "Gua Gua felt he was living the life of an immortal."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "遗忘",
+        "pinyin": [
+          {
+            "text": "遗",
+            "reading": "yí"
+          },
+          {
+            "text": "忘",
+            "reading": "wàng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "遺忘",
+        "zhuyin": [
+          {
+            "text": "遺",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "忘",
+            "reading": "ㄨㄤˋ"
+          }
+        ],
+        "bpmf": "遺忘"
+      },
+      "en": "to forget / forgotten",
+      "example": {
+        "simp": {
+          "text": "很久以前，在一座安静的小山脚下，有一口被人遗忘的废弃水井。",
+          "pinyin": [
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "久",
+              "reading": "jiǔ"
+            },
+            {
+              "text": "以",
+              "reading": "yǐ"
+            },
+            {
+              "text": "前",
+              "reading": "qián"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "座",
+              "reading": "zuò"
+            },
+            {
+              "text": "安",
+              "reading": "ān"
+            },
+            {
+              "text": "静",
+              "reading": "jìng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "山",
+              "reading": "shān"
+            },
+            {
+              "text": "脚",
+              "reading": "jiǎo"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "被",
+              "reading": "bèi"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "遗",
+              "reading": "yí"
+            },
+            {
+              "text": "忘",
+              "reading": "wàng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "废",
+              "reading": "fèi"
+            },
+            {
+              "text": "弃",
+              "reading": "qì"
+            },
+            {
+              "text": "水",
+              "reading": "shuǐ"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "很久以前，在一座安靜的小山腳下，有一口被人遺忘的廢棄水井。",
+          "zhuyin": [
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "久",
+              "reading": "ㄐㄧㄡˇ"
+            },
+            {
+              "text": "以",
+              "reading": "ㄧˇ"
+            },
+            {
+              "text": "前",
+              "reading": "ㄑㄧㄢˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "座",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "安",
+              "reading": "ㄢ"
+            },
+            {
+              "text": "靜",
+              "reading": "ㄐㄧㄥˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "山",
+              "reading": "ㄕㄢ"
+            },
+            {
+              "text": "腳",
+              "reading": "ㄐㄧㄠˇ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "被",
+              "reading": "ㄅㄟˋ"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "遺",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "忘",
+              "reading": "ㄨㄤˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "廢",
+              "reading": "ㄈㄟˋ"
+            },
+            {
+              "text": "棄",
+              "reading": "ㄑㄧˋ"
+            },
+            {
+              "text": "水",
+              "reading": "ㄕㄨㄟˇ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "很久以前，在一󠇡座安靜的小山腳下，有一󠇢口被人遺忘的廢棄水井。"
+        },
+        "en": "A long time ago, at the foot of a quiet little mountain, there was a forgotten, abandoned water well."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "尽头",
+        "pinyin": [
+          {
+            "text": "尽",
+            "reading": "jìn"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          }
+        ]
+      },
+      "trad": {
+        "text": "盡頭",
+        "zhuyin": [
+          {
+            "text": "盡",
+            "reading": "ㄐㄧㄣˋ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          }
+        ],
+        "bpmf": "盡頭"
+      },
+      "en": "the end (of something)",
+      "example": {
+        "simp": {
+          "text": "从早上游到晚上，也游不到尽头。",
+          "pinyin": [
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "早",
+              "reading": "zǎo"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "游",
+              "reading": "yóu"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "晚",
+              "reading": "wǎn"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "也",
+              "reading": "yě"
+            },
+            {
+              "text": "游",
+              "reading": "yóu"
+            },
+            {
+              "text": "不",
+              "reading": "bú"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "尽",
+              "reading": "jìn"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "從早上游到晚上，也游不到盡頭。",
+          "zhuyin": [
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "早",
+              "reading": "ㄗㄠˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "游",
+              "reading": "ㄧㄡˊ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "晚",
+              "reading": "ㄨㄢˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "也",
+              "reading": "ㄧㄝˇ"
+            },
+            {
+              "text": "游",
+              "reading": "ㄧㄡˊ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˊ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "盡",
+              "reading": "ㄐㄧㄣˋ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "從早上游到晚上，也游不󠇡到盡頭。"
+        },
+        "en": "Even swimming from morning until night, you would never reach the end."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "想像",
+        "pinyin": [
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "像",
+            "reading": "xiàng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "想像",
+        "zhuyin": [
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "像",
+            "reading": "ㄒㄧㄤˋ"
+          }
+        ],
+        "bpmf": "想像"
+      },
+      "en": "to imagine",
+      "example": {
+        "simp": {
+          "text": "小青蛙，大海的大，是你完全没办法想像的。",
+          "pinyin": [
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "青",
+              "reading": "qīng"
+            },
+            {
+              "text": "蛙",
+              "reading": "wā"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "完",
+              "reading": "wán"
+            },
+            {
+              "text": "全",
+              "reading": "quán"
+            },
+            {
+              "text": "没",
+              "reading": "méi"
+            },
+            {
+              "text": "办",
+              "reading": "bàn"
+            },
+            {
+              "text": "法",
+              "reading": "fǎ"
+            },
+            {
+              "text": "想",
+              "reading": "xiǎng"
+            },
+            {
+              "text": "像",
+              "reading": "xiàng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "小青蛙，大海的大，是你完全沒辦法想像的。",
+          "zhuyin": [
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "青",
+              "reading": "ㄑㄧㄥ"
+            },
+            {
+              "text": "蛙",
+              "reading": "ㄨㄚ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "完",
+              "reading": "ㄨㄢˊ"
+            },
+            {
+              "text": "全",
+              "reading": "ㄑㄩㄢˊ"
+            },
+            {
+              "text": "沒",
+              "reading": "ㄇㄟˊ"
+            },
+            {
+              "text": "辦",
+              "reading": "ㄅㄢˋ"
+            },
+            {
+              "text": "法",
+              "reading": "ㄈㄚˇ"
+            },
+            {
+              "text": "想",
+              "reading": "ㄒㄧㄤˇ"
+            },
+            {
+              "text": "像",
+              "reading": "ㄒㄧㄤˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "小青蛙，大海的大，是你完全沒辦法想像的。"
+        },
+        "en": "Little frog, the vastness of the sea is something you simply cannot imagine."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "结结巴巴",
+        "pinyin": [
+          {
+            "text": "结",
+            "reading": "jiē"
+          },
+          {
+            "text": "结",
+            "reading": "jiē"
+          },
+          {
+            "text": "巴",
+            "reading": "bā"
+          },
+          {
+            "text": "巴",
+            "reading": "bā"
+          }
+        ]
+      },
+      "trad": {
+        "text": "結結巴巴",
+        "zhuyin": [
+          {
+            "text": "結",
+            "reading": "ㄐㄧㄝ"
+          },
+          {
+            "text": "結",
+            "reading": "ㄐㄧㄝ"
+          },
+          {
+            "text": "巴",
+            "reading": "ㄅㄚ"
+          },
+          {
+            "text": "巴",
+            "reading": "ㄅㄚ"
+          }
+        ],
+        "bpmf": "結󠇡結󠇡巴巴"
+      },
+      "en": "stammering / stuttering",
+      "example": {
+        "simp": {
+          "text": "呱呱结结巴巴地问。",
+          "pinyin": [
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "结",
+              "reading": "jiē"
+            },
+            {
+              "text": "结",
+              "reading": "jiē"
+            },
+            {
+              "text": "巴",
+              "reading": "bā"
+            },
+            {
+              "text": "巴",
+              "reading": "bā"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "问",
+              "reading": "wèn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "呱呱結結巴巴地問。",
+          "zhuyin": [
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "結",
+              "reading": "ㄐㄧㄝ"
+            },
+            {
+              "text": "結",
+              "reading": "ㄐㄧㄝ"
+            },
+            {
+              "text": "巴",
+              "reading": "ㄅㄚ"
+            },
+            {
+              "text": "巴",
+              "reading": "ㄅㄚ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "問",
+              "reading": "ㄨㄣˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "呱呱結󠇡結󠇡巴巴地󠇡問。"
+        },
+        "en": "Gua Gua asked, stammering."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "目瞪口呆",
+        "pinyin": [
+          {
+            "text": "目",
+            "reading": "mù"
+          },
+          {
+            "text": "瞪",
+            "reading": "dèng"
+          },
+          {
+            "text": "口",
+            "reading": "kǒu"
+          },
+          {
+            "text": "呆",
+            "reading": "dāi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "目瞪口呆",
+        "zhuyin": [
+          {
+            "text": "目",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "瞪",
+            "reading": "ㄉㄥˋ"
+          },
+          {
+            "text": "口",
+            "reading": "ㄎㄡˇ"
+          },
+          {
+            "text": "呆",
+            "reading": "ㄉㄞ"
+          }
+        ],
+        "bpmf": "目瞪口呆"
+      },
+      "en": "dumbfounded / stunned",
+      "example": {
+        "simp": {
+          "text": "呱呱听得目瞪口呆，嘴巴张得大大的。",
+          "pinyin": [
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "呱",
+              "reading": "guā"
+            },
+            {
+              "text": "听",
+              "reading": "tīng"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "目",
+              "reading": "mù"
+            },
+            {
+              "text": "瞪",
+              "reading": "dèng"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "呆",
+              "reading": "dāi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "嘴",
+              "reading": "zuǐ"
+            },
+            {
+              "text": "巴",
+              "reading": "bā"
+            },
+            {
+              "text": "张",
+              "reading": "zhāng"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "呱呱聽得目瞪口呆，嘴巴張得大大的。",
+          "zhuyin": [
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "呱",
+              "reading": "ㄍㄨㄚ"
+            },
+            {
+              "text": "聽",
+              "reading": "ㄊㄧㄥ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "目",
+              "reading": "ㄇㄨˋ"
+            },
+            {
+              "text": "瞪",
+              "reading": "ㄉㄥˋ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "呆",
+              "reading": "ㄉㄞ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "嘴",
+              "reading": "ㄗㄨㄟˇ"
+            },
+            {
+              "text": "巴",
+              "reading": "ㄅㄚ"
+            },
+            {
+              "text": "張",
+              "reading": "ㄓㄤ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "呱呱聽得󠇡目瞪口呆，嘴巴張得󠇡大大的。"
+        },
+        "en": "Gua Gua listened, dumbfounded, his mouth hanging wide open."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "一望无际",
+        "pinyin": [
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "望",
+            "reading": "wàng"
+          },
+          {
+            "text": "无",
+            "reading": "wú"
+          },
+          {
+            "text": "际",
+            "reading": "jì"
+          }
+        ]
+      },
+      "trad": {
+        "text": "一望無際",
+        "zhuyin": [
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "望",
+            "reading": "ㄨㄤˋ"
+          },
+          {
+            "text": "無",
+            "reading": "ㄨˊ"
+          },
+          {
+            "text": "際",
+            "reading": "ㄐㄧˋ"
+          }
+        ],
+        "bpmf": "一󠇡望無際"
+      },
+      "en": "stretching as far as the eye can see",
+      "example": {
+        "simp": {
+          "text": "它一望无际，从这座山一直延伸到那座山。",
+          "pinyin": [
+            {
+              "text": "它",
+              "reading": "tā"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "望",
+              "reading": "wàng"
+            },
+            {
+              "text": "无",
+              "reading": "wú"
+            },
+            {
+              "text": "际",
+              "reading": "jì"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "座",
+              "reading": "zuò"
+            },
+            {
+              "text": "山",
+              "reading": "shān"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "直",
+              "reading": "zhí"
+            },
+            {
+              "text": "延",
+              "reading": "yán"
+            },
+            {
+              "text": "伸",
+              "reading": "shēn"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "座",
+              "reading": "zuò"
+            },
+            {
+              "text": "山",
+              "reading": "shān"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "它一望無際，從這座山一直延伸到那座山。",
+          "zhuyin": [
+            {
+              "text": "它",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "望",
+              "reading": "ㄨㄤˋ"
+            },
+            {
+              "text": "無",
+              "reading": "ㄨˊ"
+            },
+            {
+              "text": "際",
+              "reading": "ㄐㄧˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "座",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "山",
+              "reading": "ㄕㄢ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "直",
+              "reading": "ㄓˊ"
+            },
+            {
+              "text": "延",
+              "reading": "ㄧㄢˊ"
+            },
+            {
+              "text": "伸",
+              "reading": "ㄕㄣ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "座",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "山",
+              "reading": "ㄕㄢ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "它一󠇡望無際，從這座山一󠇢直延伸到那座山。"
+        },
+        "en": "It stretches on without end, reaching from this mountain all the way to that one."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "也许",
+        "pinyin": [
+          {
+            "text": "也",
+            "reading": "yé"
+          },
+          {
+            "text": "许",
+            "reading": "xǔ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "也許",
+        "zhuyin": [
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "許",
+            "reading": "ㄒㄩˇ"
+          }
+        ],
+        "bpmf": "也許"
+      },
+      "en": "maybe / perhaps",
+      "example": {
+        "simp": {
+          "text": "他开始想：也许有一天，他真的应该想办法跳出这口小井，去看看老海说的那个世界。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "始",
+              "reading": "shǐ"
+            },
+            {
+              "text": "想",
+              "reading": "xiǎng"
+            },
+            {
+              "text": "：",
+              "reading": ""
+            },
+            {
+              "text": "也",
+              "reading": "yé"
+            },
+            {
+              "text": "许",
+              "reading": "xǔ"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "真",
+              "reading": "zhēn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "应",
+              "reading": "yīng"
+            },
+            {
+              "text": "该",
+              "reading": "gāi"
+            },
+            {
+              "text": "想",
+              "reading": "xiǎng"
+            },
+            {
+              "text": "办",
+              "reading": "bàn"
+            },
+            {
+              "text": "法",
+              "reading": "fǎ"
+            },
+            {
+              "text": "跳",
+              "reading": "tiào"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "井",
+              "reading": "jǐng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "去",
+              "reading": "qù"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "老",
+              "reading": "lǎo"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "世",
+              "reading": "shì"
+            },
+            {
+              "text": "界",
+              "reading": "jiè"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他開始想：也許有一天，他真的應該想辦法跳出這口小井，去看看老海說的那個世界。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "始",
+              "reading": "ㄕˇ"
+            },
+            {
+              "text": "想",
+              "reading": "ㄒㄧㄤˇ"
+            },
+            {
+              "text": "：",
+              "reading": ""
+            },
+            {
+              "text": "也",
+              "reading": "ㄧㄝˇ"
+            },
+            {
+              "text": "許",
+              "reading": "ㄒㄩˇ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "真",
+              "reading": "ㄓㄣ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "應",
+              "reading": "ㄧㄥ"
+            },
+            {
+              "text": "該",
+              "reading": "ㄍㄞ"
+            },
+            {
+              "text": "想",
+              "reading": "ㄒㄧㄤˇ"
+            },
+            {
+              "text": "辦",
+              "reading": "ㄅㄢˋ"
+            },
+            {
+              "text": "法",
+              "reading": "ㄈㄚˇ"
+            },
+            {
+              "text": "跳",
+              "reading": "ㄊㄧㄠˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "井",
+              "reading": "ㄐㄧㄥˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "去",
+              "reading": "ㄑㄩˋ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "老",
+              "reading": "ㄌㄠˇ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "世",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "界",
+              "reading": "ㄐㄧㄝˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他開始想：也許有一󠇢天，他真的應該想辦法跳出這口小井，去看看老海說的那個󠇡世界。"
+        },
+        "en": "He began to think: maybe one day he really should find a way to leap out of this little well and go see the world Lao Hai had spoken of."
+      }
+    }
+  ]
+}

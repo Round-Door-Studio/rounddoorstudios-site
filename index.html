@@ -1,567 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-script="simp">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Round Door Studios</title>
-  <meta name="description" content="Round Door Studios — coming soon. Join the waitlist for early access." />
-
-  <link rel="icon" type="image/svg+xml" href="ICONS/FULLDOORSHADEGRADIENT.svg" />
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Round Door Studio · Bilingual stories for kids</title>
+  <meta name="description" content="Free Mandarin and English stories for bilingual families — with printable story packs, vocabulary, discussion prompts, and cultural activities." />
+  <link rel="icon" type="image/png" href="assets/icons/round-door.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=LXGW+WenKai+TC&family=Noto+Serif+TC&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/rds.css" />
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KW6G42FG');</script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KW6G42FG');</script>
   <!-- End Google Tag Manager -->
-  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
-  <style>
-    /* ─── Fonts ──────────────────────────────────────────── */
-    @font-face {
-      font-family: 'Stropica';
-      src: url('fonts/stropica/StropicaDEMO.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-    }
-
-    /* ─── Reset ─────────────────────────────────────────── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    /* ─── Tokens ─────────────────────────────────────────── */
-    :root {
-      --bg:          #F1EAEA;
-      --surface:     #F8F2F1;
-      --border:      #DBC4C2;
-      --text:        #36202A;
-      --muted:       #8C6B73;
-      --accent:      #9B4761;
-      --accent-dk:   #7B324A;
-      --shadow:      rgba(155, 71, 97, 0.22);
-      --locked-bg:   #ECDDDC;
-    }
-
-    /* ─── Base ───────────────────────────────────────────── */
-    html, body {
-      height: 100%;
-    }
-
-    body {
-      font-family: 'Georgia', 'Times New Roman', serif;
-      background-color: #E5D5D2;
-      background-image:
-        url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22turbulence%22 baseFrequency=%220.4%22 numOctaves=%225%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22400%22 height=%22400%22 filter=%22url(%23n)%22 opacity=%220.06%22/%3E%3C/svg%3E'),
-        url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Cfilter id=%22f%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%221.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22200%22 height=%22200%22 filter=%22url(%23f)%22 opacity=%220.04%22/%3E%3C/svg%3E'),
-        radial-gradient(ellipse at 20% 50%, rgba(219,196,194,0.35) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 30%, rgba(155,71,97,0.07) 0%, transparent 40%),
-        radial-gradient(ellipse at 50% 90%, rgba(184,153,153,0.10) 0%, transparent 40%);
-      color: var(--text);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      min-height: 100dvh;
-      padding: 5rem 1.5rem 2.5rem;
-      text-align: center;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 720px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    /* ─── Logo ───────────────────────────────────────────── */
-    .logo {
-      width: 140px;
-      height: 140px;
-      margin-bottom: 2rem;
-    }
-
-    /* ─── Heading ────────────────────────────────────────── */
-    h1 {
-      font-family: 'Stropica', 'Georgia', serif;
-      font-size: clamp(2.5rem, 7vw, 4.5rem);
-      font-weight: 400;
-      letter-spacing: 0.02em;
-      line-height: 1.15;
-      margin-bottom: 0.6rem;
-    }
-
-    .tagline {
-      font-size: 0.85rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 1.25rem;
-    }
-
-    .tagline-zh {
-      font-family: 'Ma Shan Zheng', serif;
-      font-size: 1rem;
-      line-height: 1.8;
-      height: 1.8rem;
-      color: var(--muted);
-      letter-spacing: 0.08em;
-      margin-bottom: 2rem;
-      opacity: 0.75;
-      overflow: hidden;
-    }
-
-    .zh {
-      font-family: 'Ma Shan Zheng', serif;
-      font-size: 1.2em;
-      line-height: 1;
-      vertical-align: middle;
-    }
-
-    .product-blurb {
-      width: 100%;
-      font-size: 1rem;
-      line-height: 1.8;
-      color: var(--muted);
-      margin-bottom: 2rem;
-      text-align: justify;
-    }
-
-    .launching-soon {
-      font-size: 0.75rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 0.75rem;
-    }
-
-    /* ─── CTA Button ─────────────────────────────────────── */
-    .btn-primary {
-      display: inline-block;
-      background: var(--accent);
-      color: #F1EAEA;
-      border: none;
-      padding: 0.95rem 2.8rem;
-      font-size: 1.1rem;
-      font-family: 'Stropica', 'Georgia', serif;
-      font-weight: 400;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      cursor: pointer;
-      border-radius: 4px;
-      transition: background 0.2s, transform 0.15s;
-    }
-
-    .btn-primary:hover  { background: var(--accent-dk); transform: translateY(-2px); }
-    .btn-primary:active { transform: translateY(0); }
-
-    /* ─── Modal overlay ──────────────────────────────────── */
-    .overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(54, 32, 42, 0.82);
-      backdrop-filter: blur(3px);
-      -webkit-backdrop-filter: blur(3px);
-      z-index: 200;
-      align-items: center;
-      justify-content: center;
-      padding: 1.25rem;
-    }
-
-    .overlay.open { display: flex; }
-
-    /* ─── Modal card ─────────────────────────────────────── */
-    .modal {
-      background: var(--bg);
-      border-radius: 8px;
-      padding: 2.5rem 2.25rem 2.25rem;
-      width: 100%;
-      max-width: 420px;
-      position: relative;
-      text-align: left;
-      animation: riseIn 0.26s cubic-bezier(.22,.61,.36,1) both;
-    }
-
-    @keyframes riseIn {
-      from { opacity: 0; transform: translateY(18px) scale(0.98); }
-      to   { opacity: 1; transform: translateY(0)    scale(1);    }
-    }
-
-    .modal-close {
-      position: absolute;
-      top: 1rem;
-      right: 1.25rem;
-      background: none;
-      border: none;
-      font-size: 1.6rem;
-      line-height: 1;
-      cursor: pointer;
-      color: var(--muted);
-      transition: color 0.15s;
-    }
-
-    .modal-close:hover { color: var(--text); }
-
-    .modal h2 {
-      font-size: 1.5rem;
-      font-weight: 400;
-      margin-bottom: 0.45rem;
-    }
-
-    .modal .sub {
-      font-size: 0.9rem;
-      color: var(--muted);
-      line-height: 1.65;
-      margin-bottom: 1.75rem;
-    }
-
-    /* ─── Form ───────────────────────────────────────────── */
-    .field { margin-bottom: 1rem; }
-
-    .field label {
-      display: block;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 0.4rem;
-    }
-
-    .field input[type="email"] {
-      width: 100%;
-      padding: 0.78rem 1rem;
-      border: 1.5px solid var(--border);
-      background: var(--surface);
-      border-radius: 4px;
-      font-size: 1rem;
-      font-family: inherit;
-      color: var(--text);
-      transition: border-color 0.2s;
-      -webkit-appearance: none;
-    }
-
-    .field input:focus {
-      outline: none;
-      border-color: var(--accent);
-    }
-
-    .btn-submit {
-      width: 100%;
-      margin-top: 0.4rem;
-      background: var(--accent);
-      color: #F1EAEA;
-      border: none;
-      padding: 0.9rem;
-      font-size: 0.9rem;
-      font-family: 'Stropica', 'Georgia', serif;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
-      cursor: pointer;
-      border-radius: 4px;
-      transition: background 0.2s;
-    }
-
-    .btn-submit:hover { background: var(--accent-dk); }
-
-    /* ─── Success state ──────────────────────────────────── */
-    .success { display: none; text-align: center; padding: 2rem 0; }
-
-    .success-icon {
-      width: 56px;
-      height: 56px;
-      border-radius: 50%;
-      background: var(--locked-bg);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 1.25rem;
-      font-size: 1.5rem;
-    }
-
-    .success h3 {
-      font-size: 1.3rem;
-      font-weight: 400;
-      margin-bottom: 0.4rem;
-    }
-
-    .success p { font-size: 0.9rem; color: var(--muted); line-height: 1.6; }
-
-    /* ─── Founders ──────────────────────────────────────── */
-    .founders {
-      display: flex;
-      align-items: center;
-      gap: 2.5rem;
-      margin-top: 3.5rem;
-      width: 100%;
-      text-align: left;
-    }
-
-    .founder-photo {
-      flex-shrink: 0;
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      overflow: hidden;
-      border: 2px solid var(--border);
-      box-shadow: 0 4px 16px var(--shadow);
-    }
-
-    .founder-photo img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center 40%;
-    }
-
-    .founder-bio h2 {
-      font-family: 'Stropica', 'Georgia', serif;
-      font-size: 1.5rem;
-      font-weight: 400;
-      letter-spacing: 0.04em;
-      margin-bottom: 0.2rem;
-    }
-
-    .founder-names {
-      font-size: 0.75rem;
-      letter-spacing: 0.12em;
-      color: var(--muted);
-      margin-bottom: 0.85rem;
-    }
-
-    .founder-bio p:last-child {
-      font-size: 0.88rem;
-      line-height: 1.7;
-      color: var(--muted);
-      text-align: justify;
-    }
-
-    /* ─── Social Links ──────────────────────────────────── */
-    .social-links {
-      position: fixed;
-      top: 1.25rem;
-      right: 2.5rem;
-      display: flex;
-      align-items: center;
-      gap: 1.25rem;
-      z-index: 100;
-    }
-
-    .social-link {
-      display: flex;
-      opacity: 0.5;
-      transition: opacity 0.2s;
-    }
-
-    .social-link:hover {
-      opacity: 1;
-    }
-
-    /* ─── Footer ────────────────────────────────────────── */
-    .site-footer {
-      margin-top: 5rem;
-      padding-bottom: 3rem;
-      font-size: 0.72rem;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      opacity: 0.6;
-    }
-
-    /* ─── Script Toggle ─────────────────────────────────── */
-    .script-toggle {
-      position: fixed;
-      top: 1.25rem;
-      left: 1.5rem;
-      display: flex;
-      align-items: center;
-      gap: 0.3rem;
-      z-index: 100;
-    }
-
-    .script-btn {
-      background: none;
-      border: none;
-      font-family: 'Ma Shan Zheng', serif;
-      font-size: 1.1rem;
-      color: var(--muted);
-      cursor: pointer;
-      padding: 0.15rem 0.3rem;
-      opacity: 0.5;
-      transition: color 0.2s, opacity 0.2s;
-    }
-
-    .script-btn.active {
-      color: var(--text);
-      opacity: 1;
-    }
-
-    .script-divider {
-      color: var(--border);
-      font-size: 0.75rem;
-      font-family: Georgia, serif;
-    }
-
-    /* ─── Responsive ─────────────────────────────────────── */
-    @media (max-width: 420px) {
-      .logo       { width: 112px; height: 112px; }
-      .logo-ring  { width: 82px;  height: 82px;  }
-      .modal      { padding: 2rem 1.5rem 1.75rem; }
-      .founders   { flex-direction: column; text-align: center; }
-    }
-  </style>
 </head>
-
 <body>
-
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW6G42FG"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW6G42FG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <!-- ── Social Links ── -->
-  <div class="social-links">
-    <a class="social-link" href="https://instagram.com/therounddoorpodcast" target="_blank" rel="noopener" aria-label="Instagram">
-      <img src="https://cdn.simpleicons.org/instagram/9B4761" width="22" height="22" alt="Instagram" />
+  <!-- ── Nav ── -->
+  <header class="nav">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/icons/round-door.png" alt="Round Door Studio" />
+      <b>Round Door Studio</b>
     </a>
-    <a class="social-link" href="https://tiktok.com/@rounddoorstudio" target="_blank" rel="noopener" aria-label="TikTok">
-      <img src="https://cdn.simpleicons.org/tiktok/9B4761" width="22" height="22" alt="TikTok" />
-    </a>
-  </div>
-
-  <!-- ── Script Toggle ── -->
-  <div class="script-toggle">
-    <button class="script-btn active" id="btn-simplified" onclick="setScript('simplified')">简</button>
-    <span class="script-divider">|</span>
-    <button class="script-btn" id="btn-traditional" onclick="setScript('traditional')">繁</button>
-  </div>
-
-  <div class="container">
-
-  <!-- ── Logo ── -->
-  <div class="logo" aria-hidden="true">
-    <img src="ICONS/FULLDOORSHADEGRADIENT.svg" width="140" height="140"
-         style="filter: brightness(0) saturate(100%) invert(34%) sepia(50%) saturate(700%) hue-rotate(295deg) brightness(89%) contrast(91%);"
-         alt="Round Door Studios logo" />
-  </div>
+    <nav class="nav-links">
+      <a href="library.html">Library</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="script-toggle" id="scriptToggle" aria-label="Choose script">
+        <button data-s="simp">简 <span class="lbl">Simplified</span></button>
+        <span class="sep">·</span>
+        <button data-s="trad">繁 <span class="lbl">Traditional</span></button>
+      </div>
+    </div>
+  </header>
 
   <!-- ── Hero ── -->
-  <h1>Round Door Studio</h1>
-  <p class="tagline">Mandarin stories for the modern bilingual family</p>
-  <p class="tagline-zh" data-simplified="为双语家庭而生的故事" data-traditional="為雙語家庭而生的故事">为双语家庭而生的故事</p>
-
-  <!-- ── Product blurb ── -->
-  <p class="product-blurb">We bring Chinese folklore, fables, and culture to life through audio stories designed for children growing up between two worlds. Heritage shouldn't feel like homework, it should feel like an adventure worth sharing.</p>
-
-  <!-- ── CTA ── -->
-  <p class="launching-soon">Launching soon! Be the <span class="zh" data-simplified="第一" data-traditional="第一">第一</span> to know.</p>
-  <button class="btn-primary" onclick="openModal()">Join the Waitlist</button>
-
-  <!-- ── Founders ── -->
-  <section class="founders">
-    <div class="founder-photo">
-      <img src="founders2.jpg" alt="Lanssie and Catherine, founders of Round Door Studios" />
+  <section class="hero">
+    <div class="hero-door" title="Open the door">
+      <img src="assets/icons/round-door.png" alt="" />
     </div>
-    <div class="founder-bio">
-      <h2>About Us</h2>
-      <p class="founder-names"><span class="zh" data-simplified="嘿!" data-traditional="嘿!">嘿!</span> We're Lanssie &amp; Catherine</p>
-      <p>Two Asian American moms (with Chinese and Taiwanese roots) asking the same question: how do we raise kids who feel at home in their heritage and their American life? Round Door Studio is our answer. Stories for every family that wants their kids to grow up knowing the myths, the culture, and the language that makes them who they are.</p>
+    <div class="hero-copy">
+      <p class="eyebrow" style="margin-bottom:14px;">Round Door Studio · 月門故事</p>
+      <h1 class="display">Mandarin and English stories for the modern bilingual family</h1>
+      <p class="hero-sub">The same story, told in both languages. Read along, learn new words, spark conversations, and explore culture together.</p>
+      <p class="hero-zh">
+        <span class="only-simp zh-simp">为双语家庭而生的故事</span>
+        <span class="only-trad zh-trad">為雙語家庭而生的故事</span>
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="library.html">Browse Stories</a>
+        <button type="button" class="btn btn-ghost" onclick="openModal()">Don't Miss the Next Story</button>
+      </div>
     </div>
   </section>
 
-  </div><!-- /container -->
-
-
-  <footer class="site-footer">
-    <p>&copy; 2026 Round Door Studios. All rights reserved.</p>
-  </footer>
-
-
-  <!-- ═══════════════════════════════════════════════════════
-       MODAL
-  ════════════════════════════════════════════════════════ -->
-  <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle"
-       onclick="closeOnOverlay(event)">
-
-    <div class="modal">
-      <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
-
-      <!-- Form panel -->
-      <div id="formPanel">
-        <h2 id="modalTitle">Get Early Access</h2>
-        <p class="sub">Be the first to hear from us. Drop your email and we'll reach out when we have good news to share!</p>
-
-        <form id="waitlistForm"
-              action="https://assets.mailerlite.com/jsonp/2318264/forms/186598057362589116/subscribe"
-              method="post">
-
-            <div class="field">
-              <label for="ml-email">Email Address</label>
-              <input type="email" id="ml-email" aria-label="email" aria-required="true"
-                     name="fields[email]" placeholder="you@example.com" autocomplete="email" required />
-            </div>
-
-            <input type="hidden" name="ml-submit" value="1">
-            <input type="hidden" name="anticsrf" value="true">
-
-            <button type="submit" class="btn-submit"><span class="zh" data-simplified="出发！" data-traditional="出發！">出发！</span>Let's Go</button>
-        </form>
+  <!-- ── Featured Story ── -->
+  <section class="section" id="featured">
+    <div class="featured-head">
+      <div>
+        <p class="eyebrow" style="margin-bottom:6px;">Featured Story</p>
+        <h2>Start with this one.</h2>
       </div>
+      <a class="featured-all" href="library.html">Browse all stories ›</a>
+    </div>
+    <div id="featured-mount"></div>
+  </section>
 
-      <!-- Success panel (shown after submit) -->
-      <div class="success" id="successPanel">
-        <div class="success-icon">✓</div>
-        <h3>You're on the list!</h3>
-        <p>We'll be in touch soon.<br>Keep an eye on your inbox.</p>
+  <!-- ── Member teaser ── -->
+  <section class="teaser">
+    <div class="teaser-in">
+      <div>
+        <p class="eyebrow">For families who want more</p>
+        <h2 class="display">Keep the door open.</h2>
+        <p>
+        Every story begins with a free podcast episode. Explore printable storybooks, vocabulary cards, discussion prompts, and cultural activities inspired by each story.
+        </p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <button type="button" class="btn btn-primary" onclick="openModal()">Don't Miss the Next Story</button>
+          <a class="btn btn-ghost" id="sample-story-link" href="story.html?story=frog-at-the-bottom-of-the-well">Peek inside a sample story pack</a>
+        </div>
+      </div>
+      <div class="teaser-cards">
+        <div class="teaser-card"><div class="k">Discussion</div><p class="desc">Open-ended questions to talk through the story together — what happened, why it matters, and the ideas underneath.</p><div class="lines"></div></div>
+        <div class="teaser-card"><div class="k">Vocabulary</div><p class="desc">Key words and phrases from the story in Chinese and English, with pinyin and zhuyin to learn side by side.</p><div class="lines"></div></div>
+        <div class="teaser-card"><div class="k">Cultural Activities</div><p class="desc">Hands-on crafts, recipes, and traditions that bring the story's culture to life at home.</p><div class="lines"></div></div>
       </div>
     </div>
-  </div><!-- /overlay -->
+  </section>
 
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="footer-in">
+      <div class="footer-brand">
+        <img src="assets/icons/round-door.png" alt="Round Door Studio" />
+        <span class="footer-legal">© 2026 Round Door Studio · 月門故事</span>
+      </div>
+      <div class="footer-soc">
+        <a class="soc" href="https://instagram.com/therounddoorpodcast" target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="https://cdn.simpleicons.org/instagram/9B4761" width="18" height="18" alt="Instagram" />
+        </a>
+        <a class="soc" href="https://tiktok.com/@therounddoorpodcast" target="_blank" rel="noopener" aria-label="TikTok">
+          <img src="https://cdn.simpleicons.org/tiktok/9B4761" width="18" height="18" alt="TikTok" />
+        </a>
+      </div>
+    </div>
+  </footer>
 
-  <script>
-    /* ── Script toggle ── */
-    function setScript(script) {
-      const zhFont = script === 'simplified' ? "'Ma Shan Zheng', serif" : "'LXGW WenKai TC', serif";
-      document.querySelectorAll('[data-simplified]').forEach(el => {
-        el.textContent = el.dataset[script];
-        el.style.fontFamily = zhFont;
-      });
-      document.getElementById('btn-simplified').classList.toggle('active', script === 'simplified');
-      document.getElementById('btn-traditional').classList.toggle('active', script === 'traditional');
-    }
-
-    /* ── Modal open/close ── */
-    function openModal() {
-      const overlay = document.getElementById('overlay');
-      overlay.classList.add('open');
-      document.body.style.overflow = 'hidden';
-      setTimeout(() => document.getElementById('ml-email').focus(), 60);
-    }
-
-    function closeModal() {
-      document.getElementById('overlay').classList.remove('open');
-      document.body.style.overflow = '';
-    }
-
-    function closeOnOverlay(e) {
-      if (e.target === document.getElementById('overlay')) closeModal();
-    }
-
-    document.addEventListener('keydown', e => {
-      if (e.key === 'Escape') closeModal();
-    });
-
-    /* ── Form submit → MailerLite via fetch ── */
-    document.addEventListener('DOMContentLoaded', () => {
-      document.getElementById('waitlistForm').addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const form = e.target;
-        try {
-          await fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' });
-        } catch (_) {}
-        document.getElementById('formPanel').style.display = 'none';
-        document.getElementById('successPanel').style.display = 'block';
-      });
-    });
-  </script>
-
+  <script src="data/stories.js"></script>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/modal.js"></script>
 </body>
 </html>
