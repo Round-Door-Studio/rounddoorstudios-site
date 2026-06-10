@@ -167,7 +167,7 @@
     if (!open.length && !beyond.length) {
       return '<div class="pack-empty card"><p class="muted">Curious questions for this story pack are on their way.</p></div>';
     }
-    return '<p class="pack-parent-note">Follow your child’s curiosity. Choose the questions that fit today.</p>' +
+    return '<p class="pack-parent-note">Follow your child\'s curiosity. Choose the questions that fit today.</p>' +
       group('Open the Door', open) + group('Go Beyond', beyond);
   }
 
@@ -414,11 +414,14 @@
   }
 
   function isCompareOpeningPunct(token) {
-    return /^[「『（(《〈【〔〖〘〚“‘]+$/.test(token);
+    return /^[「『（(《〈【〔〖〘〚"']+$/.test(token);
   }
 
   function isCompareTrailingPunct(token) {
-    return /^[，。、？！：；,.!?;:…⋯）」』》〉】〕〗〙〛”’]+$/.test(token);
+    /* Ellipsis (…⋯) are excluded — they get their own cell rather than
+       merging into the preceding character, which would cause overflow
+       in cells like 「哇……」. Closing brackets still merge. */
+    return /^[，。、？！：；,.!?;:）」』》〉】〕〗〙〛"']+$/.test(token);
   }
 
   function normalizeCompareTokens(tokens) {
@@ -430,6 +433,8 @@
         prefix += token;
         return;
       }
+      /* All trailing punctuation merges with the previous character so it
+         never starts a new grid row (行首禁則). */
       if (isCompareTrailingPunct(token)) {
         if (out.length) out[out.length - 1] += token;
         else prefix += token;
@@ -636,13 +641,23 @@
       /* Track active tab so Compare button can hide on non-read tabs */
       if (controls) controls.dataset.activeTab = id;
 
-      /* When leaving Read Along, always sync simp/trad buttons to data-script.
-         This ensures the correct button is active regardless of whether the
-         user was in Compare mode or not. */
+      /* Sync mode buttons when switching tabs */
       if (id !== 'read') {
+        /* Leaving Read Along: show which script is active (never compare) */
         var lastScript = document.documentElement.dataset.script || 'simp';
         document.querySelectorAll('.rc-mode').forEach(function (b) {
           var on = b.dataset.mode === lastScript;
+          b.classList.toggle('is-on', on);
+          b.setAttribute('aria-selected', on ? 'true' : 'false');
+        });
+      } else {
+        /* Returning to Read Along: restore button to match the actual reading mode */
+        var reading = document.querySelector('.reading');
+        var activeMode = reading && reading.classList.contains('mode-compare') ? 'compare'
+          : reading && reading.classList.contains('mode-trad') ? 'trad'
+          : 'simp';
+        document.querySelectorAll('.rc-mode').forEach(function (b) {
+          var on = b.dataset.mode === activeMode;
           b.classList.toggle('is-on', on);
           b.setAttribute('aria-selected', on ? 'true' : 'false');
         });

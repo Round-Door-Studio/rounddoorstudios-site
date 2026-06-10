@@ -18,7 +18,12 @@ window.RDS_STORIES = [
     runtime: '12-15 min', pub: 'Jun 10, 2026', coverColor: '#5C8358',
     coverImage: 'assets/img/covers/frog-at-the-bottom-of-the-well-square.png',
     coverImageLandscape: 'assets/img/covers/frog-at-the-bottom-of-the-well-landscape.png',
-    audio: { en: { spotify: '#', youtube: '#', apple: '#' }, zh: { spotify: '#', youtube: '#', apple: '#' } },
+    audio: { en: { spotify: 'https://open.spotify.com/episode/158DFYe9Wjx4AsCu7B9sL1?si=jcag9qvwTKyhxGousQbFKw', 
+                   youtube: 'https://youtu.be/8s6AyIEjsfk', 
+                   apple: 'https://podcasts.apple.com/podcast/id1000771985730' }, 
+             zh: { spotify: 'https://open.spotify.com/episode/0oEiUDbeNTA17AClFESaBX?si=r6z8YZcJTfm8t1pLII7GOw', 
+                   youtube: 'https://youtu.be/OJuRDrasjEk', 
+                   apple: '#' } },
     hasBundle: true,
   },
   {

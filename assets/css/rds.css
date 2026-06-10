@@ -461,9 +461,9 @@ a { color: inherit; }
 .reading.mode-trad .rd-col--simp { display: none; }
 .reading.mode-compare .rd-zh { display: none; }
 .reading.mode-compare .rd-compare {
-  --rd-compare-cell: 2.65rem;
-  --rd-compare-cell: clamp(2.65rem, 5.2cqw, 3.55rem);
-  --rd-compare-row: 3rem;
+  --rd-compare-cell: 3.5rem;
+  --rd-compare-cell: clamp(3.5rem, 6.8cqw, 4.8rem);
+  --rd-compare-row: 3.4rem;
   container-type: inline-size;
   display: grid;
   grid-template-columns: 1fr 1fr;
