@@ -537,7 +537,7 @@
         '<div>' +
           '<div class="read-hero-main">' +
             '<div class="read-hero-title">' +
-              '<p class="eyebrow" style="margin-bottom:8px;">Episode ' + pad(st.ep) + ' · Season ' + st.season + ' · ages ' + st.ageRange + ' · ' + st.runtime + '</p>' +
+              '<p class="eyebrow" style="margin-bottom:8px;">Episode ' + pad(st.ep) + ' · Season ' + st.season + ' · ' + st.runtime + '</p>' +
               '<h1 class="display">' +
                 '<span class="only-simp zh-simp">' + st.title.simp + '</span>' +
                 '<span class="only-trad zh-trad">' + st.title.trad + '</span>' +

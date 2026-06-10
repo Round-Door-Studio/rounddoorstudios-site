@@ -61,7 +61,7 @@
   function sidePanel(st) {
     return '<aside class="bundle-side">' +
       '<div class="card"><p class="eyebrow" style="margin-bottom:6px;">About this bundle</p>' +
-        '<p style="font-size:13px;color:var(--ink-soft);line-height:1.55;">Printable pages for ages ' + st.ageRange + ', made to pair with the audio episode (' + st.runtime + ').</p></div>' +
+        '<p style="font-size:13px;color:var(--ink-soft);line-height:1.55;">Printable pages made to pair with the audio episode (' + st.runtime + ').</p></div>' +
       '<div class="card"><p class="eyebrow" style="margin-bottom:8px;">Tips for grown-ups</p>' +
         '<ul style="list-style:none;display:grid;gap:8px;font-size:13px;color:var(--ink-soft);">' +
           '<li>1. Listen first, then open the bundle.</li>' +

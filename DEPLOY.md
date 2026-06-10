@@ -17,7 +17,7 @@ For local testing, do not open `index.html` directly with `file://`. Run a local
 ```bash
 python3 -m http.server 8123
 ```
-Then visit http://127.0.0.1:8123/.
+Then visit http://127.0.0.1:8123/
 
 
 ---

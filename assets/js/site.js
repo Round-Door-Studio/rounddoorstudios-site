@@ -215,8 +215,6 @@
         '<p class="featured-teaser">' + (st.blurb || '') + '</p>' +
         '<div class="featured-meta">' +
           '<span><b>' + (st.runtime || 'New') + '</b> listen</span>' +
-          '<span class="dot-sep">·</span>' +
-          '<span>Ages <b>' + (st.ageRange || 'all') + '</b></span>' +
         '</div>' +
         '<div class="featured-cta">' +
           '<a class="btn btn-primary" href="' + href(st) + '">Listen Now</a>' +
@@ -251,7 +249,7 @@
         '</div>' +
         '<div class="story-meta">' +
           '<a class="story-headline" href="' + href(st) + '">' +
-            '<p class="eyebrow" style="font-size:10px;">Ep ' + pad(st.ep) + ' · ' + st.runtime + ' · ages ' + st.ageRange + '</p>' +
+            '<p class="eyebrow" style="font-size:10px;">Ep ' + pad(st.ep) + ' · ' + st.runtime + '</p>' +
             titleBlock(st) +
             '<p class="story-desc">' + st.blurb + '</p>' +
           '</a>' +
