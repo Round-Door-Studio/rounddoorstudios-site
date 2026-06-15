@@ -5,6 +5,7 @@ const RELEASED_SLUG = 'frog-at-the-bottom-of-the-well';
 test.describe('Story page', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(`/story/${RELEASED_SLUG}`);
+    await page.waitForLoadState('networkidle');
   });
 
   test('renders story title', async ({ page }) => {

@@ -9,6 +9,7 @@ export function Nav() {
   const pathname = usePathname();
 
   function isActive(href: string) {
+    if (!pathname) return false;
     if (href === '/') return pathname === '/';
     return pathname.startsWith(href);
   }
