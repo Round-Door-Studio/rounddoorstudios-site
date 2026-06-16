@@ -53,9 +53,12 @@ describe('getReleasedStories', () => {
 });
 
 describe('getLatestReleasedStory', () => {
-  it('returns ep 1 as the latest released', () => {
+  it('returns a released story with the highest episode number', () => {
     const latest = getLatestReleasedStory();
-    expect(latest?.ep).toBe(1);
+    const released = getReleasedStories();
+    const maxEp = Math.max(...released.map((s) => s.ep));
+    expect(latest?.ep).toBe(maxEp);
+    expect(latest?.released).toBe(true);
   });
 });
 
