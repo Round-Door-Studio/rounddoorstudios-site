@@ -33,11 +33,23 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    ep: 2, slug: 'qu-yuan-and-dragon-boat-festival', season: 1, released: false,
+    ep: 2, slug: 'qu-yuan-and-dragon-boat-festival', season: 1, released: true,
     title: { en: 'Qu Yuan and the Dragon Boat Festival', simp: '屈原与端午节', trad: '屈原與端午節' },
     blurb: 'The poet-minister whose love for his country gave us dragon boats, sticky-rice zongzi, and the fifth day of the fifth month.',
-    runtime: '16 min', pub: 'June 17, 2026', coverColor: '#5B5C9D',
-    audio: { en: { spotify: '#', youtube: '#', apple: '#' }, zh: { spotify: '#', youtube: '#', apple: '#' } },
+    runtime: '12-14 min', pub: 'June 17, 2026', coverColor: '#5B5C9D',
+    coverImage: '/img/covers/quyuan-cover-SQ.png',
+    audio: { 
+      en: { 
+        spotify: '#', 
+        youtube: '#', 
+        apple: '#' 
+      }, 
+      zh: { 
+        spotify: '#', 
+        youtube: '#', 
+        apple: '#' 
+      } 
+    },
     hasBundle: true,
   },
   {

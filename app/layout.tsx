@@ -7,7 +7,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Round Door Studio · Bilingual stories for kids',
   description:
-    'Free Mandarin and English stories for bilingual families — with printable story packs, vocabulary, discussion prompts, and cultural activities.',
+    'Mandarin and English stories for bilingual families — with printable story packs, vocabulary, discussion prompts, and cultural activities.',
   icons: { icon: '/icons/round-door.png' },
 };
 

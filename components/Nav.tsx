@@ -18,7 +18,7 @@ export function Nav() {
     <header className="nav">
       <Link className="nav-brand" href="/">
         <Image src="/icons/round-door.png" alt="Round Door Studio" width={34} height={34} />
-        <b>Round Door <span>Studio</span></b>
+        <b>Round Door Studio</b>
       </Link>
       <nav className="nav-links">
         <Link href="/library" className={isActive('/library') ? 'is-on' : ''}>
