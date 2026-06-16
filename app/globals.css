@@ -323,6 +323,42 @@ a { color: inherit; }
 .read-back { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: var(--muted); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 18px; }
 .read-back:hover { color: var(--accent); }
 
+/* Story prev/next navigation around the hero */
+.story-hero-nav {
+  position: relative;
+  /* Bleed outside read-wrap padding so arrows float in the margins */
+  margin-left: -52px;
+  margin-right: -52px;
+  padding-left: 52px;
+  padding-right: 52px;
+}
+.story-nav-arrow .bk-chip {
+  width: 52px; height: 52px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--paper); border: 1px solid var(--border);
+  color: var(--ink-soft); font-size: 26px; line-height: 1;
+  box-shadow: 0 5px 14px rgba(54,32,42,0.12);
+  transition: transform .2s, border-color .2s, color .2s, background .2s;
+}
+.story-nav-arrow {
+  position: absolute; top: 0; bottom: 0; width: 52px;
+  display: flex; align-items: center; justify-content: center;
+  text-decoration: none; color: inherit;
+}
+.story-nav-arrow--l { left: 0; }
+.story-nav-arrow--r { right: 0; }
+.story-nav-arrow--disabled { cursor: default; }
+.story-nav-arrow--disabled .bk-chip { opacity: 0.2; box-shadow: none; }
+.story-nav-arrow:not(.story-nav-arrow--disabled):hover .bk-chip {
+  border-color: var(--accent); color: var(--accent); transform: scale(1.12);
+  background: rgba(155,71,97,0.10);
+}
+@media (max-width: 760px) {
+  /* On narrow viewports bleed is unnecessary; collapse to zero */
+  .story-hero-nav { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+  .story-nav-arrow { display: none; }
+}
+
 .read-hero { display: grid; grid-template-columns: 132px 1fr; gap: 22px; align-items: start; margin-bottom: 22px; }
 .read-hero .cover { width: 132px; }
 .read-hero-main { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; align-items: start; }
@@ -776,7 +812,7 @@ a { color: inherit; }
 
 /* ── Print ── */
 @media print {
-  .nav, .read-controls, .footer, .read-back, .read-listen, .book-arrow,
+  .nav, .read-controls, .footer, .read-back, .read-listen, .book-arrow, .story-nav-arrow,
   .pack-summary, .pack-nav-block { display: none !important; }
   /* Show only the active panel — set by data-print-tab on .pack-panels */
   .pack-panel { display: none !important; }

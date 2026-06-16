@@ -81,12 +81,32 @@ export default async function StoryPage({ params }: Props) {
 
   const content: StoryPageContent = { story: storyContent, vocab, questions, activities };
 
+  const released = getReleasedStories();
+  const idx = released.findIndex((s) => s.slug === slug);
+  const prevStory = idx > 0 ? released[idx - 1] : null;
+  const nextStory = idx < released.length - 1 ? released[idx + 1] : null;
+
   return (
     <div className="read-wrap">
       <Link className="read-back" href="/library">‹ Back to the library</Link>
 
-      {/* Story hero */}
-      <div className="read-hero">
+      {/* Story hero with prev/next navigation */}
+      <div className="story-hero-nav">
+        {prevStory ? (
+          <Link
+            href={`/story/${prevStory.slug}`}
+            className="story-nav-arrow story-nav-arrow--l"
+            aria-label={`Previous: ${prevStory.title.en}`}
+            title={prevStory.title.en}
+          >
+            <span className="bk-chip">‹</span>
+          </Link>
+        ) : (
+          <span className="story-nav-arrow story-nav-arrow--l story-nav-arrow--disabled" aria-hidden="true">
+            <span className="bk-chip">‹</span>
+          </span>
+        )}
+        <div className="read-hero">
         <div style={{ width: 132 }}>
           <StoryCover story={story} />
         </div>
@@ -107,7 +127,22 @@ export default async function StoryPage({ params }: Props) {
             <ListenControl audio={story.audio} variant="detail" />
           </div>
         </div>
-      </div>
+        </div>{/* end .read-hero */}
+        {nextStory ? (
+          <Link
+            href={`/story/${nextStory.slug}`}
+            className="story-nav-arrow story-nav-arrow--r"
+            aria-label={`Next: ${nextStory.title.en}`}
+            title={nextStory.title.en}
+          >
+            <span className="bk-chip">›</span>
+          </Link>
+        ) : (
+          <span className="story-nav-arrow story-nav-arrow--r story-nav-arrow--disabled" aria-hidden="true">
+            <span className="bk-chip">›</span>
+          </span>
+        )}
+      </div>{/* end .story-hero-nav */}
 
       {/* Interactive story pack (client component) */}
       <StoryPack content={content} />
