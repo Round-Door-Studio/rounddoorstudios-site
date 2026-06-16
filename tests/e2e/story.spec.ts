@@ -66,6 +66,6 @@ test.describe('Story page', () => {
 });
 
 test('unreleased story shows "door not opened" message', async ({ page }) => {
-  await page.goto('/story/qu-yuan-and-dragon-boat-festival');
+  await page.goto('/story/mend-the-sheep-pen');
   await expect(page.getByText(/hasn't opened yet/i)).toBeVisible();
 });
