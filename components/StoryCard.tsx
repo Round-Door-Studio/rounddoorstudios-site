@@ -13,7 +13,7 @@ export function StoryCard({ story }: StoryCardProps) {
 
   if (!story.released) {
     return (
-      <article className="story-card is-soon">
+      <article className="story-card is-soon" data-slug={story.slug}>
         <div className="story-link">
           <StoryCover story={story} />
         </div>

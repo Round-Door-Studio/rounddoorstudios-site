@@ -1,9 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-// ep 1 — always released; safe to hardcode
+// ep 1 — always the first released story; safe to hardcode
 const RELEASED_SLUG = 'frog-at-the-bottom-of-the-well';
-// ep 12 — last story in the catalog; update only when approaching this release
-const UNRELEASED_SLUG = 'farmer-who-waited-for-the-rabbit';
 
 test.describe('Story page', () => {
   test.beforeEach(async ({ page }) => {
@@ -69,6 +67,11 @@ test.describe('Story page', () => {
 });
 
 test('unreleased story shows "door not opened" message', async ({ page }) => {
-  await page.goto(`/story/${UNRELEASED_SLUG}`);
+  // Discover an unreleased slug from the library grid rather than hardcoding one
+  await page.goto('/library');
+  await page.waitForLoadState('networkidle');
+  await page.getByRole('button', { name: /Grid/i }).click();
+  const slug = await page.locator('.story-card.is-soon').first().getAttribute('data-slug');
+  await page.goto(`/story/${slug}`);
   await expect(page.getByText(/hasn't opened yet/i)).toBeVisible();
 });
