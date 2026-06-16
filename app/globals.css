@@ -489,11 +489,15 @@ a { color: inherit; }
 }
 .reading.mode-compare .rd-cmp-cell ruby { text-align: center; }
 .reading.mode-compare .rd-cmp-cell rt { line-height: 1; }
-/* Show English — controlled by show-en on #read-mount, covers all panels */
-#read-mount:not(.show-en) .rd-en { display: none; }
-#read-mount:not(.show-en) .pack-q-text { display: none; }
-#read-mount:not(.show-en) .pack-vocab-en { display: none; }
-#read-mount:not(.show-en) .pack-vocab-ex-en { display: none; }
+/* Show English — controlled by show-en on .pack-panels, covers all panels */
+.pack-panels:not(.show-en) .rd-en { display: none; }
+.pack-panels:not(.show-en) .pack-q-text { display: none; }
+.pack-panels:not(.show-en) .pack-vocab-en { display: none; }
+.pack-panels:not(.show-en) .pack-vocab-ex-en { display: none; }
+.pack-panels:not(.show-en) .pack-act-title,
+.pack-panels:not(.show-en) .pack-act-desc,
+.pack-panels:not(.show-en) .pack-act-item-en,
+.pack-panels:not(.show-en) .pack-act-time { display: none; }
 /* Hide Compare button when not on the Read Along tab */
 #read-controls[data-active-tab]:not([data-active-tab="read"]) .rc-compare { display: none; }
 .reading.mode-compare .rd-line { padding: 10px 0; }
@@ -774,15 +778,15 @@ a { color: inherit; }
 @media print {
   .nav, .read-controls, .footer, .read-back, .read-listen, .book-arrow,
   .pack-summary, .pack-nav-block { display: none !important; }
-  /* Show only the active panel — set by data-print-tab on #read-mount */
+  /* Show only the active panel — set by data-print-tab on .pack-panels */
   .pack-panel { display: none !important; }
-  #read-mount:not([data-print-tab]) #pack-panel-read,
-  #read-mount[data-print-tab="read"] #pack-panel-read,
-  #read-mount[data-print-tab="words"] #pack-panel-words,
-  #read-mount[data-print-tab="questions"] #pack-panel-questions,
-  #read-mount[data-print-tab="explore"] #pack-panel-explore { display: block !important; }
+  .pack-panels[data-print-tab="read"] #pack-panel-read,
+  .pack-panels[data-print-tab="words"] #pack-panel-words,
+  .pack-panels[data-print-tab="questions"] #pack-panel-questions,
+  .pack-panels[data-print-tab="explore"] #pack-panel-explore { display: block !important; }
   /* Always show English when printing */
-  .rd-en, .pack-q-text { display: block !important; }
+  .rd-en, .pack-q-text, .pack-vocab-en, .pack-vocab-ex-en,
+  .pack-act-title, .pack-act-desc, .pack-act-item-en, .pack-act-time { display: block !important; }
   body { background: #fff; }
   .read-wrap { max-width: 100%; padding: 0; }
   .line { break-inside: avoid; }

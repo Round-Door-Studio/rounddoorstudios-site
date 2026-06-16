@@ -64,6 +64,76 @@ test.describe('Story page', () => {
     await zhBtn.click();
     await expect(page.locator('.listen-control--detail')).toHaveAttribute('data-active-lang', 'zh');
   });
+
+  // ── Compare mode revert ──────────────────────────────────────────────────────
+  test('compare mode reverts to simp when switching to another tab', async ({ page }) => {
+    await page.locator('.rc-mode[data-mode="compare"]').click();
+    await expect(page.locator('#reading')).toHaveClass(/mode-compare/);
+
+    await page.getByRole('tab', { name: /New Words/i }).click();
+    await expect(page.locator('.rc-mode[data-mode="simp"]')).toHaveClass(/is-on/);
+    await expect(page.locator('.rc-mode[data-mode="compare"]')).not.toHaveClass(/is-on/);
+  });
+
+  test('compare mode reverts to trad when trad was chosen before compare', async ({ page }) => {
+    await page.locator('.rc-mode[data-mode="trad"]').click();
+    await page.locator('.rc-mode[data-mode="compare"]').click();
+
+    await page.getByRole('tab', { name: /Curious Questions/i }).click();
+    await expect(page.locator('.rc-mode[data-mode="trad"]')).toHaveClass(/is-on/);
+  });
+
+  test('returning to read tab after compare restores compare mode', async ({ page }) => {
+    await page.locator('.rc-mode[data-mode="compare"]').click();
+    await page.getByRole('tab', { name: /New Words/i }).click();
+    await page.getByRole('tab', { name: /Read Along/i }).click();
+    await expect(page.locator('#reading')).toHaveClass(/mode-compare/);
+  });
+
+  // ── Show English across all tabs ─────────────────────────────────────────────
+  test('unchecking Show English hides english on the vocab tab', async ({ page }) => {
+    await page.locator('#c-en').uncheck();
+    await page.getByRole('tab', { name: /New Words/i }).click();
+    await expect(page.locator('.pack-vocab-en').first()).not.toBeVisible();
+  });
+
+  test('unchecking Show English hides english on the questions tab', async ({ page }) => {
+    await page.locator('#c-en').uncheck();
+    await page.getByRole('tab', { name: /Curious Questions/i }).click();
+    await expect(page.locator('.pack-q-text').first()).not.toBeVisible();
+  });
+
+  test('unchecking Show English hides english on the culture corner tab', async ({ page }) => {
+    await page.locator('#c-en').uncheck();
+    await page.getByRole('tab', { name: /Culture Corner/i }).click();
+    await expect(page.locator('.pack-act-desc').first()).not.toBeVisible();
+  });
+
+  // ── Print button ─────────────────────────────────────────────────────────────
+  test('print button exists with correct id for right-alignment', async ({ page }) => {
+    await expect(page.locator('#c-print')).toBeVisible();
+  });
+
+  test('print button calls window.print', async ({ page }) => {
+    await page.addInitScript(() => {
+      (window as any).__printCalled = false;
+      window.print = () => { (window as any).__printCalled = true; };
+    });
+    await page.goto(`/story/${RELEASED_SLUG}`);
+    await page.waitForLoadState('networkidle');
+    await page.locator('#c-print').click();
+    expect(await page.evaluate(() => (window as any).__printCalled)).toBe(true);
+  });
+
+  test('data-print-tab updates when switching tabs', async ({ page }) => {
+    await expect(page.locator('.pack-panels')).toHaveAttribute('data-print-tab', 'read');
+    await page.getByRole('tab', { name: /New Words/i }).click();
+    await expect(page.locator('.pack-panels')).toHaveAttribute('data-print-tab', 'words');
+    await page.getByRole('tab', { name: /Curious Questions/i }).click();
+    await expect(page.locator('.pack-panels')).toHaveAttribute('data-print-tab', 'questions');
+    await page.getByRole('tab', { name: /Culture Corner/i }).click();
+    await expect(page.locator('.pack-panels')).toHaveAttribute('data-print-tab', 'explore');
+  });
 });
 
 test('unreleased story shows "door not opened" message', async ({ page }) => {

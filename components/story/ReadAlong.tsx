@@ -16,7 +16,6 @@ import type { StoryLine } from '@/lib/types';
 interface ReadAlongProps {
   lines: StoryLine[];
   readingMode: 'simp' | 'trad' | 'compare';
-  showEnglish: boolean;
 }
 
 function isNewFormat(ln: StoryLine): boolean {
@@ -64,24 +63,19 @@ function renderLine(ln: StoryLine): string {
   </div>`;
 }
 
-export function ReadAlong({ lines, readingMode, showEnglish }: ReadAlongProps) {
+export function ReadAlong({ lines, readingMode }: ReadAlongProps) {
   const html = useMemo(() => lines.map(renderLine).join(''), [lines]);
-
-  const modeClass = `reading mode-${readingMode}`;
-  const mountClass = showEnglish ? 'show-en' : '';
 
   return (
     <>
       <p className="pack-parent-note">
         Read together, take turns, or listen along as you follow the podcast episode.
       </p>
-      <div id="read-mount" className={mountClass}>
-        <div
-          id="reading"
-          className={modeClass}
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </div>
+      <div
+        id="reading"
+        className={`reading mode-${readingMode}`}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </>
   );
 }

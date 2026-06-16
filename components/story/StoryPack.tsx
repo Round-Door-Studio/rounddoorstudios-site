@@ -26,18 +26,25 @@ export function StoryPack({ content }: StoryPackProps) {
   const { script, setScript } = useScript();
   const [activeTab, setActiveTab] = useState<TabId>('read');
   const [readingMode, setReadingMode] = useState<ReadingMode>('simp');
+  // Tracks the last simp/trad choice so the toggle can revert when leaving compare mode
+  const [baseMode, setBaseMode] = useState<'simp' | 'trad'>('simp');
   const [showEnglish, setShowEnglish] = useState(true);
+
+  // The mode shown as active in the toggle — reverts to baseMode on non-read tabs when compare is active
+  const displayMode: ReadingMode = (readingMode === 'compare' && activeTab !== 'read') ? baseMode : readingMode;
 
   // Sync reading mode with the global script toggle
   useEffect(() => {
     if (readingMode !== 'compare') {
       setReadingMode(script as ReadingMode);
+      setBaseMode(script as 'simp' | 'trad');
     }
   }, [script]); // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleModeChange(mode: ReadingMode) {
     setReadingMode(mode);
     if (mode === 'simp' || mode === 'trad') {
+      setBaseMode(mode);
       setScript(mode);
     }
   }
@@ -89,7 +96,7 @@ export function StoryPack({ content }: StoryPackProps) {
               <button
                 key={mode}
                 type="button"
-                className={`rc-mode${readingMode === mode ? ' is-on' : ''}${mode === 'compare' ? ' rc-compare' : ''}`}
+                className={`rc-mode${displayMode === mode ? ' is-on' : ''}${mode === 'compare' ? ' rc-compare' : ''}`}
                 data-mode={mode}
                 role="tab"
                 aria-selected={readingMode === mode}
@@ -109,13 +116,13 @@ export function StoryPack({ content }: StoryPackProps) {
           />
           Show English
         </label>
-        <button className="btn btn-ghost btn-sm" onClick={handlePrint}>
+        <button id="c-print" className="btn btn-ghost btn-sm" onClick={handlePrint}>
           ⤓ Print / PDF
         </button>
       </div>
 
       {/* Tab panels */}
-      <div className="pack-panels" data-print-tab={activeTab}>
+      <div className={`pack-panels${showEnglish ? ' show-en' : ''}`} data-print-tab={activeTab}>
         <div
           className="pack-panel"
           role="tabpanel"
@@ -123,7 +130,7 @@ export function StoryPack({ content }: StoryPackProps) {
           aria-labelledby="pack-tab-read"
           hidden={activeTab !== 'read'}
         >
-          <ReadAlong lines={lines} readingMode={readingMode} showEnglish={showEnglish} />
+          <ReadAlong lines={lines} readingMode={readingMode} />
         </div>
 
         <div
