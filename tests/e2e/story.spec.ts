@@ -1,6 +1,9 @@
 import { test, expect } from '@playwright/test';
 
+// ep 1 — always released; safe to hardcode
 const RELEASED_SLUG = 'frog-at-the-bottom-of-the-well';
+// ep 12 — last story in the catalog; update only when approaching this release
+const UNRELEASED_SLUG = 'farmer-who-waited-for-the-rabbit';
 
 test.describe('Story page', () => {
   test.beforeEach(async ({ page }) => {
@@ -66,6 +69,6 @@ test.describe('Story page', () => {
 });
 
 test('unreleased story shows "door not opened" message', async ({ page }) => {
-  await page.goto('/story/mend-the-sheep-pen');
+  await page.goto(`/story/${UNRELEASED_SLUG}`);
   await expect(page.getByText(/hasn't opened yet/i)).toBeVisible();
 });
