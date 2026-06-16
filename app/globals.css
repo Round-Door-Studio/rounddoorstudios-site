@@ -327,31 +327,31 @@ a { color: inherit; }
 .story-hero-nav {
   position: relative;
   /* Bleed outside read-wrap padding so arrows float in the margins */
-  margin-left: -52px;
-  margin-right: -52px;
-  padding-left: 52px;
-  padding-right: 52px;
+  margin-left: -96px;
+  margin-right: -96px;
+  padding-left: 96px;
+  padding-right: 96px;
 }
 .story-nav-arrow .bk-chip {
   width: 52px; height: 52px; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  background: var(--paper); border: 1px solid var(--border);
+  background: transparent; border: 1px solid transparent;
   color: var(--ink-soft); font-size: 26px; line-height: 1;
-  box-shadow: 0 5px 14px rgba(54,32,42,0.12);
   transition: transform .2s, border-color .2s, color .2s, background .2s;
 }
 .story-nav-arrow {
-  position: absolute; top: 0; bottom: 0; width: 52px;
+  position: absolute; top: 0; bottom: 0; width: 96px;
   display: flex; align-items: center; justify-content: center;
   text-decoration: none; color: inherit;
 }
 .story-nav-arrow--l { left: 0; }
 .story-nav-arrow--r { right: 0; }
 .story-nav-arrow--disabled { cursor: default; }
-.story-nav-arrow--disabled .bk-chip { opacity: 0.2; box-shadow: none; }
+.story-nav-arrow--disabled .bk-chip { opacity: 0.2; }
 .story-nav-arrow:not(.story-nav-arrow--disabled):hover .bk-chip {
-  border-color: var(--accent); color: var(--accent); transform: scale(1.12);
-  background: rgba(155,71,97,0.10);
+  background: var(--paper); border-color: var(--border);
+  box-shadow: 0 5px 14px rgba(54,32,42,0.12);
+  color: var(--accent); transform: scale(1.08);
 }
 @media (max-width: 760px) {
   /* On narrow viewports bleed is unnecessary; collapse to zero */
