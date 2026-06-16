@@ -16,7 +16,7 @@ export function FeaturedStory({ story }: FeaturedStoryProps) {
         <StoryCover story={story} />
       </Link>
       <div className="featured-body">
-        <p className="eyebrow">Episode {padEp(story.ep)} · Season {story.season}</p>
+        <p className="eyebrow">Story {padEp(story.ep)} · Season {story.season}</p>
         <h3 className="featured-zh">
           <span className="only-simp zh-simp">{story.title.simp}</span>
           <span className="only-trad zh-trad">{story.title.trad}</span>

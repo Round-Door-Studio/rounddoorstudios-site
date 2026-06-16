@@ -119,3 +119,18 @@ export function getLatestReleasedStory(): Story | undefined {
 export function padEp(n: number): string {
   return n < 10 ? `0${n}` : String(n);
 }
+
+/* ── Podcast episode numbers ──────────────────────────────────────────────────
+   Each story produces two podcast episodes:
+     English → odd  (ep * 2 - 1)
+     Mandarin → even (ep * 2)
+   e.g. Story ep 1 → podcast ep 1 (EN) + ep 2 (ZH)
+        Story ep 2 → podcast ep 3 (EN) + ep 4 (ZH)
+   ─────────────────────────────────────────────────────────────────────────── */
+export function podcastEpEn(story: Story): number {
+  return story.ep * 2 - 1;
+}
+
+export function podcastEpZh(story: Story): number {
+  return story.ep * 2;
+}

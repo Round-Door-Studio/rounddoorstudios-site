@@ -45,7 +45,7 @@ export function BookView({ stories }: BookViewProps) {
           </div>
           <div>
             <p className="eyebrow" style={{ marginBottom: 8 }}>
-              Episode {padEp(story.ep)} · Season {story.season}
+              Story {padEp(story.ep)} · Season {story.season}
             </p>
             <h3 className="story-title muted" style={{ opacity: 0.85 }}>Coming soon</h3>
             <p className="muted only-simp zh-simp" style={{ fontSize: 16 }}>敬请期待</p>
@@ -70,7 +70,7 @@ export function BookView({ stories }: BookViewProps) {
         <div>
           <Link className="story-headline" href={href}>
             <p className="eyebrow" style={{ marginBottom: 6 }}>
-              Episode {padEp(story.ep)} · {story.pub}
+              Story {padEp(story.ep)} · {story.pub}
             </p>
             <h3 className="story-title">
               <span className="only-simp zh-simp">{story.title.simp}</span>

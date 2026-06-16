@@ -114,7 +114,7 @@ export default async function StoryPage({ params }: Props) {
           <div className="read-hero-main">
             <div className="read-hero-title">
               <p className="eyebrow" style={{ marginBottom: 8 }}>
-                Episode {padEp(story.ep)} · Season {story.season} · {story.runtime}
+                Story {padEp(story.ep)} · Season {story.season} · {story.runtime}
               </p>
               <h1 className="display">
                 <span className="only-simp zh-simp">{story.title.simp}</span>
