@@ -119,7 +119,7 @@ export interface Activity {
   id: string;
   title?: string | { en: string; simp?: I18nText; trad?: { text: string; bpmf?: string } };
   desc?: string | { en: string; simp?: I18nText; trad?: { text: string; bpmf?: string } };
-  time?: string;
+  time?: string | { en: string; simp?: I18nText; trad?: { text: string; bpmf?: string } };
   accent?: string;
   materials?: (string | I18nEntry)[];
   steps?: (string | I18nEntry)[];

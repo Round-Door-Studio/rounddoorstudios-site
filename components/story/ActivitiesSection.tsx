@@ -56,6 +56,7 @@ function ActivityCard({ activity }: { activity: Activity }) {
 
   const { en: titleEn, zhHtml: titleZhHtml } = i18nTitleHtml(activity.title);
   const { en: descEn, zhHtml: descZhHtml } = i18nDescHtml(activity.desc);
+  const timeEn = !activity.time ? '' : typeof activity.time === 'string' ? activity.time : activity.time.en;
 
   const materialsHtml = activity.materials?.length
     ? `<div class="pack-act-section">
@@ -89,7 +90,7 @@ function ActivityCard({ activity }: { activity: Activity }) {
         <p className="pack-act-desc">{descEn}</p>
         {descZhHtml && <div dangerouslySetInnerHTML={{ __html: descZhHtml }} />}
         <div className="pack-act-foot">
-          <span className="pack-act-time">⏱ {activity.time}</span>
+          <span className="pack-act-time">⏱ {timeEn}</span>
           <button
             type="button"
             className="btn btn-primary btn-sm"
