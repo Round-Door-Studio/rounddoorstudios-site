@@ -202,7 +202,7 @@ a { color: inherit; }
 .en-subtitle { font-size: 14px; color: var(--ink-soft); margin-top: 3px; line-height: 1.25; }
 [data-script="en"] .en-subtitle { display: none; }
 .story-desc { font-size: 13px; line-height: 1.55; color: var(--ink-soft); flex: 1; }
-.story-pack-btn { align-self: flex-start; margin-top: 2px; }
+.story-pack-btn { align-self: flex-end; white-space: nowrap; }
 .pills { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; }
 .pill { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; font-size: 11px; letter-spacing: 0.05em; border-radius: 999px; background: var(--bg); border: 1px solid var(--border); color: var(--ink-soft); text-decoration: none; }
 .pill .dot { width: 8px; height: 8px; border-radius: 50%; }
@@ -260,9 +260,11 @@ a { color: inherit; }
 .book-arrow:hover:not(:disabled) .bk-chip { border-color: var(--accent); color: var(--accent); transform: scale(1.08); }
 .book-arrow:disabled { cursor: default; }
 .book-arrow:disabled .bk-chip { opacity: 0.3; box-shadow: none; }
-.book-story { display: grid; grid-template-columns: 132px 1fr; gap: 20px; align-items: start; text-decoration: none; color: inherit; }
+.book-story { display: grid; grid-template-columns: 132px 1fr; gap: 20px; align-items: stretch; text-decoration: none; color: inherit; }
 .story-media--book { width: 132px; gap: 10px; }
 .book-story .cover { width: 132px; }
+.book-story-content { display: flex; flex-direction: column; }
+.book-story-content .story-headline { flex: 1; }
 .book-flair { position: absolute; left: 50%; top: 22px; transform: translateX(-50%); z-index: 3; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); background: var(--paper); padding: 3px 8px; border-radius: 999px; border: 1px solid var(--border); }
 
 /* ── Member teaser strip ── */

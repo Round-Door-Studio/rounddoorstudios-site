@@ -67,7 +67,7 @@ export function BookView({ stories }: BookViewProps) {
           </Link>
           <ListenControl audio={story.audio} variant="library" />
         </div>
-        <div>
+        <div className="book-story-content">
           <Link className="story-headline" href={href}>
             <p className="eyebrow" style={{ marginBottom: 6 }}>
               Story {padEp(story.ep)} · {story.pub}
