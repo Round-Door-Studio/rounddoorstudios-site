@@ -54,6 +54,32 @@ test.describe('Story page', () => {
     await expect(page.locator('#reading')).toHaveClass(/mode-compare/);
   });
 
+  // ── Reading mode content visibility ──────────────────────────────────────────
+  test('simp mode shows simplified column and hides traditional column', async ({ page }) => {
+    // simp is the default mode
+    await expect(page.locator('.rd-zh .rd-col--simp').first()).toBeVisible();
+    await expect(page.locator('.rd-zh .rd-col--trad').first()).not.toBeVisible();
+  });
+
+  test('trad mode shows traditional column and hides simplified column', async ({ page }) => {
+    await page.locator('.rc-mode[data-mode="trad"]').click();
+    await expect(page.locator('.rd-zh .rd-col--trad').first()).toBeVisible();
+    await expect(page.locator('.rd-zh .rd-col--simp').first()).not.toBeVisible();
+  });
+
+  test('switching back to simp restores simplified column', async ({ page }) => {
+    await page.locator('.rc-mode[data-mode="trad"]').click();
+    await page.locator('.rc-mode[data-mode="simp"]').click();
+    await expect(page.locator('.rd-zh .rd-col--simp').first()).toBeVisible();
+    await expect(page.locator('.rd-zh .rd-col--trad').first()).not.toBeVisible();
+  });
+
+  test('compare mode hides single columns and shows side-by-side grid', async ({ page }) => {
+    await page.locator('.rc-mode[data-mode="compare"]').click();
+    await expect(page.locator('.rd-zh').first()).not.toBeVisible();
+    await expect(page.locator('.rd-compare').first()).toBeVisible();
+  });
+
   test('back link returns to library', async ({ page }) => {
     await page.getByRole('link', { name: /Back to the library/i }).click();
     await expect(page).toHaveURL('/library');
@@ -133,6 +159,35 @@ test.describe('Story page', () => {
     await expect(page.locator('.pack-panels')).toHaveAttribute('data-print-tab', 'questions');
     await page.getByRole('tab', { name: /Culture Corner/i }).click();
     await expect(page.locator('.pack-panels')).toHaveAttribute('data-print-tab', 'explore');
+  });
+
+  // ── Print respects Show English toggle ───────────────────────────────────────
+  test('print shows English vocab when Show English is on', async ({ page }) => {
+    await page.getByRole('tab', { name: /New Words/i }).click();
+    await expect(page.locator('#c-en')).toBeChecked(); // on by default
+    await page.emulateMedia({ media: 'print' });
+    await expect(page.locator('.pack-vocab-en').first()).toBeVisible();
+  });
+
+  test('print hides English vocab when Show English is off', async ({ page }) => {
+    await page.locator('#c-en').uncheck();
+    await page.getByRole('tab', { name: /New Words/i }).click();
+    await page.emulateMedia({ media: 'print' });
+    await expect(page.locator('.pack-vocab-en').first()).not.toBeVisible();
+  });
+
+  test('print hides English questions when Show English is off', async ({ page }) => {
+    await page.locator('#c-en').uncheck();
+    await page.getByRole('tab', { name: /Curious Questions/i }).click();
+    await page.emulateMedia({ media: 'print' });
+    await expect(page.locator('.pack-q-text').first()).not.toBeVisible();
+  });
+
+  test('print hides English activity text when Show English is off', async ({ page }) => {
+    await page.locator('#c-en').uncheck();
+    await page.getByRole('tab', { name: /Culture Corner/i }).click();
+    await page.emulateMedia({ media: 'print' });
+    await expect(page.locator('.pack-act-desc').first()).not.toBeVisible();
   });
 });
 

@@ -822,9 +822,15 @@ a { color: inherit; }
   .pack-panels[data-print-tab="words"] #pack-panel-words,
   .pack-panels[data-print-tab="questions"] #pack-panel-questions,
   .pack-panels[data-print-tab="explore"] #pack-panel-explore { display: block !important; }
-  /* Always show English when printing */
-  .rd-en, .pack-q-text, .pack-vocab-en, .pack-vocab-ex-en,
-  .pack-act-title, .pack-act-desc, .pack-act-item-en, .pack-act-time { display: block !important; }
+  /* Respect Show English toggle when printing */
+  .pack-panels.show-en .rd-en,
+  .pack-panels.show-en .pack-q-text,
+  .pack-panels.show-en .pack-vocab-en,
+  .pack-panels.show-en .pack-vocab-ex-en,
+  .pack-panels.show-en .pack-act-title,
+  .pack-panels.show-en .pack-act-desc,
+  .pack-panels.show-en .pack-act-item-en,
+  .pack-panels.show-en .pack-act-time { display: block !important; }
   body { background: #fff; }
   .read-wrap { max-width: 100%; padding: 0; }
   .line { break-inside: avoid; }
