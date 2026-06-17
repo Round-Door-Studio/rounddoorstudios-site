@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { StoryCover } from './StoryCover';
 import { ListenControl } from './ListenControl';
 import type { Story } from '@/lib/types';
-import { padEp } from '@/lib/stories';
+import { padNum } from '@/lib/stories';
 
 interface BookViewProps {
   stories: Story[];
@@ -45,7 +45,7 @@ export function BookView({ stories }: BookViewProps) {
           </div>
           <div>
             <p className="eyebrow" style={{ marginBottom: 8 }}>
-              Story {padEp(story.ep)} · Season {story.season}
+              Story {padNum(story.num)} · Season {story.season}
             </p>
             <h3 className="story-title muted" style={{ opacity: 0.85 }}>Coming soon</h3>
             <p className="muted only-simp zh-simp" style={{ fontSize: 16 }}>敬请期待</p>
@@ -70,7 +70,7 @@ export function BookView({ stories }: BookViewProps) {
         <div className="book-story-content">
           <Link className="story-headline" href={href}>
             <p className="eyebrow" style={{ marginBottom: 6 }}>
-              Story {padEp(story.ep)} · {story.pub}
+              Story {padNum(story.num)} · {story.pub}
             </p>
             <h3 className="story-title">
               <span className="only-simp zh-simp">{story.title.simp}</span>

@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getStoryBySlug, getReleasedStories, padEp } from '@/lib/stories';
+import { getStoryBySlug, getReleasedStories, padNum } from '@/lib/stories';
 import { loadStoryContent, loadVocab, loadQuestions, loadActivities } from '@/lib/content';
 import { ListenControl } from '@/components/ListenControl';
 import { StoryCover } from '@/components/StoryCover';
@@ -114,7 +114,7 @@ export default async function StoryPage({ params }: Props) {
           <div className="read-hero-main">
             <div className="read-hero-title">
               <p className="eyebrow" style={{ marginBottom: 8 }}>
-                Story {padEp(story.ep)} · Season {story.season} · {story.runtime}
+                Story {padNum(story.num)} · Season {story.season} · {story.runtime}
               </p>
               <h1 className="display">
                 <span className="only-simp zh-simp">{story.title.simp}</span>

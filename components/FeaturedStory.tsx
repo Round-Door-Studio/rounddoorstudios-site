@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { StoryCover } from './StoryCover';
 import type { Story } from '@/lib/types';
-import { padEp } from '@/lib/stories';
+import { padNum } from '@/lib/stories';
 
 interface FeaturedStoryProps {
   story: Story;
@@ -16,7 +16,7 @@ export function FeaturedStory({ story }: FeaturedStoryProps) {
         <StoryCover story={story} />
       </Link>
       <div className="featured-body">
-        <p className="eyebrow">Story {padEp(story.ep)} · Season {story.season}</p>
+        <p className="eyebrow">Story {padNum(story.num)} · Season {story.season}</p>
         <h3 className="featured-zh">
           <span className="only-simp zh-simp">{story.title.simp}</span>
           <span className="only-trad zh-trad">{story.title.trad}</span>

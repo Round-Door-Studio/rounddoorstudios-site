@@ -14,7 +14,7 @@ export interface AudioLinks {
 }
 
 export interface Story {
-  ep: number;
+  num: number;
   slug: string;
   season: number;
   released: boolean;

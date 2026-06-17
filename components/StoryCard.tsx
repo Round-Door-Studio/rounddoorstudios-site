@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { StoryCover } from './StoryCover';
 import { ListenControl } from './ListenControl';
 import type { Story } from '@/lib/types';
-import { padEp } from '@/lib/stories';
+import { padNum } from '@/lib/stories';
 
 interface StoryCardProps {
   story: Story;
@@ -19,7 +19,7 @@ export function StoryCard({ story }: StoryCardProps) {
         </div>
         <div className="story-meta">
           <p className="eyebrow" style={{ marginBottom: 8 }}>
-            Story {padEp(story.ep)} · Season {story.season}
+            Story {padNum(story.num)} · Season {story.season}
           </p>
           <h3 className="story-title muted" style={{ opacity: 0.85 }}>Coming soon</h3>
           <p className="muted only-simp zh-simp" style={{ fontSize: 16 }}>敬请期待</p>
@@ -44,7 +44,7 @@ export function StoryCard({ story }: StoryCardProps) {
       <div className="story-meta">
         <Link className="story-headline" href={href}>
           <p className="eyebrow" style={{ fontSize: 10 }}>
-            Story {padEp(story.ep)} · {story.runtime}
+            Story {padNum(story.num)} · {story.runtime}
           </p>
           <h3 className="story-title">
             <span className="only-simp zh-simp">{story.title.simp}</span>
