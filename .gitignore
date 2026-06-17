@@ -12,3 +12,15 @@
 .idea/
 *.swp
 
+# Next.js
+.next/
+out/
+tsconfig.tsbuildinfo
+
+# Node
+node_modules/
+
+# Test artifacts
+playwright-report/
+test-results/
+
