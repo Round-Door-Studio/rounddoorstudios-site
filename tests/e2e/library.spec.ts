@@ -39,4 +39,24 @@ test.describe('Library', () => {
   test('library CTA is present at the bottom', async ({ page }) => {
     await expect(page.getByRole('heading', { name: /A New Story is Always On Its Way/i })).toBeVisible();
   });
+
+  test('book view next arrow advances to the next page', async ({ page, isMobile }) => {
+    test.skip(isMobile, 'Book arrows are hidden on mobile');
+    const corner = page.locator('.book-page--l .book-corner');
+    const initialText = await corner.innerText();
+
+    await page.locator('.book-arrow--r').click();
+    await expect(corner).not.toHaveText(initialText);
+  });
+
+  test('book view prev arrow is disabled on the first page', async ({ page, isMobile }) => {
+    test.skip(isMobile, 'Book arrows are hidden on mobile');
+    await expect(page.locator('.book-arrow--l')).toBeDisabled();
+  });
+
+  test('book view prev arrow becomes enabled after advancing', async ({ page, isMobile }) => {
+    test.skip(isMobile, 'Book arrows are hidden on mobile');
+    await page.locator('.book-arrow--r').click();
+    await expect(page.locator('.book-arrow--l')).toBeEnabled();
+  });
 });

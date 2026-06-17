@@ -34,7 +34,7 @@ export function StoryCard({ story }: StoryCardProps) {
   }
 
   return (
-    <article className="story-card">
+    <article className="story-card" data-slug={story.slug}>
       <div className="story-media">
         <Link className="story-link" href={href}>
           <StoryCover story={story} />

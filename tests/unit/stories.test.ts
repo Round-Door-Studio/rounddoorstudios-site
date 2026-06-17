@@ -62,6 +62,23 @@ describe('getLatestReleasedStory', () => {
   });
 });
 
+describe('released story audio links', () => {
+  it('every released story has all audio links filled (no empty strings or placeholders)', () => {
+    const released = getReleasedStories();
+    for (const s of released) {
+      expect(s.audio, `${s.slug} is missing audio`).toBeDefined();
+      for (const lang of ['en', 'zh'] as const) {
+        const links = s.audio![lang];
+        for (const platform of ['spotify', 'youtube', 'apple'] as const) {
+          const url = links[platform];
+          expect(url, `${s.slug} audio.${lang}.${platform} is empty`).not.toBe('');
+          expect(url, `${s.slug} audio.${lang}.${platform} is a placeholder`).not.toBe('#');
+        }
+      }
+    }
+  });
+});
+
 describe('padNum', () => {
   it('pads single-digit numbers', () => {
     expect(padNum(1)).toBe('01');
