@@ -42,12 +42,12 @@ export const STORIES: Story[] = [
       en: {
         spotify: 'https://open.spotify.com/episode/2HmO8RFQUbkfe1Wg0YD2DE?si=DPIDHwGiSUqJ1oNq95jfNw',
         youtube: 'https://www.youtube.com/watch?v=1Bw1DFfr2Bg',
-        apple: '#',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000773116189',
       },
       zh: {
         spotify: 'https://open.spotify.com/episode/6okkTEsR8UEqexXgUstrqB?si=1U-5xXDhRV2fp3DSRsqpMg',
         youtube: 'https://www.youtube.com/watch?v=Oy1jkMYKA6Q',
-        apple: '#',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000773116220',
       },
     },
     hasBundle: true,
