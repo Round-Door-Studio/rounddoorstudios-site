@@ -8,6 +8,8 @@ import { ScriptToggle } from './ScriptToggle';
 export function Nav() {
   const pathname = usePathname();
 
+  if (pathname === '/signup') return null;
+
   function isActive(href: string) {
     if (!pathname) return false;
     if (href === '/') return pathname === '/';
