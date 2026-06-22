@@ -9,6 +9,37 @@ npm install
 npm run dev       # http://localhost:3000
 ```
 
+## Database (Supabase)
+
+The site uses Supabase (Postgres) for story data, auth, and subscriptions.
+
+### Setup
+
+1. Copy your Supabase keys into `.env.local`:
+
+```
+NEXT_PUBLIC_SUPABASE_URL=...
+NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+SUPABASE_SERVICE_ROLE_KEY=...
+```
+
+2. Run the schema SQL in the Supabase SQL Editor (see `scripts/seed.ts` header for table definitions).
+
+### Seeding
+
+Story data lives in `lib/stories.ts` (catalog metadata) and `content/<slug>/*.json` (story content). To push the local data to Supabase:
+
+```bash
+npm run seed
+```
+
+The seed script uses `upsert` so it is safe to run repeatedly — existing rows are updated, not duplicated. Run it whenever you add or update a story.
+
+**Workflow for new/updated stories:**
+1. Edit `lib/stories.ts` and/or `content/<slug>/*.json` locally
+2. Run `npm run seed`
+3. Changes are live in the DB
+
 ## Testing
 
 ### Unit tests (Vitest)
