@@ -981,3 +981,47 @@ a { color: inherit; }
   .featured { grid-template-columns: 1fr; gap: 28px; }
   .featured-cover { max-width: 300px; }
 }
+
+/* ── Signup page ── */
+.signup-page {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+.signup-header {
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+.signup-body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px;
+}
+.signup-wrap {
+  width: 100%;
+  max-width: 420px;
+}
+.signup-wrap .modal { animation: modalRise 0.26s cubic-bezier(.22,.61,.36,1) both; }
+.signup-wrap .modal .eyebrow { display: block; margin-bottom: 12px; }
+.signup-success {
+  text-align: center;
+  padding: 40px 36px;
+  background: var(--bg);
+  border-radius: 10px;
+  box-shadow: 0 24px 60px rgba(54,32,42,0.32);
+  animation: modalRise 0.26s cubic-bezier(.22,.61,.36,1) both;
+}
+.signup-success .success-icon {
+  width: 56px; height: 56px; border-radius: 50%; background: var(--accent-tint);
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 18px; font-size: 24px; color: var(--accent-dk);
+}
+.signup-success h2 { font-family: var(--display); font-size: 22px; font-weight: 400; margin-bottom: 8px; }
+.signup-success p { font-size: 15px; color: var(--ink-soft); line-height: 1.6; }
+@media (max-width: 560px) {
+  .signup-header { padding: 16px 20px; }
+  .signup-body { padding: 32px 16px; align-items: flex-start; }
+}
