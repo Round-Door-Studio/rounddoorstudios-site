@@ -715,7 +715,7 @@ a { color: inherit; }
 .pack-vocab-head { display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; }
 .pack-vocab-char { font-size: 32px; line-height: 1; color: var(--ink); }
 .pack-vocab-char.only-simp { font-family: var(--zh-simp); }
-.pack-vocab-char.only-trad { font-family: var(--zh-trad); }
+.pack-vocab-char.only-trad { font-family: 'Bpmf Huninn', var(--zh-trad); }
 .pack-vocab-pinyin { font-style: italic; font-size: 13px; color: var(--muted); }
 .pack-vocab-en { font-family: var(--display); font-size: 15px; color: var(--ink-soft); }
 .pack-vocab-ex {
