@@ -15,7 +15,7 @@ const mockCreateClient = vi.mocked(createClient);
 // store is kept outside the closure so beforeEach can reference it for
 // restoring the default getItem implementation after mockImplementation overrides.
 
-const localStore: Record<string, string> = {};
+const localStore: Record<string, string | undefined> = {};
 const localStorageMock = {
   getItem: vi.fn((key: string) => localStore[key] ?? null),
   setItem: vi.fn((key: string, value: string) => { localStore[key] = value; }),
