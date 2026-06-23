@@ -1,4 +1,4 @@
-name: Playwright Tests
+name: CI
 
 on:
   push:
@@ -7,7 +7,30 @@ on:
     branches: [main]
 
 jobs:
-  test:
+  lint-and-unit:
+    name: Lint & Unit Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Unit tests
+        run: npm run test -- --run
+
+  e2e:
+    name: E2E Tests (Playwright)
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -25,7 +48,6 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium webkit
 
-      # Build a .env.local from GitHub secrets so Next.js dev server picks them up
       - name: Write .env.local
         run: |
           cat > .env.local <<EOF
@@ -35,6 +57,9 @@ jobs:
           TEST_USER_EMAIL=${{ secrets.TEST_USER_EMAIL }}
           TEST_USER_PASSWORD=${{ secrets.TEST_USER_PASSWORD }}
           EOF
+
+      - name: Build Next.js app
+        run: npm run build
 
       - name: Run Playwright tests
         run: npx playwright test

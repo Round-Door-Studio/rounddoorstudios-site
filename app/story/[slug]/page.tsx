@@ -42,6 +42,7 @@ export default async function StoryPage({ params }: Props) {
         <Link className="read-back" href="/library">‹ Back to the library</Link>
         <div className="card" style={{ textAlign: 'center', padding: '48px 28px' }}>
           <div style={{ width: 72, height: 72, margin: '0 auto 18px' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/icons/round-door.png" alt="" width={72} height={72} style={{ opacity: 0.85 }} />
           </div>
           <h1 className="display" style={{ fontSize: 28, marginBottom: 8 }}>

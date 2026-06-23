@@ -142,13 +142,13 @@ test.describe('Story page', () => {
 
   test('print button calls window.print', async ({ page }) => {
     await page.addInitScript(() => {
-      (window as any).__printCalled = false;
-      window.print = () => { (window as any).__printCalled = true; };
+      (window as Window & { __printCalled?: boolean }).__printCalled = false;
+      window.print = () => { (window as Window & { __printCalled?: boolean }).__printCalled = true; };
     });
     await page.goto(`/story/${RELEASED_SLUG}`);
     await page.waitForLoadState('networkidle');
     await page.locator('#c-print').click();
-    expect(await page.evaluate(() => (window as any).__printCalled)).toBe(true);
+    expect(await page.evaluate(() => (window as Window & { __printCalled?: boolean }).__printCalled)).toBe(true);
   });
 
   test('data-print-tab updates when switching tabs', async ({ page }) => {
