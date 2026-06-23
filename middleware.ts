@@ -36,6 +36,10 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
+    // Exclude static assets AND the auth callback route.
+    // The callback runs its own Supabase client to exchange the PKCE code —
+    // having the middleware also call getUser() on that route can interfere
+    // with the code-verifier cookie lookup.
+    '/((?!_next/static|_next/image|favicon.ico|auth/callback|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
   ],
 }
