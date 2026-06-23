@@ -35,9 +35,11 @@ export async function signUp(_: unknown, formData: FormData) {
 
   if (error) return { error: error.message }
 
-  // When email confirmation is enabled in Supabase, signUp returns no session.
-  // Tell the modal to show a "check your email" message instead of redirecting.
-  if (!data.session) return { confirm_email: true as const }
+  // Show "check your email" if the account isn't confirmed yet.
+  // We check email_confirmed_at rather than data.session because Supabase
+  // with custom SMTP can return a session immediately even when "Confirm email"
+  // is enabled — email_confirmed_at stays null until the link is clicked.
+  if (!data.user?.email_confirmed_at) return { confirm_email: true as const }
 
   const raw = (formData.get('redirectTo') as string) || '/'
   const redirectTo = raw.startsWith('/auth/') ? '/library' : raw
