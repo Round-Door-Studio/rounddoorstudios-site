@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { ScriptProvider } from '@/context/ScriptContext';
 import { Nav } from '@/components/Nav';
 import { Footer } from '@/components/Footer';
+import { createClient } from '@/lib/supabase/server';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -11,7 +12,11 @@ export const metadata: Metadata = {
   icons: { icon: '/icons/round-door.png' },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const supabase = await createClient()
+  const { data: { user } } = await supabase.auth.getUser()
+  const userName = (user?.user_metadata?.full_name as string | undefined) ?? null
+
   return (
     <html lang="en" data-script="simp" suppressHydrationWarning>
       <head>
@@ -44,7 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           />
         </noscript>
         <ScriptProvider>
-          <Nav />
+          <Nav userEmail={user?.email ?? null} userName={userName} />
           <main>{children}</main>
           <Footer />
         </ScriptProvider>
