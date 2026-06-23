@@ -71,6 +71,7 @@ test.describe('Auth modal', () => {
 
   test('invalid credentials show an error message', async ({ page }) => {
     await page.getByRole('button', { name: /^Login$/ }).click();
+    await page.locator('.overlay.open').waitFor();
     await page.locator('#modal-email').fill('wrong@example.com');
     await page.locator('#modal-password').fill('wrongpassword');
     await page.locator('.modal .btn-submit').click();
@@ -83,6 +84,7 @@ test.describe('Auth modal', () => {
     test.skip(!process.env.TEST_USER_EMAIL, 'Requires TEST_USER_EMAIL / TEST_USER_PASSWORD in .env.local');
 
     await page.getByRole('button', { name: /^Login$/ }).click();
+    await page.locator('.overlay.open').waitFor();
     await page.locator('#modal-email').fill(process.env.TEST_USER_EMAIL!);
     await page.locator('#modal-password').fill(process.env.TEST_USER_PASSWORD!);
     await page.locator('.modal .btn-submit').click();
@@ -97,6 +99,7 @@ test.describe('Auth modal', () => {
     await page.waitForLoadState('networkidle');
 
     await page.getByRole('button', { name: /^Login$/ }).click();
+    await page.locator('.overlay.open').waitFor();
     await page.locator('#modal-email').fill(process.env.TEST_USER_EMAIL!);
     await page.locator('#modal-password').fill(process.env.TEST_USER_PASSWORD!);
     await page.locator('.modal .btn-submit').click();
@@ -112,6 +115,7 @@ test('nav shows welcome message and Logout button when logged in', async ({ page
   await page.goto('/');
   await page.waitForLoadState('networkidle');
   await page.getByRole('button', { name: /^Login$/ }).click();
+  await page.locator('.overlay.open').waitFor();
   await page.locator('#modal-email').fill(process.env.TEST_USER_EMAIL!);
   await page.locator('#modal-password').fill(process.env.TEST_USER_PASSWORD!);
   await page.locator('.modal .btn-submit').click();
@@ -130,6 +134,7 @@ test('logout stays on the current page', async ({ page }) => {
   await page.goto('/library');
   await page.waitForLoadState('networkidle');
   await page.getByRole('button', { name: /^Login$/ }).click();
+  await page.locator('.overlay.open').waitFor();
   await page.locator('#modal-email').fill(process.env.TEST_USER_EMAIL!);
   await page.locator('#modal-password').fill(process.env.TEST_USER_PASSWORD!);
   await page.locator('.modal .btn-submit').click();
