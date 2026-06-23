@@ -59,120 +59,114 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
     }
   }
 
-  // ── Forgot password view ────────────────────────────────────────────────────
-  if (view === 'forgot') {
-    return (
-      <div className="overlay open" ref={overlayRef} onClick={handleOverlayClick}>
-        <div className="modal">
-          <button className="modal-close" onClick={onClose} aria-label="Close">×</button>
-          <ForgotPasswordForm key={forgotKey} onBack={() => { setView('signin'); onSwitchMode('signin'); }} />
-        </div>
-      </div>
-    );
-  }
-
-  // ── Sign in / Sign up view ──────────────────────────────────────────────────
+  // ── Single return — stable .modal div prevents CSS animation from re-firing ─
   return (
     <div className="overlay open" ref={overlayRef} onClick={handleOverlayClick}>
       <div className="modal">
         <button className="modal-close" onClick={onClose} aria-label="Close">×</button>
 
-        <div className="modal-tabs">
-          <button
-            type="button"
-            className={`modal-tab${view === 'signin' ? ' is-on' : ''}`}
-            onClick={() => { onSwitchMode('signin'); setView('signin'); }}
-          >
-            Sign in
-          </button>
-          <button
-            type="button"
-            className={`modal-tab${view === 'signup' ? ' is-on' : ''}`}
-            onClick={() => { onSwitchMode('signup'); setView('signup'); }}
-          >
-            Join the Circle
-          </button>
-        </div>
-
-        <h2>{view === 'signin' ? 'Welcome back' : 'Join the Circle'}</h2>
-
-        <button
-          type="button"
-          className="btn-google"
-          onClick={handleGoogleSignIn}
-          disabled={googlePending}
-        >
-          <GoogleIcon />
-          {googlePending ? 'Redirecting…' : 'Continue with Google'}
-        </button>
-
-        <div className="auth-divider"><span>or</span></div>
-
-        {(authState?.error || googleError) && (
-          <p className="auth-error">{authState?.error ?? googleError}</p>
-        )}
-
-        <form action={formAction}>
-          <input type="hidden" name="redirectTo" value={redirectTo} />
-
-          {view === 'signup' && (
-            <div className="field">
-              <label htmlFor="modal-fullName">Your Name</label>
-              <input
-                type="text"
-                id="modal-fullName"
-                name="fullName"
-                placeholder="First name"
-                autoComplete="given-name"
-                required
-              />
+        {view === 'forgot' ? (
+          <ForgotPasswordForm key={forgotKey} onBack={() => { setView('signin'); onSwitchMode('signin'); }} />
+        ) : (
+          <>
+            <div className="modal-tabs">
+              <button
+                type="button"
+                className={`modal-tab${view === 'signin' ? ' is-on' : ''}`}
+                onClick={() => { onSwitchMode('signin'); setView('signin'); }}
+              >
+                Sign in
+              </button>
+              <button
+                type="button"
+                className={`modal-tab${view === 'signup' ? ' is-on' : ''}`}
+                onClick={() => { onSwitchMode('signup'); setView('signup'); }}
+              >
+                Join the Circle
+              </button>
             </div>
-          )}
 
-          <div className="field">
-            <label htmlFor="modal-email">Email Address</label>
-            <input
-              type="email"
-              id="modal-email"
-              name="email"
-              placeholder="you@example.com"
-              autoComplete="email"
-              required
-            />
-          </div>
+            <h2>{view === 'signin' ? 'Welcome back' : 'Join the Circle'}</h2>
 
-          <div className="field">
-            <label htmlFor="modal-password">Password</label>
-            <input
-              type="password"
-              id="modal-password"
-              name="password"
-              placeholder={view === 'signup' ? '8+ characters, at least 1 number' : '••••••••'}
-              autoComplete={view === 'signin' ? 'current-password' : 'new-password'}
-              minLength={8}
-              pattern={view === 'signup' ? '(?=.*[0-9]).{8,}' : undefined}
-              title={view === 'signup' ? 'At least 8 characters including 1 number' : undefined}
-              required
-            />
-          </div>
+            <button
+              type="button"
+              className="btn-google"
+              onClick={handleGoogleSignIn}
+              disabled={googlePending}
+            >
+              <GoogleIcon />
+              {googlePending ? 'Redirecting…' : 'Continue with Google'}
+            </button>
 
-          <button type="submit" className="btn-submit" disabled={pending}>
-            {pending
-              ? 'Please wait…'
-              : view === 'signin'
-              ? 'Sign in'
-              : 'Join the Circle'}
-          </button>
-        </form>
+            <div className="auth-divider"><span>or</span></div>
 
-        {view === 'signin' && (
-          <button
-            type="button"
-            className="auth-link"
-            onClick={() => { setView('forgot'); setForgotKey(k => k + 1); }}
-          >
-            Forgot password?
-          </button>
+            {(authState?.error || googleError) && (
+              <p className="auth-error">{authState?.error ?? googleError}</p>
+            )}
+
+            <form action={formAction}>
+              <input type="hidden" name="redirectTo" value={redirectTo} />
+
+              {view === 'signup' && (
+                <div className="field">
+                  <label htmlFor="modal-fullName">Your Name</label>
+                  <input
+                    type="text"
+                    id="modal-fullName"
+                    name="fullName"
+                    placeholder="First name"
+                    autoComplete="given-name"
+                    required
+                  />
+                </div>
+              )}
+
+              <div className="field">
+                <label htmlFor="modal-email">Email Address</label>
+                <input
+                  type="email"
+                  id="modal-email"
+                  name="email"
+                  placeholder="you@example.com"
+                  autoComplete="email"
+                  required
+                />
+              </div>
+
+              <div className="field">
+                <label htmlFor="modal-password">Password</label>
+                <input
+                  type="password"
+                  id="modal-password"
+                  name="password"
+                  placeholder={view === 'signup' ? '8+ characters, at least 1 number' : '••••••••'}
+                  autoComplete={view === 'signin' ? 'current-password' : 'new-password'}
+                  minLength={8}
+                  pattern={view === 'signup' ? '(?=.*[0-9]).{8,}' : undefined}
+                  title={view === 'signup' ? 'At least 8 characters including 1 number' : undefined}
+                  required
+                />
+              </div>
+
+              <button type="submit" className="btn-submit" disabled={pending}>
+                {pending
+                  ? 'Please wait…'
+                  : view === 'signin'
+                  ? 'Sign in'
+                  : 'Join the Circle'}
+              </button>
+            </form>
+
+            {view === 'signin' && (
+              <button
+                type="button"
+                className="auth-link"
+                onClick={() => { setView('forgot'); setForgotKey(k => k + 1); }}
+              >
+                Forgot password?
+              </button>
+            )}
+          </>
         )}
       </div>
     </div>
