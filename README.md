@@ -44,19 +44,36 @@ Row-level security:
 
 ### Seeding
 
-Story data is authored locally in `lib/stories.ts` (catalog metadata) and `content/<slug>/*.json` (story content files). Push to Supabase with:
+Story data is authored locally in `lib/stories.ts` (catalog metadata) and `content/<slug>/*.json` (story content files). The seed script uses `upsert` — safe to run repeatedly. Existing rows are updated, not duplicated.
+
+**Always preview before writing.** The default `npm run seed` is a dry run — it fetches the current DB state and shows exactly what would change without writing anything:
 
 ```bash
-npm run seed
+npm run seed        # dry run — shows a diff, writes nothing
+npm run seed:write  # applies the changes to production
 ```
 
-The seed script uses `upsert` — safe to run repeatedly. Existing rows are updated, not duplicated.
+Example dry run output:
+```
+DRY RUN — no writes will be made. Pass --write to apply.
+
+Stories
+
+  ~ fox-borrows-tigers-might
+    released: false → true
+    blurb: null → "A clever fox borrows the tiger's fearsome reputation..."
+  · frog-at-the-bottom-of-the-well (no changes)
+
+Dry run complete. Run with --write to apply.
+```
 
 **Workflow for publishing a new episode:**
-1. Add the story entry to `lib/stories.ts` (set `released: true` when ready to go live)
+1. Add the story entry to `lib/stories.ts` (set `released: false` until ready)
 2. Add content files to `content/<slug>/` — `story.json`, `vocab.json`, `questions.json`, `activities.json`
-3. Run `npm run seed`
-4. Story is live — no deploy needed
+3. Run `npm run seed` and review the diff
+4. Set `released: true` in `lib/stories.ts` when ready to go live
+5. Run `npm run seed` again to confirm the diff looks right
+6. Run `npm run seed:write` — story is live, no deploy needed
 
 ---
 
@@ -174,4 +191,3 @@ npm run test:all
 
 GitHub Actions runs unit tests + Chromium E2E on every push and PR. The `main` branch requires all checks to pass before merging.
 
-> **Note:** Tests have not yet been updated to cover auth flows and story pack gating (Phase 2) or DB reads (Phase 3). Update the test suite before the next major release.

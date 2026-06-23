@@ -12,7 +12,8 @@
     "test:e2e:ui": "playwright test --ui",
     "typecheck": "tsc --noEmit",
     "test:all": "vitest run && playwright test",
-    "seed": "tsx scripts/seed.ts"
+    "seed": "tsx scripts/seed.ts",
+    "seed:write": "tsx scripts/seed.ts --write"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.0",

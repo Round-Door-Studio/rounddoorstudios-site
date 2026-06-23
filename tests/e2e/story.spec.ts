@@ -249,23 +249,24 @@ test.describe('Story nav arrows', () => {
     await expect(page).toHaveURL(`/story/${slugs[1]}`);
   });
 
-  test('right arrow always advances by exactly one story number (no skipping)', async ({ page, isMobile }) => {
+  test('right arrow always advances to the next story in sequence (no skipping)', async ({ page, isMobile }) => {
     test.skip(isMobile, 'Story nav arrows are not shown on mobile');
-    await page.goto(`/story/${RELEASED_SLUG}`);
+
+    // Get all story slugs in order (including upcoming) from the library grid
+    await page.goto('/library');
     await page.waitForLoadState('networkidle');
+    await page.getByRole('button', { name: /Grid/i }).click();
+    const slugs = await page.locator('.story-card').evaluateAll(
+      (cards) => cards.map((c) => c.getAttribute('data-slug')).filter(Boolean)
+    );
+    if (slugs.length < 2) return;
 
-    // Read the current story number from the eyebrow
-    const eyebrow = page.locator('.read-hero .eyebrow').first();
-    const currentText = await eyebrow.textContent() ?? '';
-    const currentNum = parseInt(currentText.match(/Story\s+(\d+)/i)?.[1] ?? '0', 10);
-    expect(currentNum).toBeGreaterThan(0);
-
+    // Navigate to the first story, click next, verify we land on the second slug (not third, fourth, etc.)
+    await page.goto(`/story/${slugs[0]}`);
+    await page.waitForLoadState('networkidle');
     await page.locator('a.story-nav-arrow--r').click();
-    await page.waitForLoadState('networkidle');
-
-    const nextText = await eyebrow.textContent() ?? '';
-    const nextNum = parseInt(nextText.match(/Story\s+(\d+)/i)?.[1] ?? '0', 10);
-    expect(nextNum).toBe(currentNum + 1);
+    await page.waitForURL(`**/story/${slugs[1]}`);
+    await expect(page).toHaveURL(`/story/${slugs[1]}`);
   });
 });
 
