@@ -27,13 +27,17 @@ export async function signUp(_: unknown, formData: FormData) {
     return { error: 'Password must be at least 8 characters and include 1 number.' }
   }
 
-  const { error } = await supabase.auth.signUp({
+  const { data, error } = await supabase.auth.signUp({
     email: formData.get('email') as string,
     password: formData.get('password') as string,
     options: { data: { full_name: formData.get('fullName') as string } },
   })
 
   if (error) return { error: error.message }
+
+  // When email confirmation is enabled in Supabase, signUp returns no session.
+  // Tell the modal to show a "check your email" message instead of redirecting.
+  if (!data.session) return { confirm_email: true as const }
 
   const raw = (formData.get('redirectTo') as string) || '/'
   const redirectTo = raw.startsWith('/auth/') ? '/library' : raw
