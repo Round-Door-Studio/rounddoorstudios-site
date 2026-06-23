@@ -27,7 +27,7 @@ function form(fields: Record<string, string>): FormData {
 beforeEach(() => {
   vi.clearAllMocks();
   mockAuth.signInWithPassword.mockResolvedValue({ error: null });
-  mockAuth.signUp.mockResolvedValue({ error: null });
+  mockAuth.signUp.mockResolvedValue({ error: null, data: { user: { email_confirmed_at: '2024-01-01T00:00:00Z' }, session: {} } });
   mockAuth.updateUser.mockResolvedValue({ error: null });
 });
 
@@ -49,8 +49,15 @@ describe('signUp — password validation', () => {
     expect(redirect).toHaveBeenCalled();
   });
 
+  it('returns confirm_email when email is not yet confirmed', async () => {
+    mockAuth.signUp.mockResolvedValue({ error: null, data: { user: { email_confirmed_at: null }, session: null } });
+    const result = await signUp(null, form({ email: 'a@b.com', password: 'password1', fullName: 'T', redirectTo: '/library' }));
+    expect(result).toEqual({ confirm_email: true });
+    expect(redirect).not.toHaveBeenCalled();
+  });
+
   it('returns supabase error when signup fails', async () => {
-    mockAuth.signUp.mockResolvedValue({ error: { message: 'Email already in use' } });
+    mockAuth.signUp.mockResolvedValue({ error: { message: 'Email already in use' }, data: { user: null, session: null } });
     const result = await signUp(null, form({ email: 'a@b.com', password: 'password1', fullName: 'T', redirectTo: '/library' }));
     expect(result).toEqual({ error: 'Email already in use' });
   });
