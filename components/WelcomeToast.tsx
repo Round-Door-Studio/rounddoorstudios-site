@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { createClient } from '@/lib/supabase/client';
 
 export function WelcomeToast() {
   const searchParams = useSearchParams();
@@ -13,25 +12,14 @@ export function WelcomeToast() {
     if (shown.current) return;
     if (searchParams.get('welcome') !== '1') return;
 
-    (async () => {
-      const supabase = createClient();
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) return;
+    shown.current = true;
+    setState('visible');
 
-      // Key is per-user so multiple accounts on the same browser each get the toast
-      const key = `rds_welcomed_${user.id}`;
-      if (localStorage.getItem(key)) return;
-
-      shown.current = true;
-      localStorage.setItem(key, '1');
-      setState('visible');
-
-      setTimeout(() => {
-        const url = new URL(window.location.href);
-        url.searchParams.delete('welcome');
-        window.history.replaceState({}, '', url.toString());
-      }, 600);
-    })();
+    setTimeout(() => {
+      const url = new URL(window.location.href);
+      url.searchParams.delete('welcome');
+      window.history.replaceState({}, '', url.toString());
+    }, 600);
   }, [searchParams]);
 
   useEffect(() => {
