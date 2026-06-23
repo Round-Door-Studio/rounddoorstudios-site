@@ -248,6 +248,25 @@ test.describe('Story nav arrows', () => {
     await page.waitForLoadState('networkidle');
     await expect(page).toHaveURL(`/story/${slugs[1]}`);
   });
+
+  test('right arrow always advances by exactly one story number (no skipping)', async ({ page, isMobile }) => {
+    test.skip(isMobile, 'Story nav arrows are not shown on mobile');
+    await page.goto(`/story/${RELEASED_SLUG}`);
+    await page.waitForLoadState('networkidle');
+
+    // Read the current story number from the eyebrow
+    const eyebrow = page.locator('.read-hero .eyebrow').first();
+    const currentText = await eyebrow.textContent() ?? '';
+    const currentNum = parseInt(currentText.match(/Story\s+(\d+)/i)?.[1] ?? '0', 10);
+    expect(currentNum).toBeGreaterThan(0);
+
+    await page.locator('a.story-nav-arrow--r').click();
+    await page.waitForLoadState('networkidle');
+
+    const nextText = await eyebrow.textContent() ?? '';
+    const nextNum = parseInt(nextText.match(/Story\s+(\d+)/i)?.[1] ?? '0', 10);
+    expect(nextNum).toBe(currentNum + 1);
+  });
 });
 
 test('unreleased story shows "door not opened" message', async ({ page }) => {

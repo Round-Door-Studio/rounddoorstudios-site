@@ -5,7 +5,7 @@ import { ListenControl } from '@/components/ListenControl';
 import { StoryCover } from '@/components/StoryCover';
 import { StoryPack } from '@/components/story/StoryPack';
 import { createClient } from '@/lib/supabase/server';
-import { getStoryBySlugFromDB, getReleasedStoriesFromDB } from '@/lib/db/stories';
+import { getStoryBySlugFromDB, getReleasedStoriesFromDB, getAllStoriesFromDB } from '@/lib/db/stories';
 import { loadAllContentFromDB, getContentCountsFromDB } from '@/lib/db/content';
 import { padNum } from '@/lib/stories';
 import type { StoryPageContent } from '@/lib/types';
@@ -27,9 +27,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function StoryPage({ params }: Props) {
   const { slug } = await params;
 
-  // Fetch story + released list + auth in parallel
-  const [story, released, supabase] = await Promise.all([
+  // Fetch story + all stories (for sequential nav) + released list + auth in parallel
+  const [story, allStories, released, supabase] = await Promise.all([
     getStoryBySlugFromDB(slug),
+    getAllStoriesFromDB(),
     getReleasedStoriesFromDB(),
     createClient(),
   ]);
@@ -63,10 +64,10 @@ export default async function StoryPage({ params }: Props) {
   const isFreeStory = story.num === 1;
   const showLockedView = !user && !isFreeStory;
 
-  // Prev / next navigation
-  const idx = released.findIndex((s) => s.slug === slug);
-  const prevStory = idx > 0 ? released[idx - 1] : null;
-  const nextStory = idx < released.length - 1 ? released[idx + 1] : null;
+  // Prev / next navigation — use all stories so unreleased ones show "coming soon" rather than being skipped
+  const idx = allStories.findIndex((s) => s.slug === slug);
+  const prevStory = idx > 0 ? allStories[idx - 1] : null;
+  const nextStory = idx < allStories.length - 1 ? allStories[idx + 1] : null;
 
   // Load content conditionally
   let content: StoryPageContent | null = null;
