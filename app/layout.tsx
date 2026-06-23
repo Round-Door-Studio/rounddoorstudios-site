@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import { ScriptProvider } from '@/context/ScriptContext';
 import { Nav } from '@/components/Nav';
 import { Footer } from '@/components/Footer';
+import { WelcomeToast } from '@/components/WelcomeToast';
 import { createClient } from '@/lib/supabase/server';
 import './globals.css';
 
@@ -54,6 +56,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <Nav userEmail={user?.email ?? null} userName={userName} />
           <main>{children}</main>
           <Footer />
+          <Suspense>
+            <WelcomeToast />
+          </Suspense>
         </ScriptProvider>
       </body>
     </html>
