@@ -13,7 +13,7 @@ export default function ResetPasswordPage() {
 
   useEffect(() => {
     if (state?.success) {
-      const timer = setTimeout(() => router.push('/library'), 2000);
+      const timer = setTimeout(() => router.push('/library?welcome=1'), 2000);
       return () => clearTimeout(timer);
     }
   }, [state, router]);
