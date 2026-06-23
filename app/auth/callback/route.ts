@@ -26,7 +26,10 @@ export async function GET(request: NextRequest) {
 
     const { error } = await supabase.auth.exchangeCodeForSession(code)
     if (!error) {
-      return NextResponse.redirect(`${origin}${next}`)
+      // Always pass ?welcome=1 — the client-side toast checks localStorage
+      // to ensure it only shows the first time on each device/browser.
+      const sep = next.includes('?') ? '&' : '?'
+      return NextResponse.redirect(`${origin}${next}${sep}welcome=1`)
     }
   }
 

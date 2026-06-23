@@ -1,8 +1,10 @@
 'use client';
 
 import { useActionState, useEffect, useRef, useState } from 'react';
-import { signIn, signUp } from '@/app/auth/actions';
+import { signIn, signUp, requestPasswordReset } from '@/app/auth/actions';
 import { createClient } from '@/lib/supabase/client';
+
+type View = 'signin' | 'signup' | 'forgot';
 
 interface AuthModalProps {
   mode: 'signin' | 'signup';
@@ -14,13 +16,21 @@ interface AuthModalProps {
 export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModalProps) {
   const overlayRef = useRef<HTMLDivElement>(null);
   const [googlePending, setGooglePending] = useState(false);
+  const [googleError, setGoogleError] = useState<string | null>(null);
+  const [view, setView] = useState<View>(mode);
+
+  // Sync view when parent switches tabs
+  useEffect(() => {
+    setView(mode);
+  }, [mode]);
 
   const [signInState, signInAction, signingIn] = useActionState(signIn, null);
   const [signUpState, signUpAction, signingUp] = useActionState(signUp, null);
+  const [forgotState, forgotAction, forgotPending] = useActionState(requestPasswordReset, null);
 
-  const state = mode === 'signin' ? signInState : signUpState;
-  const action = mode === 'signin' ? signInAction : signUpAction;
-  const pending = mode === 'signin' ? signingIn : signingUp;
+  const authState = view === 'signin' ? signInState : view === 'signup' ? signUpState : null;
+  const formAction = view === 'signin' ? signInAction : signUpAction;
+  const pending = view === 'signin' ? signingIn : signingUp;
 
   function handleOverlayClick(e: React.MouseEvent<HTMLDivElement>) {
     if (e.target === overlayRef.current) onClose();
@@ -37,14 +47,63 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
   async function handleGoogleSignIn() {
     setGooglePending(true);
     const supabase = createClient();
-    await supabase.auth.signInWithOAuth({
+    const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
         redirectTo: `${window.location.origin}/auth/callback?next=${redirectTo}`,
       },
     });
+    if (error) {
+      setGooglePending(false);
+      setGoogleError(error.message);
+    }
   }
 
+  // ── Forgot password view ────────────────────────────────────────────────────
+  if (view === 'forgot') {
+    return (
+      <div className="overlay open" ref={overlayRef} onClick={handleOverlayClick}>
+        <div className="modal">
+          <button className="modal-close" onClick={onClose} aria-label="Close">×</button>
+          <h2>Reset password</h2>
+          {forgotState?.success ? (
+            <p className="modal-hint">Check your email — a reset link is on its way.</p>
+          ) : (
+            <>
+              <p className="modal-hint">Enter your email and we&rsquo;ll send you a link to reset your password.</p>
+              {forgotState?.error && <p className="auth-error">{forgotState.error}</p>}
+              <form action={forgotAction}>
+                <div className="field">
+                  <label htmlFor="forgot-email">Email Address</label>
+                  <input
+                    type="email"
+                    id="forgot-email"
+                    name="email"
+                    placeholder="you@example.com"
+                    autoComplete="email"
+                    required
+                    onKeyDown={(e) => { if (e.key === 'Enter') e.preventDefault(); }}
+                  />
+                </div>
+                <button type="submit" className="btn-submit" disabled={forgotPending}>
+                  {forgotPending ? 'Sending…' : 'Send reset link'}
+                </button>
+              </form>
+            </>
+          )}
+          <button
+            type="button"
+            className="auth-link"
+            onClick={() => { setView('signin'); onSwitchMode('signin'); }}
+          >
+            ← Back to sign in
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Sign in / Sign up view ──────────────────────────────────────────────────
   return (
     <div className="overlay open" ref={overlayRef} onClick={handleOverlayClick}>
       <div className="modal">
@@ -53,21 +112,21 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
         <div className="modal-tabs">
           <button
             type="button"
-            className={`modal-tab${mode === 'signin' ? ' is-on' : ''}`}
-            onClick={() => onSwitchMode('signin')}
+            className={`modal-tab${view === 'signin' ? ' is-on' : ''}`}
+            onClick={() => { onSwitchMode('signin'); setView('signin'); }}
           >
             Sign in
           </button>
           <button
             type="button"
-            className={`modal-tab${mode === 'signup' ? ' is-on' : ''}`}
-            onClick={() => onSwitchMode('signup')}
+            className={`modal-tab${view === 'signup' ? ' is-on' : ''}`}
+            onClick={() => { onSwitchMode('signup'); setView('signup'); }}
           >
             Join the Circle
           </button>
         </div>
 
-        <h2>{mode === 'signin' ? 'Welcome back' : 'Join the Circle'}</h2>
+        <h2>{view === 'signin' ? 'Welcome back' : 'Join the Circle'}</h2>
 
         <button
           type="button"
@@ -81,14 +140,14 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
 
         <div className="auth-divider"><span>or</span></div>
 
-        {state?.error && (
-          <p className="auth-error">{state.error}</p>
+        {(authState?.error || googleError) && (
+          <p className="auth-error">{authState?.error ?? googleError}</p>
         )}
 
-        <form action={action}>
+        <form action={formAction}>
           <input type="hidden" name="redirectTo" value={redirectTo} />
 
-          {mode === 'signup' && (
+          {view === 'signup' && (
             <div className="field">
               <label htmlFor="modal-fullName">Your Name</label>
               <input
@@ -120,9 +179,9 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
               type="password"
               id="modal-password"
               name="password"
-              placeholder={mode === 'signup' ? 'At least 6 characters' : '••••••••'}
-              autoComplete={mode === 'signin' ? 'current-password' : 'new-password'}
-              minLength={6}
+              placeholder={view === 'signup' ? 'At least 8 characters' : '••••••••'}
+              autoComplete={view === 'signin' ? 'current-password' : 'new-password'}
+              minLength={8}
               required
             />
           </div>
@@ -130,11 +189,21 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
           <button type="submit" className="btn-submit" disabled={pending}>
             {pending
               ? 'Please wait…'
-              : mode === 'signin'
+              : view === 'signin'
               ? 'Sign in'
               : 'Join the Circle'}
           </button>
         </form>
+
+        {view === 'signin' && (
+          <button
+            type="button"
+            className="auth-link"
+            onClick={() => setView('forgot')}
+          >
+            Forgot password?
+          </button>
+        )}
       </div>
     </div>
   );
