@@ -43,15 +43,10 @@ export async function GET(request: NextRequest) {
 
     const { data, error } = await supabase.auth.exchangeCodeForSession(code)
     if (!error) {
-      // Show the welcome toast when the client signalled signup intent.
-      // Using intent=signup (set by the modal when the user is on the Join tab)
-      // is more reliable than checking created_at, which can be minutes old by
-      // the time a session is successfully established after failed attempts.
-      // The WelcomeToast itself guards against repeats via localStorage, so a
-      // returning user who accidentally clicks Join → Google gets the toast at
-      // most once per browser.
-      const isNewUser = searchParams.get('intent') === 'signup'
-      const welcomeSuffix = isNewUser ? `${sep}welcome=1` : ''
+      // Always add ?welcome=1 — the WelcomeToast guards against repeat shows
+      // via localStorage (keyed per user), so it only ever appears once per
+      // browser regardless of how many times the user signs in.
+      const welcomeSuffix = `${sep}welcome=1`
 
       // On Vercel with a custom domain, request.url may contain the internal
       // Vercel hostname rather than the public domain. x-forwarded-host is the

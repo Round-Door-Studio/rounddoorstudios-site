@@ -16,7 +16,8 @@ export async function signIn(_: unknown, formData: FormData) {
 
   const raw = (formData.get('redirectTo') as string) || '/'
   const redirectTo = raw.startsWith('/auth/') ? '/library' : raw
-  redirect(redirectTo)
+  const sep = redirectTo.includes('?') ? '&' : '?'
+  redirect(`${redirectTo}${sep}welcome=1`)
 }
 
 export async function signUp(_: unknown, formData: FormData) {

@@ -84,14 +84,14 @@ describe('signIn — redirect logic', () => {
   const validForm = (redirectTo: string) =>
     form({ email: 'a@b.com', password: 'password1', redirectTo });
 
-  it('redirects to /library when redirectTo is an auth route', async () => {
+  it('redirects to /library?welcome=1 when redirectTo is an auth route', async () => {
     await signIn(null, validForm('/auth/reset-password'));
-    expect(redirect).toHaveBeenCalledWith('/library');
+    expect(redirect).toHaveBeenCalledWith('/library?welcome=1');
   });
 
-  it('redirects to the given path when it is not an auth route', async () => {
+  it('appends ?welcome=1 for normal paths', async () => {
     await signIn(null, validForm('/library'));
-    expect(redirect).toHaveBeenCalledWith('/library');
+    expect(redirect).toHaveBeenCalledWith('/library?welcome=1');
   });
 
   it('returns error on bad credentials without redirecting', async () => {

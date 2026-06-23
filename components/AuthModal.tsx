@@ -50,7 +50,7 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/auth/callback?next=${redirectTo}${view === 'signup' ? '&intent=signup' : ''}`,
+        redirectTo: `${window.location.origin}/auth/callback?next=${redirectTo}`,
       },
     });
     if (error) {
