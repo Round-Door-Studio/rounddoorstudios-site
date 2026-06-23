@@ -6,7 +6,8 @@ import { ReadAlong } from './ReadAlong';
 import { VocabSection } from './VocabSection';
 import { QuestionsSection } from './QuestionsSection';
 import { ActivitiesSection } from './ActivitiesSection';
-import type { StoryPageContent } from '@/lib/types';
+import { LockedStoryPack } from './LockedStoryPack';
+import type { StoryPageContent, VocabWord, Question, Activity } from '@/lib/types';
 
 type TabId = 'read' | 'words' | 'questions' | 'explore';
 type ReadingMode = 'simp' | 'trad' | 'compare';
@@ -18,13 +19,40 @@ const TABS: { id: TabId; icon: string; label: string }[] = [
   { id: 'explore', icon: '🌏', label: 'Culture Corner' },
 ];
 
-interface StoryPackProps {
-  content: StoryPageContent;
+interface PreviewVocab {
+  simp: string;
+  en: string;
+  pinyin?: string;
 }
 
-export function StoryPack({ content }: StoryPackProps) {
+interface StoryPackProps {
+  content: StoryPageContent;
+  showLockedView: boolean;
+  isFreeStory: boolean;
+  vocabCount: number;
+  questionCount: number;
+  activityCount: number;
+  previewVocab: PreviewVocab[];
+  previewQuestions: string[];
+  previewActivities: string[];
+  previewLines: { simp: string; en: string }[];
+}
+
+export function StoryPack({
+  content,
+  showLockedView,
+  isFreeStory,
+  vocabCount,
+  questionCount,
+  activityCount,
+  previewVocab,
+  previewQuestions,
+  previewActivities,
+  previewLines,
+}: StoryPackProps) {
   const { script, setScript } = useScript();
   const [activeTab, setActiveTab] = useState<TabId>('read');
+  const [revealed, setRevealed] = useState(false);
   const [readingMode, setReadingMode] = useState<ReadingMode>('simp');
   // Tracks the last simp/trad choice so the toggle can revert when leaving compare mode
   const [baseMode, setBaseMode] = useState<'simp' | 'trad'>('simp');
@@ -54,6 +82,22 @@ export function StoryPack({ content }: StoryPackProps) {
   }
 
   const lines = content.story.readAlong?.lines ?? content.story.lines ?? [];
+
+  if (showLockedView && !revealed) {
+    return (
+      <LockedStoryPack
+        isFreeStory={isFreeStory}
+        onReveal={() => setRevealed(true)}
+        vocabCount={vocabCount}
+        questionCount={questionCount}
+        activityCount={activityCount}
+        previewVocab={previewVocab}
+        previewQuestions={previewQuestions}
+        previewActivities={previewActivities}
+        previewLines={previewLines}
+      />
+    );
+  }
 
   return (
     <div>

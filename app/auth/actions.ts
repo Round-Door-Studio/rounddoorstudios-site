@@ -33,8 +33,9 @@ export async function signUp(_: unknown, formData: FormData) {
   redirect('/library')
 }
 
-export async function signOut() {
+export async function signOut(formData: FormData) {
   const supabase = await createClient()
   await supabase.auth.signOut()
-  redirect('/')
+  const redirectTo = (formData.get('redirectTo') as string) || '/'
+  redirect(redirectTo)
 }

@@ -49,6 +49,7 @@ export function Nav({ userEmail, userName }: NavProps) {
             <>
               <span className="nav-welcome">Welcome back, {displayName}</span>
               <form action={signOut}>
+                <input type="hidden" name="redirectTo" value={pathname ?? '/'} />
                 <button type="submit" className="btn-nav btn-nav-ghost">Logout</button>
               </form>
             </>

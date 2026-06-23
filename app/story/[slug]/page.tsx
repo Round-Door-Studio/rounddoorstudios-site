@@ -7,6 +7,7 @@ import { loadStoryContent, loadVocab, loadQuestions, loadActivities } from '@/li
 import { ListenControl } from '@/components/ListenControl';
 import { StoryCover } from '@/components/StoryCover';
 import { StoryPack } from '@/components/story/StoryPack';
+import { createClient } from '@/lib/supabase/server';
 import type { StoryPageContent } from '@/lib/types';
 
 interface Props {
@@ -81,6 +82,37 @@ export default async function StoryPage({ params }: Props) {
 
   const content: StoryPageContent = { story: storyContent, vocab, questions, activities };
 
+  // Auth — determine if story pack should be locked
+  const supabase = await createClient()
+  const { data: { user } } = await supabase.auth.getUser()
+  const isFreeStory = story.num === 1
+  const showLockedView = !user && !isFreeStory
+
+  // Counts for locked preview cards
+  const vocabCount = vocab.vocab.length
+  const questionCount = (questions.open?.length ?? 0) + (questions.beyond?.length ?? 0)
+  const activityCount = activities.activities.length
+
+  // Preview snippets (shown blurred in locked cards)
+  const previewVocab = vocab.vocab.slice(0, 3).map(w => ({
+    simp: typeof w.simp === 'object' ? (w.simp?.text ?? '') : (w.simp ?? ''),
+    en: w.en ?? '',
+    pinyin: w.pinyin ?? '',
+  }))
+  const previewQuestions = [...(questions.open ?? []), ...(questions.beyond ?? [])]
+    .slice(0, 2)
+    .map(q => q.en)
+  const previewActivities = activities.activities.slice(0, 3).map(a => {
+    if (!a.title) return ''
+    if (typeof a.title === 'string') return a.title
+    return (a.title as { en: string }).en ?? ''
+  }).filter(Boolean)
+  const storyLines = content.story.readAlong?.lines ?? content.story.lines ?? []
+  const previewLines = storyLines.slice(0, 4).map(l => ({
+    simp: typeof l.simp === 'object' ? (l.simp?.text ?? '') : (l.simp ?? ''),
+    en: l.en,
+  }))
+
   const released = getReleasedStories();
   const idx = released.findIndex((s) => s.slug === slug);
   const prevStory = idx > 0 ? released[idx - 1] : null;
@@ -107,7 +139,7 @@ export default async function StoryPage({ params }: Props) {
           </span>
         )}
         <div className="read-hero">
-        <div style={{ width: 132 }}>
+        <div style={{ width: 232 }}>
           <StoryCover story={story} />
         </div>
         <div>
@@ -145,7 +177,18 @@ export default async function StoryPage({ params }: Props) {
       </div>{/* end .story-hero-nav */}
 
       {/* Interactive story pack (client component) */}
-      <StoryPack content={content} />
+      <StoryPack
+        content={content}
+        showLockedView={showLockedView}
+        isFreeStory={isFreeStory}
+        vocabCount={vocabCount}
+        questionCount={questionCount}
+        activityCount={activityCount}
+        previewVocab={previewVocab}
+        previewQuestions={previewQuestions}
+        previewActivities={previewActivities}
+        previewLines={previewLines}
+      />
     </div>
   );
 }
