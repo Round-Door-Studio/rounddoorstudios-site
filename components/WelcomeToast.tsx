@@ -36,9 +36,14 @@ export function WelcomeToast() {
 
   useEffect(() => {
     if (state !== 'visible') return;
-    const hide = setTimeout(() => setState('hiding'), 3000);
-    const remove = setTimeout(() => setState('hidden'), 3300);
-    return () => { clearTimeout(hide); clearTimeout(remove); };
+    const timer = setTimeout(() => setState('hiding'), 3000);
+    return () => clearTimeout(timer);
+  }, [state]);
+
+  useEffect(() => {
+    if (state !== 'hiding') return;
+    const timer = setTimeout(() => setState('hidden'), 300);
+    return () => clearTimeout(timer);
   }, [state]);
 
   if (state === 'hidden') return null;

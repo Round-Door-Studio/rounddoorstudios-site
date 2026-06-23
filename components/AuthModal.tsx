@@ -18,6 +18,7 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
   const [googlePending, setGooglePending] = useState(false);
   const [googleError, setGoogleError] = useState<string | null>(null);
   const [view, setView] = useState<View>(mode);
+  const [forgotKey, setForgotKey] = useState(0);
 
   // Sync view when parent switches tabs
   useEffect(() => {
@@ -26,7 +27,6 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
 
   const [signInState, signInAction, signingIn] = useActionState(signIn, null);
   const [signUpState, signUpAction, signingUp] = useActionState(signUp, null);
-  const [forgotState, forgotAction, forgotPending] = useActionState(requestPasswordReset, null);
 
   const authState = view === 'signin' ? signInState : view === 'signup' ? signUpState : null;
   const formAction = view === 'signin' ? signInAction : signUpAction;
@@ -65,39 +65,7 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
       <div className="overlay open" ref={overlayRef} onClick={handleOverlayClick}>
         <div className="modal">
           <button className="modal-close" onClick={onClose} aria-label="Close">×</button>
-          <h2>Reset password</h2>
-          {forgotState?.success ? (
-            <p className="modal-hint">Check your email — a reset link is on its way.</p>
-          ) : (
-            <>
-              <p className="modal-hint">Enter your email and we&rsquo;ll send you a link to reset your password.</p>
-              {forgotState?.error && <p className="auth-error">{forgotState.error}</p>}
-              <form action={forgotAction}>
-                <div className="field">
-                  <label htmlFor="forgot-email">Email Address</label>
-                  <input
-                    type="email"
-                    id="forgot-email"
-                    name="email"
-                    placeholder="you@example.com"
-                    autoComplete="email"
-                    required
-                    onKeyDown={(e) => { if (e.key === 'Enter') e.preventDefault(); }}
-                  />
-                </div>
-                <button type="submit" className="btn-submit" disabled={forgotPending}>
-                  {forgotPending ? 'Sending…' : 'Send reset link'}
-                </button>
-              </form>
-            </>
-          )}
-          <button
-            type="button"
-            className="auth-link"
-            onClick={() => { setView('signin'); onSwitchMode('signin'); }}
-          >
-            ← Back to sign in
-          </button>
+          <ForgotPasswordForm key={forgotKey} onBack={() => { setView('signin'); onSwitchMode('signin'); }} />
         </div>
       </div>
     );
@@ -179,9 +147,11 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
               type="password"
               id="modal-password"
               name="password"
-              placeholder={view === 'signup' ? 'At least 8 characters' : '••••••••'}
+              placeholder={view === 'signup' ? '8+ characters, at least 1 number' : '••••••••'}
               autoComplete={view === 'signin' ? 'current-password' : 'new-password'}
               minLength={8}
+              pattern={view === 'signup' ? '(?=.*[0-9]).{8,}' : undefined}
+              title={view === 'signup' ? 'At least 8 characters including 1 number' : undefined}
               required
             />
           </div>
@@ -199,13 +169,51 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
           <button
             type="button"
             className="auth-link"
-            onClick={() => setView('forgot')}
+            onClick={() => { setView('forgot'); setForgotKey(k => k + 1); }}
           >
             Forgot password?
           </button>
         )}
       </div>
     </div>
+  );
+}
+
+function ForgotPasswordForm({ onBack }: { onBack: () => void }) {
+  const [state, action, pending] = useActionState(requestPasswordReset, null);
+
+  return (
+    <>
+      <h2>Reset password</h2>
+      {state?.success ? (
+        <p className="modal-hint">Check your email — a reset link is on its way.</p>
+      ) : (
+        <>
+          <p className="modal-hint">Enter your email and we&rsquo;ll send you a link to reset your password.</p>
+          {typeof state?.error === 'string' && state.error && <p className="auth-error">{state.error}</p>}
+          <form action={action}>
+            <div className="field">
+              <label htmlFor="forgot-email">Email Address</label>
+              <input
+                type="email"
+                id="forgot-email"
+                name="email"
+                placeholder="you@example.com"
+                autoComplete="email"
+                required
+                onKeyDown={(e) => { if (e.key === 'Enter') e.preventDefault(); }}
+              />
+            </div>
+            <button type="submit" className="btn-submit" disabled={pending}>
+              {pending ? 'Sending…' : 'Send reset link'}
+            </button>
+          </form>
+        </>
+      )}
+      <button type="button" className="auth-link" onClick={onBack}>
+        ← Back to sign in
+      </button>
+    </>
   );
 }
 
