@@ -8,9 +8,16 @@ export async function GET(request: NextRequest) {
 
   if (code) {
     const sep = next.includes('?') ? '&' : '?'
-    // Build a placeholder redirect response upfront so the cookie setAll handler
-    // can write directly onto a response object (mirrors the middleware pattern).
-    // This gets replaced after the code exchange with the correct welcome suffix.
+
+    // Capture cookies with their full options (Path, SameSite, Max-Age, etc.)
+    // so they can be applied to the final response after we know the correct
+    // redirect URL. Rebuilding the response via request.cookies.getAll() loses
+    // all cookie options, scoping cookies to /auth/ instead of /, which breaks
+    // the session handoff when the browser follows the redirect to /library.
+    const capturedCookies: Parameters<typeof response.cookies.set>[] = []
+
+    // Placeholder response so the setAll handler has something to reference.
+    // It gets replaced below — do not return this directly.
     let response = NextResponse.redirect(`${origin}${next}`)
 
     const supabase = createServerClient(
@@ -22,13 +29,12 @@ export async function GET(request: NextRequest) {
             return request.cookies.getAll()
           },
           setAll(cookiesToSet) {
-            // Mirror the middleware pattern: write to both the request (for
-            // subsequent server reads) and directly onto the redirect response.
             cookiesToSet.forEach(({ name, value }) =>
               request.cookies.set(name, value)
             )
+            // Capture full options for the final response rebuild
             cookiesToSet.forEach(({ name, value, options }) =>
-              response.cookies.set(name, value, options)
+              capturedCookies.push([name, value, options])
             )
           },
         },
@@ -46,24 +52,19 @@ export async function GET(request: NextRequest) {
         : false
       const welcomeSuffix = isNewUser ? `${sep}welcome=1` : ''
 
-      // Rebuild the initial response now that we know whether to include welcome.
-      response = NextResponse.redirect(`${origin}${next}${welcomeSuffix}`)
-      request.cookies.getAll().forEach(({ name, value }) => {
-        response.cookies.set(name, value)
-      })
-
       // On Vercel with a custom domain, request.url may contain the internal
       // Vercel hostname rather than the public domain. x-forwarded-host is the
       // reliable source of the public-facing host in production.
       const forwardedHost = request.headers.get('x-forwarded-host')
-      if (forwardedHost) {
-        const proto = request.headers.get('x-forwarded-proto') ?? 'https'
-        response = NextResponse.redirect(`${proto}://${forwardedHost}${next}${welcomeSuffix}`)
-        // Re-copy cookies onto the new response object
-        request.cookies.getAll().forEach(({ name, value }) => {
-          response.cookies.set(name, value)
-        })
-      }
+      const proto = request.headers.get('x-forwarded-proto') ?? 'https'
+      const base = forwardedHost ? `${proto}://${forwardedHost}` : origin
+
+      response = NextResponse.redirect(`${base}${next}${welcomeSuffix}`)
+
+      // Apply session cookies with their original options (preserves Path=/,
+      // SameSite, Max-Age, etc. so cookies are sent with subsequent requests).
+      capturedCookies.forEach((args) => response.cookies.set(...args))
+
       return response
     }
   }
