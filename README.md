@@ -161,33 +161,39 @@ Covers: story catalog data, ruby annotation rendering, script toggle logic.
 
 ### E2E tests (Playwright)
 
-Playwright drives a real browser against a running dev server. **The dev server must be running before you start E2E tests** — start it in one terminal and leave it up:
+Playwright drives a real browser. The Playwright config uses `reuseExistingServer: true` locally, so it reuses a running dev server if one is up — otherwise it starts one automatically.
 
 ```bash
-# Terminal 1
-npm run dev
-
-# Terminal 2
-npm run test:e2e              # headless (Chromium + Mobile Safari)
+npm run test:e2e              # Chromium only (default locally)
 npm run test:e2e:ui           # interactive Playwright UI
-npx playwright test --project=chromium   # Chromium only (faster)
+npx playwright test --project=chromium   # explicit Chromium
+npx playwright test --project="Mobile Safari"   # WebKit only
 ```
 
-The Playwright config uses `reuseExistingServer: true` locally, so it will reuse your running server rather than starting a new one. If no server is running when the tests start, Playwright will attempt to launch one — but the cold-start delay can cause the first batch of tests to fail with `ERR_CONNECTION_REFUSED`. Always keep a warm dev server running to avoid this.
-
-Tests cover: homepage, library, and story page flows across desktop and mobile viewports.
+Locally only Chromium runs by default — Mobile Safari (WebKit) requires macOS 15+ and runs in CI on Ubuntu. Tests cover auth flows, story page interactions, content gating, and nav across desktop and mobile viewports.
 
 If tests fail, the HTML report is at `playwright-report/index.html`.
 
-### Run everything
+### Node.js version
 
-To run unit tests and E2E in one shot (requires a running dev server — see above):
+This project requires **Node.js 22 LTS**. Node 24 has a known incompatibility with Playwright's module resolver. Use [nvm](https://github.com/nvm-sh/nvm) to manage versions — a `.nvmrc` is included:
 
 ```bash
-npm run test:all
+nvm use   # switches to Node 22 automatically
+```
+
+### Run everything
+
+```bash
+npm run test:local   # unit tests + Chromium E2E (daily use)
+npm run test:all     # unit tests + Chromium + Mobile Safari (mirrors CI, run before merging)
 ```
 
 ### CI
 
-GitHub Actions runs unit tests + Chromium E2E on every push and PR. The `main` branch requires all checks to pass before merging.
+GitHub Actions (`.github/workflows/ci.yml`) runs two parallel jobs on every push and PR to `main`:
+- **Lint, Typecheck & Unit Tests** — fast, no browser needed
+- **E2E Tests** — builds the app and runs Playwright on Chromium + Mobile Safari
+
+All checks must pass before merging.
 
