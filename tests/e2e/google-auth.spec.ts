@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { openLoginModal } from './helpers';
 
 // Google OAuth cannot be fully automated (the flow leaves the site and requires
 // a real Google account interaction). These tests verify everything up to the
@@ -8,8 +9,7 @@ test.describe('Google OAuth', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
     await page.waitForLoadState('networkidle');
-    await page.getByRole('button', { name: /^Login$/ }).click();
-    await page.locator('.overlay.open').waitFor();
+    await openLoginModal(page);
   });
 
   test('Continue with Google button is visible in signin mode', async ({ page }) => {
