@@ -1,5 +1,4 @@
 import { createServerClient } from '@supabase/ssr'
-import { cookies } from 'next/headers'
 import { NextResponse, type NextRequest } from 'next/server'
 
 export async function GET(request: NextRequest) {
@@ -8,28 +7,68 @@ export async function GET(request: NextRequest) {
   const next = searchParams.get('next') ?? '/library'
 
   if (code) {
-    const cookieStore = await cookies()
+    const sep = next.includes('?') ? '&' : '?'
+
+    // Capture cookies with their full options (Path, SameSite, Max-Age, etc.)
+    // so they can be applied to the final response after we know the correct
+    // redirect URL. Rebuilding the response via request.cookies.getAll() loses
+    // all cookie options, scoping cookies to /auth/ instead of /, which breaks
+    // the session handoff when the browser follows the redirect to /library.
+    const capturedCookies: Parameters<typeof response.cookies.set>[] = []
+
+    // Placeholder response so the setAll handler has something to reference.
+    // It gets replaced below — do not return this directly.
+    let response = NextResponse.redirect(`${origin}${next}`)
+
     const supabase = createServerClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL!,
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
       {
         cookies: {
-          getAll() { return cookieStore.getAll() },
+          getAll() {
+            return request.cookies.getAll()
+          },
           setAll(cookiesToSet) {
+            cookiesToSet.forEach(({ name, value }) =>
+              request.cookies.set(name, value)
+            )
+            // Capture full options for the final response rebuild
             cookiesToSet.forEach(({ name, value, options }) =>
-              cookieStore.set(name, value, options)
+              capturedCookies.push([name, value, options])
             )
           },
         },
       }
     )
 
-    const { error } = await supabase.auth.exchangeCodeForSession(code)
+    const { data, error } = await supabase.auth.exchangeCodeForSession(code)
     if (!error) {
-      // Always pass ?welcome=1 — the client-side toast checks localStorage
-      // to ensure it only shows the first time on each device/browser.
-      const sep = next.includes('?') ? '&' : '?'
-      return NextResponse.redirect(`${origin}${next}${sep}welcome=1`)
+      // Only show the welcome toast for genuinely new accounts (created within
+      // the last 5 minutes). The wider window handles the case where a first
+      // OAuth attempt created the account but failed to establish a session
+      // (e.g. redirect URL not yet in Supabase allowlist) — the retry still
+      // gets the toast. Returning users signing in on a new device won't see
+      // it, since their account was created more than 5 minutes ago.
+      const createdAt = data.session?.user?.created_at
+      const isNewUser = createdAt
+        ? Date.now() - new Date(createdAt).getTime() < 5 * 60_000
+        : false
+      const welcomeSuffix = isNewUser ? `${sep}welcome=1` : ''
+
+      // On Vercel with a custom domain, request.url may contain the internal
+      // Vercel hostname rather than the public domain. x-forwarded-host is the
+      // reliable source of the public-facing host in production.
+      const forwardedHost = request.headers.get('x-forwarded-host')
+      const proto = request.headers.get('x-forwarded-proto') ?? 'https'
+      const base = forwardedHost ? `${proto}://${forwardedHost}` : origin
+
+      response = NextResponse.redirect(`${base}${next}${welcomeSuffix}`)
+
+      // Apply session cookies with their original options (preserves Path=/,
+      // SameSite, Max-Age, etc. so cookies are sent with subsequent requests).
+      capturedCookies.forEach((args) => response.cookies.set(...args))
+
+      return response
     }
   }
 
