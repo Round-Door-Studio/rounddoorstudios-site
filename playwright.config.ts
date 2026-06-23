@@ -1,11 +1,17 @@
 import { defineConfig, devices } from '@playwright/test';
+import { config as loadEnv } from 'dotenv';
+
+// Load TEST_USER_EMAIL / TEST_USER_PASSWORD from .env.local so auth.setup.ts
+// and any test.skip(!) guards can read them without a separate env step.
+loadEnv({ path: '.env.local' });
 
 export default defineConfig({
   testDir: './tests/e2e',
+  globalSetup: './tests/e2e/auth.setup.ts',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 1,
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 2 : 4,
   timeout: 60_000,
   expect: { timeout: 15_000 },
   reporter: 'html',
@@ -14,13 +20,18 @@ export default defineConfig({
     trace: 'on-first-retry',
     actionTimeout: 15_000,
   },
-  projects: [
-    { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
-    { name: 'Mobile Safari', use: { ...devices['iPhone 14'] } },
-  ],
+  projects: process.env.CI
+    ? [
+        { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
+        { name: 'Mobile Safari', use: { ...devices['iPhone 14'] } },
+      ]
+    : [
+        { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
+      ],
   webServer: {
-    command: 'npm run dev',
+    command: process.env.CI ? 'npm start' : 'npm run dev',
     url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
+    timeout: 120_000,
   },
 });

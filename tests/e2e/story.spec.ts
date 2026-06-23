@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { getReleasedStorySlugs, getAllStorySlugs } from './helpers';
 
 // ep 1 — always the first released story; safe to hardcode
 const RELEASED_SLUG = 'frog-at-the-bottom-of-the-well';
@@ -142,13 +143,13 @@ test.describe('Story page', () => {
 
   test('print button calls window.print', async ({ page }) => {
     await page.addInitScript(() => {
-      (window as any).__printCalled = false;
-      window.print = () => { (window as any).__printCalled = true; };
+      (window as Window & { __printCalled?: boolean }).__printCalled = false;
+      window.print = () => { (window as Window & { __printCalled?: boolean }).__printCalled = true; };
     });
     await page.goto(`/story/${RELEASED_SLUG}`);
     await page.waitForLoadState('networkidle');
     await page.locator('#c-print').click();
-    expect(await page.evaluate(() => (window as any).__printCalled)).toBe(true);
+    expect(await page.evaluate(() => (window as Window & { __printCalled?: boolean }).__printCalled)).toBe(true);
   });
 
   test('data-print-tab updates when switching tabs', async ({ page }) => {
@@ -193,20 +194,18 @@ test.describe('Story page', () => {
 
 // ── All released story pages load ────────────────────────────────────────────
 test('every released story page loads without error', async ({ page }) => {
-  // Discover released slugs dynamically from the library grid
-  await page.goto('/library');
-  await page.waitForLoadState('networkidle');
-  await page.getByRole('button', { name: /Grid/i }).click();
-  const slugs = await page.locator('.story-card:not(.is-soon)').evaluateAll(
-    (cards) => cards.map((c) => c.getAttribute('data-slug')).filter(Boolean)
-  );
+  const slugs = await getReleasedStorySlugs(page);
   expect(slugs.length).toBeGreaterThan(0);
 
   for (const slug of slugs) {
     await page.goto(`/story/${slug}`);
     await page.waitForLoadState('networkidle');
     await expect(page.locator('.read-hero h1'), `h1 missing on /story/${slug}`).toBeVisible();
-    await expect(page.locator('.pack-cards'), `pack missing on /story/${slug}`).toBeVisible();
+    // Story 1 (free) shows .pack-cards; stories 2+ show .locked-cards for logged-out users
+    await expect(
+      page.locator('.pack-cards, .locked-cards'),
+      `pack missing on /story/${slug}`
+    ).toBeVisible();
   }
 });
 
@@ -214,13 +213,8 @@ test('every released story page loads without error', async ({ page }) => {
 test.describe('Story nav arrows', () => {
   test('first released story has no left arrow and a right arrow', async ({ page, isMobile }) => {
     test.skip(isMobile, 'Story nav arrows are not shown on mobile');
-    // Discover the first released slug from the library grid
-    await page.goto('/library');
-    await page.waitForLoadState('networkidle');
-    await page.getByRole('button', { name: /Grid/i }).click();
-    const slug = await page.locator('.story-card:not(.is-soon)').first().getAttribute('data-slug');
-
-    await page.goto(`/story/${slug}`);
+    const slugs = await getReleasedStorySlugs(page);
+    await page.goto(`/story/${slugs[0]}`);
     await page.waitForLoadState('networkidle');
 
     await expect(page.locator('.story-nav-arrow--l.story-nav-arrow--disabled')).toBeAttached();
@@ -229,13 +223,7 @@ test.describe('Story nav arrows', () => {
 
   test('clicking the right arrow navigates to the next story', async ({ page, isMobile }) => {
     test.skip(isMobile, 'Story nav arrows are not shown on mobile');
-    // Discover the first two released slugs
-    await page.goto('/library');
-    await page.waitForLoadState('networkidle');
-    await page.getByRole('button', { name: /Grid/i }).click();
-    const slugs = await page.locator('.story-card:not(.is-soon)').evaluateAll(
-      (cards) => cards.map((c) => c.getAttribute('data-slug')).filter(Boolean)
-    );
+    const slugs = await getReleasedStorySlugs(page);
     if (slugs.length < 2) return; // only one story released — skip
 
     await page.goto(`/story/${slugs[0]}`);
@@ -244,10 +232,22 @@ test.describe('Story nav arrows', () => {
     await page.waitForLoadState('networkidle');
     await expect(page).toHaveURL(`/story/${slugs[1]}`);
   });
+
+  test('right arrow always advances to the next story in sequence (no skipping)', async ({ page, isMobile }) => {
+    test.skip(isMobile, 'Story nav arrows are not shown on mobile');
+    const slugs = await getAllStorySlugs(page);
+    if (slugs.length < 2) return;
+
+    // Navigate to the first story, click next, verify we land on the second slug (not third, fourth, etc.)
+    await page.goto(`/story/${slugs[0]}`);
+    await page.waitForLoadState('networkidle');
+    await page.locator('a.story-nav-arrow--r').click();
+    await page.waitForURL(`**/story/${slugs[1]}`);
+    await expect(page).toHaveURL(`/story/${slugs[1]}`);
+  });
 });
 
 test('unreleased story shows "door not opened" message', async ({ page }) => {
-  // Discover an unreleased slug from the library grid rather than hardcoding one
   await page.goto('/library');
   await page.waitForLoadState('networkidle');
   await page.getByRole('button', { name: /Grid/i }).click();

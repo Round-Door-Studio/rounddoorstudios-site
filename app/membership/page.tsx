@@ -1,6 +1,5 @@
 'use client';
 
-import type { Metadata } from 'next';
 import { Modal, useModal } from '@/components/Modal';
 
 // Note: metadata export doesn't work in 'use client' — move to a layout

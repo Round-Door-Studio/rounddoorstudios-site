@@ -10,6 +10,9 @@
 
 import type { Story } from './types';
 
+// Story 1 is always free — used wherever the free/sample story needs to be referenced.
+export const FREE_STORY_SLUG = 'frog-at-the-bottom-of-the-well';
+
 export const STORIES: Story[] = [
   {
     num: 1, slug: 'frog-at-the-bottom-of-the-well', season: 1, released: true,

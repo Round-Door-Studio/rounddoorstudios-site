@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef } from 'react';
+import { MAILERLITE_FORM_URL } from '@/lib/config';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -47,7 +48,7 @@ export default function SignupPage() {
                 drop your email and we&apos;ll let you know the moment the next door opens.
               </p>
               <form
-                action="https://assets.mailerlite.com/jsonp/2318264/forms/186598057362589116/subscribe"
+                action={MAILERLITE_FORM_URL}
                 method="post"
                 onSubmit={handleSubmit}
               >
