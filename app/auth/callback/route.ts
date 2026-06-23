@@ -44,11 +44,14 @@ export async function GET(request: NextRequest) {
     const { data, error } = await supabase.auth.exchangeCodeForSession(code)
     if (!error) {
       // Only show the welcome toast for genuinely new accounts (created within
-      // the last 60 seconds). Returning users signing in via Google should not
-      // see it, even on a new device where localStorage has no record.
+      // the last 5 minutes). The wider window handles the case where a first
+      // OAuth attempt created the account but failed to establish a session
+      // (e.g. redirect URL not yet in Supabase allowlist) — the retry still
+      // gets the toast. Returning users signing in on a new device won't see
+      // it, since their account was created more than 5 minutes ago.
       const createdAt = data.session?.user?.created_at
       const isNewUser = createdAt
-        ? Date.now() - new Date(createdAt).getTime() < 60_000
+        ? Date.now() - new Date(createdAt).getTime() < 5 * 60_000
         : false
       const welcomeSuffix = isNewUser ? `${sep}welcome=1` : ''
 
