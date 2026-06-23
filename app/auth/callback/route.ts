@@ -43,16 +43,14 @@ export async function GET(request: NextRequest) {
 
     const { data, error } = await supabase.auth.exchangeCodeForSession(code)
     if (!error) {
-      // Only show the welcome toast for genuinely new accounts (created within
-      // the last 5 minutes). The wider window handles the case where a first
-      // OAuth attempt created the account but failed to establish a session
-      // (e.g. redirect URL not yet in Supabase allowlist) — the retry still
-      // gets the toast. Returning users signing in on a new device won't see
-      // it, since their account was created more than 5 minutes ago.
-      const createdAt = data.session?.user?.created_at
-      const isNewUser = createdAt
-        ? Date.now() - new Date(createdAt).getTime() < 5 * 60_000
-        : false
+      // Show the welcome toast when the client signalled signup intent.
+      // Using intent=signup (set by the modal when the user is on the Join tab)
+      // is more reliable than checking created_at, which can be minutes old by
+      // the time a session is successfully established after failed attempts.
+      // The WelcomeToast itself guards against repeats via localStorage, so a
+      // returning user who accidentally clicks Join → Google gets the toast at
+      // most once per browser.
+      const isNewUser = searchParams.get('intent') === 'signup'
       const welcomeSuffix = isNewUser ? `${sep}welcome=1` : ''
 
       // On Vercel with a custom domain, request.url may contain the internal
