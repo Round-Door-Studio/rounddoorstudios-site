@@ -20,10 +20,14 @@ export default defineConfig({
     trace: 'on-first-retry',
     actionTimeout: 15_000,
   },
-  projects: [
-    { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
-    { name: 'Mobile Safari', use: { ...devices['iPhone 14'] } },
-  ],
+  projects: process.env.CI
+    ? [
+        { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
+        { name: 'Mobile Safari', use: { ...devices['iPhone 14'] } },
+      ]
+    : [
+        { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
+      ],
   webServer: {
     command: process.env.CI ? 'npm start' : 'npm run dev',
     url: 'http://localhost:3000',
