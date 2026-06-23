@@ -67,6 +67,13 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
 
         {view === 'forgot' ? (
           <ForgotPasswordForm key={forgotKey} onBack={() => { setView('signin'); onSwitchMode('signin'); }} />
+        ) : signUpState?.confirm_email ? (
+          <>
+            <h2>Check your email</h2>
+            <p className="modal-hint">
+              We sent a confirmation link to your inbox. Click it to activate your account and start reading.
+            </p>
+          </>
         ) : (
           <>
             <div className="modal-tabs">

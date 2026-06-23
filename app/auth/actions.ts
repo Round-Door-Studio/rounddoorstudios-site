@@ -27,16 +27,35 @@ export async function signUp(_: unknown, formData: FormData) {
     return { error: 'Password must be at least 8 characters and include 1 number.' }
   }
 
-  const { error } = await supabase.auth.signUp({
+  const headersList = await headers()
+  const origin =
+    headersList.get('origin') ||
+    (() => {
+      const host = headersList.get('x-forwarded-host') || headersList.get('host') || ''
+      const proto = headersList.get('x-forwarded-proto') || 'https'
+      return host ? `${proto}://${host}` : ''
+    })()
+
+  const raw = (formData.get('redirectTo') as string) || '/'
+  const redirectTo = raw.startsWith('/auth/') ? '/library' : raw
+
+  const { data, error } = await supabase.auth.signUp({
     email: formData.get('email') as string,
     password: formData.get('password') as string,
-    options: { data: { full_name: formData.get('fullName') as string } },
+    options: {
+      data: { full_name: formData.get('fullName') as string },
+      emailRedirectTo: `${origin}/auth/callback?next=${redirectTo}`,
+    },
   })
 
   if (error) return { error: error.message }
 
-  const raw = (formData.get('redirectTo') as string) || '/'
-  const redirectTo = raw.startsWith('/auth/') ? '/library' : raw
+  // Show "check your email" if the account isn't confirmed yet.
+  // We check email_confirmed_at rather than data.session because Supabase
+  // with custom SMTP can return a session immediately even when "Confirm email"
+  // is enabled — email_confirmed_at stays null until the link is clicked.
+  if (!data.user?.email_confirmed_at) return { confirm_email: true as const }
+
   const sep = redirectTo.includes('?') ? '&' : '?'
   redirect(`${redirectTo}${sep}welcome=1`)
 }

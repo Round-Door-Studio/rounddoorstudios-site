@@ -43,10 +43,9 @@ export async function GET(request: NextRequest) {
 
     const { data, error } = await supabase.auth.exchangeCodeForSession(code)
     if (!error) {
-      // Always add ?welcome=1 — the WelcomeToast guards against repeat shows
-      // via localStorage (keyed per user), so it only ever appears once per
-      // browser regardless of how many times the user signs in.
-      const welcomeSuffix = `${sep}welcome=1`
+      // Skip ?welcome=1 for intermediate auth pages (e.g. reset-password).
+      // The welcome toast should only fire once the user is actually signed in.
+      const welcomeSuffix = next.startsWith('/auth/') ? '' : `${sep}welcome=1`
 
       // On Vercel with a custom domain, request.url may contain the internal
       // Vercel hostname rather than the public domain. x-forwarded-host is the
