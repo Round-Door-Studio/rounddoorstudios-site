@@ -293,6 +293,8 @@ a { color: inherit; }
 .soc:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-tint); }
 .soc svg { width: 17px; height: 17px; }
 .footer-legal { color: var(--muted); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+.footer-legal-link { color: var(--muted); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; }
+.footer-legal-link:hover { color: var(--accent); }
 
 /* ── Responsive ── */
 @media (max-width: 880px) {
