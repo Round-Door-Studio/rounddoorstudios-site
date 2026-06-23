@@ -67,11 +67,11 @@ async function seed() {
     const { error } = await supabase.from('story_content').upsert({
       slug:       s.slug,
       read_along: storyJson.readAlong ?? null,
-      vocab:      vocabJson?.vocab ?? null,
+      vocab:      vocabJson ?? null,
       questions:  questionsJson
         ? { open: questionsJson.open, beyond: questionsJson.beyond }
         : null,
-      activities: activitiesJson?.activities ?? null,
+      activities: activitiesJson ?? null,
     }, { onConflict: 'slug' })
 
     if (error) {

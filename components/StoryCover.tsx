@@ -29,7 +29,7 @@ export function StoryCover({ story }: StoryCoverProps) {
           alt={`${story.title.en} cover art`}
           fill
           sizes="(max-width: 560px) 108px, (max-width: 880px) 132px, 340px"
-          style={{ objectFit: 'cover' }}
+          style={{ objectFit: 'cover', pointerEvents: 'none' }}
           loading="lazy"
         />
       </div>

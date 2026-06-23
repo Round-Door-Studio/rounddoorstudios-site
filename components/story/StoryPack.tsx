@@ -7,7 +7,7 @@ import { VocabSection } from './VocabSection';
 import { QuestionsSection } from './QuestionsSection';
 import { ActivitiesSection } from './ActivitiesSection';
 import { LockedStoryPack } from './LockedStoryPack';
-import type { StoryPageContent, VocabWord, Question, Activity } from '@/lib/types';
+import type { StoryPageContent } from '@/lib/types';
 
 type TabId = 'read' | 'words' | 'questions' | 'explore';
 type ReadingMode = 'simp' | 'trad' | 'compare';
@@ -19,23 +19,13 @@ const TABS: { id: TabId; icon: string; label: string }[] = [
   { id: 'explore', icon: '🌏', label: 'Culture Corner' },
 ];
 
-interface PreviewVocab {
-  simp: string;
-  en: string;
-  pinyin?: string;
-}
-
 interface StoryPackProps {
-  content: StoryPageContent;
+  content: StoryPageContent | null;
   showLockedView: boolean;
   isFreeStory: boolean;
   vocabCount: number;
   questionCount: number;
   activityCount: number;
-  previewVocab: PreviewVocab[];
-  previewQuestions: string[];
-  previewActivities: string[];
-  previewLines: { simp: string; en: string }[];
 }
 
 export function StoryPack({
@@ -45,10 +35,6 @@ export function StoryPack({
   vocabCount,
   questionCount,
   activityCount,
-  previewVocab,
-  previewQuestions,
-  previewActivities,
-  previewLines,
 }: StoryPackProps) {
   const { script, setScript } = useScript();
   const [activeTab, setActiveTab] = useState<TabId>('read');
@@ -81,8 +67,6 @@ export function StoryPack({
     window.print();
   }
 
-  const lines = content.story.readAlong?.lines ?? content.story.lines ?? [];
-
   if (showLockedView && !revealed) {
     return (
       <LockedStoryPack
@@ -91,13 +75,11 @@ export function StoryPack({
         vocabCount={vocabCount}
         questionCount={questionCount}
         activityCount={activityCount}
-        previewVocab={previewVocab}
-        previewQuestions={previewQuestions}
-        previewActivities={previewActivities}
-        previewLines={previewLines}
       />
     );
   }
+
+  const lines = content?.story.readAlong?.lines ?? content?.story.lines ?? [];
 
   return (
     <div>
@@ -184,7 +166,7 @@ export function StoryPack({
           aria-labelledby="pack-tab-words"
           hidden={activeTab !== 'words'}
         >
-          <VocabSection vocab={content.vocab.vocab} />
+          <VocabSection vocab={content?.vocab.vocab ?? []} />
         </div>
 
         <div
@@ -194,7 +176,7 @@ export function StoryPack({
           aria-labelledby="pack-tab-questions"
           hidden={activeTab !== 'questions'}
         >
-          <QuestionsSection questions={content.questions} />
+          <QuestionsSection questions={content?.questions ?? { slug: '', open: [], beyond: [] }} />
         </div>
 
         <div
@@ -204,7 +186,7 @@ export function StoryPack({
           aria-labelledby="pack-tab-explore"
           hidden={activeTab !== 'explore'}
         >
-          <ActivitiesSection activities={content.activities} />
+          <ActivitiesSection activities={content?.activities ?? { slug: '', activities: [] }} />
         </div>
       </div>
     </div>

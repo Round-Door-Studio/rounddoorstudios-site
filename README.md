@@ -9,13 +9,15 @@ npm install
 npm run dev       # http://localhost:3000
 ```
 
+---
+
 ## Database (Supabase)
 
-The site uses Supabase (Postgres) for story data, auth, and subscriptions.
+The site uses Supabase (Postgres) for story catalog, story content, and user auth. All runtime reads go through the DB — no JSON files are read at runtime.
 
-### Setup
+### Environment variables
 
-1. Copy your Supabase keys into `.env.local`:
+Copy your Supabase keys into `.env.local` (never committed):
 
 ```
 NEXT_PUBLIC_SUPABASE_URL=...
@@ -23,22 +25,109 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=...
 SUPABASE_SERVICE_ROLE_KEY=...
 ```
 
-2. Run the schema SQL in the Supabase SQL Editor (see `scripts/seed.ts` header for table definitions).
+Teammates need their own `.env.local` with the same keys — get them from the Supabase dashboard under **Project Settings → API**.
+
+### Schema
+
+Three main tables:
+
+| Table | Description |
+|---|---|
+| `stories` | Story catalog — metadata, titles, audio links, cover images |
+| `story_content` | Story pack content — read-along, vocab, questions, activities (JSONB) |
+| `profiles` | User profiles — name, email, synced from `auth.users` on signup |
+
+Row-level security:
+- **`stories`**: anon + authenticated can read released stories
+- **`story_content`**: authenticated users only (service role used server-side for locked preview counts)
+- **`profiles`**: users can read/write their own row
 
 ### Seeding
 
-Story data lives in `lib/stories.ts` (catalog metadata) and `content/<slug>/*.json` (story content). To push the local data to Supabase:
+Story data is authored locally in `lib/stories.ts` (catalog metadata) and `content/<slug>/*.json` (story content files). Push to Supabase with:
 
 ```bash
 npm run seed
 ```
 
-The seed script uses `upsert` so it is safe to run repeatedly — existing rows are updated, not duplicated. Run it whenever you add or update a story.
+The seed script uses `upsert` — safe to run repeatedly. Existing rows are updated, not duplicated.
 
-**Workflow for new/updated stories:**
-1. Edit `lib/stories.ts` and/or `content/<slug>/*.json` locally
-2. Run `npm run seed`
-3. Changes are live in the DB
+**Workflow for publishing a new episode:**
+1. Add the story entry to `lib/stories.ts` (set `released: true` when ready to go live)
+2. Add content files to `content/<slug>/` — `story.json`, `vocab.json`, `questions.json`, `activities.json`
+3. Run `npm run seed`
+4. Story is live — no deploy needed
+
+---
+
+## Auth
+
+Auth is handled by Supabase Auth with email/password and Google OAuth.
+
+### How it works
+
+- The auth modal lives in the Nav — "Login" and "Join the Circle" buttons when logged out
+- Sign up collects name, email, and password. Name is stored in `user_metadata` and synced to the `profiles` table via a Postgres trigger
+- Google OAuth redirects through Supabase and back to `/auth/callback`, which exchanges the code for a session
+- Sessions are refreshed on every request via middleware
+- After sign in/up: home page → redirects to `/library`; any other page → stays on current page
+- Logout stays on the current page
+
+### Content gating
+
+- All pages (library, story pages) are publicly accessible
+- Story Pack tabs (Read Along, New Words, Curious Questions, Culture Corner) are locked for logged-out users on stories 2+
+- Story 1 (`frog-at-the-bottom-of-the-well`) is always fully open as a sample
+- Locked users see blurred preview cards with real counts (vocab words, questions, activities) and a "Join the Circle" CTA
+
+### Supabase Auth settings
+
+| Setting | Value |
+|---|---|
+| Email confirmations | Disabled (users can sign in immediately after signup) |
+| Google OAuth | Enabled — credentials in Supabase dashboard under Authentication → Providers |
+| Password minimum | 8 characters (set in Authentication → Sign In / Providers → Email) |
+
+### Profile trigger
+
+A Postgres trigger auto-creates a `profiles` row on every new signup. If you need to re-create it:
+
+```sql
+create or replace function public.handle_new_user()
+returns trigger language plpgsql security definer set search_path = public
+as $$
+begin
+  insert into public.profiles (id, email, full_name)
+  values (
+    new.id,
+    new.email,
+    new.raw_user_meta_data->>'full_name'
+  )
+  on conflict (id) do update
+    set email = excluded.email,
+        full_name = excluded.full_name;
+  return new;
+end;
+$$;
+
+drop trigger if exists on_auth_user_created on auth.users;
+create trigger on_auth_user_created
+  after insert on auth.users
+  for each row execute procedure public.handle_new_user();
+```
+
+To backfill existing auth users into `profiles`:
+
+```sql
+insert into public.profiles (id, email, full_name)
+select id, email, raw_user_meta_data->>'full_name'
+from auth.users
+on conflict (id) do update
+  set email = excluded.email,
+      full_name = excluded.full_name;
+```
+
+---
 
 ## Testing
 
@@ -84,3 +173,5 @@ npm run test:all
 ### CI
 
 GitHub Actions runs unit tests + Chromium E2E on every push and PR. The `main` branch requires all checks to pass before merging.
+
+> **Note:** Tests have not yet been updated to cover auth flows and story pack gating (Phase 2) or DB reads (Phase 3). Update the test suite before the next major release.

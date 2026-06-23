@@ -26,7 +26,7 @@ export function Nav({ userEmail, userName }: NavProps) {
   }
 
   const displayName = userName || userEmail?.split('@')[0] || 'there'
-  const redirectTo = pathname === '/' ? '/library' : pathname ?? '/library';
+  const redirectTo = pathname ?? '/';
 
   return (
     <>

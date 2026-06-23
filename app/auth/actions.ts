@@ -13,7 +13,7 @@ export async function signIn(_: unknown, formData: FormData) {
 
   if (error) return { error: error.message }
 
-  const redirectTo = (formData.get('redirectTo') as string) || '/library'
+  const redirectTo = (formData.get('redirectTo') as string) || '/'
   redirect(redirectTo)
 }
 
@@ -30,7 +30,8 @@ export async function signUp(_: unknown, formData: FormData) {
 
   if (error) return { error: error.message }
 
-  redirect('/library')
+  const redirectTo = (formData.get('redirectTo') as string) || '/'
+  redirect(redirectTo)
 }
 
 export async function signOut(formData: FormData) {

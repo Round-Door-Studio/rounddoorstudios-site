@@ -206,7 +206,11 @@ test('every released story page loads without error', async ({ page }) => {
     await page.goto(`/story/${slug}`);
     await page.waitForLoadState('networkidle');
     await expect(page.locator('.read-hero h1'), `h1 missing on /story/${slug}`).toBeVisible();
-    await expect(page.locator('.pack-cards'), `pack missing on /story/${slug}`).toBeVisible();
+    // Story 1 (free) shows .pack-cards; stories 2+ show .locked-cards for logged-out users
+    await expect(
+      page.locator('.pack-cards, .locked-cards'),
+      `pack missing on /story/${slug}`
+    ).toBeVisible();
   }
 });
 

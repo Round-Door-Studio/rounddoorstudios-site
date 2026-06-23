@@ -5,22 +5,12 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { AuthModal } from '@/components/AuthModal';
 
-interface PreviewVocab {
-  simp: string;
-  en: string;
-  pinyin?: string;
-}
-
 interface LockedStoryPackProps {
   isFreeStory: boolean;
   onReveal: () => void;
   vocabCount: number;
   questionCount: number;
   activityCount: number;
-  previewVocab: PreviewVocab[];
-  previewQuestions: string[];
-  previewActivities: string[];
-  previewLines: { simp: string; en: string }[];
 }
 
 const FREE_STORY_SLUG = 'frog-at-the-bottom-of-the-well';
@@ -31,10 +21,6 @@ export function LockedStoryPack({
   vocabCount,
   questionCount,
   activityCount,
-  previewVocab,
-  previewQuestions,
-  previewActivities,
-  previewLines,
 }: LockedStoryPackProps) {
   const [showModal, setShowModal] = useState(false);
   const [authMode, setAuthMode] = useState<'signin' | 'signup'>('signup');
@@ -46,58 +32,55 @@ export function LockedStoryPack({
         <p className="pack-nav-eyebrow">Our Story Pack</p>
 
         <div className="locked-cards">
-          {/* Read Along */}
           <div className="locked-card">
             <div className="locked-card-head">
               <span className="locked-card-title">📖 Read Along</span>
               <span className="locked-badge">🔒</span>
             </div>
             <div className="locked-preview" aria-hidden="true">
-              {previewLines.map((line, i) => (
-                <p key={i} className={i % 2 === 0 ? 'zh-simp' : ''}>{line.simp || line.en}</p>
-              ))}
+              <p>从前有一只小青蛙，住在一口深深的井里。</p>
+              <p>Once there was a little frog who lived at the bottom of a well.</p>
+              <p>他每天看着头顶那一小片天空。</p>
+              <p>Every day he gazed at the small patch of sky above him.</p>
             </div>
             <p className="locked-desc">Mandarin + English · 简 Simplified + 繁 Traditional · Pinyin + Zhuyin</p>
           </div>
 
-          {/* New Words */}
           <div className="locked-card">
             <div className="locked-card-head">
               <span className="locked-card-title">🔤 New Words</span>
               <span className="locked-badge">🔒</span>
             </div>
             <div className="locked-preview" aria-hidden="true">
-              {previewVocab.map((w, i) => (
-                <p key={i} className="zh-simp">{w.simp}{w.pinyin ? ` · ${w.pinyin}` : ''}{w.en ? ` · ${w.en}` : ''}</p>
-              ))}
+              <p>青蛙 · qīng wā · frog</p>
+              <p>井底 · jǐng dǐ · bottom of a well</p>
+              <p>天空 · tiān kōng · sky</p>
             </div>
             <p className="locked-desc">{vocabCount} words · 简 Simplified + 繁 Traditional · Pinyin + Zhuyin</p>
           </div>
 
-          {/* Curious Questions */}
           <div className="locked-card">
             <div className="locked-card-head">
               <span className="locked-card-title">💬 Curious Questions</span>
               <span className="locked-badge">🔒</span>
             </div>
             <div className="locked-preview" aria-hidden="true">
-              {previewQuestions.map((q, i) => (
-                <p key={i}>{q}</p>
-              ))}
+              <p>Why did the frog think his well was the whole world?</p>
+              <p>Have you ever changed your mind about something big?</p>
+              <p>What would you do if you discovered a bigger world outside?</p>
             </div>
             <p className="locked-desc">{questionCount} questions to spark conversation</p>
           </div>
 
-          {/* Culture Corner */}
           <div className="locked-card">
             <div className="locked-card-head">
               <span className="locked-card-title">🌏 Culture Corner</span>
               <span className="locked-badge">🔒</span>
             </div>
             <div className="locked-preview" aria-hidden="true">
-              {previewActivities.map((a, i) => (
-                <p key={i}>{a}</p>
-              ))}
+              <p>Draw your own well and the sky above</p>
+              <p>Explore the idiom 井底之蛙</p>
+              <p>Family discussion and craft activity</p>
             </div>
             <p className="locked-desc">Printable · {activityCount} activities</p>
           </div>
