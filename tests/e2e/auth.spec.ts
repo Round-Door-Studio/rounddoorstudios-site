@@ -100,6 +100,7 @@ test.describe('Auth modal', () => {
     await page.locator('#modal-email').fill(process.env.TEST_USER_EMAIL!);
     await page.locator('#modal-password').fill(process.env.TEST_USER_PASSWORD!);
     await page.locator('.modal .btn-submit').click();
+    await page.waitForLoadState('networkidle');
     await expect(page).toHaveURL(`/story/${storySlug}`, { timeout: 20_000 });
   });
 });
