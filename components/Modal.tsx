@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { MAILERLITE_FORM_URL } from '@/lib/config';
 
 interface ModalProps {
   open: boolean;
@@ -65,7 +66,7 @@ export function Modal({ open, onClose }: ModalProps) {
               Drop your email and we&apos;ll let you know the moment the next door opens.
             </p>
             <form
-              action="https://assets.mailerlite.com/jsonp/2318264/forms/186598057362589116/subscribe"
+              action={MAILERLITE_FORM_URL}
               method="post"
               onSubmit={handleSubmit}
             >

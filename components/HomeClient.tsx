@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FeaturedStory } from '@/components/FeaturedStory';
 import { Modal, useModal } from '@/components/Modal';
+import { FREE_STORY_SLUG } from '@/lib/stories';
 import type { Story } from '@/lib/types';
 
 interface HomeClientProps {
@@ -68,7 +69,7 @@ export function HomeClient({ featured }: HomeClientProps) {
               <button type="button" className="btn btn-primary" onClick={openModal}>
                 Don&apos;t Miss the Next Story
               </button>
-              <Link className="btn btn-ghost" href="/story/frog-at-the-bottom-of-the-well">
+              <Link className="btn btn-ghost" href={`/story/${FREE_STORY_SLUG}`}>
                 Peek inside a sample story pack
               </Link>
             </div>

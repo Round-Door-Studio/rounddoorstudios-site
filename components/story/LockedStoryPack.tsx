@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { AuthModal } from '@/components/AuthModal';
+import { FREE_STORY_SLUG } from '@/lib/stories';
 
 interface LockedStoryPackProps {
   isFreeStory: boolean;
@@ -13,7 +14,6 @@ interface LockedStoryPackProps {
   activityCount: number;
 }
 
-const FREE_STORY_SLUG = 'frog-at-the-bottom-of-the-well';
 
 export function LockedStoryPack({
   isFreeStory,
