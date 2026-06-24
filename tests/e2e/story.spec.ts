@@ -7,7 +7,9 @@ const RELEASED_SLUG = 'frog-at-the-bottom-of-the-well';
 test.describe('Story page', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(`/story/${RELEASED_SLUG}`);
-    await page.waitForLoadState('networkidle');
+    // 'load' rather than 'networkidle' — story pages have audio assets that
+    // keep the network busy indefinitely on remote URLs.
+    await page.waitForLoadState('load');
   });
 
   test('renders story title', async ({ page }) => {
@@ -147,7 +149,7 @@ test.describe('Story page', () => {
       window.print = () => { (window as Window & { __printCalled?: boolean }).__printCalled = true; };
     });
     await page.goto(`/story/${RELEASED_SLUG}`);
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('load');
     await page.locator('#c-print').click();
     expect(await page.evaluate(() => (window as Window & { __printCalled?: boolean }).__printCalled)).toBe(true);
   });
@@ -199,7 +201,7 @@ test('every released story page loads without error', async ({ page }) => {
 
   for (const slug of slugs) {
     await page.goto(`/story/${slug}`);
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('load');
     await expect(page.locator('.read-hero h1'), `h1 missing on /story/${slug}`).toBeVisible();
     // Story 1 (free) shows .pack-cards; stories 2+ show .locked-cards for logged-out users
     await expect(
@@ -215,7 +217,7 @@ test.describe('Story nav arrows', () => {
     test.skip(isMobile, 'Story nav arrows are not shown on mobile');
     const slugs = await getReleasedStorySlugs(page);
     await page.goto(`/story/${slugs[0]}`);
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('load');
 
     await expect(page.locator('.story-nav-arrow--l.story-nav-arrow--disabled')).toBeAttached();
     await expect(page.locator('a.story-nav-arrow--r')).toBeVisible();
@@ -227,9 +229,9 @@ test.describe('Story nav arrows', () => {
     if (slugs.length < 2) return; // only one story released — skip
 
     await page.goto(`/story/${slugs[0]}`);
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('load');
     await page.locator('a.story-nav-arrow--r').click();
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('load');
     await expect(page).toHaveURL(`/story/${slugs[1]}`);
   });
 
@@ -240,7 +242,7 @@ test.describe('Story nav arrows', () => {
 
     // Navigate to the first story, click next, verify we land on the second slug (not third, fourth, etc.)
     await page.goto(`/story/${slugs[0]}`);
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('load');
     await page.locator('a.story-nav-arrow--r').click();
     await page.waitForURL(`**/story/${slugs[1]}`);
     await expect(page).toHaveURL(`/story/${slugs[1]}`);
@@ -249,7 +251,7 @@ test.describe('Story nav arrows', () => {
 
 test('unreleased story shows "door not opened" message', async ({ page }) => {
   await page.goto('/library');
-  await page.waitForLoadState('networkidle');
+  await page.waitForLoadState('load');
   await page.getByRole('button', { name: /Grid/i }).click();
   const slug = await page.locator('.story-card.is-soon').first().getAttribute('data-slug');
   await page.goto(`/story/${slug}`);

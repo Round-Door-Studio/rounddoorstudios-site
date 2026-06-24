@@ -24,6 +24,9 @@ export default defineConfig({
     baseURL: BASE_URL,
     trace: 'on-first-retry',
     actionTimeout: 15_000,
+    extraHTTPHeaders: process.env.VERCEL_AUTOMATION_BYPASS_SECRET
+      ? { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET }
+      : {},
   },
   projects: process.env.CI
     ? [

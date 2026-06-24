@@ -85,7 +85,8 @@ test.describe('Auth modal', () => {
     await page.getByRole('button', { name: /Forgot password/i }).click();
     await page.locator('#forgot-email').fill('test@rounddoorstudio.com');
     await page.locator('.btn-submit').click();
-    await expect(page.locator('.modal-hint')).toContainText('Check your email');
+    // Resend/Supabase can be slow on first call — use an extended timeout
+    await expect(page.locator('.modal-hint')).toContainText('Check your email', { timeout: 30_000 });
   });
 
   // ── Validation / error ────────────────────────────────────────────────────
