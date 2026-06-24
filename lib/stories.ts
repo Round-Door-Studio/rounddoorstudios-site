@@ -56,19 +56,19 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 3, slug: 'mend-the-sheep-pen', season: 1, released: false,
+    num: 3, slug: 'mend-the-sheep-pen', season: 1, released: true,
     title: { en: 'Never Too Late to Mend the Sheep Pen', simp: '亡羊补牢', trad: '亡羊補牢' },
-    blurb: '', 
+    blurb: 'A stubborn king ignores a loyal minister\'s warnings, only to discover that even after a costly mistake, it may not be too late to make things right.', 
     runtime: '', pub: 'June 24, 2026', coverColor: '#C4994F', coverImage: '/img/covers/fix-sheep-pen_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/3Kl8xl2CSOP3FDiaAW9ZYI?si=sW6JPV2RTGOmFcNL2HQGKg',
+        youtube: 'https://youtu.be/LpsB91gnwRc',
         apple: '',
       },
       zh: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/7cUUIc96Pi8iWtyK01i1DN?si=CWk4xCTaQE2g9GZbtMsXsA',
+        youtube: 'https://youtu.be/oLUP8qtdYRA',
         apple: '',
       },
     },
