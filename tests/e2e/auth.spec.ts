@@ -62,6 +62,33 @@ test.describe('Auth modal', () => {
     await expect(page.locator('#modal-fullName')).not.toBeVisible();
   });
 
+  // ── Forgot password ───────────────────────────────────────────────────────
+
+  test('forgot password opens on first click without flickering', async ({ page }) => {
+    await openLoginModal(page);
+    await page.getByRole('button', { name: /Forgot password/i }).click();
+    // Modal must remain open and show the reset heading immediately — no double-click needed
+    await expect(page.locator('.overlay.open')).toBeVisible();
+    await expect(page.locator('.modal h2')).toHaveText('Reset password');
+  });
+
+  test('back arrow from forgot password returns to sign in', async ({ page }) => {
+    await openLoginModal(page);
+    await page.getByRole('button', { name: /Forgot password/i }).click();
+    await expect(page.locator('.modal h2')).toHaveText('Reset password');
+    await page.getByRole('button', { name: /← Back to sign in/i }).click();
+    await expect(page.locator('.modal h2')).toHaveText('Welcome back');
+  });
+
+  test('forgot password form shows success message after submitting email', async ({ page }) => {
+    await openLoginModal(page);
+    await page.getByRole('button', { name: /Forgot password/i }).click();
+    await page.locator('#forgot-email').fill('test@rounddoorstudio.com');
+    await page.locator('.btn-submit').click();
+    // Resend/Supabase can be slow on first call — use an extended timeout
+    await expect(page.locator('.modal-hint')).toContainText('Check your email', { timeout: 30_000 });
+  });
+
   // ── Validation / error ────────────────────────────────────────────────────
 
   test('invalid credentials show an error message', async ({ page }) => {
@@ -108,4 +135,41 @@ test('logout stays on the current page', async ({ page }) => {
   await page.waitForLoadState('networkidle');
   await expect(page).toHaveURL('/library');
   await expect(page.getByRole('button', { name: /^Login$/ })).toBeVisible();
+});
+
+// ── Welcome toast ─────────────────────────────────────────────────────────────
+test('welcome toast appears after successful login', async ({ page }) => {
+  test.skip(!process.env.TEST_USER_EMAIL, 'Requires TEST_USER_EMAIL / TEST_USER_PASSWORD in .env.local');
+  await page.goto('/');
+  await page.waitForLoadState('networkidle');
+  await login(page, process.env.TEST_USER_EMAIL!, process.env.TEST_USER_PASSWORD!);
+  await expect(page.locator('.toast--welcome')).toBeVisible();
+});
+
+// ── Session persistence ───────────────────────────────────────────────────────
+test('session persists after page refresh', async ({ page }) => {
+  test.skip(!process.env.TEST_USER_EMAIL, 'Requires TEST_USER_EMAIL / TEST_USER_PASSWORD in .env.local');
+  await page.goto('/');
+  await page.waitForLoadState('networkidle');
+  await login(page, process.env.TEST_USER_EMAIL!, process.env.TEST_USER_PASSWORD!);
+  await page.reload();
+  await page.waitForLoadState('networkidle');
+  await expect(page.locator('.nav-welcome')).toBeVisible();
+});
+
+test('/library stays accessible after login without being redirected away', async ({ page }) => {
+  test.skip(!process.env.TEST_USER_EMAIL, 'Requires TEST_USER_EMAIL / TEST_USER_PASSWORD in .env.local');
+  await page.goto('/library');
+  await page.waitForLoadState('networkidle');
+  await login(page, process.env.TEST_USER_EMAIL!, process.env.TEST_USER_PASSWORD!);
+  await expect(page).toHaveURL(/\/library/);
+  await expect(page.locator('.nav-welcome')).toBeVisible();
+});
+
+// ── Password reset page ───────────────────────────────────────────────────────
+test('/auth/reset-password page renders the form', async ({ page }) => {
+  await page.goto('/auth/reset-password');
+  await page.waitForLoadState('networkidle');
+  await expect(page.locator('h1')).toHaveText('Set a new password');
+  await expect(page.locator('input[name="password"]')).toBeVisible();
 });

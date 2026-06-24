@@ -32,8 +32,13 @@ export default async function globalSetup(config: FullConfig) {
   const browser = await chromium.launch();
 
   try{
-    const context = await browser.newContext();
-    const page    = await context.newPage();
+    const bypassSecret = process.env.VERCEL_AUTOMATION_BYPASS_SECRET;
+    const context = await browser.newContext({
+      ...(bypassSecret ? {
+        extraHTTPHeaders: { 'x-vercel-protection-bypass': bypassSecret },
+      } : {}),
+    });
+    const page = await context.newPage();
   
     await page.goto(baseURL);
     await page.waitForLoadState('networkidle');

@@ -5,6 +5,11 @@ import { config as loadEnv } from 'dotenv';
 // and any test.skip(!) guards can read them without a separate env step.
 loadEnv({ path: '.env.local' });
 
+// Set PLAYWRIGHT_BASE_URL to run against a remote target (e.g. a Vercel preview URL)
+// instead of spinning up a local dev server.
+const BASE_URL = process.env.PLAYWRIGHT_BASE_URL ?? 'http://localhost:3000';
+const isLocal  = BASE_URL.includes('localhost') || BASE_URL.includes('127.0.0.1');
+
 export default defineConfig({
   testDir: './tests/e2e',
   globalSetup: './tests/e2e/auth.setup.ts',
@@ -16,9 +21,12 @@ export default defineConfig({
   expect: { timeout: 15_000 },
   reporter: 'html',
   use: {
-    baseURL: 'http://localhost:3000',
+    baseURL: BASE_URL,
     trace: 'on-first-retry',
     actionTimeout: 15_000,
+    extraHTTPHeaders: process.env.VERCEL_AUTOMATION_BYPASS_SECRET
+      ? { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET }
+      : {},
   },
   projects: process.env.CI
     ? [
@@ -28,10 +36,12 @@ export default defineConfig({
     : [
         { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
       ],
-  webServer: {
-    command: process.env.CI ? 'npm start' : 'npm run dev',
-    url: 'http://localhost:3000',
-    reuseExistingServer: !process.env.CI,
-    timeout: 120_000,
-  },
+  ...(isLocal ? {
+    webServer: {
+      command: process.env.CI ? 'npm start' : 'npm run dev',
+      url: BASE_URL,
+      reuseExistingServer: !process.env.CI,
+      timeout: 120_000,
+    },
+  } : {}),
 });
