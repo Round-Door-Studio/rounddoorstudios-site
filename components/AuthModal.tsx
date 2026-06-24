@@ -62,7 +62,7 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
   // ── Single return — stable .modal div prevents CSS animation from re-firing ─
   return (
     <div className="overlay open" ref={overlayRef} onClick={handleOverlayClick}>
-      <div className="modal">
+      <div className="modal" onClick={e => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose} aria-label="Close">×</button>
 
         {view === 'forgot' ? (
