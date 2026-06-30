@@ -1,4 +1,4 @@
-import { rubyHtml, rubyHtmlHighlight, bpmfHtmlHighlight, escapeHtml } from '@/lib/ruby';
+import { rubyHtmlHighlight, bpmfHtmlHighlight, escapeHtml } from '@/lib/ruby';
 import type { VocabWord } from '@/lib/types';
 
 interface VocabSectionProps {
@@ -42,8 +42,6 @@ function VocabCard({ word }: { word: VocabWord }) {
       <span class="pack-vocab-ex-en">${escapeHtml(ex.en)}</span>
     </p>`;
   }
-
-  const simpPinyin = typeof word.simp === 'object' ? word.simp?.pinyin ?? '' : '';
 
   return (
     <article className="pack-vocab-card">

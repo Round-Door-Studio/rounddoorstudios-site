@@ -20,7 +20,13 @@ tsconfig.tsbuildinfo
 # Node
 node_modules/
 
+# Env files — never commit secrets
+.env
+.env.local
+.env.*.local
+
 # Test artifacts
 playwright-report/
 test-results/
+tests/e2e/.auth/
 

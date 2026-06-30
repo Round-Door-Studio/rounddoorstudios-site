@@ -6,6 +6,7 @@ import { ReadAlong } from './ReadAlong';
 import { VocabSection } from './VocabSection';
 import { QuestionsSection } from './QuestionsSection';
 import { ActivitiesSection } from './ActivitiesSection';
+import { LockedStoryPack } from './LockedStoryPack';
 import type { StoryPageContent } from '@/lib/types';
 
 type TabId = 'read' | 'words' | 'questions' | 'explore';
@@ -19,12 +20,25 @@ const TABS: { id: TabId; icon: string; label: string }[] = [
 ];
 
 interface StoryPackProps {
-  content: StoryPageContent;
+  content: StoryPageContent | null;
+  showLockedView: boolean;
+  isFreeStory: boolean;
+  vocabCount: number;
+  questionCount: number;
+  activityCount: number;
 }
 
-export function StoryPack({ content }: StoryPackProps) {
+export function StoryPack({
+  content,
+  showLockedView,
+  isFreeStory,
+  vocabCount,
+  questionCount,
+  activityCount,
+}: StoryPackProps) {
   const { script, setScript } = useScript();
   const [activeTab, setActiveTab] = useState<TabId>('read');
+  const [revealed, setRevealed] = useState(false);
   const [readingMode, setReadingMode] = useState<ReadingMode>('simp');
   // Tracks the last simp/trad choice so the toggle can revert when leaving compare mode
   const [baseMode, setBaseMode] = useState<'simp' | 'trad'>('simp');
@@ -53,7 +67,19 @@ export function StoryPack({ content }: StoryPackProps) {
     window.print();
   }
 
-  const lines = content.story.readAlong?.lines ?? content.story.lines ?? [];
+  if (showLockedView && !revealed) {
+    return (
+      <LockedStoryPack
+        isFreeStory={isFreeStory}
+        onReveal={() => setRevealed(true)}
+        vocabCount={vocabCount}
+        questionCount={questionCount}
+        activityCount={activityCount}
+      />
+    );
+  }
+
+  const lines = content?.story.readAlong?.lines ?? content?.story.lines ?? [];
 
   return (
     <div>
@@ -140,7 +166,7 @@ export function StoryPack({ content }: StoryPackProps) {
           aria-labelledby="pack-tab-words"
           hidden={activeTab !== 'words'}
         >
-          <VocabSection vocab={content.vocab.vocab} />
+          <VocabSection vocab={content?.vocab.vocab ?? []} />
         </div>
 
         <div
@@ -150,7 +176,7 @@ export function StoryPack({ content }: StoryPackProps) {
           aria-labelledby="pack-tab-questions"
           hidden={activeTab !== 'questions'}
         >
-          <QuestionsSection questions={content.questions} />
+          <QuestionsSection questions={content?.questions ?? { slug: '', open: [], beyond: [] }} />
         </div>
 
         <div
@@ -160,7 +186,7 @@ export function StoryPack({ content }: StoryPackProps) {
           aria-labelledby="pack-tab-explore"
           hidden={activeTab !== 'explore'}
         >
-          <ActivitiesSection activities={content.activities} />
+          <ActivitiesSection activities={content?.activities ?? { slug: '', activities: [] }} />
         </div>
       </div>
     </div>

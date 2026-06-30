@@ -1,0 +1,4611 @@
+{
+  "slug": "never-too-late-to-mend-the-sheep-pen",
+  "activities": [
+    {
+      "id": "a001",
+      "title": {
+        "en": "Mend the Sheep Pen",
+        "simp": {
+          "text": "补好羊圈",
+          "pinyin": [
+            {
+              "text": "补",
+              "reading": "bǔ"
+            },
+            {
+              "text": "好",
+              "reading": "hǎo"
+            },
+            {
+              "text": "羊",
+              "reading": "yáng"
+            },
+            {
+              "text": "圈",
+              "reading": "juàn"
+            }
+          ]
+        },
+        "trad": {
+          "text": "補好羊圈",
+          "zhuyin": [
+            {
+              "text": "補",
+              "reading": "ㄅㄨˇ"
+            },
+            {
+              "text": "好",
+              "reading": "ㄏㄠˇ"
+            },
+            {
+              "text": "羊",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "圈",
+              "reading": "ㄐㄩㄢˋ"
+            }
+          ],
+          "bpmf": "補好羊圈󠇡"
+        }
+      },
+      "desc": {
+        "en": "Make a little sheep pen out of paper and popsicle sticks. Let one sheep slip out through a hole in the fence, then mend the hole so the rest of the flock stays safe.",
+        "simp": {
+          "text": "用纸和冰棒棍做一个小羊圈。让一只羊从栅栏的破洞跑出去，再把破洞补好，保护其他的羊。",
+          "pinyin": [
+            {
+              "text": "用",
+              "reading": "yòng"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "和",
+              "reading": "hé"
+            },
+            {
+              "text": "冰",
+              "reading": "bīng"
+            },
+            {
+              "text": "棒",
+              "reading": "bàng"
+            },
+            {
+              "text": "棍",
+              "reading": "gùn"
+            },
+            {
+              "text": "做",
+              "reading": "zuò"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "羊",
+              "reading": "yáng"
+            },
+            {
+              "text": "圈",
+              "reading": "juàn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "让",
+              "reading": "ràng"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "只",
+              "reading": "zhī"
+            },
+            {
+              "text": "羊",
+              "reading": "yáng"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "栅",
+              "reading": "zhà"
+            },
+            {
+              "text": "栏",
+              "reading": "lán"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "破",
+              "reading": "pò"
+            },
+            {
+              "text": "洞",
+              "reading": "dòng"
+            },
+            {
+              "text": "跑",
+              "reading": "pǎo"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "去",
+              "reading": "qù"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "破",
+              "reading": "pò"
+            },
+            {
+              "text": "洞",
+              "reading": "dòng"
+            },
+            {
+              "text": "补",
+              "reading": "bǔ"
+            },
+            {
+              "text": "好",
+              "reading": "hǎo"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "保",
+              "reading": "bǎo"
+            },
+            {
+              "text": "护",
+              "reading": "hù"
+            },
+            {
+              "text": "其",
+              "reading": "qí"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "羊",
+              "reading": "yáng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "用紙和冰棒棍做一個小羊圈。讓一隻羊從柵欄的破洞跑出去，再把破洞補好，保護其他的羊。",
+          "zhuyin": [
+            {
+              "text": "用",
+              "reading": "ㄩㄥˋ"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "和",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "冰",
+              "reading": "ㄅㄧㄥ"
+            },
+            {
+              "text": "棒",
+              "reading": "ㄅㄤˋ"
+            },
+            {
+              "text": "棍",
+              "reading": "ㄍㄨㄣˋ"
+            },
+            {
+              "text": "做",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "羊",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "圈",
+              "reading": "ㄐㄩㄢˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "讓",
+              "reading": "ㄖㄤˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "隻",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "羊",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "柵",
+              "reading": "ㄓㄚˋ"
+            },
+            {
+              "text": "欄",
+              "reading": "ㄌㄢˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "破",
+              "reading": "ㄆㄛˋ"
+            },
+            {
+              "text": "洞",
+              "reading": "ㄉㄨㄥˋ"
+            },
+            {
+              "text": "跑",
+              "reading": "ㄆㄠˇ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "去",
+              "reading": "ㄑㄩˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "破",
+              "reading": "ㄆㄛˋ"
+            },
+            {
+              "text": "洞",
+              "reading": "ㄉㄨㄥˋ"
+            },
+            {
+              "text": "補",
+              "reading": "ㄅㄨˇ"
+            },
+            {
+              "text": "好",
+              "reading": "ㄏㄠˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "保",
+              "reading": "ㄅㄠˇ"
+            },
+            {
+              "text": "護",
+              "reading": "ㄏㄨˋ"
+            },
+            {
+              "text": "其",
+              "reading": "ㄑㄧˊ"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "羊",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "用紙和冰棒棍做一󠇡個󠇡小羊圈󠇡。讓一󠇢隻羊從柵欄的破洞跑出去，再把破洞補好，保護其他的羊。"
+        }
+      },
+      "time": {
+        "en": "15 to 20 minutes",
+        "simp": {
+          "text": "15 到 20 分钟",
+          "pinyin": [
+            {
+              "text": "1",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "2",
+              "reading": ""
+            },
+            {
+              "text": "0",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "15 到 20 分鐘",
+          "zhuyin": [
+            {
+              "text": "1",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "2",
+              "reading": ""
+            },
+            {
+              "text": "0",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "15 到 20 分鐘"
+        }
+      },
+      "accent": "#5C8358",
+      "materials": [
+        {
+          "en": "Paper",
+          "simp": {
+            "text": "纸",
+            "pinyin": [
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "紙",
+            "zhuyin": [
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "紙"
+          }
+        },
+        {
+          "en": "Popsicle sticks",
+          "simp": {
+            "text": "冰棒棍",
+            "pinyin": [
+              {
+                "text": "冰",
+                "reading": "bīng"
+              },
+              {
+                "text": "棒",
+                "reading": "bàng"
+              },
+              {
+                "text": "棍",
+                "reading": "gùn"
+              }
+            ]
+          },
+          "trad": {
+            "text": "冰棒棍",
+            "zhuyin": [
+              {
+                "text": "冰",
+                "reading": "ㄅㄧㄥ"
+              },
+              {
+                "text": "棒",
+                "reading": "ㄅㄤˋ"
+              },
+              {
+                "text": "棍",
+                "reading": "ㄍㄨㄣˋ"
+              }
+            ],
+            "bpmf": "冰棒棍"
+          }
+        },
+        {
+          "en": "Scissors",
+          "simp": {
+            "text": "剪刀",
+            "pinyin": [
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "刀",
+                "reading": "dāo"
+              }
+            ]
+          },
+          "trad": {
+            "text": "剪刀",
+            "zhuyin": [
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "刀",
+                "reading": "ㄉㄠ"
+              }
+            ],
+            "bpmf": "剪刀"
+          }
+        },
+        {
+          "en": "Tape",
+          "simp": {
+            "text": "胶带",
+            "pinyin": [
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              }
+            ]
+          },
+          "trad": {
+            "text": "膠帶",
+            "zhuyin": [
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              }
+            ],
+            "bpmf": "膠帶"
+          }
+        },
+        {
+          "en": "Cotton balls (for the sheep)",
+          "simp": {
+            "text": "棉花球",
+            "pinyin": [
+              {
+                "text": "棉",
+                "reading": "mián"
+              },
+              {
+                "text": "花",
+                "reading": "huā"
+              },
+              {
+                "text": "球",
+                "reading": "qiú"
+              }
+            ]
+          },
+          "trad": {
+            "text": "棉花球",
+            "zhuyin": [
+              {
+                "text": "棉",
+                "reading": "ㄇㄧㄢˊ"
+              },
+              {
+                "text": "花",
+                "reading": "ㄏㄨㄚ"
+              },
+              {
+                "text": "球",
+                "reading": "ㄑㄧㄡˊ"
+              }
+            ],
+            "bpmf": "棉花球"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "On the paper, draw a square to be the floor of the pen.",
+          "simp": {
+            "text": "在纸上画一个方形，当作羊圈的地面。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "形",
+                "reading": "xíng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "当",
+                "reading": "dang"
+              },
+              {
+                "text": "作",
+                "reading": "zuò"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "圈",
+                "reading": "juàn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在紙上畫一個方形，當作羊圈的地面。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "形",
+                "reading": "ㄒㄧㄥˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "當",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "作",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄐㄩㄢˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在紙上畫一󠇡個󠇡方形，當作羊圈󠇡的地面。"
+          }
+        },
+        {
+          "en": "Stand the popsicle sticks up around the square and tape them down to make fence posts.",
+          "simp": {
+            "text": "把冰棒棍一根一根立在方形的边上，用胶带固定，做成栅栏。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "冰",
+                "reading": "bīng"
+              },
+              {
+                "text": "棒",
+                "reading": "bàng"
+              },
+              {
+                "text": "棍",
+                "reading": "gùn"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "根",
+                "reading": "gēn"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "根",
+                "reading": "gēn"
+              },
+              {
+                "text": "立",
+                "reading": "lì"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "形",
+                "reading": "xíng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              },
+              {
+                "text": "固",
+                "reading": "gù"
+              },
+              {
+                "text": "定",
+                "reading": "dìng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "做",
+                "reading": "zuò"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "栅",
+                "reading": "zhà"
+              },
+              {
+                "text": "栏",
+                "reading": "lán"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把冰棒棍一根一根立在方形的邊上，用膠帶固定，做成柵欄。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "冰",
+                "reading": "ㄅㄧㄥ"
+              },
+              {
+                "text": "棒",
+                "reading": "ㄅㄤˋ"
+              },
+              {
+                "text": "棍",
+                "reading": "ㄍㄨㄣˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "根",
+                "reading": "ㄍㄣ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "根",
+                "reading": "ㄍㄣ"
+              },
+              {
+                "text": "立",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "形",
+                "reading": "ㄒㄧㄥˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "固",
+                "reading": "ㄍㄨˋ"
+              },
+              {
+                "text": "定",
+                "reading": "ㄉㄧㄥˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "做",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "柵",
+                "reading": "ㄓㄚˋ"
+              },
+              {
+                "text": "欄",
+                "reading": "ㄌㄢˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把冰棒棍一󠇢根一󠇢根立在方形的邊上，用膠帶固定，做成柵欄。"
+          }
+        },
+        {
+          "en": "Cut the paper into thin strips and tape them across the sticks as the fence rails.",
+          "simp": {
+            "text": "把纸剪成细长条，贴在冰棒棍上，当作栅栏的横杆。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "细",
+                "reading": "xì"
+              },
+              {
+                "text": "长",
+                "reading": "cháng"
+              },
+              {
+                "text": "条",
+                "reading": "tiáo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "冰",
+                "reading": "bīng"
+              },
+              {
+                "text": "棒",
+                "reading": "bàng"
+              },
+              {
+                "text": "棍",
+                "reading": "gùn"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "当",
+                "reading": "dang"
+              },
+              {
+                "text": "作",
+                "reading": "zuò"
+              },
+              {
+                "text": "栅",
+                "reading": "zhà"
+              },
+              {
+                "text": "栏",
+                "reading": "lán"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "横",
+                "reading": "héng"
+              },
+              {
+                "text": "杆",
+                "reading": "gān"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把紙剪成細長條，貼在冰棒棍上，當作柵欄的橫桿。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "細",
+                "reading": "ㄒㄧˋ"
+              },
+              {
+                "text": "長",
+                "reading": "ㄔㄤˊ"
+              },
+              {
+                "text": "條",
+                "reading": "ㄊㄧㄠˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "冰",
+                "reading": "ㄅㄧㄥ"
+              },
+              {
+                "text": "棒",
+                "reading": "ㄅㄤˋ"
+              },
+              {
+                "text": "棍",
+                "reading": "ㄍㄨㄣˋ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "當",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "作",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "柵",
+                "reading": "ㄓㄚˋ"
+              },
+              {
+                "text": "欄",
+                "reading": "ㄌㄢˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "橫",
+                "reading": "ㄏㄥˊ"
+              },
+              {
+                "text": "桿",
+                "reading": "ㄍㄢ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把紙剪成細長條，貼在冰棒棍上，當作柵欄的橫桿。"
+          }
+        },
+        {
+          "en": "Put your cotton-ball sheep inside the pen.",
+          "simp": {
+            "text": "把棉花球做成的羊放进羊圈里。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "棉",
+                "reading": "mián"
+              },
+              {
+                "text": "花",
+                "reading": "huā"
+              },
+              {
+                "text": "球",
+                "reading": "qiú"
+              },
+              {
+                "text": "做",
+                "reading": "zuò"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "放",
+                "reading": "fàng"
+              },
+              {
+                "text": "进",
+                "reading": "jìn"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "圈",
+                "reading": "juàn"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把棉花球做成的羊放進羊圈裡。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "棉",
+                "reading": "ㄇㄧㄢˊ"
+              },
+              {
+                "text": "花",
+                "reading": "ㄏㄨㄚ"
+              },
+              {
+                "text": "球",
+                "reading": "ㄑㄧㄡˊ"
+              },
+              {
+                "text": "做",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "放",
+                "reading": "ㄈㄤˋ"
+              },
+              {
+                "text": "進",
+                "reading": "ㄐㄧㄣˋ"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄐㄩㄢˋ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把棉花球做成的羊放進羊圈󠇡裡。"
+          }
+        },
+        {
+          "en": "Tear a hole in the paper fence and let one sheep slip out.",
+          "simp": {
+            "text": "在纸栅栏上撕一个破洞，让一只羊跑出去。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "栅",
+                "reading": "zhà"
+              },
+              {
+                "text": "栏",
+                "reading": "lán"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "撕",
+                "reading": "sī"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "破",
+                "reading": "pò"
+              },
+              {
+                "text": "洞",
+                "reading": "dòng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "只",
+                "reading": "zhī"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "跑",
+                "reading": "pǎo"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "去",
+                "reading": "qù"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在紙柵欄上撕一個破洞，讓一隻羊跑出去。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "柵",
+                "reading": "ㄓㄚˋ"
+              },
+              {
+                "text": "欄",
+                "reading": "ㄌㄢˊ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "撕",
+                "reading": "ㄙ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "破",
+                "reading": "ㄆㄛˋ"
+              },
+              {
+                "text": "洞",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "隻",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "跑",
+                "reading": "ㄆㄠˇ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "去",
+                "reading": "ㄑㄩˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在紙柵欄上撕一󠇡個󠇡破洞，讓一󠇢隻羊跑出去。"
+          }
+        },
+        {
+          "en": "Now mend the fence: tape a new paper strip over the hole so no more sheep can escape.",
+          "simp": {
+            "text": "现在用新的纸条把破洞补好，这样羊就不会再跑掉了。",
+            "pinyin": [
+              {
+                "text": "现",
+                "reading": "xiàn"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "新",
+                "reading": "xīn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "条",
+                "reading": "tiáo"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "破",
+                "reading": "pò"
+              },
+              {
+                "text": "洞",
+                "reading": "dòng"
+              },
+              {
+                "text": "补",
+                "reading": "bǔ"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "不",
+                "reading": "bú"
+              },
+              {
+                "text": "会",
+                "reading": "huì"
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "跑",
+                "reading": "pǎo"
+              },
+              {
+                "text": "掉",
+                "reading": "diào"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "現在用新的紙條把破洞補好，這樣羊就不會再跑掉了。",
+            "zhuyin": [
+              {
+                "text": "現",
+                "reading": "ㄒㄧㄢˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "新",
+                "reading": "ㄒㄧㄣ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "條",
+                "reading": "ㄊㄧㄠˊ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "破",
+                "reading": "ㄆㄛˋ"
+              },
+              {
+                "text": "洞",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "補",
+                "reading": "ㄅㄨˇ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˊ"
+              },
+              {
+                "text": "會",
+                "reading": "ㄏㄨㄟˋ"
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "跑",
+                "reading": "ㄆㄠˇ"
+              },
+              {
+                "text": "掉",
+                "reading": "ㄉㄧㄠˋ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "現在用新的紙條把破洞補好，這樣羊就不󠇡會再跑掉了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a002",
+      "title": {
+        "en": "Four-Panel Idiom Comic",
+        "simp": {
+          "text": "四格成语漫画",
+          "pinyin": [
+            {
+              "text": "四",
+              "reading": "sì"
+            },
+            {
+              "text": "格",
+              "reading": "gé"
+            },
+            {
+              "text": "成",
+              "reading": "chéng"
+            },
+            {
+              "text": "语",
+              "reading": "yǔ"
+            },
+            {
+              "text": "漫",
+              "reading": "màn"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            }
+          ]
+        },
+        "trad": {
+          "text": "四格成語漫畫",
+          "zhuyin": [
+            {
+              "text": "四",
+              "reading": "ㄙˋ"
+            },
+            {
+              "text": "格",
+              "reading": "ㄍㄜˊ"
+            },
+            {
+              "text": "成",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "語",
+              "reading": "ㄩˇ"
+            },
+            {
+              "text": "漫",
+              "reading": "ㄇㄢˋ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            }
+          ],
+          "bpmf": "四格成語漫畫"
+        }
+      },
+      "desc": {
+        "en": "Fold paper into four boxes and draw the idiom step by step: a full pen, a hole with a lost sheep, mending the pen, and the safe flock.",
+        "simp": {
+          "text": "把纸折成四格，一步一步画出这个成语：满满的羊圈、破洞和走失的羊、动手补洞、平安的羊群。",
+          "pinyin": [
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "折",
+              "reading": "zhé"
+            },
+            {
+              "text": "成",
+              "reading": "chéng"
+            },
+            {
+              "text": "四",
+              "reading": "sì"
+            },
+            {
+              "text": "格",
+              "reading": "gé"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "步",
+              "reading": "bù"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "步",
+              "reading": "bù"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "成",
+              "reading": "chéng"
+            },
+            {
+              "text": "语",
+              "reading": "yǔ"
+            },
+            {
+              "text": "：",
+              "reading": ""
+            },
+            {
+              "text": "满",
+              "reading": "mǎn"
+            },
+            {
+              "text": "满",
+              "reading": "mǎn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "羊",
+              "reading": "yáng"
+            },
+            {
+              "text": "圈",
+              "reading": "juàn"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "破",
+              "reading": "pò"
+            },
+            {
+              "text": "洞",
+              "reading": "dòng"
+            },
+            {
+              "text": "和",
+              "reading": "hé"
+            },
+            {
+              "text": "走",
+              "reading": "zǒu"
+            },
+            {
+              "text": "失",
+              "reading": "shī"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "羊",
+              "reading": "yáng"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "动",
+              "reading": "dòng"
+            },
+            {
+              "text": "手",
+              "reading": "shǒu"
+            },
+            {
+              "text": "补",
+              "reading": "bǔ"
+            },
+            {
+              "text": "洞",
+              "reading": "dòng"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "平",
+              "reading": "píng"
+            },
+            {
+              "text": "安",
+              "reading": "ān"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "羊",
+              "reading": "yáng"
+            },
+            {
+              "text": "群",
+              "reading": "qún"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "把紙摺成四格，一步一步畫出這個成語：滿滿的羊圈、破洞和走失的羊、動手補洞、平安的羊群。",
+          "zhuyin": [
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "摺",
+              "reading": "ㄓㄜˊ"
+            },
+            {
+              "text": "成",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "四",
+              "reading": "ㄙˋ"
+            },
+            {
+              "text": "格",
+              "reading": "ㄍㄜˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "步",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "步",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "成",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "語",
+              "reading": "ㄩˇ"
+            },
+            {
+              "text": "：",
+              "reading": ""
+            },
+            {
+              "text": "滿",
+              "reading": "ㄇㄢˇ"
+            },
+            {
+              "text": "滿",
+              "reading": "ㄇㄢˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "羊",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "圈",
+              "reading": "ㄐㄩㄢˋ"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "破",
+              "reading": "ㄆㄛˋ"
+            },
+            {
+              "text": "洞",
+              "reading": "ㄉㄨㄥˋ"
+            },
+            {
+              "text": "和",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "走",
+              "reading": "ㄗㄡˇ"
+            },
+            {
+              "text": "失",
+              "reading": "ㄕ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "羊",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "動",
+              "reading": "ㄉㄨㄥˋ"
+            },
+            {
+              "text": "手",
+              "reading": "ㄕㄡˇ"
+            },
+            {
+              "text": "補",
+              "reading": "ㄅㄨˇ"
+            },
+            {
+              "text": "洞",
+              "reading": "ㄉㄨㄥˋ"
+            },
+            {
+              "text": "、",
+              "reading": ""
+            },
+            {
+              "text": "平",
+              "reading": "ㄆㄧㄥˊ"
+            },
+            {
+              "text": "安",
+              "reading": "ㄢ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "羊",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "群",
+              "reading": "ㄑㄩㄣˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "把紙摺成四格，一󠇡步一󠇡步畫出這個󠇡成語：滿滿的羊圈󠇡、破洞和走失的羊、動手補洞、平安的羊群。"
+        }
+      },
+      "time": {
+        "en": "20 to 25 minutes",
+        "simp": {
+          "text": "20 到 25 分钟",
+          "pinyin": [
+            {
+              "text": "2",
+              "reading": ""
+            },
+            {
+              "text": "0",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "2",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "20 到 25 分鐘",
+          "zhuyin": [
+            {
+              "text": "2",
+              "reading": ""
+            },
+            {
+              "text": "0",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "2",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "20 到 25 分鐘"
+        }
+      },
+      "accent": "#C77B3B",
+      "materials": [
+        {
+          "en": "paper",
+          "simp": {
+            "text": "纸",
+            "pinyin": [
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "紙",
+            "zhuyin": [
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "紙"
+          }
+        },
+        {
+          "en": "crayons or markers",
+          "simp": {
+            "text": "蜡笔或彩色笔",
+            "pinyin": [
+              {
+                "text": "蜡",
+                "reading": "là"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "蠟筆或彩色筆",
+            "zhuyin": [
+              {
+                "text": "蠟",
+                "reading": "ㄌㄚˋ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "蠟筆或彩色筆"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Fold the paper in half twice to make four boxes.",
+          "simp": {
+            "text": "把纸对折两次，分成四格。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "对",
+                "reading": "duì"
+              },
+              {
+                "text": "折",
+                "reading": "zhé"
+              },
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "次",
+                "reading": "cì"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "分",
+                "reading": "fēn"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "四",
+                "reading": "sì"
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把紙對摺兩次，分成四格。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "對",
+                "reading": "ㄉㄨㄟˋ"
+              },
+              {
+                "text": "摺",
+                "reading": "ㄓㄜˊ"
+              },
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "次",
+                "reading": "ㄘˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "分",
+                "reading": "ㄈㄣ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "四",
+                "reading": "ㄙˋ"
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把紙對摺兩次，分成四格。"
+          }
+        },
+        {
+          "en": "In box one, draw a full pen with all the sheep safe inside.",
+          "simp": {
+            "text": "在第一格画满满的羊圈，羊都很安全。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "一",
+                "reading": "yī"
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "满",
+                "reading": "mǎn"
+              },
+              {
+                "text": "满",
+                "reading": "mǎn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "圈",
+                "reading": "juàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "很",
+                "reading": "hěn"
+              },
+              {
+                "text": "安",
+                "reading": "ān"
+              },
+              {
+                "text": "全",
+                "reading": "quán"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在第一格畫滿滿的羊圈，羊都很安全。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧ"
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "滿",
+                "reading": "ㄇㄢˇ"
+              },
+              {
+                "text": "滿",
+                "reading": "ㄇㄢˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄐㄩㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "很",
+                "reading": "ㄏㄣˇ"
+              },
+              {
+                "text": "安",
+                "reading": "ㄢ"
+              },
+              {
+                "text": "全",
+                "reading": "ㄑㄩㄢˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在第一格畫滿滿的羊圈󠇡，羊都很安全。"
+          }
+        },
+        {
+          "en": "In box two, draw the broken hole and a sheep that has wandered away.",
+          "simp": {
+            "text": "在第二格画破洞，还有一只走失的羊。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "二",
+                "reading": "èr"
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "破",
+                "reading": "pò"
+              },
+              {
+                "text": "洞",
+                "reading": "dòng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "还",
+                "reading": "hái"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "只",
+                "reading": "zhī"
+              },
+              {
+                "text": "走",
+                "reading": "zǒu"
+              },
+              {
+                "text": "失",
+                "reading": "shī"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在第二格畫破洞，還有一隻走失的羊。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "二",
+                "reading": "ㄦˋ"
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "破",
+                "reading": "ㄆㄛˋ"
+              },
+              {
+                "text": "洞",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "還",
+                "reading": "ㄏㄞˊ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "隻",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "走",
+                "reading": "ㄗㄡˇ"
+              },
+              {
+                "text": "失",
+                "reading": "ㄕ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在第二格畫破洞，還󠇡有一󠇢隻走失的羊。"
+          }
+        },
+        {
+          "en": "In box three, draw someone mending the hole in the fence.",
+          "simp": {
+            "text": "在第三格画有人正在补栅栏的破洞。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "三",
+                "reading": "sān"
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "正",
+                "reading": "zhèng"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "补",
+                "reading": "bǔ"
+              },
+              {
+                "text": "栅",
+                "reading": "zhà"
+              },
+              {
+                "text": "栏",
+                "reading": "lán"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "破",
+                "reading": "pò"
+              },
+              {
+                "text": "洞",
+                "reading": "dòng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在第三格畫有人正在補柵欄的破洞。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "三",
+                "reading": "ㄙㄢ"
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "正",
+                "reading": "ㄓㄥˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "補",
+                "reading": "ㄅㄨˇ"
+              },
+              {
+                "text": "柵",
+                "reading": "ㄓㄚˋ"
+              },
+              {
+                "text": "欄",
+                "reading": "ㄌㄢˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "破",
+                "reading": "ㄆㄛˋ"
+              },
+              {
+                "text": "洞",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在第三格畫有人正在補柵欄的破洞。"
+          }
+        },
+        {
+          "en": "In box four, draw the mended pen with every sheep safe again.",
+          "simp": {
+            "text": "在第四格画补好的羊圈，每只羊都平安了。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "四",
+                "reading": "sì"
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "补",
+                "reading": "bǔ"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "圈",
+                "reading": "juàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "只",
+                "reading": "zhī"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "平",
+                "reading": "píng"
+              },
+              {
+                "text": "安",
+                "reading": "ān"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在第四格畫補好的羊圈，每隻羊都平安了。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "四",
+                "reading": "ㄙˋ"
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "補",
+                "reading": "ㄅㄨˇ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄐㄩㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "隻",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "平",
+                "reading": "ㄆㄧㄥˊ"
+              },
+              {
+                "text": "安",
+                "reading": "ㄢ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在第四格畫補好的羊圈󠇡，每隻羊都平安了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a003",
+      "title": {
+        "en": "Mend-the-Pen Banner",
+        "simp": {
+          "text": "「亡羊补牢」红纸条",
+          "pinyin": [
+            {
+              "text": "「",
+              "reading": ""
+            },
+            {
+              "text": "亡",
+              "reading": "wáng"
+            },
+            {
+              "text": "羊",
+              "reading": "yáng"
+            },
+            {
+              "text": "补",
+              "reading": "bǔ"
+            },
+            {
+              "text": "牢",
+              "reading": "láo"
+            },
+            {
+              "text": "」",
+              "reading": ""
+            },
+            {
+              "text": "红",
+              "reading": "hóng"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "条",
+              "reading": "tiáo"
+            }
+          ]
+        },
+        "trad": {
+          "text": "「亡羊補牢」紅紙條",
+          "zhuyin": [
+            {
+              "text": "「",
+              "reading": ""
+            },
+            {
+              "text": "亡",
+              "reading": "ㄨㄤˊ"
+            },
+            {
+              "text": "羊",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "補",
+              "reading": "ㄅㄨˇ"
+            },
+            {
+              "text": "牢",
+              "reading": "ㄌㄠˊ"
+            },
+            {
+              "text": "」",
+              "reading": ""
+            },
+            {
+              "text": "紅",
+              "reading": "ㄏㄨㄥˊ"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "條",
+              "reading": "ㄊㄧㄠˊ"
+            }
+          ],
+          "bpmf": "「亡羊補牢」紅紙條"
+        }
+      },
+      "desc": {
+        "en": "Write the idiom wang yang bu lao (never too late to mend the sheep pen) on a red paper strip like a Chinese calligraphy banner. Then, on the back, write one thing you want to start putting right today.",
+        "simp": {
+          "text": "在红纸条上写下「亡羊补牢」这个成语，就像中国的书法条幅一样。再在背面写一件你从今天开始想要改正的事。",
+          "pinyin": [
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "红",
+              "reading": "hóng"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "条",
+              "reading": "tiáo"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "写",
+              "reading": "xiě"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "「",
+              "reading": ""
+            },
+            {
+              "text": "亡",
+              "reading": "wáng"
+            },
+            {
+              "text": "羊",
+              "reading": "yáng"
+            },
+            {
+              "text": "补",
+              "reading": "bǔ"
+            },
+            {
+              "text": "牢",
+              "reading": "láo"
+            },
+            {
+              "text": "」",
+              "reading": ""
+            },
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "成",
+              "reading": "chéng"
+            },
+            {
+              "text": "语",
+              "reading": "yǔ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "像",
+              "reading": "xiàng"
+            },
+            {
+              "text": "中",
+              "reading": "zhōng"
+            },
+            {
+              "text": "国",
+              "reading": "guó"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "书",
+              "reading": "shū"
+            },
+            {
+              "text": "法",
+              "reading": "fǎ"
+            },
+            {
+              "text": "条",
+              "reading": "tiáo"
+            },
+            {
+              "text": "幅",
+              "reading": "fú"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "样",
+              "reading": "yàng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "背",
+              "reading": "bèi"
+            },
+            {
+              "text": "面",
+              "reading": "miàn"
+            },
+            {
+              "text": "写",
+              "reading": "xiě"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "件",
+              "reading": "jiàn"
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "今",
+              "reading": "jīn"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "始",
+              "reading": "shǐ"
+            },
+            {
+              "text": "想",
+              "reading": "xiǎng"
+            },
+            {
+              "text": "要",
+              "reading": "yào"
+            },
+            {
+              "text": "改",
+              "reading": "gǎi"
+            },
+            {
+              "text": "正",
+              "reading": "zhèng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "事",
+              "reading": "shì"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "在紅紙條上寫下「亡羊補牢」這個成語，就像中國的書法條幅一樣。再在背面寫一件你從今天開始想要改正的事。",
+          "zhuyin": [
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "紅",
+              "reading": "ㄏㄨㄥˊ"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "條",
+              "reading": "ㄊㄧㄠˊ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "寫",
+              "reading": "ㄒㄧㄝˇ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "「",
+              "reading": ""
+            },
+            {
+              "text": "亡",
+              "reading": "ㄨㄤˊ"
+            },
+            {
+              "text": "羊",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "補",
+              "reading": "ㄅㄨˇ"
+            },
+            {
+              "text": "牢",
+              "reading": "ㄌㄠˊ"
+            },
+            {
+              "text": "」",
+              "reading": ""
+            },
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "成",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "語",
+              "reading": "ㄩˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "像",
+              "reading": "ㄒㄧㄤˋ"
+            },
+            {
+              "text": "中",
+              "reading": "ㄓㄨㄥ"
+            },
+            {
+              "text": "國",
+              "reading": "ㄍㄨㄛˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "書",
+              "reading": "ㄕㄨ"
+            },
+            {
+              "text": "法",
+              "reading": "ㄈㄚˇ"
+            },
+            {
+              "text": "條",
+              "reading": "ㄊㄧㄠˊ"
+            },
+            {
+              "text": "幅",
+              "reading": "ㄈㄨˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "樣",
+              "reading": "ㄧㄤˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "背",
+              "reading": "ㄅㄟˋ"
+            },
+            {
+              "text": "面",
+              "reading": "ㄇㄧㄢˋ"
+            },
+            {
+              "text": "寫",
+              "reading": "ㄒㄧㄝˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "件",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "今",
+              "reading": "ㄐㄧㄣ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "始",
+              "reading": "ㄕˇ"
+            },
+            {
+              "text": "想",
+              "reading": "ㄒㄧㄤˇ"
+            },
+            {
+              "text": "要",
+              "reading": "ㄧㄠˋ"
+            },
+            {
+              "text": "改",
+              "reading": "ㄍㄞˇ"
+            },
+            {
+              "text": "正",
+              "reading": "ㄓㄥˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "事",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "在紅紙條上寫下「亡羊補牢」這個󠇡成語，就像中國的書法條幅一󠇡樣。再在背面寫一󠇡件你從今天開始想要改正的事。"
+        }
+      },
+      "time": {
+        "en": "25 to 30 minutes",
+        "simp": {
+          "text": "25 到 30 分钟",
+          "pinyin": [
+            {
+              "text": "2",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "3",
+              "reading": ""
+            },
+            {
+              "text": "0",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "25 到 30 分鐘",
+          "zhuyin": [
+            {
+              "text": "2",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "3",
+              "reading": ""
+            },
+            {
+              "text": "0",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "25 到 30 分鐘"
+        }
+      },
+      "accent": "#C0392B",
+      "materials": [
+        {
+          "en": "red paper strip",
+          "simp": {
+            "text": "红纸条",
+            "pinyin": [
+              {
+                "text": "红",
+                "reading": "hóng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "条",
+                "reading": "tiáo"
+              }
+            ]
+          },
+          "trad": {
+            "text": "紅紙條",
+            "zhuyin": [
+              {
+                "text": "紅",
+                "reading": "ㄏㄨㄥˊ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "條",
+                "reading": "ㄊㄧㄠˊ"
+              }
+            ],
+            "bpmf": "紅紙條"
+          }
+        },
+        {
+          "en": "a brush or black marker",
+          "simp": {
+            "text": "毛笔或黑色笔",
+            "pinyin": [
+              {
+                "text": "毛",
+                "reading": "máo"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "黑",
+                "reading": "hēi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "毛筆或黑色筆",
+            "zhuyin": [
+              {
+                "text": "毛",
+                "reading": "ㄇㄠˊ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "黑",
+                "reading": "ㄏㄟ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "毛筆或黑色筆"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "On the front of the red strip, write the idiom wang yang bu lao (never too late to mend the sheep pen) from top to bottom. You can copy the four Chinese characters 亡羊補牢, or write the pinyin.",
+          "simp": {
+            "text": "在红纸条的正面，从上到下写出「亡羊补牢」四个字。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "红",
+                "reading": "hóng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "条",
+                "reading": "tiáo"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "正",
+                "reading": "zhèng"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "从",
+                "reading": "cóng"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "「",
+                "reading": ""
+              },
+              {
+                "text": "亡",
+                "reading": "wáng"
+              },
+              {
+                "text": "羊",
+                "reading": "yáng"
+              },
+              {
+                "text": "补",
+                "reading": "bǔ"
+              },
+              {
+                "text": "牢",
+                "reading": "láo"
+              },
+              {
+                "text": "」",
+                "reading": ""
+              },
+              {
+                "text": "四",
+                "reading": "sì"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "字",
+                "reading": "zì"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在紅紙條的正面，從上到下寫出「亡羊補牢」四個字。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紅",
+                "reading": "ㄏㄨㄥˊ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "條",
+                "reading": "ㄊㄧㄠˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "正",
+                "reading": "ㄓㄥˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "從",
+                "reading": "ㄘㄨㄥˊ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "「",
+                "reading": ""
+              },
+              {
+                "text": "亡",
+                "reading": "ㄨㄤˊ"
+              },
+              {
+                "text": "羊",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "補",
+                "reading": "ㄅㄨˇ"
+              },
+              {
+                "text": "牢",
+                "reading": "ㄌㄠˊ"
+              },
+              {
+                "text": "」",
+                "reading": ""
+              },
+              {
+                "text": "四",
+                "reading": "ㄙˋ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "字",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在紅紙條的正面，從上到下寫出「亡羊補牢」四個󠇡字󠇡。"
+          }
+        },
+        {
+          "en": "Talk about what the idiom tells us: as long as you are willing to fix a mistake, it is never too late.",
+          "simp": {
+            "text": "想一想这个成语告诉我们什么：做错了事，只要肯改，永远都不嫌晚。",
+            "pinyin": [
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "语",
+                "reading": "yǔ"
+              },
+              {
+                "text": "告",
+                "reading": "gào"
+              },
+              {
+                "text": "诉",
+                "reading": "sù"
+              },
+              {
+                "text": "我",
+                "reading": "wǒ"
+              },
+              {
+                "text": "们",
+                "reading": "men"
+              },
+              {
+                "text": "什",
+                "reading": "shén"
+              },
+              {
+                "text": "么",
+                "reading": "me"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "做",
+                "reading": "zuò"
+              },
+              {
+                "text": "错",
+                "reading": "cuò"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "只",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "要",
+                "reading": "yào"
+              },
+              {
+                "text": "肯",
+                "reading": "kěn"
+              },
+              {
+                "text": "改",
+                "reading": "gǎi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "永",
+                "reading": "yǒng"
+              },
+              {
+                "text": "远",
+                "reading": "yuǎn"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "不",
+                "reading": "bù"
+              },
+              {
+                "text": "嫌",
+                "reading": "xián"
+              },
+              {
+                "text": "晚",
+                "reading": "wǎn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "想一想這個成語告訴我們什麼：做錯了事，只要肯改，永遠都不嫌晚。",
+            "zhuyin": [
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "語",
+                "reading": "ㄩˇ"
+              },
+              {
+                "text": "告",
+                "reading": "ㄍㄠˋ"
+              },
+              {
+                "text": "訴",
+                "reading": "ㄙㄨˋ"
+              },
+              {
+                "text": "我",
+                "reading": "ㄨㄛˇ"
+              },
+              {
+                "text": "們",
+                "reading": "ㄇㄣ˙"
+              },
+              {
+                "text": "什",
+                "reading": "ㄕㄣˊ"
+              },
+              {
+                "text": "麼",
+                "reading": "ㄇㄜ˙"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "做",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "錯",
+                "reading": "ㄘㄨㄛˋ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "只",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "要",
+                "reading": "ㄧㄠˋ"
+              },
+              {
+                "text": "肯",
+                "reading": "ㄎㄣˇ"
+              },
+              {
+                "text": "改",
+                "reading": "ㄍㄞˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "永",
+                "reading": "ㄩㄥˇ"
+              },
+              {
+                "text": "遠",
+                "reading": "ㄩㄢˇ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "嫌",
+                "reading": "ㄒㄧㄢˊ"
+              },
+              {
+                "text": "晚",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "想一󠇢想這個󠇡成語告訴我們什麼：做錯了事，只要肯改，永遠都不嫌晚。"
+          }
+        },
+        {
+          "en": "On the back, write or draw one thing you want to put right, starting today.",
+          "simp": {
+            "text": "在背面，写下或画出一件你从今天开始想要改正的事。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "背",
+                "reading": "bèi"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "件",
+                "reading": "jiàn"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "从",
+                "reading": "cóng"
+              },
+              {
+                "text": "今",
+                "reading": "jīn"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "始",
+                "reading": "shǐ"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "要",
+                "reading": "yào"
+              },
+              {
+                "text": "改",
+                "reading": "gǎi"
+              },
+              {
+                "text": "正",
+                "reading": "zhèng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在背面，寫下或畫出一件你從今天開始想要改正的事。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "背",
+                "reading": "ㄅㄟˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "件",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "從",
+                "reading": "ㄘㄨㄥˊ"
+              },
+              {
+                "text": "今",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "始",
+                "reading": "ㄕˇ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "要",
+                "reading": "ㄧㄠˋ"
+              },
+              {
+                "text": "改",
+                "reading": "ㄍㄞˇ"
+              },
+              {
+                "text": "正",
+                "reading": "ㄓㄥˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在背面，寫下或畫出一󠇡件你從今天開始想要改正的事。"
+          }
+        },
+        {
+          "en": "Hang your banner where you can see it as a daily reminder.",
+          "simp": {
+            "text": "把你的纸条挂在看得到的地方，每天提醒自己。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "条",
+                "reading": "tiáo"
+              },
+              {
+                "text": "挂",
+                "reading": "guà"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "得",
+                "reading": "de"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "提",
+                "reading": "tí"
+              },
+              {
+                "text": "醒",
+                "reading": "xǐng"
+              },
+              {
+                "text": "自",
+                "reading": "zì"
+              },
+              {
+                "text": "己",
+                "reading": "jǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把你的紙條掛在看得到的地方，每天提醒自己。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "條",
+                "reading": "ㄊㄧㄠˊ"
+              },
+              {
+                "text": "掛",
+                "reading": "ㄍㄨㄚˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "得",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "提",
+                "reading": "ㄊㄧˊ"
+              },
+              {
+                "text": "醒",
+                "reading": "ㄒㄧㄥˇ"
+              },
+              {
+                "text": "自",
+                "reading": "ㄗˋ"
+              },
+              {
+                "text": "己",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把你的紙條掛在看得󠇡到的地方，每天提醒自己。"
+          }
+        }
+      ]
+    }
+  ]
+}

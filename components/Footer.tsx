@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function Footer() {
   return (
@@ -7,6 +8,8 @@ export function Footer() {
         <div className="footer-brand">
           <Image src="/icons/round-door.png" alt="Round Door Studio" width={30} height={30} />
           <span className="footer-legal">© 2026 Round Door Studio · 月門故事</span>
+          <Link href="/privacy" className="footer-legal-link">Privacy</Link>
+          <Link href="/terms" className="footer-legal-link">Terms</Link>
         </div>
         <div className="footer-soc">
           <a
