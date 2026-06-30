@@ -59,7 +59,7 @@ export const STORIES: Story[] = [
     num: 3, slug: 'mend-the-sheep-pen', season: 1, released: true,
     title: { en: 'Never Too Late to Mend the Sheep Pen', simp: '亡羊补牢', trad: '亡羊補牢' },
     blurb: 'A stubborn king ignores a loyal minister\'s warnings, only to discover that even after a costly mistake, it may not be too late to make things right.', 
-    runtime: '', pub: 'June 24, 2026', coverColor: '#C4994F', coverImage: '/img/covers/fix-sheep-pen_SQ.png',
+    runtime: '9-10 min', pub: 'June 24, 2026', coverColor: '#C4994F', coverImage: '/img/covers/fix-sheep-pen_SQ.png',
     audio: {
       en: {
         spotify: 'https://open.spotify.com/episode/3Kl8xl2CSOP3FDiaAW9ZYI?si=sW6JPV2RTGOmFcNL2HQGKg',
@@ -78,7 +78,7 @@ export const STORIES: Story[] = [
     num: 4, slug: 'fox-borrows-the-tigers-might', season: 1, released: false,
     title: { en: "The Fox Borrows the Tiger's Might", simp: '狐假虎威', trad: '狐假虎威' },
     blurb: '', 
-    runtime: '', pub: 'Jul 1, 2026', coverColor: '#A8513A', coverImage: '/img/covers/fix-sheep-pen_SQ.png',
+    runtime: '11-13 min', pub: 'Jul 1, 2026', coverColor: '#A8513A', coverImage: '/img/covers/fox-tiger-might_SQ.png',
     audio: {
       en: {
         spotify: '',
