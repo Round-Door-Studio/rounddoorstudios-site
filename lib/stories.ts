@@ -59,7 +59,7 @@ export const STORIES: Story[] = [
     num: 3, slug: 'mend-the-sheep-pen', season: 1, released: true,
     title: { en: 'Never Too Late to Mend the Sheep Pen', simp: '亡羊补牢', trad: '亡羊補牢' },
     blurb: 'A stubborn king ignores a loyal minister\'s warnings, only to discover that even after a costly mistake, it may not be too late to make things right.', 
-    runtime: '', pub: 'June 24, 2026', coverColor: '#C4994F', coverImage: '/img/covers/fix-sheep-pen_SQ.png',
+    runtime: '9-10 min', pub: 'June 24, 2026', coverColor: '#C4994F', coverImage: '/img/covers/fix-sheep-pen_SQ.png',
     audio: {
       en: {
         spotify: 'https://open.spotify.com/episode/3Kl8xl2CSOP3FDiaAW9ZYI?si=sW6JPV2RTGOmFcNL2HQGKg',
@@ -77,17 +77,17 @@ export const STORIES: Story[] = [
   {
     num: 4, slug: 'fox-borrows-the-tigers-might', season: 1, released: false,
     title: { en: "The Fox Borrows the Tiger's Might", simp: '狐假虎威', trad: '狐假虎威' },
-    blurb: '', 
-    runtime: '', pub: 'Jul 1, 2026', coverColor: '#A8513A', coverImage: '/img/covers/fix-sheep-pen_SQ.png',
+    blurb: 'A clever little fox convinces a powerful tiger that all the animals fear him, when in fact they\'re running from the tiger right behind. A witty tale about appearances, confidence, and borrowed power.', 
+    runtime: '11-13 min', pub: 'Jul 1, 2026', coverColor: '#A8513A', coverImage: '/img/covers/fox-tiger-might_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/5bn9vdRcIShQ88Ap9r1clA?si=xsMnLdkTQ0yrjqehYSWatw',
+        youtube: 'https://youtu.be/ZnAAKKJeM_k',
         apple: '',
       },
       zh: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/1S8TKmrnGXXvmD4JvXNScj?si=QkOmiRPHQMm7kq6S5w51AA',
+        youtube: 'https://youtu.be/jBIRRBZjn8Y',
         apple: '',
       },
     },
@@ -96,7 +96,7 @@ export const STORIES: Story[] = [
   {
     num: 5, slug: 'ma-liang-magic-brush-1', season: 1, released: false, part: 1, parts: 2,
     title: { en: 'Ma Liang and the Magic Brush · Part 1', simp: '神笔马良', trad: '神筆馬良' },
-    blurb: '', 
+    blurb: 'A poor orphan who dreams of drawing receives a magical paintbrush that brings everything he paints to life. But when a greedy landlord tries to steal its power, Ma Liang must use his wits to protect the gift meant to help others.', 
     runtime: '', pub: 'Jul 8, 2026', coverColor: '#9B4761', coverImage: '',
     audio: {
       en: {
@@ -115,7 +115,7 @@ export const STORIES: Story[] = [
   {
     num: 6, slug: 'ma-liang-magic-brush-2', season: 1, released: false, part: 2, parts: 2,
     title: { en: 'Ma Liang and the Magic Brush · Part 2', simp: '神笔马良', trad: '神筆馬良' },
-    blurb: '', 
+    blurb: 'When a greedy emperor demands Ma Liang use his magic paintbrush to make him richer, the brave boy refuses. Instead, he hatches a clever plan that leads the emperor on a voyage he\'ll never forget.', 
     runtime: '', pub: 'Jul 15, 2026', coverColor: '#7B324A', coverImage: '',
     audio: {
       en: {

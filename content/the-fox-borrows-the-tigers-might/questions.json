@@ -1,0 +1,4400 @@
+{
+  "slug": "the-fox-borrows-the-tigers-might",
+  "title": {
+    "trad": "狐假虎威",
+    "simp": "狐假虎威",
+    "en": "The Fox Who Borrowed the Tiger's Might"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "在这个故事里，森林里住着哪些动物？",
+        "pinyin": [
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "森",
+            "reading": "sēn"
+          },
+          {
+            "text": "林",
+            "reading": "lín"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "些",
+            "reading": "xiē"
+          },
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "物",
+            "reading": "wù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "在這個故事裡，森林裡住著哪些動物？",
+        "zhuyin": [
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "森",
+            "reading": "ㄙㄣ"
+          },
+          {
+            "text": "林",
+            "reading": "ㄌㄧㄣˊ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "些",
+            "reading": "ㄒㄧㄝ"
+          },
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "物",
+            "reading": "ㄨˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "在這個󠇡故事裡，森林裡住著哪些動物？"
+      },
+      "en": "In this story, what animals live in the forest?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "森林里大家最害怕的大王是谁？",
+        "pinyin": [
+          {
+            "text": "森",
+            "reading": "sēn"
+          },
+          {
+            "text": "林",
+            "reading": "lín"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "王",
+            "reading": "wáng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "森林裡大家最害怕的大王是誰？",
+        "zhuyin": [
+          {
+            "text": "森",
+            "reading": "ㄙㄣ"
+          },
+          {
+            "text": "林",
+            "reading": "ㄌㄧㄣˊ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "王",
+            "reading": "ㄨㄤˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "森林裡大家最害怕的大王是誰？"
+      },
+      "en": "Who is the king that everyone in the forest fears the most?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "老虎长什么样子？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "长",
+            "reading": "cháng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老虎長什麼樣子？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "長",
+            "reading": "ㄓㄤˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老虎長󠇡什麼樣子󠇡？"
+      },
+      "en": "What does the tiger look like?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "肚子饿的老虎走出草丛，想要找什么？",
+        "pinyin": [
+          {
+            "text": "肚",
+            "reading": "dù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "饿",
+            "reading": "è"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "草",
+            "reading": "cǎo"
+          },
+          {
+            "text": "丛",
+            "reading": "cóng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "找",
+            "reading": "zhǎo"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "肚子餓的老虎走出草叢，想要找什麼？",
+        "zhuyin": [
+          {
+            "text": "肚",
+            "reading": "ㄉㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "餓",
+            "reading": "ㄜˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "草",
+            "reading": "ㄘㄠˇ"
+          },
+          {
+            "text": "叢",
+            "reading": "ㄘㄨㄥˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "找",
+            "reading": "ㄓㄠˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "肚子󠇡餓的老虎走出草叢，想要找什麼？"
+      },
+      "en": "The hungry tiger came out of the bushes. What was he looking for?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "老虎抓住狐狸的时候，狐狸说自己是谁派来的？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "抓",
+            "reading": "zhuā"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "派",
+            "reading": "pài"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老虎抓住狐狸的時候，狐狸說自己是誰派來的？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "抓",
+            "reading": "ㄓㄨㄚ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "派",
+            "reading": "ㄆㄞˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老虎抓住狐狸的時候，狐狸說自己是誰派來的？"
+      },
+      "en": "When the tiger caught the fox, who did the fox say had sent him?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "狐狸要老虎跟在它后面走，是为了证明什么？",
+        "pinyin": [
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "跟",
+            "reading": "gēn"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "它",
+            "reading": "tā"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "面",
+            "reading": "miàn"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "证",
+            "reading": "zhèng"
+          },
+          {
+            "text": "明",
+            "reading": "míng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狐狸要老虎跟在牠後面走，是為了證明什麼？",
+        "zhuyin": [
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "跟",
+            "reading": "ㄍㄣ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "牠",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "面",
+            "reading": "ㄇㄧㄢˋ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "證",
+            "reading": "ㄓㄥˋ"
+          },
+          {
+            "text": "明",
+            "reading": "ㄇㄧㄥˊ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狐狸要老虎跟在牠後面走，是為󠇡了證明什麼？"
+      },
+      "en": "The fox asked the tiger to walk behind him. What was he trying to prove?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "狐狸和老虎一起走的时候，谁走在前面？",
+        "pinyin": [
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "前",
+            "reading": "qián"
+          },
+          {
+            "text": "面",
+            "reading": "miàn"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狐狸和老虎一起走的時候，誰走在前面？",
+        "zhuyin": [
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "前",
+            "reading": "ㄑㄧㄢˊ"
+          },
+          {
+            "text": "面",
+            "reading": "ㄇㄧㄢˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狐狸和老虎一󠇢起走的時候，誰走在前面？"
+      },
+      "en": "When the fox and the tiger walked together, who walked in front?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "动物们看到狐狸和老虎，做了什么事？",
+        "pinyin": [
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "物",
+            "reading": "wù"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "動物們看到狐狸和老虎，做了什麼事？",
+        "zhuyin": [
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "物",
+            "reading": "ㄨˋ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "動物們看到狐狸和老虎，做了什麼事？"
+      },
+      "en": "What did the animals do when they saw the fox and the tiger?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "最后老虎为什么转身就跑？",
+        "pinyin": [
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "转",
+            "reading": "zhuǎn"
+          },
+          {
+            "text": "身",
+            "reading": "shēn"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "跑",
+            "reading": "pǎo"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "最後老虎為什麼轉身就跑？",
+        "zhuyin": [
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "轉",
+            "reading": "ㄓㄨㄢˇ"
+          },
+          {
+            "text": "身",
+            "reading": "ㄕㄣ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "跑",
+            "reading": "ㄆㄠˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "最後老虎為󠇡什麼轉身就跑？"
+      },
+      "en": "In the end, why did the tiger turn around and run away?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "「狐假虎威」这句成语是什么意思？",
+        "pinyin": [
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "假",
+            "reading": "jiǎ"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "威",
+            "reading": "wēi"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "句",
+            "reading": "jù"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "语",
+            "reading": "yǔ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "思",
+            "reading": "si"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "「狐假虎威」這句成語是什麼意思？",
+        "zhuyin": [
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "假",
+            "reading": "ㄐㄧㄚˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "威",
+            "reading": "ㄨㄟ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "句",
+            "reading": "ㄐㄩˋ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "語",
+            "reading": "ㄩˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "思",
+            "reading": "ㄙ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "「狐假虎威」這句成語是什麼意思？"
+      },
+      "en": "What does the idiom \"the fox borrows the tiger's might\" mean?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "狐狸被抓住的时候，没有大叫，也没有乱挣扎，而是冷静地想办法。你觉得这样做聪明吗？",
+        "pinyin": [
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "被",
+            "reading": "bèi"
+          },
+          {
+            "text": "抓",
+            "reading": "zhuā"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "叫",
+            "reading": "jiào"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "乱",
+            "reading": "luàn"
+          },
+          {
+            "text": "挣",
+            "reading": "zhēng"
+          },
+          {
+            "text": "扎",
+            "reading": "zhá"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "冷",
+            "reading": "lěng"
+          },
+          {
+            "text": "静",
+            "reading": "jìng"
+          },
+          {
+            "text": "地",
+            "reading": "de"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "聪",
+            "reading": "cōng"
+          },
+          {
+            "text": "明",
+            "reading": "míng"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狐狸被抓住的時候，沒有大叫，也沒有亂掙扎，而是冷靜地想辦法。你覺得這樣做聰明嗎？",
+        "zhuyin": [
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "被",
+            "reading": "ㄅㄟˋ"
+          },
+          {
+            "text": "抓",
+            "reading": "ㄓㄨㄚ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "叫",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "亂",
+            "reading": "ㄌㄨㄢˋ"
+          },
+          {
+            "text": "掙",
+            "reading": "ㄓㄥ"
+          },
+          {
+            "text": "扎",
+            "reading": "ㄓㄚˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "冷",
+            "reading": "ㄌㄥˇ"
+          },
+          {
+            "text": "靜",
+            "reading": "ㄐㄧㄥˋ"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "聰",
+            "reading": "ㄘㄨㄥ"
+          },
+          {
+            "text": "明",
+            "reading": "ㄇㄧㄥˊ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狐狸被抓住的時候，沒有大叫，也沒有亂掙扎，而是冷靜地󠇡想辦法。你覺得󠇡這樣做聰明嗎？"
+      },
+      "en": "When the fox was caught, he didn't scream or struggle wildly. Instead, he calmly thought of a plan. Do you think that was smart?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "狐狸说自己是天帝派来的，其实是在说谎。为了救自己而说谎，是对的吗？",
+        "pinyin": [
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "派",
+            "reading": "pài"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "其",
+            "reading": "qí"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "谎",
+            "reading": "huǎng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "救",
+            "reading": "jiù"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "谎",
+            "reading": "huǎng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "对",
+            "reading": "duì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狐狸說自己是天帝派來的，其實是在說謊。為了救自己而說謊，是對的嗎？",
+        "zhuyin": [
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "派",
+            "reading": "ㄆㄞˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "其",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "謊",
+            "reading": "ㄏㄨㄤˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "救",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "謊",
+            "reading": "ㄏㄨㄤˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "對",
+            "reading": "ㄉㄨㄟˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狐狸說自己是天帝派來的，其實是在說謊。為󠇡了救自己而說謊，是對的嗎？"
+      },
+      "en": "The fox lied, saying the Emperor of Heaven had sent him. Is it okay to lie in order to save yourself?"
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "动物们其实怕的是老虎，不是狐狸。狐狸是借了谁的力量，才能把大家吓跑？",
+        "pinyin": [
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "物",
+            "reading": "wù"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "其",
+            "reading": "qí"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "借",
+            "reading": "jiè"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "量",
+            "reading": "liàng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "能",
+            "reading": "néng"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "吓",
+            "reading": "xià"
+          },
+          {
+            "text": "跑",
+            "reading": "pǎo"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "動物們其實怕的是老虎，不是狐狸。狐狸是借了誰的力量，才能把大家嚇跑？",
+        "zhuyin": [
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "物",
+            "reading": "ㄨˋ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "其",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "借",
+            "reading": "ㄐㄧㄝˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "量",
+            "reading": "ㄌㄧㄤˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "能",
+            "reading": "ㄋㄥˊ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "嚇",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "跑",
+            "reading": "ㄆㄠˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "動物們其實怕的是老虎，不󠇡是狐狸。狐狸是借了誰的力量，才能把大家嚇跑？"
+      },
+      "en": "The animals were really afraid of the tiger, not the fox. Whose power did the fox borrow to scare everyone away?"
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "老虎那么强壮，为什么会被一只小小的狐狸骗了？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "强",
+            "reading": "qiáng"
+          },
+          {
+            "text": "壮",
+            "reading": "zhuàng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "被",
+            "reading": "bèi"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "骗",
+            "reading": "piàn"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老虎那麼強壯，為什麼會被一隻小小的狐狸騙了？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "強",
+            "reading": "ㄑㄧㄤˊ"
+          },
+          {
+            "text": "壯",
+            "reading": "ㄓㄨㄤˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "被",
+            "reading": "ㄅㄟˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "騙",
+            "reading": "ㄆㄧㄢˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老虎那麼強壯，為󠇡什麼會被一󠇢隻小小的狐狸騙了？"
+      },
+      "en": "The tiger was so strong. Why was he fooled by such a tiny little fox?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "在生活里，你有没有看过有人像狐狸一样，靠别人的力量来吓唬人？",
+        "pinyin": [
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "活",
+            "reading": "huó"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "像",
+            "reading": "xiàng"
+          },
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "靠",
+            "reading": "kào"
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "量",
+            "reading": "liàng"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "吓",
+            "reading": "xià"
+          },
+          {
+            "text": "唬",
+            "reading": "hǔ"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "在生活裡，你有沒有看過有人像狐狸一樣，靠別人的力量來嚇唬人？",
+        "zhuyin": [
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "活",
+            "reading": "ㄏㄨㄛˊ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "像",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "靠",
+            "reading": "ㄎㄠˋ"
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "量",
+            "reading": "ㄌㄧㄤˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "嚇",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "唬",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "在生活裡，你有沒有看過有人像狐狸一󠇡樣，靠別人的力量來嚇唬人？"
+      },
+      "en": "In real life, have you ever seen someone act like the fox, using another person's power to scare others?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "如果你是老虎，后来发现自己被骗了，你会有什么感觉？会怎么做？",
+        "pinyin": [
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "现",
+            "reading": "xiàn"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "被",
+            "reading": "bèi"
+          },
+          {
+            "text": "骗",
+            "reading": "piàn"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "感",
+            "reading": "gǎn"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "如果你是老虎，後來發現自己被騙了，你會有什麼感覺？會怎麼做？",
+        "zhuyin": [
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "現",
+            "reading": "ㄒㄧㄢˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "被",
+            "reading": "ㄅㄟˋ"
+          },
+          {
+            "text": "騙",
+            "reading": "ㄆㄧㄢˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "感",
+            "reading": "ㄍㄢˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "如果你是老虎，後來發現自己被騙了，你會有什麼感覺？會怎麼做？"
+      },
+      "en": "If you were the tiger and later found out you'd been tricked, how would you feel? What would you do?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "狐狸遇到危险的时候很冷静。下次你害怕的时候，可以用什么方法让自己冷静下来？",
+        "pinyin": [
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "遇",
+            "reading": "yù"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "危",
+            "reading": "wēi"
+          },
+          {
+            "text": "险",
+            "reading": "xiǎn"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "冷",
+            "reading": "lěng"
+          },
+          {
+            "text": "静",
+            "reading": "jìng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "冷",
+            "reading": "lěng"
+          },
+          {
+            "text": "静",
+            "reading": "jìng"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狐狸遇到危險的時候很冷靜。下次你害怕的時候，可以用什麼方法讓自己冷靜下來？",
+        "zhuyin": [
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "遇",
+            "reading": "ㄩˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "危",
+            "reading": "ㄨㄟ"
+          },
+          {
+            "text": "險",
+            "reading": "ㄒㄧㄢˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "冷",
+            "reading": "ㄌㄥˇ"
+          },
+          {
+            "text": "靜",
+            "reading": "ㄐㄧㄥˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "冷",
+            "reading": "ㄌㄥˇ"
+          },
+          {
+            "text": "靜",
+            "reading": "ㄐㄧㄥˋ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狐狸遇到危險的時候很冷靜。下次你害怕的時候，可以用什麼方法讓自己冷靜下來？"
+      },
+      "en": "The fox stayed calm when he was in danger. Next time you feel afraid, what could you do to calm yourself down?"
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "狐狸的命有危险，所以用聪明的办法救了自己。你觉得在危险的时候用聪明的办法保护自己，是对的吗？",
+        "pinyin": [
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "命",
+            "reading": "mìng"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "危",
+            "reading": "wēi"
+          },
+          {
+            "text": "险",
+            "reading": "xiǎn"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "所",
+            "reading": "suǒ"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "聪",
+            "reading": "cōng"
+          },
+          {
+            "text": "明",
+            "reading": "míng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "救",
+            "reading": "jiù"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "危",
+            "reading": "wēi"
+          },
+          {
+            "text": "险",
+            "reading": "xiǎn"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "聪",
+            "reading": "cōng"
+          },
+          {
+            "text": "明",
+            "reading": "míng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "保",
+            "reading": "bǎo"
+          },
+          {
+            "text": "护",
+            "reading": "hù"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "对",
+            "reading": "duì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狐狸的命有危險，所以用聰明的辦法救了自己。你覺得在危險的時候用聰明的辦法保護自己，是對的嗎？",
+        "zhuyin": [
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "命",
+            "reading": "ㄇㄧㄥˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "危",
+            "reading": "ㄨㄟ"
+          },
+          {
+            "text": "險",
+            "reading": "ㄒㄧㄢˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "所",
+            "reading": "ㄙㄨㄛˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "聰",
+            "reading": "ㄘㄨㄥ"
+          },
+          {
+            "text": "明",
+            "reading": "ㄇㄧㄥˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "救",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "危",
+            "reading": "ㄨㄟ"
+          },
+          {
+            "text": "險",
+            "reading": "ㄒㄧㄢˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "聰",
+            "reading": "ㄘㄨㄥ"
+          },
+          {
+            "text": "明",
+            "reading": "ㄇㄧㄥˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "保",
+            "reading": "ㄅㄠˇ"
+          },
+          {
+            "text": "護",
+            "reading": "ㄏㄨˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "對",
+            "reading": "ㄉㄨㄟˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狐狸的命有危險，所以用聰明的辦法救了自己。你覺得󠇡在危險的時候用聰明的辦法保護自己，是對的嗎？"
+      },
+      "en": "The fox's life was in danger, so he used a clever plan to save himself. Do you think it's right to use cleverness to protect yourself when you're in danger?"
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "老虎以为动物怕的是狐狸，其实它误会了。你有没有误会过一件事，比方说以为朋友不喜欢你，后来才发现是自己想错了？你是怎么发现的？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "为",
+            "reading": "wéi"
+          },
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "物",
+            "reading": "wù"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "狐",
+            "reading": "hú"
+          },
+          {
+            "text": "狸",
+            "reading": "lí"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "其",
+            "reading": "qí"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "它",
+            "reading": "tā"
+          },
+          {
+            "text": "误",
+            "reading": "wù"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "误",
+            "reading": "wù"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "比",
+            "reading": "bǐ"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "为",
+            "reading": "wéi"
+          },
+          {
+            "text": "朋",
+            "reading": "péng"
+          },
+          {
+            "text": "友",
+            "reading": "yǒu"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "喜",
+            "reading": "xǐ"
+          },
+          {
+            "text": "欢",
+            "reading": "huān"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "现",
+            "reading": "xiàn"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "错",
+            "reading": "cuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "现",
+            "reading": "xiàn"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老虎以為動物怕的是狐狸，其實牠誤會了。你有沒有誤會過一件事，比方說以為朋友不喜歡你，後來才發現是自己想錯了？你是怎麼發現的？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˊ"
+          },
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "物",
+            "reading": "ㄨˋ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "狐",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "狸",
+            "reading": "ㄌㄧˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "其",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "牠",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "誤",
+            "reading": "ㄨˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "誤",
+            "reading": "ㄨˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "比",
+            "reading": "ㄅㄧˇ"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˊ"
+          },
+          {
+            "text": "朋",
+            "reading": "ㄆㄥˊ"
+          },
+          {
+            "text": "友",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "喜",
+            "reading": "ㄒㄧˇ"
+          },
+          {
+            "text": "歡",
+            "reading": "ㄏㄨㄢ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "現",
+            "reading": "ㄒㄧㄢˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "錯",
+            "reading": "ㄘㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "現",
+            "reading": "ㄒㄧㄢˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老虎以為動物怕的是狐狸，其實牠誤會了。你有沒有誤會過一󠇡件事，比方說以為朋友不喜歡你，後來才發現是自己想錯了？你是怎麼發現的？"
+      },
+      "en": "The tiger thought the animals were afraid of the fox, but he was mistaken. Have you ever misunderstood something — for example, thinking a friend didn't like you, only to find out later you'd got it wrong? How did you find out?"
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "你觉得这个故事想告诉我们什么道理？",
+        "pinyin": [
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "告",
+            "reading": "gào"
+          },
+          {
+            "text": "诉",
+            "reading": "sù"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "理",
+            "reading": "lǐ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "你覺得這個故事想告訴我們什麼道理？",
+        "zhuyin": [
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "告",
+            "reading": "ㄍㄠˋ"
+          },
+          {
+            "text": "訴",
+            "reading": "ㄙㄨˋ"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "理",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "你覺得󠇡這個󠇡故事想告訴我們什麼道理？"
+      },
+      "en": "What lesson do you think this story is trying to teach us?"
+    }
+  ]
+}
