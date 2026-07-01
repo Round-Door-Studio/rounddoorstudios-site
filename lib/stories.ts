@@ -75,7 +75,7 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 4, slug: 'fox-borrows-the-tigers-might', season: 1, released: true,
+    num: 4, slug: 'fox-borrows-the-tigers-might', season: 1, released: false,
     title: { en: "The Fox Borrows the Tiger's Might", simp: '狐假虎威', trad: '狐假虎威' },
     blurb: 'A clever little fox convinces a powerful tiger that all the animals fear him, when in fact they\'re running from the tiger right behind. A witty tale about appearances, confidence, and borrowed power.', 
     runtime: '11-13 min', pub: 'Jul 1, 2026', coverColor: '#A8513A', coverImage: '/img/covers/fox-tiger-might_SQ.png',
@@ -96,7 +96,7 @@ export const STORIES: Story[] = [
   {
     num: 5, slug: 'ma-liang-magic-brush-1', season: 1, released: false, part: 1, parts: 2,
     title: { en: 'Ma Liang and the Magic Brush · Part 1', simp: '神笔马良', trad: '神筆馬良' },
-    blurb: '', 
+    blurb: 'A poor orphan who dreams of drawing receives a magical paintbrush that brings everything he paints to life. But when a greedy landlord tries to steal its power, Ma Liang must use his wits to protect the gift meant to help others.', 
     runtime: '', pub: 'Jul 8, 2026', coverColor: '#9B4761', coverImage: '',
     audio: {
       en: {
@@ -115,7 +115,7 @@ export const STORIES: Story[] = [
   {
     num: 6, slug: 'ma-liang-magic-brush-2', season: 1, released: false, part: 2, parts: 2,
     title: { en: 'Ma Liang and the Magic Brush · Part 2', simp: '神笔马良', trad: '神筆馬良' },
-    blurb: '', 
+    blurb: 'When a greedy emperor demands Ma Liang use his magic paintbrush to make him richer, the brave boy refuses. Instead, he hatches a clever plan that leads the emperor on a voyage he\'ll never forget.', 
     runtime: '', pub: 'Jul 15, 2026', coverColor: '#7B324A', coverImage: '',
     audio: {
       en: {
