@@ -75,7 +75,7 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 4, slug: 'fox-borrows-the-tigers-might', season: 1, released: false,
+    num: 4, slug: 'fox-borrows-the-tigers-might', season: 1, released: true,
     title: { en: "The Fox Borrows the Tiger's Might", simp: '狐假虎威', trad: '狐假虎威' },
     blurb: 'A clever little fox convinces a powerful tiger that all the animals fear him, when in fact they\'re running from the tiger right behind. A witty tale about appearances, confidence, and borrowed power.', 
     runtime: '11-13 min', pub: 'Jul 1, 2026', coverColor: '#A8513A', coverImage: '/img/covers/fox-tiger-might_SQ.png',
@@ -83,12 +83,12 @@ export const STORIES: Story[] = [
       en: {
         spotify: 'https://open.spotify.com/episode/5bn9vdRcIShQ88Ap9r1clA?si=xsMnLdkTQ0yrjqehYSWatw',
         youtube: 'https://youtu.be/ZnAAKKJeM_k',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000775005297',
       },
       zh: {
         spotify: 'https://open.spotify.com/episode/1S8TKmrnGXXvmD4JvXNScj?si=QkOmiRPHQMm7kq6S5w51AA',
         youtube: 'https://youtu.be/jBIRRBZjn8Y',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000775005254',
       },
     },
     hasBundle: true,
