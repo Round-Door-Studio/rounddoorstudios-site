@@ -97,7 +97,7 @@ export const STORIES: Story[] = [
     num: 5, slug: 'ma-liang-magic-brush-1', season: 1, released: false, part: 1, parts: 2,
     title: { en: 'Ma Liang and the Magic Brush · Part 1', simp: '神笔马良', trad: '神筆馬良' },
     blurb: 'A poor orphan who dreams of drawing receives a magical paintbrush that brings everything he paints to life. But when a greedy landlord tries to steal its power, Ma Liang must use his wits to protect the gift meant to help others.', 
-    runtime: '', pub: 'Jul 8, 2026', coverColor: '#9B4761', coverImage: '',
+    runtime: '', pub: 'Jul 8, 2026', coverColor: '#9B4761', coverImage: '/img/covers/MaLiangBrushP1_SQ.png',
     audio: {
       en: {
         spotify: '',
@@ -116,7 +116,7 @@ export const STORIES: Story[] = [
     num: 6, slug: 'ma-liang-magic-brush-2', season: 1, released: false, part: 2, parts: 2,
     title: { en: 'Ma Liang and the Magic Brush · Part 2', simp: '神笔马良', trad: '神筆馬良' },
     blurb: 'When a greedy emperor demands Ma Liang use his magic paintbrush to make him richer, the brave boy refuses. Instead, he hatches a clever plan that leads the emperor on a voyage he\'ll never forget.', 
-    runtime: '', pub: 'Jul 15, 2026', coverColor: '#7B324A', coverImage: '',
+    runtime: '', pub: 'Jul 15, 2026', coverColor: '#7B324A', coverImage: '/img/covers/MaLiangBrushP2_SQ.png',
     audio: {
       en: {
         spotify: '',
@@ -135,7 +135,7 @@ export const STORIES: Story[] = [
     num: 7, slug: 'dragon-gets-its-eyes', season: 1, released: false,
     title: { en: 'When the Dragon Gets Its Eyes', simp: '画龙点睛', trad: '畫龍點睛' },
     blurb: '', 
-    runtime: '', pub: 'Jul 22, 2026', coverColor: '#436641', coverImage: '',
+    runtime: '', pub: 'Jul 22, 2026', coverColor: '#436641', coverImage: '/img/covers/dragon-gets-eyes_SQ.png',
     audio: {
       en: {
         spotify: '',
@@ -154,7 +154,7 @@ export const STORIES: Story[] = [
     num: 8, slug: 'adding-legs-to-a-snake', season: 1, released: false,
     title: { en: 'Adding Legs to a Snake', simp: '画蛇添足', trad: '畫蛇添足' },
     blurb: '', 
-    runtime: '', pub: 'Jul 29, 2026', coverColor: '#5C8358', coverImage: '',
+    runtime: '', pub: 'Jul 29, 2026', coverColor: '#5C8358', coverImage: '/img/covers/snake-feet_SQ.png',
     audio: {
       en: {
         spotify: '',
@@ -173,7 +173,7 @@ export const STORIES: Story[] = [
     num: 9, slug: 'weaver-girl-and-cowherd-1', season: 1, released: false, part: 1, parts: 2,
     title: { en: 'The Weaver Girl and the Cowherd · Part 1', simp: '牛郎织女', trad: '牛郎織女' },
     blurb: '', 
-    runtime: '', pub: 'Aug 5, 2026', coverColor: '#5B5C9D', coverImage: '',
+    runtime: '', pub: 'Aug 5, 2026', coverColor: '#5B5C9D', coverImage: '/img/covers/weaver-cowherd-p1_SQ.png',
     audio: {
       en: {
         spotify: '',
@@ -192,7 +192,7 @@ export const STORIES: Story[] = [
     num: 10, slug: 'weaver-girl-and-cowherd-2', season: 1, released: false, part: 2, parts: 2,
     title: { en: 'The Weaver Girl and the Cowherd · Part 2', simp: '牛郎织女', trad: '牛郎織女' },
     blurb: '', 
-    runtime: '', pub: 'Aug 12, 2026', coverColor: '#43447F', coverImage: '',
+    runtime: '', pub: 'Aug 12, 2026', coverColor: '#43447F', coverImage: '/img/covers/weaver-cowherd-p2_SQ.png',
     audio: {
       en: {
         spotify: '',
@@ -211,7 +211,7 @@ export const STORIES: Story[] = [
     num: 11, slug: 'three-morning-four-evening', season: 1, released: false,
     title: { en: 'Three in the Morning, Four in the Evening', simp: '朝三暮四', trad: '朝三暮四' },
     blurb: '', 
-    runtime: '', pub: 'Aug 19, 2026', coverColor: '#8B7355', coverImage: '',
+    runtime: '', pub: 'Aug 19, 2026', coverColor: '#8B7355', coverImage: '/img/covers/three-morn-four-night_SQ.png',
     audio: {
       en: {
         spotify: '',
@@ -230,7 +230,7 @@ export const STORIES: Story[] = [
     num: 12, slug: 'farmer-who-waited-for-the-rabbit', season: 1, released: false,
     title: { en: 'The Farmer Who Waited for the Rabbit', simp: '守株待兔', trad: '守株待兔' },
     blurb: '', 
-    runtime: '', pub: 'Aug 26, 2026', coverColor: '#A8513A', coverImage: '',
+    runtime: '', pub: 'Aug 26, 2026', coverColor: '#A8513A', coverImage: '/img/covers/farmer-rabbit_SQ.png',
     audio: {
       en: {
         spotify: '',
