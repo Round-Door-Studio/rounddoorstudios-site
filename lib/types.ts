@@ -137,3 +137,26 @@ export interface StoryPageContent {
   questions: QuestionsContent;
   activities: ActivitiesContent;
 }
+
+/* ── Story Pack access types ── */
+export interface StoryPackPreview {
+  vocabCount: number;
+  questionCount: number;
+  activityCount: number;
+}
+
+export type StoryPackAccessSource = 'free' | 'subscription' | 'purchase' | 'grant' | 'none';
+
+export type StoryPackResult =
+  | {
+      hasAccess: true;
+      source: Exclude<StoryPackAccessSource, 'none'>;
+      storyPack: StoryPageContent | null;
+      subscriptionStatus?: string;
+      planInterval?: string;
+    }
+  | {
+      hasAccess: false;
+      source: 'none';
+      storyPack: StoryPackPreview;
+    };
