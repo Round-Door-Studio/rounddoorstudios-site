@@ -11,11 +11,15 @@ export async function loadAllContentFromDB(slug: string): Promise<{
   activities: ActivitiesContent
 }> {
   const supabase = createServiceClient()
-  const { data } = await supabase
+  const { data, error } = await supabase
     .from('story_content')
     .select('read_along, vocab, questions, activities')
     .eq('slug', slug)
     .single()
+
+  if (error) {
+    console.error('[db/content] loadAllContentFromDB failed for slug:', slug, error.message)
+  }
 
   return {
     storyContent: (data?.read_along as StoryContent) ?? null,
@@ -36,12 +40,15 @@ export async function getContentCountsFromDB(slug: string): Promise<{
   activityCount: number
 }> {
   const supabase = createServiceClient()
-  const { data } = await supabase
+  const { data, error } = await supabase
     .from('story_content')
     .select('vocab, questions, activities')
     .eq('slug', slug)
     .single()
 
+  if (error) {
+    console.error('[db/content] getContentCountsFromDB failed for slug:', slug, error.message)
+  }
   if (!data) return { vocabCount: 0, questionCount: 0, activityCount: 0 }
 
   const vocab = data.vocab as { vocab: unknown[] } | null

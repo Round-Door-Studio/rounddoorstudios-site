@@ -44,7 +44,10 @@ import { GET } from '@/app/auth/callback/route';
 beforeEach(() => {
   redirectUrls.length = 0;
   vi.clearAllMocks();
-  mockExchangeCodeForSession.mockResolvedValue({ data: {}, error: null });
+  mockExchangeCodeForSession.mockResolvedValue({
+    data: { session: { access_token: 'tok', user: { id: '1' } } },
+    error: null,
+  });
 });
 
 describe('auth callback — no code', () => {
@@ -57,7 +60,6 @@ describe('auth callback — no code', () => {
 describe('auth callback — welcome suffix', () => {
   it('appends ?welcome=1 for a normal next path', async () => {
     await GET(makeRequest('https://rounddoorstudio.com/auth/callback?code=abc&next=/library'));
-    // First redirect is the placeholder; second is the final destination
     const final = redirectUrls[redirectUrls.length - 1];
     expect(final).toContain('?welcome=1');
     expect(final).toContain('/library');
@@ -101,6 +103,13 @@ describe('auth callback — exchange error', () => {
   it('redirects to /login when code exchange fails', async () => {
     mockExchangeCodeForSession.mockResolvedValue({ data: null, error: { message: 'invalid' } });
     await GET(makeRequest('https://rounddoorstudio.com/auth/callback?code=bad'));
+    const final = redirectUrls[redirectUrls.length - 1];
+    expect(final).toMatch(/\/login$/);
+  });
+
+  it('redirects to /login when exchange returns no session', async () => {
+    mockExchangeCodeForSession.mockResolvedValue({ data: { session: null }, error: null });
+    await GET(makeRequest('https://rounddoorstudio.com/auth/callback?code=abc'));
     const final = redirectUrls[redirectUrls.length - 1];
     expect(final).toMatch(/\/login$/);
   });
