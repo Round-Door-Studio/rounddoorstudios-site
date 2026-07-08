@@ -28,8 +28,8 @@ export function HomeClient({ featured }: HomeClientProps) {
           The same story, told in both languages. Read along, learn new words, spark conversations, and explore Chinese culture together.
           </p>
           <p className="hero-zh">
-            <span className="only-simp zh-simp">为双语家庭而生的故事</span>
-            <span className="only-trad zh-trad">為雙語家庭而生的故事</span>
+            <span className="only-simp zh-simp">中英双语故事：为充满好奇心的家庭与语言学习者而生</span>
+            <span className="only-trad zh-trad">中英雙語故事：為充滿好奇心的家庭與語言學習者而生</span>
           </p>
           <div className="hero-cta">
             <Link className="btn btn-primary" href="/library">Browse Stories</Link>
