@@ -49,7 +49,7 @@ export function QuestionsSection({ questions }: { questions: QuestionsContent })
   return (
     <>
       <p className="pack-parent-note">
-        Follow your child&apos;s curiosity. Choose the questions that fit today.
+        Let curiosity lead the way. Choose the questions that feel right for today&apos;s conversation.
       </p>
       <QuestionGroup title="Open the Door" questions={open} />
       <QuestionGroup title="Go Beyond" questions={beyond} />

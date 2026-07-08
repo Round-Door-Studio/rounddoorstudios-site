@@ -23,11 +23,10 @@ export default function AboutPage() {
           <span className="only-trad zh-trad">我們的故事</span>
         </p>
         <h1 className="display" style={{ fontSize: 'clamp(32px, 5vw, 52px)', marginBottom: 16 }}>
-          Heritage shouldn&apos;t feel like homework.
+          Language and culture shouldn&apos;t feel like homework.
         </h1>
         <p style={{ fontSize: 'clamp(16px, 2.2vw, 19px)', lineHeight: 1.65, color: 'var(--ink-soft)' }}>
-          We bring Chinese folklore, fables, and culture to life through audio stories designed for
-          children growing up between two worlds. It should feel like an adventure worth sharing.
+        We bring Chinese folklore, fables, and culture to life through stories in both Mandarin and English. Whether you&apos;re raising bilingual children, reconnecting with your heritage, learning Mandarin, or simply curious about Chinese culture, we believe language is best discovered through stories worth sharing.
         </p>
       </section>
 
@@ -70,10 +69,11 @@ export default function AboutPage() {
             {' '}We&apos;re Catherine &amp; Lanssie
           </p>
           <p style={{ color: 'var(--ink-soft)', lineHeight: 1.7, fontSize: 15 }}>
-            Two Asian American moms (with Chinese and Taiwanese roots) asking the same question: how
-            do we raise kids who feel at home in their heritage and their American life? Round Door
-            Studio is our answer. Stories for every family that wants their kids to grow up knowing
-            the myths, the culture, and the language that makes them who they are.
+          Two Asian American moms (with Chinese and Taiwanese roots) who kept asking the same question: How do we help the next generation feel at home in both their heritage and the wider world?
+          <br /><br />
+          Round Door Studio is our answer.
+          <br /><br />
+          We create stories that make Chinese language and culture approachable, joyful, and memorable—for families, heritage learners, language learners, and anyone curious to explore. Through timeless folktales, original stories, and cultural traditions, we hope to spark curiosity and create connections that last across generations.
           </p>
         </div>
       </section>
@@ -96,8 +96,8 @@ export default function AboutPage() {
         </h3>
         <p style={{ color: 'var(--ink-soft)', lineHeight: 1.7, fontSize: 15 }}>
           The round door in our logo is inspired by the moon gates found in classical Chinese
-          gardens. But to us, it&apos;s also a portal—a doorway into stories, adventures, language,
-          and culture. Every time a child presses play, we hope they&apos;re stepping through that
+          gardens. But to us, it&apos;s also a portal, a doorway into stories, adventures, language,
+          and culture. Every time someone presses play, we hope they&apos;re stepping through that
           door into a new world.
         </p>
       </section>

@@ -55,7 +55,7 @@ export function LibraryClient({ stories }: LibraryClientProps) {
       <section className="library-cta" aria-labelledby="libraryCtaTitle">
         <div className="library-cta-in">
           <h2 id="libraryCtaTitle">🚪 A New Story is Always On Its Way.</h2>
-          <p>Get future story packs, family activities, and new episodes delivered to your inbox.</p>
+          <p>Get new episodes, story packs, language activities, and cultural resources delivered to your inbox.</p>
           <button type="button" className="btn btn-primary" onClick={openModal}>
             Get New Stories
           </button>
