@@ -21,8 +21,11 @@ const TABS: { id: TabId; icon: string; label: string }[] = [
 
 interface StoryPackProps {
   content: StoryPageContent | null;
-  showLockedView: boolean;
+  hasAccess: boolean;
+  source: 'free' | 'subscription' | 'purchase' | 'grant' | 'none';
   isFreeStory: boolean;
+  isLoggedIn: boolean;
+  storySlug: string;
   vocabCount: number;
   questionCount: number;
   activityCount: number;
@@ -30,8 +33,11 @@ interface StoryPackProps {
 
 export function StoryPack({
   content,
-  showLockedView,
+  hasAccess,
+  source,
   isFreeStory,
+  isLoggedIn,
+  storySlug,
   vocabCount,
   questionCount,
   activityCount,
@@ -67,10 +73,12 @@ export function StoryPack({
     window.print();
   }
 
-  if (showLockedView && !revealed) {
+  if (!hasAccess && !revealed) {
     return (
       <LockedStoryPack
         isFreeStory={isFreeStory}
+        isLoggedIn={isLoggedIn}
+        storySlug={storySlug}
         onReveal={() => setRevealed(true)}
         vocabCount={vocabCount}
         questionCount={questionCount}

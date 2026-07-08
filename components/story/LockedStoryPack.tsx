@@ -1,30 +1,50 @@
 'use client';
 
 import { useState } from 'react';
-import { usePathname } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { AuthModal } from '@/components/AuthModal';
 import { FREE_STORY_SLUG } from '@/lib/stories';
 
 interface LockedStoryPackProps {
   isFreeStory: boolean;
+  isLoggedIn: boolean;
+  storySlug: string;
   onReveal: () => void;
   vocabCount: number;
   questionCount: number;
   activityCount: number;
 }
 
-
 export function LockedStoryPack({
   isFreeStory,
+  isLoggedIn,
+  storySlug,
   onReveal,
   vocabCount,
   questionCount,
   activityCount,
 }: LockedStoryPackProps) {
-  const [showModal, setShowModal] = useState(false);
-  const [authMode, setAuthMode] = useState<'signin' | 'signup'>('signup');
-  const pathname = usePathname() ?? '/library';
+  const [packLoading, setPackLoading] = useState(false);
+  const router = useRouter();
+
+  async function handleUnlockPack() {
+    if (!isLoggedIn) {
+      router.push(`/login?redirectTo=/story/${storySlug}`);
+      return;
+    }
+    setPackLoading(true);
+    try {
+      const res = await fetch('/api/stripe/create-story-pack-checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ storySlug }),
+      });
+      const data = await res.json();
+      if (data.url) router.push(data.url);
+    } catch {
+      setPackLoading(false);
+    }
+  }
 
   return (
     <div>
@@ -91,7 +111,7 @@ export function LockedStoryPack({
         <div className="locked-cta-inner">
           <div className="locked-cta-text">
             <span className="locked-members-pill">🔒 Circle Members</span>
-            <h2 className="locked-cta-heading">Join the Circle and open the full Story Pack.</h2>
+            <h2 className="locked-cta-heading">Open the full Story Pack.</h2>
             <ul className="locked-cta-list">
               <li>Read along in Mandarin — Simplified, Traditional, or side-by-side</li>
               <li>Vocabulary with pinyin and zhuyin support</li>
@@ -100,6 +120,7 @@ export function LockedStoryPack({
             </ul>
             <p className="locked-cta-note">Every story is free to listen to. Story Packs help support the podcast and bring each story to life.</p>
           </div>
+
           <div className="locked-cta-actions">
             {isFreeStory ? (
               <button className="btn-submit locked-cta-btn" onClick={onReveal}>
@@ -107,11 +128,18 @@ export function LockedStoryPack({
               </button>
             ) : (
               <>
-                <button
-                  className="btn-submit locked-cta-btn"
-                  onClick={() => { setAuthMode('signup'); setShowModal(true); }}
-                >
+                <Link href="/membership" className="btn-submit locked-cta-btn">
                   Join the Circle
+                  <span className="locked-cta-sub">All Story Packs · $20/mo or $216/yr</span>
+                </Link>
+                <button
+                  type="button"
+                  className="locked-cta-btn-secondary"
+                  onClick={handleUnlockPack}
+                  disabled={packLoading}
+                >
+                  {packLoading ? 'Loading…' : 'Unlock This Story Pack'}
+                  <span className="locked-cta-sub">One-time · $8</span>
                 </button>
                 <Link href={`/story/${FREE_STORY_SLUG}`} className="locked-try-free">
                   Explore a Sample Story Pack
@@ -121,15 +149,6 @@ export function LockedStoryPack({
           </div>
         </div>
       </div>
-
-      {showModal && (
-        <AuthModal
-          mode={authMode}
-          onClose={() => setShowModal(false)}
-          onSwitchMode={setAuthMode}
-          redirectTo={pathname}
-        />
-      )}
     </div>
   );
 }

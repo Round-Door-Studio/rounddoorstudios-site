@@ -1,13 +1,38 @@
 'use client';
 
-import { Modal, useModal } from '@/components/Modal';
-
-// Note: metadata export doesn't work in 'use client' — move to a layout
-// if this page needs to be a Server Component.
-// export const metadata: Metadata = { ... };
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function MembershipPage() {
-  const { open, openModal, closeModal } = useModal();
+  const [interval, setInterval] = useState<'monthly' | 'yearly'>('monthly');
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
+
+  const isYearly = interval === 'yearly';
+  const monthlyEquiv = isYearly ? '$18' : '$20';
+  const billingNote = isYearly ? '$216 billed yearly' : 'billed monthly';
+  const savings = isYearly ? 'Save 10%' : null;
+
+  async function handleJoin() {
+    setLoading(true);
+    try {
+      const res = await fetch('/api/stripe/create-membership-checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ interval }),
+      });
+      const data = await res.json();
+      if (res.status === 401) {
+        router.push('/login?redirectTo=/membership');
+        return;
+      }
+      if (data.url) {
+        router.push(data.url);
+      }
+    } catch {
+      setLoading(false);
+    }
+  }
 
   return (
     <>
@@ -20,8 +45,8 @@ export default function MembershipPage() {
         </h1>
         <p style={{ fontSize: 'clamp(15px, 2.1vw, 18px)', lineHeight: 1.65, color: 'var(--ink-soft)' }}>
           Every story is free on Spotify, YouTube, and Apple Podcasts — forever.
-          The Round Door Circle helps families keep the story going with printable story packs,
-          read-along storybooks, vocabulary, curious questions, and cultural activities.
+          The Round Door Circle helps families keep the story going with read-along storybooks,
+          vocabulary, curious questions, and cultural activities.
         </p>
       </section>
 
@@ -32,7 +57,8 @@ export default function MembershipPage() {
         }}
         className="prices-grid"
       >
-        <div className="card" style={{ padding: 28, position: 'relative' }}>
+        {/* Free card */}
+        <div className="card" style={{ padding: 28 }}>
           <p className="eyebrow" style={{ marginBottom: 6 }}>Free</p>
           <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, margin: '8px 0 12px' }}>
             <span style={{ fontFamily: 'var(--display)', fontSize: 46 }}>$0</span>
@@ -46,6 +72,7 @@ export default function MembershipPage() {
           </ul>
         </div>
 
+        {/* Circle Member card */}
         <div
           className="card"
           style={{
@@ -54,49 +81,91 @@ export default function MembershipPage() {
             boxShadow: '0 14px 40px var(--shadow)',
           }}
         >
-          <span
-            style={{
-              position: 'absolute', top: -10, right: 18,
-              background: 'var(--accent)', color: '#fff',
-              padding: '4px 10px', borderRadius: 999,
-              fontSize: 10, letterSpacing: '0.1em', textTransform: 'uppercase',
-            }}
-          >
-            Coming soon
-          </span>
-          <p className="eyebrow" style={{ marginBottom: 6 }}>Circle Member</p>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, margin: '8px 0 12px' }}>
-            <span style={{ fontFamily: 'var(--display)', fontSize: 46 }}>$5</span>
+          <p className="eyebrow" style={{ marginBottom: 12 }}>Circle Member</p>
+
+          {/* Monthly / Yearly toggle */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 0, marginBottom: 16 }}>
+            <div className="interval-toggle">
+              <button
+                type="button"
+                className={`interval-btn${!isYearly ? ' is-on' : ''}`}
+                onClick={() => setInterval('monthly')}
+              >
+                Monthly
+              </button>
+              <button
+                type="button"
+                className={`interval-btn${isYearly ? ' is-on' : ''}`}
+                onClick={() => setInterval('yearly')}
+              >
+                Yearly
+                {savings && (
+                  <span className="interval-savings">{savings}</span>
+                )}
+              </button>
+            </div>
+          </div>
+
+          {/* Price */}
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, margin: '0 0 4px' }}>
+            <span style={{ fontFamily: 'var(--display)', fontSize: 46 }}>{monthlyEquiv}</span>
             <span style={{ color: 'var(--muted)', fontSize: 14 }}>/month</span>
           </div>
-          <p style={{ color: 'var(--muted)', fontSize: 12, marginBottom: 14 }}>Cancel any time.</p>
-          <ul style={{ paddingLeft: 18, lineHeight: 1.8, fontSize: 14, color: 'var(--ink-soft)' }}>
+          <p style={{ color: 'var(--muted)', fontSize: 12, marginBottom: 14 }}>{billingNote} · Cancel any time.</p>
+
+          <ul style={{ paddingLeft: 18, lineHeight: 1.8, fontSize: 14, color: 'var(--ink-soft)', marginBottom: 20 }}>
             <li>Everything in Free</li>
-            <li>Printable story packs for every episode</li>
             <li>Read-along storybooks with pinyin &amp; zhuyin</li>
             <li>Vocabulary cards with example sentences</li>
             <li>Curious questions for family discussion</li>
             <li>Cultural activities &amp; crafts</li>
+            <li>Every Story Pack, including new releases</li>
           </ul>
-          <div style={{ marginTop: 20 }}>
-            <button type="button" className="btn btn-primary" style={{ width: '100%' }} onClick={openModal}>
-              Get notified at launch
-            </button>
-          </div>
+
+          <button
+            type="button"
+            className="btn btn-primary"
+            style={{ width: '100%' }}
+            onClick={handleJoin}
+            disabled={loading}
+          >
+            {loading ? 'Loading…' : 'Join the Circle'}
+          </button>
         </div>
       </section>
 
-      <p
-        style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 12, margin: '14px 0 48px' }}
-      >
-        🔒 Paid membership coming soon. Join the waitlist to be first to know.
+      <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 12, margin: '14px 0 48px' }}>
+        🔒 Payments are processed securely by Stripe. Cancel any time from your account.
       </p>
 
       <style>{`
         @media (max-width: 640px) { .prices-grid { grid-template-columns: 1fr !important; } }
-      `}</style>
 
-      <Modal open={open} onClose={closeModal} />
+        .interval-toggle {
+          display: inline-flex;
+          background: var(--paper-2);
+          border: 1px solid var(--border);
+          border-radius: 999px;
+          padding: 3px;
+          gap: 2px;
+        }
+        .interval-btn {
+          border: 0; background: transparent; cursor: pointer;
+          font-family: var(--serif); font-size: 13px; color: var(--ink-soft);
+          padding: 5px 14px; border-radius: 999px;
+          display: inline-flex; align-items: center; gap: 6px;
+          transition: background .15s, color .15s;
+        }
+        .interval-btn.is-on {
+          background: var(--paper); color: var(--ink);
+          box-shadow: 0 1px 3px rgba(0,0,0,0.10);
+        }
+        .interval-savings {
+          font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase;
+          background: var(--accent); color: #fff;
+          padding: 2px 6px; border-radius: 999px;
+        }
+      `}</style>
     </>
   );
 }
