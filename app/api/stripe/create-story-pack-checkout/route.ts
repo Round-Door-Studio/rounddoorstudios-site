@@ -46,7 +46,7 @@ export async function POST(request: NextRequest) {
         story_slug: storySlug,
         product_type: 'story_pack',
       },
-      success_url: `${siteUrl}/account?checkout=success&session_id={CHECKOUT_SESSION_ID}`,
+      success_url: `${siteUrl}/account?checkout=success&type=story_pack&slug=${storySlug}&session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${siteUrl}/stories/${storySlug}?checkout=canceled`,
     })
 

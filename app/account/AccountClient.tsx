@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { signOut } from '@/app/auth/actions'
 import type { Story } from '@/lib/types'
@@ -13,7 +13,9 @@ interface Props {
   planInterval: string | null
   periodEnd: string | null
   packs: Story[]
+  purchasedSlugs: string[]
   checkoutSuccess: boolean
+  bannerMessage: string
 }
 
 const PACK_SECTIONS = [
@@ -36,11 +38,38 @@ export default function AccountClient({
   planInterval,
   periodEnd,
   packs,
+  purchasedSlugs,
   checkoutSuccess,
+  bannerMessage,
 }: Props) {
   const [bannerVisible, setBannerVisible] = useState(checkoutSuccess)
   const [portalLoading, setPortalLoading] = useState(false)
+  const [awaitingPortalReturn, setAwaitingPortalReturn] = useState(false)
   const router = useRouter()
+
+  // Webhook fires async — if we land here right after checkout and the DB
+  // hasn't updated yet, refresh after 3s to pick up the new subscription/purchase.
+  // Also replace the URL immediately to strip ?checkout=success so back-navigation
+  // doesn't re-show the banner.
+  useEffect(() => {
+    if (!checkoutSuccess) return
+    router.replace('/account', { scroll: false })
+    const t = setTimeout(() => router.refresh(), 3000)
+    return () => clearTimeout(t)
+  }, [checkoutSuccess, router])
+
+  // Refresh only once when returning from Stripe portal — not on every tab switch.
+  useEffect(() => {
+    if (!awaitingPortalReturn) return
+    function handleVisibility() {
+      if (document.visibilityState === 'visible') {
+        setAwaitingPortalReturn(false)
+        router.refresh()
+      }
+    }
+    document.addEventListener('visibilitychange', handleVisibility)
+    return () => document.removeEventListener('visibilitychange', handleVisibility)
+  }, [awaitingPortalReturn, router])
 
   const planLabel = planInterval === 'yearly' ? 'Yearly / $216/yr' : 'Monthly / $20/mo'
   const dateLabel = formatDate(periodEnd)
@@ -51,7 +80,10 @@ export default function AccountClient({
     try {
       const res = await fetch('/api/stripe/create-portal-session', { method: 'POST' })
       const { url } = await res.json()
-      if (url) router.push(url)
+      if (url) {
+        setAwaitingPortalReturn(true)
+        router.push(url)
+      }
     } catch {
       setPortalLoading(false)
     }
@@ -65,9 +97,7 @@ export default function AccountClient({
         <div className="banner">
           <p>
             <span className="dot" />
-            {membershipState !== 'free'
-              ? "You're in the Circle — welcome! Your membership is now active."
-              : 'Payment confirmed — your Story Pack is now unlocked.'}
+            {bannerMessage}
           </p>
           <button
             type="button"
@@ -83,7 +113,7 @@ export default function AccountClient({
       {/* Header */}
       <div className="acct-head">
         <p className="eyebrow">Account</p>
-        <h1 className="display">Your Account</h1>
+        <h1 className="display">Hi, {email.split('@')[0]}.</h1>
         <p className="acct-email">{email}</p>
       </div>
 
@@ -92,12 +122,12 @@ export default function AccountClient({
         <p className="acct-section-title">Membership</p>
         <div className="card">
           {membershipState === 'free' ? (
-            <>
+            <div className="mship-free-row">
               <p className="mship-free-copy">
                 You&rsquo;re on a free account. Join the Circle to unlock every Story Pack.
               </p>
               <a className="btn btn-primary" href="/membership">Join the Circle</a>
-            </>
+            </div>
           ) : (
             <div className="mship-body">
               <div>
@@ -151,9 +181,14 @@ export default function AccountClient({
                     </div>
                   )}
                   <div>
-                    <a className="pack-row-title-link" href={`/story/${story.slug}`}>
-                      <span className="pack-row-title">{story.title.simp}</span>
-                    </a>
+                    <div className="pack-row-title-row">
+                      <a className="pack-row-title-link" href={`/story/${story.slug}`}>
+                        <span className="pack-row-title">{story.title.simp}</span>
+                      </a>
+                      {purchasedSlugs.includes(story.slug) && (
+                        <span className="pack-yours-badge">Yours to keep</span>
+                      )}
+                    </div>
                     <p className="pack-row-en">{story.title.en}</p>
                   </div>
                   <div className="pack-quick">

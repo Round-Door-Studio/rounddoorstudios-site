@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { useScript } from '@/context/ScriptContext';
 import { ReadAlong } from './ReadAlong';
 import { VocabSection } from './VocabSection';
@@ -21,8 +22,11 @@ const TABS: { id: TabId; icon: string; label: string }[] = [
 
 interface StoryPackProps {
   content: StoryPageContent | null;
-  showLockedView: boolean;
+  hasAccess: boolean;
+  source: 'free' | 'subscription' | 'purchase' | 'grant' | 'none';
   isFreeStory: boolean;
+  isLoggedIn: boolean;
+  storySlug: string;
   vocabCount: number;
   questionCount: number;
   activityCount: number;
@@ -30,14 +34,21 @@ interface StoryPackProps {
 
 export function StoryPack({
   content,
-  showLockedView,
+  hasAccess,
+  source,
   isFreeStory,
+  isLoggedIn,
+  storySlug,
   vocabCount,
   questionCount,
   activityCount,
 }: StoryPackProps) {
   const { script, setScript } = useScript();
-  const [activeTab, setActiveTab] = useState<TabId>('read');
+  const searchParams = useSearchParams();
+  const initialTab = (searchParams.get('tab') as TabId | null) ?? 'read';
+  const [activeTab, setActiveTab] = useState<TabId>(
+    TABS.some(t => t.id === initialTab) ? initialTab : 'read'
+  );
   const [revealed, setRevealed] = useState(false);
   const [readingMode, setReadingMode] = useState<ReadingMode>('simp');
   // Tracks the last simp/trad choice so the toggle can revert when leaving compare mode
@@ -67,10 +78,12 @@ export function StoryPack({
     window.print();
   }
 
-  if (showLockedView && !revealed) {
+  if (!hasAccess && !revealed) {
     return (
       <LockedStoryPack
         isFreeStory={isFreeStory}
+        isLoggedIn={isLoggedIn}
+        storySlug={storySlug}
         onReveal={() => setRevealed(true)}
         vocabCount={vocabCount}
         questionCount={questionCount}

@@ -36,6 +36,7 @@ function makeStripeSubscription(overrides: object = {}): object {
     customer: STRIPE_CUSTOMER_ID,
     status: 'active',
     cancel_at_period_end: false,
+    cancel_at: null,
     items: {
       data: [
         {
@@ -349,6 +350,45 @@ describe('customer.subscription.created / updated', () => {
       )
     })
   }
+
+  it('customer.subscription.updated: writes cancel_at as ISO string when set', async () => {
+    const CANCEL_AT_UNIX = 1815033483
+    const sub = makeStripeSubscription({ cancel_at: CANCEL_AT_UNIX })
+    mockConstructEvent.mockReturnValue(makeEvent('customer.subscription.updated', sub))
+
+    const subInsertChain = makeChain(null)
+    mockFrom
+      .mockReturnValueOnce(makeChain(null))
+      .mockReturnValueOnce(makeChain(null))
+      .mockReturnValueOnce(makeChain({ user_id: USER_ID }))
+      .mockReturnValueOnce(makeChain(null))
+      .mockReturnValueOnce(subInsertChain)
+
+    await POST(makeWebhookRequest())
+    expect(subInsertChain.insert).toHaveBeenCalledWith(
+      expect.objectContaining({
+        cancel_at: new Date(CANCEL_AT_UNIX * 1000).toISOString(),
+      })
+    )
+  })
+
+  it('customer.subscription.updated: writes cancel_at as null when not set', async () => {
+    const sub = makeStripeSubscription({ cancel_at: null })
+    mockConstructEvent.mockReturnValue(makeEvent('customer.subscription.updated', sub))
+
+    const subInsertChain = makeChain(null)
+    mockFrom
+      .mockReturnValueOnce(makeChain(null))
+      .mockReturnValueOnce(makeChain(null))
+      .mockReturnValueOnce(makeChain({ user_id: USER_ID }))
+      .mockReturnValueOnce(makeChain(null))
+      .mockReturnValueOnce(subInsertChain)
+
+    await POST(makeWebhookRequest())
+    expect(subInsertChain.insert).toHaveBeenCalledWith(
+      expect.objectContaining({ cancel_at: null })
+    )
+  })
 })
 
 // ── customer.subscription.deleted ─────────────────────────────────────────

@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
       customer: stripeCustomerId,
       mode: 'subscription',
       line_items: [{ price: priceId, quantity: 1 }],
-      success_url: `${siteUrl}/account?checkout=success&session_id={CHECKOUT_SESSION_ID}`,
+      success_url: `${siteUrl}/account?checkout=success&type=membership&session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${siteUrl}/membership?checkout=canceled`,
     })
 
