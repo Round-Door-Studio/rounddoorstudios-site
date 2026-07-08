@@ -44,6 +44,7 @@ export default function AccountClient({
 }: Props) {
   const [bannerVisible, setBannerVisible] = useState(checkoutSuccess)
   const [portalLoading, setPortalLoading] = useState(false)
+  const [awaitingPortalReturn, setAwaitingPortalReturn] = useState(false)
   const router = useRouter()
 
   // Webhook fires async — if we land here right after checkout and the DB
@@ -57,14 +58,18 @@ export default function AccountClient({
     return () => clearTimeout(t)
   }, [checkoutSuccess, router])
 
-  // Refresh when returning from Stripe portal so cancellation / changes are picked up immediately.
+  // Refresh only once when returning from Stripe portal — not on every tab switch.
   useEffect(() => {
+    if (!awaitingPortalReturn) return
     function handleVisibility() {
-      if (document.visibilityState === 'visible') router.refresh()
+      if (document.visibilityState === 'visible') {
+        setAwaitingPortalReturn(false)
+        router.refresh()
+      }
     }
     document.addEventListener('visibilitychange', handleVisibility)
     return () => document.removeEventListener('visibilitychange', handleVisibility)
-  }, [router])
+  }, [awaitingPortalReturn, router])
 
   const planLabel = planInterval === 'yearly' ? 'Yearly / $216/yr' : 'Monthly / $20/mo'
   const dateLabel = formatDate(periodEnd)
@@ -75,7 +80,10 @@ export default function AccountClient({
     try {
       const res = await fetch('/api/stripe/create-portal-session', { method: 'POST' })
       const { url } = await res.json()
-      if (url) router.push(url)
+      if (url) {
+        setAwaitingPortalReturn(true)
+        router.push(url)
+      }
     } catch {
       setPortalLoading(false)
     }
