@@ -132,6 +132,9 @@ async function handleSubscriptionUpsert(
       ? new Date(item.current_period_end * 1000).toISOString()
       : null,
     cancel_at_period_end: sub.cancel_at_period_end,
+    cancel_at: sub.cancel_at
+      ? new Date(sub.cancel_at * 1000).toISOString()
+      : null,
     updated_at: new Date().toISOString(),
   }
 

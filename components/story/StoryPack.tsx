@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { useScript } from '@/context/ScriptContext';
 import { ReadAlong } from './ReadAlong';
 import { VocabSection } from './VocabSection';
@@ -43,7 +44,11 @@ export function StoryPack({
   activityCount,
 }: StoryPackProps) {
   const { script, setScript } = useScript();
-  const [activeTab, setActiveTab] = useState<TabId>('read');
+  const searchParams = useSearchParams();
+  const initialTab = (searchParams.get('tab') as TabId | null) ?? 'read';
+  const [activeTab, setActiveTab] = useState<TabId>(
+    TABS.some(t => t.id === initialTab) ? initialTab : 'read'
+  );
   const [revealed, setRevealed] = useState(false);
   const [readingMode, setReadingMode] = useState<ReadingMode>('simp');
   // Tracks the last simp/trad choice so the toggle can revert when leaving compare mode

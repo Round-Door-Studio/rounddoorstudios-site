@@ -10,7 +10,7 @@ export default function MembershipPage() {
 
   const isYearly = interval === 'yearly';
   const monthlyEquiv = isYearly ? '$18' : '$20';
-  const billingNote = isYearly ? '$216 billed yearly' : 'billed monthly';
+  const billingNote = isYearly ? '$216 billed yearly' : 'Billed monthly';
   const savings = isYearly ? 'Save 10%' : null;
 
   async function handleJoin() {
@@ -58,18 +58,25 @@ export default function MembershipPage() {
         className="prices-grid"
       >
         {/* Free card */}
-        <div className="card" style={{ padding: 28 }}>
+        <div className="card" style={{ padding: 28, display: 'flex', flexDirection: 'column' }}>
           <p className="eyebrow" style={{ marginBottom: 6 }}>Free</p>
           <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, margin: '8px 0 12px' }}>
             <span style={{ fontFamily: 'var(--display)', fontSize: 46 }}>$0</span>
             <span style={{ color: 'var(--muted)', fontSize: 14 }}>/month</span>
           </div>
           <p style={{ color: 'var(--muted)', fontSize: 12, marginBottom: 14 }}>Forever free. No card needed.</p>
-          <ul style={{ paddingLeft: 18, lineHeight: 1.8, fontSize: 14, color: 'var(--ink-soft)' }}>
+          <ul style={{ paddingLeft: 18, lineHeight: 1.8, fontSize: 14, color: 'var(--ink-soft)', marginBottom: 20, flex: 1 }}>
             <li>All podcast episodes on Spotify, YouTube &amp; Apple</li>
             <li>New stories every week</li>
             <li>English &amp; Mandarin versions of every episode</li>
           </ul>
+          <a
+            href="/signup"
+            className="btn btn-ghost"
+            style={{ width: '100%', justifyContent: 'center' }}
+          >
+            Create a free account
+          </a>
         </div>
 
         {/* Circle Member card */}
@@ -79,12 +86,12 @@ export default function MembershipPage() {
             padding: 28, position: 'relative',
             border: '1px solid var(--accent)',
             boxShadow: '0 14px 40px var(--shadow)',
+            display: 'flex', flexDirection: 'column',
           }}
         >
-          <p className="eyebrow" style={{ marginBottom: 12 }}>Circle Member</p>
-
-          {/* Monthly / Yearly toggle */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 0, marginBottom: 16 }}>
+          {/* Circle Member label + toggle on same row */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
+            <p className="eyebrow" style={{ margin: 0 }}>Circle Member</p>
             <div className="interval-toggle">
               <button
                 type="button"
@@ -113,7 +120,7 @@ export default function MembershipPage() {
           </div>
           <p style={{ color: 'var(--muted)', fontSize: 12, marginBottom: 14 }}>{billingNote} · Cancel any time.</p>
 
-          <ul style={{ paddingLeft: 18, lineHeight: 1.8, fontSize: 14, color: 'var(--ink-soft)', marginBottom: 20 }}>
+          <ul style={{ paddingLeft: 18, lineHeight: 1.8, fontSize: 14, color: 'var(--ink-soft)', marginBottom: 20, flex: 1 }}>
             <li>Everything in Free</li>
             <li>Read-along storybooks with pinyin &amp; zhuyin</li>
             <li>Vocabulary cards with example sentences</li>
@@ -125,7 +132,7 @@ export default function MembershipPage() {
           <button
             type="button"
             className="btn btn-primary"
-            style={{ width: '100%' }}
+            style={{ width: '100%', justifyContent: 'center' }}
             onClick={handleJoin}
             disabled={loading}
           >

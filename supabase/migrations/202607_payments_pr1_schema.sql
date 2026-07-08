@@ -15,6 +15,7 @@ ALTER TABLE public.subscriptions
   ADD COLUMN IF NOT EXISTS price_id             text,
   ADD COLUMN IF NOT EXISTS current_period_start timestamptz,
   ADD COLUMN IF NOT EXISTS cancel_at_period_end boolean NOT NULL DEFAULT false,
+  ADD COLUMN IF NOT EXISTS cancel_at            timestamptz,
   ADD COLUMN IF NOT EXISTS updated_at           timestamptz DEFAULT now();
 
 
@@ -148,6 +149,19 @@ CREATE TABLE public.stripe_events (
   type         text NOT NULL,
   processed_at timestamptz DEFAULT now()
 );
+
+
+-- ------------------------------------------------------------
+-- Step 8: Grant service_role table-level privileges
+-- service_role bypasses RLS but still needs explicit grants.
+-- ------------------------------------------------------------
+
+GRANT ALL ON public.stripe_customers     TO service_role;
+GRANT ALL ON public.story_pack_purchases TO service_role;
+GRANT ALL ON public.entitlement_grants   TO service_role;
+GRANT ALL ON public.stripe_events        TO service_role;
+GRANT ALL ON public.products             TO service_role;
+GRANT ALL ON public.subscriptions        TO service_role;
 
 
 -- ------------------------------------------------------------

@@ -21,7 +21,7 @@ export default async function AccountPage({
   // Get the most recent active or trialing subscription
   const { data: subscriptions } = await service
     .from('subscriptions')
-    .select('status, plan_interval, current_period_end, cancel_at_period_end')
+    .select('status, plan_interval, current_period_end, cancel_at_period_end, cancel_at')
     .eq('user_id', user.id)
     .in('status', ['active', 'trialing'])
     .order('current_period_end', { ascending: false })
@@ -37,10 +37,11 @@ export default async function AccountPage({
 
   const purchasedSlugs = (purchases ?? []).map((p: { story_slug: string }) => p.story_slug)
 
-  // Membership state
+  // Membership state — Stripe uses cancel_at (timestamp) in newer API versions
+  // rather than cancel_at_period_end: true
   let membershipState: 'active' | 'canceling' | 'free' = 'free'
   if (subscription) {
-    membershipState = subscription.cancel_at_period_end ? 'canceling' : 'active'
+    membershipState = (subscription.cancel_at || subscription.cancel_at_period_end) ? 'canceling' : 'active'
   }
 
   // Which packs to show: members see all released packs, others see only purchased
@@ -52,6 +53,17 @@ export default async function AccountPage({
 
   const params = await searchParams
   const checkoutSuccess = params.checkout === 'success'
+
+  let bannerMessage = 'Payment confirmed — your access is being activated.'
+  if (checkoutSuccess) {
+    if (params.type === 'membership') {
+      bannerMessage = 'Payment confirmed — your Circle Membership is being activated.'
+    } else if (params.type === 'story_pack' && params.slug) {
+      const story = STORIES.find(s => s.slug === params.slug)
+      const title = story?.title?.en ?? 'your Story Pack'
+      bannerMessage = `Payment confirmed — ${title} is being unlocked.`
+    }
+  }
 
   return (
     <>
@@ -98,7 +110,9 @@ export default async function AccountPage({
         .mship-body .btn { flex-shrink: 0; }
         .mship-plan { font-family: var(--display); font-size: 22px; margin-bottom: 4px; }
         .mship-renew { color: var(--ink-soft); font-size: 14px; }
-        .mship-free-copy { color: var(--ink-soft); font-size: 16px; line-height: 1.6; margin-bottom: 20px; max-width: 46ch; }
+        .mship-free-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+        .mship-free-copy { color: var(--ink-soft); font-size: 16px; line-height: 1.6; margin: 0; }
+        .mship-free-row .btn { flex-shrink: 0; }
 
         .pack-list { display: flex; flex-direction: column; gap: 18px; }
         .pack-item {
@@ -112,9 +126,17 @@ export default async function AccountPage({
           display: flex; align-items: center; justify-content: center;
           font-family: var(--zh-simp); font-size: 18px; color: rgba(255,255,255,0.9);
         }
+        .pack-row-title-row { display: flex; align-items: center; gap: 8px; }
         .pack-row-title-link { text-decoration: none; }
         .pack-row-title { font-family: var(--display); font-size: 16px; color: var(--ink); }
         .pack-row-title-link:hover .pack-row-title { color: var(--accent-dk); }
+        .pack-yours-badge {
+          font-family: var(--serif); font-size: 10px; font-weight: 400;
+          letter-spacing: 0.1em; text-transform: uppercase;
+          color: var(--accent-dk); background: var(--accent-tint);
+          border: 1px solid rgba(155,71,97,0.25);
+          padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+        }
         .pack-row-en { font-size: 12px; color: var(--muted); margin-top: 2px; }
         .pack-quick { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
         .pack-quick a {
@@ -146,9 +168,14 @@ export default async function AccountPage({
         email={user.email ?? ''}
         membershipState={membershipState}
         planInterval={subscription?.plan_interval ?? null}
-        periodEnd={subscription?.current_period_end ?? null}
+        periodEnd={membershipState === 'canceling'
+          ? (subscription?.cancel_at ?? subscription?.current_period_end ?? null)
+          : (subscription?.current_period_end ?? null)
+        }
         packs={packsToShow}
+        purchasedSlugs={purchasedSlugs}
         checkoutSuccess={checkoutSuccess}
+        bannerMessage={bannerMessage}
       />
     </>
   )
