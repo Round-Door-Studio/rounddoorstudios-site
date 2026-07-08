@@ -9,7 +9,7 @@ export const metadata = { title: 'Your Account · Round Door Studio' }
 export default async function AccountPage({
   searchParams,
 }: {
-  searchParams: Promise<{ checkout?: string }>
+  searchParams: Promise<{ checkout?: string; type?: string; slug?: string }>
 }) {
   const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
