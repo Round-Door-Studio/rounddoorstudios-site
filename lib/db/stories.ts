@@ -49,6 +49,7 @@ export async function getReleasedStoriesFromDB(): Promise<Story[]> {
     .eq('released', true)
     .order('num', { ascending: true })
 
+  if (error) console.error('[db/stories] getReleasedStoriesFromDB failed:', error.message)
   if (error || !data) return []
   return data.map(mapRow)
 }
@@ -62,6 +63,10 @@ export async function getStoryBySlugFromDB(slug: string): Promise<Story | null> 
     .eq('slug', slug)
     .single()
 
+  if (error && error.code !== 'PGRST116') {
+    // PGRST116 = "no rows returned" — expected for unknown slugs, not an error
+    console.error('[db/stories] getStoryBySlugFromDB failed for slug:', slug, error.message)
+  }
   if (error || !data) return null
   return mapRow(data as Record<string, unknown>)
 }
@@ -74,6 +79,7 @@ export async function getAllStoriesFromDB(): Promise<Story[]> {
     .select('*')
     .order('num', { ascending: true })
 
+  if (error) console.error('[db/stories] getAllStoriesFromDB failed:', error.message)
   if (error || !data) return []
   return data.map(mapRow)
 }
@@ -88,6 +94,9 @@ export async function getLatestReleasedStoryFromDB(): Promise<Story | null> {
     .limit(1)
     .single()
 
+  if (error && error.code !== 'PGRST116') {
+    console.error('[db/stories] getLatestReleasedStoryFromDB failed:', error.message)
+  }
   if (error || !data) return null
   return mapRow(data as Record<string, unknown>)
 }

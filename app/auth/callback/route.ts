@@ -6,6 +6,13 @@ export async function GET(request: NextRequest) {
   const code = searchParams.get('code')
   const next = searchParams.get('next') ?? '/library'
 
+  // On Vercel with a custom domain, request.url may contain the internal
+  // Vercel hostname rather than the public domain. x-forwarded-host is the
+  // reliable source of the public-facing host in production.
+  const forwardedHost = request.headers.get('x-forwarded-host')
+  const proto = request.headers.get('x-forwarded-proto') ?? 'https'
+  const base = forwardedHost ? `${proto}://${forwardedHost}` : origin
+
   if (code) {
     const sep = next.includes('?') ? '&' : '?'
 
@@ -18,7 +25,7 @@ export async function GET(request: NextRequest) {
 
     // Placeholder response so the setAll handler has something to reference.
     // It gets replaced below — do not return this directly.
-    let response = NextResponse.redirect(`${origin}${next}`)
+    let response = NextResponse.redirect(`${base}${next}`)
 
     const supabase = createServerClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -42,17 +49,11 @@ export async function GET(request: NextRequest) {
     )
 
     const { data, error } = await supabase.auth.exchangeCodeForSession(code)
-    if (!error) {
+
+    if (!error && data.session) {
       // Skip ?welcome=1 for intermediate auth pages (e.g. reset-password).
       // The welcome toast should only fire once the user is actually signed in.
       const welcomeSuffix = next.startsWith('/auth/') ? '' : `${sep}welcome=1`
-
-      // On Vercel with a custom domain, request.url may contain the internal
-      // Vercel hostname rather than the public domain. x-forwarded-host is the
-      // reliable source of the public-facing host in production.
-      const forwardedHost = request.headers.get('x-forwarded-host')
-      const proto = request.headers.get('x-forwarded-proto') ?? 'https'
-      const base = forwardedHost ? `${proto}://${forwardedHost}` : origin
 
       response = NextResponse.redirect(`${base}${next}${welcomeSuffix}`)
 
@@ -62,8 +63,17 @@ export async function GET(request: NextRequest) {
 
       return response
     }
+
+    // Exchange failed — log the error so it's visible in Vercel function logs.
+    console.error(
+      '[auth/callback] exchangeCodeForSession failed:',
+      error?.name ?? 'no error but missing session',
+      error?.message ?? '',
+    )
   }
 
-  // Something went wrong — send back to login
-  return NextResponse.redirect(`${origin}/login`)
+  // Something went wrong — send back to login.
+  // Use base (public domain) rather than origin, which on Vercel may be the
+  // internal deployment hostname instead of the custom domain.
+  return NextResponse.redirect(`${base}/login`)
 }
