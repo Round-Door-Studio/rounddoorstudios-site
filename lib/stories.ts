@@ -100,13 +100,13 @@ export const STORIES: Story[] = [
     runtime: '17-19 min', pub: 'Jul 8, 2026', coverColor: '#9B4761', coverImage: '/img/covers/MaLiangBrushP1_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/6sGBhw1q7mFy809vQuh5in?si=Pf0nWn3oRP2mLxL2sFU5rw',
+        youtube: 'https://youtu.be/zGr1pspH3T8',
         apple: '',
       },
       zh: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/0fJxsNvymsaZYRHWIAChPy?si=pBx2yOdlSgOn-BEi0wCbLA',
+        youtube: 'https://youtu.be/6TVJ3xxxowg',
         apple: '',
       },
     },
@@ -119,13 +119,13 @@ export const STORIES: Story[] = [
     runtime: '13-15 min', pub: 'Jul 15, 2026', coverColor: '#7B324A', coverImage: '/img/covers/MaLiangBrushP2_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/0QevLf9VZ4igoAVuZrETBm?si=1P0H6rljTDC4dHqEfsZ1hw',
+        youtube: 'https://youtu.be/nl2DfEEDLtA',
         apple: '',
       },
       zh: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/59lA500ODdzC2CaPG0n8Yo?si=UGfgAFMnTnuevJkZ1XVcxQ',
+        youtube: 'https://youtu.be/6ITVp59SvHQ',
         apple: '',
       },
     },
