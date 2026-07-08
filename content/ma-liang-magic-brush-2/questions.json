@@ -1,0 +1,4464 @@
+{
+  "slug": "ma-liang-magic-brush-2",
+  "title": {
+    "trad": "神筆馬良（第二集）",
+    "simp": "神笔马良（第二集）",
+    "en": "Ma Liang and the Magic Brush, Episode 2"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "马良骑着白马来到了哪里？",
+        "pinyin": [
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "骑",
+            "reading": "qí"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "白",
+            "reading": "bái"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "馬良騎著白馬來到了哪裡？",
+        "zhuyin": [
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "騎",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "白",
+            "reading": "ㄅㄞˊ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "馬良騎著白馬來到了哪裡？"
+      },
+      "en": "Where did Ma Liang ride his white horse to?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "皇帝想要马良帮他画什么？",
+        "pinyin": [
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "帮",
+            "reading": "bāng"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "皇帝想要馬良幫他畫什麼？",
+        "zhuyin": [
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "幫",
+            "reading": "ㄅㄤ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "皇帝想要馬良幫他畫什麼？"
+      },
+      "en": "What did the emperor want Ma Liang to paint for him?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "皇帝叫谁去把马良抓来？",
+        "pinyin": [
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "叫",
+            "reading": "jiào"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "抓",
+            "reading": "zhuā"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "皇帝叫誰去把馬良抓來？",
+        "zhuyin": [
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "叫",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "抓",
+            "reading": "ㄓㄨㄚ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "皇帝叫誰去把馬良抓來？"
+      },
+      "en": "Who did the emperor send to capture Ma Liang?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "士兵要带马良走的时候，马良一开始说了什么？",
+        "pinyin": [
+          {
+            "text": "士",
+            "reading": "shì"
+          },
+          {
+            "text": "兵",
+            "reading": "bīng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "带",
+            "reading": "dài"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "开",
+            "reading": "kāi"
+          },
+          {
+            "text": "始",
+            "reading": "shǐ"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "士兵要帶馬良走的時候，馬良一開始說了什麼？",
+        "zhuyin": [
+          {
+            "text": "士",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "兵",
+            "reading": "ㄅㄧㄥ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "帶",
+            "reading": "ㄉㄞˋ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "開",
+            "reading": "ㄎㄞ"
+          },
+          {
+            "text": "始",
+            "reading": "ㄕˇ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "士兵要帶馬良走的時候，馬良一󠇢開始說了什麼？"
+      },
+      "en": "When the soldiers wanted to take Ma Liang away, what did he say at first?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "马良说他的神笔只帮助什么样的人？",
+        "pinyin": [
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "神",
+            "reading": "shén"
+          },
+          {
+            "text": "笔",
+            "reading": "bǐ"
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "帮",
+            "reading": "bāng"
+          },
+          {
+            "text": "助",
+            "reading": "zhù"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "馬良說他的神筆只幫助什麼樣的人？",
+        "zhuyin": [
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "神",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "筆",
+            "reading": "ㄅㄧˇ"
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "幫",
+            "reading": "ㄅㄤ"
+          },
+          {
+            "text": "助",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "馬良說他的神筆只幫助什麼樣的人？"
+      },
+      "en": "Ma Liang said his magic brush only helps what kind of people?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "皇帝把马良关到了什么地方？",
+        "pinyin": [
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "关",
+            "reading": "guān"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "地",
+            "reading": "dì"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "皇帝把馬良關到了什麼地方？",
+        "zhuyin": [
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "關",
+            "reading": "ㄍㄨㄢ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "皇帝把馬良關到了什麼地方？"
+      },
+      "en": "Where did the emperor lock Ma Liang up?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "马良说那棵摇钱树长在哪里？",
+        "pinyin": [
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "棵",
+            "reading": "kē"
+          },
+          {
+            "text": "摇",
+            "reading": "yáo"
+          },
+          {
+            "text": "钱",
+            "reading": "qián"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "长",
+            "reading": "zhǎng"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "馬良說那棵搖錢樹長在哪裡？",
+        "zhuyin": [
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "棵",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "搖",
+            "reading": "ㄧㄠˊ"
+          },
+          {
+            "text": "錢",
+            "reading": "ㄑㄧㄢˊ"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "長",
+            "reading": "ㄓㄤˇ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "馬良說那棵搖錢樹長󠇡在哪裡？"
+      },
+      "en": "Where did Ma Liang say the money tree was?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "马良在墙上先画了大海和小岛，然后画了一棵什么样的树？",
+        "pinyin": [
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "墙",
+            "reading": "qiáng"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "先",
+            "reading": "xiān"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "海",
+            "reading": "hǎi"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "岛",
+            "reading": "dǎo"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "然",
+            "reading": "rán"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "棵",
+            "reading": "kē"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "馬良在牆上先畫了大海和小島，然後畫了一棵什麼樣的樹？",
+        "zhuyin": [
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "牆",
+            "reading": "ㄑㄧㄤˊ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "先",
+            "reading": "ㄒㄧㄢ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "海",
+            "reading": "ㄏㄞˇ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "島",
+            "reading": "ㄉㄠˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "然",
+            "reading": "ㄖㄢˊ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "棵",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "馬良在牆上先畫了大海和小島，然後畫了一󠇢棵什麼樣的樹？"
+      },
+      "en": "After painting the sea and the island on the wall, what kind of tree did Ma Liang paint?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "马良画了什么，让大船可以在海上移动？",
+        "pinyin": [
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "船",
+            "reading": "chuán"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "海",
+            "reading": "hǎi"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "移",
+            "reading": "yí"
+          },
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "馬良畫了什麼，讓大船可以在海上移動？",
+        "zhuyin": [
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "船",
+            "reading": "ㄔㄨㄢˊ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "海",
+            "reading": "ㄏㄞˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "移",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "馬良畫了什麼，讓大船可以在海上移動？"
+      },
+      "en": "What did Ma Liang paint to make the big boat move across the sea?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "故事最后，皇帝和他的大船怎么了？",
+        "pinyin": [
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "船",
+            "reading": "chuán"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "故事最後，皇帝和他的大船怎麼了？",
+        "zhuyin": [
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "船",
+            "reading": "ㄔㄨㄢˊ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "故事最後，皇帝和他的大船怎麼了？"
+      },
+      "en": "At the end of the story, what happened to the emperor and his big boat?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "皇帝已经有好多金子银子，可是还想要更多。你会怎么形容这样的皇帝？",
+        "pinyin": [
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "已",
+            "reading": "yǐ"
+          },
+          {
+            "text": "经",
+            "reading": "jīng"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "金",
+            "reading": "jīn"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "银",
+            "reading": "yín"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "更",
+            "reading": "gèng"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "形",
+            "reading": "xíng"
+          },
+          {
+            "text": "容",
+            "reading": "róng"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "皇帝已經有好多金子銀子，可是還想要更多。你會怎麼形容這樣的皇帝？",
+        "zhuyin": [
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "已",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "經",
+            "reading": "ㄐㄧㄥ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "金",
+            "reading": "ㄐㄧㄣ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "銀",
+            "reading": "ㄧㄣˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "更",
+            "reading": "ㄍㄥˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "形",
+            "reading": "ㄒㄧㄥˊ"
+          },
+          {
+            "text": "容",
+            "reading": "ㄖㄨㄥˊ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "皇帝已經有好多金子󠇡銀子󠇡，可是還想要更多。你會怎麼形容這樣的皇帝？"
+      },
+      "en": "The emperor already had lots of gold and silver, but still wanted more. How would you describe an emperor like this?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "就算有危险，马良还是不肯帮皇帝画画。这让你觉得马良是个什么样的人？",
+        "pinyin": [
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "算",
+            "reading": "suàn"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "危",
+            "reading": "wēi"
+          },
+          {
+            "text": "险",
+            "reading": "xiǎn"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "肯",
+            "reading": "kěn"
+          },
+          {
+            "text": "帮",
+            "reading": "bāng"
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "就算有危險，馬良還是不肯幫皇帝畫畫。這讓你覺得馬良是個什麼樣的人？",
+        "zhuyin": [
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "算",
+            "reading": "ㄙㄨㄢˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "危",
+            "reading": "ㄨㄟ"
+          },
+          {
+            "text": "險",
+            "reading": "ㄒㄧㄢˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "肯",
+            "reading": "ㄎㄣˇ"
+          },
+          {
+            "text": "幫",
+            "reading": "ㄅㄤ"
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "就算有危險，馬良還是不肯幫皇帝畫畫。這讓你覺得󠇡馬良是個󠇡什麼樣的人？"
+      },
+      "en": "Even when he was in danger, Ma Liang still refused to paint for the emperor. What does this tell you about the kind of person Ma Liang is?"
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "马良照皇帝说的，画了摇钱树和大船，可是心里其实想给皇帝一个教训。你觉得马良这样做对吗？为什么？",
+        "pinyin": [
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "照",
+            "reading": "zhào"
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "摇",
+            "reading": "yáo"
+          },
+          {
+            "text": "钱",
+            "reading": "qián"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "船",
+            "reading": "chuán"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "其",
+            "reading": "qí"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "教",
+            "reading": "jiào"
+          },
+          {
+            "text": "训",
+            "reading": "xùn"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "对",
+            "reading": "duì"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "馬良照皇帝說的，畫了搖錢樹和大船，可是心裡其實想給皇帝一個教訓。你覺得馬良這樣做對嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "照",
+            "reading": "ㄓㄠˋ"
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "搖",
+            "reading": "ㄧㄠˊ"
+          },
+          {
+            "text": "錢",
+            "reading": "ㄑㄧㄢˊ"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "船",
+            "reading": "ㄔㄨㄢˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "其",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "教",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "訓",
+            "reading": "ㄒㄩㄣˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "對",
+            "reading": "ㄉㄨㄟˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "馬良照皇帝說的，畫了搖錢樹和大船，可是心裡其實想給皇帝一󠇢個󠇡教訓。你覺得󠇡馬良這樣做對嗎？為󠇡什麼？"
+      },
+      "en": "Ma Liang did what the emperor asked and painted the money tree and the boat, but he really meant to teach the emperor a lesson. Do you think what Ma Liang did was right? Why?"
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "皇帝一直大喊“再多画一点风，我要快一点”。皇帝的贪心，最后怎么害了他自己？",
+        "pinyin": [
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "喊",
+            "reading": "hǎn"
+          },
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "再",
+            "reading": "zài"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "点",
+            "reading": "diǎn"
+          },
+          {
+            "text": "风",
+            "reading": "fēng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "快",
+            "reading": "kuài"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "点",
+            "reading": "diǎn"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "贪",
+            "reading": "tān"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "皇帝一直大喊「再多畫一點風，我要快一點」。皇帝的貪心，最後怎麼害了他自己？",
+        "zhuyin": [
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "喊",
+            "reading": "ㄏㄢˇ"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "再",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "點",
+            "reading": "ㄉㄧㄢˇ"
+          },
+          {
+            "text": "風",
+            "reading": "ㄈㄥ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "快",
+            "reading": "ㄎㄨㄞˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "點",
+            "reading": "ㄉㄧㄢˇ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "貪",
+            "reading": "ㄊㄢ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "皇帝一󠇢直大喊「再多畫一󠇢點風，我要快一󠇢點」。皇帝的貪心，最後怎麼害了他自己？"
+      },
+      "en": "The emperor kept shouting \"paint more wind, I want to go faster!\" How did the emperor's greed end up hurting himself?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "马良在教训皇帝以前，想起了村子里穷苦的人。你觉得为什么他会想到这些人？",
+        "pinyin": [
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "教",
+            "reading": "jiào"
+          },
+          {
+            "text": "训",
+            "reading": "xùn"
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "前",
+            "reading": "qián"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "村",
+            "reading": "cūn"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "穷",
+            "reading": "qióng"
+          },
+          {
+            "text": "苦",
+            "reading": "kǔ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "些",
+            "reading": "xiē"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "馬良在教訓皇帝以前，想起了村子裡窮苦的人。你覺得為什麼他會想到這些人？",
+        "zhuyin": [
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "教",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "訓",
+            "reading": "ㄒㄩㄣˋ"
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "前",
+            "reading": "ㄑㄧㄢˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "村",
+            "reading": "ㄘㄨㄣ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "窮",
+            "reading": "ㄑㄩㄥˊ"
+          },
+          {
+            "text": "苦",
+            "reading": "ㄎㄨˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "些",
+            "reading": "ㄒㄧㄝ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "馬良在教訓皇帝以前，想起了村子󠇡裡窮苦的人。你覺得󠇡為󠇡什麼他會想到這些人？"
+      },
+      "en": "Before he taught the emperor a lesson, Ma Liang thought of the poor people in his village. Why do you think they came to his mind?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "你觉得皇帝最后掉进海里，是他自己造成的吗？为什么？",
+        "pinyin": [
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "掉",
+            "reading": "diào"
+          },
+          {
+            "text": "进",
+            "reading": "jìn"
+          },
+          {
+            "text": "海",
+            "reading": "hǎi"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "造",
+            "reading": "zào"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "你覺得皇帝最後掉進海裡，是他自己造成的嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "掉",
+            "reading": "ㄉㄧㄠˋ"
+          },
+          {
+            "text": "進",
+            "reading": "ㄐㄧㄣˋ"
+          },
+          {
+            "text": "海",
+            "reading": "ㄏㄞˇ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "造",
+            "reading": "ㄗㄠˋ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "你覺得󠇡皇帝最後掉進海裡，是他自己造成的嗎？為󠇡什麼？"
+      },
+      "en": "Do you think the emperor falling into the sea was something he brought on himself? Why?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "大将军和士兵都听皇帝的话，去抓走马良。你觉得如果有人叫我们做不对的事，我们应该听吗？",
+        "pinyin": [
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "将",
+            "reading": "jiàng"
+          },
+          {
+            "text": "军",
+            "reading": "jūn"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "士",
+            "reading": "shì"
+          },
+          {
+            "text": "兵",
+            "reading": "bīng"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "抓",
+            "reading": "zhuā"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "叫",
+            "reading": "jiào"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "对",
+            "reading": "duì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "应",
+            "reading": "yīng"
+          },
+          {
+            "text": "该",
+            "reading": "gāi"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "大將軍和士兵都聽皇帝的話，去抓走馬良。你覺得如果有人叫我們做不對的事，我們應該聽嗎？",
+        "zhuyin": [
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "將",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "軍",
+            "reading": "ㄐㄩㄣ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "士",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "兵",
+            "reading": "ㄅㄧㄥ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "抓",
+            "reading": "ㄓㄨㄚ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "叫",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "對",
+            "reading": "ㄉㄨㄟˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "應",
+            "reading": "ㄧㄥ"
+          },
+          {
+            "text": "該",
+            "reading": "ㄍㄞ"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "大將軍和士兵都聽皇帝的話，去抓走馬良。你覺得󠇡如果有人叫我們做不󠇡對的事，我們應該聽嗎？"
+      },
+      "en": "The general and the soldiers obeyed the emperor and took Ma Liang away. If someone tells us to do something wrong, do you think we should obey?"
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "皇帝跪在船上求马良，说以后再也不贪心了，可是马良没有停手。你觉得马良应该再给皇帝一次机会吗？",
+        "pinyin": [
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "跪",
+            "reading": "guì"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "船",
+            "reading": "chuán"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "求",
+            "reading": "qiú"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "再",
+            "reading": "zài"
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "贪",
+            "reading": "tān"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "停",
+            "reading": "tíng"
+          },
+          {
+            "text": "手",
+            "reading": "shǒu"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "应",
+            "reading": "yīng"
+          },
+          {
+            "text": "该",
+            "reading": "gāi"
+          },
+          {
+            "text": "再",
+            "reading": "zài"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "机",
+            "reading": "jī"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "皇帝跪在船上求馬良，說以後再也不貪心了，可是馬良沒有停手。你覺得馬良應該再給皇帝一次機會嗎？",
+        "zhuyin": [
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "跪",
+            "reading": "ㄍㄨㄟˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "船",
+            "reading": "ㄔㄨㄢˊ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "求",
+            "reading": "ㄑㄧㄡˊ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "再",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "貪",
+            "reading": "ㄊㄢ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "停",
+            "reading": "ㄊㄧㄥˊ"
+          },
+          {
+            "text": "手",
+            "reading": "ㄕㄡˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "應",
+            "reading": "ㄧㄥ"
+          },
+          {
+            "text": "該",
+            "reading": "ㄍㄞ"
+          },
+          {
+            "text": "再",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "機",
+            "reading": "ㄐㄧ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "皇帝跪在船上求馬良，說以後再也不貪心了，可是馬良沒有停手。你覺得󠇡馬良應該再給皇帝一󠇡次機會嗎？"
+      },
+      "en": "The emperor knelt and begged Ma Liang, promising never to be greedy again, but Ma Liang did not stop. Do you think Ma Liang should have given the emperor another chance?"
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "在又黑又冷的地牢里，马良没有哭，而是冷静地想办法。下次你遇到困难，可以怎么像马良一样冷静下来？",
+        "pinyin": [
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "又",
+            "reading": "yòu"
+          },
+          {
+            "text": "黑",
+            "reading": "hēi"
+          },
+          {
+            "text": "又",
+            "reading": "yòu"
+          },
+          {
+            "text": "冷",
+            "reading": "lěng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "地",
+            "reading": "dì"
+          },
+          {
+            "text": "牢",
+            "reading": "láo"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "哭",
+            "reading": "kū"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "冷",
+            "reading": "lěng"
+          },
+          {
+            "text": "静",
+            "reading": "jìng"
+          },
+          {
+            "text": "地",
+            "reading": "de"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "遇",
+            "reading": "yù"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "困",
+            "reading": "kùn"
+          },
+          {
+            "text": "难",
+            "reading": "nán"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "像",
+            "reading": "xiàng"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "冷",
+            "reading": "lěng"
+          },
+          {
+            "text": "静",
+            "reading": "jìng"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "在又黑又冷的地牢裡，馬良沒有哭，而是冷靜地想辦法。下次你遇到困難，可以怎麼像馬良一樣冷靜下來？",
+        "zhuyin": [
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "又",
+            "reading": "ㄧㄡˋ"
+          },
+          {
+            "text": "黑",
+            "reading": "ㄏㄟ"
+          },
+          {
+            "text": "又",
+            "reading": "ㄧㄡˋ"
+          },
+          {
+            "text": "冷",
+            "reading": "ㄌㄥˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "牢",
+            "reading": "ㄌㄠˊ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "哭",
+            "reading": "ㄎㄨ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "冷",
+            "reading": "ㄌㄥˇ"
+          },
+          {
+            "text": "靜",
+            "reading": "ㄐㄧㄥˋ"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "遇",
+            "reading": "ㄩˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "困",
+            "reading": "ㄎㄨㄣˋ"
+          },
+          {
+            "text": "難",
+            "reading": "ㄋㄢˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "像",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "冷",
+            "reading": "ㄌㄥˇ"
+          },
+          {
+            "text": "靜",
+            "reading": "ㄐㄧㄥˋ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "在又黑又冷的地牢裡，馬良沒有哭，而是冷靜地󠇡想辦法。下次你遇到困難，可以怎麼像馬良一󠇡樣冷靜下來？"
+      },
+      "en": "In the dark, cold dungeon, Ma Liang did not cry but calmly thought of a plan. Next time you face something hard, how can you stay calm like Ma Liang?"
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "你觉得这个故事想告诉我们什么道理？",
+        "pinyin": [
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "告",
+            "reading": "gào"
+          },
+          {
+            "text": "诉",
+            "reading": "sù"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "理",
+            "reading": "lǐ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "你覺得這個故事想告訴我們什麼道理？",
+        "zhuyin": [
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "告",
+            "reading": "ㄍㄠˋ"
+          },
+          {
+            "text": "訴",
+            "reading": "ㄙㄨˋ"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "理",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "你覺得󠇡這個󠇡故事想告訴我們什麼道理？"
+      },
+      "en": "What lesson do you think this story is trying to teach us?"
+    }
+  ]
+}

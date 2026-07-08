@@ -1,0 +1,4281 @@
+{
+  "slug": "ma-liang-magic-brush-2",
+  "vocab": [
+    {
+      "tier": "door",
+      "simp": {
+        "text": "皇帝",
+        "pinyin": [
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          }
+        ]
+      },
+      "trad": {
+        "text": "皇帝",
+        "zhuyin": [
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          }
+        ],
+        "bpmf": "皇帝"
+      },
+      "en": "emperor",
+      "py": "huáng dì",
+      "example": {
+        "simp": {
+          "text": "他就是皇帝。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他就是皇帝。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他就是皇帝。"
+        },
+        "en": "He is the emperor."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "白马",
+        "pinyin": [
+          {
+            "text": "白",
+            "reading": "bái"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "白馬",
+        "zhuyin": [
+          {
+            "text": "白",
+            "reading": "ㄅㄞˊ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          }
+        ],
+        "bpmf": "白馬"
+      },
+      "en": "white horse",
+      "py": "bái mǎ",
+      "example": {
+        "simp": {
+          "text": "马良骑着白马，跑到了一个很远很远的大城。",
+          "pinyin": [
+            {
+              "text": "马",
+              "reading": "mǎ"
+            },
+            {
+              "text": "良",
+              "reading": "liáng"
+            },
+            {
+              "text": "骑",
+              "reading": "qí"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "白",
+              "reading": "bái"
+            },
+            {
+              "text": "马",
+              "reading": "mǎ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "跑",
+              "reading": "pǎo"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "远",
+              "reading": "yuǎn"
+            },
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "远",
+              "reading": "yuǎn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "城",
+              "reading": "chéng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "馬良騎著白馬，跑到了一個很遠很遠的大城。",
+          "zhuyin": [
+            {
+              "text": "馬",
+              "reading": "ㄇㄚˇ"
+            },
+            {
+              "text": "良",
+              "reading": "ㄌㄧㄤˊ"
+            },
+            {
+              "text": "騎",
+              "reading": "ㄑㄧˊ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "白",
+              "reading": "ㄅㄞˊ"
+            },
+            {
+              "text": "馬",
+              "reading": "ㄇㄚˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "跑",
+              "reading": "ㄆㄠˇ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "遠",
+              "reading": "ㄩㄢˇ"
+            },
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "遠",
+              "reading": "ㄩㄢˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "城",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "馬良騎著白馬，跑到了一󠇡個󠇡很遠很遠的大城。"
+        },
+        "en": "Ma Liang rode his white horse to a faraway great city."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "宫殿",
+        "pinyin": [
+          {
+            "text": "宫",
+            "reading": "gōng"
+          },
+          {
+            "text": "殿",
+            "reading": "diàn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "宮殿",
+        "zhuyin": [
+          {
+            "text": "宮",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "殿",
+            "reading": "ㄉㄧㄢˋ"
+          }
+        ],
+        "bpmf": "宮殿"
+      },
+      "en": "palace",
+      "py": "gōng diàn",
+      "example": {
+        "simp": {
+          "text": "宫殿的墙是金色的，屋顶是红色的。",
+          "pinyin": [
+            {
+              "text": "宫",
+              "reading": "gōng"
+            },
+            {
+              "text": "殿",
+              "reading": "diàn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "墙",
+              "reading": "qiáng"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "金",
+              "reading": "jīn"
+            },
+            {
+              "text": "色",
+              "reading": "sè"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "屋",
+              "reading": "wū"
+            },
+            {
+              "text": "顶",
+              "reading": "dǐng"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "红",
+              "reading": "hóng"
+            },
+            {
+              "text": "色",
+              "reading": "sè"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "宮殿的牆是金色的，屋頂是紅色的。",
+          "zhuyin": [
+            {
+              "text": "宮",
+              "reading": "ㄍㄨㄥ"
+            },
+            {
+              "text": "殿",
+              "reading": "ㄉㄧㄢˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "牆",
+              "reading": "ㄑㄧㄤˊ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "金",
+              "reading": "ㄐㄧㄣ"
+            },
+            {
+              "text": "色",
+              "reading": "ㄙㄜˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "屋",
+              "reading": "ㄨ"
+            },
+            {
+              "text": "頂",
+              "reading": "ㄉㄧㄥˇ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "紅",
+              "reading": "ㄏㄨㄥˊ"
+            },
+            {
+              "text": "色",
+              "reading": "ㄙㄜˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "宮殿的牆是金色的，屋頂是紅色的。"
+        },
+        "en": "The palace walls were gold and the roof was red."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "椅子",
+        "pinyin": [
+          {
+            "text": "椅",
+            "reading": "yǐ"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "椅子",
+        "zhuyin": [
+          {
+            "text": "椅",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          }
+        ],
+        "bpmf": "椅子󠇡"
+      },
+      "en": "chair",
+      "py": "yǐ zi",
+      "example": {
+        "simp": {
+          "text": "皇帝坐在他的大椅子上。",
+          "pinyin": [
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "坐",
+              "reading": "zuò"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "椅",
+              "reading": "yǐ"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "皇帝坐在他的大椅子上。",
+          "zhuyin": [
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "坐",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "椅",
+              "reading": "ㄧˇ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "皇帝坐在他的大椅子󠇡上。"
+        },
+        "en": "The emperor sat on his big chair."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "神笔",
+        "pinyin": [
+          {
+            "text": "神",
+            "reading": "shén"
+          },
+          {
+            "text": "笔",
+            "reading": "bǐ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "神筆",
+        "zhuyin": [
+          {
+            "text": "神",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "筆",
+            "reading": "ㄅㄧˇ"
+          }
+        ],
+        "bpmf": "神筆"
+      },
+      "en": "magic brush",
+      "py": "shén bǐ",
+      "example": {
+        "simp": {
+          "text": "我要他的神笔。",
+          "pinyin": [
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "要",
+              "reading": "yào"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "神",
+              "reading": "shén"
+            },
+            {
+              "text": "笔",
+              "reading": "bǐ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "我要他的神筆。",
+          "zhuyin": [
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "要",
+              "reading": "ㄧㄠˋ"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "神",
+              "reading": "ㄕㄣˊ"
+            },
+            {
+              "text": "筆",
+              "reading": "ㄅㄧˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "我要他的神筆。"
+        },
+        "en": "I want his magic brush."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "肚子",
+        "pinyin": [
+          {
+            "text": "肚",
+            "reading": "dù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "肚子",
+        "zhuyin": [
+          {
+            "text": "肚",
+            "reading": "ㄉㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          }
+        ],
+        "bpmf": "肚子󠇡"
+      },
+      "en": "belly; tummy",
+      "py": "dù zi",
+      "example": {
+        "simp": {
+          "text": "皇帝摸摸自己的肚子。",
+          "pinyin": [
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "摸",
+              "reading": "mō"
+            },
+            {
+              "text": "摸",
+              "reading": "mō"
+            },
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "己",
+              "reading": "jǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "肚",
+              "reading": "dù"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "皇帝摸摸自己的肚子。",
+          "zhuyin": [
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "摸",
+              "reading": "ㄇㄛ"
+            },
+            {
+              "text": "摸",
+              "reading": "ㄇㄛ"
+            },
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "己",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "肚",
+              "reading": "ㄉㄨˋ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "皇帝摸摸自己的肚子󠇡。"
+        },
+        "en": "The emperor rubbed his own belly."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "士兵",
+        "pinyin": [
+          {
+            "text": "士",
+            "reading": "shì"
+          },
+          {
+            "text": "兵",
+            "reading": "bīng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "士兵",
+        "zhuyin": [
+          {
+            "text": "士",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "兵",
+            "reading": "ㄅㄧㄥ"
+          }
+        ],
+        "bpmf": "士兵"
+      },
+      "en": "soldier",
+      "py": "shì bīng",
+      "example": {
+        "simp": {
+          "text": "大将军带着一百个士兵。",
+          "pinyin": [
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "将",
+              "reading": "jiāng"
+            },
+            {
+              "text": "军",
+              "reading": "jūn"
+            },
+            {
+              "text": "带",
+              "reading": "dài"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "百",
+              "reading": "bǎi"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "士",
+              "reading": "shì"
+            },
+            {
+              "text": "兵",
+              "reading": "bīng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "大將軍帶著一百個士兵。",
+          "zhuyin": [
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "將",
+              "reading": "ㄐㄧㄤ"
+            },
+            {
+              "text": "軍",
+              "reading": "ㄐㄩㄣ"
+            },
+            {
+              "text": "帶",
+              "reading": "ㄉㄞˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "百",
+              "reading": "ㄅㄞˇ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "士",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "兵",
+              "reading": "ㄅㄧㄥ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "大將軍帶著一󠇢百個󠇡士兵。"
+        },
+        "en": "The great general brought a hundred soldiers."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "眼睛",
+        "pinyin": [
+          {
+            "text": "眼",
+            "reading": "yǎn"
+          },
+          {
+            "text": "睛",
+            "reading": "jīng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "眼睛",
+        "zhuyin": [
+          {
+            "text": "眼",
+            "reading": "ㄧㄢˇ"
+          },
+          {
+            "text": "睛",
+            "reading": "ㄐㄧㄥ"
+          }
+        ],
+        "bpmf": "眼睛"
+      },
+      "en": "eyes",
+      "py": "yǎn jīng",
+      "example": {
+        "simp": {
+          "text": "皇帝笑眯眯地看着马良，眯着眼睛说。",
+          "pinyin": [
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "笑",
+              "reading": "xiào"
+            },
+            {
+              "text": "眯",
+              "reading": "mī"
+            },
+            {
+              "text": "眯",
+              "reading": "mī"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "马",
+              "reading": "mǎ"
+            },
+            {
+              "text": "良",
+              "reading": "liáng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "眯",
+              "reading": "mī"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "眼",
+              "reading": "yǎn"
+            },
+            {
+              "text": "睛",
+              "reading": "jīng"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "皇帝笑瞇瞇地看著馬良，瞇著眼睛說。",
+          "zhuyin": [
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "笑",
+              "reading": "ㄒㄧㄠˋ"
+            },
+            {
+              "text": "瞇",
+              "reading": "ㄇㄧ"
+            },
+            {
+              "text": "瞇",
+              "reading": "ㄇㄧ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "馬",
+              "reading": "ㄇㄚˇ"
+            },
+            {
+              "text": "良",
+              "reading": "ㄌㄧㄤˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "瞇",
+              "reading": "ㄇㄧ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "眼",
+              "reading": "ㄧㄢˇ"
+            },
+            {
+              "text": "睛",
+              "reading": "ㄐㄧㄥ"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "皇帝笑瞇瞇地󠇡看著馬良，瞇著眼睛說。"
+        },
+        "en": "The emperor looked at Ma Liang and spoke with narrowed eyes."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "月亮",
+        "pinyin": [
+          {
+            "text": "月",
+            "reading": "yuè"
+          },
+          {
+            "text": "亮",
+            "reading": "liàng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "月亮",
+        "zhuyin": [
+          {
+            "text": "月",
+            "reading": "ㄩㄝˋ"
+          },
+          {
+            "text": "亮",
+            "reading": "ㄌㄧㄤˋ"
+          }
+        ],
+        "bpmf": "月亮"
+      },
+      "en": "moon",
+      "py": "yuè liàng",
+      "example": {
+        "simp": {
+          "text": "只有一点点月亮的光从小小的窗戶照进来。",
+          "pinyin": [
+            {
+              "text": "只",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "点",
+              "reading": "diǎn"
+            },
+            {
+              "text": "点",
+              "reading": "diǎn"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "光",
+              "reading": "guāng"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            },
+            {
+              "text": "戶",
+              "reading": "hù"
+            },
+            {
+              "text": "照",
+              "reading": "zhào"
+            },
+            {
+              "text": "进",
+              "reading": "jìn"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "只有一點點月亮的光從小小的窗戶照進來。",
+          "zhuyin": [
+            {
+              "text": "只",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "點",
+              "reading": "ㄉㄧㄢˇ"
+            },
+            {
+              "text": "點",
+              "reading": "ㄉㄧㄢˇ"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "光",
+              "reading": "ㄍㄨㄤ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            },
+            {
+              "text": "戶",
+              "reading": "ㄏㄨˋ"
+            },
+            {
+              "text": "照",
+              "reading": "ㄓㄠˋ"
+            },
+            {
+              "text": "進",
+              "reading": "ㄐㄧㄣˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "只有一󠇢點點月亮的光從小小的窗戶照進來。"
+        },
+        "en": "Only a little moonlight came in through the tiny window."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "口袋",
+        "pinyin": [
+          {
+            "text": "口",
+            "reading": "kǒu"
+          },
+          {
+            "text": "袋",
+            "reading": "dài"
+          }
+        ]
+      },
+      "trad": {
+        "text": "口袋",
+        "zhuyin": [
+          {
+            "text": "口",
+            "reading": "ㄎㄡˇ"
+          },
+          {
+            "text": "袋",
+            "reading": "ㄉㄞˋ"
+          }
+        ],
+        "bpmf": "口袋"
+      },
+      "en": "pocket",
+      "py": "kǒu dài",
+      "example": {
+        "simp": {
+          "text": "他摸摸口袋，神笔还在呢。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "摸",
+              "reading": "mō"
+            },
+            {
+              "text": "摸",
+              "reading": "mō"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "袋",
+              "reading": "dài"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "神",
+              "reading": "shén"
+            },
+            {
+              "text": "笔",
+              "reading": "bǐ"
+            },
+            {
+              "text": "还",
+              "reading": "hái"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "呢",
+              "reading": "ne"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他摸摸口袋，神筆還在呢。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "摸",
+              "reading": "ㄇㄛ"
+            },
+            {
+              "text": "摸",
+              "reading": "ㄇㄛ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "袋",
+              "reading": "ㄉㄞˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "神",
+              "reading": "ㄕㄣˊ"
+            },
+            {
+              "text": "筆",
+              "reading": "ㄅㄧˇ"
+            },
+            {
+              "text": "還",
+              "reading": "ㄏㄞˊ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "呢",
+              "reading": "ㄋㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他摸摸口袋，神筆還在呢。"
+        },
+        "en": "He felt his pocket; the magic brush was still there."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "大海",
+        "pinyin": [
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "海",
+            "reading": "hǎi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "大海",
+        "zhuyin": [
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "海",
+            "reading": "ㄏㄞˇ"
+          }
+        ],
+        "bpmf": "大海"
+      },
+      "en": "the sea",
+      "py": "dà hǎi",
+      "example": {
+        "simp": {
+          "text": "他先画了一个蓝蓝的大海。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "先",
+              "reading": "xiān"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "蓝",
+              "reading": "lán"
+            },
+            {
+              "text": "蓝",
+              "reading": "lán"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他先畫了一個藍藍的大海。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "先",
+              "reading": "ㄒㄧㄢ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "藍",
+              "reading": "ㄌㄢˊ"
+            },
+            {
+              "text": "藍",
+              "reading": "ㄌㄢˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他先畫了一󠇡個󠇡藍藍的大海。"
+        },
+        "en": "First he painted a blue sea."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "小岛",
+        "pinyin": [
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "岛",
+            "reading": "dǎo"
+          }
+        ]
+      },
+      "trad": {
+        "text": "小島",
+        "zhuyin": [
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "島",
+            "reading": "ㄉㄠˇ"
+          }
+        ],
+        "bpmf": "小島"
+      },
+      "en": "small island",
+      "py": "xiǎo dǎo",
+      "example": {
+        "simp": {
+          "text": "画了一个绿绿的小岛。",
+          "pinyin": [
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "绿",
+              "reading": "lǜ"
+            },
+            {
+              "text": "绿",
+              "reading": "lǜ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "岛",
+              "reading": "dǎo"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "畫了一個綠綠的小島。",
+          "zhuyin": [
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "綠",
+              "reading": "ㄌㄩˋ"
+            },
+            {
+              "text": "綠",
+              "reading": "ㄌㄩˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "島",
+              "reading": "ㄉㄠˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "畫了一󠇡個󠇡綠綠的小島。"
+        },
+        "en": "He painted a green little island."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "大船",
+        "pinyin": [
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "船",
+            "reading": "chuán"
+          }
+        ]
+      },
+      "trad": {
+        "text": "大船",
+        "zhuyin": [
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "船",
+            "reading": "ㄔㄨㄢˊ"
+          }
+        ],
+        "bpmf": "大船"
+      },
+      "en": "big boat",
+      "py": "dà chuán",
+      "example": {
+        "simp": {
+          "text": "你快画一艘大船。",
+          "pinyin": [
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "快",
+              "reading": "kuài"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "艘",
+              "reading": "sōu"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "船",
+              "reading": "chuán"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "你快畫一艘大船。",
+          "zhuyin": [
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "快",
+              "reading": "ㄎㄨㄞˋ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "艘",
+              "reading": "ㄙㄡ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "船",
+              "reading": "ㄔㄨㄢˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "你快畫一󠇢艘大船。"
+        },
+        "en": "Quickly paint me a big boat."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "帽子",
+        "pinyin": [
+          {
+            "text": "帽",
+            "reading": "mào"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "帽子",
+        "zhuyin": [
+          {
+            "text": "帽",
+            "reading": "ㄇㄠˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          }
+        ],
+        "bpmf": "帽子󠇡"
+      },
+      "en": "hat",
+      "py": "mào zi",
+      "example": {
+        "simp": {
+          "text": "皇帝被吹得帽子都飞走了。",
+          "pinyin": [
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "被",
+              "reading": "bèi"
+            },
+            {
+              "text": "吹",
+              "reading": "chuī"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "帽",
+              "reading": "mào"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "都",
+              "reading": "dōu"
+            },
+            {
+              "text": "飞",
+              "reading": "fēi"
+            },
+            {
+              "text": "走",
+              "reading": "zǒu"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "皇帝被吹得帽子都飛走了。",
+          "zhuyin": [
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "被",
+              "reading": "ㄅㄟˋ"
+            },
+            {
+              "text": "吹",
+              "reading": "ㄔㄨㄟ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "帽",
+              "reading": "ㄇㄠˋ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "都",
+              "reading": "ㄉㄡ"
+            },
+            {
+              "text": "飛",
+              "reading": "ㄈㄟ"
+            },
+            {
+              "text": "走",
+              "reading": "ㄗㄡˇ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "皇帝被吹得󠇡帽子󠇡都飛走了。"
+        },
+        "en": "The wind blew the emperor's hat away."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "风",
+        "pinyin": [
+          {
+            "text": "风",
+            "reading": "fēng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "風",
+        "zhuyin": [
+          {
+            "text": "風",
+            "reading": "ㄈㄥ"
+          }
+        ],
+        "bpmf": "風"
+      },
+      "en": "wind",
+      "py": "fēng",
+      "example": {
+        "simp": {
+          "text": "我再画一点风，船就可以走了。",
+          "pinyin": [
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "点",
+              "reading": "diǎn"
+            },
+            {
+              "text": "风",
+              "reading": "fēng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "船",
+              "reading": "chuán"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "可",
+              "reading": "kě"
+            },
+            {
+              "text": "以",
+              "reading": "yǐ"
+            },
+            {
+              "text": "走",
+              "reading": "zǒu"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "我再畫一點風，船就可以走了。",
+          "zhuyin": [
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "點",
+              "reading": "ㄉㄧㄢˇ"
+            },
+            {
+              "text": "風",
+              "reading": "ㄈㄥ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "船",
+              "reading": "ㄔㄨㄢˊ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "可",
+              "reading": "ㄎㄜˇ"
+            },
+            {
+              "text": "以",
+              "reading": "ㄧˇ"
+            },
+            {
+              "text": "走",
+              "reading": "ㄗㄡˇ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "我再畫一󠇢點風，船就可以走了。"
+        },
+        "en": "Let me paint a little wind, and the boat can go."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "贪心",
+        "pinyin": [
+          {
+            "text": "贪",
+            "reading": "tān"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "貪心",
+        "zhuyin": [
+          {
+            "text": "貪",
+            "reading": "ㄊㄢ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          }
+        ],
+        "bpmf": "貪心"
+      },
+      "en": "greedy; to be greedy — wanting far more than one needs, never satisfied",
+      "py": "tān xīn",
+      "example": {
+        "simp": {
+          "text": "我以后再也不贪心了。",
+          "pinyin": [
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "以",
+              "reading": "yǐ"
+            },
+            {
+              "text": "后",
+              "reading": "hòu"
+            },
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "也",
+              "reading": "yě"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "贪",
+              "reading": "tān"
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "我以後再也不貪心了。",
+          "zhuyin": [
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "以",
+              "reading": "ㄧˇ"
+            },
+            {
+              "text": "後",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "也",
+              "reading": "ㄧㄝˇ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "貪",
+              "reading": "ㄊㄢ"
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "我以後再也不貪心了。"
+        },
+        "en": "From now on I will never be greedy again."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "摇钱树",
+        "pinyin": [
+          {
+            "text": "摇",
+            "reading": "yáo"
+          },
+          {
+            "text": "钱",
+            "reading": "qián"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          }
+        ]
+      },
+      "trad": {
+        "text": "搖錢樹",
+        "zhuyin": [
+          {
+            "text": "搖",
+            "reading": "ㄧㄠˊ"
+          },
+          {
+            "text": "錢",
+            "reading": "ㄑㄧㄢˊ"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          }
+        ],
+        "bpmf": "搖錢樹"
+      },
+      "en": "money tree (a magical tree that drops coins; a never-ending source of money)",
+      "py": "yáo qián shù",
+      "example": {
+        "simp": {
+          "text": "你给我画一棵摇钱树。",
+          "pinyin": [
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "给",
+              "reading": "gěi"
+            },
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "棵",
+              "reading": "kē"
+            },
+            {
+              "text": "摇",
+              "reading": "yáo"
+            },
+            {
+              "text": "钱",
+              "reading": "qián"
+            },
+            {
+              "text": "树",
+              "reading": "shù"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "你給我畫一棵搖錢樹。",
+          "zhuyin": [
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "給",
+              "reading": "ㄍㄟˇ"
+            },
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "棵",
+              "reading": "ㄎㄜ"
+            },
+            {
+              "text": "搖",
+              "reading": "ㄧㄠˊ"
+            },
+            {
+              "text": "錢",
+              "reading": "ㄑㄧㄢˊ"
+            },
+            {
+              "text": "樹",
+              "reading": "ㄕㄨˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "你給我畫一󠇢棵搖錢樹。"
+        },
+        "en": "Paint me a money tree."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "将军",
+        "pinyin": [
+          {
+            "text": "将",
+            "reading": "jiāng"
+          },
+          {
+            "text": "军",
+            "reading": "jūn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "將軍",
+        "zhuyin": [
+          {
+            "text": "將",
+            "reading": "ㄐㄧㄤ"
+          },
+          {
+            "text": "軍",
+            "reading": "ㄐㄩㄣ"
+          }
+        ],
+        "bpmf": "將軍"
+      },
+      "en": "general (army commander)",
+      "py": "jiāng jūn",
+      "example": {
+        "simp": {
+          "text": "叫来了他的大将军。",
+          "pinyin": [
+            {
+              "text": "叫",
+              "reading": "jiào"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "将",
+              "reading": "jiāng"
+            },
+            {
+              "text": "军",
+              "reading": "jūn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "叫來了他的大將軍。",
+          "zhuyin": [
+            {
+              "text": "叫",
+              "reading": "ㄐㄧㄠˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "將",
+              "reading": "ㄐㄧㄤ"
+            },
+            {
+              "text": "軍",
+              "reading": "ㄐㄩㄣ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "叫來了他的大將軍。"
+        },
+        "en": "He called for his great general."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "命令",
+        "pinyin": [
+          {
+            "text": "命",
+            "reading": "mìng"
+          },
+          {
+            "text": "令",
+            "reading": "lìng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "命令",
+        "zhuyin": [
+          {
+            "text": "命",
+            "reading": "ㄇㄧㄥˋ"
+          },
+          {
+            "text": "令",
+            "reading": "ㄌㄧㄥˋ"
+          }
+        ],
+        "bpmf": "命令"
+      },
+      "en": "to command; an order",
+      "py": "mìng lìng",
+      "example": {
+        "simp": {
+          "text": "皇帝指着大将军，大声命令。",
+          "pinyin": [
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "指",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "将",
+              "reading": "jiāng"
+            },
+            {
+              "text": "军",
+              "reading": "jūn"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "声",
+              "reading": "shēng"
+            },
+            {
+              "text": "命",
+              "reading": "mìng"
+            },
+            {
+              "text": "令",
+              "reading": "lìng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "皇帝指著大將軍，大聲命令。",
+          "zhuyin": [
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "指",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "將",
+              "reading": "ㄐㄧㄤ"
+            },
+            {
+              "text": "軍",
+              "reading": "ㄐㄩㄣ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "聲",
+              "reading": "ㄕㄥ"
+            },
+            {
+              "text": "命",
+              "reading": "ㄇㄧㄥˋ"
+            },
+            {
+              "text": "令",
+              "reading": "ㄌㄧㄥˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "皇帝指著大將軍，大聲命令。"
+        },
+        "en": "The emperor pointed at the general and gave a loud command."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "勇敢",
+        "pinyin": [
+          {
+            "text": "勇",
+            "reading": "yǒng"
+          },
+          {
+            "text": "敢",
+            "reading": "gǎn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "勇敢",
+        "zhuyin": [
+          {
+            "text": "勇",
+            "reading": "ㄩㄥˇ"
+          },
+          {
+            "text": "敢",
+            "reading": "ㄍㄢˇ"
+          }
+        ],
+        "bpmf": "勇敢"
+      },
+      "en": "brave",
+      "py": "yǒng gǎn",
+      "example": {
+        "simp": {
+          "text": "马良摇摇头，勇敢地说。",
+          "pinyin": [
+            {
+              "text": "马",
+              "reading": "mǎ"
+            },
+            {
+              "text": "良",
+              "reading": "liáng"
+            },
+            {
+              "text": "摇",
+              "reading": "yáo"
+            },
+            {
+              "text": "摇",
+              "reading": "yáo"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "勇",
+              "reading": "yǒng"
+            },
+            {
+              "text": "敢",
+              "reading": "gǎn"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "馬良搖搖頭，勇敢地說。",
+          "zhuyin": [
+            {
+              "text": "馬",
+              "reading": "ㄇㄚˇ"
+            },
+            {
+              "text": "良",
+              "reading": "ㄌㄧㄤˊ"
+            },
+            {
+              "text": "搖",
+              "reading": "ㄧㄠˊ"
+            },
+            {
+              "text": "搖",
+              "reading": "ㄧㄠˊ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "勇",
+              "reading": "ㄩㄥˇ"
+            },
+            {
+              "text": "敢",
+              "reading": "ㄍㄢˇ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "馬良搖搖頭，勇敢地󠇡說。"
+        },
+        "en": "Ma Liang shook his head and said bravely."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "地牢",
+        "pinyin": [
+          {
+            "text": "地",
+            "reading": "dì"
+          },
+          {
+            "text": "牢",
+            "reading": "láo"
+          }
+        ]
+      },
+      "trad": {
+        "text": "地牢",
+        "zhuyin": [
+          {
+            "text": "地",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "牢",
+            "reading": "ㄌㄠˊ"
+          }
+        ],
+        "bpmf": "地牢"
+      },
+      "en": "dungeon",
+      "py": "dì láo",
+      "example": {
+        "simp": {
+          "text": "把他关到地牢里。",
+          "pinyin": [
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "关",
+              "reading": "guān"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "牢",
+              "reading": "láo"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "把他關到地牢裡。",
+          "zhuyin": [
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "關",
+              "reading": "ㄍㄨㄢ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "牢",
+              "reading": "ㄌㄠˊ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "把他關到地牢裡。"
+        },
+        "en": "They locked him away in the dungeon."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "条件",
+        "pinyin": [
+          {
+            "text": "条",
+            "reading": "tiáo"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "條件",
+        "zhuyin": [
+          {
+            "text": "條",
+            "reading": "ㄊㄧㄠˊ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          }
+        ],
+        "bpmf": "條件"
+      },
+      "en": "condition; terms",
+      "py": "tiáo jiàn",
+      "example": {
+        "simp": {
+          "text": "可是我有一个条件。",
+          "pinyin": [
+            {
+              "text": "可",
+              "reading": "kě"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "条",
+              "reading": "tiáo"
+            },
+            {
+              "text": "件",
+              "reading": "jiàn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "可是我有一個條件。",
+          "zhuyin": [
+            {
+              "text": "可",
+              "reading": "ㄎㄜˇ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "條",
+              "reading": "ㄊㄧㄠˊ"
+            },
+            {
+              "text": "件",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "可是我有一󠇡個󠇡條件。"
+        },
+        "en": "But I have one condition."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "答应",
+        "pinyin": [
+          {
+            "text": "答",
+            "reading": "dā"
+          },
+          {
+            "text": "应",
+            "reading": "yìng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "答應",
+        "zhuyin": [
+          {
+            "text": "答",
+            "reading": "ㄉㄚ"
+          },
+          {
+            "text": "應",
+            "reading": "ㄧㄥˋ"
+          }
+        ],
+        "bpmf": "答󠇡應󠇡"
+      },
+      "en": "to agree; to promise",
+      "py": "dā yìng",
+      "example": {
+        "simp": {
+          "text": "什么条件我都答应。",
+          "pinyin": [
+            {
+              "text": "什",
+              "reading": "shén"
+            },
+            {
+              "text": "么",
+              "reading": "me"
+            },
+            {
+              "text": "条",
+              "reading": "tiáo"
+            },
+            {
+              "text": "件",
+              "reading": "jiàn"
+            },
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "都",
+              "reading": "dōu"
+            },
+            {
+              "text": "答",
+              "reading": "dā"
+            },
+            {
+              "text": "应",
+              "reading": "yìng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "什麼條件我都答應。",
+          "zhuyin": [
+            {
+              "text": "什",
+              "reading": "ㄕㄣˊ"
+            },
+            {
+              "text": "麼",
+              "reading": "ㄇㄜ˙"
+            },
+            {
+              "text": "條",
+              "reading": "ㄊㄧㄠˊ"
+            },
+            {
+              "text": "件",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "都",
+              "reading": "ㄉㄡ"
+            },
+            {
+              "text": "答",
+              "reading": "ㄉㄚ"
+            },
+            {
+              "text": "應",
+              "reading": "ㄧㄥˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "什麼條件我都答󠇡應󠇡。"
+        },
+        "en": "Whatever the condition, I agree to it."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "满意",
+        "pinyin": [
+          {
+            "text": "满",
+            "reading": "mǎn"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          }
+        ]
+      },
+      "trad": {
+        "text": "滿意",
+        "zhuyin": [
+          {
+            "text": "滿",
+            "reading": "ㄇㄢˇ"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          }
+        ],
+        "bpmf": "滿意"
+      },
+      "en": "satisfied; pleased",
+      "py": "mǎn yì",
+      "example": {
+        "simp": {
+          "text": "皇帝还不满意。",
+          "pinyin": [
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "还",
+              "reading": "hái"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "满",
+              "reading": "mǎn"
+            },
+            {
+              "text": "意",
+              "reading": "yì"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "皇帝還不滿意。",
+          "zhuyin": [
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "還",
+              "reading": "ㄏㄞˊ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "滿",
+              "reading": "ㄇㄢˇ"
+            },
+            {
+              "text": "意",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "皇帝還不滿意。"
+        },
+        "en": "The emperor still was not satisfied."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "决定",
+        "pinyin": [
+          {
+            "text": "决",
+            "reading": "jué"
+          },
+          {
+            "text": "定",
+            "reading": "dìng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "決定",
+        "zhuyin": [
+          {
+            "text": "決",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "定",
+            "reading": "ㄉㄧㄥˋ"
+          }
+        ],
+        "bpmf": "決定"
+      },
+      "en": "to decide",
+      "py": "jué dìng",
+      "example": {
+        "simp": {
+          "text": "马良决定要给这个壞皇帝一个教训。",
+          "pinyin": [
+            {
+              "text": "马",
+              "reading": "mǎ"
+            },
+            {
+              "text": "良",
+              "reading": "liáng"
+            },
+            {
+              "text": "决",
+              "reading": "jué"
+            },
+            {
+              "text": "定",
+              "reading": "dìng"
+            },
+            {
+              "text": "要",
+              "reading": "yào"
+            },
+            {
+              "text": "给",
+              "reading": "gěi"
+            },
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "壞",
+              "reading": "huài"
+            },
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "教",
+              "reading": "jiào"
+            },
+            {
+              "text": "训",
+              "reading": "xùn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "馬良決定要給這個壞皇帝一個教訓。",
+          "zhuyin": [
+            {
+              "text": "馬",
+              "reading": "ㄇㄚˇ"
+            },
+            {
+              "text": "良",
+              "reading": "ㄌㄧㄤˊ"
+            },
+            {
+              "text": "決",
+              "reading": "ㄐㄩㄝˊ"
+            },
+            {
+              "text": "定",
+              "reading": "ㄉㄧㄥˋ"
+            },
+            {
+              "text": "要",
+              "reading": "ㄧㄠˋ"
+            },
+            {
+              "text": "給",
+              "reading": "ㄍㄟˇ"
+            },
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "壞",
+              "reading": "ㄏㄨㄞˋ"
+            },
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "教",
+              "reading": "ㄐㄧㄠˋ"
+            },
+            {
+              "text": "訓",
+              "reading": "ㄒㄩㄣˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "馬良決定要給這個󠇡壞皇帝一󠇡個󠇡教訓。"
+        },
+        "en": "Ma Liang decided to teach this wicked emperor a lesson."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "教训",
+        "pinyin": [
+          {
+            "text": "教",
+            "reading": "jiào"
+          },
+          {
+            "text": "训",
+            "reading": "xùn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "教訓",
+        "zhuyin": [
+          {
+            "text": "教",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "訓",
+            "reading": "ㄒㄩㄣˋ"
+          }
+        ],
+        "bpmf": "教訓"
+      },
+      "en": "a lesson (taught through a hard experience)",
+      "py": "jiào xùn",
+      "example": {
+        "simp": {
+          "text": "这就是给你的教训！",
+          "pinyin": [
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "给",
+              "reading": "gěi"
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "教",
+              "reading": "jiào"
+            },
+            {
+              "text": "训",
+              "reading": "xùn"
+            },
+            {
+              "text": "！",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "這就是給你的教訓！",
+          "zhuyin": [
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "給",
+              "reading": "ㄍㄟˇ"
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "教",
+              "reading": "ㄐㄧㄠˋ"
+            },
+            {
+              "text": "訓",
+              "reading": "ㄒㄩㄣˋ"
+            },
+            {
+              "text": "！",
+              "reading": ""
+            }
+          ],
+          "bpmf": "這就是給你的教訓！"
+        },
+        "en": "This is the lesson for you!"
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "欺负",
+        "pinyin": [
+          {
+            "text": "欺",
+            "reading": "qī"
+          },
+          {
+            "text": "负",
+            "reading": "fù"
+          }
+        ]
+      },
+      "trad": {
+        "text": "欺負",
+        "zhuyin": [
+          {
+            "text": "欺",
+            "reading": "ㄑㄧ"
+          },
+          {
+            "text": "負",
+            "reading": "ㄈㄨˋ"
+          }
+        ],
+        "bpmf": "欺負"
+      },
+      "en": "to bully; to pick on",
+      "py": "qī fù",
+      "example": {
+        "simp": {
+          "text": "马良想着那些被皇帝欺负过的老百姓。",
+          "pinyin": [
+            {
+              "text": "马",
+              "reading": "mǎ"
+            },
+            {
+              "text": "良",
+              "reading": "liáng"
+            },
+            {
+              "text": "想",
+              "reading": "xiǎng"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "些",
+              "reading": "xiē"
+            },
+            {
+              "text": "被",
+              "reading": "bèi"
+            },
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "欺",
+              "reading": "qī"
+            },
+            {
+              "text": "负",
+              "reading": "fù"
+            },
+            {
+              "text": "过",
+              "reading": "guò"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "老",
+              "reading": "lǎo"
+            },
+            {
+              "text": "百",
+              "reading": "bǎi"
+            },
+            {
+              "text": "姓",
+              "reading": "xìng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "馬良想著那些被皇帝欺負過的老百姓。",
+          "zhuyin": [
+            {
+              "text": "馬",
+              "reading": "ㄇㄚˇ"
+            },
+            {
+              "text": "良",
+              "reading": "ㄌㄧㄤˊ"
+            },
+            {
+              "text": "想",
+              "reading": "ㄒㄧㄤˇ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "些",
+              "reading": "ㄒㄧㄝ"
+            },
+            {
+              "text": "被",
+              "reading": "ㄅㄟˋ"
+            },
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "欺",
+              "reading": "ㄑㄧ"
+            },
+            {
+              "text": "負",
+              "reading": "ㄈㄨˋ"
+            },
+            {
+              "text": "過",
+              "reading": "ㄍㄨㄛˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "老",
+              "reading": "ㄌㄠˇ"
+            },
+            {
+              "text": "百",
+              "reading": "ㄅㄞˇ"
+            },
+            {
+              "text": "姓",
+              "reading": "ㄒㄧㄥˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "馬良想著那些被皇帝欺負過的老百姓。"
+        },
+        "en": "Ma Liang thought of the common folk the emperor had bullied."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "流浪",
+        "pinyin": [
+          {
+            "text": "流",
+            "reading": "liú"
+          },
+          {
+            "text": "浪",
+            "reading": "làng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "流浪",
+        "zhuyin": [
+          {
+            "text": "流",
+            "reading": "ㄌㄧㄡˊ"
+          },
+          {
+            "text": "浪",
+            "reading": "ㄌㄤˋ"
+          }
+        ],
+        "bpmf": "流浪"
+      },
+      "en": "to wander; to roam",
+      "py": "liú làng",
+      "example": {
+        "simp": {
+          "text": "马良到处流浪，去了很远很远的地方。",
+          "pinyin": [
+            {
+              "text": "马",
+              "reading": "mǎ"
+            },
+            {
+              "text": "良",
+              "reading": "liáng"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "处",
+              "reading": "chù"
+            },
+            {
+              "text": "流",
+              "reading": "liú"
+            },
+            {
+              "text": "浪",
+              "reading": "làng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "去",
+              "reading": "qù"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "远",
+              "reading": "yuǎn"
+            },
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "远",
+              "reading": "yuǎn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "方",
+              "reading": "fāng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "馬良到處流浪，去了很遠很遠的地方。",
+          "zhuyin": [
+            {
+              "text": "馬",
+              "reading": "ㄇㄚˇ"
+            },
+            {
+              "text": "良",
+              "reading": "ㄌㄧㄤˊ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "處",
+              "reading": "ㄔㄨˋ"
+            },
+            {
+              "text": "流",
+              "reading": "ㄌㄧㄡˊ"
+            },
+            {
+              "text": "浪",
+              "reading": "ㄌㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "去",
+              "reading": "ㄑㄩˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "遠",
+              "reading": "ㄩㄢˇ"
+            },
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "遠",
+              "reading": "ㄩㄢˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "方",
+              "reading": "ㄈㄤ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "馬良到處󠇡流浪，去了很遠很遠的地方。"
+        },
+        "en": "Ma Liang wandered everywhere, going to faraway places."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "金银财宝",
+        "pinyin": [
+          {
+            "text": "金",
+            "reading": "jīn"
+          },
+          {
+            "text": "银",
+            "reading": "yín"
+          },
+          {
+            "text": "财",
+            "reading": "cái"
+          },
+          {
+            "text": "宝",
+            "reading": "bǎo"
+          }
+        ]
+      },
+      "trad": {
+        "text": "金銀財寶",
+        "zhuyin": [
+          {
+            "text": "金",
+            "reading": "ㄐㄧㄣ"
+          },
+          {
+            "text": "銀",
+            "reading": "ㄧㄣˊ"
+          },
+          {
+            "text": "財",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "寶",
+            "reading": "ㄅㄠˇ"
+          }
+        ],
+        "bpmf": "金銀財寶"
+      },
+      "en": "gold, silver, and treasures; riches",
+      "py": "jīn yín cái bǎo",
+      "example": {
+        "simp": {
+          "text": "你心里只有自己的金银财宝。",
+          "pinyin": [
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "只",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "己",
+              "reading": "jǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "金",
+              "reading": "jīn"
+            },
+            {
+              "text": "银",
+              "reading": "yín"
+            },
+            {
+              "text": "财",
+              "reading": "cái"
+            },
+            {
+              "text": "宝",
+              "reading": "bǎo"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "你心裡只有自己的金銀財寶。",
+          "zhuyin": [
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "只",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "己",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "金",
+              "reading": "ㄐㄧㄣ"
+            },
+            {
+              "text": "銀",
+              "reading": "ㄧㄣˊ"
+            },
+            {
+              "text": "財",
+              "reading": "ㄘㄞˊ"
+            },
+            {
+              "text": "寶",
+              "reading": "ㄅㄠˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "你心裡只有自己的金銀財寶。"
+        },
+        "en": "In your heart there is only your own gold and treasure."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "自私自利",
+        "pinyin": [
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "私",
+            "reading": "sī"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "利",
+            "reading": "lì"
+          }
+        ]
+      },
+      "trad": {
+        "text": "自私自利",
+        "zhuyin": [
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "私",
+            "reading": "ㄙ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "利",
+            "reading": "ㄌㄧˋ"
+          }
+        ],
+        "bpmf": "自私自利"
+      },
+      "en": "selfish — caring only about one's own gain and ignoring everyone else (idiom)",
+      "py": "zì sī zì lì",
+      "example": {
+        "simp": {
+          "text": "自私自利，完全不管别人的死活。",
+          "pinyin": [
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "私",
+              "reading": "sī"
+            },
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "利",
+              "reading": "lì"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "完",
+              "reading": "wán"
+            },
+            {
+              "text": "全",
+              "reading": "quán"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "管",
+              "reading": "guǎn"
+            },
+            {
+              "text": "别",
+              "reading": "bié"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "死",
+              "reading": "sǐ"
+            },
+            {
+              "text": "活",
+              "reading": "huó"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "自私自利，完全不管別人的死活。",
+          "zhuyin": [
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "私",
+              "reading": "ㄙ"
+            },
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "利",
+              "reading": "ㄌㄧˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "完",
+              "reading": "ㄨㄢˊ"
+            },
+            {
+              "text": "全",
+              "reading": "ㄑㄩㄢˊ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "管",
+              "reading": "ㄍㄨㄢˇ"
+            },
+            {
+              "text": "別",
+              "reading": "ㄅㄧㄝˊ"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "死",
+              "reading": "ㄙˇ"
+            },
+            {
+              "text": "活",
+              "reading": "ㄏㄨㄛˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "自私自利，完全不管別人的死活。"
+        },
+        "en": "Selfish through and through, caring nothing for anyone else."
+      }
+    }
+  ]
+}

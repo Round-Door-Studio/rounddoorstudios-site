@@ -23,14 +23,13 @@ export function HomeClient({ featured }: HomeClientProps) {
         </div>
         <div className="hero-copy">
           <p className="eyebrow" style={{ marginBottom: 14 }}>Round Door Studio · 月門故事</p>
-          <h1 className="display">Mandarin and English stories for the modern bilingual family</h1>
+          <h1 className="display">Mandarin and English stories for curious families and learners</h1>
           <p className="hero-sub">
-            The same story, told in both languages. Read along, learn new words, spark conversations,
-            and explore culture together.
+          The same story, told in both languages. Read along, learn new words, spark conversations, and explore Chinese culture together.
           </p>
           <p className="hero-zh">
-            <span className="only-simp zh-simp">为双语家庭而生的故事</span>
-            <span className="only-trad zh-trad">為雙語家庭而生的故事</span>
+            <span className="only-simp zh-simp">中英双语故事：为充满好奇心的家庭与语言学习者而生</span>
+            <span className="only-trad zh-trad">中英雙語故事：為充滿好奇心的家庭與語言學習者而生</span>
           </p>
           <div className="hero-cta">
             <Link className="btn btn-primary" href="/library">Browse Stories</Link>
@@ -59,7 +58,7 @@ export function HomeClient({ featured }: HomeClientProps) {
       <section className="teaser">
         <div className="teaser-in">
           <div>
-            <p className="eyebrow">For families who want more</p>
+            <p className="eyebrow">For families, learners, and curious minds</p>
             <h2 className="display">Keep the door open.</h2>
             <p>
               Every story begins with a free podcast episode. Explore printable storybooks,
@@ -78,24 +77,21 @@ export function HomeClient({ featured }: HomeClientProps) {
             <div className="teaser-card">
               <div className="k">Discussion</div>
               <p className="desc">
-                Open-ended questions to talk through the story together — what happened, why it
-                matters, and the ideas underneath.
+              Open-ended questions to explore the story together—what happened, why it matters, and the ideas beneath the surface.
               </p>
               <div className="lines" />
             </div>
             <div className="teaser-card">
               <div className="k">Vocabulary</div>
               <p className="desc">
-                Key words and phrases from the story in Chinese and English, with pinyin and zhuyin
-                to learn side by side.
+              Key words and phrases from the story in Mandarin and English, with pinyin and zhuyin to build language skills side by side.
               </p>
               <div className="lines" />
             </div>
             <div className="teaser-card">
               <div className="k">Cultural Activities</div>
               <p className="desc">
-                Hands-on crafts, recipes, and traditions that bring the story&apos;s culture to
-                life at home.
+              Hands-on crafts, recipes, and traditions that bring Chinese culture to life beyond the story.
               </p>
               <div className="lines" />
             </div>
