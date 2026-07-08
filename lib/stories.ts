@@ -94,7 +94,7 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 5, slug: 'ma-liang-magic-brush-1', season: 1, released: false, part: 1, parts: 2,
+    num: 5, slug: 'ma-liang-magic-brush-1', season: 1, released: true, part: 1, parts: 2,
     title: { en: 'Ma Liang and the Magic Brush · Part 1', simp: '神笔马良', trad: '神筆馬良' },
     blurb: 'A poor orphan who dreams of drawing receives a magical paintbrush that brings everything he paints to life. But when a greedy landlord tries to steal its power, Ma Liang must use his wits to protect the gift meant to help others.', 
     runtime: '17-19 min', pub: 'Jul 8, 2026', coverColor: '#9B4761', coverImage: '/img/covers/MaLiangBrushP1_SQ.png',
@@ -102,12 +102,12 @@ export const STORIES: Story[] = [
       en: {
         spotify: 'https://open.spotify.com/episode/6sGBhw1q7mFy809vQuh5in?si=Pf0nWn3oRP2mLxL2sFU5rw',
         youtube: 'https://youtu.be/zGr1pspH3T8',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/s1-ep9-eng-ma-liang-and-the-magic-brush-part-1-%E7%A5%9E%E7%AC%94%E9%A9%AC%E8%89%AF-%E7%A5%9E%E7%AD%86%E9%A6%AC%E8%89%AF-%E7%AC%AC%E4%B8%80%E9%9B%86/id1896903747?i=1000775952618',
       },
       zh: {
         spotify: 'https://open.spotify.com/episode/0fJxsNvymsaZYRHWIAChPy?si=pBx2yOdlSgOn-BEi0wCbLA',
         youtube: 'https://youtu.be/6TVJ3xxxowg',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/s1-ep10-%E4%B8%AD%E6%96%87-%E7%A5%9E%E7%AC%94%E9%A9%AC%E8%89%AF-%E7%A5%9E%E7%AD%86%E9%A6%AC%E8%89%AF-%E7%AC%AC%E4%B8%80%E9%9B%86-ma-liang-and-the-magic-brush-part-1/id1896903747?i=1000775954793',
       },
     },
     hasBundle: true,
