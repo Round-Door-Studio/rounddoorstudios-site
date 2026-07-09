@@ -23,20 +23,18 @@ export async function POST(request: NextRequest) {
 
   const supabase = createServiceClient()
 
-  // Idempotency: skip if already processed
-  const { data: existing } = await supabase
+  // Idempotency: atomic upsert — if the row already exists DO NOTHING and
+  // return early. A plain SELECT + INSERT has a race window where two
+  // concurrent retries of the same event both see "not found" and both
+  // proceed to write. ON CONFLICT DO NOTHING closes that window.
+  const { data: inserted } = await supabase
     .from('stripe_events')
+    .upsert({ id: event.id, type: event.type }, { onConflict: 'id', ignoreDuplicates: true })
     .select('id')
-    .eq('id', event.id)
-    .maybeSingle()
 
-  if (existing) {
+  if (!inserted?.length) {
     return NextResponse.json({ received: true })
   }
-
-  await supabase
-    .from('stripe_events')
-    .insert({ id: event.id, type: event.type })
 
   try {
     switch (event.type) {

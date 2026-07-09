@@ -11,8 +11,8 @@ vi.mock('next/headers', () => ({
 
 // Rate-limit passes through by default; individual tests override to test 429.
 import type { rateLimit as RateLimitFn } from '@/lib/rate-limit'
-type RateLimitResult = ReturnType<typeof RateLimitFn>
-const mockRateLimit = vi.hoisted(() => vi.fn(() => ({ success: true }) as RateLimitResult))
+type RateLimitResult = Awaited<ReturnType<typeof RateLimitFn>>
+const mockRateLimit = vi.hoisted(() => vi.fn(() => Promise.resolve({ success: true }) as Promise<RateLimitResult>))
 vi.mock('@/lib/rate-limit', () => ({ rateLimit: mockRateLimit }))
 
 const mockGetUser = vi.hoisted(() => vi.fn())
@@ -143,7 +143,7 @@ describe('POST /api/stripe/create-membership-checkout', () => {
   })
 
   it('returns 429 when rate limit is exceeded', async () => {
-    mockRateLimit.mockReturnValueOnce({ success: false, retryAfter: 42 })
+    mockRateLimit.mockResolvedValueOnce({ success: false, retryAfter: 42 })
     const res = await membershipCheckout(makeRequest({ interval: 'monthly' }))
     expect(res.status).toBe(429)
     expect(res.headers.get('Retry-After')).toBe('42')
@@ -216,7 +216,7 @@ describe('POST /api/stripe/create-story-pack-checkout', () => {
   })
 
   it('returns 429 when rate limit is exceeded', async () => {
-    mockRateLimit.mockReturnValueOnce({ success: false, retryAfter: 30 })
+    mockRateLimit.mockResolvedValueOnce({ success: false, retryAfter: 30 })
     const res = await storyPackCheckout(makeRequest({ storySlug: 'fox-borrows-tiger' }))
     expect(res.status).toBe(429)
     expect(res.headers.get('Retry-After')).toBe('30')
@@ -255,7 +255,7 @@ describe('POST /api/stripe/create-portal-session', () => {
   })
 
   it('returns 429 when rate limit is exceeded', async () => {
-    mockRateLimit.mockReturnValueOnce({ success: false, retryAfter: 55 })
+    mockRateLimit.mockResolvedValueOnce({ success: false, retryAfter: 55 })
     const res = await portalSession(new NextRequest('http://localhost/api/stripe/portal', { method: 'POST' }))
     expect(res.status).toBe(429)
     expect(res.headers.get('Retry-After')).toBe('55')
