@@ -95,8 +95,8 @@ export default function PrivacyPage() {
         </ul>
         <p style={{ marginTop: 16 }}>
           To exercise any of these rights, email us at{' '}
-          <a href="mailto:hello@rounddoorstudio.com" style={{ color: 'var(--accent)' }}>
-            hello@rounddoorstudio.com
+          <a href="mailto:therounddoorpodcast@gmail.com" style={{ color: 'var(--accent)' }}>
+            therounddoorpodcast@gmail.com
           </a>.
         </p>
 
@@ -113,8 +113,8 @@ export default function PrivacyPage() {
         </h2>
         <p>
           Questions about this policy? Reach us at{' '}
-          <a href="mailto:hello@rounddoorstudio.com" style={{ color: 'var(--accent)' }}>
-            hello@rounddoorstudio.com
+          <a href="mailto:therounddoorpodcast@gmail.com" style={{ color: 'var(--accent)' }}>
+            therounddoorpodcast@gmail.com
           </a>.
         </p>
       </div>

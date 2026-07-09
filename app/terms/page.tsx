@@ -87,6 +87,65 @@ export default function TermsPage() {
           damages arising from your use of the site or its content.
         </p>
 
+        <h2 id="payments" style={{ fontFamily: 'var(--display)', fontSize: 22, fontWeight: 400, color: 'var(--ink)', marginBottom: 12, marginTop: 40 }}>
+          Payments &amp; memberships
+        </h2>
+        <p>
+          Some features of Round Door Studio are available through paid memberships or one-time
+          Story Pack purchases.
+        </p>
+        <p style={{ marginTop: 16 }}>
+          Memberships renew automatically until canceled. You can cancel your membership at any
+          time through your account&apos;s billing portal. Cancellation prevents future renewals
+          but does not refund the current billing period. Your membership will remain active
+          until the end of your current billing cycle.
+        </p>
+        <p style={{ marginTop: 16 }}>
+          A one-time Story Pack purchase grants ongoing access to that Story Pack through your
+          account, including any future updates or improvements we make to that Story Pack at
+          no additional cost.
+        </p>
+        <p style={{ marginTop: 16 }}>
+          Prices may change in the future, but any changes will apply only to future purchases
+          or renewals as permitted by law.
+        </p>
+
+        <h2 id="refund-policy" style={{ fontFamily: 'var(--display)', fontSize: 22, fontWeight: 400, color: 'var(--ink)', marginBottom: 12, marginTop: 40 }}>
+          Refund policy
+        </h2>
+        <h3 style={{ fontFamily: 'var(--serif)', fontSize: 17, fontWeight: 600, color: 'var(--ink)', marginBottom: 8, marginTop: 24 }}>
+          Memberships
+        </h3>
+        <p>
+          You may cancel your membership at any time through your account&apos;s billing portal.
+          Monthly and yearly memberships remain active until the end of the current billing
+          period after cancellation. We do not provide refunds or prorated refunds for the
+          unused portion of a billing period, except where required by applicable law.
+        </p>
+        <h3 style={{ fontFamily: 'var(--serif)', fontSize: 17, fontWeight: 600, color: 'var(--ink)', marginBottom: 8, marginTop: 24 }}>
+          One-time Story Pack purchases
+        </h3>
+        <p>
+          Story Pack purchases are one-time purchases that provide ongoing access to the
+          purchased Story Pack through your account. This includes any future updates or
+          improvements we release for that Story Pack at no additional cost.
+        </p>
+        <p style={{ marginTop: 16 }}>
+          Because access is granted immediately and continues indefinitely, Story Pack purchases
+          are generally non-refundable except where required by law or if a technical issue
+          prevents access to your purchase.
+        </p>
+        <h3 style={{ fontFamily: 'var(--serif)', fontSize: 17, fontWeight: 600, color: 'var(--ink)', marginBottom: 8, marginTop: 24 }}>
+          Need help?
+        </h3>
+        <p>
+          If you experience a technical issue or believe you&apos;ve been charged in error, please
+          contact us at{' '}
+          <a href="mailto:therounddoorpodcast@gmail.com" style={{ color: 'var(--accent)' }}>
+            therounddoorpodcast@gmail.com
+          </a>. We&apos;ll do our best to resolve the issue promptly.
+        </p>
+
         <h2 style={{ fontFamily: 'var(--display)', fontSize: 22, fontWeight: 400, color: 'var(--ink)', marginBottom: 12, marginTop: 40 }}>
           Changes to these terms
         </h2>
@@ -100,8 +159,8 @@ export default function TermsPage() {
         </h2>
         <p>
           Questions about these terms? Reach us at{' '}
-          <a href="mailto:hello@rounddoorstudio.com" style={{ color: 'var(--accent)' }}>
-            hello@rounddoorstudio.com
+          <a href="mailto:therounddoorpodcast@gmail.com" style={{ color: 'var(--accent)' }}>
+            therounddoorpodcast@gmail.com
           </a>.
         </p>
       </div>

@@ -169,8 +169,14 @@ export default function MembershipPage() {
         </div>
       </section>
 
-      <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 12, margin: '14px 0 48px' }}>
+      <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 12, margin: '14px 0 4px' }}>
         🔒 Payments are processed securely by Stripe. Cancel any time from your account.
+      </p>
+      <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 12, margin: '0 0 48px' }}>
+        By subscribing or purchasing a Story Pack, you agree to our{' '}
+        <a href="/terms" style={{ color: 'var(--muted)', textDecoration: 'underline' }}>Terms</a>,{' '}
+        <a href="/privacy" style={{ color: 'var(--muted)', textDecoration: 'underline' }}>Privacy Policy</a>, and{' '}
+        <a href="/terms#refund-policy" style={{ color: 'var(--muted)', textDecoration: 'underline' }}>Refund Policy</a>.
       </p>
 
       <style>{`

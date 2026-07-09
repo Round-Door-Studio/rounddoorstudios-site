@@ -165,8 +165,8 @@ export function LockedStoryPack({
                   onClick={handleUnlockPack}
                   disabled={packLoading}
                 >
-                  {packLoading ? 'Redirecting…' : 'Unlock This Story Pack'}
-                  <span className="locked-cta-sub">One-time · $8</span>
+                  {packLoading ? 'Redirecting…' : 'Own This Story Pack Forever'}
+                  <span className="locked-cta-sub">One-time · $8 · Lifetime access</span>
                 </button>
                 <Link href={`/story/${FREE_STORY_SLUG}`} className="locked-try-free">
                   Explore a Sample Story Pack
