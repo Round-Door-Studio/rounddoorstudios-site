@@ -4,7 +4,6 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Toast } from '@/components/Toast';
 import { AuthModal } from '@/components/AuthModal';
-import { setPendingAction, getPendingAction, clearPendingAction } from '@/lib/pending-action';
 
 interface Props {
   isLoggedIn: boolean;
@@ -30,17 +29,17 @@ export default function MembershipClient({ isLoggedIn }: Props) {
     }
   }, [searchParams, router]);
 
-  // After the user authenticates, auto-trigger checkout if they had a pending action.
+  // After the user authenticates, ?autoJoin=monthly|yearly is present in the URL.
+  // Auto-trigger checkout and clean the param from the URL.
   useEffect(() => {
     if (!isLoggedIn) return;
-    const action = getPendingAction();
-    if (action?.type === 'membership') {
-      clearPendingAction();
-      setInterval(action.interval);
-      startMembershipCheckout(action.interval);
-    }
+    const autoJoin = searchParams.get('autoJoin') as 'monthly' | 'yearly' | null;
+    if (!autoJoin || (autoJoin !== 'monthly' && autoJoin !== 'yearly')) return;
+    router.replace('/membership', { scroll: false });
+    setInterval(autoJoin);
+    startMembershipCheckout(autoJoin);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isLoggedIn]);
+  }, [isLoggedIn, searchParams]);
 
   const isYearly = interval === 'yearly';
   const monthlyEquiv = isYearly ? '$18' : '$20';
@@ -66,7 +65,6 @@ export default function MembershipClient({ isLoggedIn }: Props) {
       }
       if (res.status === 401) {
         // Fallback: shouldn't normally happen since we check isLoggedIn first
-        setPendingAction({ type: 'membership', interval: checkoutInterval });
         setShowAuthModal(true);
         setLoading(false);
         inFlight.current = false;
@@ -86,7 +84,6 @@ export default function MembershipClient({ isLoggedIn }: Props) {
 
   async function handleJoin() {
     if (!isLoggedIn) {
-      setPendingAction({ type: 'membership', interval });
       setShowAuthModal(true);
       return;
     }
@@ -98,12 +95,9 @@ export default function MembershipClient({ isLoggedIn }: Props) {
       {showAuthModal && (
         <AuthModal
           mode={authMode}
-          onClose={() => {
-            setShowAuthModal(false);
-            clearPendingAction();
-          }}
+          onClose={() => setShowAuthModal(false)}
           onSwitchMode={setAuthMode}
-          redirectTo="/membership"
+          redirectTo={`/membership?autoJoin=${interval}`}
           contextTitle="Sign in to join the Circle."
           contextSubtitle="Your membership is linked to your account so you can access Story Packs across all your devices."
         />

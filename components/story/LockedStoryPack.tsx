@@ -6,7 +6,6 @@ import Link from 'next/link';
 import { FREE_STORY_SLUG } from '@/lib/stories';
 import { Toast } from '@/components/Toast';
 import { AuthModal } from '@/components/AuthModal';
-import { setPendingAction, getPendingAction, clearPendingAction } from '@/lib/pending-action';
 
 interface LockedStoryPackProps {
   isFreeStory: boolean;
@@ -43,16 +42,15 @@ export function LockedStoryPack({
     }
   }, [searchParams, router, storySlug]);
 
-  // After the user authenticates, auto-trigger checkout if they had a pending action.
+  // After the user authenticates, ?autoPurchase=1 is present in the URL.
+  // Auto-trigger checkout and clean the param from the URL.
   useEffect(() => {
     if (!isLoggedIn) return;
-    const action = getPendingAction();
-    if (action?.type === 'purchase_story_pack' && action.storySlug === storySlug) {
-      clearPendingAction();
-      startCheckout();
-    }
+    if (searchParams.get('autoPurchase') !== '1') return;
+    router.replace(`/story/${storySlug}`, { scroll: false });
+    startCheckout();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isLoggedIn, storySlug]);
+  }, [isLoggedIn, searchParams, storySlug]);
 
   async function startCheckout() {
     if (inFlight.current) return;
@@ -85,7 +83,6 @@ export function LockedStoryPack({
 
   async function handleUnlockPack() {
     if (!isLoggedIn) {
-      setPendingAction({ type: 'purchase_story_pack', storySlug });
       setShowAuthModal(true);
       return;
     }
@@ -97,12 +94,9 @@ export function LockedStoryPack({
       {showAuthModal && (
         <AuthModal
           mode={authMode}
-          onClose={() => {
-            setShowAuthModal(false);
-            clearPendingAction();
-          }}
+          onClose={() => setShowAuthModal(false)}
           onSwitchMode={setAuthMode}
-          redirectTo={`/story/${storySlug}`}
+          redirectTo={`/story/${storySlug}?autoPurchase=1`}
           contextTitle="Sign in to unlock this Story Pack."
           contextSubtitle="We'll save your purchase to your account so you can access it anytime."
         />
