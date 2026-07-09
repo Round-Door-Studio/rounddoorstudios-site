@@ -10,7 +10,9 @@ vi.mock('next/headers', () => ({
 }))
 
 // Rate-limit passes through by default; individual tests override to test 429.
-const mockRateLimit = vi.hoisted(() => vi.fn(() => ({ success: true })))
+import type { rateLimit as RateLimitFn } from '@/lib/rate-limit'
+type RateLimitResult = ReturnType<typeof RateLimitFn>
+const mockRateLimit = vi.hoisted(() => vi.fn(() => ({ success: true }) as RateLimitResult))
 vi.mock('@/lib/rate-limit', () => ({ rateLimit: mockRateLimit }))
 
 const mockGetUser = vi.hoisted(() => vi.fn())
