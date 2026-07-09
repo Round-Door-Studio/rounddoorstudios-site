@@ -11,7 +11,7 @@ test.describe('Membership page — canceled checkout', () => {
     await page.waitForLoadState('networkidle');
 
     await expect(page.locator('.toast')).toBeVisible();
-    await expect(page.locator('.toast-msg')).toContainText('canceled');
+    await expect(page.locator('.toast')).toContainText('canceled');
 
     // URL is cleaned immediately (no ?checkout param)
     await expect(page).toHaveURL('/membership');
@@ -56,7 +56,7 @@ test.describe('Account page — checkout success toast', () => {
     await page.waitForLoadState('networkidle');
 
     await expect(page.locator('.toast')).toBeVisible();
-    await expect(page.locator('.toast-msg')).toContainText('Circle Membership');
+    await expect(page.locator('.toast')).toContainText('Circle Membership');
 
     await expect(page).toHaveURL('/account');
   });
@@ -67,7 +67,7 @@ test.describe('Account page — checkout success toast', () => {
 
     await expect(page.locator('.toast')).toBeVisible();
     // Message contains "Payment confirmed" regardless of which story was purchased.
-    await expect(page.locator('.toast-msg')).toContainText('Payment confirmed');
+    await expect(page.locator('.toast')).toContainText('Payment confirmed');
 
     await expect(page).toHaveURL('/account');
   });
