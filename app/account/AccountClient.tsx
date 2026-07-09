@@ -1,8 +1,9 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { signOut } from '@/app/auth/actions'
+import { Toast } from '@/components/Toast'
 import type { Story } from '@/lib/types'
 
 type MembershipState = 'active' | 'canceling' | 'free'
@@ -42,15 +43,18 @@ export default function AccountClient({
   checkoutSuccess,
   bannerMessage,
 }: Props) {
-  const [bannerVisible, setBannerVisible] = useState(checkoutSuccess)
+  const [toast, setToast] = useState<string | null>(checkoutSuccess ? bannerMessage : null)
   const [portalLoading, setPortalLoading] = useState(false)
   const [awaitingPortalReturn, setAwaitingPortalReturn] = useState(false)
+  const portalInFlight = useRef(false)
   const router = useRouter()
+
+  const dismissToast = useCallback(() => setToast(null), [])
 
   // Webhook fires async — if we land here right after checkout and the DB
   // hasn't updated yet, refresh after 3s to pick up the new subscription/purchase.
   // Also replace the URL immediately to strip ?checkout=success so back-navigation
-  // doesn't re-show the banner.
+  // doesn't re-trigger the toast.
   useEffect(() => {
     if (!checkoutSuccess) return
     router.replace('/account', { scroll: false })
@@ -76,6 +80,8 @@ export default function AccountClient({
   const isCanceling = membershipState === 'canceling'
 
   async function handleManageMembership() {
+    if (portalInFlight.current) return
+    portalInFlight.current = true
     setPortalLoading(true)
     try {
       const res = await fetch('/api/stripe/create-portal-session', { method: 'POST' })
@@ -83,32 +89,20 @@ export default function AccountClient({
       if (url) {
         setAwaitingPortalReturn(true)
         router.push(url)
+      } else {
+        setPortalLoading(false)
+        portalInFlight.current = false
       }
     } catch {
       setPortalLoading(false)
+      portalInFlight.current = false
     }
   }
 
   return (
     <main className="acct-wrap">
 
-      {/* Success banner */}
-      {bannerVisible && (
-        <div className="banner">
-          <p>
-            <span className="dot" />
-            {bannerMessage}
-          </p>
-          <button
-            type="button"
-            className="banner-close"
-            aria-label="Dismiss"
-            onClick={() => setBannerVisible(false)}
-          >
-            ×
-          </button>
-        </div>
-      )}
+      {toast && <Toast message={toast} onDismiss={dismissToast} />}
 
       {/* Header */}
       <div className="acct-head">
@@ -146,7 +140,7 @@ export default function AccountClient({
                 onClick={handleManageMembership}
                 disabled={portalLoading}
               >
-                {portalLoading ? 'Loading…' : 'Manage Membership'}
+                {portalLoading ? 'Opening portal…' : 'Manage Membership'}
               </button>
             </div>
           )}

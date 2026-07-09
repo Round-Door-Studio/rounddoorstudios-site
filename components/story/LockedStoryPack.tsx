@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { FREE_STORY_SLUG } from '@/lib/stories';
@@ -25,6 +25,7 @@ export function LockedStoryPack({
   activityCount,
 }: LockedStoryPackProps) {
   const [packLoading, setPackLoading] = useState(false);
+  const inFlight = useRef(false);
   const router = useRouter();
 
   async function handleUnlockPack() {
@@ -32,6 +33,8 @@ export function LockedStoryPack({
       router.push(`/login?redirectTo=/story/${storySlug}`);
       return;
     }
+    if (inFlight.current) return;
+    inFlight.current = true;
     setPackLoading(true);
     try {
       const res = await fetch('/api/stripe/create-story-pack-checkout', {
@@ -40,9 +43,15 @@ export function LockedStoryPack({
         body: JSON.stringify({ storySlug }),
       });
       const data = await res.json();
-      if (data.url) router.push(data.url);
+      if (data.url) {
+        router.push(data.url);
+      } else {
+        setPackLoading(false);
+        inFlight.current = false;
+      }
     } catch {
       setPackLoading(false);
+      inFlight.current = false;
     }
   }
 
@@ -138,7 +147,7 @@ export function LockedStoryPack({
                   onClick={handleUnlockPack}
                   disabled={packLoading}
                 >
-                  {packLoading ? 'Loading…' : 'Unlock This Story Pack'}
+                  {packLoading ? 'Redirecting…' : 'Unlock This Story Pack'}
                   <span className="locked-cta-sub">One-time · $8</span>
                 </button>
                 <Link href={`/story/${FREE_STORY_SLUG}`} className="locked-try-free">

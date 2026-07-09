@@ -1,12 +1,26 @@
 'use client';
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, useEffect, useRef, useCallback } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { Toast } from '@/components/Toast';
 
 export default function MembershipPage() {
   const [interval, setInterval] = useState<'monthly' | 'yearly'>('monthly');
   const [loading, setLoading] = useState(false);
+  const [toast, setToast] = useState<string | null>(null);
+  const inFlight = useRef(false);
   const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const dismissToast = useCallback(() => setToast(null), []);
+
+  // Show a toast and clean the URL when returning from a canceled checkout.
+  useEffect(() => {
+    if (searchParams.get('checkout') === 'canceled') {
+      setToast('Checkout was canceled. No charge was made.');
+      router.replace('/membership', { scroll: false });
+    }
+  }, [searchParams, router]);
 
   const isYearly = interval === 'yearly';
   const monthlyEquiv = isYearly ? '$18' : '$20';
@@ -14,6 +28,8 @@ export default function MembershipPage() {
   const savings = isYearly ? 'Save 10%' : null;
 
   async function handleJoin() {
+    if (inFlight.current) return;
+    inFlight.current = true;
     setLoading(true);
     try {
       const res = await fetch('/api/stripe/create-membership-checkout', {
@@ -28,14 +44,20 @@ export default function MembershipPage() {
       }
       if (data.url) {
         router.push(data.url);
+      } else {
+        setLoading(false);
+        inFlight.current = false;
       }
     } catch {
       setLoading(false);
+      inFlight.current = false;
     }
   }
 
   return (
     <>
+      {toast && <Toast message={toast} onDismiss={dismissToast} />}
+
       <section
         style={{ maxWidth: 720, margin: '0 auto', textAlign: 'center', padding: '60px 24px 28px' }}
       >
@@ -136,7 +158,7 @@ export default function MembershipPage() {
             onClick={handleJoin}
             disabled={loading}
           >
-            {loading ? 'Loading…' : 'Join the Circle'}
+            {loading ? 'Redirecting…' : 'Join the Circle'}
           </button>
         </div>
       </section>
