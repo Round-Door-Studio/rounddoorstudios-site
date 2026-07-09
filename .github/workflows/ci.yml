@@ -73,6 +73,7 @@ jobs:
             echo "SUPABASE_SERVICE_ROLE_KEY=$SUPABASE_SERVICE_ROLE_KEY"
             echo "TEST_USER_EMAIL=$TEST_USER_EMAIL"
             echo "TEST_USER_PASSWORD=$TEST_USER_PASSWORD"
+            echo "NEXT_PUBLIC_SITE_URL=http://localhost:3000"
           } > .env.local
 
       - name: Build
