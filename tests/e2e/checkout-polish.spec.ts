@@ -73,6 +73,42 @@ test.describe('Account page — checkout success toast', () => {
   });
 });
 
+// ── Story page — canceled story pack checkout ─────────────────────────────────
+// Stripe redirects to /story/[slug]?checkout=canceled when user bails on a
+// story pack purchase. No auth required.
+
+const GATED_SLUG = 'qu-yuan-and-dragon-boat-festival';
+
+test.describe('Story page — canceled story pack checkout', () => {
+  test('shows toast and cleans URL', async ({ page }) => {
+    await page.goto(`/story/${GATED_SLUG}?checkout=canceled`);
+    await page.waitForLoadState('networkidle');
+
+    await expect(page.locator('.toast')).toBeVisible();
+    await expect(page.locator('.toast')).toContainText('canceled');
+
+    await expect(page).toHaveURL(`/story/${GATED_SLUG}`);
+  });
+
+  test('toast can be manually dismissed', async ({ page }) => {
+    await page.goto(`/story/${GATED_SLUG}?checkout=canceled`);
+    await page.waitForLoadState('networkidle');
+    await expect(page.locator('.toast')).toBeVisible();
+
+    await page.locator('.toast-close').click();
+    await expect(page.locator('.toast')).not.toBeVisible();
+  });
+
+  test('locked cards are still shown after canceled checkout', async ({ page }) => {
+    await page.goto(`/story/${GATED_SLUG}?checkout=canceled`);
+    await page.waitForLoadState('networkidle');
+
+    // User still can't access the pack — they canceled
+    await expect(page.locator('.locked-cards')).toBeVisible();
+    await expect(page.locator('.pack-cards')).not.toBeVisible();
+  });
+});
+
 // ── Membership page — button loading state ────────────────────────────────────
 // Intercept the checkout API so it hangs, then verify the button updates.
 

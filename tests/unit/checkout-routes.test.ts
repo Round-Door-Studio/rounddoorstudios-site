@@ -204,7 +204,7 @@ describe('POST /api/stripe/create-story-pack-checkout', () => {
     expect(mockSessionsCreate).toHaveBeenCalledWith(
       expect.objectContaining({
         success_url: expect.stringContaining('/account?checkout=success'),
-        cancel_url: expect.stringContaining('/stories/fox-borrows-tiger'),
+        cancel_url: expect.stringContaining('/story/fox-borrows-tiger'),
       })
     )
   })

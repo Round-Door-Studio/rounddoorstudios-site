@@ -1,9 +1,10 @@
 'use client';
 
-import { useState, useRef } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, useRef, useEffect, useCallback } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { FREE_STORY_SLUG } from '@/lib/stories';
+import { Toast } from '@/components/Toast';
 
 interface LockedStoryPackProps {
   isFreeStory: boolean;
@@ -25,8 +26,18 @@ export function LockedStoryPack({
   activityCount,
 }: LockedStoryPackProps) {
   const [packLoading, setPackLoading] = useState(false);
+  const [toast, setToast] = useState<string | null>(null);
   const inFlight = useRef(false);
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const dismissToast = useCallback(() => setToast(null), []);
+
+  useEffect(() => {
+    if (searchParams.get('checkout') === 'canceled') {
+      setToast('Checkout was canceled. No charge was made.');
+      router.replace(`/story/${storySlug}`, { scroll: false });
+    }
+  }, [searchParams, router, storySlug]);
 
   async function handleUnlockPack() {
     if (!isLoggedIn) {
@@ -57,6 +68,7 @@ export function LockedStoryPack({
 
   return (
     <div>
+      {toast && <Toast message={toast} onDismiss={dismissToast} />}
       <div className="pack-nav-block">
         <p className="pack-nav-eyebrow">Our Story Pack</p>
 
