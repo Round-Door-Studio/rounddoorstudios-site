@@ -7,7 +7,7 @@ import { rateLimit } from '@/lib/rate-limit'
 
 export async function POST(_request: NextRequest) {
   const ip = (await headers()).get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown'
-  const rl = rateLimit(`portal-session:${ip}`, { max: 5, windowMs: 60_000 })
+  const rl = await rateLimit(`portal-session:${ip}`, { max: 5, windowMs: 60_000 })
   if (!rl.success) {
     return NextResponse.json(
       { error: 'Too many requests' },

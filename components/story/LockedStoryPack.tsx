@@ -54,6 +54,12 @@ export function LockedStoryPack({
         body: JSON.stringify({ storySlug }),
       });
       const data = await res.json();
+      if (res.status === 429) {
+        setToast('Too many requests — please wait a moment and try again.');
+        setPackLoading(false);
+        inFlight.current = false;
+        return;
+      }
       if (data.url) {
         router.push(data.url);
       } else {

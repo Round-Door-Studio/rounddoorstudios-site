@@ -38,6 +38,12 @@ export default function MembershipPage() {
         body: JSON.stringify({ interval }),
       });
       const data = await res.json();
+      if (res.status === 429) {
+        setToast('Too many requests — please wait a moment and try again.');
+        setLoading(false);
+        inFlight.current = false;
+        return;
+      }
       if (res.status === 401) {
         router.push('/login?redirectTo=/membership');
         return;

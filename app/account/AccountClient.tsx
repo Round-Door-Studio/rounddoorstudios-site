@@ -85,6 +85,12 @@ export default function AccountClient({
     setPortalLoading(true)
     try {
       const res = await fetch('/api/stripe/create-portal-session', { method: 'POST' })
+      if (res.status === 429) {
+        setToast('Too many requests — please wait a moment and try again.')
+        setPortalLoading(false)
+        portalInFlight.current = false
+        return
+      }
       const { url } = await res.json()
       if (url) {
         setAwaitingPortalReturn(true)

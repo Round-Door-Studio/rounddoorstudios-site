@@ -67,20 +67,37 @@ function makeWebhookRequest(body = '{}') {
 }
 
 // ── Chain factory ──────────────────────────────────────────────────────────
-// Supports select().eq().maybeSingle(), insert(), upsert(), update().eq()
+// Supports:
+//   select().eq().maybeSingle()        — subscription/customer/purchase lookups
+//   upsert().select()                  — idempotency (atomic ON CONFLICT DO NOTHING)
+//   update().eq()                      — subscription status updates
+//   insert()                           — new subscription row inserts
+//
+// upsertRows: what upsert().select() resolves to.
+//   [{ id }] = new event (was inserted, proceed)
+//   []       = duplicate (DO NOTHING fired, skip)
 
-function makeChain(selectResult: unknown = null) {
+function makeChain(selectResult: unknown = null, upsertRows: unknown[] = [{ id: EVENT_ID }]) {
   const updateChain = {
     eq: vi.fn().mockResolvedValue({ data: null, error: null }),
   }
+  const upsertSelectChain = {
+    select: vi.fn().mockResolvedValue({ data: upsertRows, error: null }),
+  }
   return {
+    // select().eq().maybeSingle() path
     select: vi.fn().mockReturnThis(),
     eq: vi.fn().mockReturnThis(),
+    in: vi.fn().mockReturnThis(),
     maybeSingle: vi.fn().mockResolvedValue({ data: selectResult, error: null }),
-    insert: vi.fn().mockResolvedValue({ data: null, error: null }),
-    upsert: vi.fn().mockResolvedValue({ data: null, error: null }),
+    // upsert().select() path (idempotency + story_pack_purchases)
+    upsert: vi.fn().mockReturnValue(upsertSelectChain),
+    _upsertSelectChain: upsertSelectChain,
+    // update().eq() path
     update: vi.fn().mockReturnValue(updateChain),
     _updateChain: updateChain,
+    // insert() path (new subscription rows)
+    insert: vi.fn().mockResolvedValue({ data: null, error: null }),
   }
 }
 
@@ -94,8 +111,7 @@ beforeEach(() => {
   mockConstructEvent.mockReturnValue(makeEvent('unknown.event', {}))
   mockSubRetrieve.mockResolvedValue(makeStripeSubscription())
 
-  // Default sequence: idempotency check returns null (not seen before),
-  // then insert succeeds. All subsequent from() calls also get safe chains.
+  // Default: all from() calls return a safe chain (upsert = new event, proceed)
   mockFrom.mockReturnValue(makeChain(null))
 })
 
@@ -139,28 +155,26 @@ describe('signature verification', () => {
 
 describe('idempotency', () => {
   it('returns 200 without further processing when event.id already exists', async () => {
-    // First from() call (idempotency check) returns the event as already existing
-    mockFrom.mockReturnValueOnce(makeChain({ id: EVENT_ID }))
+    // upsert DO NOTHING fired — returns empty rows, meaning duplicate
+    mockFrom.mockReturnValueOnce(makeChain(null, []))
 
     const res = await POST(makeWebhookRequest())
     expect(res.status).toBe(200)
-    // Only one from() call (the idempotency check), no insert or handler calls
+    // Only one from() call (the upsert), no handler calls
     expect(mockFrom).toHaveBeenCalledTimes(1)
   })
 
-  it('inserts event.id into stripe_events before processing', async () => {
-    const eventsCheckChain = makeChain(null)
-    const eventsInsertChain = makeChain(null)
-
-    mockFrom
-      .mockReturnValueOnce(eventsCheckChain)   // stripe_events select
-      .mockReturnValueOnce(eventsInsertChain)  // stripe_events insert
+  it('upserts event.id into stripe_events atomically before processing', async () => {
+    const eventsChain = makeChain(null, [{ id: EVENT_ID }]) // new event — proceed
+    mockFrom.mockReturnValueOnce(eventsChain)
 
     await POST(makeWebhookRequest())
 
-    expect(eventsInsertChain.insert).toHaveBeenCalledWith(
-      expect.objectContaining({ id: EVENT_ID, type: 'unknown.event' })
+    expect(eventsChain.upsert).toHaveBeenCalledWith(
+      { id: EVENT_ID, type: 'unknown.event' },
+      { onConflict: 'id', ignoreDuplicates: true }
     )
+    expect(eventsChain._upsertSelectChain.select).toHaveBeenCalledWith('id')
   })
 })
 
@@ -176,15 +190,13 @@ describe('checkout.session.completed — subscription mode', () => {
     }
     mockConstructEvent.mockReturnValue(makeEvent('checkout.session.completed', session))
 
-    const eventsCheck = makeChain(null)
-    const eventsInsert = makeChain(null)
+    const eventsUpsert = makeChain(null)    // atomic idempotency upsert
     const customerLookup = makeChain({ user_id: USER_ID })
-    const subCheck = makeChain(null) // no existing sub row
+    const subCheck = makeChain(null)        // no existing sub row
     const subInsert = makeChain(null)
 
     mockFrom
-      .mockReturnValueOnce(eventsCheck)
-      .mockReturnValueOnce(eventsInsert)
+      .mockReturnValueOnce(eventsUpsert)
       .mockReturnValueOnce(customerLookup)
       .mockReturnValueOnce(subCheck)
       .mockReturnValueOnce(subInsert)
@@ -222,11 +234,10 @@ describe('checkout.session.completed — subscription mode', () => {
 
     const subUpdateChain = makeChain(null)
     mockFrom
-      .mockReturnValueOnce(makeChain(null))              // events check
-      .mockReturnValueOnce(makeChain(null))              // events insert
-      .mockReturnValueOnce(makeChain({ user_id: USER_ID })) // customer lookup
+      .mockReturnValueOnce(makeChain(null))                      // events upsert
+      .mockReturnValueOnce(makeChain({ user_id: USER_ID }))     // customer lookup
       .mockReturnValueOnce(makeChain({ id: 'existing-row-id' })) // sub check — found
-      .mockReturnValueOnce(subUpdateChain)               // sub update
+      .mockReturnValueOnce(subUpdateChain)                       // sub update
 
     await POST(makeWebhookRequest())
     expect(subUpdateChain.update).toHaveBeenCalledWith(
@@ -251,8 +262,7 @@ describe('checkout.session.completed — subscription mode', () => {
     mockConstructEvent.mockReturnValue(makeEvent('checkout.session.completed', session))
 
     mockFrom
-      .mockReturnValueOnce(makeChain(null))  // events check
-      .mockReturnValueOnce(makeChain(null))  // events insert
+      .mockReturnValueOnce(makeChain(null))  // events upsert
       .mockReturnValueOnce(makeChain(null))  // customer lookup → not found
 
     const res = await POST(makeWebhookRequest())
@@ -285,8 +295,7 @@ describe('checkout.session.completed — story pack mode', () => {
   it('upserts story_pack_purchases with correct fields', async () => {
     const purchasesChain = makeChain(null)
     mockFrom
-      .mockReturnValueOnce(makeChain(null))  // events check
-      .mockReturnValueOnce(makeChain(null))  // events insert
+      .mockReturnValueOnce(makeChain(null))  // events upsert
       .mockReturnValueOnce(purchasesChain)   // story_pack_purchases upsert
 
     await POST(makeWebhookRequest())
@@ -306,9 +315,8 @@ describe('checkout.session.completed — story pack mode', () => {
 
   it('does not call stripe.subscriptions.retrieve for payment mode', async () => {
     mockFrom
-      .mockReturnValueOnce(makeChain(null))
-      .mockReturnValueOnce(makeChain(null))
-      .mockReturnValueOnce(makeChain(null))
+      .mockReturnValueOnce(makeChain(null))  // events upsert
+      .mockReturnValueOnce(makeChain(null))  // purchases upsert
 
     await POST(makeWebhookRequest())
     expect(mockSubRetrieve).not.toHaveBeenCalled()
@@ -318,9 +326,7 @@ describe('checkout.session.completed — story pack mode', () => {
     const badSession = { ...session, metadata: { product_type: 'story_pack' } }
     mockConstructEvent.mockReturnValue(makeEvent('checkout.session.completed', badSession))
 
-    mockFrom
-      .mockReturnValueOnce(makeChain(null))
-      .mockReturnValueOnce(makeChain(null))
+    mockFrom.mockReturnValueOnce(makeChain(null))  // events upsert only
 
     const res = await POST(makeWebhookRequest())
     expect(res.status).toBe(200)
@@ -337,8 +343,7 @@ describe('customer.subscription.created / updated', () => {
 
       const subInsertChain = makeChain(null)
       mockFrom
-        .mockReturnValueOnce(makeChain(null))              // events check
-        .mockReturnValueOnce(makeChain(null))              // events insert
+        .mockReturnValueOnce(makeChain(null))              // events upsert
         .mockReturnValueOnce(makeChain({ user_id: USER_ID })) // customer lookup
         .mockReturnValueOnce(makeChain(null))              // sub check — not found
         .mockReturnValueOnce(subInsertChain)               // sub insert
@@ -359,7 +364,6 @@ describe('customer.subscription.created / updated', () => {
     const subInsertChain = makeChain(null)
     mockFrom
       .mockReturnValueOnce(makeChain(null))
-      .mockReturnValueOnce(makeChain(null))
       .mockReturnValueOnce(makeChain({ user_id: USER_ID }))
       .mockReturnValueOnce(makeChain(null))
       .mockReturnValueOnce(subInsertChain)
@@ -378,7 +382,6 @@ describe('customer.subscription.created / updated', () => {
 
     const subInsertChain = makeChain(null)
     mockFrom
-      .mockReturnValueOnce(makeChain(null))
       .mockReturnValueOnce(makeChain(null))
       .mockReturnValueOnce(makeChain({ user_id: USER_ID }))
       .mockReturnValueOnce(makeChain(null))
@@ -400,8 +403,7 @@ describe('customer.subscription.deleted', () => {
 
     const subUpdateChain = makeChain(null)
     mockFrom
-      .mockReturnValueOnce(makeChain(null))  // events check
-      .mockReturnValueOnce(makeChain(null))  // events insert
+      .mockReturnValueOnce(makeChain(null))  // events upsert
       .mockReturnValueOnce(subUpdateChain)   // subscriptions update
 
     const res = await POST(makeWebhookRequest())
@@ -429,7 +431,6 @@ describe('invoice.payment_failed / invoice.payment_succeeded', () => {
       const subInsertChain = makeChain(null)
       mockFrom
         .mockReturnValueOnce(makeChain(null))
-        .mockReturnValueOnce(makeChain(null))
         .mockReturnValueOnce(makeChain({ user_id: USER_ID }))
         .mockReturnValueOnce(makeChain(null))
         .mockReturnValueOnce(subInsertChain)
@@ -445,9 +446,7 @@ describe('invoice.payment_failed / invoice.payment_succeeded', () => {
     const invoice = { parent: null }
     mockConstructEvent.mockReturnValue(makeEvent('invoice.payment_failed', invoice))
 
-    mockFrom
-      .mockReturnValueOnce(makeChain(null))
-      .mockReturnValueOnce(makeChain(null))
+    mockFrom.mockReturnValueOnce(makeChain(null))  // events upsert only
 
     const res = await POST(makeWebhookRequest())
     expect(res.status).toBe(200)
@@ -461,9 +460,7 @@ describe('unknown event types', () => {
   it('returns 200 without erroring', async () => {
     mockConstructEvent.mockReturnValue(makeEvent('payment_intent.created', {}))
 
-    mockFrom
-      .mockReturnValueOnce(makeChain(null))
-      .mockReturnValueOnce(makeChain(null))
+    mockFrom.mockReturnValueOnce(makeChain(null))  // events upsert only
 
     const res = await POST(makeWebhookRequest())
     expect(res.status).toBe(200)
