@@ -2,6 +2,19 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 
 // ── Mocks ──────────────────────────────────────────────────────────────────
 
+// Provide a fake request scope so next/headers doesn't throw outside Next.js.
+vi.mock('next/headers', () => ({
+  headers: vi.fn(() =>
+    Promise.resolve(new Headers({ 'x-forwarded-for': '127.0.0.1' }))
+  ),
+}))
+
+// Rate-limit passes through by default; individual tests override to test 429.
+import type { rateLimit as RateLimitFn } from '@/lib/rate-limit'
+type RateLimitResult = ReturnType<typeof RateLimitFn>
+const mockRateLimit = vi.hoisted(() => vi.fn(() => ({ success: true }) as RateLimitResult))
+vi.mock('@/lib/rate-limit', () => ({ rateLimit: mockRateLimit }))
+
 const mockGetUser = vi.hoisted(() => vi.fn())
 
 vi.mock('@/lib/supabase/server', () => ({
@@ -128,6 +141,13 @@ describe('POST /api/stripe/create-membership-checkout', () => {
     const res = await membershipCheckout(makeRequest({ interval: 'monthly' }))
     expect(res.status).toBe(500)
   })
+
+  it('returns 429 when rate limit is exceeded', async () => {
+    mockRateLimit.mockReturnValueOnce({ success: false, retryAfter: 42 })
+    const res = await membershipCheckout(makeRequest({ interval: 'monthly' }))
+    expect(res.status).toBe(429)
+    expect(res.headers.get('Retry-After')).toBe('42')
+  })
 })
 
 // ── create-story-pack-checkout ─────────────────────────────────────────────
@@ -184,7 +204,7 @@ describe('POST /api/stripe/create-story-pack-checkout', () => {
     expect(mockSessionsCreate).toHaveBeenCalledWith(
       expect.objectContaining({
         success_url: expect.stringContaining('/account?checkout=success'),
-        cancel_url: expect.stringContaining('/stories/fox-borrows-tiger'),
+        cancel_url: expect.stringContaining('/story/fox-borrows-tiger'),
       })
     )
   })
@@ -193,6 +213,13 @@ describe('POST /api/stripe/create-story-pack-checkout', () => {
     mockSessionsCreate.mockRejectedValueOnce(new Error('Stripe down'))
     const res = await storyPackCheckout(makeRequest({ storySlug: 'fox-borrows-tiger' }))
     expect(res.status).toBe(500)
+  })
+
+  it('returns 429 when rate limit is exceeded', async () => {
+    mockRateLimit.mockReturnValueOnce({ success: false, retryAfter: 30 })
+    const res = await storyPackCheckout(makeRequest({ storySlug: 'fox-borrows-tiger' }))
+    expect(res.status).toBe(429)
+    expect(res.headers.get('Retry-After')).toBe('30')
   })
 })
 
@@ -225,5 +252,12 @@ describe('POST /api/stripe/create-portal-session', () => {
     mockPortalCreate.mockRejectedValueOnce(new Error('Stripe down'))
     const res = await portalSession(new NextRequest('http://localhost/api/stripe/portal', { method: 'POST' }))
     expect(res.status).toBe(500)
+  })
+
+  it('returns 429 when rate limit is exceeded', async () => {
+    mockRateLimit.mockReturnValueOnce({ success: false, retryAfter: 55 })
+    const res = await portalSession(new NextRequest('http://localhost/api/stripe/portal', { method: 'POST' }))
+    expect(res.status).toBe(429)
+    expect(res.headers.get('Retry-After')).toBe('55')
   })
 })

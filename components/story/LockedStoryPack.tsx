@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, useRef, useEffect, useCallback } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { FREE_STORY_SLUG } from '@/lib/stories';
+import { Toast } from '@/components/Toast';
 
 interface LockedStoryPackProps {
   isFreeStory: boolean;
@@ -25,13 +26,26 @@ export function LockedStoryPack({
   activityCount,
 }: LockedStoryPackProps) {
   const [packLoading, setPackLoading] = useState(false);
+  const [toast, setToast] = useState<string | null>(null);
+  const inFlight = useRef(false);
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const dismissToast = useCallback(() => setToast(null), []);
+
+  useEffect(() => {
+    if (searchParams.get('checkout') === 'canceled') {
+      setToast('Checkout was canceled. No charge was made.');
+      router.replace(`/story/${storySlug}`, { scroll: false });
+    }
+  }, [searchParams, router, storySlug]);
 
   async function handleUnlockPack() {
     if (!isLoggedIn) {
       router.push(`/login?redirectTo=/story/${storySlug}`);
       return;
     }
+    if (inFlight.current) return;
+    inFlight.current = true;
     setPackLoading(true);
     try {
       const res = await fetch('/api/stripe/create-story-pack-checkout', {
@@ -40,14 +54,21 @@ export function LockedStoryPack({
         body: JSON.stringify({ storySlug }),
       });
       const data = await res.json();
-      if (data.url) router.push(data.url);
+      if (data.url) {
+        router.push(data.url);
+      } else {
+        setPackLoading(false);
+        inFlight.current = false;
+      }
     } catch {
       setPackLoading(false);
+      inFlight.current = false;
     }
   }
 
   return (
     <div>
+      {toast && <Toast message={toast} onDismiss={dismissToast} />}
       <div className="pack-nav-block">
         <p className="pack-nav-eyebrow">Our Story Pack</p>
 
@@ -138,7 +159,7 @@ export function LockedStoryPack({
                   onClick={handleUnlockPack}
                   disabled={packLoading}
                 >
-                  {packLoading ? 'Loading…' : 'Unlock This Story Pack'}
+                  {packLoading ? 'Redirecting…' : 'Unlock This Story Pack'}
                   <span className="locked-cta-sub">One-time · $8</span>
                 </button>
                 <Link href={`/story/${FREE_STORY_SLUG}`} className="locked-try-free">

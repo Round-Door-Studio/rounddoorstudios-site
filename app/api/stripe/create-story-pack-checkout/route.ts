@@ -1,10 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { headers } from 'next/headers'
 import { createClient } from '@/lib/supabase/server'
 import { createServiceClient } from '@/lib/supabase/service'
 import { stripe } from '@/lib/stripe'
 import { getOrCreateStripeCustomer } from '@/lib/db/customers'
+import { rateLimit } from '@/lib/rate-limit'
 
 export async function POST(request: NextRequest) {
+  const ip = (await headers()).get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown'
+  const rl = rateLimit(`story-pack-checkout:${ip}`, { max: 5, windowMs: 60_000 })
+  if (!rl.success) {
+    return NextResponse.json(
+      { error: 'Too many requests' },
+      { status: 429, headers: { 'Retry-After': String(rl.retryAfter) } }
+    )
+  }
+
   try {
     const supabase = await createClient()
     const { data: { user } } = await supabase.auth.getUser()
@@ -47,7 +58,7 @@ export async function POST(request: NextRequest) {
         product_type: 'story_pack',
       },
       success_url: `${siteUrl}/account?checkout=success&type=story_pack&slug=${storySlug}&session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${siteUrl}/stories/${storySlug}?checkout=canceled`,
+      cancel_url: `${siteUrl}/story/${storySlug}?checkout=canceled`,
     })
 
     return NextResponse.json({ url: session.url })

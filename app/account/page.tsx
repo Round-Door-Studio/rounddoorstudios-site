@@ -70,21 +70,6 @@ export default async function AccountPage({
       <style>{`
         .acct-wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 96px; }
 
-        .banner[hidden] { display: none; }
-        .banner {
-          display: flex; align-items: center; justify-content: space-between; gap: 16px;
-          background: var(--accent-tint); border: 1px solid rgba(155,71,97,0.28);
-          border-radius: 10px; padding: 14px 18px; margin-bottom: 28px;
-          font-size: 14px; color: var(--accent-dk);
-        }
-        .banner p { display: flex; align-items: center; gap: 10px; margin: 0; }
-        .banner .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
-        .banner-close {
-          border: 0; background: transparent; color: var(--accent-dk); opacity: 0.65;
-          font-size: 20px; line-height: 1; cursor: pointer; padding: 0 2px;
-        }
-        .banner-close:hover { opacity: 1; }
-
         .acct-head { margin-bottom: 32px; }
         .acct-head .eyebrow { margin-bottom: 8px; }
         .acct-head h1 { font-size: clamp(30px, 4.5vw, 40px); margin-bottom: 8px; }
