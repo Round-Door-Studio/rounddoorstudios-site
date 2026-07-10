@@ -35,14 +35,15 @@ test('"Own This Story Pack Forever" shows "Redirecting…" while request is pend
   await page.waitForLoadState('networkidle');
   await login(page, process.env.TEST_USER_FREE_EMAIL!, process.env.TEST_USER_FREE_PASSWORD!);
 
+  await page.goto(`/story/${GATED_SLUG}`);
+  await page.waitForLoadState('networkidle');
+
+  // Set up intercept after page load so it doesn't interfere with networkidle
   let resolveRoute!: () => void;
   await page.route('/api/stripe/create-story-pack-checkout', async (route) => {
     await new Promise<void>((res) => { resolveRoute = res; });
     await route.abort();
   });
-
-  await page.goto(`/story/${GATED_SLUG}`);
-  await page.waitForLoadState('networkidle');
 
   const btn = page.locator('button.locked-cta-btn-secondary');
   await expect(btn).toBeVisible();

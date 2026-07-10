@@ -31,6 +31,7 @@ test.describe('Account page — subscriber', () => {
     const manageBtn = page.locator('button.btn.btn-ghost', { hasText: 'Manage Membership' });
     await expect(manageBtn).toBeVisible();
 
+    // Set up intercept after page load so it doesn't interfere with initial requests
     let resolveRoute!: () => void;
     await page.route('/api/stripe/create-portal-session', async (route) => {
       await new Promise<void>((res) => { resolveRoute = res; });
@@ -39,8 +40,11 @@ test.describe('Account page — subscriber', () => {
 
     await manageBtn.click();
 
-    await expect(manageBtn).toHaveText('Opening portal…');
-    await expect(manageBtn).toBeDisabled();
+    // Locator with hasText filter no longer matches after text changes —
+    // use a new locator scoped to the updated text
+    const loadingBtn = page.locator('button.btn.btn-ghost', { hasText: 'Opening portal…' });
+    await expect(loadingBtn).toBeVisible();
+    await expect(loadingBtn).toBeDisabled();
 
     resolveRoute();
   });
