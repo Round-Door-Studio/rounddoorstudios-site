@@ -111,8 +111,18 @@ test.describe('Story page — canceled story pack checkout', () => {
 
 // ── Membership page — button loading state ────────────────────────────────────
 // Intercept the checkout API so it hangs, then verify the button updates.
+// Requires auth: the button now checks isLoggedIn before calling the API.
 
 test('Join the Circle button shows "Redirecting…" while request is pending', async ({ page }) => {
+  test.skip(
+    !process.env.TEST_USER_EMAIL,
+    'Requires TEST_USER_EMAIL / TEST_USER_PASSWORD in .env.local'
+  );
+
+  await page.goto('/');
+  await page.waitForLoadState('networkidle');
+  await login(page, process.env.TEST_USER_EMAIL!, process.env.TEST_USER_PASSWORD!);
+
   let resolveRoute!: () => void;
   await page.route('/api/stripe/create-membership-checkout', async (route) => {
     await new Promise<void>((res) => { resolveRoute = res; });
