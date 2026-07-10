@@ -10,6 +10,7 @@ export function Footer() {
           <span className="footer-legal">© 2026 Round Door Studio · 月門故事</span>
           <Link href="/privacy" className="footer-legal-link">Privacy</Link>
           <Link href="/terms" className="footer-legal-link">Terms</Link>
+          <Link href="/terms#refund-policy" className="footer-legal-link">Refund Policy</Link>
         </div>
         <div className="footer-soc">
           <a

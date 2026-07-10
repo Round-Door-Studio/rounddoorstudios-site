@@ -11,9 +11,11 @@ interface AuthModalProps {
   onClose: () => void;
   onSwitchMode: (mode: 'signin' | 'signup') => void;
   redirectTo: string;
+  contextTitle?: string;
+  contextSubtitle?: string;
 }
 
-export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModalProps) {
+export function AuthModal({ mode, onClose, onSwitchMode, redirectTo, contextTitle, contextSubtitle }: AuthModalProps) {
   const overlayRef = useRef<HTMLDivElement>(null);
   const [googlePending, setGooglePending] = useState(false);
   const [googleError, setGoogleError] = useState<string | null>(null);
@@ -93,7 +95,10 @@ export function AuthModal({ mode, onClose, onSwitchMode, redirectTo }: AuthModal
               </button>
             </div>
 
-            <h2>{view === 'signin' ? 'Welcome back' : 'Join the Circle'}</h2>
+            <h2>{contextTitle ?? (view === 'signin' ? 'Welcome back' : 'Join the Circle')}</h2>
+            {contextSubtitle && (
+              <p className="modal-hint">{contextSubtitle}</p>
+            )}
 
             <button
               type="button"
