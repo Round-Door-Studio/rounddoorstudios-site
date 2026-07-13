@@ -98,7 +98,7 @@ export function LockedStoryPack({
               <li>Discussion prompts for curious conversations</li>
               <li>Printable cultural activities for the whole family</li>
             </ul>
-            <p className="locked-cta-note">Every story is free to listen to. Story Packs help support the podcast and bring each story to life.</p>
+            <p className="locked-cta-note">Every story is free to listen to. Story Packs help support our studio and bring each story to life.</p>
           </div>
           <div className="locked-cta-actions">
             {isFreeStory ? (
