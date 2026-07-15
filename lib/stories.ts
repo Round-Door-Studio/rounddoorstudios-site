@@ -113,7 +113,7 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 6, slug: 'ma-liang-magic-brush-2', season: 1, released: false, part: 2, parts: 2,
+    num: 6, slug: 'ma-liang-magic-brush-2', season: 1, released: true, part: 2, parts: 2,
     title: { en: 'Ma Liang and the Magic Brush · Part 2', simp: '神笔马良', trad: '神筆馬良' },
     blurb: 'When a greedy emperor demands Ma Liang use his magic paintbrush to make him richer, the brave boy refuses. Instead, he hatches a clever plan that leads the emperor on a voyage he\'ll never forget.', 
     runtime: '13-15 min', pub: 'Jul 15, 2026', coverColor: '#7B324A', coverImage: '/img/covers/MaLiangBrushP2_SQ.png',
@@ -121,12 +121,12 @@ export const STORIES: Story[] = [
       en: {
         spotify: 'https://open.spotify.com/episode/0QevLf9VZ4igoAVuZrETBm?si=1P0H6rljTDC4dHqEfsZ1hw',
         youtube: 'https://youtu.be/nl2DfEEDLtA',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000776904820',
       },
       zh: {
         spotify: 'https://open.spotify.com/episode/59lA500ODdzC2CaPG0n8Yo?si=UGfgAFMnTnuevJkZ1XVcxQ',
         youtube: 'https://youtu.be/6ITVp59SvHQ',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000776904920',
       },
     },
     hasBundle: true,
