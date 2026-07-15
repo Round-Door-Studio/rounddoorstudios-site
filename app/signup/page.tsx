@@ -43,8 +43,7 @@ export default function SignupPage() {
               <p className="eyebrow">Join the community</p>
               <h2>Be the first through the door</h2>
               <p className="sub">
-                Round Door Studio makes bilingual Mandarin–English stories for curious kids and
-                the families who raise them. New stories, story packs, and cultural activities —
+                Round Door Studio makes bilingual Mandarin–English stories for curious minds. New stories, story packs, and cultural activities —
                 drop your email and we&apos;ll let you know the moment the next door opens.
               </p>
               <form

@@ -40,7 +40,7 @@ export default function MembershipPage() {
           </div>
           <p style={{ color: 'var(--muted)', fontSize: 12, marginBottom: 14 }}>Forever free. No card needed.</p>
           <ul style={{ paddingLeft: 18, lineHeight: 1.8, fontSize: 14, color: 'var(--ink-soft)' }}>
-            <li>All podcast episodes on Spotify, YouTube &amp; Apple</li>
+            <li>All episodes on Spotify, YouTube &amp; Apple</li>
             <li>New stories every week</li>
             <li>English &amp; Mandarin versions of every episode</li>
           </ul>
