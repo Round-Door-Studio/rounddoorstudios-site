@@ -4,7 +4,7 @@ import { getAllStoriesFromDB } from '@/lib/db/stories';
 
 export const metadata: Metadata = {
   title: 'Round Door Studio · Story Library',
-  description: 'Browse all bilingual Mandarin and English stories for kids.',
+  description: 'Browse all bilingual Mandarin and English stories for curious minds.',
 };
 
 export default async function LibraryPage() {
