@@ -1,0 +1,4264 @@
+{
+  "slug": "three-morning-four-night",
+  "title": {
+    "trad": "朝三暮四",
+    "simp": "朝三暮四",
+    "en": "Three in the Morning, Four at Night"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "故事里的狙公，最喜欢什么动物？",
+        "pinyin": [
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "喜",
+            "reading": "xǐ"
+          },
+          {
+            "text": "欢",
+            "reading": "huān"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "物",
+            "reading": "wù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "故事裡的狙公，最喜歡什麼動物？",
+        "zhuyin": [
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "喜",
+            "reading": "ㄒㄧˇ"
+          },
+          {
+            "text": "歡",
+            "reading": "ㄏㄨㄢ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "物",
+            "reading": "ㄨˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "故事裡的狙公，最喜歡什麼動物？"
+      },
+      "en": "What animal does the Monkey Keeper in the story love the most?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "狙公家里大约养了多少只猴子？",
+        "pinyin": [
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "约",
+            "reading": "yuē"
+          },
+          {
+            "text": "养",
+            "reading": "yǎng"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "少",
+            "reading": "shǎo"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狙公家裡大約養了多少隻猴子？",
+        "zhuyin": [
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "約",
+            "reading": "ㄩㄝ"
+          },
+          {
+            "text": "養",
+            "reading": "ㄧㄤˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "少",
+            "reading": "ㄕㄠˇ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狙公家裡大約養了多少隻猴子󠇡？"
+      },
+      "en": "About how many monkeys did the Monkey Keeper raise at home?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "狙公每天喂猴子吃什么东西？",
+        "pinyin": [
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "每",
+            "reading": "měi"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "喂",
+            "reading": "wèi"
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "吃",
+            "reading": "chī"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "东",
+            "reading": "dōng"
+          },
+          {
+            "text": "西",
+            "reading": "xi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狙公每天餵猴子吃什麼東西？",
+        "zhuyin": [
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "每",
+            "reading": "ㄇㄟˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "餵",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "吃",
+            "reading": "ㄔ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "東",
+            "reading": "ㄉㄨㄥ"
+          },
+          {
+            "text": "西",
+            "reading": "ㄒㄧ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狙公每天餵猴子󠇡吃什麼東西󠇡？"
+      },
+      "en": "What did the Monkey Keeper feed the monkeys every day?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "狙公都去哪里捡橡子？",
+        "pinyin": [
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "捡",
+            "reading": "jiǎn"
+          },
+          {
+            "text": "橡",
+            "reading": "xiàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狙公都去哪裡撿橡子？",
+        "zhuyin": [
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "撿",
+            "reading": "ㄐㄧㄢˇ"
+          },
+          {
+            "text": "橡",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狙公都去哪裡撿橡子󠇡？"
+      },
+      "en": "Where did the Monkey Keeper go to gather the acorns?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "那一年的橡子为什么越来越少？",
+        "pinyin": [
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "年",
+            "reading": "nián"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "橡",
+            "reading": "xiàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "越",
+            "reading": "yuè"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "越",
+            "reading": "yuè"
+          },
+          {
+            "text": "少",
+            "reading": "shǎo"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "那一年的橡子為什麼越來越少？",
+        "zhuyin": [
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "年",
+            "reading": "ㄋㄧㄢˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "橡",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "越",
+            "reading": "ㄩㄝˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "越",
+            "reading": "ㄩㄝˋ"
+          },
+          {
+            "text": "少",
+            "reading": "ㄕㄠˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "那一󠇢年的橡子󠇡為󠇡什麼越來越少？"
+      },
+      "en": "Why did the acorns become fewer and fewer that year?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "本来每只猴子一天可以吃几颗橡子？",
+        "pinyin": [
+          {
+            "text": "本",
+            "reading": "běn"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "每",
+            "reading": "měi"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "吃",
+            "reading": "chī"
+          },
+          {
+            "text": "几",
+            "reading": "jǐ"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "橡",
+            "reading": "xiàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "本來每隻猴子一天可以吃幾顆橡子？",
+        "zhuyin": [
+          {
+            "text": "本",
+            "reading": "ㄅㄣˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "每",
+            "reading": "ㄇㄟˇ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "吃",
+            "reading": "ㄔ"
+          },
+          {
+            "text": "幾",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "橡",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "本來每隻猴子󠇡一󠇢天可以吃幾顆橡子󠇡？"
+      },
+      "en": "At first, how many acorns could each monkey eat in one day?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "狙公第一次说早上三颗、晚上四颗，猴子听了有什么反应？",
+        "pinyin": [
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "一",
+            "reading": "yī"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "早",
+            "reading": "zǎo"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "三",
+            "reading": "sān"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "晚",
+            "reading": "wǎn"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "四",
+            "reading": "sì"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "反",
+            "reading": "fǎn"
+          },
+          {
+            "text": "应",
+            "reading": "yìng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狙公第一次說早上三顆、晚上四顆，猴子聽了有什麼反應？",
+        "zhuyin": [
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "早",
+            "reading": "ㄗㄠˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "三",
+            "reading": "ㄙㄢ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "晚",
+            "reading": "ㄨㄢˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "四",
+            "reading": "ㄙˋ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "反",
+            "reading": "ㄈㄢˇ"
+          },
+          {
+            "text": "應",
+            "reading": "ㄧㄥˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狙公第一次說早上三顆、晚上四顆，猴子󠇡聽了有什麼反應󠇡？"
+      },
+      "en": "The first time the Monkey Keeper said three in the morning and four at night, how did the monkeys react?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "后来狙公把办法改成早上几颗、晚上几颗？",
+        "pinyin": [
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "改",
+            "reading": "gǎi"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "早",
+            "reading": "zǎo"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "几",
+            "reading": "jǐ"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "晚",
+            "reading": "wǎn"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "几",
+            "reading": "jǐ"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "後來狙公把辦法改成早上幾顆、晚上幾顆？",
+        "zhuyin": [
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "改",
+            "reading": "ㄍㄞˇ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "早",
+            "reading": "ㄗㄠˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "幾",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "晚",
+            "reading": "ㄨㄢˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "幾",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "後來狙公把辦法改成早上幾顆、晚上幾顆？"
+      },
+      "en": "Later, how many acorns did the Monkey Keeper give in the morning and how many at night?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "听到第二个办法以后，猴子们为什么变得很高兴？",
+        "pinyin": [
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "二",
+            "reading": "èr"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "高",
+            "reading": "gāo"
+          },
+          {
+            "text": "兴",
+            "reading": "xìng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "聽到第二個辦法以後，猴子們為什麼變得很高興？",
+        "zhuyin": [
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "二",
+            "reading": "ㄦˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "高",
+            "reading": "ㄍㄠ"
+          },
+          {
+            "text": "興",
+            "reading": "ㄒㄧㄥˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "聽到第二個󠇡辦法以後，猴子󠇡們為󠇡什麼變得󠇡很高興󠇡？"
+      },
+      "en": "After hearing the second plan, why did the monkeys become so happy?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "不管是早上三颗晚上四颗，还是早上四颗晚上三颗，一天加起来一共是几颗？",
+        "pinyin": [
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "管",
+            "reading": "guǎn"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "早",
+            "reading": "zǎo"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "三",
+            "reading": "sān"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "晚",
+            "reading": "wǎn"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "四",
+            "reading": "sì"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "早",
+            "reading": "zǎo"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "四",
+            "reading": "sì"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "晚",
+            "reading": "wǎn"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "三",
+            "reading": "sān"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "加",
+            "reading": "jiā"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "共",
+            "reading": "gòng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "几",
+            "reading": "jǐ"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "不管是早上三顆晚上四顆，還是早上四顆晚上三顆，一天加起來一共是幾顆？",
+        "zhuyin": [
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "管",
+            "reading": "ㄍㄨㄢˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "早",
+            "reading": "ㄗㄠˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "三",
+            "reading": "ㄙㄢ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "晚",
+            "reading": "ㄨㄢˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "四",
+            "reading": "ㄙˋ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "早",
+            "reading": "ㄗㄠˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "四",
+            "reading": "ㄙˋ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "晚",
+            "reading": "ㄨㄢˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "三",
+            "reading": "ㄙㄢ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "加",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "共",
+            "reading": "ㄍㄨㄥˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "幾",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "不管是早上三顆晚上四顆，還是早上四顆晚上三顆，一󠇢天加起來一󠇡共是幾顆？"
+      },
+      "en": "Whether it was three in the morning and four at night, or four in the morning and three at night, how many acorns did each monkey get in one day?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "“朝三暮四”这个成语本来是什么意思？你可以用自己的话说说看吗？",
+        "pinyin": [
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "朝",
+            "reading": "zhāo"
+          },
+          {
+            "text": "三",
+            "reading": "sān"
+          },
+          {
+            "text": "暮",
+            "reading": "mù"
+          },
+          {
+            "text": "四",
+            "reading": "sì"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "语",
+            "reading": "yǔ"
+          },
+          {
+            "text": "本",
+            "reading": "běn"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "思",
+            "reading": "si"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "「朝三暮四」這個成語本來是什麼意思？你可以用自己的話說說看嗎？",
+        "zhuyin": [
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "朝",
+            "reading": "ㄓㄠ"
+          },
+          {
+            "text": "三",
+            "reading": "ㄙㄢ"
+          },
+          {
+            "text": "暮",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "四",
+            "reading": "ㄙˋ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "語",
+            "reading": "ㄩˇ"
+          },
+          {
+            "text": "本",
+            "reading": "ㄅㄣˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "思",
+            "reading": "ㄙ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "「朝󠇡三暮四」這個󠇡成語本來是什麼意思？你可以用自己的話說說看嗎？"
+      },
+      "en": "What does the idiom \"three in the morning, four at night\" originally mean? Can you explain it in your own words?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "两个办法的橡子其实一样多，猴子为什么还是觉得第二个比较好？",
+        "pinyin": [
+          {
+            "text": "两",
+            "reading": "liǎng"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "橡",
+            "reading": "xiàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "其",
+            "reading": "qí"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "二",
+            "reading": "èr"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "比",
+            "reading": "bǐ"
+          },
+          {
+            "text": "较",
+            "reading": "jiào"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "兩個辦法的橡子其實一樣多，猴子為什麼還是覺得第二個比較好？",
+        "zhuyin": [
+          {
+            "text": "兩",
+            "reading": "ㄌㄧㄤˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "橡",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "其",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "二",
+            "reading": "ㄦˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "比",
+            "reading": "ㄅㄧˇ"
+          },
+          {
+            "text": "較",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "兩個󠇡辦法的橡子󠇡其實一󠇡樣多，猴子󠇡為󠇡什麼還是覺得󠇡第二個󠇡比較好？"
+      },
+      "en": "Both plans gave the same number of acorns, so why did the monkeys still think the second one was better?"
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "你有没有像猴子一样，只看到眼前的好处，却忘了看整件事情？说说看。",
+        "pinyin": [
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "像",
+            "reading": "xiàng"
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "眼",
+            "reading": "yǎn"
+          },
+          {
+            "text": "前",
+            "reading": "qián"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "处",
+            "reading": "chù"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "忘",
+            "reading": "wàng"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "整",
+            "reading": "zhěng"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "情",
+            "reading": "qíng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "你有沒有像猴子一樣，只看到眼前的好處，卻忘了看整件事情？說說看。",
+        "zhuyin": [
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "像",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "眼",
+            "reading": "ㄧㄢˇ"
+          },
+          {
+            "text": "前",
+            "reading": "ㄑㄧㄢˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "處",
+            "reading": "ㄔㄨˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "忘",
+            "reading": "ㄨㄤˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "整",
+            "reading": "ㄓㄥˇ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "情",
+            "reading": "ㄑㄧㄥˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ],
+        "bpmf": "你有沒有像猴子󠇡一󠇡樣，只看到眼前的好處，卻忘了看整件事情？說說看。"
+      },
+      "en": "Have you ever been like the monkeys, only seeing the benefit right in front of you and forgetting to look at the whole thing? Tell us about it."
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "狙公没有跟猴子吵架，而是想了一个聪明的办法。你觉得他这样做好不好？为什么？",
+        "pinyin": [
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "跟",
+            "reading": "gēn"
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "吵",
+            "reading": "chǎo"
+          },
+          {
+            "text": "架",
+            "reading": "jià"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "聪",
+            "reading": "cōng"
+          },
+          {
+            "text": "明",
+            "reading": "míng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狙公沒有跟猴子吵架，而是想了一個聰明的辦法。你覺得他這樣做好不好？為什麼？",
+        "zhuyin": [
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "跟",
+            "reading": "ㄍㄣ"
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "吵",
+            "reading": "ㄔㄠˇ"
+          },
+          {
+            "text": "架",
+            "reading": "ㄐㄧㄚˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "聰",
+            "reading": "ㄘㄨㄥ"
+          },
+          {
+            "text": "明",
+            "reading": "ㄇㄧㄥˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狙公沒有跟猴子󠇡吵架，而是想了一󠇢個󠇡聰明的辦法。你覺得󠇡他這樣做好不好？為󠇡什麼？"
+      },
+      "en": "The Monkey Keeper did not argue with the monkeys, he thought of a clever plan instead. Do you think that was a good thing to do? Why?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "如果你是狙公，橡子不够了，你会怎么跟猴子说？",
+        "pinyin": [
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "橡",
+            "reading": "xiàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "够",
+            "reading": "gòu"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "跟",
+            "reading": "gēn"
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "如果你是狙公，橡子不夠了，你會怎麼跟猴子說？",
+        "zhuyin": [
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "橡",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "夠",
+            "reading": "ㄍㄡˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "跟",
+            "reading": "ㄍㄣ"
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "如果你是狙公，橡子󠇡不󠇡夠了，你會怎麼跟猴子󠇡說？"
+      },
+      "en": "If you were the Monkey Keeper and the acorns were running low, how would you tell the monkeys?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "有人说狙公其实是在骗猴子，你同意吗？为什么？",
+        "pinyin": [
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "其",
+            "reading": "qí"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "骗",
+            "reading": "piàn"
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "同",
+            "reading": "tóng"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "有人說狙公其實是在騙猴子，你同意嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "其",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "騙",
+            "reading": "ㄆㄧㄢˋ"
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "同",
+            "reading": "ㄊㄨㄥˊ"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "有人說狙公其實是在騙猴子󠇡，你同意嗎？為󠇡什麼？"
+      },
+      "en": "Some people say the Monkey Keeper was really tricking the monkeys. Do you agree? Why?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "现在我们也用“朝三暮四”来说一个人心意不定、想法跳来跳去。你身边有没有这样的人或这样的时候？",
+        "pinyin": [
+          {
+            "text": "现",
+            "reading": "xiàn"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "朝",
+            "reading": "zhāo"
+          },
+          {
+            "text": "三",
+            "reading": "sān"
+          },
+          {
+            "text": "暮",
+            "reading": "mù"
+          },
+          {
+            "text": "四",
+            "reading": "sì"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "定",
+            "reading": "dìng"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "跳",
+            "reading": "tiào"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "跳",
+            "reading": "tiào"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "身",
+            "reading": "shēn"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "或",
+            "reading": "huò"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "現在我們也用「朝三暮四」來說一個人心意不定、想法跳來跳去。你身邊有沒有這樣的人或這樣的時候？",
+        "zhuyin": [
+          {
+            "text": "現",
+            "reading": "ㄒㄧㄢˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "朝",
+            "reading": "ㄓㄠ"
+          },
+          {
+            "text": "三",
+            "reading": "ㄙㄢ"
+          },
+          {
+            "text": "暮",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "四",
+            "reading": "ㄙˋ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "定",
+            "reading": "ㄉㄧㄥˋ"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "跳",
+            "reading": "ㄊㄧㄠˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "跳",
+            "reading": "ㄊㄧㄠˋ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "身",
+            "reading": "ㄕㄣ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "或",
+            "reading": "ㄏㄨㄛˋ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "現在我們也用「朝󠇡三暮四」來說一󠇢個󠇡人心意不󠇡定、想法跳來跳去。你身邊有沒有這樣的人或這樣的時候？"
+      },
+      "en": "Today we also use \"three in the morning, four at night\" to describe someone whose mind keeps changing and whose ideas jump around. Is there anyone like that around you, or a time when you were like that?"
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "为什么我们先听到的话，常常会影响我们的心情和决定？",
+        "pinyin": [
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "先",
+            "reading": "xiān"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "常",
+            "reading": "cháng"
+          },
+          {
+            "text": "常",
+            "reading": "cháng"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "影",
+            "reading": "yǐng"
+          },
+          {
+            "text": "响",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "情",
+            "reading": "qíng"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "决",
+            "reading": "jué"
+          },
+          {
+            "text": "定",
+            "reading": "dìng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "為什麼我們先聽到的話，常常會影響我們的心情和決定？",
+        "zhuyin": [
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "先",
+            "reading": "ㄒㄧㄢ"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "常",
+            "reading": "ㄔㄤˊ"
+          },
+          {
+            "text": "常",
+            "reading": "ㄔㄤˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "影",
+            "reading": "ㄧㄥˇ"
+          },
+          {
+            "text": "響",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "情",
+            "reading": "ㄑㄧㄥˊ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "決",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "定",
+            "reading": "ㄉㄧㄥˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "為󠇡什麼我們先聽到的話，常常會影響我們的心情和決定？"
+      },
+      "en": "Why do the words we hear first often affect our mood and our decisions?"
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "下次别人给你两个选择的时候，你可以用什么方法，才不会太快被表面骗过去？",
+        "pinyin": [
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "两",
+            "reading": "liǎng"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "选",
+            "reading": "xuǎn"
+          },
+          {
+            "text": "择",
+            "reading": "zé"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "太",
+            "reading": "tài"
+          },
+          {
+            "text": "快",
+            "reading": "kuài"
+          },
+          {
+            "text": "被",
+            "reading": "bèi"
+          },
+          {
+            "text": "表",
+            "reading": "biǎo"
+          },
+          {
+            "text": "面",
+            "reading": "miàn"
+          },
+          {
+            "text": "骗",
+            "reading": "piàn"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "下次別人給你兩個選擇的時候，你可以用什麼方法，才不會太快被表面騙過去？",
+        "zhuyin": [
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "兩",
+            "reading": "ㄌㄧㄤˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "選",
+            "reading": "ㄒㄩㄢˇ"
+          },
+          {
+            "text": "擇",
+            "reading": "ㄗㄜˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "太",
+            "reading": "ㄊㄞˋ"
+          },
+          {
+            "text": "快",
+            "reading": "ㄎㄨㄞˋ"
+          },
+          {
+            "text": "被",
+            "reading": "ㄅㄟˋ"
+          },
+          {
+            "text": "表",
+            "reading": "ㄅㄧㄠˇ"
+          },
+          {
+            "text": "面",
+            "reading": "ㄇㄧㄢˋ"
+          },
+          {
+            "text": "騙",
+            "reading": "ㄆㄧㄢˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "下次別人給你兩個󠇡選擇的時候，你可以用什麼方法，才不󠇡會太快被表面騙過去？"
+      },
+      "en": "Next time someone gives you two choices, what could you do so you are not fooled by the surface too quickly?"
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "狙公怎么知道猴子一定会选早上四颗？他是怎么猜到猴子心里想什么的？",
+        "pinyin": [
+          {
+            "text": "狙",
+            "reading": "jū"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "知",
+            "reading": "zhī"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "定",
+            "reading": "dìng"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "选",
+            "reading": "xuǎn"
+          },
+          {
+            "text": "早",
+            "reading": "zǎo"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "四",
+            "reading": "sì"
+          },
+          {
+            "text": "颗",
+            "reading": "kē"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "猜",
+            "reading": "cāi"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "猴",
+            "reading": "hóu"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "狙公怎麼知道猴子一定會選早上四顆？他是怎麼猜到猴子心裡想什麼的？",
+        "zhuyin": [
+          {
+            "text": "狙",
+            "reading": "ㄐㄩ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "知",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "定",
+            "reading": "ㄉㄧㄥˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "選",
+            "reading": "ㄒㄩㄢˇ"
+          },
+          {
+            "text": "早",
+            "reading": "ㄗㄠˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "四",
+            "reading": "ㄙˋ"
+          },
+          {
+            "text": "顆",
+            "reading": "ㄎㄜ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "猜",
+            "reading": "ㄘㄞ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "猴",
+            "reading": "ㄏㄡˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "狙公怎麼知道猴子󠇡一󠇡定會選早上四顆？他是怎麼猜到猴子󠇡心裡想什麼的？"
+      },
+      "en": "How did the Monkey Keeper know the monkeys would surely choose four in the morning? How did he guess what the monkeys were thinking?"
+    }
+  ]
+}
