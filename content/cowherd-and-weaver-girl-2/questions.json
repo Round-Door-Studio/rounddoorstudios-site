@@ -1,0 +1,4456 @@
+{
+  "slug": "cowherd-and-weaver-girl-2",
+  "title": {
+    "trad": "牛郎織女 第二集：鵲橋相會",
+    "simp": "牛郎织女 第二集：鹊桥相会",
+    "en": "The Cowherd and the Weaver Girl, Episode 2: Meeting on the Magpie Bridge"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "是谁派天兵天将来把织女带回天上？",
+        "pinyin": [
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "派",
+            "reading": "pài"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "兵",
+            "reading": "bīng"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "将",
+            "reading": "jiàng"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "织",
+            "reading": "zhī"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "带",
+            "reading": "dài"
+          },
+          {
+            "text": "回",
+            "reading": "huí"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "是誰派天兵天將來把織女帶回天上？",
+        "zhuyin": [
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "派",
+            "reading": "ㄆㄞˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "兵",
+            "reading": "ㄅㄧㄥ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "將",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "織",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "帶",
+            "reading": "ㄉㄞˋ"
+          },
+          {
+            "text": "回",
+            "reading": "ㄏㄨㄟˊ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "是誰派天兵天將󠇡來把織女帶回天上？"
+      },
+      "en": "Who sent the heavenly soldiers and generals to take the Weaver Girl back up to Heaven?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "天兵天将要带走织女的时候，两个孩子做了什么？",
+        "pinyin": [
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "兵",
+            "reading": "bīng"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "将",
+            "reading": "jiàng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "带",
+            "reading": "dài"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "织",
+            "reading": "zhī"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "两",
+            "reading": "liǎng"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "孩",
+            "reading": "hái"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "天兵天將要帶走織女的時候，兩個孩子做了什麼？",
+        "zhuyin": [
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "兵",
+            "reading": "ㄅㄧㄥ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "將",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "帶",
+            "reading": "ㄉㄞˋ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "織",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "兩",
+            "reading": "ㄌㄧㄤˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "孩",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "天兵天將󠇡要帶走織女的時候，兩個󠇡孩子󠇡做了什麼？"
+      },
+      "en": "When the heavenly soldiers came to take the Weaver Girl away, what did the two children do?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "牛郎从田里回到家，在院子里看见了什么？",
+        "pinyin": [
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "从",
+            "reading": "cóng"
+          },
+          {
+            "text": "田",
+            "reading": "tián"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "回",
+            "reading": "huí"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "院",
+            "reading": "yuàn"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "见",
+            "reading": "jiàn"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牛郎從田裡回到家，在院子裡看見了什麼？",
+        "zhuyin": [
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "從",
+            "reading": "ㄘㄨㄥˊ"
+          },
+          {
+            "text": "田",
+            "reading": "ㄊㄧㄢˊ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "回",
+            "reading": "ㄏㄨㄟˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "院",
+            "reading": "ㄩㄢˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "見",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牛郎從田裡回到家，在院子󠇡裡看見了什麼？"
+      },
+      "en": "When the Cowherd came home from the fields, what did he see in the courtyard?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "牛郎追那片乌云的时候，追得上吗？为什么？",
+        "pinyin": [
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "追",
+            "reading": "zhuī"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "片",
+            "reading": "piàn"
+          },
+          {
+            "text": "乌",
+            "reading": "wū"
+          },
+          {
+            "text": "云",
+            "reading": "yún"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "追",
+            "reading": "zhuī"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牛郎追那片烏雲的時候，追得上嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "追",
+            "reading": "ㄓㄨㄟ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "片",
+            "reading": "ㄆㄧㄢˋ"
+          },
+          {
+            "text": "烏",
+            "reading": "ㄨ"
+          },
+          {
+            "text": "雲",
+            "reading": "ㄩㄣˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "追",
+            "reading": "ㄓㄨㄟ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牛郎追那片烏雲的時候，追得󠇡上嗎？為󠇡什麼？"
+      },
+      "en": "When the Cowherd chased the black cloud, could he catch up? Why or why not?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "老牛回天上以前，送给牛郎什么东西？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "回",
+            "reading": "huí"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "前",
+            "reading": "qián"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "送",
+            "reading": "sòng"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "东",
+            "reading": "dōng"
+          },
+          {
+            "text": "西",
+            "reading": "xi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老牛回天上以前，送給牛郎什麼東西？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "回",
+            "reading": "ㄏㄨㄟˊ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "前",
+            "reading": "ㄑㄧㄢˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "送",
+            "reading": "ㄙㄨㄥˋ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "東",
+            "reading": "ㄉㄨㄥ"
+          },
+          {
+            "text": "西",
+            "reading": "ㄒㄧ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老牛回天上以前，送給牛郎什麼東西󠇡？"
+      },
+      "en": "Before the old ox returned to Heaven, what gift did it give the Cowherd?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "牛郎披上那张牛皮以后，就能做什么？",
+        "pinyin": [
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "披",
+            "reading": "pī"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "张",
+            "reading": "zhāng"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "皮",
+            "reading": "pí"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "能",
+            "reading": "néng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牛郎披上那張牛皮以後，就能做什麼？",
+        "zhuyin": [
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "披",
+            "reading": "ㄆㄧ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "張",
+            "reading": "ㄓㄤ"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "皮",
+            "reading": "ㄆㄧˊ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "能",
+            "reading": "ㄋㄥˊ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牛郎披上那張牛皮以後，就能做什麼？"
+      },
+      "en": "After the Cowherd put on the oxhide, what was he able to do?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "牛郎用扁担和竹筐，把什么一起带上天？",
+        "pinyin": [
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "扁",
+            "reading": "biǎn"
+          },
+          {
+            "text": "担",
+            "reading": "dàn"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "竹",
+            "reading": "zhú"
+          },
+          {
+            "text": "筐",
+            "reading": "kuāng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "带",
+            "reading": "dài"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牛郎用扁擔和竹筐，把什麼一起帶上天？",
+        "zhuyin": [
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "扁",
+            "reading": "ㄅㄧㄢˇ"
+          },
+          {
+            "text": "擔",
+            "reading": "ㄉㄢˋ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "竹",
+            "reading": "ㄓㄨˊ"
+          },
+          {
+            "text": "筐",
+            "reading": "ㄎㄨㄤ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "帶",
+            "reading": "ㄉㄞˋ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牛郎用扁擔󠇡和竹筐，把什麼一󠇢起帶上天？"
+      },
+      "en": "Using the carrying pole and bamboo baskets, what did the Cowherd bring up to the sky with him?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "王母娘娘用什么，在牛郎和织女中间划出一条大河？",
+        "pinyin": [
+          {
+            "text": "王",
+            "reading": "wáng"
+          },
+          {
+            "text": "母",
+            "reading": "mǔ"
+          },
+          {
+            "text": "娘",
+            "reading": "niáng"
+          },
+          {
+            "text": "娘",
+            "reading": "niáng"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "织",
+            "reading": "zhī"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "中",
+            "reading": "zhōng"
+          },
+          {
+            "text": "间",
+            "reading": "jiān"
+          },
+          {
+            "text": "划",
+            "reading": "huá"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "条",
+            "reading": "tiáo"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "河",
+            "reading": "hé"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "王母娘娘用什麼，在牛郎和織女中間劃出一條大河？",
+        "zhuyin": [
+          {
+            "text": "王",
+            "reading": "ㄨㄤˊ"
+          },
+          {
+            "text": "母",
+            "reading": "ㄇㄨˇ"
+          },
+          {
+            "text": "娘",
+            "reading": "ㄋㄧㄤˊ"
+          },
+          {
+            "text": "娘",
+            "reading": "ㄋㄧㄤˊ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "織",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "中",
+            "reading": "ㄓㄨㄥ"
+          },
+          {
+            "text": "間",
+            "reading": "ㄐㄧㄢ"
+          },
+          {
+            "text": "劃",
+            "reading": "ㄏㄨㄚˊ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "條",
+            "reading": "ㄊㄧㄠˊ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "河",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "王母娘娘用什麼，在牛郎和織女中間劃󠇡出一󠇢條大河？"
+      },
+      "en": "What did the Queen Mother of Heaven use to slash a great river between the Cowherd and the Weaver Girl?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "把牛郎和织女隔开的那条大河，叫什么名字？",
+        "pinyin": [
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "织",
+            "reading": "zhī"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "隔",
+            "reading": "gé"
+          },
+          {
+            "text": "开",
+            "reading": "kāi"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "条",
+            "reading": "tiáo"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "河",
+            "reading": "hé"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "叫",
+            "reading": "jiào"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "名",
+            "reading": "míng"
+          },
+          {
+            "text": "字",
+            "reading": "zì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "把牛郎和織女隔開的那條大河，叫什麼名字？",
+        "zhuyin": [
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "織",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "隔",
+            "reading": "ㄍㄜˊ"
+          },
+          {
+            "text": "開",
+            "reading": "ㄎㄞ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "條",
+            "reading": "ㄊㄧㄠˊ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "河",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "叫",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "名",
+            "reading": "ㄇㄧㄥˊ"
+          },
+          {
+            "text": "字",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "把牛郎和織女隔開的那條大河，叫什麼名字？"
+      },
+      "en": "What is the name of the great river that separated the Cowherd and the Weaver Girl?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "是什么动物飞上天，用身体搭起了一座桥？",
+        "pinyin": [
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "物",
+            "reading": "wù"
+          },
+          {
+            "text": "飞",
+            "reading": "fēi"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "身",
+            "reading": "shēn"
+          },
+          {
+            "text": "体",
+            "reading": "tǐ"
+          },
+          {
+            "text": "搭",
+            "reading": "dā"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "座",
+            "reading": "zuò"
+          },
+          {
+            "text": "桥",
+            "reading": "qiáo"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "是什麼動物飛上天，用身體搭起了一座橋？",
+        "zhuyin": [
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "物",
+            "reading": "ㄨˋ"
+          },
+          {
+            "text": "飛",
+            "reading": "ㄈㄟ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "身",
+            "reading": "ㄕㄣ"
+          },
+          {
+            "text": "體",
+            "reading": "ㄊㄧˇ"
+          },
+          {
+            "text": "搭",
+            "reading": "ㄉㄚ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "座",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "橋",
+            "reading": "ㄑㄧㄠˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "是什麼動物飛上天，用身體搭起了一󠇡座橋？"
+      },
+      "en": "What animals flew up to the sky and used their bodies to build a bridge?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "成千上万只喜鹊愿意飞上天，用身体搭成鹊桥。你觉得它们为什么要这样做？",
+        "pinyin": [
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "千",
+            "reading": "qiān"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "万",
+            "reading": "wàn"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "喜",
+            "reading": "xǐ"
+          },
+          {
+            "text": "鹊",
+            "reading": "què"
+          },
+          {
+            "text": "愿",
+            "reading": "yuàn"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "飞",
+            "reading": "fēi"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "身",
+            "reading": "shēn"
+          },
+          {
+            "text": "体",
+            "reading": "tǐ"
+          },
+          {
+            "text": "搭",
+            "reading": "dā"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "鹊",
+            "reading": "què"
+          },
+          {
+            "text": "桥",
+            "reading": "qiáo"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "它",
+            "reading": "tā"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "成千上萬隻喜鵲願意飛上天，用身體搭成鵲橋。你覺得牠們為什麼要這樣做？",
+        "zhuyin": [
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "千",
+            "reading": "ㄑㄧㄢ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "萬",
+            "reading": "ㄨㄢˋ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "喜",
+            "reading": "ㄒㄧˇ"
+          },
+          {
+            "text": "鵲",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "願",
+            "reading": "ㄩㄢˋ"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "飛",
+            "reading": "ㄈㄟ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "身",
+            "reading": "ㄕㄣ"
+          },
+          {
+            "text": "體",
+            "reading": "ㄊㄧˇ"
+          },
+          {
+            "text": "搭",
+            "reading": "ㄉㄚ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "鵲",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "橋",
+            "reading": "ㄑㄧㄠˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "牠",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "成千上萬隻喜鵲願意飛上天，用身體搭成鵲橋。你覺得󠇡牠們為󠇡什麼要這樣做？"
+      },
+      "en": "Thousands of magpies were willing to fly up and form the Magpie Bridge with their bodies. Why do you think they did this?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "王母娘娘本来很生气，后来为什么愿意让牛郎和织女每年见一次面？",
+        "pinyin": [
+          {
+            "text": "王",
+            "reading": "wáng"
+          },
+          {
+            "text": "母",
+            "reading": "mǔ"
+          },
+          {
+            "text": "娘",
+            "reading": "niáng"
+          },
+          {
+            "text": "娘",
+            "reading": "niáng"
+          },
+          {
+            "text": "本",
+            "reading": "běn"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "愿",
+            "reading": "yuàn"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "织",
+            "reading": "zhī"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "每",
+            "reading": "měi"
+          },
+          {
+            "text": "年",
+            "reading": "nián"
+          },
+          {
+            "text": "见",
+            "reading": "jiàn"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "面",
+            "reading": "miàn"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "王母娘娘本來很生氣，後來為什麼願意讓牛郎和織女每年見一次面？",
+        "zhuyin": [
+          {
+            "text": "王",
+            "reading": "ㄨㄤˊ"
+          },
+          {
+            "text": "母",
+            "reading": "ㄇㄨˇ"
+          },
+          {
+            "text": "娘",
+            "reading": "ㄋㄧㄤˊ"
+          },
+          {
+            "text": "娘",
+            "reading": "ㄋㄧㄤˊ"
+          },
+          {
+            "text": "本",
+            "reading": "ㄅㄣˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "願",
+            "reading": "ㄩㄢˋ"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "織",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "每",
+            "reading": "ㄇㄟˇ"
+          },
+          {
+            "text": "年",
+            "reading": "ㄋㄧㄢˊ"
+          },
+          {
+            "text": "見",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "面",
+            "reading": "ㄇㄧㄢˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "王母娘娘本來很生氣，後來為󠇡什麼願意讓牛郎和織女每年見一󠇡次面？"
+      },
+      "en": "The Queen Mother was very angry at first. Why do you think she later agreed to let the Cowherd and Weaver Girl meet once a year?"
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "王母娘娘只准他们一年见一次面。你觉得这样公平吗？为什么？",
+        "pinyin": [
+          {
+            "text": "王",
+            "reading": "wáng"
+          },
+          {
+            "text": "母",
+            "reading": "mǔ"
+          },
+          {
+            "text": "娘",
+            "reading": "niáng"
+          },
+          {
+            "text": "娘",
+            "reading": "niáng"
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "准",
+            "reading": "zhǔn"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "年",
+            "reading": "nián"
+          },
+          {
+            "text": "见",
+            "reading": "jiàn"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "面",
+            "reading": "miàn"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "平",
+            "reading": "píng"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "王母娘娘只准他們一年見一次面。你覺得這樣公平嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "王",
+            "reading": "ㄨㄤˊ"
+          },
+          {
+            "text": "母",
+            "reading": "ㄇㄨˇ"
+          },
+          {
+            "text": "娘",
+            "reading": "ㄋㄧㄤˊ"
+          },
+          {
+            "text": "娘",
+            "reading": "ㄋㄧㄤˊ"
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "准",
+            "reading": "ㄓㄨㄣˇ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "年",
+            "reading": "ㄋㄧㄢˊ"
+          },
+          {
+            "text": "見",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "面",
+            "reading": "ㄇㄧㄢˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "平",
+            "reading": "ㄆㄧㄥˊ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "王母娘娘只准他們一󠇢年見一󠇡次面。你覺得󠇡這樣公平嗎？為󠇡什麼？"
+      },
+      "en": "The Queen Mother allowed them to meet only once a year. Do you think that is fair? Why?"
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "老牛把最后的力气和一张牛皮都送给了牛郎。你觉得老牛是一个怎样的朋友？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "张",
+            "reading": "zhāng"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "皮",
+            "reading": "pí"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "送",
+            "reading": "sòng"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "朋",
+            "reading": "péng"
+          },
+          {
+            "text": "友",
+            "reading": "yǒu"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老牛把最後的力氣和一張牛皮都送給了牛郎。你覺得老牛是一個怎樣的朋友？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "張",
+            "reading": "ㄓㄤ"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "皮",
+            "reading": "ㄆㄧˊ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "送",
+            "reading": "ㄙㄨㄥˋ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "朋",
+            "reading": "ㄆㄥˊ"
+          },
+          {
+            "text": "友",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老牛把最後的力氣和一󠇢張牛皮都送給了牛郎。你覺得󠇡老牛是一󠇡個󠇡怎樣的朋友？"
+      },
+      "en": "The old ox gave the Cowherd its last strength and its own hide. What kind of friend do you think the old ox was?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "牛郎知道凡人很难追上天上的云，但是他一直不肯放弃。你觉得他为什么要追？",
+        "pinyin": [
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "知",
+            "reading": "zhī"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "凡",
+            "reading": "fán"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "难",
+            "reading": "nán"
+          },
+          {
+            "text": "追",
+            "reading": "zhuī"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "云",
+            "reading": "yún"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "但",
+            "reading": "dàn"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "肯",
+            "reading": "kěn"
+          },
+          {
+            "text": "放",
+            "reading": "fàng"
+          },
+          {
+            "text": "弃",
+            "reading": "qì"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "追",
+            "reading": "zhuī"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牛郎知道凡人很難追上天上的雲，但是他一直不肯放棄。你覺得他為什麼要追？",
+        "zhuyin": [
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "知",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "凡",
+            "reading": "ㄈㄢˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "難",
+            "reading": "ㄋㄢˊ"
+          },
+          {
+            "text": "追",
+            "reading": "ㄓㄨㄟ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "雲",
+            "reading": "ㄩㄣˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "但",
+            "reading": "ㄉㄢˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "肯",
+            "reading": "ㄎㄣˇ"
+          },
+          {
+            "text": "放",
+            "reading": "ㄈㄤˋ"
+          },
+          {
+            "text": "棄",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "追",
+            "reading": "ㄓㄨㄟ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牛郎知道凡人很難追上天上的雲，但是他一󠇢直不肯放棄。你覺得󠇡他為󠇡什麼要追？"
+      },
+      "en": "The Cowherd knew a mortal could hardly catch a cloud in the sky, but he refused to give up. Why do you think he kept chasing?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "牛郎和织女只能隔着银河，远远地看着对方。如果你很想见一个人，却见不到，你会怎么做？",
+        "pinyin": [
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "织",
+            "reading": "zhī"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "能",
+            "reading": "néng"
+          },
+          {
+            "text": "隔",
+            "reading": "gé"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "银",
+            "reading": "yín"
+          },
+          {
+            "text": "河",
+            "reading": "hé"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "远",
+            "reading": "yuǎn"
+          },
+          {
+            "text": "远",
+            "reading": "yuǎn"
+          },
+          {
+            "text": "地",
+            "reading": "de"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "对",
+            "reading": "duì"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "见",
+            "reading": "jiàn"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "见",
+            "reading": "jiàn"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牛郎和織女只能隔著銀河，遠遠地看著對方。如果你很想見一個人，卻見不到，你會怎麼做？",
+        "zhuyin": [
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "織",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "能",
+            "reading": "ㄋㄥˊ"
+          },
+          {
+            "text": "隔",
+            "reading": "ㄍㄜˊ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "銀",
+            "reading": "ㄧㄣˊ"
+          },
+          {
+            "text": "河",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "遠",
+            "reading": "ㄩㄢˇ"
+          },
+          {
+            "text": "遠",
+            "reading": "ㄩㄢˇ"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "對",
+            "reading": "ㄉㄨㄟˋ"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "見",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "見",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牛郎和織女只能隔著銀河，遠遠地󠇡看著對方。如果你很想見一󠇡個󠇡人，卻見不󠇡到，你會怎麼做？"
+      },
+      "en": "The Cowherd and Weaver Girl could only gaze at each other across the Silver River. If there were someone you really wanted to see but could not, what would you do?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "一只喜鹊搭不成桥，成千上万只一起才可以。你觉得“大家一起合作”为什么很重要？",
+        "pinyin": [
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "喜",
+            "reading": "xǐ"
+          },
+          {
+            "text": "鹊",
+            "reading": "què"
+          },
+          {
+            "text": "搭",
+            "reading": "dā"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "桥",
+            "reading": "qiáo"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "千",
+            "reading": "qiān"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "万",
+            "reading": "wàn"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "合",
+            "reading": "hé"
+          },
+          {
+            "text": "作",
+            "reading": "zuò"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "重",
+            "reading": "zhòng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "一隻喜鵲搭不成橋，成千上萬隻一起才可以。你覺得「大家一起合作」為什麼很重要？",
+        "zhuyin": [
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "喜",
+            "reading": "ㄒㄧˇ"
+          },
+          {
+            "text": "鵲",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "搭",
+            "reading": "ㄉㄚ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "橋",
+            "reading": "ㄑㄧㄠˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "千",
+            "reading": "ㄑㄧㄢ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "萬",
+            "reading": "ㄨㄢˋ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "合",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "作",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "重",
+            "reading": "ㄓㄨㄥˋ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "一󠇢隻喜鵲搭不成橋，成千上萬隻一󠇢起才可以。你覺得󠇡「大家一󠇢起合作」為󠇡什麼很重要？"
+      },
+      "en": "One magpie cannot make a bridge, but thousands together can. Why do you think working together is so important?"
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "牛郎一家人一年只能团圆一次。你觉得“一年只有一次”，会让见面变得更珍贵吗？",
+        "pinyin": [
+          {
+            "text": "牛",
+            "reading": "niú"
+          },
+          {
+            "text": "郎",
+            "reading": "láng"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "年",
+            "reading": "nián"
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "能",
+            "reading": "néng"
+          },
+          {
+            "text": "团",
+            "reading": "tuán"
+          },
+          {
+            "text": "圆",
+            "reading": "yuán"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "年",
+            "reading": "nián"
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "见",
+            "reading": "jiàn"
+          },
+          {
+            "text": "面",
+            "reading": "miàn"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "更",
+            "reading": "gèng"
+          },
+          {
+            "text": "珍",
+            "reading": "zhēn"
+          },
+          {
+            "text": "贵",
+            "reading": "guì"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牛郎一家人一年只能團圓一次。你覺得「一年只有一次」，會讓見面變得更珍貴嗎？",
+        "zhuyin": [
+          {
+            "text": "牛",
+            "reading": "ㄋㄧㄡˊ"
+          },
+          {
+            "text": "郎",
+            "reading": "ㄌㄤˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "年",
+            "reading": "ㄋㄧㄢˊ"
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "能",
+            "reading": "ㄋㄥˊ"
+          },
+          {
+            "text": "團",
+            "reading": "ㄊㄨㄢˊ"
+          },
+          {
+            "text": "圓",
+            "reading": "ㄩㄢˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "年",
+            "reading": "ㄋㄧㄢˊ"
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "見",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "面",
+            "reading": "ㄇㄧㄢˋ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "更",
+            "reading": "ㄍㄥˋ"
+          },
+          {
+            "text": "珍",
+            "reading": "ㄓㄣ"
+          },
+          {
+            "text": "貴",
+            "reading": "ㄍㄨㄟˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牛郎一󠇢家人一󠇢年只能團圓一󠇡次。你覺得󠇡「一󠇢年只有一󠇡次」，會讓見面變得󠇡更珍貴嗎？"
+      },
+      "en": "The family can reunite only once a year. Do you think meeting just once a year makes the reunion more precious?"
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "你有没有很想念一个人，却没办法马上见到他？那时候你的心情是什么样子？",
+        "pinyin": [
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "念",
+            "reading": "niàn"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "见",
+            "reading": "jiàn"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "情",
+            "reading": "qíng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "你有沒有很想念一個人，卻沒辦法馬上見到他？那時候你的心情是什麼樣子？",
+        "zhuyin": [
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "念",
+            "reading": "ㄋㄧㄢˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "見",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "情",
+            "reading": "ㄑㄧㄥˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "你有沒有很想念一󠇡個󠇡人，卻沒辦法馬上見到他？那時候你的心情是什麼樣子󠇡？"
+      },
+      "en": "Have you ever missed someone very much but could not see them right away? How did you feel then?"
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "你觉得这个故事最想告诉我们什么？",
+        "pinyin": [
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "告",
+            "reading": "gào"
+          },
+          {
+            "text": "诉",
+            "reading": "sù"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "你覺得這個故事最想告訴我們什麼？",
+        "zhuyin": [
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "告",
+            "reading": "ㄍㄠˋ"
+          },
+          {
+            "text": "訴",
+            "reading": "ㄙㄨˋ"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "你覺得󠇡這個󠇡故事最想告訴我們什麼？"
+      },
+      "en": "What do you think this story most wants to tell us?"
+    }
+  ]
+}
