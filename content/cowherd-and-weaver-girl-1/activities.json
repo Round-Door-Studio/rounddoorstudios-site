@@ -1,0 +1,5325 @@
+{
+  "slug": "cowherd-and-weaver-girl-1",
+  "activities": [
+    {
+      "id": "a001",
+      "accent": "#8A5A3C",
+      "title": {
+        "en": "Draw the Ox, Tell It Your Week",
+        "simp": {
+          "text": "画老牛，说说我的一周",
+          "pinyin": [
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "老",
+              "reading": "lǎo"
+            },
+            {
+              "text": "牛",
+              "reading": "niú"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "周",
+              "reading": "zhōu"
+            }
+          ]
+        },
+        "trad": {
+          "text": "畫老牛，說說我的一週",
+          "zhuyin": [
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "老",
+              "reading": "ㄌㄠˇ"
+            },
+            {
+              "text": "牛",
+              "reading": "ㄋㄧㄡˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "週",
+              "reading": "ㄓㄡ"
+            }
+          ],
+          "bpmf": "畫老牛，說說我的一󠇢週"
+        }
+      },
+      "desc": {
+        "en": "Niulang told the old ox everything on his mind. Draw your own ox, then write down one happy thing and one upsetting thing from your week to share with it.",
+        "simp": {
+          "text": "牛郎什么话都跟老牛说。你也画一头自己的老牛，写下这一周一件开心的事和一件难过的事，说给它听。",
+          "pinyin": [
+            {
+              "text": "牛",
+              "reading": "niú"
+            },
+            {
+              "text": "郎",
+              "reading": "láng"
+            },
+            {
+              "text": "什",
+              "reading": "shén"
+            },
+            {
+              "text": "么",
+              "reading": "me"
+            },
+            {
+              "text": "话",
+              "reading": "huà"
+            },
+            {
+              "text": "都",
+              "reading": "dōu"
+            },
+            {
+              "text": "跟",
+              "reading": "gēn"
+            },
+            {
+              "text": "老",
+              "reading": "lǎo"
+            },
+            {
+              "text": "牛",
+              "reading": "niú"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "也",
+              "reading": "yě"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "己",
+              "reading": "jǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "老",
+              "reading": "lǎo"
+            },
+            {
+              "text": "牛",
+              "reading": "niú"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "写",
+              "reading": "xiě"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "周",
+              "reading": "zhōu"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "件",
+              "reading": "jiàn"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "事",
+              "reading": "shì"
+            },
+            {
+              "text": "和",
+              "reading": "hé"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "件",
+              "reading": "jiàn"
+            },
+            {
+              "text": "难",
+              "reading": "nán"
+            },
+            {
+              "text": "过",
+              "reading": "guò"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "事",
+              "reading": "shì"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "给",
+              "reading": "gěi"
+            },
+            {
+              "text": "它",
+              "reading": "tā"
+            },
+            {
+              "text": "听",
+              "reading": "tīng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "牛郎什麼話都跟老牛說。你也畫一頭自己的老牛，寫下這一週一件開心的事和一件難過的事，說給牠聽。",
+          "zhuyin": [
+            {
+              "text": "牛",
+              "reading": "ㄋㄧㄡˊ"
+            },
+            {
+              "text": "郎",
+              "reading": "ㄌㄤˊ"
+            },
+            {
+              "text": "什",
+              "reading": "ㄕㄣˊ"
+            },
+            {
+              "text": "麼",
+              "reading": "ㄇㄜ˙"
+            },
+            {
+              "text": "話",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "都",
+              "reading": "ㄉㄡ"
+            },
+            {
+              "text": "跟",
+              "reading": "ㄍㄣ"
+            },
+            {
+              "text": "老",
+              "reading": "ㄌㄠˇ"
+            },
+            {
+              "text": "牛",
+              "reading": "ㄋㄧㄡˊ"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "也",
+              "reading": "ㄧㄝˇ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "己",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "老",
+              "reading": "ㄌㄠˇ"
+            },
+            {
+              "text": "牛",
+              "reading": "ㄋㄧㄡˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "寫",
+              "reading": "ㄒㄧㄝˇ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "週",
+              "reading": "ㄓㄡ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "件",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "事",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "和",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "件",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "難",
+              "reading": "ㄋㄢˊ"
+            },
+            {
+              "text": "過",
+              "reading": "ㄍㄨㄛˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "事",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "給",
+              "reading": "ㄍㄟˇ"
+            },
+            {
+              "text": "牠",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "聽",
+              "reading": "ㄊㄧㄥ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "牛郎什麼話都跟老牛說。你也畫一󠇢頭自己的老牛，寫下這一󠇢週一󠇡件開心的事和一󠇡件難過的事，說給牠聽。"
+        }
+      },
+      "time": {
+        "en": "15 minutes",
+        "simp": {
+          "text": "15 分钟",
+          "pinyin": [
+            {
+              "text": "1",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "15 分鐘",
+          "zhuyin": [
+            {
+              "text": "1",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "15 分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "Paper and a pen or crayons",
+          "simp": {
+            "text": "纸和一支笔或蜡笔",
+            "pinyin": [
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "支",
+                "reading": "zhī"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "蜡",
+                "reading": "là"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "紙和一支筆或蠟筆",
+            "zhuyin": [
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "支",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "蠟",
+                "reading": "ㄌㄚˋ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "紙和一󠇢支筆或蠟筆"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Draw the old ox on your paper and give it kind eyes. It is the friend who listens to you, just like Niulang's ox.",
+          "simp": {
+            "text": "在纸上画出老牛，给它一双温柔的眼睛。它就是会听你说话的好朋友，就像牛郎的老牛一样。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "老",
+                "reading": "lǎo"
+              },
+              {
+                "text": "牛",
+                "reading": "niú"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "给",
+                "reading": "gěi"
+              },
+              {
+                "text": "它",
+                "reading": "tā"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "双",
+                "reading": "shuāng"
+              },
+              {
+                "text": "温",
+                "reading": "wēn"
+              },
+              {
+                "text": "柔",
+                "reading": "róu"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "眼",
+                "reading": "yǎn"
+              },
+              {
+                "text": "睛",
+                "reading": "jīng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "它",
+                "reading": "tā"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "会",
+                "reading": "huì"
+              },
+              {
+                "text": "听",
+                "reading": "tīng"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "话",
+                "reading": "huà"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "朋",
+                "reading": "péng"
+              },
+              {
+                "text": "友",
+                "reading": "yǒu"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "牛",
+                "reading": "niú"
+              },
+              {
+                "text": "郎",
+                "reading": "láng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "老",
+                "reading": "lǎo"
+              },
+              {
+                "text": "牛",
+                "reading": "niú"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在紙上畫出老牛，給牠一雙溫柔的眼睛。牠就是會聽你說話的好朋友，就像牛郎的老牛一樣。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "老",
+                "reading": "ㄌㄠˇ"
+              },
+              {
+                "text": "牛",
+                "reading": "ㄋㄧㄡˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "給",
+                "reading": "ㄍㄟˇ"
+              },
+              {
+                "text": "牠",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "雙",
+                "reading": "ㄕㄨㄤ"
+              },
+              {
+                "text": "溫",
+                "reading": "ㄨㄣ"
+              },
+              {
+                "text": "柔",
+                "reading": "ㄖㄡˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "眼",
+                "reading": "ㄧㄢˇ"
+              },
+              {
+                "text": "睛",
+                "reading": "ㄐㄧㄥ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "牠",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "會",
+                "reading": "ㄏㄨㄟˋ"
+              },
+              {
+                "text": "聽",
+                "reading": "ㄊㄧㄥ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "話",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "朋",
+                "reading": "ㄆㄥˊ"
+              },
+              {
+                "text": "友",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "牛",
+                "reading": "ㄋㄧㄡˊ"
+              },
+              {
+                "text": "郎",
+                "reading": "ㄌㄤˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "老",
+                "reading": "ㄌㄠˇ"
+              },
+              {
+                "text": "牛",
+                "reading": "ㄋㄧㄡˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在紙上畫出老牛，給牠一󠇢雙溫柔的眼睛。牠就是會聽你說話的好朋友，就像牛郎的老牛一󠇡樣。"
+          }
+        },
+        {
+          "en": "Think about your week. Write down or draw one happy thing that happened to you.",
+          "simp": {
+            "text": "想一想你的这一周。写下或画出一件让你开心的事。",
+            "pinyin": [
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "周",
+                "reading": "zhōu"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "件",
+                "reading": "jiàn"
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "心",
+                "reading": "xīn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "想一想你的這一週。寫下或畫出一件讓你開心的事。",
+            "zhuyin": [
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "週",
+                "reading": "ㄓㄡ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "件",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "心",
+                "reading": "ㄒㄧㄣ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "想一󠇢想你的這一󠇢週。寫下或畫出一󠇡件讓你開心的事。"
+          }
+        },
+        {
+          "en": "Now write down or draw one thing that upset you or was hard this week.",
+          "simp": {
+            "text": "再写下或画出一件让你难过或不开心的事。",
+            "pinyin": [
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "件",
+                "reading": "jiàn"
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "难",
+                "reading": "nán"
+              },
+              {
+                "text": "过",
+                "reading": "guò"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "不",
+                "reading": "bù"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "心",
+                "reading": "xīn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "再寫下或畫出一件讓你難過或不開心的事。",
+            "zhuyin": [
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "件",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "難",
+                "reading": "ㄋㄢˊ"
+              },
+              {
+                "text": "過",
+                "reading": "ㄍㄨㄛˋ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "心",
+                "reading": "ㄒㄧㄣ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "再寫下或畫出一󠇡件讓你難過或不開心的事。"
+          }
+        },
+        {
+          "en": "Share both with your ox. Say them out loud, or tell a friend. Niulang always felt much better after telling the ox how he felt.",
+          "simp": {
+            "text": "把这两件事都说给老牛听，也可以说给朋友听。牛郎每次跟老牛说完话，心里都会舒服很多。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "件",
+                "reading": "jiàn"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "给",
+                "reading": "gěi"
+              },
+              {
+                "text": "老",
+                "reading": "lǎo"
+              },
+              {
+                "text": "牛",
+                "reading": "niú"
+              },
+              {
+                "text": "听",
+                "reading": "tīng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "给",
+                "reading": "gěi"
+              },
+              {
+                "text": "朋",
+                "reading": "péng"
+              },
+              {
+                "text": "友",
+                "reading": "yǒu"
+              },
+              {
+                "text": "听",
+                "reading": "tīng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "牛",
+                "reading": "niú"
+              },
+              {
+                "text": "郎",
+                "reading": "láng"
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "次",
+                "reading": "cì"
+              },
+              {
+                "text": "跟",
+                "reading": "gēn"
+              },
+              {
+                "text": "老",
+                "reading": "lǎo"
+              },
+              {
+                "text": "牛",
+                "reading": "niú"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "完",
+                "reading": "wán"
+              },
+              {
+                "text": "话",
+                "reading": "huà"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "心",
+                "reading": "xīn"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "会",
+                "reading": "huì"
+              },
+              {
+                "text": "舒",
+                "reading": "shū"
+              },
+              {
+                "text": "服",
+                "reading": "fú"
+              },
+              {
+                "text": "很",
+                "reading": "hěn"
+              },
+              {
+                "text": "多",
+                "reading": "duō"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把這兩件事都說給老牛聽，也可以說給朋友聽。牛郎每次跟老牛說完話，心裡都會舒服很多。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "件",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "給",
+                "reading": "ㄍㄟˇ"
+              },
+              {
+                "text": "老",
+                "reading": "ㄌㄠˇ"
+              },
+              {
+                "text": "牛",
+                "reading": "ㄋㄧㄡˊ"
+              },
+              {
+                "text": "聽",
+                "reading": "ㄊㄧㄥ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "給",
+                "reading": "ㄍㄟˇ"
+              },
+              {
+                "text": "朋",
+                "reading": "ㄆㄥˊ"
+              },
+              {
+                "text": "友",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "聽",
+                "reading": "ㄊㄧㄥ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "牛",
+                "reading": "ㄋㄧㄡˊ"
+              },
+              {
+                "text": "郎",
+                "reading": "ㄌㄤˊ"
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "次",
+                "reading": "ㄘˋ"
+              },
+              {
+                "text": "跟",
+                "reading": "ㄍㄣ"
+              },
+              {
+                "text": "老",
+                "reading": "ㄌㄠˇ"
+              },
+              {
+                "text": "牛",
+                "reading": "ㄋㄧㄡˊ"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "完",
+                "reading": "ㄨㄢˊ"
+              },
+              {
+                "text": "話",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "心",
+                "reading": "ㄒㄧㄣ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "會",
+                "reading": "ㄏㄨㄟˋ"
+              },
+              {
+                "text": "舒",
+                "reading": "ㄕㄨ"
+              },
+              {
+                "text": "服",
+                "reading": "ㄈㄨˊ"
+              },
+              {
+                "text": "很",
+                "reading": "ㄏㄣˇ"
+              },
+              {
+                "text": "多",
+                "reading": "ㄉㄨㄛ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把這兩件事都說給老牛聽，也可以說給朋友聽。牛郎每次跟老牛說完話，心裡都會舒服很多。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a002",
+      "accent": "#C0392B",
+      "title": {
+        "en": "Catch the Falling Scarf",
+        "simp": {
+          "text": "接住飘下的纱巾",
+          "pinyin": [
+            {
+              "text": "接",
+              "reading": "jiē"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "飘",
+              "reading": "piāo"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "纱",
+              "reading": "shā"
+            },
+            {
+              "text": "巾",
+              "reading": "jīn"
+            }
+          ]
+        },
+        "trad": {
+          "text": "接住飄下的紗巾",
+          "zhuyin": [
+            {
+              "text": "接",
+              "reading": "ㄐㄧㄝ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "飄",
+              "reading": "ㄆㄧㄠ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "紗",
+              "reading": "ㄕㄚ"
+            },
+            {
+              "text": "巾",
+              "reading": "ㄐㄧㄣ"
+            }
+          ],
+          "bpmf": "接住飄下的紗巾"
+        }
+      },
+      "desc": {
+        "en": "The wind carried the fairy's red scarf down to Niulang's feet, and he caught it. Drop a light scarf from up high and try to catch it before it touches the ground.",
+        "simp": {
+          "text": "风把仙女的红纱巾吹了下来，落到牛郎脚边，被他接住了。把一条轻轻的纱巾从高高的地方放开，看你能不能在它落地以前接住。",
+          "pinyin": [
+            {
+              "text": "风",
+              "reading": "fēng"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "仙",
+              "reading": "xiān"
+            },
+            {
+              "text": "女",
+              "reading": "nǚ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "红",
+              "reading": "hóng"
+            },
+            {
+              "text": "纱",
+              "reading": "shā"
+            },
+            {
+              "text": "巾",
+              "reading": "jīn"
+            },
+            {
+              "text": "吹",
+              "reading": "chuī"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "落",
+              "reading": "luò"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "牛",
+              "reading": "niú"
+            },
+            {
+              "text": "郎",
+              "reading": "láng"
+            },
+            {
+              "text": "脚",
+              "reading": "jiǎo"
+            },
+            {
+              "text": "边",
+              "reading": "biān"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "被",
+              "reading": "bèi"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "接",
+              "reading": "jiē"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "条",
+              "reading": "tiáo"
+            },
+            {
+              "text": "轻",
+              "reading": "qīng"
+            },
+            {
+              "text": "轻",
+              "reading": "qīng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "纱",
+              "reading": "shā"
+            },
+            {
+              "text": "巾",
+              "reading": "jīn"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "高",
+              "reading": "gāo"
+            },
+            {
+              "text": "高",
+              "reading": "gāo"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "方",
+              "reading": "fāng"
+            },
+            {
+              "text": "放",
+              "reading": "fàng"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "能",
+              "reading": "néng"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "能",
+              "reading": "néng"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "它",
+              "reading": "tā"
+            },
+            {
+              "text": "落",
+              "reading": "luò"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "以",
+              "reading": "yǐ"
+            },
+            {
+              "text": "前",
+              "reading": "qián"
+            },
+            {
+              "text": "接",
+              "reading": "jiē"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "風把仙女的紅紗巾吹了下來，落到牛郎腳邊，被他接住了。把一條輕輕的紗巾從高高的地方放開，看你能不能在它落地以前接住。",
+          "zhuyin": [
+            {
+              "text": "風",
+              "reading": "ㄈㄥ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "仙",
+              "reading": "ㄒㄧㄢ"
+            },
+            {
+              "text": "女",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "紅",
+              "reading": "ㄏㄨㄥˊ"
+            },
+            {
+              "text": "紗",
+              "reading": "ㄕㄚ"
+            },
+            {
+              "text": "巾",
+              "reading": "ㄐㄧㄣ"
+            },
+            {
+              "text": "吹",
+              "reading": "ㄔㄨㄟ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "落",
+              "reading": "ㄌㄨㄛˋ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "牛",
+              "reading": "ㄋㄧㄡˊ"
+            },
+            {
+              "text": "郎",
+              "reading": "ㄌㄤˊ"
+            },
+            {
+              "text": "腳",
+              "reading": "ㄐㄧㄠˇ"
+            },
+            {
+              "text": "邊",
+              "reading": "ㄅㄧㄢ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "被",
+              "reading": "ㄅㄟˋ"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "接",
+              "reading": "ㄐㄧㄝ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "條",
+              "reading": "ㄊㄧㄠˊ"
+            },
+            {
+              "text": "輕",
+              "reading": "ㄑㄧㄥ"
+            },
+            {
+              "text": "輕",
+              "reading": "ㄑㄧㄥ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "紗",
+              "reading": "ㄕㄚ"
+            },
+            {
+              "text": "巾",
+              "reading": "ㄐㄧㄣ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "高",
+              "reading": "ㄍㄠ"
+            },
+            {
+              "text": "高",
+              "reading": "ㄍㄠ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "方",
+              "reading": "ㄈㄤ"
+            },
+            {
+              "text": "放",
+              "reading": "ㄈㄤˋ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "能",
+              "reading": "ㄋㄥˊ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "能",
+              "reading": "ㄋㄥˊ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "它",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "落",
+              "reading": "ㄌㄨㄛˋ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "以",
+              "reading": "ㄧˇ"
+            },
+            {
+              "text": "前",
+              "reading": "ㄑㄧㄢˊ"
+            },
+            {
+              "text": "接",
+              "reading": "ㄐㄧㄝ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "風把仙女的紅紗巾吹了下來，落到牛郎腳邊，被他接住了。把一󠇢條輕輕的紗巾從高高的地方放開，看你能不能在它落地以前接住。"
+        }
+      },
+      "time": {
+        "en": "15 minutes",
+        "simp": {
+          "text": "15 分钟",
+          "pinyin": [
+            {
+              "text": "1",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "15 分鐘",
+          "zhuyin": [
+            {
+              "text": "1",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "15 分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "A light scarf, or a piece of tissue",
+          "simp": {
+            "text": "一条轻轻的纱巾（没有的话，用卫生纸也可以）",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "条",
+                "reading": "tiáo"
+              },
+              {
+                "text": "轻",
+                "reading": "qīng"
+              },
+              {
+                "text": "轻",
+                "reading": "qīng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纱",
+                "reading": "shā"
+              },
+              {
+                "text": "巾",
+                "reading": "jīn"
+              },
+              {
+                "text": "（",
+                "reading": ""
+              },
+              {
+                "text": "没",
+                "reading": "méi"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "话",
+                "reading": "huà"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "卫",
+                "reading": "wèi"
+              },
+              {
+                "text": "生",
+                "reading": "shēng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "）",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "一條輕輕的紗巾（沒有的話，用衛生紙也可以）",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "條",
+                "reading": "ㄊㄧㄠˊ"
+              },
+              {
+                "text": "輕",
+                "reading": "ㄑㄧㄥ"
+              },
+              {
+                "text": "輕",
+                "reading": "ㄑㄧㄥ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紗",
+                "reading": "ㄕㄚ"
+              },
+              {
+                "text": "巾",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "（",
+                "reading": ""
+              },
+              {
+                "text": "沒",
+                "reading": "ㄇㄟˊ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "話",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "衛",
+                "reading": "ㄨㄟˋ"
+              },
+              {
+                "text": "生",
+                "reading": "ㄕㄥ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "）",
+                "reading": ""
+              }
+            ],
+            "bpmf": "一󠇢條輕輕的紗巾（沒有的話，用衛生紙也可以）"
+          }
+        },
+        {
+          "en": "A few people to play with",
+          "simp": {
+            "text": "几个一起玩的人",
+            "pinyin": [
+              {
+                "text": "几",
+                "reading": "jǐ"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "玩",
+                "reading": "wán"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              }
+            ]
+          },
+          "trad": {
+            "text": "幾個一起玩的人",
+            "zhuyin": [
+              {
+                "text": "幾",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "玩",
+                "reading": "ㄨㄢˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              }
+            ],
+            "bpmf": "幾個󠇡一󠇢起玩的人"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "One person holds the scarf up as high as they can, then lets go so it floats down.",
+          "simp": {
+            "text": "一个人把纱巾举得高高的，然后放手，让纱巾慢慢飘下来。",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "纱",
+                "reading": "shā"
+              },
+              {
+                "text": "巾",
+                "reading": "jīn"
+              },
+              {
+                "text": "举",
+                "reading": "jǔ"
+              },
+              {
+                "text": "得",
+                "reading": "de"
+              },
+              {
+                "text": "高",
+                "reading": "gāo"
+              },
+              {
+                "text": "高",
+                "reading": "gāo"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "然",
+                "reading": "rán"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "放",
+                "reading": "fàng"
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "纱",
+                "reading": "shā"
+              },
+              {
+                "text": "巾",
+                "reading": "jīn"
+              },
+              {
+                "text": "慢",
+                "reading": "màn"
+              },
+              {
+                "text": "慢",
+                "reading": "màn"
+              },
+              {
+                "text": "飘",
+                "reading": "piāo"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "一個人把紗巾舉得高高的，然後放手，讓紗巾慢慢飄下來。",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "紗",
+                "reading": "ㄕㄚ"
+              },
+              {
+                "text": "巾",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "舉",
+                "reading": "ㄐㄩˇ"
+              },
+              {
+                "text": "得",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "高",
+                "reading": "ㄍㄠ"
+              },
+              {
+                "text": "高",
+                "reading": "ㄍㄠ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "然",
+                "reading": "ㄖㄢˊ"
+              },
+              {
+                "text": "後",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "放",
+                "reading": "ㄈㄤˋ"
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "紗",
+                "reading": "ㄕㄚ"
+              },
+              {
+                "text": "巾",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "慢",
+                "reading": "ㄇㄢˋ"
+              },
+              {
+                "text": "慢",
+                "reading": "ㄇㄢˋ"
+              },
+              {
+                "text": "飄",
+                "reading": "ㄆㄧㄠ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "一󠇡個󠇡人把紗巾舉得󠇡高高的，然後放手，讓紗巾慢慢飄下來。"
+          }
+        },
+        {
+          "en": "Everyone else gets ready with open hands, like Niulang waiting quietly in the reeds.",
+          "simp": {
+            "text": "其他人张开手，准备好，就像牛郎躲在芦苇里等着一样。",
+            "pinyin": [
+              {
+                "text": "其",
+                "reading": "qí"
+              },
+              {
+                "text": "他",
+                "reading": "tā"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "准",
+                "reading": "zhǔn"
+              },
+              {
+                "text": "备",
+                "reading": "bèi"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "牛",
+                "reading": "niú"
+              },
+              {
+                "text": "郎",
+                "reading": "láng"
+              },
+              {
+                "text": "躲",
+                "reading": "duǒ"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "芦",
+                "reading": "lú"
+              },
+              {
+                "text": "苇",
+                "reading": "wěi"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "等",
+                "reading": "děng"
+              },
+              {
+                "text": "着",
+                "reading": "zhe"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "其他人張開手，準備好，就像牛郎躲在蘆葦裡等著一樣。",
+            "zhuyin": [
+              {
+                "text": "其",
+                "reading": "ㄑㄧˊ"
+              },
+              {
+                "text": "他",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "準",
+                "reading": "ㄓㄨㄣˇ"
+              },
+              {
+                "text": "備",
+                "reading": "ㄅㄟˋ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "牛",
+                "reading": "ㄋㄧㄡˊ"
+              },
+              {
+                "text": "郎",
+                "reading": "ㄌㄤˊ"
+              },
+              {
+                "text": "躲",
+                "reading": "ㄉㄨㄛˇ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "蘆",
+                "reading": "ㄌㄨˊ"
+              },
+              {
+                "text": "葦",
+                "reading": "ㄨㄟˇ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "等",
+                "reading": "ㄉㄥˇ"
+              },
+              {
+                "text": "著",
+                "reading": "ㄓㄜ˙"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "其他人張開手，準備好，就像牛郎躲在蘆葦裡等著一󠇡樣。"
+          }
+        },
+        {
+          "en": "The moment the scarf is let go, everyone rushes in to catch it before it touches the ground.",
+          "simp": {
+            "text": "纱巾一放开，大家就赶快去接，别让它掉到地上。",
+            "pinyin": [
+              {
+                "text": "纱",
+                "reading": "shā"
+              },
+              {
+                "text": "巾",
+                "reading": "jīn"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "放",
+                "reading": "fàng"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "家",
+                "reading": "jiā"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "赶",
+                "reading": "gǎn"
+              },
+              {
+                "text": "快",
+                "reading": "kuài"
+              },
+              {
+                "text": "去",
+                "reading": "qù"
+              },
+              {
+                "text": "接",
+                "reading": "jiē"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "别",
+                "reading": "bié"
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "它",
+                "reading": "tā"
+              },
+              {
+                "text": "掉",
+                "reading": "diào"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "紗巾一放開，大家就趕快去接，別讓它掉到地上。",
+            "zhuyin": [
+              {
+                "text": "紗",
+                "reading": "ㄕㄚ"
+              },
+              {
+                "text": "巾",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "放",
+                "reading": "ㄈㄤˋ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "家",
+                "reading": "ㄐㄧㄚ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "趕",
+                "reading": "ㄍㄢˇ"
+              },
+              {
+                "text": "快",
+                "reading": "ㄎㄨㄞˋ"
+              },
+              {
+                "text": "去",
+                "reading": "ㄑㄩˋ"
+              },
+              {
+                "text": "接",
+                "reading": "ㄐㄧㄝ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "別",
+                "reading": "ㄅㄧㄝˊ"
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "它",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "掉",
+                "reading": "ㄉㄧㄠˋ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "紗巾一󠇡放開，大家就趕快去接，別讓它掉到地上。"
+          }
+        },
+        {
+          "en": "Whoever catches it first is the winner, just like Niulang, who caught the scarf and got to meet the Weaver Girl.",
+          "simp": {
+            "text": "第一个接到的人就赢了，就像牛郎接到纱巾，才有机会遇见织女一样。",
+            "pinyin": [
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "一",
+                "reading": "yī"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "接",
+                "reading": "jiē"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "赢",
+                "reading": "yíng"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "牛",
+                "reading": "niú"
+              },
+              {
+                "text": "郎",
+                "reading": "láng"
+              },
+              {
+                "text": "接",
+                "reading": "jiē"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "纱",
+                "reading": "shā"
+              },
+              {
+                "text": "巾",
+                "reading": "jīn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "才",
+                "reading": "cái"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "机",
+                "reading": "jī"
+              },
+              {
+                "text": "会",
+                "reading": "huì"
+              },
+              {
+                "text": "遇",
+                "reading": "yù"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "织",
+                "reading": "zhī"
+              },
+              {
+                "text": "女",
+                "reading": "nǚ"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "第一個接到的人就贏了，就像牛郎接到紗巾，才有機會遇見織女一樣。",
+            "zhuyin": [
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "接",
+                "reading": "ㄐㄧㄝ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "贏",
+                "reading": "ㄧㄥˊ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "牛",
+                "reading": "ㄋㄧㄡˊ"
+              },
+              {
+                "text": "郎",
+                "reading": "ㄌㄤˊ"
+              },
+              {
+                "text": "接",
+                "reading": "ㄐㄧㄝ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "紗",
+                "reading": "ㄕㄚ"
+              },
+              {
+                "text": "巾",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "才",
+                "reading": "ㄘㄞˊ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "機",
+                "reading": "ㄐㄧ"
+              },
+              {
+                "text": "會",
+                "reading": "ㄏㄨㄟˋ"
+              },
+              {
+                "text": "遇",
+                "reading": "ㄩˋ"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "織",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "女",
+                "reading": "ㄋㄩˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "第一個󠇡接到的人就贏了，就像牛郎接到紗巾，才有機會遇見織女一󠇡樣。"
+          }
+        },
+        {
+          "en": "Play again and again. Take turns holding the scarf, and each time, drop it from a little higher.",
+          "simp": {
+            "text": "可以一玩再玩。大家轮流拿纱巾，每一次都放得再高一点。",
+            "pinyin": [
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "玩",
+                "reading": "wán"
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "玩",
+                "reading": "wán"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "家",
+                "reading": "jiā"
+              },
+              {
+                "text": "轮",
+                "reading": "lún"
+              },
+              {
+                "text": "流",
+                "reading": "liú"
+              },
+              {
+                "text": "拿",
+                "reading": "ná"
+              },
+              {
+                "text": "纱",
+                "reading": "shā"
+              },
+              {
+                "text": "巾",
+                "reading": "jīn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "次",
+                "reading": "cì"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "放",
+                "reading": "fàng"
+              },
+              {
+                "text": "得",
+                "reading": "de"
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "高",
+                "reading": "gāo"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "点",
+                "reading": "diǎn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "可以一玩再玩。大家輪流拿紗巾，每一次都放得再高一點。",
+            "zhuyin": [
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "玩",
+                "reading": "ㄨㄢˊ"
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "玩",
+                "reading": "ㄨㄢˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "家",
+                "reading": "ㄐㄧㄚ"
+              },
+              {
+                "text": "輪",
+                "reading": "ㄌㄨㄣˊ"
+              },
+              {
+                "text": "流",
+                "reading": "ㄌㄧㄡˊ"
+              },
+              {
+                "text": "拿",
+                "reading": "ㄋㄚˊ"
+              },
+              {
+                "text": "紗",
+                "reading": "ㄕㄚ"
+              },
+              {
+                "text": "巾",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "次",
+                "reading": "ㄘˋ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "放",
+                "reading": "ㄈㄤˋ"
+              },
+              {
+                "text": "得",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "高",
+                "reading": "ㄍㄠ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "點",
+                "reading": "ㄉㄧㄢˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "可以一󠇢玩再玩。大家輪流拿紗巾，每一󠇡次都放得󠇡再高一󠇢點。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a003",
+      "accent": "#7A4E8C",
+      "title": {
+        "en": "The Weaver Girl's Colorful Clouds",
+        "simp": {
+          "text": "织女的云彩",
+          "pinyin": [
+            {
+              "text": "织",
+              "reading": "zhī"
+            },
+            {
+              "text": "女",
+              "reading": "nǚ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "云",
+              "reading": "yún"
+            },
+            {
+              "text": "彩",
+              "reading": "cǎi"
+            }
+          ]
+        },
+        "trad": {
+          "text": "織女的雲彩",
+          "zhuyin": [
+            {
+              "text": "織",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "女",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "雲",
+              "reading": "ㄩㄣˊ"
+            },
+            {
+              "text": "彩",
+              "reading": "ㄘㄞˇ"
+            }
+          ],
+          "bpmf": "織女的雲彩"
+        }
+      },
+      "desc": {
+        "en": "In the story, the Weaver Girl wove the sky's colorful clouds. Glue cotton and colored paper onto a page to make your own soft, bright clouds.",
+        "simp": {
+          "text": "在故事里，织女织出满天的云彩。用棉花和彩色纸，贴出一片你自己的彩色云朵。",
+          "pinyin": [
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "故",
+              "reading": "gù"
+            },
+            {
+              "text": "事",
+              "reading": "shì"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "织",
+              "reading": "zhī"
+            },
+            {
+              "text": "女",
+              "reading": "nǚ"
+            },
+            {
+              "text": "织",
+              "reading": "zhī"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "满",
+              "reading": "mǎn"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "云",
+              "reading": "yún"
+            },
+            {
+              "text": "彩",
+              "reading": "cǎi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "用",
+              "reading": "yòng"
+            },
+            {
+              "text": "棉",
+              "reading": "mián"
+            },
+            {
+              "text": "花",
+              "reading": "huā"
+            },
+            {
+              "text": "和",
+              "reading": "hé"
+            },
+            {
+              "text": "彩",
+              "reading": "cǎi"
+            },
+            {
+              "text": "色",
+              "reading": "sè"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "贴",
+              "reading": "tiē"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "片",
+              "reading": "piàn"
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "己",
+              "reading": "jǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "彩",
+              "reading": "cǎi"
+            },
+            {
+              "text": "色",
+              "reading": "sè"
+            },
+            {
+              "text": "云",
+              "reading": "yún"
+            },
+            {
+              "text": "朵",
+              "reading": "duǒ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "在故事裡，織女織出滿天的雲彩。用棉花和彩色紙，貼出一片你自己的彩色雲朵。",
+          "zhuyin": [
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "故",
+              "reading": "ㄍㄨˋ"
+            },
+            {
+              "text": "事",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "織",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "女",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "text": "織",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "滿",
+              "reading": "ㄇㄢˇ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "雲",
+              "reading": "ㄩㄣˊ"
+            },
+            {
+              "text": "彩",
+              "reading": "ㄘㄞˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "用",
+              "reading": "ㄩㄥˋ"
+            },
+            {
+              "text": "棉",
+              "reading": "ㄇㄧㄢˊ"
+            },
+            {
+              "text": "花",
+              "reading": "ㄏㄨㄚ"
+            },
+            {
+              "text": "和",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "彩",
+              "reading": "ㄘㄞˇ"
+            },
+            {
+              "text": "色",
+              "reading": "ㄙㄜˋ"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "貼",
+              "reading": "ㄊㄧㄝ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "片",
+              "reading": "ㄆㄧㄢˋ"
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "己",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "彩",
+              "reading": "ㄘㄞˇ"
+            },
+            {
+              "text": "色",
+              "reading": "ㄙㄜˋ"
+            },
+            {
+              "text": "雲",
+              "reading": "ㄩㄣˊ"
+            },
+            {
+              "text": "朵",
+              "reading": "ㄉㄨㄛˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "在故事裡，織女織出滿天的雲彩。用棉花和彩色紙，貼出一󠇡片你自己的彩色雲朵。"
+        }
+      },
+      "time": {
+        "en": "15 minutes",
+        "simp": {
+          "text": "15 分钟",
+          "pinyin": [
+            {
+              "text": "1",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "15 分鐘",
+          "zhuyin": [
+            {
+              "text": "1",
+              "reading": ""
+            },
+            {
+              "text": "5",
+              "reading": ""
+            },
+            {
+              "text": " ",
+              "reading": ""
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "15 分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "Blue paper for the sky",
+          "simp": {
+            "text": "一张蓝色的纸，当天空",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "蓝",
+                "reading": "lán"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "当",
+                "reading": "dāng"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "空",
+                "reading": "kōng"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一張藍色的紙，當天空",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "藍",
+                "reading": "ㄌㄢˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "當",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "空",
+                "reading": "ㄎㄨㄥ"
+              }
+            ],
+            "bpmf": "一󠇢張藍色的紙，當天空"
+          }
+        },
+        {
+          "en": "Cotton balls, or white tissue paper",
+          "simp": {
+            "text": "棉花，或白色的卫生纸",
+            "pinyin": [
+              {
+                "text": "棉",
+                "reading": "mián"
+              },
+              {
+                "text": "花",
+                "reading": "huā"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "白",
+                "reading": "bái"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "卫",
+                "reading": "wèi"
+              },
+              {
+                "text": "生",
+                "reading": "shēng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "棉花，或白色的衛生紙",
+            "zhuyin": [
+              {
+                "text": "棉",
+                "reading": "ㄇㄧㄢˊ"
+              },
+              {
+                "text": "花",
+                "reading": "ㄏㄨㄚ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "白",
+                "reading": "ㄅㄞˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "衛",
+                "reading": "ㄨㄟˋ"
+              },
+              {
+                "text": "生",
+                "reading": "ㄕㄥ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "棉花，或白色的衛生紙"
+          }
+        },
+        {
+          "en": "Colored paper and glue",
+          "simp": {
+            "text": "彩色纸和胶水",
+            "pinyin": [
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "水",
+                "reading": "shuǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "彩色紙和膠水",
+            "zhuyin": [
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "水",
+                "reading": "ㄕㄨㄟˇ"
+              }
+            ],
+            "bpmf": "彩色紙和膠水"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Take your blue paper. This is the sky the Weaver Girl fills with clouds.",
+          "simp": {
+            "text": "拿出你的蓝色纸，这就是织女要放上云彩的天空。",
+            "pinyin": [
+              {
+                "text": "拿",
+                "reading": "ná"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "蓝",
+                "reading": "lán"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "织",
+                "reading": "zhī"
+              },
+              {
+                "text": "女",
+                "reading": "nǚ"
+              },
+              {
+                "text": "要",
+                "reading": "yào"
+              },
+              {
+                "text": "放",
+                "reading": "fàng"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "云",
+                "reading": "yún"
+              },
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "空",
+                "reading": "kōng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "拿出你的藍色紙，這就是織女要放上雲彩的天空。",
+            "zhuyin": [
+              {
+                "text": "拿",
+                "reading": "ㄋㄚˊ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "藍",
+                "reading": "ㄌㄢˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "織",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "女",
+                "reading": "ㄋㄩˇ"
+              },
+              {
+                "text": "要",
+                "reading": "ㄧㄠˋ"
+              },
+              {
+                "text": "放",
+                "reading": "ㄈㄤˋ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "雲",
+                "reading": "ㄩㄣˊ"
+              },
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "空",
+                "reading": "ㄎㄨㄥ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "拿出你的藍色紙，這就是織女要放上雲彩的天空。"
+          }
+        },
+        {
+          "en": "Pull cotton balls into soft, fluffy shapes and glue them onto the sky as white clouds.",
+          "simp": {
+            "text": "把棉花拉成软软的形状，贴在天空上，做成白白的云。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "棉",
+                "reading": "mián"
+              },
+              {
+                "text": "花",
+                "reading": "huā"
+              },
+              {
+                "text": "拉",
+                "reading": "lā"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "软",
+                "reading": "ruǎn"
+              },
+              {
+                "text": "软",
+                "reading": "ruǎn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "形",
+                "reading": "xíng"
+              },
+              {
+                "text": "状",
+                "reading": "zhuàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "空",
+                "reading": "kōng"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "做",
+                "reading": "zuò"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "白",
+                "reading": "bái"
+              },
+              {
+                "text": "白",
+                "reading": "bái"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "云",
+                "reading": "yún"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把棉花拉成軟軟的形狀，貼在天空上，做成白白的雲。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "棉",
+                "reading": "ㄇㄧㄢˊ"
+              },
+              {
+                "text": "花",
+                "reading": "ㄏㄨㄚ"
+              },
+              {
+                "text": "拉",
+                "reading": "ㄌㄚ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "軟",
+                "reading": "ㄖㄨㄢˇ"
+              },
+              {
+                "text": "軟",
+                "reading": "ㄖㄨㄢˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "形",
+                "reading": "ㄒㄧㄥˊ"
+              },
+              {
+                "text": "狀",
+                "reading": "ㄓㄨㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "空",
+                "reading": "ㄎㄨㄥ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "做",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "白",
+                "reading": "ㄅㄞˊ"
+              },
+              {
+                "text": "白",
+                "reading": "ㄅㄞˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "雲",
+                "reading": "ㄩㄣˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把棉花拉成軟軟的形狀，貼在天空上，做成白白的雲。"
+          }
+        },
+        {
+          "en": "Tear colored paper into small pieces and glue them on too, so your clouds glow with color, just like the Weaver Girl's.",
+          "simp": {
+            "text": "再把彩色纸撕成小片，也贴上去，让你的云彩变得五颜六色，就像织女的一样。",
+            "pinyin": [
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "撕",
+                "reading": "sī"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "片",
+                "reading": "piàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "去",
+                "reading": "qù"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "云",
+                "reading": "yún"
+              },
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "变",
+                "reading": "biàn"
+              },
+              {
+                "text": "得",
+                "reading": "de"
+              },
+              {
+                "text": "五",
+                "reading": "wǔ"
+              },
+              {
+                "text": "颜",
+                "reading": "yán"
+              },
+              {
+                "text": "六",
+                "reading": "liù"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "织",
+                "reading": "zhī"
+              },
+              {
+                "text": "女",
+                "reading": "nǚ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "再把彩色紙撕成小片，也貼上去，讓你的雲彩變得五顏六色，就像織女的一樣。",
+            "zhuyin": [
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "撕",
+                "reading": "ㄙ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "片",
+                "reading": "ㄆㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "去",
+                "reading": "ㄑㄩˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "雲",
+                "reading": "ㄩㄣˊ"
+              },
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "變",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "得",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "五",
+                "reading": "ㄨˇ"
+              },
+              {
+                "text": "顏",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "六",
+                "reading": "ㄌㄧㄡˋ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "織",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "女",
+                "reading": "ㄋㄩˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "再把彩色紙撕成小片，也貼上去，讓你的雲彩變得󠇡五顏六色，就像織女的一󠇡樣。"
+          }
+        },
+        {
+          "en": "Hang your colorful cloud sky on the wall. You made a whole sky of clouds with your own hands, just like the Weaver Girl in heaven.",
+          "simp": {
+            "text": "把这片彩色的天空挂在墙上。你也用自己的手，做出了满天的云彩，就像天上的织女一样。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "片",
+                "reading": "piàn"
+              },
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "空",
+                "reading": "kōng"
+              },
+              {
+                "text": "挂",
+                "reading": "guà"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "墙",
+                "reading": "qiáng"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "自",
+                "reading": "zì"
+              },
+              {
+                "text": "己",
+                "reading": "jǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "做",
+                "reading": "zuò"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "满",
+                "reading": "mǎn"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "云",
+                "reading": "yún"
+              },
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "织",
+                "reading": "zhī"
+              },
+              {
+                "text": "女",
+                "reading": "nǚ"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把這片彩色的天空掛在牆上。你也用自己的手，做出了滿天的雲彩，就像天上的織女一樣。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "片",
+                "reading": "ㄆㄧㄢˋ"
+              },
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "空",
+                "reading": "ㄎㄨㄥ"
+              },
+              {
+                "text": "掛",
+                "reading": "ㄍㄨㄚˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "牆",
+                "reading": "ㄑㄧㄤˊ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "自",
+                "reading": "ㄗˋ"
+              },
+              {
+                "text": "己",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "做",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "滿",
+                "reading": "ㄇㄢˇ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "雲",
+                "reading": "ㄩㄣˊ"
+              },
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "織",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "女",
+                "reading": "ㄋㄩˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把這片彩色的天空掛在牆上。你也用自己的手，做出了滿天的雲彩，就像天上的織女一󠇡樣。"
+          }
+        }
+      ]
+    }
+  ]
+}
