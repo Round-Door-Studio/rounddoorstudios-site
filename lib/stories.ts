@@ -132,7 +132,7 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 7, slug: 'dragon-gets-its-eyes', season: 1, released: false,
+    num: 7, slug: 'dragon-gets-its-eyes', season: 1, released: true,
     title: { en: 'When the Dragon Gets Its Eyes', simp: '画龙点睛', trad: '畫龍點睛' },
     blurb: 'When a famous painter leaves his dragons unfinished, a curious crowd insists he add the final touch—unaware of the magic it might unleash.', 
     runtime: '13-15 min', pub: 'Jul 22, 2026', coverColor: '#436641', coverImage: '/img/covers/dragon-gets-eyes_SQ.png',
@@ -140,12 +140,12 @@ export const STORIES: Story[] = [
       en: {
         spotify: 'https://open.spotify.com/episode/0rkWB6K1F2hsDTXmJi2b7l?si=PwJBqCg-SXieQ8tECG_ZMw',
         youtube: 'https://youtu.be/IH0p_ItqaMQ',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000777875789',
       },
       zh: {
         spotify: 'https://open.spotify.com/episode/1PM7hFHrne8gVtiXU5b9iS?si=UxkfltoJQX255SUj_1hpqw',
         youtube: 'https://youtu.be/qkaDf88g93M',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000777876362',
       },
     },
     hasBundle: true,
