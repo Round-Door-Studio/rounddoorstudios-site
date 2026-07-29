@@ -176,7 +176,7 @@ export const STORIES: Story[] = [
     runtime: '10-11 min', pub: 'Aug 19, 2026', coverColor: '#8B7355', coverImage: '/img/covers/three-morn-four-night_SQ.png',
     audio: {
       en: {
-        spotify: 'https://open.spotify.com/episode/28fU1wi6c8EDMeLRUmhUxE?si=LfqS1jmFSXmb99l2qHmJZA',
+        spotify: 'https://open.spotify.com/episode/06nqbx6EqVBWnSVSHOfITY?si=-JDl6in0RwyQOdJN8zWPXg',
         youtube: 'https://youtu.be/Q9C0Mo7j31A',
         apple: '',
       },
