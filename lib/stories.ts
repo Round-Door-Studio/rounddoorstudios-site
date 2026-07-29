@@ -151,7 +151,7 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 8, slug: 'adding-feet-on-a-snake', season: 1, released: false,
+    num: 8, slug: 'adding-feet-on-a-snake', season: 1, released: true,
     title: { en: 'Adding Feet on a Snake', simp: '画蛇添足', trad: '畫蛇添足' },
     blurb: 'A talented artist wins a jug of wine by drawing the fastest snake—but one unnecessary finishing touch costs him everything.', 
     runtime: '12-15 min', pub: 'Jul 29, 2026', coverColor: '#5C8358', coverImage: '/img/covers/snake-feet_SQ.png',
@@ -159,12 +159,12 @@ export const STORIES: Story[] = [
       en: {
         spotify: 'https://open.spotify.com/episode/55079XhjThmohQTxt2pXyR?si=frGk_LiYTdGuer0sHnTjOA',
         youtube: 'https://youtu.be/TYtNcr9u-70',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000778896702',
       },
       zh: {
         spotify: 'https://open.spotify.com/episode/3QmRRoga0idxRllwWlCcqi?si=j5Vlfd6WTI-ghMCmTnEsRw',
         youtube: 'https://youtu.be/BXDCVPfBMoA',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000778897803',
       },
     },
     hasBundle: true,
