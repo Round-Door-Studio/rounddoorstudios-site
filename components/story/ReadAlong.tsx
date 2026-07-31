@@ -69,7 +69,7 @@ export function ReadAlong({ lines, readingMode }: ReadAlongProps) {
   return (
     <>
       <p className="pack-parent-note">
-        Read together, take turns, or listen along as you follow the podcast episode.
+        Read together, take turns, or listen along as you follow the audio episode.
       </p>
       <div
         id="reading"

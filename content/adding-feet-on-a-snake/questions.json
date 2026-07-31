@@ -1,0 +1,4368 @@
+{
+  "slug": "adding-feet-on-a-snake",
+  "title": {
+    "trad": "畫蛇添足",
+    "simp": "画蛇添足",
+    "en": "Adding Feet on a Snake"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "这个故事发生在哪一个国家？",
+        "pinyin": [
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "国",
+            "reading": "guó"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "這個故事發生在哪一個國家？",
+        "zhuyin": [
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "國",
+            "reading": "ㄍㄨㄛˊ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "這個󠇡故事發生在哪一󠇢個󠇡國家？"
+      },
+      "en": "In which country does this story take place?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "昭老爷为什么想要谢谢门客们？",
+        "pinyin": [
+          {
+            "text": "昭",
+            "reading": "zhāo"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "爷",
+            "reading": "yé"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "谢",
+            "reading": "xiè"
+          },
+          {
+            "text": "谢",
+            "reading": "xie"
+          },
+          {
+            "text": "门",
+            "reading": "mén"
+          },
+          {
+            "text": "客",
+            "reading": "kè"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "昭老爺為什麼想要謝謝門客們？",
+        "zhuyin": [
+          {
+            "text": "昭",
+            "reading": "ㄓㄠ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "爺",
+            "reading": "ㄧㄝˊ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "謝",
+            "reading": "ㄒㄧㄝˋ"
+          },
+          {
+            "text": "謝",
+            "reading": "ㄒㄧㄝ˙"
+          },
+          {
+            "text": "門",
+            "reading": "ㄇㄣˊ"
+          },
+          {
+            "text": "客",
+            "reading": "ㄎㄜˋ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "昭老爺為󠇡什麼想要謝謝門客們？"
+      },
+      "en": "Why did Lord Zhao want to thank his retainers?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "昭老爷把什么东西赏给门客们？",
+        "pinyin": [
+          {
+            "text": "昭",
+            "reading": "zhāo"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "爷",
+            "reading": "yé"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "东",
+            "reading": "dōng"
+          },
+          {
+            "text": "西",
+            "reading": "xi"
+          },
+          {
+            "text": "赏",
+            "reading": "shǎng"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "门",
+            "reading": "mén"
+          },
+          {
+            "text": "客",
+            "reading": "kè"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "昭老爺把什麼東西賞給門客們？",
+        "zhuyin": [
+          {
+            "text": "昭",
+            "reading": "ㄓㄠ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "爺",
+            "reading": "ㄧㄝˊ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "東",
+            "reading": "ㄉㄨㄥ"
+          },
+          {
+            "text": "西",
+            "reading": "ㄒㄧ˙"
+          },
+          {
+            "text": "賞",
+            "reading": "ㄕㄤˇ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "門",
+            "reading": "ㄇㄣˊ"
+          },
+          {
+            "text": "客",
+            "reading": "ㄎㄜˋ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "昭老爺把什麼東西󠇡賞給門客們？"
+      },
+      "en": "What did Lord Zhao give to his retainers as a reward?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "一壶酒不够六个人喝，阿祥想出了什么办法？",
+        "pinyin": [
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "壶",
+            "reading": "hú"
+          },
+          {
+            "text": "酒",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "够",
+            "reading": "gòu"
+          },
+          {
+            "text": "六",
+            "reading": "liù"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "喝",
+            "reading": "hē"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "祥",
+            "reading": "xiáng"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "办",
+            "reading": "bàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "一壺酒不夠六個人喝，阿祥想出了什麼辦法？",
+        "zhuyin": [
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "壺",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "酒",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "夠",
+            "reading": "ㄍㄡˋ"
+          },
+          {
+            "text": "六",
+            "reading": "ㄌㄧㄡˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "喝",
+            "reading": "ㄏㄜ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "祥",
+            "reading": "ㄒㄧㄤˊ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "辦",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "一󠇢壺酒不󠇡夠六個󠇡人喝，阿祥想出了什麼辦法？"
+      },
+      "en": "The pot of wine was not enough for six people, so what idea did Ah Xiang come up with?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "根据比赛的规则，谁可以喝到那壶酒？",
+        "pinyin": [
+          {
+            "text": "根",
+            "reading": "gēn"
+          },
+          {
+            "text": "据",
+            "reading": "jù"
+          },
+          {
+            "text": "比",
+            "reading": "bǐ"
+          },
+          {
+            "text": "赛",
+            "reading": "sài"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "规",
+            "reading": "guī"
+          },
+          {
+            "text": "则",
+            "reading": "zé"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "喝",
+            "reading": "hē"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "壶",
+            "reading": "hú"
+          },
+          {
+            "text": "酒",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "根據比賽的規則，誰可以喝到那壺酒？",
+        "zhuyin": [
+          {
+            "text": "根",
+            "reading": "ㄍㄣ"
+          },
+          {
+            "text": "據",
+            "reading": "ㄐㄩˋ"
+          },
+          {
+            "text": "比",
+            "reading": "ㄅㄧˇ"
+          },
+          {
+            "text": "賽",
+            "reading": "ㄙㄞˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "規",
+            "reading": "ㄍㄨㄟ"
+          },
+          {
+            "text": "則",
+            "reading": "ㄗㄜˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "喝",
+            "reading": "ㄏㄜ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "壺",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "酒",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "根據比賽的規則，誰可以喝到那壺酒？"
+      },
+      "en": "According to the rule of the contest, who gets to drink the wine?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "谁第一个把蛇画完了？",
+        "pinyin": [
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "一",
+            "reading": "yī"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "蛇",
+            "reading": "shé"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "完",
+            "reading": "wán"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "誰第一個把蛇畫完了？",
+        "zhuyin": [
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "蛇",
+            "reading": "ㄕㄜˊ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "完",
+            "reading": "ㄨㄢˊ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "誰第一個󠇡把蛇畫完了？"
+      },
+      "en": "Who finished drawing the snake first?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "阿祥把蛇画完以后，又多做了什么事？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "祥",
+            "reading": "xiáng"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "蛇",
+            "reading": "shé"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "完",
+            "reading": "wán"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "又",
+            "reading": "yòu"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿祥把蛇畫完以後，又多做了什麼事？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "祥",
+            "reading": "ㄒㄧㄤˊ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "蛇",
+            "reading": "ㄕㄜˊ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "完",
+            "reading": "ㄨㄢˊ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "又",
+            "reading": "ㄧㄡˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿祥把蛇畫完以後，又多做了什麼事？"
+      },
+      "en": "After Ah Xiang finished his snake, what extra thing did he do?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "后来，是谁画完了蛇，抢走了那壶酒？",
+        "pinyin": [
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "完",
+            "reading": "wán"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "蛇",
+            "reading": "shé"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "抢",
+            "reading": "qiǎng"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "壶",
+            "reading": "hú"
+          },
+          {
+            "text": "酒",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "後來，是誰畫完了蛇，搶走了那壺酒？",
+        "zhuyin": [
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "完",
+            "reading": "ㄨㄢˊ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "蛇",
+            "reading": "ㄕㄜˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "搶",
+            "reading": "ㄑㄧㄤˇ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "壺",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "酒",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "後來，是誰畫完了蛇，搶走了那壺酒？"
+      },
+      "en": "In the end, who finished a snake and grabbed the wine?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "阿安说，为什么那壶酒应该是他的？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "安",
+            "reading": "ān"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "壶",
+            "reading": "hú"
+          },
+          {
+            "text": "酒",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "应",
+            "reading": "yīng"
+          },
+          {
+            "text": "该",
+            "reading": "gāi"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿安說，為什麼那壺酒應該是他的？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "安",
+            "reading": "ㄢ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "壺",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "酒",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "應",
+            "reading": "ㄧㄥ"
+          },
+          {
+            "text": "該",
+            "reading": "ㄍㄞ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿安說，為󠇡什麼那壺酒應該是他的？"
+      },
+      "en": "What reason did Ah An give for why the wine should be his?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "阿祥本来可以赢，却因为多画了脚而输了。你觉得他为什么要多此一举？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "祥",
+            "reading": "xiáng"
+          },
+          {
+            "text": "本",
+            "reading": "běn"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "赢",
+            "reading": "yíng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "因",
+            "reading": "yīn"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "脚",
+            "reading": "jiǎo"
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "输",
+            "reading": "shū"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "此",
+            "reading": "cǐ"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "举",
+            "reading": "jǔ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿祥本來可以贏，卻因為多畫了腳而輸了。你覺得他為什麼要多此一舉？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "祥",
+            "reading": "ㄒㄧㄤˊ"
+          },
+          {
+            "text": "本",
+            "reading": "ㄅㄣˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "贏",
+            "reading": "ㄧㄥˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "因",
+            "reading": "ㄧㄣ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "腳",
+            "reading": "ㄐㄧㄠˇ"
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "輸",
+            "reading": "ㄕㄨ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "此",
+            "reading": "ㄘˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "舉",
+            "reading": "ㄐㄩˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿祥本來可以贏，卻因為󠇡多畫了腳而輸了。你覺得󠇡他為󠇡什麼要多此一󠇢舉？"
+      },
+      "en": "Ah Xiang could have won, but lost because he added feet. Why do you think he did something so unnecessary?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "“画蛇添足”这个成语是什么意思？你可以用自己的话说说看吗？",
+        "pinyin": [
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "蛇",
+            "reading": "shé"
+          },
+          {
+            "text": "添",
+            "reading": "tiān"
+          },
+          {
+            "text": "足",
+            "reading": "zú"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "语",
+            "reading": "yǔ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "思",
+            "reading": "si"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "「畫蛇添足」這個成語是什麼意思？你可以用自己的話說說看嗎？",
+        "zhuyin": [
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "蛇",
+            "reading": "ㄕㄜˊ"
+          },
+          {
+            "text": "添",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "足",
+            "reading": "ㄗㄨˊ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "語",
+            "reading": "ㄩˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "思",
+            "reading": "ㄙ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "「畫蛇添足」這個󠇡成語是什麼意思？你可以用自己的話說說看嗎？"
+      },
+      "en": "What does the idiom \"drawing feet on a snake\" mean? Can you explain it in your own words?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "阿祥加脚，是想让别人觉得他很厉害。你觉得爱炫耀是一件好事吗？为什么？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "祥",
+            "reading": "xiáng"
+          },
+          {
+            "text": "加",
+            "reading": "jiā"
+          },
+          {
+            "text": "脚",
+            "reading": "jiǎo"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "厉",
+            "reading": "lì"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "爱",
+            "reading": "ài"
+          },
+          {
+            "text": "炫",
+            "reading": "xuàn"
+          },
+          {
+            "text": "耀",
+            "reading": "yào"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿祥加腳，是想讓別人覺得他很厲害。你覺得愛炫耀是一件好事嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "祥",
+            "reading": "ㄒㄧㄤˊ"
+          },
+          {
+            "text": "加",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "腳",
+            "reading": "ㄐㄧㄠˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "厲",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "愛",
+            "reading": "ㄞˋ"
+          },
+          {
+            "text": "炫",
+            "reading": "ㄒㄩㄢˋ"
+          },
+          {
+            "text": "耀",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿祥加腳，是想讓別人覺得󠇡他很厲害。你覺得󠇡愛炫耀是一󠇡件好事嗎？為󠇡什麼？"
+      },
+      "en": "Ah Xiang added feet to look impressive. Do you think showing off is a good thing? Why?"
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "如果你是阿祥，画完蛇以后，你会马上去拿酒，还是再多画一点？为什么？",
+        "pinyin": [
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "祥",
+            "reading": "xiáng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "完",
+            "reading": "wán"
+          },
+          {
+            "text": "蛇",
+            "reading": "shé"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "马",
+            "reading": "mǎ"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "拿",
+            "reading": "ná"
+          },
+          {
+            "text": "酒",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "再",
+            "reading": "zài"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "画",
+            "reading": "huà"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "点",
+            "reading": "diǎn"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "如果你是阿祥，畫完蛇以後，你會馬上去拿酒，還是再多畫一點？為什麼？",
+        "zhuyin": [
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "祥",
+            "reading": "ㄒㄧㄤˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "完",
+            "reading": "ㄨㄢˊ"
+          },
+          {
+            "text": "蛇",
+            "reading": "ㄕㄜˊ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "馬",
+            "reading": "ㄇㄚˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "拿",
+            "reading": "ㄋㄚˊ"
+          },
+          {
+            "text": "酒",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "再",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "畫",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "點",
+            "reading": "ㄉㄧㄢˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "如果你是阿祥，畫完蛇以後，你會馬上去拿酒，還是再多畫一󠇢點？為󠇡什麼？"
+      },
+      "en": "If you were Ah Xiang, after finishing the snake, would you grab the wine right away or keep drawing? Why?"
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "阿安说“蛇本来就没有脚”。你同意他赢得公平吗？为什么？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "安",
+            "reading": "ān"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "蛇",
+            "reading": "shé"
+          },
+          {
+            "text": "本",
+            "reading": "běn"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "脚",
+            "reading": "jiǎo"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "同",
+            "reading": "tóng"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "赢",
+            "reading": "yíng"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "平",
+            "reading": "píng"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿安說「蛇本來就沒有腳」。你同意他贏得公平嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "安",
+            "reading": "ㄢ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "蛇",
+            "reading": "ㄕㄜˊ"
+          },
+          {
+            "text": "本",
+            "reading": "ㄅㄣˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "腳",
+            "reading": "ㄐㄧㄠˇ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "同",
+            "reading": "ㄊㄨㄥˊ"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "贏",
+            "reading": "ㄧㄥˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "平",
+            "reading": "ㄆㄧㄥˊ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿安說「蛇本來就沒有腳」。你同意他贏得󠇡公平嗎？為󠇡什麼？"
+      },
+      "en": "Ah An said \"a snake has no feet.\" Do you agree that he won fairly? Why?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "你有没有做过一件事，本来很好，却因为多做了一步，反而变得不好？",
+        "pinyin": [
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "本",
+            "reading": "běn"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "因",
+            "reading": "yīn"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "步",
+            "reading": "bù"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "反",
+            "reading": "fǎn"
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "你有沒有做過一件事，本來很好，卻因為多做了一步，反而變得不好？",
+        "zhuyin": [
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "本",
+            "reading": "ㄅㄣˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "因",
+            "reading": "ㄧㄣ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "步",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "反",
+            "reading": "ㄈㄢˇ"
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "你有沒有做過一󠇡件事，本來很好，卻因為󠇡多做了一󠇡步，反而變得󠇡不好？"
+      },
+      "en": "Have you ever done something that was good, but then turned out worse because you did one extra step?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "昭老爷没有骂阿祥，只是轻轻拍了拍他的肩膀。你觉得为什么这样反而让阿祥记得更清楚？",
+        "pinyin": [
+          {
+            "text": "昭",
+            "reading": "zhāo"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "爷",
+            "reading": "yé"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "骂",
+            "reading": "mà"
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "祥",
+            "reading": "xiáng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "轻",
+            "reading": "qīng"
+          },
+          {
+            "text": "轻",
+            "reading": "qīng"
+          },
+          {
+            "text": "拍",
+            "reading": "pāi"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "拍",
+            "reading": "pāi"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "肩",
+            "reading": "jiān"
+          },
+          {
+            "text": "膀",
+            "reading": "bǎng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "反",
+            "reading": "fǎn"
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "祥",
+            "reading": "xiáng"
+          },
+          {
+            "text": "记",
+            "reading": "jì"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "更",
+            "reading": "gèng"
+          },
+          {
+            "text": "清",
+            "reading": "qīng"
+          },
+          {
+            "text": "楚",
+            "reading": "chǔ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "昭老爺沒有罵阿祥，只是輕輕拍了拍他的肩膀。你覺得為什麼這樣反而讓阿祥記得更清楚？",
+        "zhuyin": [
+          {
+            "text": "昭",
+            "reading": "ㄓㄠ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "爺",
+            "reading": "ㄧㄝˊ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "罵",
+            "reading": "ㄇㄚˋ"
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "祥",
+            "reading": "ㄒㄧㄤˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "輕",
+            "reading": "ㄑㄧㄥ"
+          },
+          {
+            "text": "輕",
+            "reading": "ㄑㄧㄥ"
+          },
+          {
+            "text": "拍",
+            "reading": "ㄆㄞ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "拍",
+            "reading": "ㄆㄞ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "肩",
+            "reading": "ㄐㄧㄢ"
+          },
+          {
+            "text": "膀",
+            "reading": "ㄅㄤˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "反",
+            "reading": "ㄈㄢˇ"
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "祥",
+            "reading": "ㄒㄧㄤˊ"
+          },
+          {
+            "text": "記",
+            "reading": "ㄐㄧˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "更",
+            "reading": "ㄍㄥˋ"
+          },
+          {
+            "text": "清",
+            "reading": "ㄑㄧㄥ"
+          },
+          {
+            "text": "楚",
+            "reading": "ㄔㄨˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "昭老爺沒有罵阿祥，只是輕輕拍了拍他的肩膀。你覺得󠇡為󠇡什麼這樣反而讓阿祥記得󠇡更清楚？"
+      },
+      "en": "Lord Zhao did not scold Ah Xiang, he just gently patted his shoulder. Why do you think this made Ah Xiang remember it even more clearly?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "这个故事让我们知道，有时候“刚刚好”比“更多”更好。你能想到什么事情，做到刚刚好就够了？",
+        "pinyin": [
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "知",
+            "reading": "zhī"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "刚",
+            "reading": "gāng"
+          },
+          {
+            "text": "刚",
+            "reading": "gāng"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "比",
+            "reading": "bǐ"
+          },
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "更",
+            "reading": "gèng"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "更",
+            "reading": "gèng"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "能",
+            "reading": "néng"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "情",
+            "reading": "qíng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "刚",
+            "reading": "gāng"
+          },
+          {
+            "text": "刚",
+            "reading": "gāng"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "够",
+            "reading": "gòu"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "這個故事讓我們知道，有時候「剛剛好」比「更多」更好。你能想到什麼事情，做到剛剛好就夠了？",
+        "zhuyin": [
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "知",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "剛",
+            "reading": "ㄍㄤ"
+          },
+          {
+            "text": "剛",
+            "reading": "ㄍㄤ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "比",
+            "reading": "ㄅㄧˇ"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "更",
+            "reading": "ㄍㄥˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "更",
+            "reading": "ㄍㄥˋ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "能",
+            "reading": "ㄋㄥˊ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "情",
+            "reading": "ㄑㄧㄥˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "剛",
+            "reading": "ㄍㄤ"
+          },
+          {
+            "text": "剛",
+            "reading": "ㄍㄤ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "夠",
+            "reading": "ㄍㄡˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "這個󠇡故事讓我們知道，有時候「剛剛好」比「更多」更好。你能想到什麼事情，做到剛剛好就夠了？"
+      },
+      "en": "This story shows that sometimes \"just right\" is better than \"more.\" Can you think of something where doing it just right is enough?"
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "阿祥后来做事以前，都会先问自己：“做到这里就够了吗？”你觉得这是一个好习惯吗？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "祥",
+            "reading": "xiáng"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "前",
+            "reading": "qián"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "先",
+            "reading": "xiān"
+          },
+          {
+            "text": "问",
+            "reading": "wèn"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "：",
+            "reading": ""
+          },
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "够",
+            "reading": "gòu"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "习",
+            "reading": "xí"
+          },
+          {
+            "text": "惯",
+            "reading": "guàn"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿祥後來做事以前，都會先問自己：「做到這裡就夠了嗎？」你覺得這是一個好習慣嗎？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "祥",
+            "reading": "ㄒㄧㄤˊ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "前",
+            "reading": "ㄑㄧㄢˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "先",
+            "reading": "ㄒㄧㄢ"
+          },
+          {
+            "text": "問",
+            "reading": "ㄨㄣˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "：",
+            "reading": ""
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "夠",
+            "reading": "ㄍㄡˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "習",
+            "reading": "ㄒㄧˊ"
+          },
+          {
+            "text": "慣",
+            "reading": "ㄍㄨㄢˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿祥後來做事以前，都會先問自己：「做到這裡就夠了嗎？」你覺得󠇡這是一󠇢個󠇡好習慣嗎？"
+      },
+      "en": "Afterward, before doing things, Ah Xiang would first ask himself, \"Is this enough?\" Do you think this is a good habit?"
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "阿祥一开始就很有信心，觉得自己一定会赢。你觉得太有信心，有时候会不会反而让人做错事？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "祥",
+            "reading": "xiáng"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "开",
+            "reading": "kāi"
+          },
+          {
+            "text": "始",
+            "reading": "shǐ"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "信",
+            "reading": "xìn"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "定",
+            "reading": "dìng"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "赢",
+            "reading": "yíng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "太",
+            "reading": "tài"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "信",
+            "reading": "xìn"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "反",
+            "reading": "fǎn"
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "错",
+            "reading": "cuò"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿祥一開始就很有信心，覺得自己一定會贏。你覺得太有信心，有時候會不會反而讓人做錯事？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "祥",
+            "reading": "ㄒㄧㄤˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "開",
+            "reading": "ㄎㄞ"
+          },
+          {
+            "text": "始",
+            "reading": "ㄕˇ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "信",
+            "reading": "ㄒㄧㄣˋ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "定",
+            "reading": "ㄉㄧㄥˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "贏",
+            "reading": "ㄧㄥˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "太",
+            "reading": "ㄊㄞˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "信",
+            "reading": "ㄒㄧㄣˋ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "反",
+            "reading": "ㄈㄢˇ"
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "錯",
+            "reading": "ㄘㄨㄛˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿祥一󠇢開始就很有信心，覺得󠇡自己一󠇡定會贏。你覺得󠇡太有信心，有時候會不󠇡會反而讓人做錯事？"
+      },
+      "en": "From the start, Ah Xiang was very confident he would win. Do you think being too confident can sometimes make a person make mistakes?"
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "你觉得这个故事最想告诉我们什么道理？",
+        "pinyin": [
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "告",
+            "reading": "gào"
+          },
+          {
+            "text": "诉",
+            "reading": "sù"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "理",
+            "reading": "lǐ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "你覺得這個故事最想告訴我們什麼道理？",
+        "zhuyin": [
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "告",
+            "reading": "ㄍㄠˋ"
+          },
+          {
+            "text": "訴",
+            "reading": "ㄙㄨˋ"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "理",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "你覺得󠇡這個󠇡故事最想告訴我們什麼道理？"
+      },
+      "en": "What lesson do you think this story most wants to teach us?"
+    }
+  ]
+}

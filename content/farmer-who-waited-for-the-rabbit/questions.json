@@ -1,0 +1,4768 @@
+{
+  "slug": "farmer-who-waited-for-the-rabbit",
+  "title": {
+    "trad": "守株待兔",
+    "simp": "守株待兔",
+    "en": "The Farmer Who Waited for the Rabbit"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "阿丁是做什么工作的？他每天都在田里忙什么？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "工",
+            "reading": "gōng"
+          },
+          {
+            "text": "作",
+            "reading": "zuò"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "每",
+            "reading": "měi"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "田",
+            "reading": "tián"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "忙",
+            "reading": "máng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿丁是做什麼工作的？他每天都在田裡忙什麼？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "工",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "作",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "每",
+            "reading": "ㄇㄟˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "田",
+            "reading": "ㄊㄧㄢˊ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "忙",
+            "reading": "ㄇㄤˊ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿丁是做什麼工作的？他每天都在田裡忙什麼？"
+      },
+      "en": "What is Ah-Ding's job? What does he do in the field every day?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "田边那根树桩是怎么来的？",
+        "pinyin": [
+          {
+            "text": "田",
+            "reading": "tián"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "根",
+            "reading": "gēn"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "桩",
+            "reading": "zhuāng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "田邊那根樹樁是怎麼來的？",
+        "zhuyin": [
+          {
+            "text": "田",
+            "reading": "ㄊㄧㄢˊ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "根",
+            "reading": "ㄍㄣ"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "樁",
+            "reading": "ㄓㄨㄤ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "田邊那根樹樁是怎麼來的？"
+      },
+      "en": "Where did the tree stump at the edge of the field come from?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "那天下午，阿丁看到一只兔子。兔子跑得快不快？",
+        "pinyin": [
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "午",
+            "reading": "wǔ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "兔",
+            "reading": "tù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "兔",
+            "reading": "tù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "跑",
+            "reading": "pǎo"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "快",
+            "reading": "kuài"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "快",
+            "reading": "kuài"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "那天下午，阿丁看到一隻兔子。兔子跑得快不快？",
+        "zhuyin": [
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "午",
+            "reading": "ㄨˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "兔",
+            "reading": "ㄊㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "兔",
+            "reading": "ㄊㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "跑",
+            "reading": "ㄆㄠˇ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "快",
+            "reading": "ㄎㄨㄞˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "快",
+            "reading": "ㄎㄨㄞˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "那天下午，阿丁看到一󠇢隻兔子󠇡。兔子󠇡跑得󠇡快不󠇡快？"
+      },
+      "en": "That afternoon, Ah-Ding saw a rabbit. Was the rabbit running fast?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "兔子最后撞到了什么？后来它怎么了？",
+        "pinyin": [
+          {
+            "text": "兔",
+            "reading": "tù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "撞",
+            "reading": "zhuàng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "它",
+            "reading": "tā"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "兔子最後撞到了什麼？後來牠怎麼了？",
+        "zhuyin": [
+          {
+            "text": "兔",
+            "reading": "ㄊㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "撞",
+            "reading": "ㄓㄨㄤˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "牠",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "兔子󠇡最後撞到了什麼？後來牠怎麼了？"
+      },
+      "en": "What did the rabbit finally crash into? What happened to it after that?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "阿丁把兔子带回家以后，那天晚上全家人做了什么？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "兔",
+            "reading": "tù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "带",
+            "reading": "dài"
+          },
+          {
+            "text": "回",
+            "reading": "huí"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "晚",
+            "reading": "wǎn"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "全",
+            "reading": "quán"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿丁把兔子帶回家以後，那天晚上全家人做了什麼？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "兔",
+            "reading": "ㄊㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "帶",
+            "reading": "ㄉㄞˋ"
+          },
+          {
+            "text": "回",
+            "reading": "ㄏㄨㄟˊ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "晚",
+            "reading": "ㄨㄢˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "全",
+            "reading": "ㄑㄩㄢˊ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿丁把兔子󠇡帶回家以後，那天晚上全家人做了什麼？"
+      },
+      "en": "After Ah-Ding brought the rabbit home, what did the whole family do that night?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "那天晚上，阿丁躺在床上一直睡不着。他在想什么？",
+        "pinyin": [
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "晚",
+            "reading": "wǎn"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "躺",
+            "reading": "tǎng"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "睡",
+            "reading": "shuì"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "着",
+            "reading": "zháo"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "那天晚上，阿丁躺在床上一直睡不著。他在想什麼？",
+        "zhuyin": [
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "晚",
+            "reading": "ㄨㄢˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "躺",
+            "reading": "ㄊㄤˇ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "睡",
+            "reading": "ㄕㄨㄟˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄠˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "那天晚上，阿丁躺在床上一󠇢直睡不著󠇣。他在想什麼？"
+      },
+      "en": "That night, Ah-Ding lay in bed and could not fall asleep. What was he thinking about?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "第二天开始，阿丁不种田了。他每天坐在哪里？在等什么？",
+        "pinyin": [
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "二",
+            "reading": "èr"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "开",
+            "reading": "kāi"
+          },
+          {
+            "text": "始",
+            "reading": "shǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "种",
+            "reading": "zhòng"
+          },
+          {
+            "text": "田",
+            "reading": "tián"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "每",
+            "reading": "měi"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "坐",
+            "reading": "zuò"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "等",
+            "reading": "děng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "第二天開始，阿丁不種田了。他每天坐在哪裡？在等什麼？",
+        "zhuyin": [
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "二",
+            "reading": "ㄦˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "開",
+            "reading": "ㄎㄞ"
+          },
+          {
+            "text": "始",
+            "reading": "ㄕˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "種",
+            "reading": "ㄓㄨㄥˋ"
+          },
+          {
+            "text": "田",
+            "reading": "ㄊㄧㄢˊ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "每",
+            "reading": "ㄇㄟˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "坐",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "等",
+            "reading": "ㄉㄥˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "第二天開始，阿丁不󠇡種󠇡田了。他每天坐在哪裡？在等什麼？"
+      },
+      "en": "From the next day on, Ah-Ding stopped farming. Where did he sit every day, and what was he waiting for?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "白胡子老爷爷问阿丁在做什么，阿丁是怎么回答的？",
+        "pinyin": [
+          {
+            "text": "白",
+            "reading": "bái"
+          },
+          {
+            "text": "胡",
+            "reading": "hú"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "爷",
+            "reading": "yé"
+          },
+          {
+            "text": "爷",
+            "reading": "yé"
+          },
+          {
+            "text": "问",
+            "reading": "wèn"
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "回",
+            "reading": "huí"
+          },
+          {
+            "text": "答",
+            "reading": "dá"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "白鬍子老爺爺問阿丁在做什麼，阿丁是怎麼回答的？",
+        "zhuyin": [
+          {
+            "text": "白",
+            "reading": "ㄅㄞˊ"
+          },
+          {
+            "text": "鬍",
+            "reading": "ㄏㄨˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "爺",
+            "reading": "ㄧㄝˊ"
+          },
+          {
+            "text": "爺",
+            "reading": "ㄧㄝˊ"
+          },
+          {
+            "text": "問",
+            "reading": "ㄨㄣˋ"
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "回",
+            "reading": "ㄏㄨㄟˊ"
+          },
+          {
+            "text": "答",
+            "reading": "ㄉㄚˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "白鬍子󠇡老爺爺問阿丁在做什麼，阿丁是怎麼回答的？"
+      },
+      "en": "When the white-bearded old man asked Ah-Ding what he was doing, how did Ah-Ding answer?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "阿丁一直坐着等兔子，他的田最后变成什么样子？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "坐",
+            "reading": "zuò"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "等",
+            "reading": "děng"
+          },
+          {
+            "text": "兔",
+            "reading": "tù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "田",
+            "reading": "tián"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿丁一直坐著等兔子，他的田最後變成什麼樣子？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "坐",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "等",
+            "reading": "ㄉㄥˇ"
+          },
+          {
+            "text": "兔",
+            "reading": "ㄊㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "田",
+            "reading": "ㄊㄧㄢˊ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿丁一󠇢直坐著等兔子󠇡，他的田最後變成什麼樣子󠇡？"
+      },
+      "en": "While Ah-Ding kept sitting and waiting for a rabbit, what did his field become in the end?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "阿丁的太太抱着孩子来到田边，哭着跟阿丁说了什么？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "太",
+            "reading": "tài"
+          },
+          {
+            "text": "太",
+            "reading": "tài"
+          },
+          {
+            "text": "抱",
+            "reading": "bào"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "孩",
+            "reading": "hái"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "田",
+            "reading": "tián"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "哭",
+            "reading": "kū"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "跟",
+            "reading": "gēn"
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿丁的太太抱著孩子來到田邊，哭著跟阿丁說了什麼？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "太",
+            "reading": "ㄊㄞˋ"
+          },
+          {
+            "text": "太",
+            "reading": "ㄊㄞˋ"
+          },
+          {
+            "text": "抱",
+            "reading": "ㄅㄠˋ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "孩",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "田",
+            "reading": "ㄊㄧㄢˊ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "哭",
+            "reading": "ㄎㄨ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "跟",
+            "reading": "ㄍㄣ"
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿丁的太太抱著孩子󠇡來到田邊，哭著跟阿丁說了什麼？"
+      },
+      "en": "Ah-Ding's wife came to the field holding their child. What did she say to Ah-Ding while crying?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "“守株待兔”这个成语是什么意思？你可以用自己的话说说看吗？",
+        "pinyin": [
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "守",
+            "reading": "shǒu"
+          },
+          {
+            "text": "株",
+            "reading": "zhū"
+          },
+          {
+            "text": "待",
+            "reading": "dài"
+          },
+          {
+            "text": "兔",
+            "reading": "tù"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "语",
+            "reading": "yǔ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "思",
+            "reading": "si"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "「守株待兔」這個成語是什麼意思？你可以用自己的話說說看嗎？",
+        "zhuyin": [
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "守",
+            "reading": "ㄕㄡˇ"
+          },
+          {
+            "text": "株",
+            "reading": "ㄓㄨ"
+          },
+          {
+            "text": "待",
+            "reading": "ㄉㄞˋ"
+          },
+          {
+            "text": "兔",
+            "reading": "ㄊㄨˋ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "語",
+            "reading": "ㄩˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "思",
+            "reading": "ㄙ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "「守株待兔」這個󠇡成語是什麼意思？你可以用自己的話說說看嗎？"
+      },
+      "en": "What does the idiom \"guarding a tree stump, waiting for a rabbit\" mean? Can you say it in your own words?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "兔子撞到树桩，是每天都会发生的事吗？阿丁为什么觉得以后还会有第二只？",
+        "pinyin": [
+          {
+            "text": "兔",
+            "reading": "tù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "撞",
+            "reading": "zhuàng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "桩",
+            "reading": "zhuāng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "每",
+            "reading": "měi"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "二",
+            "reading": "èr"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "兔子撞到樹樁，是每天都會發生的事嗎？阿丁為什麼覺得以後還會有第二隻？",
+        "zhuyin": [
+          {
+            "text": "兔",
+            "reading": "ㄊㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "撞",
+            "reading": "ㄓㄨㄤˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "樁",
+            "reading": "ㄓㄨㄤ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "每",
+            "reading": "ㄇㄟˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "二",
+            "reading": "ㄦˋ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "兔子󠇡撞到樹樁，是每天都會發生的事嗎？阿丁為󠇡什麼覺得󠇡以後還會有第二隻？"
+      },
+      "en": "Is a rabbit crashing into the stump something that happens every day? Why did Ah-Ding think a second one would come?"
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "阿丁本来是一个很努力的农夫，后来却变得懒惰。你觉得是什么改变了他？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "本",
+            "reading": "běn"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "努",
+            "reading": "nǔ"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "农",
+            "reading": "nóng"
+          },
+          {
+            "text": "夫",
+            "reading": "fū"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "懒",
+            "reading": "lǎn"
+          },
+          {
+            "text": "惰",
+            "reading": "duò"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "改",
+            "reading": "gǎi"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿丁本來是一個很努力的農夫，後來卻變得懶惰。你覺得是什麼改變了他？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "本",
+            "reading": "ㄅㄣˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "努",
+            "reading": "ㄋㄨˇ"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "農",
+            "reading": "ㄋㄨㄥˊ"
+          },
+          {
+            "text": "夫",
+            "reading": "ㄈㄨ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "懶",
+            "reading": "ㄌㄢˇ"
+          },
+          {
+            "text": "惰",
+            "reading": "ㄉㄨㄛˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "改",
+            "reading": "ㄍㄞˇ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿丁本來是一󠇢個󠇡很努力的農夫，後來卻變得󠇡懶惰。你覺得󠇡是什麼改變了他？"
+      },
+      "en": "Ah-Ding was a hard-working farmer at first, but later became lazy. What do you think changed him?"
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "阿丁一直盯着树桩，却没有发现自己的田变坏了。这件事让你想到什么？",
+        "pinyin": [
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "盯",
+            "reading": "dīng"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "桩",
+            "reading": "zhuāng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "现",
+            "reading": "xiàn"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "田",
+            "reading": "tián"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "坏",
+            "reading": "huài"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "阿丁一直盯著樹樁，卻沒有發現自己的田變壞了。這件事讓你想到什麼？",
+        "zhuyin": [
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "盯",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "樁",
+            "reading": "ㄓㄨㄤ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "現",
+            "reading": "ㄒㄧㄢˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "田",
+            "reading": "ㄊㄧㄢˊ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "壞",
+            "reading": "ㄏㄨㄞˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "阿丁一󠇢直盯著樹樁，卻沒有發現自己的田變壞了。這件事讓你想到什麼？"
+      },
+      "en": "Ah-Ding kept staring at the stump and never noticed his field going bad. What does this make you think about?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "老爷爷听完阿丁的话，只是摇摇头、叹了一口气就走了。你觉得他心里在想什么？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "爷",
+            "reading": "yé"
+          },
+          {
+            "text": "爷",
+            "reading": "yé"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "完",
+            "reading": "wán"
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "摇",
+            "reading": "yáo"
+          },
+          {
+            "text": "摇",
+            "reading": "yáo"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "叹",
+            "reading": "tàn"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "口",
+            "reading": "kǒu"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老爺爺聽完阿丁的話，只是搖搖頭、嘆了一口氣就走了。你覺得他心裡在想什麼？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "爺",
+            "reading": "ㄧㄝˊ"
+          },
+          {
+            "text": "爺",
+            "reading": "ㄧㄝˊ"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "完",
+            "reading": "ㄨㄢˊ"
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "搖",
+            "reading": "ㄧㄠˊ"
+          },
+          {
+            "text": "搖",
+            "reading": "ㄧㄠˊ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "嘆",
+            "reading": "ㄊㄢˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "口",
+            "reading": "ㄎㄡˇ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老爺爺聽完阿丁的話，只是搖搖頭、嘆了一󠇢口氣就走了。你覺得󠇡他心裡在想什麼？"
+      },
+      "en": "After hearing Ah-Ding, the old man just shook his head, sighed, and left. What do you think was on his mind?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "如果你是阿丁的朋友，看到他天天坐在树桩旁边等兔子，你会跟他说什么？",
+        "pinyin": [
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "朋",
+            "reading": "péng"
+          },
+          {
+            "text": "友",
+            "reading": "yǒu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "坐",
+            "reading": "zuò"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "桩",
+            "reading": "zhuāng"
+          },
+          {
+            "text": "旁",
+            "reading": "páng"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "等",
+            "reading": "děng"
+          },
+          {
+            "text": "兔",
+            "reading": "tù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "跟",
+            "reading": "gēn"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "如果你是阿丁的朋友，看到他天天坐在樹樁旁邊等兔子，你會跟他說什麼？",
+        "zhuyin": [
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "朋",
+            "reading": "ㄆㄥˊ"
+          },
+          {
+            "text": "友",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "坐",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "樁",
+            "reading": "ㄓㄨㄤ"
+          },
+          {
+            "text": "旁",
+            "reading": "ㄆㄤˊ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "等",
+            "reading": "ㄉㄥˇ"
+          },
+          {
+            "text": "兔",
+            "reading": "ㄊㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "跟",
+            "reading": "ㄍㄣ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "如果你是阿丁的朋友，看到他天天坐在樹樁旁邊等兔子󠇡，你會跟他說什麼？"
+      },
+      "en": "If you were Ah-Ding's friend and saw him sitting by the stump every day waiting for a rabbit, what would you say to him?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "故事说“天底下没有不劳而获的好事”。你同意吗？说一件你靠努力才得到的好结果。",
+        "pinyin": [
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "“",
+            "reading": ""
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "底",
+            "reading": "dǐ"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "劳",
+            "reading": "láo"
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "获",
+            "reading": "huò"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "”",
+            "reading": ""
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "同",
+            "reading": "tóng"
+          },
+          {
+            "text": "意",
+            "reading": "yì"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "靠",
+            "reading": "kào"
+          },
+          {
+            "text": "努",
+            "reading": "nǔ"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "得",
+            "reading": "dé"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "结",
+            "reading": "jié"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "故事說「天底下沒有不勞而獲的好事」。你同意嗎？說一件你靠努力才得到的好結果。",
+        "zhuyin": [
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "底",
+            "reading": "ㄉㄧˇ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "勞",
+            "reading": "ㄌㄠˊ"
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "獲",
+            "reading": "ㄏㄨㄛˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "同",
+            "reading": "ㄊㄨㄥˊ"
+          },
+          {
+            "text": "意",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "靠",
+            "reading": "ㄎㄠˋ"
+          },
+          {
+            "text": "努",
+            "reading": "ㄋㄨˇ"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "結",
+            "reading": "ㄐㄧㄝˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ],
+        "bpmf": "故事說「天底下沒有不勞而獲的好事」。你同意嗎？說一󠇡件你靠努力才得到的好結果。"
+      },
+      "en": "The story says \"there is no good thing in this world that comes without effort.\" Do you agree? Name one good result you got through hard work."
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "靠运气过日子，和靠努力过日子，有什么不一样？你会选哪一种？",
+        "pinyin": [
+          {
+            "text": "靠",
+            "reading": "kào"
+          },
+          {
+            "text": "运",
+            "reading": "yùn"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "日",
+            "reading": "rì"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "靠",
+            "reading": "kào"
+          },
+          {
+            "text": "努",
+            "reading": "nǔ"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "日",
+            "reading": "rì"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "选",
+            "reading": "xuǎn"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "种",
+            "reading": "zhǒng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "靠運氣過日子，和靠努力過日子，有什麼不一樣？你會選哪一種？",
+        "zhuyin": [
+          {
+            "text": "靠",
+            "reading": "ㄎㄠˋ"
+          },
+          {
+            "text": "運",
+            "reading": "ㄩㄣˋ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "日",
+            "reading": "ㄖˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "靠",
+            "reading": "ㄎㄠˋ"
+          },
+          {
+            "text": "努",
+            "reading": "ㄋㄨˇ"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "日",
+            "reading": "ㄖˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "選",
+            "reading": "ㄒㄩㄢˇ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "種",
+            "reading": "ㄓㄨㄥˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "靠運氣過日子󠇡，和靠努力過日子󠇡，有什麼不一󠇡樣？你會選哪一󠇢種？"
+      },
+      "en": "What is the difference between living on luck and living on hard work? Which one would you choose?"
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "你有没有遇过一次很幸运的事？如果你以为那件事天天都会发生，可能会怎么样？",
+        "pinyin": [
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "遇",
+            "reading": "yù"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "幸",
+            "reading": "xìng"
+          },
+          {
+            "text": "运",
+            "reading": "yùn"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "为",
+            "reading": "wéi"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "能",
+            "reading": "néng"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "你有沒有遇過一次很幸運的事？如果你以為那件事天天都會發生，可能會怎麼樣？",
+        "zhuyin": [
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "遇",
+            "reading": "ㄩˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "幸",
+            "reading": "ㄒㄧㄥˋ"
+          },
+          {
+            "text": "運",
+            "reading": "ㄩㄣˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˊ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "能",
+            "reading": "ㄋㄥˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "你有沒有遇過一󠇡次很幸運的事？如果你以為那件事天天都會發生，可能會怎麼樣？"
+      },
+      "en": "Have you ever had a lucky moment? If you believed it would happen every day, what might go wrong?"
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "故事的最后，阿丁又回去种田了。你觉得一个人做错了事以后，还可以再一次努力、把事情做好吗？",
+        "pinyin": [
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ā"
+          },
+          {
+            "text": "丁",
+            "reading": "dīng"
+          },
+          {
+            "text": "又",
+            "reading": "yòu"
+          },
+          {
+            "text": "回",
+            "reading": "huí"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "种",
+            "reading": "zhòng"
+          },
+          {
+            "text": "田",
+            "reading": "tián"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "错",
+            "reading": "cuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "再",
+            "reading": "zài"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "次",
+            "reading": "cì"
+          },
+          {
+            "text": "努",
+            "reading": "nǔ"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "情",
+            "reading": "qíng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "故事的最後，阿丁又回去種田了。你覺得一個人做錯了事以後，還可以再一次努力、把事情做好嗎？",
+        "zhuyin": [
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "阿",
+            "reading": "ㄚ"
+          },
+          {
+            "text": "丁",
+            "reading": "ㄉㄧㄥ"
+          },
+          {
+            "text": "又",
+            "reading": "ㄧㄡˋ"
+          },
+          {
+            "text": "回",
+            "reading": "ㄏㄨㄟˊ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "種",
+            "reading": "ㄓㄨㄥˋ"
+          },
+          {
+            "text": "田",
+            "reading": "ㄊㄧㄢˊ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "錯",
+            "reading": "ㄘㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "再",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "次",
+            "reading": "ㄘˋ"
+          },
+          {
+            "text": "努",
+            "reading": "ㄋㄨˇ"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "情",
+            "reading": "ㄑㄧㄥˊ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "故事的最後，阿丁又回去種󠇡田了。你覺得󠇡一󠇢個󠇡人做錯了事以後，還可以再一󠇡次努力、把事情做好嗎？"
+      },
+      "en": "At the end, Ah-Ding goes back to farming. Do you think a person who has made a mistake can try hard again and put things right?"
+    }
+  ]
+}

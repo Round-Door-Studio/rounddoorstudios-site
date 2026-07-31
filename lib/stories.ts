@@ -113,7 +113,7 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 6, slug: 'ma-liang-magic-brush-2', season: 1, released: false, part: 2, parts: 2,
+    num: 6, slug: 'ma-liang-magic-brush-2', season: 1, released: true, part: 2, parts: 2,
     title: { en: 'Ma Liang and the Magic Brush · Part 2', simp: '神笔马良', trad: '神筆馬良' },
     blurb: 'When a greedy emperor demands Ma Liang use his magic paintbrush to make him richer, the brave boy refuses. Instead, he hatches a clever plan that leads the emperor on a voyage he\'ll never forget.', 
     runtime: '13-15 min', pub: 'Jul 15, 2026', coverColor: '#7B324A', coverImage: '/img/covers/MaLiangBrushP2_SQ.png',
@@ -121,50 +121,50 @@ export const STORIES: Story[] = [
       en: {
         spotify: 'https://open.spotify.com/episode/0QevLf9VZ4igoAVuZrETBm?si=1P0H6rljTDC4dHqEfsZ1hw',
         youtube: 'https://youtu.be/nl2DfEEDLtA',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000776904820',
       },
       zh: {
         spotify: 'https://open.spotify.com/episode/59lA500ODdzC2CaPG0n8Yo?si=UGfgAFMnTnuevJkZ1XVcxQ',
         youtube: 'https://youtu.be/6ITVp59SvHQ',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000776904920',
       },
     },
     hasBundle: true,
   },
   {
-    num: 7, slug: 'dragon-gets-its-eyes', season: 1, released: false,
+    num: 7, slug: 'dragon-gets-its-eyes', season: 1, released: true,
     title: { en: 'When the Dragon Gets Its Eyes', simp: '画龙点睛', trad: '畫龍點睛' },
-    blurb: '', 
-    runtime: '', pub: 'Jul 22, 2026', coverColor: '#436641', coverImage: '/img/covers/dragon-gets-eyes_SQ.png',
+    blurb: 'When a famous painter leaves his dragons unfinished, a curious crowd insists he add the final touch—unaware of the magic it might unleash.', 
+    runtime: '13-15 min', pub: 'Jul 22, 2026', coverColor: '#436641', coverImage: '/img/covers/dragon-gets-eyes_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
-        apple: '',
+        spotify: 'https://open.spotify.com/episode/0rkWB6K1F2hsDTXmJi2b7l?si=PwJBqCg-SXieQ8tECG_ZMw',
+        youtube: 'https://youtu.be/IH0p_ItqaMQ',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000777875789',
       },
       zh: {
-        spotify: '',
-        youtube: '',
-        apple: '',
+        spotify: 'https://open.spotify.com/episode/1PM7hFHrne8gVtiXU5b9iS?si=UxkfltoJQX255SUj_1hpqw',
+        youtube: 'https://youtu.be/qkaDf88g93M',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000777876362',
       },
     },
     hasBundle: true,
   },
   {
-    num: 8, slug: 'adding-feet-on-a-snake', season: 1, released: false,
+    num: 8, slug: 'adding-feet-on-a-snake', season: 1, released: true,
     title: { en: 'Adding Feet on a Snake', simp: '画蛇添足', trad: '畫蛇添足' },
-    blurb: '', 
-    runtime: '', pub: 'Jul 29, 2026', coverColor: '#5C8358', coverImage: '/img/covers/snake-feet_SQ.png',
+    blurb: 'A talented artist wins a jug of wine by drawing the fastest snake—but one unnecessary finishing touch costs him everything.', 
+    runtime: '12-15 min', pub: 'Jul 29, 2026', coverColor: '#5C8358', coverImage: '/img/covers/snake-feet_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
-        apple: '',
+        spotify: 'https://open.spotify.com/episode/55079XhjThmohQTxt2pXyR?si=frGk_LiYTdGuer0sHnTjOA',
+        youtube: 'https://youtu.be/TYtNcr9u-70',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000778896702',
       },
       zh: {
-        spotify: '',
-        youtube: '',
-        apple: '',
+        spotify: 'https://open.spotify.com/episode/3QmRRoga0idxRllwWlCcqi?si=j5Vlfd6WTI-ghMCmTnEsRw',
+        youtube: 'https://youtu.be/BXDCVPfBMoA',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000778897803',
       },
     },
     hasBundle: true,
@@ -172,17 +172,17 @@ export const STORIES: Story[] = [
   {
     num: 9, slug: 'three-morning-four-night', season: 1, released: false,
     title: { en: 'Three in the Morning, Four at Night', simp: '朝三暮四', trad: '朝三暮四' },
-    blurb: '', 
-    runtime: '', pub: 'Aug 19, 2026', coverColor: '#8B7355', coverImage: '/img/covers/three-morn-four-night_SQ.png',
+    blurb: 'Three acorns in the morning and four at night—or four in the morning and three at night? A troop of monkeys learns that the way something is presented isn\'t always the whole story.', 
+    runtime: '10-11 min', pub: 'Aug 19, 2026', coverColor: '#8B7355', coverImage: '/img/covers/three-morn-four-night_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/06nqbx6EqVBWnSVSHOfITY?si=-JDl6in0RwyQOdJN8zWPXg',
+        youtube: 'https://youtu.be/Q9C0Mo7j31A',
         apple: '',
       },
       zh: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/06nqbx6EqVBWnSVSHOfITY?si=vntegHsaTlyvRuHUAWJABg',
+        youtube: 'https://youtu.be/WRIEGDfJJqE',
         apple: '',
       },
     },
@@ -191,17 +191,17 @@ export const STORIES: Story[] = [
   {
     num: 10, slug: 'cowherd-and-weaver-girl-1', season: 1, released: false, part: 1, parts: 2,
     title: { en: 'The Cowherd and Weaver Girl · Part 1', simp: '牛郎织女', trad: '牛郎織女' },
-    blurb: '', 
-    runtime: '', pub: 'Aug 5, 2026', coverColor: '#5B5C9D', coverImage: '/img/covers/cowherd-weavergirl-p1_SQ.png',
+    blurb: 'When a faithful old ox reveals a magical secret, a lonely cowherd meets the Weaver Girl—and a love story unlike any other begins.', 
+    runtime: '9-10 min', pub: 'Aug 5, 2026', coverColor: '#5B5C9D', coverImage: '/img/covers/cowherd-weavergirl-p1_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/406YHN8Hqw3hQj5u28lPcH?si=RIqJitr5RMehPGXKiwm0pA',
+        youtube: 'https://youtu.be/Pj1opEm47WE',
         apple: '',  
       },
       zh: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/0S5GplDRydRHRYYCXbEJQK?si=_bnpql2tQEKQCAD1kVHX6g',
+        youtube: 'https://youtu.be/B_Ek7iI2xAA',
         apple: '',
       },
     },
@@ -210,7 +210,7 @@ export const STORIES: Story[] = [
   {
     num: 11, slug: 'cowherd-and-weaver-girl-2', season: 1, released: false, part: 2, parts: 2,
     title: { en: 'The Cowherd and Weaver Girl · Part 2', simp: '牛郎织女', trad: '牛郎織女' },
-    blurb: '', 
+    blurb: 'When the Cowherd races into the heavens to find the Weaver Girl, a river of stars and a bridge of magpies become symbols of a love that endures across the sky.', 
     runtime: '', pub: 'Aug 12, 2026', coverColor: '#43447F', coverImage: '/img/covers/cowherd-weavergirl-p2_SQ.png',
     audio: {
       en: {
@@ -229,17 +229,17 @@ export const STORIES: Story[] = [
   {
     num: 12, slug: 'farmer-who-waited-for-the-rabbit', season: 1, released: false,
     title: { en: 'The Farmer Who Waited for the Rabbit', simp: '守株待兔', trad: '守株待兔' },
-    blurb: '', 
-    runtime: '', pub: 'Aug 26, 2026', coverColor: '#A8513A', coverImage: '/img/covers/farmer-rabbit_SQ.png',
+    blurb: 'A hardworking farmer gets lucky when a rabbit runs into a tree stump—but waiting for the next one may cost him everything.', 
+    runtime: '13-14 min', pub: 'Aug 26, 2026', coverColor: '#A8513A', coverImage: '/img/covers/farmer-rabbit_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/1vOpNWacCxIUvddnUnxJS9?si=P4AVksiUT7ul2nzlBfskNQ',
+        youtube: 'https://youtu.be/L3ruaj3kit4',
         apple: '',
       },
       zh: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/5LKwGy39eSm2j5GFFplB1D?si=z5d4afDiRCSvrNFih5R3WA',
+        youtube: 'https://youtu.be/eYODzDhIz48',
         apple: '',
       },
     },
