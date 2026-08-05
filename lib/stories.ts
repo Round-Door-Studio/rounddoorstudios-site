@@ -170,20 +170,20 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 9, slug: 'three-morning-four-night', season: 1, released: false,
+    num: 9, slug: 'three-morning-four-night', season: 1, released: true,
     title: { en: 'Three in the Morning, Four at Night', simp: '朝三暮四', trad: '朝三暮四' },
     blurb: 'Three acorns in the morning and four at night—or four in the morning and three at night? A troop of monkeys learns that the way something is presented isn\'t always the whole story.', 
-    runtime: '10-11 min', pub: 'Aug 19, 2026', coverColor: '#8B7355', coverImage: '/img/covers/three-morn-four-night_SQ.png',
+    runtime: '10-11 min', pub: 'Aug 5, 2026', coverColor: '#8B7355', coverImage: '/img/covers/three-morn-four-night_SQ.png',
     audio: {
       en: {
-        spotify: 'https://open.spotify.com/episode/06nqbx6EqVBWnSVSHOfITY?si=-JDl6in0RwyQOdJN8zWPXg',
+        spotify: 'https://open.spotify.com/episode/06nqbx6EqVBWnSVSHOfITY?si=9c13a7ee33954fc7',
         youtube: 'https://youtu.be/Q9C0Mo7j31A',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000780100332',
       },
       zh: {
-        spotify: 'https://open.spotify.com/episode/06nqbx6EqVBWnSVSHOfITY?si=vntegHsaTlyvRuHUAWJABg',
+        spotify: 'https://open.spotify.com/episode/28fU1wi6c8EDMeLRUmhUxE?si=afa01df201e4420b',
         youtube: 'https://youtu.be/WRIEGDfJJqE',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000780100171',
       },
     },
     hasBundle: true,
@@ -192,7 +192,7 @@ export const STORIES: Story[] = [
     num: 10, slug: 'cowherd-and-weaver-girl-1', season: 1, released: false, part: 1, parts: 2,
     title: { en: 'The Cowherd and Weaver Girl · Part 1', simp: '牛郎织女', trad: '牛郎織女' },
     blurb: 'When a faithful old ox reveals a magical secret, a lonely cowherd meets the Weaver Girl—and a love story unlike any other begins.', 
-    runtime: '9-10 min', pub: 'Aug 5, 2026', coverColor: '#5B5C9D', coverImage: '/img/covers/cowherd-weavergirl-p1_SQ.png',
+    runtime: '9-10 min', pub: 'Aug 12, 2026', coverColor: '#5B5C9D', coverImage: '/img/covers/cowherd-weavergirl-p1_SQ.png',
     audio: {
       en: {
         spotify: 'https://open.spotify.com/episode/406YHN8Hqw3hQj5u28lPcH?si=RIqJitr5RMehPGXKiwm0pA',
@@ -211,7 +211,7 @@ export const STORIES: Story[] = [
     num: 11, slug: 'cowherd-and-weaver-girl-2', season: 1, released: false, part: 2, parts: 2,
     title: { en: 'The Cowherd and Weaver Girl · Part 2', simp: '牛郎织女', trad: '牛郎織女' },
     blurb: 'When the Cowherd races into the heavens to find the Weaver Girl, a river of stars and a bridge of magpies become symbols of a love that endures across the sky.', 
-    runtime: '', pub: 'Aug 12, 2026', coverColor: '#43447F', coverImage: '/img/covers/cowherd-weavergirl-p2_SQ.png',
+    runtime: '', pub: 'Aug 19, 2026', coverColor: '#43447F', coverImage: '/img/covers/cowherd-weavergirl-p2_SQ.png',
     audio: {
       en: {
         spotify: '',
