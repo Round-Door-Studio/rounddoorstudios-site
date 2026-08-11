@@ -47,6 +47,7 @@ Quick reference for every external service the site depends on. Dashboards, wher
 | `STRIPE_WEBHOOK_SECRET` | Webhook signing secret — used to verify incoming events |
 | `STRIPE_PRICE_MONTHLY` | Price ID for monthly membership |
 | `STRIPE_PRICE_YEARLY` | Price ID for yearly membership |
+| `STRIPE_PRICE_STORY_PACK` | Price ID for a story pack — shared across every story since they're all the same price. Adding a new story never needs a new Stripe object, just `released: true` in `lib/stories.ts`. |
 
 **Webhook endpoint:** `/api/stripe/webhook`
 

@@ -23,16 +23,17 @@ vi.mock('@/lib/supabase/server', () => ({
   ),
 }))
 
-const mockServiceFrom = vi.hoisted(() => vi.fn())
-
-vi.mock('@/lib/supabase/service', () => ({
-  createServiceClient: vi.fn(() => ({ from: mockServiceFrom })),
-}))
-
 const mockGetOrCreate = vi.hoisted(() => vi.fn())
 
 vi.mock('@/lib/db/customers', () => ({
   getOrCreateStripeCustomer: mockGetOrCreate,
+}))
+
+const mockGetStoryBySlug = vi.hoisted(() => vi.fn())
+
+vi.mock('@/lib/stories', () => ({
+  getStoryBySlug: mockGetStoryBySlug,
+  FREE_STORY_SLUG: 'frog-at-the-bottom-of-the-well',
 }))
 
 const mockSessionsCreate = vi.hoisted(() => vi.fn())
@@ -64,21 +65,17 @@ function makeRequest(body: unknown, url = 'http://localhost/api/stripe/test') {
   })
 }
 
-function makeProductQuery(result: unknown) {
-  return {
-    select: vi.fn().mockReturnThis(),
-    eq: vi.fn().mockReturnThis(),
-    maybeSingle: vi.fn().mockResolvedValue({ data: result, error: null }),
-  }
-}
+const RELEASED_STORY = { slug: 'fox-borrows-tiger', released: true }
 
 beforeEach(() => {
   vi.clearAllMocks()
   process.env.NEXT_PUBLIC_SITE_URL = 'https://rounddoorstudio.com'
   process.env.STRIPE_PRICE_MONTHLY = 'price_monthly_test'
   process.env.STRIPE_PRICE_YEARLY = 'price_yearly_test'
+  process.env.STRIPE_PRICE_STORY_PACK = 'price_story_pack_test'
 
   mockGetUser.mockResolvedValue({ data: { user: USER } })
+  mockGetStoryBySlug.mockReturnValue(RELEASED_STORY)
   mockGetOrCreate.mockResolvedValue('cus_test123')
   mockSessionsCreate.mockResolvedValue({ url: 'https://checkout.stripe.com/test' })
   mockPortalCreate.mockResolvedValue({ url: 'https://billing.stripe.com/test' })
@@ -153,12 +150,6 @@ describe('POST /api/stripe/create-membership-checkout', () => {
 // ── create-story-pack-checkout ─────────────────────────────────────────────
 
 describe('POST /api/stripe/create-story-pack-checkout', () => {
-  beforeEach(() => {
-    mockServiceFrom.mockReturnValue(
-      makeProductQuery({ stripe_price_id: 'price_pack_test' })
-    )
-  })
-
   it('returns 401 when not authenticated', async () => {
     mockGetUser.mockResolvedValueOnce({ data: { user: null } })
     const res = await storyPackCheckout(makeRequest({ storySlug: 'fox-borrows-tiger' }))
@@ -172,15 +163,31 @@ describe('POST /api/stripe/create-story-pack-checkout', () => {
     expect(json.error).toBe('Missing storySlug')
   })
 
-  it('returns 400 when product is not found', async () => {
-    mockServiceFrom.mockReturnValueOnce(makeProductQuery(null))
+  it('returns 400 when the story does not exist', async () => {
+    mockGetStoryBySlug.mockReturnValueOnce(undefined)
     const res = await storyPackCheckout(makeRequest({ storySlug: 'unknown-story' }))
     expect(res.status).toBe(400)
     const json = await res.json()
     expect(json.error).toBe('Product not found')
   })
 
-  it('creates one-time payment checkout session', async () => {
+  it('returns 400 when the story is not yet released', async () => {
+    mockGetStoryBySlug.mockReturnValueOnce({ slug: 'coming-soon', released: false })
+    const res = await storyPackCheckout(makeRequest({ storySlug: 'coming-soon' }))
+    expect(res.status).toBe(400)
+    const json = await res.json()
+    expect(json.error).toBe('Product not found')
+  })
+
+  it('returns 400 for the free story (nothing to buy)', async () => {
+    mockGetStoryBySlug.mockReturnValueOnce({ slug: 'frog-at-the-bottom-of-the-well', released: true })
+    const res = await storyPackCheckout(makeRequest({ storySlug: 'frog-at-the-bottom-of-the-well' }))
+    expect(res.status).toBe(400)
+    const json = await res.json()
+    expect(json.error).toBe('Product not found')
+  })
+
+  it('creates one-time payment checkout session using the shared story-pack price', async () => {
     const res = await storyPackCheckout(makeRequest({ storySlug: 'fox-borrows-tiger' }))
     expect(res.status).toBe(200)
     const json = await res.json()
@@ -189,7 +196,7 @@ describe('POST /api/stripe/create-story-pack-checkout', () => {
       expect.objectContaining({
         customer: 'cus_test123',
         mode: 'payment',
-        line_items: [{ price: 'price_pack_test', quantity: 1 }],
+        line_items: [{ price: 'price_story_pack_test', quantity: 1 }],
         metadata: {
           user_id: USER.id,
           story_slug: 'fox-borrows-tiger',
