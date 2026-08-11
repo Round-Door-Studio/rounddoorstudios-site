@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { headers } from 'next/headers'
 import { createClient } from '@/lib/supabase/server'
-import { createServiceClient } from '@/lib/supabase/service'
 import { stripe } from '@/lib/stripe'
 import { getOrCreateStripeCustomer } from '@/lib/db/customers'
 import { rateLimit } from '@/lib/rate-limit'
+import { getStoryBySlug, FREE_STORY_SLUG } from '@/lib/stories'
 
 export async function POST(request: NextRequest) {
   const ip = (await headers()).get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown'
@@ -31,18 +31,17 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Missing storySlug' }, { status: 400 })
     }
 
-    const serviceClient = createServiceClient()
-    const { data: product } = await serviceClient
-      .from('products')
-      .select('stripe_price_id')
-      .eq('story_slug', storySlug)
-      .eq('active', true)
-      .eq('product_type', 'story_pack')
-      .maybeSingle()
-
-    if (!product?.stripe_price_id) {
+    // Every story pack is the same price, so there's one shared Stripe Price
+    // for all of them (STRIPE_PRICE_STORY_PACK) instead of a per-story
+    // product/price that has to be created by hand each time a new story
+    // ships. This check just confirms storySlug is a real, released,
+    // purchasable story — the free story has no pack to buy.
+    const story = getStoryBySlug(storySlug)
+    if (!story || !story.released || storySlug === FREE_STORY_SLUG) {
       return NextResponse.json({ error: 'Product not found' }, { status: 400 })
     }
+
+    const priceId = process.env.STRIPE_PRICE_STORY_PACK!
 
     const stripeCustomerId = await getOrCreateStripeCustomer(user.id, user.email!)
 
@@ -51,7 +50,7 @@ export async function POST(request: NextRequest) {
     const session = await stripe.checkout.sessions.create({
       customer: stripeCustomerId,
       mode: 'payment',
-      line_items: [{ price: product.stripe_price_id, quantity: 1 }],
+      line_items: [{ price: priceId, quantity: 1 }],
       metadata: {
         user_id: user.id,
         story_slug: storySlug,
