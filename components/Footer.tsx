@@ -14,7 +14,7 @@ export function Footer() {
         <div className="footer-soc">
           <a
             className="soc"
-            href="https://instagram.com/therounddoorpodcast"
+            href="https://www.instagram.com/therounddoorstudio/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -24,7 +24,7 @@ export function Footer() {
           </a>
           <a
             className="soc"
-            href="https://tiktok.com/@therounddoorpodcast"
+            href="https://tiktok.com/@therounddoorstudio"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok"
