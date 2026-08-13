@@ -189,7 +189,7 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 10, slug: 'cowherd-and-weaver-girl-1', season: 1, released: false, part: 1, parts: 2,
+    num: 10, slug: 'cowherd-and-weaver-girl-1', season: 1, released: true, part: 1, parts: 2,
     title: { en: 'The Cowherd and Weaver Girl · Part 1', simp: '牛郎织女', trad: '牛郎織女' },
     blurb: 'When a faithful old ox reveals a magical secret, a lonely cowherd meets the Weaver Girl—and a love story unlike any other begins.', 
     runtime: '9-10 min', pub: 'Aug 12, 2026', coverColor: '#5B5C9D', coverImage: '/img/covers/cowherd-weavergirl-p1_SQ.png',
@@ -197,12 +197,12 @@ export const STORIES: Story[] = [
       en: {
         spotify: 'https://open.spotify.com/episode/406YHN8Hqw3hQj5u28lPcH?si=RIqJitr5RMehPGXKiwm0pA',
         youtube: 'https://youtu.be/Pj1opEm47WE',
-        apple: '',  
+        apple: 'https://podcasts.apple.com/us/podcast/s1-ep19-eng-the-cowherd-and-the-weaver-girl-part-1-%E7%89%9B%E9%83%8E%E7%BB%87%E5%A5%B3-%E7%89%9B%E9%83%8E%E7%B9%94%E5%A5%B3/id1896903747?i=1000782954915',  
       },
       zh: {
         spotify: 'https://open.spotify.com/episode/0S5GplDRydRHRYYCXbEJQK?si=_bnpql2tQEKQCAD1kVHX6g',
         youtube: 'https://youtu.be/B_Ek7iI2xAA',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/s1-ep20-%E4%B8%AD%E6%96%87-%E7%89%9B%E9%83%8E%E7%BB%87%E5%A5%B3-%E7%AC%AC%E4%B8%80%E9%9B%86-%E7%9B%B8%E9%81%87-the-cowherd-and-the-weaver-girl-part-1/id1896903747?i=1000782956876',
       },
     },
     hasBundle: true,
@@ -211,16 +211,16 @@ export const STORIES: Story[] = [
     num: 11, slug: 'cowherd-and-weaver-girl-2', season: 1, released: false, part: 2, parts: 2,
     title: { en: 'The Cowherd and Weaver Girl · Part 2', simp: '牛郎织女', trad: '牛郎織女' },
     blurb: 'When the Cowherd races into the heavens to find the Weaver Girl, a river of stars and a bridge of magpies become symbols of a love that endures across the sky.', 
-    runtime: '', pub: 'Aug 19, 2026', coverColor: '#43447F', coverImage: '/img/covers/cowherd-weavergirl-p2_SQ.png',
+    runtime: '9 min', pub: 'Aug 19, 2026', coverColor: '#43447F', coverImage: '/img/covers/cowherd-weavergirl-p2_SQ.png',
     audio: {
       en: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/0PFt6eKpEnz4bEVpuupson?si=RQkrwXXFQfa8Zo8SgxfsPw',
+        youtube: 'https://youtu.be/HMhoHpncKeU',
         apple: '',
       },
       zh: {
-        spotify: '',
-        youtube: '',
+        spotify: 'https://open.spotify.com/episode/6nIjy8Y3FVzvqGBm1WiiHh?si=-oiAHcJzROC7z_1AhHIjHw',
+        youtube: 'https://youtu.be/1hphCC5C5KU',
         apple: '',
       },
     },
