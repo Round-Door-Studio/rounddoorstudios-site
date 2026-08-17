@@ -2,8 +2,8 @@ import { describe, it, expect } from 'vitest';
 import { STORIES, getStoryBySlug, getReleasedStories, getLatestReleasedStory, padNum } from '@/lib/stories';
 
 describe('STORIES catalog', () => {
-  it('has 12 entries', () => {
-    expect(STORIES).toHaveLength(12);
+  it('has 24 entries', () => {
+    expect(STORIES).toHaveLength(24);
   });
 
   it('every story has required fields', () => {
