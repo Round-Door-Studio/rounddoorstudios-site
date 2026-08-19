@@ -214,12 +214,12 @@ export const STORIES: Story[] = [
     runtime: '9 min', pub: 'Aug 19, 2026', coverColor: '#43447F', coverImage: '/img/covers/cowherd-weavergirl-p2_SQ.png',
     audio: {
       en: {
-        spotify: 'https://open.spotify.com/episode/0PFt6eKpEnz4bEVpuupson?si=RQkrwXXFQfa8Zo8SgxfsPw',
+        spotify: 'https://open.spotify.com/episode/0PFt6eKpEnz4bEVpuupson?si=IEFzJ_WiRvmZ5ZiAxbdIjQ',
         youtube: 'https://youtu.be/HMhoHpncKeU',
         apple: '',
       },
       zh: {
-        spotify: 'https://open.spotify.com/episode/6nIjy8Y3FVzvqGBm1WiiHh?si=-oiAHcJzROC7z_1AhHIjHw',
+        spotify: 'https://open.spotify.com/episode/6nIjy8Y3FVzvqGBm1WiiHh?si=M4nN2ew5QZSfH6_7QeQTUg',
         youtube: 'https://youtu.be/1hphCC5C5KU',
         apple: '',
       },
