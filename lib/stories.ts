@@ -208,7 +208,7 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 11, slug: 'cowherd-and-weaver-girl-2', season: 1, released: false, part: 2, parts: 2,
+    num: 11, slug: 'cowherd-and-weaver-girl-2', season: 1, released: true, part: 2, parts: 2,
     title: { en: 'The Cowherd and Weaver Girl · Part 2', simp: '牛郎织女', trad: '牛郎織女' },
     blurb: 'When the Cowherd races into the heavens to find the Weaver Girl, a river of stars and a bridge of magpies become symbols of a love that endures across the sky.', 
     runtime: '9 min', pub: 'Aug 19, 2026', coverColor: '#43447F', coverImage: '/img/covers/cowherd-weavergirl-p2_SQ.png',
