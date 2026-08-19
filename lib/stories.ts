@@ -190,7 +190,7 @@ export const STORIES: Story[] = [
   },
   {
     num: 10, slug: 'cowherd-and-weaver-girl-1', season: 1, released: true, part: 1, parts: 2,
-    title: { en: 'The Cowherd and Weaver Girl · Part 1', simp: '牛郎织女', trad: '牛郎織女' },
+    title: { en: 'The Cowherd and Weaver Girl · Part 1', simp: '牛郎织女 第一集', trad: '牛郎織女 第一集' },
     blurb: 'When a faithful old ox reveals a magical secret, a lonely cowherd meets the Weaver Girl—and a love story unlike any other begins.', 
     runtime: '9-10 min', pub: 'Aug 12, 2026', coverColor: '#5B5C9D', coverImage: '/img/covers/cowherd-weavergirl-p1_SQ.png',
     audio: {
@@ -208,20 +208,20 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 11, slug: 'cowherd-and-weaver-girl-2', season: 1, released: false, part: 2, parts: 2,
-    title: { en: 'The Cowherd and Weaver Girl · Part 2', simp: '牛郎织女', trad: '牛郎織女' },
+    num: 11, slug: 'cowherd-and-weaver-girl-2', season: 1, released: true, part: 2, parts: 2,
+    title: { en: 'The Cowherd and Weaver Girl · Part 2', simp: '牛郎织女 第二集', trad: '牛郎織女 第二集' },
     blurb: 'When the Cowherd races into the heavens to find the Weaver Girl, a river of stars and a bridge of magpies become symbols of a love that endures across the sky.', 
     runtime: '9 min', pub: 'Aug 19, 2026', coverColor: '#43447F', coverImage: '/img/covers/cowherd-weavergirl-p2_SQ.png',
     audio: {
       en: {
         spotify: 'https://open.spotify.com/episode/0PFt6eKpEnz4bEVpuupson?si=IEFzJ_WiRvmZ5ZiAxbdIjQ',
         youtube: 'https://youtu.be/HMhoHpncKeU',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/s1-ep21-eng-the-cowherd-and-the-weaver-girl-part-2-%E7%89%9B%E9%83%8E%E7%BB%87%E5%A5%B3-%E7%89%9B%E9%83%8E%E7%B9%94%E5%A5%B3/id1896903747?i=1000784340800',
       },
       zh: {
         spotify: 'https://open.spotify.com/episode/6nIjy8Y3FVzvqGBm1WiiHh?si=M4nN2ew5QZSfH6_7QeQTUg',
         youtube: 'https://youtu.be/1hphCC5C5KU',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/s1-ep22-%E4%B8%AD%E6%96%87-%E7%89%9B%E9%83%8E%E7%BB%87%E5%A5%B3-%E7%AC%AC%E4%BA%8C%E9%9B%86-%E9%B9%8A%E6%A1%A5%E7%9B%B8%E4%BC%9A-the-cowherd-and-the-weaver-girl-part-2/id1896903747?i=1000784342562',
       },
     },
     hasBundle: true,
