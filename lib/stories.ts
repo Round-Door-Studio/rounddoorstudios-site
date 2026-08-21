@@ -250,50 +250,122 @@ export const STORIES: Story[] = [
   {
     num: 13, slug: 'hou-yi-shoots-nine-suns', season: 2, released: false, part: 1, parts: 2,
     title: { en: "Legend of the Mid-Autumn Festival P1: Hou Yi Shoots Nine Suns", simp: '中秋节传说 P1：后羿射日', trad: '中秋節傳說 P1：后羿射日' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-1.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 14, slug: 'changer-flies-to-the-moon', season: 2, released: false, part: 2, parts: 2,
     title: { en: "Legend of the Mid-Autumn Festival P2: Chang'er Flies to the Moon", simp: '中秋节传说 P2：嫦娥奔月', trad: '中秋節傳說 P2：嫦娥奔月' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-2.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 15, slug: 'marriage-of-the-mouses-daughter', season: 2, released: false,
     title: { en: "The Marriage of the Mouse's Daughter", simp: '老鼠嫁女儿', trad: '老鼠嫁女兒' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-3.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 16, slug: 'stealing-a-bell-with-covered-ears', season: 2, released: false,
     title: { en: 'Stealing a Bell with Covered Ears', simp: '掩耳盗铃', trad: '掩耳盜鈴' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-4.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 17, slug: 'bed-of-a-hundred-birds', season: 2, released: false,
     title: { en: 'The Bed of a Hundred Birds', simp: '百鸟床', trad: '百鳥床' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-5.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 18, slug: 'blind-men-and-the-elephant', season: 2, released: false,
     title: { en: 'The Blind Men and the Elephant', simp: '盲人摸象', trad: '盲人摸象' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-6.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 19, slug: 'auntie-tiger', season: 2, released: false,
     title: { en: 'Auntie Tiger', simp: '虎姑婆', trad: '虎姑婆' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-7.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 20, slug: 'legend-of-lady-meng-jiangnu', season: 2, released: false,
     title: { en: 'Legend of Lady Meng Jiangnu', simp: '孟姜女传说', trad: '孟姜女傳說' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-8.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 21, slug: 'ah-qiao-and-the-silkworms', season: 2, released: false,
     title: { en: 'Ah Qiao and the Silkworms', simp: '阿巧养蚕', trad: '阿巧養蠶' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-9.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 22, slug: 'silkworm-goddess', season: 2, released: false,
     title: { en: 'The Silkworm Goddess', simp: '蚕花娘娘', trad: '蠶花娘娘' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-10.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 23, slug: 'nuwa-creates-people', season: 2, released: false, part: 1, parts: 2,
     title: { en: 'The Story of Nüwa P1: Nüwa Creates People', simp: '女娲故事 P1：女娲造人', trad: '女媧故事 P1：女媧造人' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-11.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
   {
     num: 24, slug: 'nuwa-mends-the-sky', season: 2, released: false, part: 2, parts: 2,
     title: { en: 'The Story of Nüwa P2: Nüwa Mends the Sky', simp: '女娲故事 P2：女娲补天', trad: '女媧故事 P2：女媧補天' },
+    blurb: '', runtime: '', pub: '', coverColor: '', coverImage: '/img/covers/story-covers-s2_SQ-12.png',
+    audio: {
+      en: { spotify: '', youtube: '', apple: '' },
+      zh: { spotify: '', youtube: '', apple: '' },
+    },
+    hasBundle: true,
   },
 ];
 
