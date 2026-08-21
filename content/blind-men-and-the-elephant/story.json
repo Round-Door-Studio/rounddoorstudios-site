@@ -1,0 +1,11694 @@
+{
+ "slug": "blind-men-and-the-elephant",
+ "title": {
+  "trad": "盲人摸象",
+  "simp": "盲人摸象",
+  "en": "The Blind Men and the Elephant"
+ },
+ "readAlong": {
+  "lines": [
+   {
+    "id": "p001",
+    "trad": {
+     "text": "有一天，村子口突然熱鬧起來，有人牽來了一頭好大好大的大象！消息像風一樣，一下子就傳遍了整條街。五個好朋友聽到了，全都放下手上正在剝的花生，一個拉著一個，順著吵鬧的人聲，一步一步往村口走去。這五個好朋友從小就看不見，從來沒摸過大象，心裡非常好奇，一邊走一邊問：「大象到底有多大呀？」「長什麼樣子呢？」但他們腦海中還是想不出大象的樣子。越想就越興奮，迫不及待想親手去摸摸看。",
+     "zhuyin": [
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "天",
+       "reading": "ㄊㄧㄢ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "村",
+       "reading": "ㄘㄨㄣ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗˇ"
+      },
+      {
+       "text": "口",
+       "reading": "ㄎㄡˇ"
+      },
+      {
+       "text": "突",
+       "reading": "ㄊㄨˊ"
+      },
+      {
+       "text": "然",
+       "reading": "ㄖㄢˊ"
+      },
+      {
+       "text": "熱",
+       "reading": "ㄖㄜˋ"
+      },
+      {
+       "text": "鬧",
+       "reading": "ㄋㄠˋ"
+      },
+      {
+       "text": "起",
+       "reading": "ㄑㄧˇ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "牽",
+       "reading": "ㄑㄧㄢ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "頭",
+       "reading": "ㄊㄡˊ"
+      },
+      {
+       "text": "好",
+       "reading": "ㄏㄠˇ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "好",
+       "reading": "ㄏㄠˇ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "消",
+       "reading": "ㄒㄧㄠ"
+      },
+      {
+       "text": "息",
+       "reading": "ㄒㄧˊ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "風",
+       "reading": "ㄈㄥ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "下",
+       "reading": "ㄒㄧㄚˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "傳",
+       "reading": "ㄔㄨㄢˊ"
+      },
+      {
+       "text": "遍",
+       "reading": "ㄅㄧㄢˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "整",
+       "reading": "ㄓㄥˇ"
+      },
+      {
+       "text": "條",
+       "reading": "ㄊㄧㄠˊ"
+      },
+      {
+       "text": "街",
+       "reading": "ㄐㄧㄝ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "五",
+       "reading": "ㄨˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "好",
+       "reading": "ㄏㄠˇ"
+      },
+      {
+       "text": "朋",
+       "reading": "ㄆㄥˊ"
+      },
+      {
+       "text": "友",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "聽",
+       "reading": "ㄊㄧㄥ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "全",
+       "reading": "ㄑㄩㄢˊ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "放",
+       "reading": "ㄈㄤˋ"
+      },
+      {
+       "text": "下",
+       "reading": "ㄒㄧㄚˋ"
+      },
+      {
+       "text": "手",
+       "reading": "ㄕㄡˇ"
+      },
+      {
+       "text": "上",
+       "reading": "ㄕㄤˋ"
+      },
+      {
+       "text": "正",
+       "reading": "ㄓㄥˋ"
+      },
+      {
+       "text": "在",
+       "reading": "ㄗㄞˋ"
+      },
+      {
+       "text": "剝",
+       "reading": "ㄅㄛ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "花",
+       "reading": "ㄏㄨㄚ"
+      },
+      {
+       "text": "生",
+       "reading": "ㄕㄥ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "拉",
+       "reading": "ㄌㄚ"
+      },
+      {
+       "text": "著",
+       "reading": "ㄓㄜ˙"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "順",
+       "reading": "ㄕㄨㄣˋ"
+      },
+      {
+       "text": "著",
+       "reading": "ㄓㄜ˙"
+      },
+      {
+       "text": "吵",
+       "reading": "ㄔㄠˇ"
+      },
+      {
+       "text": "鬧",
+       "reading": "ㄋㄠˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "聲",
+       "reading": "ㄕㄥ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "步",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "步",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "往",
+       "reading": "ㄨㄤˇ"
+      },
+      {
+       "text": "村",
+       "reading": "ㄘㄨㄣ"
+      },
+      {
+       "text": "口",
+       "reading": "ㄎㄡˇ"
+      },
+      {
+       "text": "走",
+       "reading": "ㄗㄡˇ"
+      },
+      {
+       "text": "去",
+       "reading": "ㄑㄩˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "五",
+       "reading": "ㄨˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "好",
+       "reading": "ㄏㄠˇ"
+      },
+      {
+       "text": "朋",
+       "reading": "ㄆㄥˊ"
+      },
+      {
+       "text": "友",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "從",
+       "reading": "ㄘㄨㄥˊ"
+      },
+      {
+       "text": "小",
+       "reading": "ㄒㄧㄠˇ"
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "見",
+       "reading": "ㄐㄧㄢˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "從",
+       "reading": "ㄘㄨㄥˊ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "沒",
+       "reading": "ㄇㄟˊ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "過",
+       "reading": "ㄍㄨㄛˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "心",
+       "reading": "ㄒㄧㄣ"
+      },
+      {
+       "text": "裡",
+       "reading": "ㄌㄧˇ"
+      },
+      {
+       "text": "非",
+       "reading": "ㄈㄟ"
+      },
+      {
+       "text": "常",
+       "reading": "ㄔㄤˊ"
+      },
+      {
+       "text": "好",
+       "reading": "ㄏㄠˋ"
+      },
+      {
+       "text": "奇",
+       "reading": "ㄑㄧˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "邊",
+       "reading": "ㄅㄧㄢ"
+      },
+      {
+       "text": "走",
+       "reading": "ㄗㄡˇ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "邊",
+       "reading": "ㄅㄧㄢ"
+      },
+      {
+       "text": "問",
+       "reading": "ㄨㄣˋ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "底",
+       "reading": "ㄉㄧˇ"
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "多",
+       "reading": "ㄉㄨㄛ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "呀",
+       "reading": "ㄧㄚ"
+      },
+      {
+       "text": "？",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "長",
+       "reading": "ㄓㄤˇ"
+      },
+      {
+       "text": "什",
+       "reading": "ㄕㄣˊ"
+      },
+      {
+       "text": "麼",
+       "reading": "ㄇㄜ˙"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "呢",
+       "reading": "ㄋㄜ˙"
+      },
+      {
+       "text": "？",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "但",
+       "reading": "ㄉㄢˋ"
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "腦",
+       "reading": "ㄋㄠˇ"
+      },
+      {
+       "text": "海",
+       "reading": "ㄏㄞˇ"
+      },
+      {
+       "text": "中",
+       "reading": "ㄓㄨㄥ"
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "想",
+       "reading": "ㄒㄧㄤˇ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "出",
+       "reading": "ㄔㄨ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "越",
+       "reading": "ㄩㄝˋ"
+      },
+      {
+       "text": "想",
+       "reading": "ㄒㄧㄤˇ"
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "越",
+       "reading": "ㄩㄝˋ"
+      },
+      {
+       "text": "興",
+       "reading": "ㄒㄧㄥ"
+      },
+      {
+       "text": "奮",
+       "reading": "ㄈㄣˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "迫",
+       "reading": "ㄆㄛˋ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "及",
+       "reading": "ㄐㄧˊ"
+      },
+      {
+       "text": "待",
+       "reading": "ㄉㄞˋ"
+      },
+      {
+       "text": "想",
+       "reading": "ㄒㄧㄤˇ"
+      },
+      {
+       "text": "親",
+       "reading": "ㄑㄧㄣ"
+      },
+      {
+       "text": "手",
+       "reading": "ㄕㄡˇ"
+      },
+      {
+       "text": "去",
+       "reading": "ㄑㄩˋ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ],
+     "bpmf": "有一󠇢天，村子口突然熱鬧起來，有人牽來了一󠇢頭好大好大的大象！消息像風一󠇡樣，一󠇡下子󠇡就傳遍了整條街。五個󠇡好朋友聽到了，全都放下手上正在剝的花生，一󠇡個󠇡拉著一󠇡個󠇡，順著吵鬧的人聲，一󠇡步一󠇡步往村口走去。這五個󠇡好朋友從小就看不󠇡見，從來沒摸過大象，心裡非常好󠇡奇，一󠇢邊走一󠇢邊問：「大象到底有多大呀？」「長󠇡什麼樣子󠇡呢？」但他們腦海中還是想不出大象的樣子󠇡。越想就越興奮，迫不及待想親手去摸摸看。"
+    },
+    "simp": {
+     "text": "有一天，村子口突然热闹起来，有人牵来了一头好大好大的大象！消息像风一样，一下子就传遍了整条街。五个好朋友听到了，全都放下手上正在剥的花生，一个拉著一个，顺著吵闹的人声，一步一步往村口走去。这五个好朋友从小就看不见，从来没摸过大象，心里非常好奇，一边走一边问：「大象到底有多大呀？」「长什么样子呢？」但他们脑海中还是想不出大象的样子。越想就越兴奋，迫不及待想亲手去摸摸看。",
+     "pinyin": [
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "天",
+       "reading": "tiān"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "村",
+       "reading": "cūn"
+      },
+      {
+       "text": "子",
+       "reading": "zǐ"
+      },
+      {
+       "text": "口",
+       "reading": "kǒu"
+      },
+      {
+       "text": "突",
+       "reading": "tú"
+      },
+      {
+       "text": "然",
+       "reading": "rán"
+      },
+      {
+       "text": "热",
+       "reading": "rè"
+      },
+      {
+       "text": "闹",
+       "reading": "nào"
+      },
+      {
+       "text": "起",
+       "reading": "qǐ"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "牵",
+       "reading": "qiān"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "头",
+       "reading": "tóu"
+      },
+      {
+       "text": "好",
+       "reading": "hǎo"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "好",
+       "reading": "hǎo"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "消",
+       "reading": "xiāo"
+      },
+      {
+       "text": "息",
+       "reading": "xí"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "风",
+       "reading": "fēng"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "下",
+       "reading": "xià"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "传",
+       "reading": "chuán"
+      },
+      {
+       "text": "遍",
+       "reading": "biàn"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "整",
+       "reading": "zhěng"
+      },
+      {
+       "text": "条",
+       "reading": "tiáo"
+      },
+      {
+       "text": "街",
+       "reading": "jiē"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "五",
+       "reading": "wǔ"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "好",
+       "reading": "hǎo"
+      },
+      {
+       "text": "朋",
+       "reading": "péng"
+      },
+      {
+       "text": "友",
+       "reading": "yǒu"
+      },
+      {
+       "text": "听",
+       "reading": "tīng"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "全",
+       "reading": "quán"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "放",
+       "reading": "fàng"
+      },
+      {
+       "text": "下",
+       "reading": "xià"
+      },
+      {
+       "text": "手",
+       "reading": "shǒu"
+      },
+      {
+       "text": "上",
+       "reading": "shàng"
+      },
+      {
+       "text": "正",
+       "reading": "zhèng"
+      },
+      {
+       "text": "在",
+       "reading": "zài"
+      },
+      {
+       "text": "剥",
+       "reading": "bāo"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "花",
+       "reading": "huā"
+      },
+      {
+       "text": "生",
+       "reading": "shēng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "拉",
+       "reading": "lā"
+      },
+      {
+       "text": "著",
+       "reading": "zhe"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "顺",
+       "reading": "shùn"
+      },
+      {
+       "text": "著",
+       "reading": "zhe"
+      },
+      {
+       "text": "吵",
+       "reading": "chǎo"
+      },
+      {
+       "text": "闹",
+       "reading": "nào"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "声",
+       "reading": "shēng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "步",
+       "reading": "bù"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "步",
+       "reading": "bù"
+      },
+      {
+       "text": "往",
+       "reading": "wǎng"
+      },
+      {
+       "text": "村",
+       "reading": "cūn"
+      },
+      {
+       "text": "口",
+       "reading": "kǒu"
+      },
+      {
+       "text": "走",
+       "reading": "zǒu"
+      },
+      {
+       "text": "去",
+       "reading": "qù"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "五",
+       "reading": "wǔ"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "好",
+       "reading": "hǎo"
+      },
+      {
+       "text": "朋",
+       "reading": "péng"
+      },
+      {
+       "text": "友",
+       "reading": "yǒu"
+      },
+      {
+       "text": "从",
+       "reading": "cóng"
+      },
+      {
+       "text": "小",
+       "reading": "xiǎo"
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "见",
+       "reading": "jiàn"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "从",
+       "reading": "cóng"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "没",
+       "reading": "méi"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "过",
+       "reading": "guò"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "心",
+       "reading": "xīn"
+      },
+      {
+       "text": "里",
+       "reading": "lǐ"
+      },
+      {
+       "text": "非",
+       "reading": "fēi"
+      },
+      {
+       "text": "常",
+       "reading": "cháng"
+      },
+      {
+       "text": "好",
+       "reading": "hào"
+      },
+      {
+       "text": "奇",
+       "reading": "qí"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "边",
+       "reading": "biān"
+      },
+      {
+       "text": "走",
+       "reading": "zǒu"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "边",
+       "reading": "biān"
+      },
+      {
+       "text": "问",
+       "reading": "wèn"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "底",
+       "reading": "dǐ"
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "多",
+       "reading": "duō"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "呀",
+       "reading": "yā"
+      },
+      {
+       "text": "？",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "长",
+       "reading": "zhǎng"
+      },
+      {
+       "text": "什",
+       "reading": "shén"
+      },
+      {
+       "text": "么",
+       "reading": "me"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "呢",
+       "reading": "ne"
+      },
+      {
+       "text": "？",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "但",
+       "reading": "dàn"
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "脑",
+       "reading": "nǎo"
+      },
+      {
+       "text": "海",
+       "reading": "hǎi"
+      },
+      {
+       "text": "中",
+       "reading": "zhōng"
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "想",
+       "reading": "xiǎng"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "出",
+       "reading": "chū"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "越",
+       "reading": "yuè"
+      },
+      {
+       "text": "想",
+       "reading": "xiǎng"
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "越",
+       "reading": "yuè"
+      },
+      {
+       "text": "兴",
+       "reading": "xīng"
+      },
+      {
+       "text": "奋",
+       "reading": "fèn"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "迫",
+       "reading": "pò"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "及",
+       "reading": "jí"
+      },
+      {
+       "text": "待",
+       "reading": "dài"
+      },
+      {
+       "text": "想",
+       "reading": "xiǎng"
+      },
+      {
+       "text": "亲",
+       "reading": "qīn"
+      },
+      {
+       "text": "手",
+       "reading": "shǒu"
+      },
+      {
+       "text": "去",
+       "reading": "qù"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "One day, the village gate suddenly burst into excitement. Someone had led in an enormous elephant! The news spread like the wind, sweeping through the streets in an instant. Five good friends heard the commotion, and they all set down the peanuts they were shelling, took hold of one another's hands, and followed the sound of the bustling crowd, step by step, toward the village gate. These five friends had been blind since they were young and never had the chance to touch an elephant before. They were all bursting with curiosity. As they walked, they kept asking, \"Just how big is an elephant?\" \"What does it even look like?\" But they still couldn't picture the elephant in their minds. The more they wondered, the more excited they became. They could hardly wait to feel it for themselves."
+   },
+   {
+    "id": "p002",
+    "trad": {
+     "text": "牽象的人笑瞇瞇地說：「別急別急，一個一個慢慢摸，這頭大象很乖，不會傷人的。」那五個朋友一聽，都開心地伸出手，小心翼翼地往前摸去。大象靜靜地站著，像一座小山。",
+     "zhuyin": [
+      {
+       "text": "牽",
+       "reading": "ㄑㄧㄢ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "笑",
+       "reading": "ㄒㄧㄠˋ"
+      },
+      {
+       "text": "瞇",
+       "reading": "ㄇㄧ"
+      },
+      {
+       "text": "瞇",
+       "reading": "ㄇㄧ"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "別",
+       "reading": "ㄅㄧㄝˊ"
+      },
+      {
+       "text": "急",
+       "reading": "ㄐㄧˊ"
+      },
+      {
+       "text": "別",
+       "reading": "ㄅㄧㄝˊ"
+      },
+      {
+       "text": "急",
+       "reading": "ㄐㄧˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "頭",
+       "reading": "ㄊㄡˊ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "很",
+       "reading": "ㄏㄣˇ"
+      },
+      {
+       "text": "乖",
+       "reading": "ㄍㄨㄞ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "會",
+       "reading": "ㄏㄨㄟˋ"
+      },
+      {
+       "text": "傷",
+       "reading": "ㄕㄤ"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "五",
+       "reading": "ㄨˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "朋",
+       "reading": "ㄆㄥˊ"
+      },
+      {
+       "text": "友",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "聽",
+       "reading": "ㄊㄧㄥ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "開",
+       "reading": "ㄎㄞ"
+      },
+      {
+       "text": "心",
+       "reading": "ㄒㄧㄣ"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "伸",
+       "reading": "ㄕㄣ"
+      },
+      {
+       "text": "出",
+       "reading": "ㄔㄨ"
+      },
+      {
+       "text": "手",
+       "reading": "ㄕㄡˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "小",
+       "reading": "ㄒㄧㄠˇ"
+      },
+      {
+       "text": "心",
+       "reading": "ㄒㄧㄣ"
+      },
+      {
+       "text": "翼",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "翼",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "往",
+       "reading": "ㄨㄤˇ"
+      },
+      {
+       "text": "前",
+       "reading": "ㄑㄧㄢˊ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "去",
+       "reading": "ㄑㄩˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "靜",
+       "reading": "ㄐㄧㄥˋ"
+      },
+      {
+       "text": "靜",
+       "reading": "ㄐㄧㄥˋ"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "站",
+       "reading": "ㄓㄢˋ"
+      },
+      {
+       "text": "著",
+       "reading": "ㄓㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "座",
+       "reading": "ㄗㄨㄛˋ"
+      },
+      {
+       "text": "小",
+       "reading": "ㄒㄧㄠˇ"
+      },
+      {
+       "text": "山",
+       "reading": "ㄕㄢ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ],
+     "bpmf": "牽象的人笑瞇瞇地󠇡說：「別急別急，一󠇡個󠇡一󠇡個󠇡慢慢摸，這頭大象很乖，不󠇡會傷人的。」那五個󠇡朋友一󠇢聽，都開心地󠇡伸出手，小心翼翼地󠇡往前摸去。大象靜靜地󠇡站著，像一󠇡座小山。"
+    },
+    "simp": {
+     "text": "牵象的人笑瞇瞇地说：「别急别急，一个一个慢慢摸，这头大象很乖，不会伤人的。」那五个朋友一听，都开心地伸出手，小心翼翼地往前摸去。大象静静地站著，像一座小山。",
+     "pinyin": [
+      {
+       "text": "牵",
+       "reading": "qiān"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "笑",
+       "reading": "xiào"
+      },
+      {
+       "text": "瞇",
+       "reading": "mī"
+      },
+      {
+       "text": "瞇",
+       "reading": "mī"
+      },
+      {
+       "text": "地",
+       "reading": "de"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "别",
+       "reading": "bié"
+      },
+      {
+       "text": "急",
+       "reading": "jí"
+      },
+      {
+       "text": "别",
+       "reading": "bié"
+      },
+      {
+       "text": "急",
+       "reading": "jí"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "头",
+       "reading": "tóu"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "很",
+       "reading": "hěn"
+      },
+      {
+       "text": "乖",
+       "reading": "guāi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "会",
+       "reading": "huì"
+      },
+      {
+       "text": "伤",
+       "reading": "shāng"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "五",
+       "reading": "wǔ"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "朋",
+       "reading": "péng"
+      },
+      {
+       "text": "友",
+       "reading": "yǒu"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "听",
+       "reading": "tīng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "开",
+       "reading": "kāi"
+      },
+      {
+       "text": "心",
+       "reading": "xīn"
+      },
+      {
+       "text": "地",
+       "reading": "de"
+      },
+      {
+       "text": "伸",
+       "reading": "shēn"
+      },
+      {
+       "text": "出",
+       "reading": "chū"
+      },
+      {
+       "text": "手",
+       "reading": "shǒu"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "小",
+       "reading": "xiǎo"
+      },
+      {
+       "text": "心",
+       "reading": "xīn"
+      },
+      {
+       "text": "翼",
+       "reading": "yì"
+      },
+      {
+       "text": "翼",
+       "reading": "yì"
+      },
+      {
+       "text": "地",
+       "reading": "de"
+      },
+      {
+       "text": "往",
+       "reading": "wǎng"
+      },
+      {
+       "text": "前",
+       "reading": "qián"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "去",
+       "reading": "qù"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "静",
+       "reading": "jìng"
+      },
+      {
+       "text": "静",
+       "reading": "jìng"
+      },
+      {
+       "text": "地",
+       "reading": "de"
+      },
+      {
+       "text": "站",
+       "reading": "zhàn"
+      },
+      {
+       "text": "著",
+       "reading": "zhe"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "座",
+       "reading": "zuò"
+      },
+      {
+       "text": "小",
+       "reading": "xiǎo"
+      },
+      {
+       "text": "山",
+       "reading": "shān"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "The man leading the elephant said with a warm smile, \"No rush, no rush. Come one at a time and take your time. This elephant is very gentle, it won't hurt anyone.\" The five friends happily reached out their hands and carefully felt their way forward. The elephant stood quietly before them, as still as a little hill."
+   },
+   {
+    "id": "p003",
+    "trad": {
+     "text": "第一個人摸到了大象的腿。那腿圓滾滾、粗壯壯，硬硬的，兩隻手都抱不住。他上下摸了好幾遍，很有把握地大喊：「我知道啦！大象就像房子裡的大柱子，直直的，粗得不得了！」",
+     "zhuyin": [
+      {
+       "text": "第",
+       "reading": "ㄉㄧˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "腿",
+       "reading": "ㄊㄨㄟˇ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "腿",
+       "reading": "ㄊㄨㄟˇ"
+      },
+      {
+       "text": "圓",
+       "reading": "ㄩㄢˊ"
+      },
+      {
+       "text": "滾",
+       "reading": "ㄍㄨㄣˇ"
+      },
+      {
+       "text": "滾",
+       "reading": "ㄍㄨㄣˇ"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "粗",
+       "reading": "ㄘㄨ"
+      },
+      {
+       "text": "壯",
+       "reading": "ㄓㄨㄤˋ"
+      },
+      {
+       "text": "壯",
+       "reading": "ㄓㄨㄤˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "硬",
+       "reading": "ㄧㄥˋ"
+      },
+      {
+       "text": "硬",
+       "reading": "ㄧㄥˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "兩",
+       "reading": "ㄌㄧㄤˇ"
+      },
+      {
+       "text": "隻",
+       "reading": "ㄓ"
+      },
+      {
+       "text": "手",
+       "reading": "ㄕㄡˇ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "抱",
+       "reading": "ㄅㄠˋ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "住",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "上",
+       "reading": "ㄕㄤˋ"
+      },
+      {
+       "text": "下",
+       "reading": "ㄒㄧㄚˋ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "好",
+       "reading": "ㄏㄠˇ"
+      },
+      {
+       "text": "幾",
+       "reading": "ㄐㄧˇ"
+      },
+      {
+       "text": "遍",
+       "reading": "ㄅㄧㄢˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "很",
+       "reading": "ㄏㄣˇ"
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "把",
+       "reading": "ㄅㄚˇ"
+      },
+      {
+       "text": "握",
+       "reading": "ㄨㄛˋ"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "喊",
+       "reading": "ㄏㄢˇ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "ㄨㄛˇ"
+      },
+      {
+       "text": "知",
+       "reading": "ㄓ"
+      },
+      {
+       "text": "道",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "啦",
+       "reading": "ㄌㄚ˙"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "房",
+       "reading": "ㄈㄤˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "裡",
+       "reading": "ㄌㄧˇ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "柱",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "直",
+       "reading": "ㄓˊ"
+      },
+      {
+       "text": "直",
+       "reading": "ㄓˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "粗",
+       "reading": "ㄘㄨ"
+      },
+      {
+       "text": "得",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "得",
+       "reading": "ㄉㄜˊ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄧㄠˇ"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ],
+     "bpmf": "第一個󠇡人摸到了大象的腿。那腿圓滾滾、粗壯壯，硬硬的，兩隻手都抱不󠇡住。他上下摸了好幾遍，很有把握地󠇡大喊：「我知道啦！大象就像房子󠇡裡的大柱子󠇡，直直的，粗得󠇡不得了󠇡！」"
+    },
+    "simp": {
+     "text": "第一个人摸到了大象的腿。那腿圆滚滚、粗壮壮，硬硬的，两只手都抱不住。他上下摸了好几遍，很有把握地大喊：「我知道啦！大象就像房子里的大柱子，直直的，粗得不得了！」",
+     "pinyin": [
+      {
+       "text": "第",
+       "reading": "dì"
+      },
+      {
+       "text": "一",
+       "reading": "yi"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "腿",
+       "reading": "tuǐ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "腿",
+       "reading": "tuǐ"
+      },
+      {
+       "text": "圆",
+       "reading": "yuán"
+      },
+      {
+       "text": "滚",
+       "reading": "gǔn"
+      },
+      {
+       "text": "滚",
+       "reading": "gǔn"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "粗",
+       "reading": "cū"
+      },
+      {
+       "text": "壮",
+       "reading": "zhuàng"
+      },
+      {
+       "text": "壮",
+       "reading": "zhuàng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "硬",
+       "reading": "yìng"
+      },
+      {
+       "text": "硬",
+       "reading": "yìng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "两",
+       "reading": "liǎng"
+      },
+      {
+       "text": "只",
+       "reading": "zhī"
+      },
+      {
+       "text": "手",
+       "reading": "shǒu"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "抱",
+       "reading": "bào"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "住",
+       "reading": "zhù"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "上",
+       "reading": "shàng"
+      },
+      {
+       "text": "下",
+       "reading": "xià"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "好",
+       "reading": "hǎo"
+      },
+      {
+       "text": "几",
+       "reading": "jǐ"
+      },
+      {
+       "text": "遍",
+       "reading": "biàn"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "很",
+       "reading": "hěn"
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "把",
+       "reading": "bǎ"
+      },
+      {
+       "text": "握",
+       "reading": "wò"
+      },
+      {
+       "text": "地",
+       "reading": "de"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "喊",
+       "reading": "hǎn"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "wǒ"
+      },
+      {
+       "text": "知",
+       "reading": "zhī"
+      },
+      {
+       "text": "道",
+       "reading": "dào"
+      },
+      {
+       "text": "啦",
+       "reading": "la"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "房",
+       "reading": "fáng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "里",
+       "reading": "lǐ"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "柱",
+       "reading": "zhù"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "直",
+       "reading": "zhí"
+      },
+      {
+       "text": "直",
+       "reading": "zhí"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "粗",
+       "reading": "cū"
+      },
+      {
+       "text": "得",
+       "reading": "de"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "得",
+       "reading": "dé"
+      },
+      {
+       "text": "了",
+       "reading": "liǎo"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "The first man's hands found the elephant's leg. It was round, thick and sturdy, and hard as stone—so wide he couldn't get both arms around it. He ran his hands up and down it several times, then shouted, full of confidence, \"I've got it! An elephant is just like the big pillar in a house, straight and unbelievably thick!\""
+   },
+   {
+    "id": "p004",
+    "trad": {
+     "text": "第二個人摸到了大象的尾巴。那尾巴細細長長的，尾巴尖兒還有一小團毛，甩呀甩的。他馬上搖頭說：「你摸錯啦！大象才不像柱子，明明就像一條繩子，細細軟軟的，還會動來動去呢！」他一邊說，一邊把尾巴輕輕握在手裡，覺得自己一定對。",
+     "zhuyin": [
+      {
+       "text": "第",
+       "reading": "ㄉㄧˋ"
+      },
+      {
+       "text": "二",
+       "reading": "ㄦˋ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "尾",
+       "reading": "ㄨㄟˇ"
+      },
+      {
+       "text": "巴",
+       "reading": "ㄅㄚ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "尾",
+       "reading": "ㄨㄟˇ"
+      },
+      {
+       "text": "巴",
+       "reading": "ㄅㄚ˙"
+      },
+      {
+       "text": "細",
+       "reading": "ㄒㄧˋ"
+      },
+      {
+       "text": "細",
+       "reading": "ㄒㄧˋ"
+      },
+      {
+       "text": "長",
+       "reading": "ㄔㄤˊ"
+      },
+      {
+       "text": "長",
+       "reading": "ㄔㄤˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "尾",
+       "reading": "ㄨㄟˇ"
+      },
+      {
+       "text": "巴",
+       "reading": "ㄅㄚ˙"
+      },
+      {
+       "text": "尖",
+       "reading": "ㄐㄧㄢ"
+      },
+      {
+       "text": "兒",
+       "reading": "ㄦˊ"
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "小",
+       "reading": "ㄒㄧㄠˇ"
+      },
+      {
+       "text": "團",
+       "reading": "ㄊㄨㄢˊ"
+      },
+      {
+       "text": "毛",
+       "reading": "ㄇㄠˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "甩",
+       "reading": "ㄕㄨㄞˇ"
+      },
+      {
+       "text": "呀",
+       "reading": "ㄧㄚ"
+      },
+      {
+       "text": "甩",
+       "reading": "ㄕㄨㄞˇ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "馬",
+       "reading": "ㄇㄚˇ"
+      },
+      {
+       "text": "上",
+       "reading": "ㄕㄤˋ"
+      },
+      {
+       "text": "搖",
+       "reading": "ㄧㄠˊ"
+      },
+      {
+       "text": "頭",
+       "reading": "ㄊㄡˊ"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "錯",
+       "reading": "ㄘㄨㄛˋ"
+      },
+      {
+       "text": "啦",
+       "reading": "ㄌㄚ˙"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "才",
+       "reading": "ㄘㄞˊ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "柱",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "明",
+       "reading": "ㄇㄧㄥˊ"
+      },
+      {
+       "text": "明",
+       "reading": "ㄇㄧㄥˊ"
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "條",
+       "reading": "ㄊㄧㄠˊ"
+      },
+      {
+       "text": "繩",
+       "reading": "ㄕㄥˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "細",
+       "reading": "ㄒㄧˋ"
+      },
+      {
+       "text": "細",
+       "reading": "ㄒㄧˋ"
+      },
+      {
+       "text": "軟",
+       "reading": "ㄖㄨㄢˇ"
+      },
+      {
+       "text": "軟",
+       "reading": "ㄖㄨㄢˇ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "會",
+       "reading": "ㄏㄨㄟˋ"
+      },
+      {
+       "text": "動",
+       "reading": "ㄉㄨㄥˋ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "動",
+       "reading": "ㄉㄨㄥˋ"
+      },
+      {
+       "text": "去",
+       "reading": "ㄑㄩˋ"
+      },
+      {
+       "text": "呢",
+       "reading": "ㄋㄜ˙"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "邊",
+       "reading": "ㄅㄧㄢ"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "邊",
+       "reading": "ㄅㄧㄢ"
+      },
+      {
+       "text": "把",
+       "reading": "ㄅㄚˇ"
+      },
+      {
+       "text": "尾",
+       "reading": "ㄨㄟˇ"
+      },
+      {
+       "text": "巴",
+       "reading": "ㄅㄚ˙"
+      },
+      {
+       "text": "輕",
+       "reading": "ㄑㄧㄥ"
+      },
+      {
+       "text": "輕",
+       "reading": "ㄑㄧㄥ"
+      },
+      {
+       "text": "握",
+       "reading": "ㄨㄛˋ"
+      },
+      {
+       "text": "在",
+       "reading": "ㄗㄞˋ"
+      },
+      {
+       "text": "手",
+       "reading": "ㄕㄡˇ"
+      },
+      {
+       "text": "裡",
+       "reading": "ㄌㄧˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "覺",
+       "reading": "ㄐㄩㄝˊ"
+      },
+      {
+       "text": "得",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "自",
+       "reading": "ㄗˋ"
+      },
+      {
+       "text": "己",
+       "reading": "ㄐㄧˇ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "定",
+       "reading": "ㄉㄧㄥˋ"
+      },
+      {
+       "text": "對",
+       "reading": "ㄉㄨㄟˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ],
+     "bpmf": "第二個󠇡人摸到了大象的尾巴󠇡。那尾巴󠇡細細長長的，尾巴󠇡尖兒還有一󠇢小團毛，甩呀甩的。他馬上搖頭說：「你摸錯啦！大象才不󠇡像柱子󠇡，明明就像一󠇢條繩子󠇡，細細軟軟的，還會動來動去呢！」他一󠇢邊說，一󠇢邊把尾巴󠇡輕輕握在手裡，覺得󠇡自己一󠇡定對。"
+    },
+    "simp": {
+     "text": "第二个人摸到了大象的尾巴。那尾巴细细长长的，尾巴尖儿还有一小团毛，甩呀甩的。他马上摇头说：「你摸错啦！大象才不像柱子，明明就像一条绳子，细细软软的，还会动来动去呢！」他一边说，一边把尾巴轻轻握在手里，觉得自己一定对。",
+     "pinyin": [
+      {
+       "text": "第",
+       "reading": "dì"
+      },
+      {
+       "text": "二",
+       "reading": "èr"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "尾",
+       "reading": "wěi"
+      },
+      {
+       "text": "巴",
+       "reading": "ba"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "尾",
+       "reading": "wěi"
+      },
+      {
+       "text": "巴",
+       "reading": "ba"
+      },
+      {
+       "text": "细",
+       "reading": "xì"
+      },
+      {
+       "text": "细",
+       "reading": "xì"
+      },
+      {
+       "text": "长",
+       "reading": "cháng"
+      },
+      {
+       "text": "长",
+       "reading": "cháng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "尾",
+       "reading": "wěi"
+      },
+      {
+       "text": "巴",
+       "reading": "ba"
+      },
+      {
+       "text": "尖",
+       "reading": "jiān"
+      },
+      {
+       "text": "儿",
+       "reading": "ér"
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "小",
+       "reading": "xiǎo"
+      },
+      {
+       "text": "团",
+       "reading": "tuán"
+      },
+      {
+       "text": "毛",
+       "reading": "máo"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "甩",
+       "reading": "shuǎi"
+      },
+      {
+       "text": "呀",
+       "reading": "yā"
+      },
+      {
+       "text": "甩",
+       "reading": "shuǎi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "马",
+       "reading": "mǎ"
+      },
+      {
+       "text": "上",
+       "reading": "shàng"
+      },
+      {
+       "text": "摇",
+       "reading": "yáo"
+      },
+      {
+       "text": "头",
+       "reading": "tóu"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "错",
+       "reading": "cuò"
+      },
+      {
+       "text": "啦",
+       "reading": "la"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "才",
+       "reading": "cái"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "柱",
+       "reading": "zhù"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "明",
+       "reading": "míng"
+      },
+      {
+       "text": "明",
+       "reading": "míng"
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "条",
+       "reading": "tiáo"
+      },
+      {
+       "text": "绳",
+       "reading": "shéng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "细",
+       "reading": "xì"
+      },
+      {
+       "text": "细",
+       "reading": "xì"
+      },
+      {
+       "text": "软",
+       "reading": "ruǎn"
+      },
+      {
+       "text": "软",
+       "reading": "ruǎn"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "会",
+       "reading": "huì"
+      },
+      {
+       "text": "动",
+       "reading": "dòng"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "动",
+       "reading": "dòng"
+      },
+      {
+       "text": "去",
+       "reading": "qù"
+      },
+      {
+       "text": "呢",
+       "reading": "ne"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "边",
+       "reading": "biān"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "边",
+       "reading": "biān"
+      },
+      {
+       "text": "把",
+       "reading": "bǎ"
+      },
+      {
+       "text": "尾",
+       "reading": "wěi"
+      },
+      {
+       "text": "巴",
+       "reading": "ba"
+      },
+      {
+       "text": "轻",
+       "reading": "qīng"
+      },
+      {
+       "text": "轻",
+       "reading": "qīng"
+      },
+      {
+       "text": "握",
+       "reading": "wò"
+      },
+      {
+       "text": "在",
+       "reading": "zài"
+      },
+      {
+       "text": "手",
+       "reading": "shǒu"
+      },
+      {
+       "text": "里",
+       "reading": "lǐ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "觉",
+       "reading": "jué"
+      },
+      {
+       "text": "得",
+       "reading": "de"
+      },
+      {
+       "text": "自",
+       "reading": "zì"
+      },
+      {
+       "text": "己",
+       "reading": "jǐ"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "定",
+       "reading": "dìng"
+      },
+      {
+       "text": "对",
+       "reading": "duì"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "The second man's hands found the elephant's tail. The tail was thin and long, with a little tuft of hair at the very tip, swishing back and forth. He shook his head at once and said, \"You've got it all wrong! An elephant is nothing like a pillar, it's obviously like a rope, thin and soft, and it even wiggles this way and that!\" As he spoke, he held the tail gently in his hands, sure that he had to be right."
+   },
+   {
+    "id": "p005",
+    "trad": {
+     "text": "這時候，第三個人摸到的是大象的鼻子。那鼻子長長的，會彎會捲，還一伸一縮的，突然噴出一口氣，嚇了他一跳，手心癢癢的。他也不服氣地說：「你們都錯啦！大象既不是柱子，也不是繩子，明明就像一條彎彎的大蛇，還會扭來扭去呢！」",
+     "zhuyin": [
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "時",
+       "reading": "ㄕˊ"
+      },
+      {
+       "text": "候",
+       "reading": "ㄏㄡˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "第",
+       "reading": "ㄉㄧˋ"
+      },
+      {
+       "text": "三",
+       "reading": "ㄙㄢ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "鼻",
+       "reading": "ㄅㄧˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "鼻",
+       "reading": "ㄅㄧˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "長",
+       "reading": "ㄔㄤˊ"
+      },
+      {
+       "text": "長",
+       "reading": "ㄔㄤˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "會",
+       "reading": "ㄏㄨㄟˋ"
+      },
+      {
+       "text": "彎",
+       "reading": "ㄨㄢ"
+      },
+      {
+       "text": "會",
+       "reading": "ㄏㄨㄟˋ"
+      },
+      {
+       "text": "捲",
+       "reading": "ㄐㄩㄢˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "伸",
+       "reading": "ㄕㄣ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "縮",
+       "reading": "ㄙㄨㄛ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "突",
+       "reading": "ㄊㄨˊ"
+      },
+      {
+       "text": "然",
+       "reading": "ㄖㄢˊ"
+      },
+      {
+       "text": "噴",
+       "reading": "ㄆㄣ"
+      },
+      {
+       "text": "出",
+       "reading": "ㄔㄨ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "口",
+       "reading": "ㄎㄡˇ"
+      },
+      {
+       "text": "氣",
+       "reading": "ㄑㄧˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "嚇",
+       "reading": "ㄒㄧㄚˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "跳",
+       "reading": "ㄊㄧㄠˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "手",
+       "reading": "ㄕㄡˇ"
+      },
+      {
+       "text": "心",
+       "reading": "ㄒㄧㄣ"
+      },
+      {
+       "text": "癢",
+       "reading": "ㄧㄤˇ"
+      },
+      {
+       "text": "癢",
+       "reading": "ㄧㄤˇ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "也",
+       "reading": "ㄧㄝˇ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "服",
+       "reading": "ㄈㄨˊ"
+      },
+      {
+       "text": "氣",
+       "reading": "ㄑㄧˋ"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "錯",
+       "reading": "ㄘㄨㄛˋ"
+      },
+      {
+       "text": "啦",
+       "reading": "ㄌㄚ˙"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "既",
+       "reading": "ㄐㄧˋ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "柱",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "也",
+       "reading": "ㄧㄝˇ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "繩",
+       "reading": "ㄕㄥˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "明",
+       "reading": "ㄇㄧㄥˊ"
+      },
+      {
+       "text": "明",
+       "reading": "ㄇㄧㄥˊ"
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "條",
+       "reading": "ㄊㄧㄠˊ"
+      },
+      {
+       "text": "彎",
+       "reading": "ㄨㄢ"
+      },
+      {
+       "text": "彎",
+       "reading": "ㄨㄢ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "蛇",
+       "reading": "ㄕㄜˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "會",
+       "reading": "ㄏㄨㄟˋ"
+      },
+      {
+       "text": "扭",
+       "reading": "ㄋㄧㄡˇ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "扭",
+       "reading": "ㄋㄧㄡˇ"
+      },
+      {
+       "text": "去",
+       "reading": "ㄑㄩˋ"
+      },
+      {
+       "text": "呢",
+       "reading": "ㄋㄜ˙"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ],
+     "bpmf": "這時候，第三個󠇡人摸到的是大象的鼻子󠇡。那鼻子󠇡長長的，會彎會捲，還一󠇢伸一󠇢縮的，突然噴出一󠇢口氣，嚇了他一󠇡跳，手心癢癢的。他也不服氣地󠇡說：「你們都錯啦！大象既不󠇡是柱子󠇡，也不󠇡是繩子󠇡，明明就像一󠇢條彎彎的大蛇，還會扭來扭去呢！」"
+    },
+    "simp": {
+     "text": "这时候，第三个人摸到的是大象的鼻子。那鼻子长长的，会弯会卷，还一伸一缩的，突然喷出一口气，吓了他一跳，手心痒痒的。他也不服气地说：「你们都错啦！大象既不是柱子，也不是绳子，明明就像一条弯弯的大蛇，还会扭来扭去呢！」",
+     "pinyin": [
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "时",
+       "reading": "shí"
+      },
+      {
+       "text": "候",
+       "reading": "hòu"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "第",
+       "reading": "dì"
+      },
+      {
+       "text": "三",
+       "reading": "sān"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "鼻",
+       "reading": "bí"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "鼻",
+       "reading": "bí"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "长",
+       "reading": "cháng"
+      },
+      {
+       "text": "长",
+       "reading": "cháng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "会",
+       "reading": "huì"
+      },
+      {
+       "text": "弯",
+       "reading": "wān"
+      },
+      {
+       "text": "会",
+       "reading": "huì"
+      },
+      {
+       "text": "卷",
+       "reading": "juǎn"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "伸",
+       "reading": "shēn"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "缩",
+       "reading": "suō"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "突",
+       "reading": "tú"
+      },
+      {
+       "text": "然",
+       "reading": "rán"
+      },
+      {
+       "text": "喷",
+       "reading": "pēn"
+      },
+      {
+       "text": "出",
+       "reading": "chū"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "口",
+       "reading": "kǒu"
+      },
+      {
+       "text": "气",
+       "reading": "qì"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "吓",
+       "reading": "xià"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "跳",
+       "reading": "tiào"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "手",
+       "reading": "shǒu"
+      },
+      {
+       "text": "心",
+       "reading": "xīn"
+      },
+      {
+       "text": "痒",
+       "reading": "yǎng"
+      },
+      {
+       "text": "痒",
+       "reading": "yǎng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "也",
+       "reading": "yě"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "服",
+       "reading": "fú"
+      },
+      {
+       "text": "气",
+       "reading": "qì"
+      },
+      {
+       "text": "地",
+       "reading": "de"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "错",
+       "reading": "cuò"
+      },
+      {
+       "text": "啦",
+       "reading": "la"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "既",
+       "reading": "jì"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "柱",
+       "reading": "zhù"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "也",
+       "reading": "yě"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "绳",
+       "reading": "shéng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "明",
+       "reading": "míng"
+      },
+      {
+       "text": "明",
+       "reading": "míng"
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "条",
+       "reading": "tiáo"
+      },
+      {
+       "text": "弯",
+       "reading": "wān"
+      },
+      {
+       "text": "弯",
+       "reading": "wān"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "蛇",
+       "reading": "shé"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "会",
+       "reading": "huì"
+      },
+      {
+       "text": "扭",
+       "reading": "niǔ"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "扭",
+       "reading": "niǔ"
+      },
+      {
+       "text": "去",
+       "reading": "qù"
+      },
+      {
+       "text": "呢",
+       "reading": "ne"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "Just then, the third man's hands found the elephant's trunk. The trunk was long, and it could bend and curl, stretching out and drawing back. All at once it blew out a puff of air that startled him and left his palm tingling. He wasn't about to back down either, and said, \"You're both wrong! An elephant is neither a pillar nor a rope, it's clearly like a big curved snake, twisting and turning about!\""
+   },
+   {
+    "id": "p006",
+    "trad": {
+     "text": "第四個人站在大象頭旁邊，兩隻手剛好摸到一片大耳朵。那耳朵大大的、薄薄的，還會輕輕搧動，一陣涼風吹到他臉上。他忍不住喊起來：「你們全都猜錯啦！大象哪有那麼硬、那麼細。這明明就像一把大扇子，搧呀搧的，涼快得很！」",
+     "zhuyin": [
+      {
+       "text": "第",
+       "reading": "ㄉㄧˋ"
+      },
+      {
+       "text": "四",
+       "reading": "ㄙˋ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "站",
+       "reading": "ㄓㄢˋ"
+      },
+      {
+       "text": "在",
+       "reading": "ㄗㄞˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "頭",
+       "reading": "ㄊㄡˊ"
+      },
+      {
+       "text": "旁",
+       "reading": "ㄆㄤˊ"
+      },
+      {
+       "text": "邊",
+       "reading": "ㄅㄧㄢ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "兩",
+       "reading": "ㄌㄧㄤˇ"
+      },
+      {
+       "text": "隻",
+       "reading": "ㄓ"
+      },
+      {
+       "text": "手",
+       "reading": "ㄕㄡˇ"
+      },
+      {
+       "text": "剛",
+       "reading": "ㄍㄤ"
+      },
+      {
+       "text": "好",
+       "reading": "ㄏㄠˇ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "片",
+       "reading": "ㄆㄧㄢˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "耳",
+       "reading": "ㄦˇ"
+      },
+      {
+       "text": "朵",
+       "reading": "ㄉㄨㄛ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "耳",
+       "reading": "ㄦˇ"
+      },
+      {
+       "text": "朵",
+       "reading": "ㄉㄨㄛ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "薄",
+       "reading": "ㄅㄛˊ"
+      },
+      {
+       "text": "薄",
+       "reading": "ㄅㄛˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "會",
+       "reading": "ㄏㄨㄟˋ"
+      },
+      {
+       "text": "輕",
+       "reading": "ㄑㄧㄥ"
+      },
+      {
+       "text": "輕",
+       "reading": "ㄑㄧㄥ"
+      },
+      {
+       "text": "搧",
+       "reading": "ㄕㄢ"
+      },
+      {
+       "text": "動",
+       "reading": "ㄉㄨㄥˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "陣",
+       "reading": "ㄓㄣˋ"
+      },
+      {
+       "text": "涼",
+       "reading": "ㄌㄧㄤˊ"
+      },
+      {
+       "text": "風",
+       "reading": "ㄈㄥ"
+      },
+      {
+       "text": "吹",
+       "reading": "ㄔㄨㄟ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "臉",
+       "reading": "ㄌㄧㄢˇ"
+      },
+      {
+       "text": "上",
+       "reading": "ㄕㄤˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "忍",
+       "reading": "ㄖㄣˇ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "住",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "喊",
+       "reading": "ㄏㄢˇ"
+      },
+      {
+       "text": "起",
+       "reading": "ㄑㄧˇ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "全",
+       "reading": "ㄑㄩㄢˊ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "猜",
+       "reading": "ㄘㄞ"
+      },
+      {
+       "text": "錯",
+       "reading": "ㄘㄨㄛˋ"
+      },
+      {
+       "text": "啦",
+       "reading": "ㄌㄚ˙"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "哪",
+       "reading": "ㄋㄚˇ"
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "麼",
+       "reading": "ㄇㄜ˙"
+      },
+      {
+       "text": "硬",
+       "reading": "ㄧㄥˋ"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "麼",
+       "reading": "ㄇㄜ˙"
+      },
+      {
+       "text": "細",
+       "reading": "ㄒㄧˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "明",
+       "reading": "ㄇㄧㄥˊ"
+      },
+      {
+       "text": "明",
+       "reading": "ㄇㄧㄥˊ"
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "把",
+       "reading": "ㄅㄚˇ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "扇",
+       "reading": "ㄕㄢˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "搧",
+       "reading": "ㄕㄢ"
+      },
+      {
+       "text": "呀",
+       "reading": "ㄧㄚ"
+      },
+      {
+       "text": "搧",
+       "reading": "ㄕㄢ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "涼",
+       "reading": "ㄌㄧㄤˊ"
+      },
+      {
+       "text": "快",
+       "reading": "ㄎㄨㄞˋ"
+      },
+      {
+       "text": "得",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "很",
+       "reading": "ㄏㄣˇ"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ],
+     "bpmf": "第四個󠇡人站在大象頭旁邊，兩隻手剛好摸到一󠇡片大耳朵󠇡。那耳朵󠇡大大的、薄薄的，還會輕輕搧動，一󠇡陣涼風吹到他臉上。他忍不󠇡住喊起來：「你們全都猜錯啦！大象哪有那麼硬、那麼細。這明明就像一󠇢把大扇子󠇡，搧呀搧的，涼快得󠇡很！」"
+    },
+    "simp": {
+     "text": "第四个人站在大象头旁边，两只手刚好摸到一片大耳朵。那耳朵大大的、薄薄的，还会轻轻搧动，一阵凉风吹到他脸上。他忍不住喊起来：「你们全都猜错啦！大象哪有那么硬、那么细。这明明就像一把大扇子，搧呀搧的，凉快得很！」",
+     "pinyin": [
+      {
+       "text": "第",
+       "reading": "dì"
+      },
+      {
+       "text": "四",
+       "reading": "sì"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "站",
+       "reading": "zhàn"
+      },
+      {
+       "text": "在",
+       "reading": "zài"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "头",
+       "reading": "tóu"
+      },
+      {
+       "text": "旁",
+       "reading": "páng"
+      },
+      {
+       "text": "边",
+       "reading": "biān"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "两",
+       "reading": "liǎng"
+      },
+      {
+       "text": "只",
+       "reading": "zhī"
+      },
+      {
+       "text": "手",
+       "reading": "shǒu"
+      },
+      {
+       "text": "刚",
+       "reading": "gāng"
+      },
+      {
+       "text": "好",
+       "reading": "hǎo"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "片",
+       "reading": "piàn"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "耳",
+       "reading": "ěr"
+      },
+      {
+       "text": "朵",
+       "reading": "duo"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "耳",
+       "reading": "ěr"
+      },
+      {
+       "text": "朵",
+       "reading": "duo"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "薄",
+       "reading": "báo"
+      },
+      {
+       "text": "薄",
+       "reading": "báo"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "会",
+       "reading": "huì"
+      },
+      {
+       "text": "轻",
+       "reading": "qīng"
+      },
+      {
+       "text": "轻",
+       "reading": "qīng"
+      },
+      {
+       "text": "搧",
+       "reading": "shān"
+      },
+      {
+       "text": "动",
+       "reading": "dòng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "阵",
+       "reading": "zhèn"
+      },
+      {
+       "text": "凉",
+       "reading": "liáng"
+      },
+      {
+       "text": "风",
+       "reading": "fēng"
+      },
+      {
+       "text": "吹",
+       "reading": "chuī"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "脸",
+       "reading": "liǎn"
+      },
+      {
+       "text": "上",
+       "reading": "shàng"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "忍",
+       "reading": "rěn"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "住",
+       "reading": "zhù"
+      },
+      {
+       "text": "喊",
+       "reading": "hǎn"
+      },
+      {
+       "text": "起",
+       "reading": "qǐ"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "全",
+       "reading": "quán"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "猜",
+       "reading": "cāi"
+      },
+      {
+       "text": "错",
+       "reading": "cuò"
+      },
+      {
+       "text": "啦",
+       "reading": "la"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "哪",
+       "reading": "nǎ"
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "么",
+       "reading": "me"
+      },
+      {
+       "text": "硬",
+       "reading": "yìng"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "么",
+       "reading": "me"
+      },
+      {
+       "text": "细",
+       "reading": "xì"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "明",
+       "reading": "míng"
+      },
+      {
+       "text": "明",
+       "reading": "míng"
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "把",
+       "reading": "bǎ"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "扇",
+       "reading": "shàn"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "搧",
+       "reading": "shān"
+      },
+      {
+       "text": "呀",
+       "reading": "yā"
+      },
+      {
+       "text": "搧",
+       "reading": "shān"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "凉",
+       "reading": "liáng"
+      },
+      {
+       "text": "快",
+       "reading": "kuài"
+      },
+      {
+       "text": "得",
+       "reading": "de"
+      },
+      {
+       "text": "很",
+       "reading": "hěn"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "The fourth man stood beside the elephant's head, and his two hands landed right on a great ear. The ear was big and thin, and it fanned gently back and forth, sending a cool breeze across his face. He couldn't help calling out, \"You've all guessed wrong! How could an elephant be so hard, or so thin? It's obviously a great big fan. Just one flap, and whoosh—what a cool breeze!\""
+   },
+   {
+    "id": "p007",
+    "trad": {
+     "text": "最後一個人走得慢，他伸手摸到大象的身體。那身體平平的、厚厚的，一大片，手往旁邊摸呀摸，摸了半天還摸不到邊。他慢吞吞地說：「我覺得你們說的都不對。大象明明就像一堵牆，又高又厚，摸過去平平整整的。」",
+     "zhuyin": [
+      {
+       "text": "最",
+       "reading": "ㄗㄨㄟˋ"
+      },
+      {
+       "text": "後",
+       "reading": "ㄏㄡˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "走",
+       "reading": "ㄗㄡˇ"
+      },
+      {
+       "text": "得",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "伸",
+       "reading": "ㄕㄣ"
+      },
+      {
+       "text": "手",
+       "reading": "ㄕㄡˇ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "身",
+       "reading": "ㄕㄣ"
+      },
+      {
+       "text": "體",
+       "reading": "ㄊㄧˇ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "身",
+       "reading": "ㄕㄣ"
+      },
+      {
+       "text": "體",
+       "reading": "ㄊㄧˇ"
+      },
+      {
+       "text": "平",
+       "reading": "ㄆㄧㄥˊ"
+      },
+      {
+       "text": "平",
+       "reading": "ㄆㄧㄥˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "厚",
+       "reading": "ㄏㄡˋ"
+      },
+      {
+       "text": "厚",
+       "reading": "ㄏㄡˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "片",
+       "reading": "ㄆㄧㄢˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "手",
+       "reading": "ㄕㄡˇ"
+      },
+      {
+       "text": "往",
+       "reading": "ㄨㄤˇ"
+      },
+      {
+       "text": "旁",
+       "reading": "ㄆㄤˊ"
+      },
+      {
+       "text": "邊",
+       "reading": "ㄅㄧㄢ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "呀",
+       "reading": "ㄧㄚ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "半",
+       "reading": "ㄅㄢˋ"
+      },
+      {
+       "text": "天",
+       "reading": "ㄊㄧㄢ"
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "邊",
+       "reading": "ㄅㄧㄢ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "吞",
+       "reading": "ㄊㄨㄣ"
+      },
+      {
+       "text": "吞",
+       "reading": "ㄊㄨㄣ"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "ㄨㄛˇ"
+      },
+      {
+       "text": "覺",
+       "reading": "ㄐㄩㄝˊ"
+      },
+      {
+       "text": "得",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "對",
+       "reading": "ㄉㄨㄟˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "明",
+       "reading": "ㄇㄧㄥˊ"
+      },
+      {
+       "text": "明",
+       "reading": "ㄇㄧㄥˊ"
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "堵",
+       "reading": "ㄉㄨˇ"
+      },
+      {
+       "text": "牆",
+       "reading": "ㄑㄧㄤˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "又",
+       "reading": "ㄧㄡˋ"
+      },
+      {
+       "text": "高",
+       "reading": "ㄍㄠ"
+      },
+      {
+       "text": "又",
+       "reading": "ㄧㄡˋ"
+      },
+      {
+       "text": "厚",
+       "reading": "ㄏㄡˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "過",
+       "reading": "ㄍㄨㄛˋ"
+      },
+      {
+       "text": "去",
+       "reading": "ㄑㄩˋ"
+      },
+      {
+       "text": "平",
+       "reading": "ㄆㄧㄥˊ"
+      },
+      {
+       "text": "平",
+       "reading": "ㄆㄧㄥˊ"
+      },
+      {
+       "text": "整",
+       "reading": "ㄓㄥˇ"
+      },
+      {
+       "text": "整",
+       "reading": "ㄓㄥˇ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ],
+     "bpmf": "最後一󠇡個󠇡人走得󠇡慢，他伸手摸到大象的身體。那身體平平的、厚厚的，一󠇡大片，手往旁邊摸呀摸，摸了半天還摸不󠇡到邊。他慢吞吞地󠇡說：「我覺得󠇡你們說的都不󠇡對。大象明明就像一󠇢堵牆，又高又厚，摸過去平平整整的。」"
+    },
+    "simp": {
+     "text": "最后一个人走得慢，他伸手摸到大象的身体。那身体平平的、厚厚的，一大片，手往旁边摸呀摸，摸了半天还摸不到边。他慢吞吞地说：「我觉得你们说的都不对。大象明明就像一堵墙，又高又厚，摸过去平平整整的。」",
+     "pinyin": [
+      {
+       "text": "最",
+       "reading": "zuì"
+      },
+      {
+       "text": "后",
+       "reading": "hòu"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "走",
+       "reading": "zǒu"
+      },
+      {
+       "text": "得",
+       "reading": "de"
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "伸",
+       "reading": "shēn"
+      },
+      {
+       "text": "手",
+       "reading": "shǒu"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "身",
+       "reading": "shēn"
+      },
+      {
+       "text": "体",
+       "reading": "tǐ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "身",
+       "reading": "shēn"
+      },
+      {
+       "text": "体",
+       "reading": "tǐ"
+      },
+      {
+       "text": "平",
+       "reading": "píng"
+      },
+      {
+       "text": "平",
+       "reading": "píng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "厚",
+       "reading": "hòu"
+      },
+      {
+       "text": "厚",
+       "reading": "hòu"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "片",
+       "reading": "piàn"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "手",
+       "reading": "shǒu"
+      },
+      {
+       "text": "往",
+       "reading": "wǎng"
+      },
+      {
+       "text": "旁",
+       "reading": "páng"
+      },
+      {
+       "text": "边",
+       "reading": "biān"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "呀",
+       "reading": "yā"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "半",
+       "reading": "bàn"
+      },
+      {
+       "text": "天",
+       "reading": "tiān"
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "边",
+       "reading": "biān"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "吞",
+       "reading": "tūn"
+      },
+      {
+       "text": "吞",
+       "reading": "tūn"
+      },
+      {
+       "text": "地",
+       "reading": "de"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "wǒ"
+      },
+      {
+       "text": "觉",
+       "reading": "jué"
+      },
+      {
+       "text": "得",
+       "reading": "de"
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "对",
+       "reading": "duì"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "明",
+       "reading": "míng"
+      },
+      {
+       "text": "明",
+       "reading": "míng"
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "堵",
+       "reading": "dǔ"
+      },
+      {
+       "text": "墙",
+       "reading": "qiáng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "又",
+       "reading": "yòu"
+      },
+      {
+       "text": "高",
+       "reading": "gāo"
+      },
+      {
+       "text": "又",
+       "reading": "yòu"
+      },
+      {
+       "text": "厚",
+       "reading": "hòu"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "过",
+       "reading": "guò"
+      },
+      {
+       "text": "去",
+       "reading": "qù"
+      },
+      {
+       "text": "平",
+       "reading": "píng"
+      },
+      {
+       "text": "平",
+       "reading": "píng"
+      },
+      {
+       "text": "整",
+       "reading": "zhěng"
+      },
+      {
+       "text": "整",
+       "reading": "zhěng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "The last man walked slowly, and he reached out to feel the elephant's body. The body was wide and thick, one huge surface. He felt his way along the side, on and on, and even after a long while he still couldn't find the edge. Slowly he said, \"I think you're all mistaken. An elephant is clearly like a wall, tall and thick, smooth and even all the way across.\""
+   },
+   {
+    "id": "p008",
+    "trad": {
+     "text": "就這樣，你一句、我一句，五個人吵了起來。說柱子的堅持是柱子，說繩子的咬定是繩子，說大蛇的、說扇子的、說牆的，誰也不肯聽誰。他們越說越大聲，臉都漲紅了，可是誰也說服不了誰。",
+     "zhuyin": [
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "句",
+       "reading": "ㄐㄩˋ"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "ㄨㄛˇ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "句",
+       "reading": "ㄐㄩˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "五",
+       "reading": "ㄨˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "吵",
+       "reading": "ㄔㄠˇ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "起",
+       "reading": "ㄑㄧˇ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "柱",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "堅",
+       "reading": "ㄐㄧㄢ"
+      },
+      {
+       "text": "持",
+       "reading": "ㄔˊ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "柱",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "繩",
+       "reading": "ㄕㄥˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "咬",
+       "reading": "ㄧㄠˇ"
+      },
+      {
+       "text": "定",
+       "reading": "ㄉㄧㄥˋ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "繩",
+       "reading": "ㄕㄥˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "蛇",
+       "reading": "ㄕㄜˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "扇",
+       "reading": "ㄕㄢˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "牆",
+       "reading": "ㄑㄧㄤˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "誰",
+       "reading": "ㄕㄟˊ"
+      },
+      {
+       "text": "也",
+       "reading": "ㄧㄝˇ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "肯",
+       "reading": "ㄎㄣˇ"
+      },
+      {
+       "text": "聽",
+       "reading": "ㄊㄧㄥ"
+      },
+      {
+       "text": "誰",
+       "reading": "ㄕㄟˊ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "越",
+       "reading": "ㄩㄝˋ"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "越",
+       "reading": "ㄩㄝˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "聲",
+       "reading": "ㄕㄥ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "臉",
+       "reading": "ㄌㄧㄢˇ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "漲",
+       "reading": "ㄓㄤˋ"
+      },
+      {
+       "text": "紅",
+       "reading": "ㄏㄨㄥˊ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "可",
+       "reading": "ㄎㄜˇ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "誰",
+       "reading": "ㄕㄟˊ"
+      },
+      {
+       "text": "也",
+       "reading": "ㄧㄝˇ"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄟˋ"
+      },
+      {
+       "text": "服",
+       "reading": "ㄈㄨˊ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄧㄠˇ"
+      },
+      {
+       "text": "誰",
+       "reading": "ㄕㄟˊ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ],
+     "bpmf": "就這樣，你一󠇡句、我一󠇡句，五個󠇡人吵了起來。說柱子󠇡的堅持是柱子󠇡，說繩子󠇡的咬定是繩子󠇡，說大蛇的、說扇子󠇡的、說牆的，誰也不肯聽誰。他們越說越大聲，臉都漲󠇡紅了，可是誰也說󠇡服不了󠇡誰。"
+    },
+    "simp": {
+     "text": "就这样，你一句、我一句，五个人吵了起来。说柱子的坚持是柱子，说绳子的咬定是绳子，说大蛇的、说扇子的、说墙的，谁也不肯听谁。他们越说越大声，脸都涨红了，可是谁也说服不了谁。",
+     "pinyin": [
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "句",
+       "reading": "jù"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "wǒ"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "句",
+       "reading": "jù"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "五",
+       "reading": "wǔ"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "吵",
+       "reading": "chǎo"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "起",
+       "reading": "qǐ"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "柱",
+       "reading": "zhù"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "坚",
+       "reading": "jiān"
+      },
+      {
+       "text": "持",
+       "reading": "chí"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "柱",
+       "reading": "zhù"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "绳",
+       "reading": "shéng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "咬",
+       "reading": "yǎo"
+      },
+      {
+       "text": "定",
+       "reading": "dìng"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "绳",
+       "reading": "shéng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "蛇",
+       "reading": "shé"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "扇",
+       "reading": "shàn"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "、",
+       "reading": ""
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "墙",
+       "reading": "qiáng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "谁",
+       "reading": "shéi"
+      },
+      {
+       "text": "也",
+       "reading": "yě"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "肯",
+       "reading": "kěn"
+      },
+      {
+       "text": "听",
+       "reading": "tīng"
+      },
+      {
+       "text": "谁",
+       "reading": "shéi"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "越",
+       "reading": "yuè"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "越",
+       "reading": "yuè"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "声",
+       "reading": "shēng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "脸",
+       "reading": "liǎn"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "涨",
+       "reading": "zhàng"
+      },
+      {
+       "text": "红",
+       "reading": "hóng"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "可",
+       "reading": "kě"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "谁",
+       "reading": "shéi"
+      },
+      {
+       "text": "也",
+       "reading": "yě"
+      },
+      {
+       "text": "说",
+       "reading": "shuì"
+      },
+      {
+       "text": "服",
+       "reading": "fú"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "了",
+       "reading": "liǎo"
+      },
+      {
+       "text": "谁",
+       "reading": "shéi"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "And so, one saying this and another saying that, the five of them fell to arguing. The one who said pillar insisted it was a pillar. The one who said rope swore it was a rope. The snake man, the fan man, and the wall man each refused to listen to anyone else. The louder they argued, the redder their faces grew, yet no one could convince anyone."
+   },
+   {
+    "id": "p009",
+    "trad": {
+     "text": "就在他們吵得最厲害的時候，旁邊一個看得見的路人，看著這一切，他忍不住笑了。他走上前，客氣地說：「各位別吵啦，我來告訴你們。其實，你們每個人講的都沒有錯。」大家一聽，全都愣住了，都沒有錯？那怎麼會講得不一樣呢？",
+     "zhuyin": [
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "在",
+       "reading": "ㄗㄞˋ"
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "吵",
+       "reading": "ㄔㄠˇ"
+      },
+      {
+       "text": "得",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "最",
+       "reading": "ㄗㄨㄟˋ"
+      },
+      {
+       "text": "厲",
+       "reading": "ㄌㄧˋ"
+      },
+      {
+       "text": "害",
+       "reading": "ㄏㄞˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "時",
+       "reading": "ㄕˊ"
+      },
+      {
+       "text": "候",
+       "reading": "ㄏㄡˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "旁",
+       "reading": "ㄆㄤˊ"
+      },
+      {
+       "text": "邊",
+       "reading": "ㄅㄧㄢ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "得",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "見",
+       "reading": "ㄐㄧㄢˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "路",
+       "reading": "ㄌㄨˋ"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "著",
+       "reading": "ㄓㄜ˙"
+      },
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "切",
+       "reading": "ㄑㄧㄝˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "忍",
+       "reading": "ㄖㄣˇ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "住",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "笑",
+       "reading": "ㄒㄧㄠˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "走",
+       "reading": "ㄗㄡˇ"
+      },
+      {
+       "text": "上",
+       "reading": "ㄕㄤˋ"
+      },
+      {
+       "text": "前",
+       "reading": "ㄑㄧㄢˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "客",
+       "reading": "ㄎㄜˋ"
+      },
+      {
+       "text": "氣",
+       "reading": "ㄑㄧˋ"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "各",
+       "reading": "ㄍㄜˋ"
+      },
+      {
+       "text": "位",
+       "reading": "ㄨㄟˋ"
+      },
+      {
+       "text": "別",
+       "reading": "ㄅㄧㄝˊ"
+      },
+      {
+       "text": "吵",
+       "reading": "ㄔㄠˇ"
+      },
+      {
+       "text": "啦",
+       "reading": "ㄌㄚ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "ㄨㄛˇ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "告",
+       "reading": "ㄍㄠˋ"
+      },
+      {
+       "text": "訴",
+       "reading": "ㄙㄨˋ"
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "其",
+       "reading": "ㄑㄧˊ"
+      },
+      {
+       "text": "實",
+       "reading": "ㄕˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "每",
+       "reading": "ㄇㄟˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "講",
+       "reading": "ㄐㄧㄤˇ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "沒",
+       "reading": "ㄇㄟˊ"
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "錯",
+       "reading": "ㄘㄨㄛˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "家",
+       "reading": "ㄐㄧㄚ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "聽",
+       "reading": "ㄊㄧㄥ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "全",
+       "reading": "ㄑㄩㄢˊ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "愣",
+       "reading": "ㄌㄥˋ"
+      },
+      {
+       "text": "住",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "沒",
+       "reading": "ㄇㄟˊ"
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "錯",
+       "reading": "ㄘㄨㄛˋ"
+      },
+      {
+       "text": "？",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "怎",
+       "reading": "ㄗㄣˇ"
+      },
+      {
+       "text": "麼",
+       "reading": "ㄇㄜ˙"
+      },
+      {
+       "text": "會",
+       "reading": "ㄏㄨㄟˋ"
+      },
+      {
+       "text": "講",
+       "reading": "ㄐㄧㄤˇ"
+      },
+      {
+       "text": "得",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "呢",
+       "reading": "ㄋㄜ˙"
+      },
+      {
+       "text": "？",
+       "reading": ""
+      }
+     ],
+     "bpmf": "就在他們吵得󠇡最厲害的時候，旁邊一󠇡個󠇡看得󠇡見的路人，看著這一󠇡切󠇡，他忍不󠇡住笑了。他走上前，客氣地󠇡說：「各位別吵啦，我來告訴你們。其實，你們每個󠇡人講的都沒有錯。」大家一󠇢聽，全都愣住了，都沒有錯？那怎麼會講得󠇡不一󠇡樣呢？"
+    },
+    "simp": {
+     "text": "就在他们吵得最厉害的时候，旁边一个看得见的路人，看著这一切，他忍不住笑了。他走上前，客气地说：「各位别吵啦，我来告诉你们。其实，你们每个人讲的都没有错。」大家一听，全都愣住了，都没有错？那怎么会讲得不一样呢？",
+     "pinyin": [
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "在",
+       "reading": "zài"
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "吵",
+       "reading": "chǎo"
+      },
+      {
+       "text": "得",
+       "reading": "de"
+      },
+      {
+       "text": "最",
+       "reading": "zuì"
+      },
+      {
+       "text": "厉",
+       "reading": "lì"
+      },
+      {
+       "text": "害",
+       "reading": "hài"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "时",
+       "reading": "shí"
+      },
+      {
+       "text": "候",
+       "reading": "hòu"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "旁",
+       "reading": "páng"
+      },
+      {
+       "text": "边",
+       "reading": "biān"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "得",
+       "reading": "de"
+      },
+      {
+       "text": "见",
+       "reading": "jiàn"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "路",
+       "reading": "lù"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "著",
+       "reading": "zhe"
+      },
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "切",
+       "reading": "qiè"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "忍",
+       "reading": "rěn"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "住",
+       "reading": "zhù"
+      },
+      {
+       "text": "笑",
+       "reading": "xiào"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "走",
+       "reading": "zǒu"
+      },
+      {
+       "text": "上",
+       "reading": "shàng"
+      },
+      {
+       "text": "前",
+       "reading": "qián"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "客",
+       "reading": "kè"
+      },
+      {
+       "text": "气",
+       "reading": "qì"
+      },
+      {
+       "text": "地",
+       "reading": "de"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "各",
+       "reading": "gè"
+      },
+      {
+       "text": "位",
+       "reading": "wèi"
+      },
+      {
+       "text": "别",
+       "reading": "bié"
+      },
+      {
+       "text": "吵",
+       "reading": "chǎo"
+      },
+      {
+       "text": "啦",
+       "reading": "la"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "wǒ"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "告",
+       "reading": "gào"
+      },
+      {
+       "text": "诉",
+       "reading": "sù"
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "其",
+       "reading": "qí"
+      },
+      {
+       "text": "实",
+       "reading": "shí"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "每",
+       "reading": "měi"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "讲",
+       "reading": "jiǎng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "没",
+       "reading": "méi"
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "错",
+       "reading": "cuò"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "家",
+       "reading": "jiā"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "听",
+       "reading": "tīng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "全",
+       "reading": "quán"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "愣",
+       "reading": "lèng"
+      },
+      {
+       "text": "住",
+       "reading": "zhù"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "没",
+       "reading": "méi"
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "错",
+       "reading": "cuò"
+      },
+      {
+       "text": "？",
+       "reading": ""
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "怎",
+       "reading": "zěn"
+      },
+      {
+       "text": "么",
+       "reading": "me"
+      },
+      {
+       "text": "会",
+       "reading": "huì"
+      },
+      {
+       "text": "讲",
+       "reading": "jiǎng"
+      },
+      {
+       "text": "得",
+       "reading": "de"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "呢",
+       "reading": "ne"
+      },
+      {
+       "text": "？",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "Just as they were quarreling at the top of their lungs, a passerby who could see came along. After taking in the whole scene, he couldn't help but laugh. He stepped forward and said politely, \"Please stop arguing, everyone. Let me tell you something. The truth is, none of you is wrong.\" Hearing this, they were all stunned. No one was wrong? Then how could they be describing such different things?"
+   },
+   {
+    "id": "p010",
+    "trad": {
+     "text": "路人接著說：「你們講的都對，可是都只對了一小塊。腿確實像柱子，尾巴確實像繩子，鼻子像大蛇，耳朵像扇子，身體像牆。你們說的通通都沒錯。只是，你們每個人都只摸到一個地方而已，就以為那是整頭大象了。」",
+     "zhuyin": [
+      {
+       "text": "路",
+       "reading": "ㄌㄨˋ"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "接",
+       "reading": "ㄐㄧㄝ"
+      },
+      {
+       "text": "著",
+       "reading": "ㄓㄜ˙"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "講",
+       "reading": "ㄐㄧㄤˇ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "對",
+       "reading": "ㄉㄨㄟˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "可",
+       "reading": "ㄎㄜˇ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "只",
+       "reading": "ㄓˇ"
+      },
+      {
+       "text": "對",
+       "reading": "ㄉㄨㄟˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "小",
+       "reading": "ㄒㄧㄠˇ"
+      },
+      {
+       "text": "塊",
+       "reading": "ㄎㄨㄞˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "腿",
+       "reading": "ㄊㄨㄟˇ"
+      },
+      {
+       "text": "確",
+       "reading": "ㄑㄩㄝˋ"
+      },
+      {
+       "text": "實",
+       "reading": "ㄕˊ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "柱",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "尾",
+       "reading": "ㄨㄟˇ"
+      },
+      {
+       "text": "巴",
+       "reading": "ㄅㄚ˙"
+      },
+      {
+       "text": "確",
+       "reading": "ㄑㄩㄝˋ"
+      },
+      {
+       "text": "實",
+       "reading": "ㄕˊ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "繩",
+       "reading": "ㄕㄥˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "鼻",
+       "reading": "ㄅㄧˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "蛇",
+       "reading": "ㄕㄜˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "耳",
+       "reading": "ㄦˇ"
+      },
+      {
+       "text": "朵",
+       "reading": "ㄉㄨㄛ˙"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "扇",
+       "reading": "ㄕㄢˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "身",
+       "reading": "ㄕㄣ"
+      },
+      {
+       "text": "體",
+       "reading": "ㄊㄧˇ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "牆",
+       "reading": "ㄑㄧㄤˊ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "通",
+       "reading": "ㄊㄨㄥ"
+      },
+      {
+       "text": "通",
+       "reading": "ㄊㄨㄥ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "沒",
+       "reading": "ㄇㄟˊ"
+      },
+      {
+       "text": "錯",
+       "reading": "ㄘㄨㄛˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "只",
+       "reading": "ㄓˇ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "每",
+       "reading": "ㄇㄟˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "只",
+       "reading": "ㄓˇ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄧˋ"
+      },
+      {
+       "text": "方",
+       "reading": "ㄈㄤ"
+      },
+      {
+       "text": "而",
+       "reading": "ㄦˊ"
+      },
+      {
+       "text": "已",
+       "reading": "ㄧˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "以",
+       "reading": "ㄧˇ"
+      },
+      {
+       "text": "為",
+       "reading": "ㄨㄟˊ"
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "整",
+       "reading": "ㄓㄥˇ"
+      },
+      {
+       "text": "頭",
+       "reading": "ㄊㄡˊ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ],
+     "bpmf": "路人接著說：「你們講的都對，可是都只對了一󠇢小塊。腿確實像柱子󠇡，尾巴󠇡確實像繩子󠇡，鼻子󠇡像大蛇，耳朵󠇡像扇子󠇡，身體像牆。你們說的通通都沒錯。只是，你們每個󠇡人都只摸到一󠇡個󠇡地方而已，就以為那是整頭大象了。」"
+    },
+    "simp": {
+     "text": "路人接著说：「你们讲的都对，可是都只对了一小块。腿确实像柱子，尾巴确实像绳子，鼻子像大蛇，耳朵像扇子，身体像墙。你们说的通通都没错。只是，你们每个人都只摸到一个地方而已，就以为那是整头大象了。」",
+     "pinyin": [
+      {
+       "text": "路",
+       "reading": "lù"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "接",
+       "reading": "jiē"
+      },
+      {
+       "text": "著",
+       "reading": "zhe"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "讲",
+       "reading": "jiǎng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "对",
+       "reading": "duì"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "可",
+       "reading": "kě"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "只",
+       "reading": "zhǐ"
+      },
+      {
+       "text": "对",
+       "reading": "duì"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "小",
+       "reading": "xiǎo"
+      },
+      {
+       "text": "块",
+       "reading": "kuài"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "腿",
+       "reading": "tuǐ"
+      },
+      {
+       "text": "确",
+       "reading": "què"
+      },
+      {
+       "text": "实",
+       "reading": "shí"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "柱",
+       "reading": "zhù"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "尾",
+       "reading": "wěi"
+      },
+      {
+       "text": "巴",
+       "reading": "ba"
+      },
+      {
+       "text": "确",
+       "reading": "què"
+      },
+      {
+       "text": "实",
+       "reading": "shí"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "绳",
+       "reading": "shéng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "鼻",
+       "reading": "bí"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "蛇",
+       "reading": "shé"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "耳",
+       "reading": "ěr"
+      },
+      {
+       "text": "朵",
+       "reading": "duo"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "扇",
+       "reading": "shàn"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "身",
+       "reading": "shēn"
+      },
+      {
+       "text": "体",
+       "reading": "tǐ"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "墙",
+       "reading": "qiáng"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "通",
+       "reading": "tōng"
+      },
+      {
+       "text": "通",
+       "reading": "tōng"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "没",
+       "reading": "méi"
+      },
+      {
+       "text": "错",
+       "reading": "cuò"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "只",
+       "reading": "zhǐ"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "每",
+       "reading": "měi"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "只",
+       "reading": "zhǐ"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "地",
+       "reading": "dì"
+      },
+      {
+       "text": "方",
+       "reading": "fāng"
+      },
+      {
+       "text": "而",
+       "reading": "ér"
+      },
+      {
+       "text": "已",
+       "reading": "yǐ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "以",
+       "reading": "yǐ"
+      },
+      {
+       "text": "为",
+       "reading": "wéi"
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "整",
+       "reading": "zhěng"
+      },
+      {
+       "text": "头",
+       "reading": "tóu"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "The passerby went on, \"Everything you said was true, but only about the part you each touched. The leg really is like a pillar. The tail really is like a rope. The trunk is like a snake, the ear like a fan, and the body like a wall. Every one of you was right. But each of you touched only one small part and thought that was the whole elephant.\""
+   },
+   {
+    "id": "p011",
+    "trad": {
+     "text": "他頓了一下，慢慢地說：「大象是很大的動物。牠有像柱子的腿，有像繩子的尾巴，有像大蛇一樣長長的鼻子，有像扇子的大耳朵，還有像牆一樣寬寬厚厚的身體。要把這些通通合在一起，才是一頭真正的大象呀！」",
+     "zhuyin": [
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "頓",
+       "reading": "ㄉㄨㄣˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "下",
+       "reading": "ㄒㄧㄚˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "地",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "很",
+       "reading": "ㄏㄣˇ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "動",
+       "reading": "ㄉㄨㄥˋ"
+      },
+      {
+       "text": "物",
+       "reading": "ㄨˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "牠",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "柱",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "腿",
+       "reading": "ㄊㄨㄟˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "繩",
+       "reading": "ㄕㄥˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "尾",
+       "reading": "ㄨㄟˇ"
+      },
+      {
+       "text": "巴",
+       "reading": "ㄅㄚ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "蛇",
+       "reading": "ㄕㄜˊ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "長",
+       "reading": "ㄔㄤˊ"
+      },
+      {
+       "text": "長",
+       "reading": "ㄔㄤˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "鼻",
+       "reading": "ㄅㄧˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "扇",
+       "reading": "ㄕㄢˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "耳",
+       "reading": "ㄦˇ"
+      },
+      {
+       "text": "朵",
+       "reading": "ㄉㄨㄛ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "牆",
+       "reading": "ㄑㄧㄤˊ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "寬",
+       "reading": "ㄎㄨㄢ"
+      },
+      {
+       "text": "寬",
+       "reading": "ㄎㄨㄢ"
+      },
+      {
+       "text": "厚",
+       "reading": "ㄏㄡˋ"
+      },
+      {
+       "text": "厚",
+       "reading": "ㄏㄡˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "身",
+       "reading": "ㄕㄣ"
+      },
+      {
+       "text": "體",
+       "reading": "ㄊㄧˇ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "要",
+       "reading": "ㄧㄠˋ"
+      },
+      {
+       "text": "把",
+       "reading": "ㄅㄚˇ"
+      },
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "些",
+       "reading": "ㄒㄧㄝ"
+      },
+      {
+       "text": "通",
+       "reading": "ㄊㄨㄥ"
+      },
+      {
+       "text": "通",
+       "reading": "ㄊㄨㄥ"
+      },
+      {
+       "text": "合",
+       "reading": "ㄏㄜˊ"
+      },
+      {
+       "text": "在",
+       "reading": "ㄗㄞˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "起",
+       "reading": "ㄑㄧˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "才",
+       "reading": "ㄘㄞˊ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "頭",
+       "reading": "ㄊㄡˊ"
+      },
+      {
+       "text": "真",
+       "reading": "ㄓㄣ"
+      },
+      {
+       "text": "正",
+       "reading": "ㄓㄥˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "呀",
+       "reading": "ㄧㄚ"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ],
+     "bpmf": "他頓了一󠇡下，慢慢地󠇡說：「大象是很大的動物。牠有像柱子󠇡的腿，有像繩子󠇡的尾巴󠇡，有像大蛇一󠇡樣長長的鼻子󠇡，有像扇子󠇡的大耳朵󠇡，還有像牆一󠇡樣寬寬厚厚的身體。要把這些通通合在一󠇢起，才是一󠇢頭真正的大象呀！」"
+    },
+    "simp": {
+     "text": "他顿了一下，慢慢地说：「大象是很大的动物。牠有像柱子的腿，有像绳子的尾巴，有像大蛇一样长长的鼻子，有像扇子的大耳朵，还有像墙一样宽宽厚厚的身体。要把这些通通合在一起，才是一头真正的大象呀！」",
+     "pinyin": [
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "顿",
+       "reading": "dùn"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "下",
+       "reading": "xià"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "地",
+       "reading": "de"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "很",
+       "reading": "hěn"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "动",
+       "reading": "dòng"
+      },
+      {
+       "text": "物",
+       "reading": "wù"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "牠",
+       "reading": "tā"
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "柱",
+       "reading": "zhù"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "腿",
+       "reading": "tuǐ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "绳",
+       "reading": "shéng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "尾",
+       "reading": "wěi"
+      },
+      {
+       "text": "巴",
+       "reading": "ba"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "蛇",
+       "reading": "shé"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "长",
+       "reading": "cháng"
+      },
+      {
+       "text": "长",
+       "reading": "cháng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "鼻",
+       "reading": "bí"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "扇",
+       "reading": "shàn"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "耳",
+       "reading": "ěr"
+      },
+      {
+       "text": "朵",
+       "reading": "duo"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "墙",
+       "reading": "qiáng"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "宽",
+       "reading": "kuān"
+      },
+      {
+       "text": "宽",
+       "reading": "kuān"
+      },
+      {
+       "text": "厚",
+       "reading": "hòu"
+      },
+      {
+       "text": "厚",
+       "reading": "hòu"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "身",
+       "reading": "shēn"
+      },
+      {
+       "text": "体",
+       "reading": "tǐ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "要",
+       "reading": "yào"
+      },
+      {
+       "text": "把",
+       "reading": "bǎ"
+      },
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "些",
+       "reading": "xiē"
+      },
+      {
+       "text": "通",
+       "reading": "tōng"
+      },
+      {
+       "text": "通",
+       "reading": "tōng"
+      },
+      {
+       "text": "合",
+       "reading": "hé"
+      },
+      {
+       "text": "在",
+       "reading": "zài"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "起",
+       "reading": "qǐ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "才",
+       "reading": "cái"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "头",
+       "reading": "tóu"
+      },
+      {
+       "text": "真",
+       "reading": "zhēn"
+      },
+      {
+       "text": "正",
+       "reading": "zhèng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "呀",
+       "reading": "yā"
+      },
+      {
+       "text": "！",
+       "reading": ""
+      },
+      {
+       "text": "」",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "He paused for a moment, then said slowly, \"An elephant is a very, very big animal. It has legs like pillars, a tail like a rope, a long trunk like a snake, big ears like fans, and a broad, thick body like a wall. Only when you put every part together do you have the whole elephant!\""
+   },
+   {
+    "id": "p012",
+    "trad": {
+     "text": "那五個好朋友慢慢安靜下來，把摸到的跟聽到的東西，一樣一樣在心裡合起來想像。像柱子的腿，像繩子的尾巴，像大蛇的鼻子，像扇子的耳朵，還有像牆一樣的身體……拼著拼著，一頭高高大大的大象，慢慢在他們的腦海中浮現出來。",
+     "zhuyin": [
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "五",
+       "reading": "ㄨˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "好",
+       "reading": "ㄏㄠˇ"
+      },
+      {
+       "text": "朋",
+       "reading": "ㄆㄥˊ"
+      },
+      {
+       "text": "友",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "安",
+       "reading": "ㄢ"
+      },
+      {
+       "text": "靜",
+       "reading": "ㄐㄧㄥˋ"
+      },
+      {
+       "text": "下",
+       "reading": "ㄒㄧㄚˋ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "把",
+       "reading": "ㄅㄚˇ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "跟",
+       "reading": "ㄍㄣ"
+      },
+      {
+       "text": "聽",
+       "reading": "ㄊㄧㄥ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "東",
+       "reading": "ㄉㄨㄥ"
+      },
+      {
+       "text": "西",
+       "reading": "ㄒㄧ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "在",
+       "reading": "ㄗㄞˋ"
+      },
+      {
+       "text": "心",
+       "reading": "ㄒㄧㄣ"
+      },
+      {
+       "text": "裡",
+       "reading": "ㄌㄧˇ"
+      },
+      {
+       "text": "合",
+       "reading": "ㄏㄜˊ"
+      },
+      {
+       "text": "起",
+       "reading": "ㄑㄧˇ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "想",
+       "reading": "ㄒㄧㄤˇ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "柱",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "腿",
+       "reading": "ㄊㄨㄟˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "繩",
+       "reading": "ㄕㄥˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "尾",
+       "reading": "ㄨㄟˇ"
+      },
+      {
+       "text": "巴",
+       "reading": "ㄅㄚ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "蛇",
+       "reading": "ㄕㄜˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "鼻",
+       "reading": "ㄅㄧˊ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "扇",
+       "reading": "ㄕㄢˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "耳",
+       "reading": "ㄦˇ"
+      },
+      {
+       "text": "朵",
+       "reading": "ㄉㄨㄛ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "有",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "像",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "牆",
+       "reading": "ㄑㄧㄤˊ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "身",
+       "reading": "ㄕㄣ"
+      },
+      {
+       "text": "體",
+       "reading": "ㄊㄧˇ"
+      },
+      {
+       "text": "…",
+       "reading": ""
+      },
+      {
+       "text": "…",
+       "reading": ""
+      },
+      {
+       "text": "拼",
+       "reading": "ㄆㄧㄣ"
+      },
+      {
+       "text": "著",
+       "reading": "ㄓㄜ˙"
+      },
+      {
+       "text": "拼",
+       "reading": "ㄆㄧㄣ"
+      },
+      {
+       "text": "著",
+       "reading": "ㄓㄜ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "頭",
+       "reading": "ㄊㄡˊ"
+      },
+      {
+       "text": "高",
+       "reading": "ㄍㄠ"
+      },
+      {
+       "text": "高",
+       "reading": "ㄍㄠ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "慢",
+       "reading": "ㄇㄢˋ"
+      },
+      {
+       "text": "在",
+       "reading": "ㄗㄞˋ"
+      },
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "腦",
+       "reading": "ㄋㄠˇ"
+      },
+      {
+       "text": "海",
+       "reading": "ㄏㄞˇ"
+      },
+      {
+       "text": "中",
+       "reading": "ㄓㄨㄥ"
+      },
+      {
+       "text": "浮",
+       "reading": "ㄈㄨˊ"
+      },
+      {
+       "text": "現",
+       "reading": "ㄒㄧㄢˋ"
+      },
+      {
+       "text": "出",
+       "reading": "ㄔㄨ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ],
+     "bpmf": "那五個󠇡好朋友慢慢安靜下來，把摸到的跟聽到的東西󠇡，一󠇡樣一󠇡樣在心裡合起來想像。像柱子󠇡的腿，像繩子󠇡的尾巴󠇡，像大蛇的鼻子󠇡，像扇子󠇡的耳朵󠇡，還有像牆一󠇡樣的身體……拼著拼著，一󠇢頭高高大大的大象，慢慢在他們的腦海中浮現出來。"
+    },
+    "simp": {
+     "text": "那五个好朋友慢慢安静下来，把摸到的跟听到的东西，一样一样在心里合起来想像。像柱子的腿，像绳子的尾巴，像大蛇的鼻子，像扇子的耳朵，还有像墙一样的身体……拼著拼著，一头高高大大的大象，慢慢在他们的脑海中浮现出来。",
+     "pinyin": [
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "五",
+       "reading": "wǔ"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "好",
+       "reading": "hǎo"
+      },
+      {
+       "text": "朋",
+       "reading": "péng"
+      },
+      {
+       "text": "友",
+       "reading": "yǒu"
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "安",
+       "reading": "ān"
+      },
+      {
+       "text": "静",
+       "reading": "jìng"
+      },
+      {
+       "text": "下",
+       "reading": "xià"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "把",
+       "reading": "bǎ"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "跟",
+       "reading": "gēn"
+      },
+      {
+       "text": "听",
+       "reading": "tīng"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "东",
+       "reading": "dōng"
+      },
+      {
+       "text": "西",
+       "reading": "xi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "在",
+       "reading": "zài"
+      },
+      {
+       "text": "心",
+       "reading": "xīn"
+      },
+      {
+       "text": "里",
+       "reading": "lǐ"
+      },
+      {
+       "text": "合",
+       "reading": "hé"
+      },
+      {
+       "text": "起",
+       "reading": "qǐ"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "想",
+       "reading": "xiǎng"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "柱",
+       "reading": "zhù"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "腿",
+       "reading": "tuǐ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "绳",
+       "reading": "shéng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "尾",
+       "reading": "wěi"
+      },
+      {
+       "text": "巴",
+       "reading": "ba"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "蛇",
+       "reading": "shé"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "鼻",
+       "reading": "bí"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "扇",
+       "reading": "shàn"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "耳",
+       "reading": "ěr"
+      },
+      {
+       "text": "朵",
+       "reading": "duo"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "有",
+       "reading": "yǒu"
+      },
+      {
+       "text": "像",
+       "reading": "xiàng"
+      },
+      {
+       "text": "墙",
+       "reading": "qiáng"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "身",
+       "reading": "shēn"
+      },
+      {
+       "text": "体",
+       "reading": "tǐ"
+      },
+      {
+       "text": "…",
+       "reading": ""
+      },
+      {
+       "text": "…",
+       "reading": ""
+      },
+      {
+       "text": "拼",
+       "reading": "pīn"
+      },
+      {
+       "text": "著",
+       "reading": "zhe"
+      },
+      {
+       "text": "拼",
+       "reading": "pīn"
+      },
+      {
+       "text": "著",
+       "reading": "zhe"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "头",
+       "reading": "tóu"
+      },
+      {
+       "text": "高",
+       "reading": "gāo"
+      },
+      {
+       "text": "高",
+       "reading": "gāo"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "慢",
+       "reading": "màn"
+      },
+      {
+       "text": "在",
+       "reading": "zài"
+      },
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "脑",
+       "reading": "nǎo"
+      },
+      {
+       "text": "海",
+       "reading": "hǎi"
+      },
+      {
+       "text": "中",
+       "reading": "zhōng"
+      },
+      {
+       "text": "浮",
+       "reading": "fú"
+      },
+      {
+       "text": "现",
+       "reading": "xiàn"
+      },
+      {
+       "text": "出",
+       "reading": "chū"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "The five men slowly grew quiet and began fitting together, piece by piece, everything their hands had touched. The pillar-like legs, the rope-like tail, the snake-like trunk, the fan-like ears, and the wall-like body... and as they fit the pieces together, a tall, towering elephant slowly took shape in their minds."
+   },
+   {
+    "id": "p013",
+    "trad": {
+     "text": "他們你看看我，我看看你，忍不住都笑了。原來剛剛吵了半天，是因為每個人都只知道一小部分，就把它當成了全部。從那天起，這五個好朋友記住了一件事：遇到還不懂的東西，先別急著說「就是這樣」也聽聽看別人發現了什麼。要把大家知道的合在一起，才能真正了解事情完整的樣子。",
+     "zhuyin": [
+      {
+       "text": "他",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "們",
+       "reading": "ㄇㄣ˙"
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "我",
+       "reading": "ㄨㄛˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "ㄨㄛˇ"
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "你",
+       "reading": "ㄋㄧˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "忍",
+       "reading": "ㄖㄣˇ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˊ"
+      },
+      {
+       "text": "住",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "笑",
+       "reading": "ㄒㄧㄠˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "原",
+       "reading": "ㄩㄢˊ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "剛",
+       "reading": "ㄍㄤ"
+      },
+      {
+       "text": "剛",
+       "reading": "ㄍㄤ"
+      },
+      {
+       "text": "吵",
+       "reading": "ㄔㄠˇ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "半",
+       "reading": "ㄅㄢˋ"
+      },
+      {
+       "text": "天",
+       "reading": "ㄊㄧㄢ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "因",
+       "reading": "ㄧㄣ"
+      },
+      {
+       "text": "為",
+       "reading": "ㄨㄟˋ"
+      },
+      {
+       "text": "每",
+       "reading": "ㄇㄟˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "都",
+       "reading": "ㄉㄡ"
+      },
+      {
+       "text": "只",
+       "reading": "ㄓˇ"
+      },
+      {
+       "text": "知",
+       "reading": "ㄓ"
+      },
+      {
+       "text": "道",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "小",
+       "reading": "ㄒㄧㄠˇ"
+      },
+      {
+       "text": "部",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "分",
+       "reading": "ㄈㄣˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "把",
+       "reading": "ㄅㄚˇ"
+      },
+      {
+       "text": "它",
+       "reading": "ㄊㄚ"
+      },
+      {
+       "text": "當",
+       "reading": "ㄉㄤ"
+      },
+      {
+       "text": "成",
+       "reading": "ㄔㄥˊ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "全",
+       "reading": "ㄑㄩㄢˊ"
+      },
+      {
+       "text": "部",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "從",
+       "reading": "ㄘㄨㄥˊ"
+      },
+      {
+       "text": "那",
+       "reading": "ㄋㄚˋ"
+      },
+      {
+       "text": "天",
+       "reading": "ㄊㄧㄢ"
+      },
+      {
+       "text": "起",
+       "reading": "ㄑㄧˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "五",
+       "reading": "ㄨˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "好",
+       "reading": "ㄏㄠˇ"
+      },
+      {
+       "text": "朋",
+       "reading": "ㄆㄥˊ"
+      },
+      {
+       "text": "友",
+       "reading": "ㄧㄡˇ"
+      },
+      {
+       "text": "記",
+       "reading": "ㄐㄧˋ"
+      },
+      {
+       "text": "住",
+       "reading": "ㄓㄨˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "件",
+       "reading": "ㄐㄧㄢˋ"
+      },
+      {
+       "text": "事",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "遇",
+       "reading": "ㄩˋ"
+      },
+      {
+       "text": "到",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "懂",
+       "reading": "ㄉㄨㄥˇ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "東",
+       "reading": "ㄉㄨㄥ"
+      },
+      {
+       "text": "西",
+       "reading": "ㄒㄧ˙"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "先",
+       "reading": "ㄒㄧㄢ"
+      },
+      {
+       "text": "別",
+       "reading": "ㄅㄧㄝˊ"
+      },
+      {
+       "text": "急",
+       "reading": "ㄐㄧˊ"
+      },
+      {
+       "text": "著",
+       "reading": "ㄓㄜ˙"
+      },
+      {
+       "text": "說",
+       "reading": "ㄕㄨㄛ"
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "是",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "也",
+       "reading": "ㄧㄝˇ"
+      },
+      {
+       "text": "聽",
+       "reading": "ㄊㄧㄥ"
+      },
+      {
+       "text": "聽",
+       "reading": "ㄊㄧㄥ"
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "別",
+       "reading": "ㄅㄧㄝˊ"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "發",
+       "reading": "ㄈㄚ"
+      },
+      {
+       "text": "現",
+       "reading": "ㄒㄧㄢˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄜ˙"
+      },
+      {
+       "text": "什",
+       "reading": "ㄕㄣˊ"
+      },
+      {
+       "text": "麼",
+       "reading": "ㄇㄜ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "要",
+       "reading": "ㄧㄠˋ"
+      },
+      {
+       "text": "把",
+       "reading": "ㄅㄚˇ"
+      },
+      {
+       "text": "大",
+       "reading": "ㄉㄚˋ"
+      },
+      {
+       "text": "家",
+       "reading": "ㄐㄧㄚ"
+      },
+      {
+       "text": "知",
+       "reading": "ㄓ"
+      },
+      {
+       "text": "道",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "合",
+       "reading": "ㄏㄜˊ"
+      },
+      {
+       "text": "在",
+       "reading": "ㄗㄞˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "起",
+       "reading": "ㄑㄧˇ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "才",
+       "reading": "ㄘㄞˊ"
+      },
+      {
+       "text": "能",
+       "reading": "ㄋㄥˊ"
+      },
+      {
+       "text": "真",
+       "reading": "ㄓㄣ"
+      },
+      {
+       "text": "正",
+       "reading": "ㄓㄥˋ"
+      },
+      {
+       "text": "了",
+       "reading": "ㄌㄧㄠˇ"
+      },
+      {
+       "text": "解",
+       "reading": "ㄐㄧㄝˇ"
+      },
+      {
+       "text": "事",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "情",
+       "reading": "ㄑㄧㄥˊ"
+      },
+      {
+       "text": "完",
+       "reading": "ㄨㄢˊ"
+      },
+      {
+       "text": "整",
+       "reading": "ㄓㄥˇ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "子",
+       "reading": "ㄗ˙"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ],
+     "bpmf": "他們你看看我，我看看你，忍不󠇡住都笑了。原來剛剛吵了半天，是因為󠇡每個󠇡人都只知道一󠇢小部分󠇡，就把它當成了全部。從那天起，這五個󠇡好朋友記住了一󠇡件事：遇到還不懂的東西󠇡，先別急著說「就是這樣」也聽聽看別人發現了什麼。要把大家知道的合在一󠇢起，才能真正了󠇡解事情完整的樣子󠇡。"
+    },
+    "simp": {
+     "text": "他们你看看我，我看看你，忍不住都笑了。原来刚刚吵了半天，是因为每个人都只知道一小部分，就把它当成了全部。从那天起，这五个好朋友记住了一件事：遇到还不懂的东西，先别急著说「就是这样」也听听看别人发现了什么。要把大家知道的合在一起，才能真正了解事情完整的样子。",
+     "pinyin": [
+      {
+       "text": "他",
+       "reading": "tā"
+      },
+      {
+       "text": "们",
+       "reading": "men"
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "我",
+       "reading": "wǒ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "我",
+       "reading": "wǒ"
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "你",
+       "reading": "nǐ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "忍",
+       "reading": "rěn"
+      },
+      {
+       "text": "不",
+       "reading": "bú"
+      },
+      {
+       "text": "住",
+       "reading": "zhù"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "笑",
+       "reading": "xiào"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "原",
+       "reading": "yuán"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "刚",
+       "reading": "gāng"
+      },
+      {
+       "text": "刚",
+       "reading": "gāng"
+      },
+      {
+       "text": "吵",
+       "reading": "chǎo"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "半",
+       "reading": "bàn"
+      },
+      {
+       "text": "天",
+       "reading": "tiān"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "因",
+       "reading": "yīn"
+      },
+      {
+       "text": "为",
+       "reading": "wèi"
+      },
+      {
+       "text": "每",
+       "reading": "měi"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "都",
+       "reading": "dōu"
+      },
+      {
+       "text": "只",
+       "reading": "zhǐ"
+      },
+      {
+       "text": "知",
+       "reading": "zhī"
+      },
+      {
+       "text": "道",
+       "reading": "dào"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "小",
+       "reading": "xiǎo"
+      },
+      {
+       "text": "部",
+       "reading": "bù"
+      },
+      {
+       "text": "分",
+       "reading": "fèn"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "把",
+       "reading": "bǎ"
+      },
+      {
+       "text": "它",
+       "reading": "tā"
+      },
+      {
+       "text": "当",
+       "reading": "dāng"
+      },
+      {
+       "text": "成",
+       "reading": "chéng"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "全",
+       "reading": "quán"
+      },
+      {
+       "text": "部",
+       "reading": "bù"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "从",
+       "reading": "cóng"
+      },
+      {
+       "text": "那",
+       "reading": "nà"
+      },
+      {
+       "text": "天",
+       "reading": "tiān"
+      },
+      {
+       "text": "起",
+       "reading": "qǐ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "五",
+       "reading": "wǔ"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "好",
+       "reading": "hǎo"
+      },
+      {
+       "text": "朋",
+       "reading": "péng"
+      },
+      {
+       "text": "友",
+       "reading": "yǒu"
+      },
+      {
+       "text": "记",
+       "reading": "jì"
+      },
+      {
+       "text": "住",
+       "reading": "zhù"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "件",
+       "reading": "jiàn"
+      },
+      {
+       "text": "事",
+       "reading": "shì"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "遇",
+       "reading": "yù"
+      },
+      {
+       "text": "到",
+       "reading": "dào"
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "懂",
+       "reading": "dǒng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "东",
+       "reading": "dōng"
+      },
+      {
+       "text": "西",
+       "reading": "xi"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "先",
+       "reading": "xiān"
+      },
+      {
+       "text": "别",
+       "reading": "bié"
+      },
+      {
+       "text": "急",
+       "reading": "jí"
+      },
+      {
+       "text": "著",
+       "reading": "zhe"
+      },
+      {
+       "text": "说",
+       "reading": "shuō"
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "是",
+       "reading": "shì"
+      },
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "也",
+       "reading": "yě"
+      },
+      {
+       "text": "听",
+       "reading": "tīng"
+      },
+      {
+       "text": "听",
+       "reading": "tīng"
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "别",
+       "reading": "bié"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "发",
+       "reading": "fā"
+      },
+      {
+       "text": "现",
+       "reading": "xiàn"
+      },
+      {
+       "text": "了",
+       "reading": "le"
+      },
+      {
+       "text": "什",
+       "reading": "shén"
+      },
+      {
+       "text": "么",
+       "reading": "me"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      },
+      {
+       "text": "要",
+       "reading": "yào"
+      },
+      {
+       "text": "把",
+       "reading": "bǎ"
+      },
+      {
+       "text": "大",
+       "reading": "dà"
+      },
+      {
+       "text": "家",
+       "reading": "jiā"
+      },
+      {
+       "text": "知",
+       "reading": "zhī"
+      },
+      {
+       "text": "道",
+       "reading": "dào"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "合",
+       "reading": "hé"
+      },
+      {
+       "text": "在",
+       "reading": "zài"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "起",
+       "reading": "qǐ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "才",
+       "reading": "cái"
+      },
+      {
+       "text": "能",
+       "reading": "néng"
+      },
+      {
+       "text": "真",
+       "reading": "zhēn"
+      },
+      {
+       "text": "正",
+       "reading": "zhèng"
+      },
+      {
+       "text": "了",
+       "reading": "liǎo"
+      },
+      {
+       "text": "解",
+       "reading": "jiě"
+      },
+      {
+       "text": "事",
+       "reading": "shì"
+      },
+      {
+       "text": "情",
+       "reading": "qíng"
+      },
+      {
+       "text": "完",
+       "reading": "wán"
+      },
+      {
+       "text": "整",
+       "reading": "zhěng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "子",
+       "reading": "zi"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "They looked at one another and burst into laughter. So all that arguing had happened simply because each of them knew only one small part and had mistaken it for the whole. From that day on, the five friends always remembered one important lesson: when you come across something you don't yet understand, don't be too quick to say \"this must be what it is\". Listen to what others have discovered too. Only by putting all the pieces together can you understand what something is truly like."
+   },
+   {
+    "id": "p014",
+    "trad": {
+     "text": "這個故事叫做「盲人摸象」，後來的人就用這句話來形容：只看見事情的一小部分，就以為自己知道全部，結果跟別人不一樣，還吵個不停。",
+     "zhuyin": [
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "故",
+       "reading": "ㄍㄨˋ"
+      },
+      {
+       "text": "事",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "叫",
+       "reading": "ㄐㄧㄠˋ"
+      },
+      {
+       "text": "做",
+       "reading": "ㄗㄨㄛˋ"
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "盲",
+       "reading": "ㄇㄤˊ"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "摸",
+       "reading": "ㄇㄛ"
+      },
+      {
+       "text": "象",
+       "reading": "ㄒㄧㄤˋ"
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "後",
+       "reading": "ㄏㄡˋ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "用",
+       "reading": "ㄩㄥˋ"
+      },
+      {
+       "text": "這",
+       "reading": "ㄓㄜˋ"
+      },
+      {
+       "text": "句",
+       "reading": "ㄐㄩˋ"
+      },
+      {
+       "text": "話",
+       "reading": "ㄏㄨㄚˋ"
+      },
+      {
+       "text": "來",
+       "reading": "ㄌㄞˊ"
+      },
+      {
+       "text": "形",
+       "reading": "ㄒㄧㄥˊ"
+      },
+      {
+       "text": "容",
+       "reading": "ㄖㄨㄥˊ"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "只",
+       "reading": "ㄓˇ"
+      },
+      {
+       "text": "看",
+       "reading": "ㄎㄢˋ"
+      },
+      {
+       "text": "見",
+       "reading": "ㄐㄧㄢˋ"
+      },
+      {
+       "text": "事",
+       "reading": "ㄕˋ"
+      },
+      {
+       "text": "情",
+       "reading": "ㄑㄧㄥˊ"
+      },
+      {
+       "text": "的",
+       "reading": "ㄉㄜ˙"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˋ"
+      },
+      {
+       "text": "小",
+       "reading": "ㄒㄧㄠˇ"
+      },
+      {
+       "text": "部",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "分",
+       "reading": "ㄈㄣˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "就",
+       "reading": "ㄐㄧㄡˋ"
+      },
+      {
+       "text": "以",
+       "reading": "ㄧˇ"
+      },
+      {
+       "text": "為",
+       "reading": "ㄨㄟˊ"
+      },
+      {
+       "text": "自",
+       "reading": "ㄗˋ"
+      },
+      {
+       "text": "己",
+       "reading": "ㄐㄧˇ"
+      },
+      {
+       "text": "知",
+       "reading": "ㄓ"
+      },
+      {
+       "text": "道",
+       "reading": "ㄉㄠˋ"
+      },
+      {
+       "text": "全",
+       "reading": "ㄑㄩㄢˊ"
+      },
+      {
+       "text": "部",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "結",
+       "reading": "ㄐㄧㄝˊ"
+      },
+      {
+       "text": "果",
+       "reading": "ㄍㄨㄛˇ"
+      },
+      {
+       "text": "跟",
+       "reading": "ㄍㄣ"
+      },
+      {
+       "text": "別",
+       "reading": "ㄅㄧㄝˊ"
+      },
+      {
+       "text": "人",
+       "reading": "ㄖㄣˊ"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "一",
+       "reading": "ㄧˊ"
+      },
+      {
+       "text": "樣",
+       "reading": "ㄧㄤˋ"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "還",
+       "reading": "ㄏㄞˊ"
+      },
+      {
+       "text": "吵",
+       "reading": "ㄔㄠˇ"
+      },
+      {
+       "text": "個",
+       "reading": "ㄍㄜ˙"
+      },
+      {
+       "text": "不",
+       "reading": "ㄅㄨˋ"
+      },
+      {
+       "text": "停",
+       "reading": "ㄊㄧㄥˊ"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ],
+     "bpmf": "這個󠇡故事叫做「盲人摸象」，後來的人就用這句話來形容：只看見事情的一󠇢小部分󠇡，就以為自己知道全部，結果跟別人不一󠇡樣，還吵個󠇡不停。"
+    },
+    "simp": {
+     "text": "这个故事叫做「盲人摸象」，后来的人就用这句话来形容：只看见事情的一小部分，就以为自己知道全部，结果跟别人不一样，还吵个不停。",
+     "pinyin": [
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "故",
+       "reading": "gù"
+      },
+      {
+       "text": "事",
+       "reading": "shì"
+      },
+      {
+       "text": "叫",
+       "reading": "jiào"
+      },
+      {
+       "text": "做",
+       "reading": "zuò"
+      },
+      {
+       "text": "「",
+       "reading": ""
+      },
+      {
+       "text": "盲",
+       "reading": "máng"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "摸",
+       "reading": "mō"
+      },
+      {
+       "text": "象",
+       "reading": "xiàng"
+      },
+      {
+       "text": "」",
+       "reading": ""
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "后",
+       "reading": "hòu"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "用",
+       "reading": "yòng"
+      },
+      {
+       "text": "这",
+       "reading": "zhè"
+      },
+      {
+       "text": "句",
+       "reading": "jù"
+      },
+      {
+       "text": "话",
+       "reading": "huà"
+      },
+      {
+       "text": "来",
+       "reading": "lái"
+      },
+      {
+       "text": "形",
+       "reading": "xíng"
+      },
+      {
+       "text": "容",
+       "reading": "róng"
+      },
+      {
+       "text": "：",
+       "reading": ""
+      },
+      {
+       "text": "只",
+       "reading": "zhǐ"
+      },
+      {
+       "text": "看",
+       "reading": "kàn"
+      },
+      {
+       "text": "见",
+       "reading": "jiàn"
+      },
+      {
+       "text": "事",
+       "reading": "shì"
+      },
+      {
+       "text": "情",
+       "reading": "qíng"
+      },
+      {
+       "text": "的",
+       "reading": "de"
+      },
+      {
+       "text": "一",
+       "reading": "yì"
+      },
+      {
+       "text": "小",
+       "reading": "xiǎo"
+      },
+      {
+       "text": "部",
+       "reading": "bù"
+      },
+      {
+       "text": "分",
+       "reading": "fèn"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "就",
+       "reading": "jiù"
+      },
+      {
+       "text": "以",
+       "reading": "yǐ"
+      },
+      {
+       "text": "为",
+       "reading": "wéi"
+      },
+      {
+       "text": "自",
+       "reading": "zì"
+      },
+      {
+       "text": "己",
+       "reading": "jǐ"
+      },
+      {
+       "text": "知",
+       "reading": "zhī"
+      },
+      {
+       "text": "道",
+       "reading": "dào"
+      },
+      {
+       "text": "全",
+       "reading": "quán"
+      },
+      {
+       "text": "部",
+       "reading": "bù"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "结",
+       "reading": "jié"
+      },
+      {
+       "text": "果",
+       "reading": "guǒ"
+      },
+      {
+       "text": "跟",
+       "reading": "gēn"
+      },
+      {
+       "text": "别",
+       "reading": "bié"
+      },
+      {
+       "text": "人",
+       "reading": "rén"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "一",
+       "reading": "yí"
+      },
+      {
+       "text": "样",
+       "reading": "yàng"
+      },
+      {
+       "text": "，",
+       "reading": ""
+      },
+      {
+       "text": "还",
+       "reading": "hái"
+      },
+      {
+       "text": "吵",
+       "reading": "chǎo"
+      },
+      {
+       "text": "个",
+       "reading": "ge"
+      },
+      {
+       "text": "不",
+       "reading": "bù"
+      },
+      {
+       "text": "停",
+       "reading": "tíng"
+      },
+      {
+       "text": "。",
+       "reading": ""
+      }
+     ]
+    },
+    "en": "This story is called Mángrén Mō Xiàng, \"The Blind Men and the Elephant\". Ever since then, people have used this phrase to describe someone who sees only one small part, but thinks they know everything."
+   }
+  ]
+ }
+}
