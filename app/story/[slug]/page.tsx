@@ -5,7 +5,7 @@ import { ListenControl } from '@/components/ListenControl';
 import { StoryCover } from '@/components/StoryCover';
 import { StoryPack } from '@/components/story/StoryPack';
 import { createClient } from '@/lib/supabase/server';
-import { getStoryBySlugFromDB, getReleasedStoriesFromDB, getAllStoriesFromDB } from '@/lib/db/stories';
+import { getStoryBySlugCached, getReleasedStoriesCached, getAllStoriesCached } from '@/lib/db/stories';
 import { getStoryPackForUser } from '@/lib/db/access';
 import { padNum } from '@/lib/stories';
 import type { StoryPageContent } from '@/lib/types';
@@ -16,7 +16,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const story = await getStoryBySlugFromDB(slug);
+  const story = await getStoryBySlugCached(slug);
   if (!story) return {};
   return {
     title: `Round Door Studio · ${story.title.en}`,
@@ -29,9 +29,9 @@ export default async function StoryPage({ params }: Props) {
 
   // Fetch story + all stories (for sequential nav) + released list + auth in parallel
   const [story, allStories, released, supabase] = await Promise.all([
-    getStoryBySlugFromDB(slug),
-    getAllStoriesFromDB(),
-    getReleasedStoriesFromDB(),
+    getStoryBySlugCached(slug),
+    getAllStoriesCached(),
+    getReleasedStoriesCached(),
     createClient(),
   ]);
 

@@ -3,6 +3,7 @@ import { config } from 'dotenv'
 import { existsSync, readFileSync } from 'fs'
 import { join } from 'path'
 import { STORIES } from '../lib/stories'
+import { STORY_CACHE_TTL_SECONDS } from '../lib/db/stories'
 
 config({ path: '.env.local' })
 
@@ -194,7 +195,18 @@ async function seed() {
     )
   }
 
-  console.log(DRY_RUN ? '\nDry run complete. Run with --write to apply.' : '\nDone.')
+  if (DRY_RUN) {
+    console.log('\nDry run complete. Run with --write to apply.')
+  } else {
+    const ttlMin = STORY_CACHE_TTL_SECONDS / 60
+    console.log('\nDone.')
+    console.log(
+      `\nNote: story/library pages are cached server-side for up to ${ttlMin} minute${ttlMin === 1 ? '' : 's'}.\n` +
+      'These changes will go live automatically once that cache expires — a browser\n' +
+      'refresh won\'t skip it, since the cache lives on the server, not in your browser.\n' +
+      'A new deploy also clears it immediately if you need the change live sooner.',
+    )
+  }
 }
 
 seed().catch(console.error)

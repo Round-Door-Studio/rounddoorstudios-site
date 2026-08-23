@@ -1,4 +1,6 @@
+import { unstable_cache } from 'next/cache'
 import { createServiceClient } from '@/lib/supabase/service'
+import { STORY_CACHE_TTL_SECONDS } from '@/lib/db/stories'
 import type { StoryContent, VocabContent, QuestionsContent, ActivitiesContent } from '@/lib/types'
 
 /**
@@ -61,3 +63,20 @@ export async function getContentCountsFromDB(slug: string): Promise<{
     activityCount: activities?.activities?.length ?? 0,
   }
 }
+
+// ── Cached reads ──────────────────────────────────────────────────────────────
+// Content is the same for every viewer (access-level checks happen separately
+// in lib/db/access.ts, which stays uncached) — safe to share across requests
+// for STORY_CACHE_TTL_SECONDS.
+
+export const loadAllContentCached = unstable_cache(
+  loadAllContentFromDB,
+  ['story-content-full'],
+  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['story-content'] },
+)
+
+export const getContentCountsCached = unstable_cache(
+  getContentCountsFromDB,
+  ['story-content-counts'],
+  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['story-content'] },
+)
