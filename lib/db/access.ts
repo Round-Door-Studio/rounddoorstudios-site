@@ -1,6 +1,6 @@
 import { FREE_STORY_SLUG } from '@/lib/stories'
 import { createServiceClient } from '@/lib/supabase/service'
-import { loadAllContentFromDB, getContentCountsFromDB } from '@/lib/db/content'
+import { loadAllContentCached, getContentCountsCached } from '@/lib/db/content'
 import type { StoryPageContent, StoryPackResult } from '@/lib/types'
 
 /**
@@ -28,7 +28,7 @@ export async function getStoryPackForUser(
 
   // No user — return preview immediately
   if (!userId) {
-    const storyPack = await getContentCountsFromDB(storySlug)
+    const storyPack = await getContentCountsCached(storySlug)
     return { hasAccess: false, source: 'none', storyPack }
   }
 
@@ -82,12 +82,12 @@ export async function getStoryPackForUser(
   }
 
   // No access
-  const storyPack = await getContentCountsFromDB(storySlug)
+  const storyPack = await getContentCountsCached(storySlug)
   return { hasAccess: false, source: 'none', storyPack }
 }
 
 async function loadFullPack(storySlug: string): Promise<StoryPageContent | null> {
-  const { storyContent, vocab, questions, activities } = await loadAllContentFromDB(storySlug)
+  const { storyContent, vocab, questions, activities } = await loadAllContentCached(storySlug)
   if (!storyContent) return null
   return { story: storyContent, vocab, questions, activities }
 }

@@ -12,8 +12,8 @@ const mockLoadAll = vi.hoisted(() => vi.fn())
 const mockGetCounts = vi.hoisted(() => vi.fn())
 
 vi.mock('@/lib/db/content', () => ({
-  loadAllContentFromDB: mockLoadAll,
-  getContentCountsFromDB: mockGetCounts,
+  loadAllContentCached: mockLoadAll,
+  getContentCountsCached: mockGetCounts,
 }))
 
 // FREE_STORY_SLUG = 'frog-at-the-bottom-of-the-well'
@@ -222,20 +222,20 @@ describe('no access (free logged-in user)', () => {
 // The most important tests: confirm content never reaches a non-paying user.
 
 describe('DB-level content gating', () => {
-  it('free user: getContentCountsFromDB called, loadAllContentFromDB NOT called', async () => {
+  it('free user: getContentCountsCached called, loadAllContentCached NOT called', async () => {
     await getStoryPackForUser(USER_ID, PAID_SLUG)
     expect(mockGetCounts).toHaveBeenCalledWith(PAID_SLUG)
     expect(mockLoadAll).not.toHaveBeenCalled()
   })
 
-  it('subscribed user: loadAllContentFromDB called, getContentCountsFromDB NOT called', async () => {
+  it('subscribed user: loadAllContentCached called, getContentCountsCached NOT called', async () => {
     mockFrom.mockReturnValueOnce(makeQuery({ status: 'active', plan_interval: 'monthly' }))
     await getStoryPackForUser(USER_ID, PAID_SLUG)
     expect(mockLoadAll).toHaveBeenCalledWith(PAID_SLUG)
     expect(mockGetCounts).not.toHaveBeenCalled()
   })
 
-  it('purchased user: loadAllContentFromDB called, getContentCountsFromDB NOT called', async () => {
+  it('purchased user: loadAllContentCached called, getContentCountsCached NOT called', async () => {
     mockFrom
       .mockReturnValueOnce(makeQuery(null))              // no sub
       .mockReturnValueOnce(makeQuery({ id: 'p-1' }))    // purchase match

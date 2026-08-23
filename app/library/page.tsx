@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { LibraryClient } from '@/components/LibraryClient';
-import { getAllStoriesFromDB } from '@/lib/db/stories';
+import { getAllStoriesCached } from '@/lib/db/stories';
 
 export const metadata: Metadata = {
   title: 'Round Door Studio · Story Library',
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default async function LibraryPage() {
-  const stories = await getAllStoriesFromDB();
+  const stories = await getAllStoriesCached();
 
   return <LibraryClient stories={stories} />;
 }
