@@ -1,0 +1,4507 @@
+{
+  "slug": "legend-of-lady-meng-jiangnu",
+  "vocab": [
+    {
+      "tier": "door",
+      "simp": {
+        "text": "脸",
+        "pinyin": [
+          {
+            "text": "脸",
+            "reading": "liǎn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "臉",
+        "zhuyin": [
+          {
+            "text": "臉",
+            "reading": "ㄌㄧㄢˇ"
+          }
+        ],
+        "bpmf": "臉"
+      },
+      "en": "face",
+      "example": {
+        "simp": {
+          "text": "只要她一笑，脸上两个小酒窝就会跑出来。",
+          "pinyin": [
+            {
+              "text": "只",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "要",
+              "reading": "yào"
+            },
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "笑",
+              "reading": "xiào"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "脸",
+              "reading": "liǎn"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "两",
+              "reading": "liǎng"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "酒",
+              "reading": "jiǔ"
+            },
+            {
+              "text": "窝",
+              "reading": "wō"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "会",
+              "reading": "huì"
+            },
+            {
+              "text": "跑",
+              "reading": "pǎo"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "只要她一笑，臉上兩個小酒窩就會跑出來。",
+          "zhuyin": [
+            {
+              "text": "只",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "要",
+              "reading": "ㄧㄠˋ"
+            },
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "笑",
+              "reading": "ㄒㄧㄠˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "臉",
+              "reading": "ㄌㄧㄢˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "兩",
+              "reading": "ㄌㄧㄤˇ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "酒",
+              "reading": "ㄐㄧㄡˇ"
+            },
+            {
+              "text": "窩",
+              "reading": "ㄨㄛ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "會",
+              "reading": "ㄏㄨㄟˋ"
+            },
+            {
+              "text": "跑",
+              "reading": "ㄆㄠˇ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "只要她一󠇡笑，臉上兩個󠇡小酒窩就會跑出來。"
+        },
+        "en": "The moment she smiled, two little dimples came out on her face."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "手指",
+        "pinyin": [
+          {
+            "text": "手",
+            "reading": "shǒu"
+          },
+          {
+            "text": "指",
+            "reading": "zhǐ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "手指",
+        "zhuyin": [
+          {
+            "text": "手",
+            "reading": "ㄕㄡˇ"
+          },
+          {
+            "text": "指",
+            "reading": "ㄓˇ"
+          }
+        ],
+        "bpmf": "手指"
+      },
+      "en": "finger",
+      "example": {
+        "simp": {
+          "text": "她用力咬破手指。",
+          "pinyin": [
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "用",
+              "reading": "yòng"
+            },
+            {
+              "text": "力",
+              "reading": "lì"
+            },
+            {
+              "text": "咬",
+              "reading": "yǎo"
+            },
+            {
+              "text": "破",
+              "reading": "pò"
+            },
+            {
+              "text": "手",
+              "reading": "shǒu"
+            },
+            {
+              "text": "指",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "她用力咬破手指。",
+          "zhuyin": [
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "用",
+              "reading": "ㄩㄥˋ"
+            },
+            {
+              "text": "力",
+              "reading": "ㄌㄧˋ"
+            },
+            {
+              "text": "咬",
+              "reading": "ㄧㄠˇ"
+            },
+            {
+              "text": "破",
+              "reading": "ㄆㄛˋ"
+            },
+            {
+              "text": "手",
+              "reading": "ㄕㄡˇ"
+            },
+            {
+              "text": "指",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "她用力咬破手指。"
+        },
+        "en": "She bit down hard on her finger."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "眼睛",
+        "pinyin": [
+          {
+            "text": "眼",
+            "reading": "yǎn"
+          },
+          {
+            "text": "睛",
+            "reading": "jīng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "眼睛",
+        "zhuyin": [
+          {
+            "text": "眼",
+            "reading": "ㄧㄢˇ"
+          },
+          {
+            "text": "睛",
+            "reading": "ㄐㄧㄥ"
+          }
+        ],
+        "bpmf": "眼睛"
+      },
+      "en": "eyes",
+      "example": {
+        "simp": {
+          "text": "她闭上眼睛，脸上带着温柔的微笑。",
+          "pinyin": [
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "闭",
+              "reading": "bì"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "眼",
+              "reading": "yǎn"
+            },
+            {
+              "text": "睛",
+              "reading": "jīng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "脸",
+              "reading": "liǎn"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "带",
+              "reading": "dài"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "温",
+              "reading": "wēn"
+            },
+            {
+              "text": "柔",
+              "reading": "róu"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "微",
+              "reading": "wēi"
+            },
+            {
+              "text": "笑",
+              "reading": "xiào"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "她閉上眼睛，臉上帶著溫柔的微笑。",
+          "zhuyin": [
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "閉",
+              "reading": "ㄅㄧˋ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "眼",
+              "reading": "ㄧㄢˇ"
+            },
+            {
+              "text": "睛",
+              "reading": "ㄐㄧㄥ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "臉",
+              "reading": "ㄌㄧㄢˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "帶",
+              "reading": "ㄉㄞˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "溫",
+              "reading": "ㄨㄣ"
+            },
+            {
+              "text": "柔",
+              "reading": "ㄖㄡˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "微",
+              "reading": "ㄨㄟ"
+            },
+            {
+              "text": "笑",
+              "reading": "ㄒㄧㄠˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "她閉上眼睛，臉上帶著溫柔的微笑。"
+        },
+        "en": "She closed her eyes, a gentle smile on her face."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "眼泪",
+        "pinyin": [
+          {
+            "text": "眼",
+            "reading": "yǎn"
+          },
+          {
+            "text": "泪",
+            "reading": "lèi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "眼淚",
+        "zhuyin": [
+          {
+            "text": "眼",
+            "reading": "ㄧㄢˇ"
+          },
+          {
+            "text": "淚",
+            "reading": "ㄌㄟˋ"
+          }
+        ],
+        "bpmf": "眼淚"
+      },
+      "en": "tears",
+      "example": {
+        "simp": {
+          "text": "孟姜女愣住了，眼泪哗啦哗啦地掉了下来。",
+          "pinyin": [
+            {
+              "text": "孟",
+              "reading": "mèng"
+            },
+            {
+              "text": "姜",
+              "reading": "jiāng"
+            },
+            {
+              "text": "女",
+              "reading": "nǚ"
+            },
+            {
+              "text": "愣",
+              "reading": "lèng"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "眼",
+              "reading": "yǎn"
+            },
+            {
+              "text": "泪",
+              "reading": "lèi"
+            },
+            {
+              "text": "哗",
+              "reading": "hua"
+            },
+            {
+              "text": "啦",
+              "reading": "la"
+            },
+            {
+              "text": "哗",
+              "reading": "hua"
+            },
+            {
+              "text": "啦",
+              "reading": "la"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "掉",
+              "reading": "diào"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "孟姜女愣住了，眼淚嘩啦嘩啦地掉了下來。",
+          "zhuyin": [
+            {
+              "text": "孟",
+              "reading": "ㄇㄥˋ"
+            },
+            {
+              "text": "姜",
+              "reading": "ㄐㄧㄤ"
+            },
+            {
+              "text": "女",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "text": "愣",
+              "reading": "ㄌㄥˋ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "眼",
+              "reading": "ㄧㄢˇ"
+            },
+            {
+              "text": "淚",
+              "reading": "ㄌㄟˋ"
+            },
+            {
+              "text": "嘩",
+              "reading": "ㄏㄨㄚ˙"
+            },
+            {
+              "text": "啦",
+              "reading": "ㄌㄚ˙"
+            },
+            {
+              "text": "嘩",
+              "reading": "ㄏㄨㄚ˙"
+            },
+            {
+              "text": "啦",
+              "reading": "ㄌㄚ˙"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "掉",
+              "reading": "ㄉㄧㄠˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "孟姜女愣住了，眼淚嘩󠇡啦嘩󠇡啦地󠇡掉了下來。"
+        },
+        "en": "Meng Jiangnu froze, and her tears came pouring down."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "头发",
+        "pinyin": [
+          {
+            "text": "头",
+            "reading": "tóu"
+          },
+          {
+            "text": "发",
+            "reading": "fǎ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "頭髮",
+        "zhuyin": [
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          },
+          {
+            "text": "髮",
+            "reading": "ㄈㄚˇ"
+          }
+        ],
+        "bpmf": "頭髮"
+      },
+      "en": "hair",
+      "example": {
+        "simp": {
+          "text": "大风把她的头发吹得乱糟糟。",
+          "pinyin": [
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "风",
+              "reading": "fēng"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "发",
+              "reading": "fǎ"
+            },
+            {
+              "text": "吹",
+              "reading": "chuī"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "乱",
+              "reading": "luàn"
+            },
+            {
+              "text": "糟",
+              "reading": "zāo"
+            },
+            {
+              "text": "糟",
+              "reading": "zāo"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "大風把她的頭髮吹得亂糟糟。",
+          "zhuyin": [
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "風",
+              "reading": "ㄈㄥ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "髮",
+              "reading": "ㄈㄚˇ"
+            },
+            {
+              "text": "吹",
+              "reading": "ㄔㄨㄟ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "亂",
+              "reading": "ㄌㄨㄢˋ"
+            },
+            {
+              "text": "糟",
+              "reading": "ㄗㄠ"
+            },
+            {
+              "text": "糟",
+              "reading": "ㄗㄠ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "大風把她的頭髮吹得󠇡亂糟糟。"
+        },
+        "en": "The wind blew her hair into a tangled mess."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "衣服",
+        "pinyin": [
+          {
+            "text": "衣",
+            "reading": "yī"
+          },
+          {
+            "text": "服",
+            "reading": "fú"
+          }
+        ]
+      },
+      "trad": {
+        "text": "衣服",
+        "zhuyin": [
+          {
+            "text": "衣",
+            "reading": "ㄧ"
+          },
+          {
+            "text": "服",
+            "reading": "ㄈㄨˊ"
+          }
+        ],
+        "bpmf": "衣服"
+      },
+      "en": "clothes",
+      "example": {
+        "simp": {
+          "text": "大雨把她的衣服淋得湿答答。",
+          "pinyin": [
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "雨",
+              "reading": "yǔ"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "衣",
+              "reading": "yī"
+            },
+            {
+              "text": "服",
+              "reading": "fú"
+            },
+            {
+              "text": "淋",
+              "reading": "lín"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "湿",
+              "reading": "shī"
+            },
+            {
+              "text": "答",
+              "reading": "dā"
+            },
+            {
+              "text": "答",
+              "reading": "dā"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "大雨把她的衣服淋得溼答答。",
+          "zhuyin": [
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "雨",
+              "reading": "ㄩˇ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "衣",
+              "reading": "ㄧ"
+            },
+            {
+              "text": "服",
+              "reading": "ㄈㄨˊ"
+            },
+            {
+              "text": "淋",
+              "reading": "ㄌㄧㄣˊ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "溼",
+              "reading": "ㄕ"
+            },
+            {
+              "text": "答",
+              "reading": "ㄉㄚ"
+            },
+            {
+              "text": "答",
+              "reading": "ㄉㄚ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "大雨把她的衣服淋得󠇡溼答󠇡答󠇡。"
+        },
+        "en": "The rain soaked her clothes through."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "月亮",
+        "pinyin": [
+          {
+            "text": "月",
+            "reading": "yuè"
+          },
+          {
+            "text": "亮",
+            "reading": "liàng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "月亮",
+        "zhuyin": [
+          {
+            "text": "月",
+            "reading": "ㄩㄝˋ"
+          },
+          {
+            "text": "亮",
+            "reading": "ㄌㄧㄤˋ"
+          }
+        ],
+        "bpmf": "月亮"
+      },
+      "en": "moon",
+      "example": {
+        "simp": {
+          "text": "当月亮从海面升起时。",
+          "pinyin": [
+            {
+              "text": "当",
+              "reading": "dāng"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "面",
+              "reading": "miàn"
+            },
+            {
+              "text": "升",
+              "reading": "shēng"
+            },
+            {
+              "text": "起",
+              "reading": "qǐ"
+            },
+            {
+              "text": "时",
+              "reading": "shí"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "當月亮從海面升起時。",
+          "zhuyin": [
+            {
+              "text": "當",
+              "reading": "ㄉㄤ"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "面",
+              "reading": "ㄇㄧㄢˋ"
+            },
+            {
+              "text": "升",
+              "reading": "ㄕㄥ"
+            },
+            {
+              "text": "起",
+              "reading": "ㄑㄧˇ"
+            },
+            {
+              "text": "時",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "當月亮從海面升起時。"
+        },
+        "en": "When the moon rose from the surface of the sea."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "石头",
+        "pinyin": [
+          {
+            "text": "石",
+            "reading": "shí"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          }
+        ]
+      },
+      "trad": {
+        "text": "石頭",
+        "zhuyin": [
+          {
+            "text": "石",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          }
+        ],
+        "bpmf": "石頭"
+      },
+      "en": "stone, rock",
+      "example": {
+        "simp": {
+          "text": "就在这时，石头晃动起来。",
+          "pinyin": [
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "时",
+              "reading": "shí"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "石",
+              "reading": "shí"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "晃",
+              "reading": "huǎng"
+            },
+            {
+              "text": "动",
+              "reading": "dòng"
+            },
+            {
+              "text": "起",
+              "reading": "qǐ"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "就在這時，石頭晃動起來。",
+          "zhuyin": [
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "時",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "石",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "晃",
+              "reading": "ㄏㄨㄤˇ"
+            },
+            {
+              "text": "動",
+              "reading": "ㄉㄨㄥˋ"
+            },
+            {
+              "text": "起",
+              "reading": "ㄑㄧˇ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "就在這時，石頭晃動起來。"
+        },
+        "en": "Just then, the stones began to shake."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "骨头",
+        "pinyin": [
+          {
+            "text": "骨",
+            "reading": "gǔ"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          }
+        ]
+      },
+      "trad": {
+        "text": "骨頭",
+        "zhuyin": [
+          {
+            "text": "骨",
+            "reading": "ㄍㄨˇ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          }
+        ],
+        "bpmf": "骨頭"
+      },
+      "en": "bone",
+      "example": {
+        "simp": {
+          "text": "露出了底下埋藏的骨头。",
+          "pinyin": [
+            {
+              "text": "露",
+              "reading": "lù"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "底",
+              "reading": "dǐ"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "埋",
+              "reading": "mái"
+            },
+            {
+              "text": "藏",
+              "reading": "cáng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "骨",
+              "reading": "gǔ"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "露出了底下埋藏的骨頭。",
+          "zhuyin": [
+            {
+              "text": "露",
+              "reading": "ㄌㄨˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "底",
+              "reading": "ㄉㄧˇ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "埋",
+              "reading": "ㄇㄞˊ"
+            },
+            {
+              "text": "藏",
+              "reading": "ㄘㄤˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "骨",
+              "reading": "ㄍㄨˇ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "露出了底下埋藏的骨頭。"
+        },
+        "en": "It uncovered the bones buried underneath."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "院子",
+        "pinyin": [
+          {
+            "text": "院",
+            "reading": "yuàn"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "院子",
+        "zhuyin": [
+          {
+            "text": "院",
+            "reading": "ㄩㄢˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          }
+        ],
+        "bpmf": "院子󠇡"
+      },
+      "en": "courtyard, yard",
+      "example": {
+        "simp": {
+          "text": "红灯笼挂满了院子。",
+          "pinyin": [
+            {
+              "text": "红",
+              "reading": "hóng"
+            },
+            {
+              "text": "灯",
+              "reading": "dēng"
+            },
+            {
+              "text": "笼",
+              "reading": "lóng"
+            },
+            {
+              "text": "挂",
+              "reading": "guà"
+            },
+            {
+              "text": "满",
+              "reading": "mǎn"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "院",
+              "reading": "yuàn"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "紅燈籠掛滿了院子。",
+          "zhuyin": [
+            {
+              "text": "紅",
+              "reading": "ㄏㄨㄥˊ"
+            },
+            {
+              "text": "燈",
+              "reading": "ㄉㄥ"
+            },
+            {
+              "text": "籠",
+              "reading": "ㄌㄨㄥˊ"
+            },
+            {
+              "text": "掛",
+              "reading": "ㄍㄨㄚˋ"
+            },
+            {
+              "text": "滿",
+              "reading": "ㄇㄢˇ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "院",
+              "reading": "ㄩㄢˋ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "紅燈籠掛滿了院子󠇡。"
+        },
+        "en": "Red lanterns hung all over the courtyard."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "门口",
+        "pinyin": [
+          {
+            "text": "门",
+            "reading": "mén"
+          },
+          {
+            "text": "口",
+            "reading": "kǒu"
+          }
+        ]
+      },
+      "trad": {
+        "text": "門口",
+        "zhuyin": [
+          {
+            "text": "門",
+            "reading": "ㄇㄣˊ"
+          },
+          {
+            "text": "口",
+            "reading": "ㄎㄡˇ"
+          }
+        ],
+        "bpmf": "門口"
+      },
+      "en": "doorway, entrance",
+      "example": {
+        "simp": {
+          "text": "孟姜女天天站在门口等待。",
+          "pinyin": [
+            {
+              "text": "孟",
+              "reading": "mèng"
+            },
+            {
+              "text": "姜",
+              "reading": "jiāng"
+            },
+            {
+              "text": "女",
+              "reading": "nǚ"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "站",
+              "reading": "zhàn"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "门",
+              "reading": "mén"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "等",
+              "reading": "děng"
+            },
+            {
+              "text": "待",
+              "reading": "dài"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "孟姜女天天站在門口等待。",
+          "zhuyin": [
+            {
+              "text": "孟",
+              "reading": "ㄇㄥˋ"
+            },
+            {
+              "text": "姜",
+              "reading": "ㄐㄧㄤ"
+            },
+            {
+              "text": "女",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "站",
+              "reading": "ㄓㄢˋ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "門",
+              "reading": "ㄇㄣˊ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "等",
+              "reading": "ㄉㄥˇ"
+            },
+            {
+              "text": "待",
+              "reading": "ㄉㄞˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "孟姜女天天站在門口等待。"
+        },
+        "en": "Meng Jiangnu stood waiting in the doorway day after day."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "丈夫",
+        "pinyin": [
+          {
+            "text": "丈",
+            "reading": "zhàng"
+          },
+          {
+            "text": "夫",
+            "reading": "fū"
+          }
+        ]
+      },
+      "trad": {
+        "text": "丈夫",
+        "zhuyin": [
+          {
+            "text": "丈",
+            "reading": "ㄓㄤˋ"
+          },
+          {
+            "text": "夫",
+            "reading": "ㄈㄨ"
+          }
+        ],
+        "bpmf": "丈夫"
+      },
+      "en": "husband",
+      "example": {
+        "simp": {
+          "text": "请问，你有没有看到我的丈夫？",
+          "pinyin": [
+            {
+              "text": "请",
+              "reading": "qǐng"
+            },
+            {
+              "text": "问",
+              "reading": "wèn"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "没",
+              "reading": "méi"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "丈",
+              "reading": "zhàng"
+            },
+            {
+              "text": "夫",
+              "reading": "fū"
+            },
+            {
+              "text": "？",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "請問，你有沒有看到我的丈夫？",
+          "zhuyin": [
+            {
+              "text": "請",
+              "reading": "ㄑㄧㄥˇ"
+            },
+            {
+              "text": "問",
+              "reading": "ㄨㄣˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "沒",
+              "reading": "ㄇㄟˊ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "丈",
+              "reading": "ㄓㄤˋ"
+            },
+            {
+              "text": "夫",
+              "reading": "ㄈㄨ"
+            },
+            {
+              "text": "？",
+              "reading": ""
+            }
+          ],
+          "bpmf": "請問，你有沒有看到我的丈夫？"
+        },
+        "en": "Excuse me, have you seen my husband?"
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "官兵",
+        "pinyin": [
+          {
+            "text": "官",
+            "reading": "guān"
+          },
+          {
+            "text": "兵",
+            "reading": "bīng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "官兵",
+        "zhuyin": [
+          {
+            "text": "官",
+            "reading": "ㄍㄨㄢ"
+          },
+          {
+            "text": "兵",
+            "reading": "ㄅㄧㄥ"
+          }
+        ],
+        "bpmf": "官兵"
+      },
+      "en": "soldiers, government troops",
+      "example": {
+        "simp": {
+          "text": "官兵到处抓人。",
+          "pinyin": [
+            {
+              "text": "官",
+              "reading": "guān"
+            },
+            {
+              "text": "兵",
+              "reading": "bīng"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "处",
+              "reading": "chù"
+            },
+            {
+              "text": "抓",
+              "reading": "zhuā"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "官兵到處抓人。",
+          "zhuyin": [
+            {
+              "text": "官",
+              "reading": "ㄍㄨㄢ"
+            },
+            {
+              "text": "兵",
+              "reading": "ㄅㄧㄥ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "處",
+              "reading": "ㄔㄨˋ"
+            },
+            {
+              "text": "抓",
+              "reading": "ㄓㄨㄚ"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "官兵到處󠇡抓人。"
+        },
+        "en": "The soldiers were seizing people everywhere."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "皇帝",
+        "pinyin": [
+          {
+            "text": "皇",
+            "reading": "huáng"
+          },
+          {
+            "text": "帝",
+            "reading": "dì"
+          }
+        ]
+      },
+      "trad": {
+        "text": "皇帝",
+        "zhuyin": [
+          {
+            "text": "皇",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "帝",
+            "reading": "ㄉㄧˋ"
+          }
+        ],
+        "bpmf": "皇帝"
+      },
+      "en": "emperor",
+      "example": {
+        "simp": {
+          "text": "皇帝一听她愿意嫁，高兴得连忙点头。",
+          "pinyin": [
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "听",
+              "reading": "tīng"
+            },
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "愿",
+              "reading": "yuàn"
+            },
+            {
+              "text": "意",
+              "reading": "yì"
+            },
+            {
+              "text": "嫁",
+              "reading": "jià"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "高",
+              "reading": "gāo"
+            },
+            {
+              "text": "兴",
+              "reading": "xìng"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "连",
+              "reading": "lián"
+            },
+            {
+              "text": "忙",
+              "reading": "máng"
+            },
+            {
+              "text": "点",
+              "reading": "diǎn"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "皇帝一聽她願意嫁，高興得連忙點頭。",
+          "zhuyin": [
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "聽",
+              "reading": "ㄊㄧㄥ"
+            },
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "願",
+              "reading": "ㄩㄢˋ"
+            },
+            {
+              "text": "意",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "嫁",
+              "reading": "ㄐㄧㄚˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "高",
+              "reading": "ㄍㄠ"
+            },
+            {
+              "text": "興",
+              "reading": "ㄒㄧㄥˋ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "連",
+              "reading": "ㄌㄧㄢˊ"
+            },
+            {
+              "text": "忙",
+              "reading": "ㄇㄤˊ"
+            },
+            {
+              "text": "點",
+              "reading": "ㄉㄧㄢˇ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "皇帝一󠇢聽她願意嫁，高興󠇡得󠇡連忙點頭。"
+        },
+        "en": "The emperor heard that she was willing to marry him and nodded eagerly."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "城墙",
+        "pinyin": [
+          {
+            "text": "城",
+            "reading": "chéng"
+          },
+          {
+            "text": "墙",
+            "reading": "qiáng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "城牆",
+        "zhuyin": [
+          {
+            "text": "城",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "牆",
+            "reading": "ㄑㄧㄤˊ"
+          }
+        ],
+        "bpmf": "城牆"
+      },
+      "en": "city wall",
+      "example": {
+        "simp": {
+          "text": "皇帝正在盖一道好长好长的城墙。",
+          "pinyin": [
+            {
+              "text": "皇",
+              "reading": "huáng"
+            },
+            {
+              "text": "帝",
+              "reading": "dì"
+            },
+            {
+              "text": "正",
+              "reading": "zhèng"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "盖",
+              "reading": "gài"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "道",
+              "reading": "dào"
+            },
+            {
+              "text": "好",
+              "reading": "hǎo"
+            },
+            {
+              "text": "长",
+              "reading": "cháng"
+            },
+            {
+              "text": "好",
+              "reading": "hǎo"
+            },
+            {
+              "text": "长",
+              "reading": "cháng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "城",
+              "reading": "chéng"
+            },
+            {
+              "text": "墙",
+              "reading": "qiáng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "皇帝正在蓋一道好長好長的城牆。",
+          "zhuyin": [
+            {
+              "text": "皇",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "帝",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "正",
+              "reading": "ㄓㄥˋ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "蓋",
+              "reading": "ㄍㄞˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "道",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "好",
+              "reading": "ㄏㄠˇ"
+            },
+            {
+              "text": "長",
+              "reading": "ㄔㄤˊ"
+            },
+            {
+              "text": "好",
+              "reading": "ㄏㄠˇ"
+            },
+            {
+              "text": "長",
+              "reading": "ㄔㄤˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "城",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "牆",
+              "reading": "ㄑㄧㄤˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "皇帝正在蓋一󠇡道好長好長的城牆。"
+        },
+        "en": "The emperor was building a very, very long city wall."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "万里长城",
+        "pinyin": [
+          {
+            "text": "万",
+            "reading": "wàn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "长",
+            "reading": "cháng"
+          },
+          {
+            "text": "城",
+            "reading": "chéng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "萬里長城",
+        "zhuyin": [
+          {
+            "text": "萬",
+            "reading": "ㄨㄢˋ"
+          },
+          {
+            "text": "里",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "長",
+            "reading": "ㄔㄤˊ"
+          },
+          {
+            "text": "城",
+            "reading": "ㄔㄥˊ"
+          }
+        ],
+        "bpmf": "萬里長城"
+      },
+      "en": "the Great Wall: the ten-thousand-li wall built along China's northern border, the wall in this story",
+      "example": {
+        "simp": {
+          "text": "也就是后来的万里长城。",
+          "pinyin": [
+            {
+              "text": "也",
+              "reading": "yě"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "后",
+              "reading": "hòu"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "万",
+              "reading": "wàn"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "长",
+              "reading": "cháng"
+            },
+            {
+              "text": "城",
+              "reading": "chéng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "也就是後來的萬里長城。",
+          "zhuyin": [
+            {
+              "text": "也",
+              "reading": "ㄧㄝˇ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "後",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "萬",
+              "reading": "ㄨㄢˋ"
+            },
+            {
+              "text": "里",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "長",
+              "reading": "ㄔㄤˊ"
+            },
+            {
+              "text": "城",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "也就是後來的萬里長城。"
+        },
+        "en": "It is the wall known later as the Great Wall."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "苦工",
+        "pinyin": [
+          {
+            "text": "苦",
+            "reading": "kǔ"
+          },
+          {
+            "text": "工",
+            "reading": "gōng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "苦工",
+        "zhuyin": [
+          {
+            "text": "苦",
+            "reading": "ㄎㄨˇ"
+          },
+          {
+            "text": "工",
+            "reading": "ㄍㄨㄥ"
+          }
+        ],
+        "bpmf": "苦工"
+      },
+      "en": "hard labor, backbreaking work",
+      "example": {
+        "simp": {
+          "text": "逼他们去北方做苦工。",
+          "pinyin": [
+            {
+              "text": "逼",
+              "reading": "bī"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "们",
+              "reading": "men"
+            },
+            {
+              "text": "去",
+              "reading": "qù"
+            },
+            {
+              "text": "北",
+              "reading": "běi"
+            },
+            {
+              "text": "方",
+              "reading": "fāng"
+            },
+            {
+              "text": "做",
+              "reading": "zuò"
+            },
+            {
+              "text": "苦",
+              "reading": "kǔ"
+            },
+            {
+              "text": "工",
+              "reading": "gōng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "逼他們去北方做苦工。",
+          "zhuyin": [
+            {
+              "text": "逼",
+              "reading": "ㄅㄧ"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "們",
+              "reading": "ㄇㄣ˙"
+            },
+            {
+              "text": "去",
+              "reading": "ㄑㄩˋ"
+            },
+            {
+              "text": "北",
+              "reading": "ㄅㄟˇ"
+            },
+            {
+              "text": "方",
+              "reading": "ㄈㄤ"
+            },
+            {
+              "text": "做",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "苦",
+              "reading": "ㄎㄨˇ"
+            },
+            {
+              "text": "工",
+              "reading": "ㄍㄨㄥ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "逼他們去北方做苦工。"
+        },
+        "en": "They forced them to go north and do hard labor."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "婚礼",
+        "pinyin": [
+          {
+            "text": "婚",
+            "reading": "hūn"
+          },
+          {
+            "text": "礼",
+            "reading": "lǐ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "婚禮",
+        "zhuyin": [
+          {
+            "text": "婚",
+            "reading": "ㄏㄨㄣ"
+          },
+          {
+            "text": "禮",
+            "reading": "ㄌㄧˇ"
+          }
+        ],
+        "bpmf": "婚禮"
+      },
+      "en": "wedding, wedding ceremony",
+      "example": {
+        "simp": {
+          "text": "两家人欢欢喜喜地替他们办了婚礼。",
+          "pinyin": [
+            {
+              "text": "两",
+              "reading": "liǎng"
+            },
+            {
+              "text": "家",
+              "reading": "jiā"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "欢",
+              "reading": "huān"
+            },
+            {
+              "text": "欢",
+              "reading": "huān"
+            },
+            {
+              "text": "喜",
+              "reading": "xǐ"
+            },
+            {
+              "text": "喜",
+              "reading": "xǐ"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "替",
+              "reading": "tì"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "们",
+              "reading": "men"
+            },
+            {
+              "text": "办",
+              "reading": "bàn"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "婚",
+              "reading": "hūn"
+            },
+            {
+              "text": "礼",
+              "reading": "lǐ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "兩家人歡歡喜喜地替他們辦了婚禮。",
+          "zhuyin": [
+            {
+              "text": "兩",
+              "reading": "ㄌㄧㄤˇ"
+            },
+            {
+              "text": "家",
+              "reading": "ㄐㄧㄚ"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "歡",
+              "reading": "ㄏㄨㄢ"
+            },
+            {
+              "text": "歡",
+              "reading": "ㄏㄨㄢ"
+            },
+            {
+              "text": "喜",
+              "reading": "ㄒㄧˇ"
+            },
+            {
+              "text": "喜",
+              "reading": "ㄒㄧˇ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "替",
+              "reading": "ㄊㄧˋ"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "們",
+              "reading": "ㄇㄣ˙"
+            },
+            {
+              "text": "辦",
+              "reading": "ㄅㄢˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "婚",
+              "reading": "ㄏㄨㄣ"
+            },
+            {
+              "text": "禮",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "兩家人歡歡喜喜地󠇡替他們辦了婚禮。"
+        },
+        "en": "The two families held a joyful wedding for them."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "善良",
+        "pinyin": [
+          {
+            "text": "善",
+            "reading": "shàn"
+          },
+          {
+            "text": "良",
+            "reading": "liáng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "善良",
+        "zhuyin": [
+          {
+            "text": "善",
+            "reading": "ㄕㄢˋ"
+          },
+          {
+            "text": "良",
+            "reading": "ㄌㄧㄤˊ"
+          }
+        ],
+        "bpmf": "善良"
+      },
+      "en": "kind, good-hearted",
+      "example": {
+        "simp": {
+          "text": "他们都是善良的人。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "们",
+              "reading": "men"
+            },
+            {
+              "text": "都",
+              "reading": "dōu"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "善",
+              "reading": "shàn"
+            },
+            {
+              "text": "良",
+              "reading": "liáng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他們都是善良的人。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "們",
+              "reading": "ㄇㄣ˙"
+            },
+            {
+              "text": "都",
+              "reading": "ㄉㄡ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "善",
+              "reading": "ㄕㄢˋ"
+            },
+            {
+              "text": "良",
+              "reading": "ㄌㄧㄤˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他們都是善良的人。"
+        },
+        "en": "They were both kind people."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "着急",
+        "pinyin": [
+          {
+            "text": "着",
+            "reading": "zhāo"
+          },
+          {
+            "text": "急",
+            "reading": "jí"
+          }
+        ]
+      },
+      "trad": {
+        "text": "著急",
+        "zhuyin": [
+          {
+            "text": "著",
+            "reading": "ㄓㄠ"
+          },
+          {
+            "text": "急",
+            "reading": "ㄐㄧˊ"
+          }
+        ],
+        "bpmf": "著󠇢急"
+      },
+      "en": "anxious, worried",
+      "example": {
+        "simp": {
+          "text": "她连一封信都没有收到，心里越来越着急。",
+          "pinyin": [
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "连",
+              "reading": "lián"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "封",
+              "reading": "fēng"
+            },
+            {
+              "text": "信",
+              "reading": "xìn"
+            },
+            {
+              "text": "都",
+              "reading": "dōu"
+            },
+            {
+              "text": "没",
+              "reading": "méi"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "收",
+              "reading": "shōu"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "越",
+              "reading": "yuè"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "越",
+              "reading": "yuè"
+            },
+            {
+              "text": "着",
+              "reading": "zhāo"
+            },
+            {
+              "text": "急",
+              "reading": "jí"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "她連一封信都沒有收到，心裡越來越著急。",
+          "zhuyin": [
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "連",
+              "reading": "ㄌㄧㄢˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "封",
+              "reading": "ㄈㄥ"
+            },
+            {
+              "text": "信",
+              "reading": "ㄒㄧㄣˋ"
+            },
+            {
+              "text": "都",
+              "reading": "ㄉㄡ"
+            },
+            {
+              "text": "沒",
+              "reading": "ㄇㄟˊ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "收",
+              "reading": "ㄕㄡ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "越",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "越",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄠ"
+            },
+            {
+              "text": "急",
+              "reading": "ㄐㄧˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "她連一󠇢封信都沒有收到，心裡越來越著󠇢急。"
+        },
+        "en": "She had not received a single letter, and grew more and more anxious."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "寒衣",
+        "pinyin": [
+          {
+            "text": "寒",
+            "reading": "hán"
+          },
+          {
+            "text": "衣",
+            "reading": "yī"
+          }
+        ]
+      },
+      "trad": {
+        "text": "寒衣",
+        "zhuyin": [
+          {
+            "text": "寒",
+            "reading": "ㄏㄢˊ"
+          },
+          {
+            "text": "衣",
+            "reading": "ㄧ"
+          }
+        ],
+        "bpmf": "寒衣"
+      },
+      "en": "warm winter clothing",
+      "example": {
+        "simp": {
+          "text": "于是她收拾了一大包厚厚的寒衣。",
+          "pinyin": [
+            {
+              "text": "于",
+              "reading": "yú"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "收",
+              "reading": "shōu"
+            },
+            {
+              "text": "拾",
+              "reading": "shí"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "包",
+              "reading": "bāo"
+            },
+            {
+              "text": "厚",
+              "reading": "hòu"
+            },
+            {
+              "text": "厚",
+              "reading": "hòu"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "寒",
+              "reading": "hán"
+            },
+            {
+              "text": "衣",
+              "reading": "yī"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "於是她收拾了一大包厚厚的寒衣。",
+          "zhuyin": [
+            {
+              "text": "於",
+              "reading": "ㄩˊ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "收",
+              "reading": "ㄕㄡ"
+            },
+            {
+              "text": "拾",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "包",
+              "reading": "ㄅㄠ"
+            },
+            {
+              "text": "厚",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "厚",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "寒",
+              "reading": "ㄏㄢˊ"
+            },
+            {
+              "text": "衣",
+              "reading": "ㄧ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "於是她收拾了一󠇡大包厚厚的寒衣。"
+        },
+        "en": "So she packed a big bundle of thick winter clothes."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "答应",
+        "pinyin": [
+          {
+            "text": "答",
+            "reading": "dā"
+          },
+          {
+            "text": "应",
+            "reading": "yìng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "答應",
+        "zhuyin": [
+          {
+            "text": "答",
+            "reading": "ㄉㄚ"
+          },
+          {
+            "text": "應",
+            "reading": "ㄧㄥˋ"
+          }
+        ],
+        "bpmf": "答󠇡應󠇡"
+      },
+      "en": "to agree, to promise",
+      "example": {
+        "simp": {
+          "text": "但你要答应我三件事。",
+          "pinyin": [
+            {
+              "text": "但",
+              "reading": "dàn"
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "要",
+              "reading": "yào"
+            },
+            {
+              "text": "答",
+              "reading": "dā"
+            },
+            {
+              "text": "应",
+              "reading": "yìng"
+            },
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "三",
+              "reading": "sān"
+            },
+            {
+              "text": "件",
+              "reading": "jiàn"
+            },
+            {
+              "text": "事",
+              "reading": "shì"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "但你要答應我三件事。",
+          "zhuyin": [
+            {
+              "text": "但",
+              "reading": "ㄉㄢˋ"
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "要",
+              "reading": "ㄧㄠˋ"
+            },
+            {
+              "text": "答",
+              "reading": "ㄉㄚ"
+            },
+            {
+              "text": "應",
+              "reading": "ㄧㄥˋ"
+            },
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "三",
+              "reading": "ㄙㄢ"
+            },
+            {
+              "text": "件",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "事",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "但你要答󠇡應󠇡我三件事。"
+        },
+        "en": "But you must agree to three things for me."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "沉默",
+        "pinyin": [
+          {
+            "text": "沉",
+            "reading": "chén"
+          },
+          {
+            "text": "默",
+            "reading": "mò"
+          }
+        ]
+      },
+      "trad": {
+        "text": "沉默",
+        "zhuyin": [
+          {
+            "text": "沉",
+            "reading": "ㄔㄣˊ"
+          },
+          {
+            "text": "默",
+            "reading": "ㄇㄛˋ"
+          }
+        ],
+        "bpmf": "沉默"
+      },
+      "en": "to fall silent, silence",
+      "example": {
+        "simp": {
+          "text": "他低下头，沉默了好久才开口。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "低",
+              "reading": "dī"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "沉",
+              "reading": "chén"
+            },
+            {
+              "text": "默",
+              "reading": "mò"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "好",
+              "reading": "hǎo"
+            },
+            {
+              "text": "久",
+              "reading": "jiǔ"
+            },
+            {
+              "text": "才",
+              "reading": "cái"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "口",
+              "reading": "kǒu"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他低下頭，沉默了好久才開口。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "低",
+              "reading": "ㄉㄧ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "沉",
+              "reading": "ㄔㄣˊ"
+            },
+            {
+              "text": "默",
+              "reading": "ㄇㄛˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "好",
+              "reading": "ㄏㄠˇ"
+            },
+            {
+              "text": "久",
+              "reading": "ㄐㄧㄡˇ"
+            },
+            {
+              "text": "才",
+              "reading": "ㄘㄞˊ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "口",
+              "reading": "ㄎㄡˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他低下頭，沉默了好久才開口。"
+        },
+        "en": "He lowered his head and stayed silent a long while before he spoke."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "悲伤",
+        "pinyin": [
+          {
+            "text": "悲",
+            "reading": "bēi"
+          },
+          {
+            "text": "伤",
+            "reading": "shāng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "悲傷",
+        "zhuyin": [
+          {
+            "text": "悲",
+            "reading": "ㄅㄟ"
+          },
+          {
+            "text": "傷",
+            "reading": "ㄕㄤ"
+          }
+        ],
+        "bpmf": "悲傷"
+      },
+      "en": "sorrow, grief",
+      "example": {
+        "simp": {
+          "text": "整座山都听得到她的悲伤。",
+          "pinyin": [
+            {
+              "text": "整",
+              "reading": "zhěng"
+            },
+            {
+              "text": "座",
+              "reading": "zuò"
+            },
+            {
+              "text": "山",
+              "reading": "shān"
+            },
+            {
+              "text": "都",
+              "reading": "dōu"
+            },
+            {
+              "text": "听",
+              "reading": "tīng"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "悲",
+              "reading": "bēi"
+            },
+            {
+              "text": "伤",
+              "reading": "shāng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "整座山都聽得到她的悲傷。",
+          "zhuyin": [
+            {
+              "text": "整",
+              "reading": "ㄓㄥˇ"
+            },
+            {
+              "text": "座",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "山",
+              "reading": "ㄕㄢ"
+            },
+            {
+              "text": "都",
+              "reading": "ㄉㄡ"
+            },
+            {
+              "text": "聽",
+              "reading": "ㄊㄧㄥ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "悲",
+              "reading": "ㄅㄟ"
+            },
+            {
+              "text": "傷",
+              "reading": "ㄕㄤ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "整座山都聽得󠇡到她的悲傷。"
+        },
+        "en": "The whole mountain could hear her sorrow."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "思念",
+        "pinyin": [
+          {
+            "text": "思",
+            "reading": "sī"
+          },
+          {
+            "text": "念",
+            "reading": "niàn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "思念",
+        "zhuyin": [
+          {
+            "text": "思",
+            "reading": "ㄙ"
+          },
+          {
+            "text": "念",
+            "reading": "ㄋㄧㄢˋ"
+          }
+        ],
+        "bpmf": "思念"
+      },
+      "en": "to long for, longing",
+      "example": {
+        "simp": {
+          "text": "心里全是思念和心痛。",
+          "pinyin": [
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "全",
+              "reading": "quán"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "思",
+              "reading": "sī"
+            },
+            {
+              "text": "念",
+              "reading": "niàn"
+            },
+            {
+              "text": "和",
+              "reading": "hé"
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "痛",
+              "reading": "tòng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "心裡全是思念和心痛。",
+          "zhuyin": [
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "全",
+              "reading": "ㄑㄩㄢˊ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "思",
+              "reading": "ㄙ"
+            },
+            {
+              "text": "念",
+              "reading": "ㄋㄧㄢˋ"
+            },
+            {
+              "text": "和",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "痛",
+              "reading": "ㄊㄨㄥˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "心裡全是思念和心痛。"
+        },
+        "en": "Her heart was full of longing and pain."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "拥抱",
+        "pinyin": [
+          {
+            "text": "拥",
+            "reading": "yōng"
+          },
+          {
+            "text": "抱",
+            "reading": "bào"
+          }
+        ]
+      },
+      "trad": {
+        "text": "擁抱",
+        "zhuyin": [
+          {
+            "text": "擁",
+            "reading": "ㄩㄥˇ"
+          },
+          {
+            "text": "抱",
+            "reading": "ㄅㄠˋ"
+          }
+        ],
+        "bpmf": "擁抱"
+      },
+      "en": "to hug, to embrace",
+      "example": {
+        "simp": {
+          "text": "就像最后一次拥抱她的丈夫一样。",
+          "pinyin": [
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "像",
+              "reading": "xiàng"
+            },
+            {
+              "text": "最",
+              "reading": "zuì"
+            },
+            {
+              "text": "后",
+              "reading": "hòu"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "次",
+              "reading": "cì"
+            },
+            {
+              "text": "拥",
+              "reading": "yōng"
+            },
+            {
+              "text": "抱",
+              "reading": "bào"
+            },
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "丈",
+              "reading": "zhàng"
+            },
+            {
+              "text": "夫",
+              "reading": "fū"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "样",
+              "reading": "yàng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "就像最後一次擁抱她的丈夫一樣。",
+          "zhuyin": [
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "像",
+              "reading": "ㄒㄧㄤˋ"
+            },
+            {
+              "text": "最",
+              "reading": "ㄗㄨㄟˋ"
+            },
+            {
+              "text": "後",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "次",
+              "reading": "ㄘˋ"
+            },
+            {
+              "text": "擁",
+              "reading": "ㄩㄥˇ"
+            },
+            {
+              "text": "抱",
+              "reading": "ㄅㄠˋ"
+            },
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "丈",
+              "reading": "ㄓㄤˋ"
+            },
+            {
+              "text": "夫",
+              "reading": "ㄈㄨ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "樣",
+              "reading": "ㄧㄤˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "就像最後一󠇡次擁抱她的丈夫一󠇡樣。"
+        },
+        "en": "Just like the last time she would ever hug her husband."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "丧礼",
+        "pinyin": [
+          {
+            "text": "丧",
+            "reading": "sāng"
+          },
+          {
+            "text": "礼",
+            "reading": "lǐ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "喪禮",
+        "zhuyin": [
+          {
+            "text": "喪",
+            "reading": "ㄙㄤ"
+          },
+          {
+            "text": "禮",
+            "reading": "ㄌㄧˇ"
+          }
+        ],
+        "bpmf": "喪禮"
+      },
+      "en": "funeral rites",
+      "example": {
+        "simp": {
+          "text": "让我为丈夫举行丧礼。",
+          "pinyin": [
+            {
+              "text": "让",
+              "reading": "ràng"
+            },
+            {
+              "text": "我",
+              "reading": "wǒ"
+            },
+            {
+              "text": "为",
+              "reading": "wèi"
+            },
+            {
+              "text": "丈",
+              "reading": "zhàng"
+            },
+            {
+              "text": "夫",
+              "reading": "fū"
+            },
+            {
+              "text": "举",
+              "reading": "jǔ"
+            },
+            {
+              "text": "行",
+              "reading": "xíng"
+            },
+            {
+              "text": "丧",
+              "reading": "sāng"
+            },
+            {
+              "text": "礼",
+              "reading": "lǐ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "讓我為丈夫舉行喪禮。",
+          "zhuyin": [
+            {
+              "text": "讓",
+              "reading": "ㄖㄤˋ"
+            },
+            {
+              "text": "我",
+              "reading": "ㄨㄛˇ"
+            },
+            {
+              "text": "為",
+              "reading": "ㄨㄟˋ"
+            },
+            {
+              "text": "丈",
+              "reading": "ㄓㄤˋ"
+            },
+            {
+              "text": "夫",
+              "reading": "ㄈㄨ"
+            },
+            {
+              "text": "舉",
+              "reading": "ㄐㄩˇ"
+            },
+            {
+              "text": "行",
+              "reading": "ㄒㄧㄥˊ"
+            },
+            {
+              "text": "喪",
+              "reading": "ㄙㄤ"
+            },
+            {
+              "text": "禮",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "讓我為󠇡丈夫舉行喪禮。"
+        },
+        "en": "Let me hold funeral rites for my husband."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "比目鱼",
+        "pinyin": [
+          {
+            "text": "比",
+            "reading": "bǐ"
+          },
+          {
+            "text": "目",
+            "reading": "mù"
+          },
+          {
+            "text": "鱼",
+            "reading": "yú"
+          }
+        ]
+      },
+      "trad": {
+        "text": "比目魚",
+        "zhuyin": [
+          {
+            "text": "比",
+            "reading": "ㄅㄧˇ"
+          },
+          {
+            "text": "目",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "魚",
+            "reading": "ㄩˊ"
+          }
+        ],
+        "bpmf": "比目魚"
+      },
+      "en": "flatfish: a fish whose two eyes sit on one side, said to swim only in pairs, an old symbol of a devoted couple",
+      "example": {
+        "simp": {
+          "text": "两条比目鱼出现在波浪上。",
+          "pinyin": [
+            {
+              "text": "两",
+              "reading": "liǎng"
+            },
+            {
+              "text": "条",
+              "reading": "tiáo"
+            },
+            {
+              "text": "比",
+              "reading": "bǐ"
+            },
+            {
+              "text": "目",
+              "reading": "mù"
+            },
+            {
+              "text": "鱼",
+              "reading": "yú"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "现",
+              "reading": "xiàn"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "波",
+              "reading": "bō"
+            },
+            {
+              "text": "浪",
+              "reading": "làng"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "兩條比目魚出現在波浪上。",
+          "zhuyin": [
+            {
+              "text": "兩",
+              "reading": "ㄌㄧㄤˇ"
+            },
+            {
+              "text": "條",
+              "reading": "ㄊㄧㄠˊ"
+            },
+            {
+              "text": "比",
+              "reading": "ㄅㄧˇ"
+            },
+            {
+              "text": "目",
+              "reading": "ㄇㄨˋ"
+            },
+            {
+              "text": "魚",
+              "reading": "ㄩˊ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "現",
+              "reading": "ㄒㄧㄢˋ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "波",
+              "reading": "ㄅㄛ"
+            },
+            {
+              "text": "浪",
+              "reading": "ㄌㄤˋ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "兩條比目魚出現在波浪上。"
+        },
+        "en": "Two flatfish appeared on the waves."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "一望无际",
+        "pinyin": [
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "望",
+            "reading": "wàng"
+          },
+          {
+            "text": "无",
+            "reading": "wú"
+          },
+          {
+            "text": "际",
+            "reading": "jì"
+          }
+        ]
+      },
+      "trad": {
+        "text": "一望無際",
+        "zhuyin": [
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "望",
+            "reading": "ㄨㄤˋ"
+          },
+          {
+            "text": "無",
+            "reading": "ㄨˊ"
+          },
+          {
+            "text": "際",
+            "reading": "ㄐㄧˋ"
+          }
+        ],
+        "bpmf": "一󠇡望無際"
+      },
+      "en": "stretching as far as the eye can see, with no end in sight",
+      "example": {
+        "simp": {
+          "text": "孟姜女走到海边，望着一望无际的大海。",
+          "pinyin": [
+            {
+              "text": "孟",
+              "reading": "mèng"
+            },
+            {
+              "text": "姜",
+              "reading": "jiāng"
+            },
+            {
+              "text": "女",
+              "reading": "nǚ"
+            },
+            {
+              "text": "走",
+              "reading": "zǒu"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "边",
+              "reading": "biān"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "望",
+              "reading": "wàng"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "望",
+              "reading": "wàng"
+            },
+            {
+              "text": "无",
+              "reading": "wú"
+            },
+            {
+              "text": "际",
+              "reading": "jì"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "孟姜女走到海邊，望著一望無際的大海。",
+          "zhuyin": [
+            {
+              "text": "孟",
+              "reading": "ㄇㄥˋ"
+            },
+            {
+              "text": "姜",
+              "reading": "ㄐㄧㄤ"
+            },
+            {
+              "text": "女",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "text": "走",
+              "reading": "ㄗㄡˇ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "邊",
+              "reading": "ㄅㄧㄢ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "望",
+              "reading": "ㄨㄤˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "望",
+              "reading": "ㄨㄤˋ"
+            },
+            {
+              "text": "無",
+              "reading": "ㄨˊ"
+            },
+            {
+              "text": "際",
+              "reading": "ㄐㄧˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "孟姜女走到海邊，望著一󠇡望無際的大海。"
+        },
+        "en": "Meng Jiangnu walked to the shore and gazed at the boundless sea."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "相亲相爱",
+        "pinyin": [
+          {
+            "text": "相",
+            "reading": "xiāng"
+          },
+          {
+            "text": "亲",
+            "reading": "qīn"
+          },
+          {
+            "text": "相",
+            "reading": "xiāng"
+          },
+          {
+            "text": "爱",
+            "reading": "ài"
+          }
+        ]
+      },
+      "trad": {
+        "text": "相親相愛",
+        "zhuyin": [
+          {
+            "text": "相",
+            "reading": "ㄒㄧㄤ"
+          },
+          {
+            "text": "親",
+            "reading": "ㄑㄧㄣ"
+          },
+          {
+            "text": "相",
+            "reading": "ㄒㄧㄤ"
+          },
+          {
+            "text": "愛",
+            "reading": "ㄞˋ"
+          }
+        ],
+        "bpmf": "相󠇡親相󠇡愛"
+      },
+      "en": "to love and care for each other deeply, the way a devoted couple or close family does",
+      "example": {
+        "simp": {
+          "text": "就像一对相亲相爱的夫妻。",
+          "pinyin": [
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "像",
+              "reading": "xiàng"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "对",
+              "reading": "duì"
+            },
+            {
+              "text": "相",
+              "reading": "xiāng"
+            },
+            {
+              "text": "亲",
+              "reading": "qīn"
+            },
+            {
+              "text": "相",
+              "reading": "xiāng"
+            },
+            {
+              "text": "爱",
+              "reading": "ài"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "夫",
+              "reading": "fū"
+            },
+            {
+              "text": "妻",
+              "reading": "qī"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "就像一對相親相愛的夫妻。",
+          "zhuyin": [
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "像",
+              "reading": "ㄒㄧㄤˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "對",
+              "reading": "ㄉㄨㄟˋ"
+            },
+            {
+              "text": "相",
+              "reading": "ㄒㄧㄤ"
+            },
+            {
+              "text": "親",
+              "reading": "ㄑㄧㄣ"
+            },
+            {
+              "text": "相",
+              "reading": "ㄒㄧㄤ"
+            },
+            {
+              "text": "愛",
+              "reading": "ㄞˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "夫",
+              "reading": "ㄈㄨ"
+            },
+            {
+              "text": "妻",
+              "reading": "ㄑㄧ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "就像一󠇡對相󠇡親相󠇡愛的夫妻。"
+        },
+        "en": "Just like a devoted couple who love each other dearly."
+      }
+    }
+  ]
+}
