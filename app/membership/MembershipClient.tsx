@@ -73,10 +73,12 @@ export default function MembershipClient({ isLoggedIn }: Props) {
       if (data.url) {
         router.push(data.url);
       } else {
+        setToast("Something went wrong starting checkout — please try again.");
         setLoading(false);
         inFlight.current = false;
       }
     } catch {
+      setToast("Something went wrong starting checkout — please try again.");
       setLoading(false);
       inFlight.current = false;
     }

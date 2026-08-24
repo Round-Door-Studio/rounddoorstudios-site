@@ -72,10 +72,12 @@ export function LockedStoryPack({
       if (data.url) {
         router.push(data.url);
       } else {
+        setToast("Something went wrong starting checkout — please try again.");
         setPackLoading(false);
         inFlight.current = false;
       }
     } catch {
+      setToast("Something went wrong starting checkout — please try again.");
       setPackLoading(false);
       inFlight.current = false;
     }
