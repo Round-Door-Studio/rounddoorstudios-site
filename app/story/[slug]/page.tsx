@@ -5,8 +5,8 @@ import { ListenControl } from '@/components/ListenControl';
 import { StoryCover } from '@/components/StoryCover';
 import { StoryPack } from '@/components/story/StoryPack';
 import { createClient } from '@/lib/supabase/server';
-import { getStoryBySlugFromDB, getReleasedStoriesFromDB, getAllStoriesFromDB } from '@/lib/db/stories';
-import { loadAllContentFromDB, getContentCountsFromDB } from '@/lib/db/content';
+import { getStoryBySlugCached, getReleasedStoriesCached, getAllStoriesCached } from '@/lib/db/stories';
+import { getStoryPackForUser } from '@/lib/db/access';
 import { padNum } from '@/lib/stories';
 import type { StoryPageContent } from '@/lib/types';
 
@@ -16,7 +16,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const story = await getStoryBySlugFromDB(slug);
+  const story = await getStoryBySlugCached(slug);
   if (!story) return {};
   return {
     title: `Round Door Studio · ${story.title.en}`,
@@ -29,9 +29,9 @@ export default async function StoryPage({ params }: Props) {
 
   // Fetch story + all stories (for sequential nav) + released list + auth in parallel
   const [story, allStories, released, supabase] = await Promise.all([
-    getStoryBySlugFromDB(slug),
-    getAllStoriesFromDB(),
-    getReleasedStoriesFromDB(),
+    getStoryBySlugCached(slug),
+    getAllStoriesCached(),
+    getReleasedStoriesCached(),
     createClient(),
   ]);
 
@@ -61,24 +61,21 @@ export default async function StoryPage({ params }: Props) {
   }
 
   const { data: { user } } = await supabase.auth.getUser();
-  const isFreeStory = story.num === 1;
-  const showLockedView = !user && !isFreeStory;
 
-  // Prev / next navigation — use all stories so unreleased ones show "coming soon" rather than being skipped
+  // Prev / next navigation
   const idx = allStories.findIndex((s) => s.slug === slug);
   const prevStory = idx > 0 ? allStories[idx - 1] : null;
   const nextStory = idx < allStories.length - 1 ? allStories[idx + 1] : null;
 
-  // Load content conditionally
+  const packResult = await getStoryPackForUser(user?.id ?? null, slug);
+
   let content: StoryPageContent | null = null;
   let vocabCount = 0;
   let questionCount = 0;
   let activityCount = 0;
 
-  if (!showLockedView) {
-    const { storyContent, vocab, questions, activities } = await loadAllContentFromDB(slug);
-
-    if (!storyContent) {
+  if (packResult.hasAccess) {
+    if (packResult.storyPack === null) {
       return (
         <div className="read-wrap">
           <Link className="read-back" href="/library">‹ Back to the library</Link>
@@ -94,15 +91,17 @@ export default async function StoryPage({ params }: Props) {
         </div>
       );
     }
-
-    content = { story: storyContent, vocab, questions, activities };
-    vocabCount = vocab.vocab?.length ?? 0;
-    questionCount = (questions.open?.length ?? 0) + (questions.beyond?.length ?? 0);
-    activityCount = activities.activities?.length ?? 0;
+    content = packResult.storyPack;
+    vocabCount = content.vocab.vocab?.length ?? 0;
+    questionCount = (content.questions.open?.length ?? 0) + (content.questions.beyond?.length ?? 0);
+    activityCount = content.activities.activities?.length ?? 0;
   } else {
-    // Counts only for locked preview — service role bypasses RLS
-    ({ vocabCount, questionCount, activityCount } = await getContentCountsFromDB(slug));
+    vocabCount = packResult.storyPack.vocabCount;
+    questionCount = packResult.storyPack.questionCount;
+    activityCount = packResult.storyPack.activityCount;
   }
+
+  const isFreeStory = story.num === 1;
 
   return (
     <div className="read-wrap">
@@ -165,8 +164,11 @@ export default async function StoryPage({ params }: Props) {
 
       <StoryPack
         content={content}
-        showLockedView={showLockedView}
+        hasAccess={packResult.hasAccess}
+        source={packResult.hasAccess ? packResult.source : 'none'}
         isFreeStory={isFreeStory}
+        isLoggedIn={!!user}
+        storySlug={slug}
         vocabCount={vocabCount}
         questionCount={questionCount}
         activityCount={activityCount}

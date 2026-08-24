@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { HomeClient } from '@/components/HomeClient';
-import { getLatestReleasedStoryFromDB } from '@/lib/db/stories';
+import { getLatestReleasedStoryCached } from '@/lib/db/stories';
 
 export const metadata: Metadata = {
   title: 'Round Door Studio · Bilingual stories for curious minds',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const featured = await getLatestReleasedStoryFromDB();
+  const featured = await getLatestReleasedStoryCached();
 
   return <HomeClient featured={featured} />;
 }

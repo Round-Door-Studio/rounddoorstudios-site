@@ -2,6 +2,8 @@
 
 Bilingual Mandarin/English children's storytelling platform. Built with Next.js 15 App Router + TypeScript.
 
+For a full reference of every external service (Supabase, Stripe, Upstash, Vercel, CI secrets), see **[SYSTEMS.md](./SYSTEMS.md)**.
+
 ## Development
 
 ```bash
@@ -29,18 +31,21 @@ Teammates need their own `.env.local` with the same keys — get them from the S
 
 ### Schema
 
-Three main tables:
-
 | Table | Description |
 |---|---|
 | `stories` | Story catalog — metadata, titles, audio links, cover images |
 | `story_content` | Story pack content — read-along, vocab, questions, activities (JSONB) |
 | `profiles` | User profiles — name, email, synced from `auth.users` on signup |
+| `stripe_customers` | Maps `user_id` → `stripe_customer_id` |
+| `subscriptions` | Active/canceled membership subscriptions with status and billing period |
+| `story_pack_purchases` | Individual story pack purchases (one row per user+slug) |
+| `stripe_events` | Processed Stripe webhook event IDs — used for idempotency |
 
 Row-level security:
 - **`stories`**: anon + authenticated can read released stories
 - **`story_content`**: authenticated users only (service role used server-side for locked preview counts)
 - **`profiles`**: users can read/write their own row
+- **`stripe_customers`, `subscriptions`, `story_pack_purchases`**: users can read their own rows; writes are service-role only (via webhook handler)
 
 ### Seeding
 
@@ -146,6 +151,43 @@ on conflict (id) do update
 
 ---
 
+## Payments (Stripe)
+
+Memberships (monthly/yearly) and individual story pack purchases are handled via Stripe Checkout.
+
+### How it works
+
+- **Membership**: `/membership` page has monthly/yearly toggle. Clicking "Join the Circle" starts a Stripe Checkout session. After payment, Stripe fires a webhook and the subscription row is written to Supabase.
+- **Story pack**: Locked story pages show a "Own This Story Pack Forever" CTA. Clicking starts a one-time Stripe Checkout session. After payment, the webhook writes a row to `story_pack_purchases`.
+- **Post-login auto-trigger**: If a user hits "Join" or "Buy" while logged out, they're prompted to sign in. After sign-in the URL carries `?autoJoin=monthly|yearly` or `?autoPurchase=1` — the client reads these params and fires checkout automatically, so the user lands straight in Stripe without extra clicks.
+- **Manage Membership**: `/account` page has a "Manage Membership" button that opens the Stripe Customer Portal (cancel, update payment method, view invoices).
+
+### Environment variables
+
+```
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=...
+STRIPE_SECRET_KEY=...
+STRIPE_WEBHOOK_SECRET=...
+STRIPE_PRICE_MONTHLY=price_...
+STRIPE_PRICE_YEARLY=price_...
+```
+
+### Local webhook testing
+
+Stripe events won't reach localhost without the Stripe CLI:
+
+```bash
+stripe listen --forward-to localhost:3000/api/stripe/webhook
+```
+
+The CLI prints a `whsec_...` secret — use that as `STRIPE_WEBHOOK_SECRET` in `.env.local` while the listener is active (it differs from the dashboard secret).
+
+### Rate limiting
+
+The three checkout API routes are rate-limited via Upstash Redis in production. Locally (or in CI without Upstash env vars set) they fall back to an in-memory limiter — no Redis connection needed.
+
+---
+
 ## Testing
 
 ### Unit tests (Vitest)
@@ -191,9 +233,12 @@ npm run test:all     # unit tests + Chromium + Mobile Safari (mirrors CI, run be
 
 ### CI
 
-GitHub Actions (`.github/workflows/ci.yml`) runs two parallel jobs on every push and PR to `main`:
+GitHub Actions (`.github/workflows/ci.yml`) runs on every push and PR to `main` and `f3/**` branches:
+
 - **Lint, Typecheck & Unit Tests** — fast, no browser needed
-- **E2E Tests** — builds the app and runs Playwright on Chromium + Mobile Safari
+- **E2E Tests (Playwright)** — sharded across 3 parallel jobs, each running Chromium + Mobile Safari (~7 min wall-clock total)
+
+The E2E job requires several secrets set in GitHub repo settings (Settings → Secrets → Actions) — see [SYSTEMS.md](./SYSTEMS.md) for the full list.
 
 All checks must pass before merging.
 

@@ -1,5 +1,13 @@
 import { createClient } from '@supabase/supabase-js'
+import { unstable_cache } from 'next/cache'
 import type { Story } from '@/lib/types'
+
+// Story catalog rarely changes (an editorial edit + `npm run seed:write`),
+// so pages should read through these cached wrappers instead of the
+// `*FromDB` functions directly. Kept separate from the raw functions below
+// so the existing unit tests (which exercise fresh DB reads per call) are
+// unaffected. See STORY_CACHE_TTL_SECONDS for the staleness window.
+export const STORY_CACHE_TTL_SECONDS = 300
 
 // Cookie-free anon client — only reads released stories (RLS restricted)
 function getClient() {
@@ -100,3 +108,31 @@ export async function getLatestReleasedStoryFromDB(): Promise<Story | null> {
   if (error || !data) return null
   return mapRow(data as Record<string, unknown>)
 }
+
+// ── Cached reads ──────────────────────────────────────────────────────────────
+// Use these from pages/components. Public, non-user-specific catalog data —
+// safe to share across all viewers for STORY_CACHE_TTL_SECONDS.
+
+export const getReleasedStoriesCached = unstable_cache(
+  getReleasedStoriesFromDB,
+  ['stories-released'],
+  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+)
+
+export const getStoryBySlugCached = unstable_cache(
+  getStoryBySlugFromDB,
+  ['stories-by-slug'],
+  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+)
+
+export const getAllStoriesCached = unstable_cache(
+  getAllStoriesFromDB,
+  ['stories-all'],
+  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+)
+
+export const getLatestReleasedStoryCached = unstable_cache(
+  getLatestReleasedStoryFromDB,
+  ['stories-latest-released'],
+  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+)

@@ -1,0 +1,253 @@
+'use client';
+
+import { useState, useEffect, useRef, useCallback } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { Toast } from '@/components/Toast';
+import { AuthModal } from '@/components/AuthModal';
+
+interface Props {
+  isLoggedIn: boolean;
+}
+
+export default function MembershipClient({ isLoggedIn }: Props) {
+  const [interval, setInterval] = useState<'monthly' | 'yearly'>('monthly');
+  const [loading, setLoading] = useState(false);
+  const [toast, setToast] = useState<string | null>(null);
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [authMode, setAuthMode] = useState<'signin' | 'signup'>('signin');
+  const inFlight = useRef(false);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const dismissToast = useCallback(() => setToast(null), []);
+
+  // Show a toast and clean the URL when returning from a canceled checkout.
+  useEffect(() => {
+    if (searchParams.get('checkout') === 'canceled') {
+      setToast('Checkout was canceled. No charge was made.');
+      router.replace('/membership', { scroll: false });
+    }
+  }, [searchParams, router]);
+
+  // After the user authenticates, ?autoJoin=monthly|yearly is present in the URL.
+  // Auto-trigger checkout and clean the param from the URL.
+  useEffect(() => {
+    if (!isLoggedIn) return;
+    const autoJoin = searchParams.get('autoJoin') as 'monthly' | 'yearly' | null;
+    if (!autoJoin || (autoJoin !== 'monthly' && autoJoin !== 'yearly')) return;
+    router.replace('/membership', { scroll: false });
+    setInterval(autoJoin);
+    startMembershipCheckout(autoJoin);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isLoggedIn, searchParams]);
+
+  const isYearly = interval === 'yearly';
+  const monthlyEquiv = isYearly ? '$18' : '$20';
+  const billingNote = isYearly ? '$216 billed yearly' : 'Billed monthly';
+  const savings = isYearly ? 'Save 10%' : null;
+
+  async function startMembershipCheckout(checkoutInterval: 'monthly' | 'yearly') {
+    if (inFlight.current) return;
+    inFlight.current = true;
+    setLoading(true);
+    try {
+      const res = await fetch('/api/stripe/create-membership-checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ interval: checkoutInterval }),
+      });
+      const data = await res.json();
+      if (res.status === 429) {
+        setToast('Too many requests — please wait a moment and try again.');
+        setLoading(false);
+        inFlight.current = false;
+        return;
+      }
+      if (res.status === 401) {
+        // Fallback: shouldn't normally happen since we check isLoggedIn first
+        setShowAuthModal(true);
+        setLoading(false);
+        inFlight.current = false;
+        return;
+      }
+      if (data.url) {
+        router.push(data.url);
+      } else {
+        setLoading(false);
+        inFlight.current = false;
+      }
+    } catch {
+      setLoading(false);
+      inFlight.current = false;
+    }
+  }
+
+  async function handleJoin() {
+    if (!isLoggedIn) {
+      setShowAuthModal(true);
+      return;
+    }
+    await startMembershipCheckout(interval);
+  }
+
+  return (
+    <>
+      {showAuthModal && (
+        <AuthModal
+          mode={authMode}
+          onClose={() => setShowAuthModal(false)}
+          onSwitchMode={setAuthMode}
+          redirectTo={`/membership?autoJoin=${interval}`}
+          contextTitle="Sign in to join the Circle."
+          contextSubtitle="Your membership is linked to your account so you can access Story Packs across all your devices."
+        />
+      )}
+
+      {toast && <Toast message={toast} onDismiss={dismissToast} />}
+
+      <section
+        style={{ maxWidth: 720, margin: '0 auto', textAlign: 'center', padding: '60px 24px 28px' }}
+      >
+        <p className="eyebrow" style={{ marginBottom: 12 }}>The stories stay free · 故事永远免费</p>
+        <h1 className="display" style={{ fontSize: 'clamp(32px, 5vw, 52px)', marginBottom: 14 }}>
+          Join the Round Door Circle.
+        </h1>
+        <p style={{ fontSize: 'clamp(15px, 2.1vw, 18px)', lineHeight: 1.65, color: 'var(--ink-soft)' }}>
+          Every story is free on Spotify, YouTube, and Apple Podcasts — forever.
+          The Round Door Circle helps families keep the story going with read-along storybooks,
+          vocabulary, curious questions, and cultural activities.
+        </p>
+      </section>
+
+      <section
+        style={{
+          maxWidth: 880, margin: '0 auto', padding: '8px 24px 16px',
+          display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 18,
+        }}
+        className="prices-grid"
+      >
+        {/* Free card */}
+        <div className="card" style={{ padding: 28, display: 'flex', flexDirection: 'column' }}>
+          <p className="eyebrow" style={{ marginBottom: 6 }}>Free</p>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, margin: '8px 0 12px' }}>
+            <span style={{ fontFamily: 'var(--display)', fontSize: 46 }}>$0</span>
+            <span style={{ color: 'var(--muted)', fontSize: 14 }}>/month</span>
+          </div>
+          <p style={{ color: 'var(--muted)', fontSize: 12, marginBottom: 14 }}>Forever free. No card needed.</p>
+          <ul style={{ paddingLeft: 18, lineHeight: 1.8, fontSize: 14, color: 'var(--ink-soft)', marginBottom: 20, flex: 1 }}>
+            <li>All podcast episodes on Spotify, YouTube &amp; Apple</li>
+            <li>New stories every week</li>
+            <li>English &amp; Mandarin versions of every episode</li>
+          </ul>
+          <a
+            href="/signup"
+            className="btn btn-ghost"
+            style={{ width: '100%', justifyContent: 'center' }}
+          >
+            Create a free account
+          </a>
+        </div>
+
+        {/* Circle Member card */}
+        <div
+          className="card"
+          style={{
+            padding: 28, position: 'relative',
+            border: '1px solid var(--accent)',
+            boxShadow: '0 14px 40px var(--shadow)',
+            display: 'flex', flexDirection: 'column',
+          }}
+        >
+          {/* Circle Member label + toggle on same row */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
+            <p className="eyebrow" style={{ margin: 0 }}>Circle Member</p>
+            <div className="interval-toggle">
+              <button
+                type="button"
+                className={`interval-btn${!isYearly ? ' is-on' : ''}`}
+                onClick={() => setInterval('monthly')}
+              >
+                Monthly
+              </button>
+              <button
+                type="button"
+                className={`interval-btn${isYearly ? ' is-on' : ''}`}
+                onClick={() => setInterval('yearly')}
+              >
+                Yearly
+                {savings && (
+                  <span className="interval-savings">{savings}</span>
+                )}
+              </button>
+            </div>
+          </div>
+
+          {/* Price */}
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, margin: '0 0 4px' }}>
+            <span style={{ fontFamily: 'var(--display)', fontSize: 46 }}>{monthlyEquiv}</span>
+            <span style={{ color: 'var(--muted)', fontSize: 14 }}>/month</span>
+          </div>
+          <p style={{ color: 'var(--muted)', fontSize: 12, marginBottom: 14 }}>{billingNote} · Cancel any time.</p>
+
+          <ul style={{ paddingLeft: 18, lineHeight: 1.8, fontSize: 14, color: 'var(--ink-soft)', marginBottom: 20, flex: 1 }}>
+            <li>Everything in Free</li>
+            <li>Read-along storybooks with pinyin &amp; zhuyin</li>
+            <li>Vocabulary cards with example sentences</li>
+            <li>Curious questions for family discussion</li>
+            <li>Cultural activities &amp; crafts</li>
+            <li>Every Story Pack, including new releases</li>
+          </ul>
+
+          <button
+            type="button"
+            className="btn btn-primary"
+            style={{ width: '100%', justifyContent: 'center' }}
+            onClick={handleJoin}
+            disabled={loading}
+          >
+            {loading ? 'Redirecting…' : 'Join the Circle'}
+          </button>
+        </div>
+      </section>
+
+      <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 12, margin: '14px 0 4px' }}>
+        🔒 Payments are processed securely by Stripe. Cancel any time from your account.
+      </p>
+      <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 12, margin: '0 0 48px' }}>
+        By subscribing or purchasing a Story Pack, you agree to our{' '}
+        <a href="/terms" style={{ color: 'var(--muted)', textDecoration: 'underline' }}>Terms</a>,{' '}
+        <a href="/privacy" style={{ color: 'var(--muted)', textDecoration: 'underline' }}>Privacy Policy</a>, and{' '}
+        <a href="/terms#refund-policy" style={{ color: 'var(--muted)', textDecoration: 'underline' }}>Refund Policy</a>.
+      </p>
+
+      <style>{`
+        @media (max-width: 640px) { .prices-grid { grid-template-columns: 1fr !important; } }
+
+        .interval-toggle {
+          display: inline-flex;
+          background: var(--paper-2);
+          border: 1px solid var(--border);
+          border-radius: 999px;
+          padding: 3px;
+          gap: 2px;
+        }
+        .interval-btn {
+          border: 0; background: transparent; cursor: pointer;
+          font-family: var(--serif); font-size: 13px; color: var(--ink-soft);
+          padding: 5px 14px; border-radius: 999px;
+          display: inline-flex; align-items: center; gap: 6px;
+          transition: background .15s, color .15s;
+        }
+        .interval-btn.is-on {
+          background: var(--paper); color: var(--ink);
+          box-shadow: 0 1px 3px rgba(0,0,0,0.10);
+        }
+        .interval-savings {
+          font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase;
+          background: var(--accent); color: #fff;
+          padding: 2px 6px; border-radius: 999px;
+        }
+      `}</style>
+    </>
+  );
+}

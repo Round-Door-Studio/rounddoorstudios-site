@@ -37,11 +37,9 @@ test.describe('Logged-out story gating', () => {
     await expect(page.locator('.locked-cta-heading')).toBeVisible();
   });
 
-  test('locked CTA button opens auth modal in signup mode', async ({ page }) => {
+  test('locked CTA "Join the Circle" button navigates to membership page', async ({ page }) => {
     await page.locator('.locked-cta-btn').click();
-    await expect(page.locator('.overlay.open')).toBeVisible();
-    await expect(page.locator('.modal h2')).toHaveText('Join the Circle');
-    await expect(page.locator('.modal-tab.is-on')).toHaveText('Join the Circle');
+    await expect(page).toHaveURL('/membership');
   });
 
   test('"Explore a Sample Story Pack" link goes to story 1', async ({ page }) => {
