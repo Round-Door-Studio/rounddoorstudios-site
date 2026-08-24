@@ -26,7 +26,9 @@ export function Nav({ userEmail, userName }: NavProps) {
   }
 
   const displayName = userName || userEmail?.split('@')[0] || 'there'
-  const redirectTo = pathname ?? '/';
+  // Auth-protected pages redirect to /login after logout — send to home instead.
+  const authProtected = pathname?.startsWith('/account');
+  const redirectTo = authProtected ? '/' : (pathname ?? '/');
 
   return (
     <>
@@ -39,6 +41,9 @@ export function Nav({ userEmail, userName }: NavProps) {
           <Link href="/library" className={isActive('/library') ? 'is-on' : ''}>
             Library
           </Link>
+          <Link href="/membership" className={isActive('/membership') ? 'is-on' : ''}>
+            Membership
+          </Link>
           <Link href="/about" className={isActive('/about') ? 'is-on' : ''}>
             About
           </Link>
@@ -47,9 +52,9 @@ export function Nav({ userEmail, userName }: NavProps) {
           <ScriptToggle />
           {userEmail ? (
             <>
-              <span className="nav-welcome">Welcome back, {displayName}</span>
+              <Link className="nav-welcome" href="/account">Welcome back, {displayName}</Link>
               <form action={signOut}>
-                <input type="hidden" name="redirectTo" value={pathname ?? '/'} />
+                <input type="hidden" name="redirectTo" value={redirectTo} />
                 <button type="submit" className="btn-nav btn-nav-ghost">Logout</button>
               </form>
             </>

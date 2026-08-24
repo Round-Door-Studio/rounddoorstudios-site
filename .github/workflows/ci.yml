@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
+    branches: [main, 'f3/**']
 
 jobs:
   lint-and-unit:
@@ -33,9 +33,12 @@ jobs:
         run: npm test -- --run
 
   e2e:
-    name: E2E Tests (Playwright)
+    name: E2E Tests (Playwright) — Shard ${{ matrix.shard }}/3
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 25
+    strategy:
+      matrix:
+        shard: [1, 2, 3]
 
     steps:
       - uses: actions/checkout@v4
@@ -66,6 +69,10 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           TEST_USER_EMAIL: ${{ secrets.TEST_USER_EMAIL }}
           TEST_USER_PASSWORD: ${{ secrets.TEST_USER_PASSWORD }}
+          TEST_USER_FREE_EMAIL: ${{ secrets.TEST_USER_FREE_EMAIL }}
+          TEST_USER_FREE_PASSWORD: ${{ secrets.TEST_USER_FREE_PASSWORD }}
+          TEST_USER_PURCHASER_EMAIL: ${{ secrets.TEST_USER_PURCHASER_EMAIL }}
+          TEST_USER_PURCHASER_PASSWORD: ${{ secrets.TEST_USER_PURCHASER_PASSWORD }}
         run: |
           {
             echo "NEXT_PUBLIC_SUPABASE_URL=$NEXT_PUBLIC_SUPABASE_URL"
@@ -73,17 +80,22 @@ jobs:
             echo "SUPABASE_SERVICE_ROLE_KEY=$SUPABASE_SERVICE_ROLE_KEY"
             echo "TEST_USER_EMAIL=$TEST_USER_EMAIL"
             echo "TEST_USER_PASSWORD=$TEST_USER_PASSWORD"
+            echo "TEST_USER_FREE_EMAIL=$TEST_USER_FREE_EMAIL"
+            echo "TEST_USER_FREE_PASSWORD=$TEST_USER_FREE_PASSWORD"
+            echo "TEST_USER_PURCHASER_EMAIL=$TEST_USER_PURCHASER_EMAIL"
+            echo "TEST_USER_PURCHASER_PASSWORD=$TEST_USER_PURCHASER_PASSWORD"
+            echo "NEXT_PUBLIC_SITE_URL=http://localhost:3000"
           } > .env.local
 
       - name: Build
         run: npm run build
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: npx playwright test --shard=${{ matrix.shard }}/3
 
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
-          name: playwright-report
+          name: playwright-report-shard-${{ matrix.shard }}
           path: playwright-report/
           retention-days: 7
