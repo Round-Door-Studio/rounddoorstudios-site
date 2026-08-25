@@ -1,6 +1,12 @@
 import { createClient } from '@supabase/supabase-js'
 import { unstable_cache } from 'next/cache'
+import { withCacheFallback } from '@/lib/db/cache-fallback'
 import type { Story } from '@/lib/types'
+
+// See lib/db/cache-fallback.ts. Generous relative to normal Supabase read
+// latency (well under a second) — this should only ever fire on a genuine
+// stall, not ordinary jitter.
+const CACHE_FALLBACK_TIMEOUT_MS = 8_000
 
 // Story catalog rarely changes (an editorial edit + `npm run seed:write`),
 // so pages should read through these cached wrappers instead of the
@@ -113,26 +119,46 @@ export async function getLatestReleasedStoryFromDB(): Promise<Story | null> {
 // Use these from pages/components. Public, non-user-specific catalog data —
 // safe to share across all viewers for STORY_CACHE_TTL_SECONDS.
 
-export const getReleasedStoriesCached = unstable_cache(
+export const getReleasedStoriesCached = withCacheFallback(
+  unstable_cache(
+    getReleasedStoriesFromDB,
+    ['stories-released'],
+    { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+  ),
   getReleasedStoriesFromDB,
-  ['stories-released'],
-  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+  CACHE_FALLBACK_TIMEOUT_MS,
+  'getReleasedStoriesCached',
 )
 
-export const getStoryBySlugCached = unstable_cache(
+export const getStoryBySlugCached = withCacheFallback(
+  unstable_cache(
+    getStoryBySlugFromDB,
+    ['stories-by-slug'],
+    { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+  ),
   getStoryBySlugFromDB,
-  ['stories-by-slug'],
-  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+  CACHE_FALLBACK_TIMEOUT_MS,
+  'getStoryBySlugCached',
 )
 
-export const getAllStoriesCached = unstable_cache(
+export const getAllStoriesCached = withCacheFallback(
+  unstable_cache(
+    getAllStoriesFromDB,
+    ['stories-all'],
+    { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+  ),
   getAllStoriesFromDB,
-  ['stories-all'],
-  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+  CACHE_FALLBACK_TIMEOUT_MS,
+  'getAllStoriesCached',
 )
 
-export const getLatestReleasedStoryCached = unstable_cache(
+export const getLatestReleasedStoryCached = withCacheFallback(
+  unstable_cache(
+    getLatestReleasedStoryFromDB,
+    ['stories-latest-released'],
+    { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+  ),
   getLatestReleasedStoryFromDB,
-  ['stories-latest-released'],
-  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['stories'] },
+  CACHE_FALLBACK_TIMEOUT_MS,
+  'getLatestReleasedStoryCached',
 )
