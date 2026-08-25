@@ -1,7 +1,11 @@
 import { unstable_cache } from 'next/cache'
 import { createServiceClient } from '@/lib/supabase/service'
 import { STORY_CACHE_TTL_SECONDS } from '@/lib/db/stories'
+import { withCacheFallback } from '@/lib/db/cache-fallback'
 import type { StoryContent, VocabContent, QuestionsContent, ActivitiesContent } from '@/lib/types'
+
+// See lib/db/cache-fallback.ts.
+const CACHE_FALLBACK_TIMEOUT_MS = 8_000
 
 /**
  * Load all story content in one query — for authenticated users.
@@ -69,14 +73,24 @@ export async function getContentCountsFromDB(slug: string): Promise<{
 // in lib/db/access.ts, which stays uncached) — safe to share across requests
 // for STORY_CACHE_TTL_SECONDS.
 
-export const loadAllContentCached = unstable_cache(
+export const loadAllContentCached = withCacheFallback(
+  unstable_cache(
+    loadAllContentFromDB,
+    ['story-content-full'],
+    { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['story-content'] },
+  ),
   loadAllContentFromDB,
-  ['story-content-full'],
-  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['story-content'] },
+  CACHE_FALLBACK_TIMEOUT_MS,
+  'loadAllContentCached',
 )
 
-export const getContentCountsCached = unstable_cache(
+export const getContentCountsCached = withCacheFallback(
+  unstable_cache(
+    getContentCountsFromDB,
+    ['story-content-counts'],
+    { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['story-content'] },
+  ),
   getContentCountsFromDB,
-  ['story-content-counts'],
-  { revalidate: STORY_CACHE_TTL_SECONDS, tags: ['story-content'] },
+  CACHE_FALLBACK_TIMEOUT_MS,
+  'getContentCountsCached',
 )
