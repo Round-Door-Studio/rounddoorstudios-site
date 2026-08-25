@@ -1,0 +1,4515 @@
+{
+  "slug": "nuwa-mends-the-sky",
+  "vocab": [
+    {
+      "tier": "door",
+      "simp": {
+        "text": "手",
+        "pinyin": [
+          {
+            "text": "手",
+            "reading": "shǒu"
+          }
+        ]
+      },
+      "trad": {
+        "text": "手",
+        "zhuyin": [
+          {
+            "text": "手",
+            "reading": "ㄕㄡˇ"
+          }
+        ],
+        "bpmf": "手"
+      },
+      "en": "hand",
+      "example": {
+        "simp": {
+          "text": "她的手磨破了皮。",
+          "pinyin": [
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "手",
+              "reading": "shǒu"
+            },
+            {
+              "text": "磨",
+              "reading": "mó"
+            },
+            {
+              "text": "破",
+              "reading": "pò"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "皮",
+              "reading": "pí"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "她的手磨破了皮。",
+          "zhuyin": [
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "手",
+              "reading": "ㄕㄡˇ"
+            },
+            {
+              "text": "磨",
+              "reading": "ㄇㄛˊ"
+            },
+            {
+              "text": "破",
+              "reading": "ㄆㄛˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "皮",
+              "reading": "ㄆㄧˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "她的手磨破了皮。"
+        },
+        "en": "The skin on her hands was rubbed raw."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "山",
+        "pinyin": [
+          {
+            "text": "山",
+            "reading": "shān"
+          }
+        ]
+      },
+      "trad": {
+        "text": "山",
+        "zhuyin": [
+          {
+            "text": "山",
+            "reading": "ㄕㄢ"
+          }
+        ],
+        "bpmf": "山"
+      },
+      "en": "mountain",
+      "example": {
+        "simp": {
+          "text": "大家吓得往山上爬。",
+          "pinyin": [
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "家",
+              "reading": "jiā"
+            },
+            {
+              "text": "吓",
+              "reading": "xià"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "往",
+              "reading": "wǎng"
+            },
+            {
+              "text": "山",
+              "reading": "shān"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "爬",
+              "reading": "pá"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "大家嚇得往山上爬。",
+          "zhuyin": [
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "家",
+              "reading": "ㄐㄧㄚ"
+            },
+            {
+              "text": "嚇",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "往",
+              "reading": "ㄨㄤˇ"
+            },
+            {
+              "text": "山",
+              "reading": "ㄕㄢ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "爬",
+              "reading": "ㄆㄚˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "大家嚇得󠇡往山上爬。"
+        },
+        "en": "In their fright everyone scrambled up the mountain."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "洞",
+        "pinyin": [
+          {
+            "text": "洞",
+            "reading": "dòng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "洞",
+        "zhuyin": [
+          {
+            "text": "洞",
+            "reading": "ㄉㄨㄥˋ"
+          }
+        ],
+        "bpmf": "洞"
+      },
+      "en": "hole",
+      "example": {
+        "simp": {
+          "text": "天上破了一个非常大的洞。",
+          "pinyin": [
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "破",
+              "reading": "pò"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "非",
+              "reading": "fēi"
+            },
+            {
+              "text": "常",
+              "reading": "cháng"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "洞",
+              "reading": "dòng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "天上破了一個非常大的洞。",
+          "zhuyin": [
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "破",
+              "reading": "ㄆㄛˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "非",
+              "reading": "ㄈㄟ"
+            },
+            {
+              "text": "常",
+              "reading": "ㄔㄤˊ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "洞",
+              "reading": "ㄉㄨㄥˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "天上破了一󠇡個󠇡非常大的洞。"
+        },
+        "en": "A very large hole was torn open in the sky."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "石头",
+        "pinyin": [
+          {
+            "text": "石",
+            "reading": "shí"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          }
+        ]
+      },
+      "trad": {
+        "text": "石頭",
+        "zhuyin": [
+          {
+            "text": "石",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          }
+        ],
+        "bpmf": "石頭"
+      },
+      "en": "stone, rock",
+      "example": {
+        "simp": {
+          "text": "这些石头又大又重。",
+          "pinyin": [
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "些",
+              "reading": "xiē"
+            },
+            {
+              "text": "石",
+              "reading": "shí"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "重",
+              "reading": "zhòng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "這些石頭又大又重。",
+          "zhuyin": [
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "些",
+              "reading": "ㄒㄧㄝ"
+            },
+            {
+              "text": "石",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "重",
+              "reading": "ㄓㄨㄥˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "這些石頭又大又重。"
+        },
+        "en": "These stones were both big and heavy."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "天空",
+        "pinyin": [
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "空",
+            "reading": "kōng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "天空",
+        "zhuyin": [
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "空",
+            "reading": "ㄎㄨㄥ"
+          }
+        ],
+        "bpmf": "天空"
+      },
+      "en": "sky",
+      "example": {
+        "simp": {
+          "text": "天空变得又亮又干净。",
+          "pinyin": [
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "空",
+              "reading": "kōng"
+            },
+            {
+              "text": "变",
+              "reading": "biàn"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "干",
+              "reading": "gān"
+            },
+            {
+              "text": "净",
+              "reading": "jìng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "天空變得又亮又乾淨。",
+          "zhuyin": [
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "空",
+              "reading": "ㄎㄨㄥ"
+            },
+            {
+              "text": "變",
+              "reading": "ㄅㄧㄢˋ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "乾",
+              "reading": "ㄍㄢ"
+            },
+            {
+              "text": "淨",
+              "reading": "ㄐㄧㄥˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "天空變得󠇡又亮又乾淨。"
+        },
+        "en": "The sky turned bright and clean."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "太阳",
+        "pinyin": [
+          {
+            "text": "太",
+            "reading": "tài"
+          },
+          {
+            "text": "阳",
+            "reading": "yáng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "太陽",
+        "zhuyin": [
+          {
+            "text": "太",
+            "reading": "ㄊㄞˋ"
+          },
+          {
+            "text": "陽",
+            "reading": "ㄧㄤˊ"
+          }
+        ],
+        "bpmf": "太陽"
+      },
+      "en": "sun",
+      "example": {
+        "simp": {
+          "text": "太阳从天边露出脸来。",
+          "pinyin": [
+            {
+              "text": "太",
+              "reading": "tài"
+            },
+            {
+              "text": "阳",
+              "reading": "yáng"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "边",
+              "reading": "biān"
+            },
+            {
+              "text": "露",
+              "reading": "lù"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "脸",
+              "reading": "liǎn"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "太陽從天邊露出臉來。",
+          "zhuyin": [
+            {
+              "text": "太",
+              "reading": "ㄊㄞˋ"
+            },
+            {
+              "text": "陽",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "邊",
+              "reading": "ㄅㄧㄢ"
+            },
+            {
+              "text": "露",
+              "reading": "ㄌㄨˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "臉",
+              "reading": "ㄌㄧㄢˇ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "太陽從天邊露出臉來。"
+        },
+        "en": "The sun showed its face from the edge of the sky."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "房子",
+        "pinyin": [
+          {
+            "text": "房",
+            "reading": "fáng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "房子",
+        "zhuyin": [
+          {
+            "text": "房",
+            "reading": "ㄈㄤˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          }
+        ],
+        "bpmf": "房子󠇡"
+      },
+      "en": "house",
+      "example": {
+        "simp": {
+          "text": "火烧著人们的房子。",
+          "pinyin": [
+            {
+              "text": "火",
+              "reading": "huǒ"
+            },
+            {
+              "text": "烧",
+              "reading": "shāo"
+            },
+            {
+              "text": "著",
+              "reading": "zhe"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "们",
+              "reading": "men"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "房",
+              "reading": "fáng"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "火燒著人們的房子。",
+          "zhuyin": [
+            {
+              "text": "火",
+              "reading": "ㄏㄨㄛˇ"
+            },
+            {
+              "text": "燒",
+              "reading": "ㄕㄠ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "們",
+              "reading": "ㄇㄣ˙"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "房",
+              "reading": "ㄈㄤˊ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "火燒著人們的房子󠇡。"
+        },
+        "en": "The fire burned the people's houses."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "大海",
+        "pinyin": [
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "海",
+            "reading": "hǎi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "大海",
+        "zhuyin": [
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "海",
+            "reading": "ㄏㄞˇ"
+          }
+        ],
+        "bpmf": "大海"
+      },
+      "en": "sea, ocean",
+      "example": {
+        "simp": {
+          "text": "人们住的地方，变成了一片大海。",
+          "pinyin": [
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "们",
+              "reading": "men"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "方",
+              "reading": "fāng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "变",
+              "reading": "biàn"
+            },
+            {
+              "text": "成",
+              "reading": "chéng"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "片",
+              "reading": "piàn"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "人們住的地方，變成了一片大海。",
+          "zhuyin": [
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "們",
+              "reading": "ㄇㄣ˙"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "方",
+              "reading": "ㄈㄤ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "變",
+              "reading": "ㄅㄧㄢˋ"
+            },
+            {
+              "text": "成",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "片",
+              "reading": "ㄆㄧㄢˋ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "人們住的地方，變成了一󠇡片大海。"
+        },
+        "en": "The place where the people lived turned into an open sea."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "眼泪",
+        "pinyin": [
+          {
+            "text": "眼",
+            "reading": "yǎn"
+          },
+          {
+            "text": "泪",
+            "reading": "lèi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "眼淚",
+        "zhuyin": [
+          {
+            "text": "眼",
+            "reading": "ㄧㄢˇ"
+          },
+          {
+            "text": "淚",
+            "reading": "ㄌㄟˋ"
+          }
+        ],
+        "bpmf": "眼淚"
+      },
+      "en": "tears",
+      "example": {
+        "simp": {
+          "text": "女娲擦干眼泪，来到黄河边。",
+          "pinyin": [
+            {
+              "text": "女",
+              "reading": "nǚ"
+            },
+            {
+              "text": "娲",
+              "reading": "wā"
+            },
+            {
+              "text": "擦",
+              "reading": "cā"
+            },
+            {
+              "text": "干",
+              "reading": "gān"
+            },
+            {
+              "text": "眼",
+              "reading": "yǎn"
+            },
+            {
+              "text": "泪",
+              "reading": "lèi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "黄",
+              "reading": "huáng"
+            },
+            {
+              "text": "河",
+              "reading": "hé"
+            },
+            {
+              "text": "边",
+              "reading": "biān"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "女媧擦乾眼淚，來到黃河邊。",
+          "zhuyin": [
+            {
+              "text": "女",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "text": "媧",
+              "reading": "ㄨㄚ"
+            },
+            {
+              "text": "擦",
+              "reading": "ㄘㄚ"
+            },
+            {
+              "text": "乾",
+              "reading": "ㄍㄢ"
+            },
+            {
+              "text": "眼",
+              "reading": "ㄧㄢˇ"
+            },
+            {
+              "text": "淚",
+              "reading": "ㄌㄟˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "黃",
+              "reading": "ㄏㄨㄤˊ"
+            },
+            {
+              "text": "河",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "邊",
+              "reading": "ㄅㄧㄢ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "女媧擦乾眼淚，來到黃河邊。"
+        },
+        "en": "Nuwa dried her tears and came to the bank of the Yellow River."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "柱子",
+        "pinyin": [
+          {
+            "text": "柱",
+            "reading": "zhù"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          }
+        ]
+      },
+      "trad": {
+        "text": "柱子",
+        "zhuyin": [
+          {
+            "text": "柱",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          }
+        ],
+        "bpmf": "柱子󠇡"
+      },
+      "en": "pillar, column",
+      "example": {
+        "simp": {
+          "text": "它是撑住天空的一根大柱子。",
+          "pinyin": [
+            {
+              "text": "它",
+              "reading": "tā"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "撑",
+              "reading": "chēng"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "空",
+              "reading": "kōng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "根",
+              "reading": "gēn"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "柱",
+              "reading": "zhù"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "它是撐住天空的一根大柱子。",
+          "zhuyin": [
+            {
+              "text": "它",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "撐",
+              "reading": "ㄔㄥ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "空",
+              "reading": "ㄎㄨㄥ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "根",
+              "reading": "ㄍㄣ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "柱",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "它是撐住天空的一󠇢根大柱子󠇡。"
+        },
+        "en": "It was the one great pillar that held up the sky."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "颜色",
+        "pinyin": [
+          {
+            "text": "颜",
+            "reading": "yán"
+          },
+          {
+            "text": "色",
+            "reading": "sè"
+          }
+        ]
+      },
+      "trad": {
+        "text": "顏色",
+        "zhuyin": [
+          {
+            "text": "顏",
+            "reading": "ㄧㄢˊ"
+          },
+          {
+            "text": "色",
+            "reading": "ㄙㄜˋ"
+          }
+        ],
+        "bpmf": "顏色"
+      },
+      "en": "color",
+      "example": {
+        "simp": {
+          "text": "她从河里挑出不同颜色的石头。",
+          "pinyin": [
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "河",
+              "reading": "hé"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "挑",
+              "reading": "tiāo"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "同",
+              "reading": "tóng"
+            },
+            {
+              "text": "颜",
+              "reading": "yán"
+            },
+            {
+              "text": "色",
+              "reading": "sè"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "石",
+              "reading": "shí"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "她從河裡挑出不同顏色的石頭。",
+          "zhuyin": [
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "河",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "挑",
+              "reading": "ㄊㄧㄠ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "同",
+              "reading": "ㄊㄨㄥˊ"
+            },
+            {
+              "text": "顏",
+              "reading": "ㄧㄢˊ"
+            },
+            {
+              "text": "色",
+              "reading": "ㄙㄜˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "石",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "她從河裡挑󠇡出不同顏色的石頭。"
+        },
+        "en": "She picked stones of different colors out of the river."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "彩虹",
+        "pinyin": [
+          {
+            "text": "彩",
+            "reading": "cǎi"
+          },
+          {
+            "text": "虹",
+            "reading": "hóng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "彩虹",
+        "zhuyin": [
+          {
+            "text": "彩",
+            "reading": "ㄘㄞˇ"
+          },
+          {
+            "text": "虹",
+            "reading": "ㄏㄨㄥˊ"
+          }
+        ],
+        "bpmf": "彩虹"
+      },
+      "en": "rainbow",
+      "example": {
+        "simp": {
+          "text": "天空出现了一道有不同颜色的彩虹。",
+          "pinyin": [
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "空",
+              "reading": "kōng"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "现",
+              "reading": "xiàn"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "道",
+              "reading": "dào"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "同",
+              "reading": "tóng"
+            },
+            {
+              "text": "颜",
+              "reading": "yán"
+            },
+            {
+              "text": "色",
+              "reading": "sè"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "彩",
+              "reading": "cǎi"
+            },
+            {
+              "text": "虹",
+              "reading": "hóng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "天空出現了一道有不同顏色的彩虹。",
+          "zhuyin": [
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "空",
+              "reading": "ㄎㄨㄥ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "現",
+              "reading": "ㄒㄧㄢˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "道",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "同",
+              "reading": "ㄊㄨㄥˊ"
+            },
+            {
+              "text": "顏",
+              "reading": "ㄧㄢˊ"
+            },
+            {
+              "text": "色",
+              "reading": "ㄙㄜˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "彩",
+              "reading": "ㄘㄞˇ"
+            },
+            {
+              "text": "虹",
+              "reading": "ㄏㄨㄥˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "天空出現了一󠇡道有不同顏色的彩虹。"
+        },
+        "en": "A rainbow of many colors appeared in the sky."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "乌云",
+        "pinyin": [
+          {
+            "text": "乌",
+            "reading": "wū"
+          },
+          {
+            "text": "云",
+            "reading": "yún"
+          }
+        ]
+      },
+      "trad": {
+        "text": "烏雲",
+        "zhuyin": [
+          {
+            "text": "烏",
+            "reading": "ㄨ"
+          },
+          {
+            "text": "雲",
+            "reading": "ㄩㄣˊ"
+          }
+        ],
+        "bpmf": "烏雲"
+      },
+      "en": "dark clouds, storm clouds",
+      "example": {
+        "simp": {
+          "text": "乌云散开了，大雨也停了。",
+          "pinyin": [
+            {
+              "text": "乌",
+              "reading": "wū"
+            },
+            {
+              "text": "云",
+              "reading": "yún"
+            },
+            {
+              "text": "散",
+              "reading": "sàn"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "雨",
+              "reading": "yǔ"
+            },
+            {
+              "text": "也",
+              "reading": "yě"
+            },
+            {
+              "text": "停",
+              "reading": "tíng"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "烏雲散開了，大雨也停了。",
+          "zhuyin": [
+            {
+              "text": "烏",
+              "reading": "ㄨ"
+            },
+            {
+              "text": "雲",
+              "reading": "ㄩㄣˊ"
+            },
+            {
+              "text": "散",
+              "reading": "ㄙㄢˋ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "雨",
+              "reading": "ㄩˇ"
+            },
+            {
+              "text": "也",
+              "reading": "ㄧㄝˇ"
+            },
+            {
+              "text": "停",
+              "reading": "ㄊㄧㄥˊ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "烏雲散開了，大雨也停了。"
+        },
+        "en": "The dark clouds broke apart and the heavy rain stopped."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "云朵",
+        "pinyin": [
+          {
+            "text": "云",
+            "reading": "yún"
+          },
+          {
+            "text": "朵",
+            "reading": "duǒ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "雲朵",
+        "zhuyin": [
+          {
+            "text": "雲",
+            "reading": "ㄩㄣˊ"
+          },
+          {
+            "text": "朵",
+            "reading": "ㄉㄨㄛˇ"
+          }
+        ],
+        "bpmf": "雲朵"
+      },
+      "en": "clouds",
+      "example": {
+        "simp": {
+          "text": "天空又飘著白白的云朵。",
+          "pinyin": [
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "空",
+              "reading": "kōng"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "飘",
+              "reading": "piāo"
+            },
+            {
+              "text": "著",
+              "reading": "zhe"
+            },
+            {
+              "text": "白",
+              "reading": "bái"
+            },
+            {
+              "text": "白",
+              "reading": "bái"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "云",
+              "reading": "yún"
+            },
+            {
+              "text": "朵",
+              "reading": "duǒ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "天空又飄著白白的雲朵。",
+          "zhuyin": [
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "空",
+              "reading": "ㄎㄨㄥ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "飄",
+              "reading": "ㄆㄧㄠ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "白",
+              "reading": "ㄅㄞˊ"
+            },
+            {
+              "text": "白",
+              "reading": "ㄅㄞˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "雲",
+              "reading": "ㄩㄣˊ"
+            },
+            {
+              "text": "朵",
+              "reading": "ㄉㄨㄛˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "天空又飄著白白的雲朵。"
+        },
+        "en": "White clouds drifted across the sky once more."
+      }
+    },
+    {
+      "tier": "door",
+      "simp": {
+        "text": "火炉",
+        "pinyin": [
+          {
+            "text": "火",
+            "reading": "huǒ"
+          },
+          {
+            "text": "炉",
+            "reading": "lú"
+          }
+        ]
+      },
+      "trad": {
+        "text": "火爐",
+        "zhuyin": [
+          {
+            "text": "火",
+            "reading": "ㄏㄨㄛˇ"
+          },
+          {
+            "text": "爐",
+            "reading": "ㄌㄨˊ"
+          }
+        ],
+        "bpmf": "火爐"
+      },
+      "en": "furnace, stove",
+      "example": {
+        "simp": {
+          "text": "最后，她把石头放进火炉里。",
+          "pinyin": [
+            {
+              "text": "最",
+              "reading": "zuì"
+            },
+            {
+              "text": "后",
+              "reading": "hòu"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "石",
+              "reading": "shí"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "放",
+              "reading": "fàng"
+            },
+            {
+              "text": "进",
+              "reading": "jìn"
+            },
+            {
+              "text": "火",
+              "reading": "huǒ"
+            },
+            {
+              "text": "炉",
+              "reading": "lú"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "最後，她把石頭放進火爐裡。",
+          "zhuyin": [
+            {
+              "text": "最",
+              "reading": "ㄗㄨㄟˋ"
+            },
+            {
+              "text": "後",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "石",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "放",
+              "reading": "ㄈㄤˋ"
+            },
+            {
+              "text": "進",
+              "reading": "ㄐㄧㄣˋ"
+            },
+            {
+              "text": "火",
+              "reading": "ㄏㄨㄛˇ"
+            },
+            {
+              "text": "爐",
+              "reading": "ㄌㄨˊ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "最後，她把石頭放進火爐裡。"
+        },
+        "en": "At last she put the stones into the furnace."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "女娲补天",
+        "pinyin": [
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "补",
+            "reading": "bǔ"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          }
+        ]
+      },
+      "trad": {
+        "text": "女媧補天",
+        "zhuyin": [
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "補",
+            "reading": "ㄅㄨˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          }
+        ],
+        "bpmf": "女媧補天"
+      },
+      "en": "Nuwa mends the sky: the goddess Nuwa patches a broken sky to save her people, used for a brave act that repairs a disaster for everyone",
+      "example": {
+        "simp": {
+          "text": "下雨后出现的彩虹，是女娲补天留下的痕迹。",
+          "pinyin": [
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "雨",
+              "reading": "yǔ"
+            },
+            {
+              "text": "后",
+              "reading": "hòu"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "现",
+              "reading": "xiàn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "彩",
+              "reading": "cǎi"
+            },
+            {
+              "text": "虹",
+              "reading": "hóng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "女",
+              "reading": "nǚ"
+            },
+            {
+              "text": "娲",
+              "reading": "wā"
+            },
+            {
+              "text": "补",
+              "reading": "bǔ"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "留",
+              "reading": "liú"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "痕",
+              "reading": "hén"
+            },
+            {
+              "text": "迹",
+              "reading": "jī"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "下雨後出現的彩虹，是女媧補天留下的痕跡。",
+          "zhuyin": [
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "雨",
+              "reading": "ㄩˇ"
+            },
+            {
+              "text": "後",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "現",
+              "reading": "ㄒㄧㄢˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "彩",
+              "reading": "ㄘㄞˇ"
+            },
+            {
+              "text": "虹",
+              "reading": "ㄏㄨㄥˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "女",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "text": "媧",
+              "reading": "ㄨㄚ"
+            },
+            {
+              "text": "補",
+              "reading": "ㄅㄨˇ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "留",
+              "reading": "ㄌㄧㄡˊ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "痕",
+              "reading": "ㄏㄣˊ"
+            },
+            {
+              "text": "跡",
+              "reading": "ㄐㄧ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "下雨後出現的彩虹，是女媧補天留下的痕跡。"
+        },
+        "en": "The rainbow that appears after the rain is the mark Nuwa left behind when she mended the sky."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "五彩石",
+        "pinyin": [
+          {
+            "text": "五",
+            "reading": "wǔ"
+          },
+          {
+            "text": "彩",
+            "reading": "cǎi"
+          },
+          {
+            "text": "石",
+            "reading": "shí"
+          }
+        ]
+      },
+      "trad": {
+        "text": "五彩石",
+        "zhuyin": [
+          {
+            "text": "五",
+            "reading": "ㄨˇ"
+          },
+          {
+            "text": "彩",
+            "reading": "ㄘㄞˇ"
+          },
+          {
+            "text": "石",
+            "reading": "ㄕˊ"
+          }
+        ],
+        "bpmf": "五彩石"
+      },
+      "en": "five-colored stones: the red, yellow, blue and green stones Nuwa melts down into liquid to patch the hole in the sky",
+      "example": {
+        "simp": {
+          "text": "五彩石慢慢融化，变成了亮晶晶的石浆。",
+          "pinyin": [
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "彩",
+              "reading": "cǎi"
+            },
+            {
+              "text": "石",
+              "reading": "shí"
+            },
+            {
+              "text": "慢",
+              "reading": "màn"
+            },
+            {
+              "text": "慢",
+              "reading": "màn"
+            },
+            {
+              "text": "融",
+              "reading": "róng"
+            },
+            {
+              "text": "化",
+              "reading": "huà"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "变",
+              "reading": "biàn"
+            },
+            {
+              "text": "成",
+              "reading": "chéng"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "晶",
+              "reading": "jīng"
+            },
+            {
+              "text": "晶",
+              "reading": "jīng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "石",
+              "reading": "shí"
+            },
+            {
+              "text": "浆",
+              "reading": "jiāng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "五彩石慢慢融化，變成了亮晶晶的石漿。",
+          "zhuyin": [
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "彩",
+              "reading": "ㄘㄞˇ"
+            },
+            {
+              "text": "石",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "慢",
+              "reading": "ㄇㄢˋ"
+            },
+            {
+              "text": "慢",
+              "reading": "ㄇㄢˋ"
+            },
+            {
+              "text": "融",
+              "reading": "ㄖㄨㄥˊ"
+            },
+            {
+              "text": "化",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "變",
+              "reading": "ㄅㄧㄢˋ"
+            },
+            {
+              "text": "成",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "晶",
+              "reading": "ㄐㄧㄥ"
+            },
+            {
+              "text": "晶",
+              "reading": "ㄐㄧㄥ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "石",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "漿",
+              "reading": "ㄐㄧㄤ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "五彩石慢慢融化，變成了亮晶晶的石漿。"
+        },
+        "en": "The five-colored stones melted slowly and turned into a bright, glittering liquid stone."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "力气",
+        "pinyin": [
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          }
+        ]
+      },
+      "trad": {
+        "text": "力氣",
+        "zhuyin": [
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          }
+        ],
+        "bpmf": "力氣"
+      },
+      "en": "physical strength",
+      "example": {
+        "simp": {
+          "text": "天上住著两位力气很大的神。",
+          "pinyin": [
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "著",
+              "reading": "zhe"
+            },
+            {
+              "text": "两",
+              "reading": "liǎng"
+            },
+            {
+              "text": "位",
+              "reading": "wèi"
+            },
+            {
+              "text": "力",
+              "reading": "lì"
+            },
+            {
+              "text": "气",
+              "reading": "qì"
+            },
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "神",
+              "reading": "shén"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "天上住著兩位力氣很大的神。",
+          "zhuyin": [
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "兩",
+              "reading": "ㄌㄧㄤˇ"
+            },
+            {
+              "text": "位",
+              "reading": "ㄨㄟˋ"
+            },
+            {
+              "text": "力",
+              "reading": "ㄌㄧˋ"
+            },
+            {
+              "text": "氣",
+              "reading": "ㄑㄧˋ"
+            },
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "神",
+              "reading": "ㄕㄣˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "天上住著兩位力氣很大的神。"
+        },
+        "en": "Two gods of great strength lived up in the heavens."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "终于",
+        "pinyin": [
+          {
+            "text": "终",
+            "reading": "zhōng"
+          },
+          {
+            "text": "于",
+            "reading": "yú"
+          }
+        ]
+      },
+      "trad": {
+        "text": "終於",
+        "zhuyin": [
+          {
+            "text": "終",
+            "reading": "ㄓㄨㄥ"
+          },
+          {
+            "text": "於",
+            "reading": "ㄩˊ"
+          }
+        ],
+        "bpmf": "終於"
+      },
+      "en": "finally, at last",
+      "example": {
+        "simp": {
+          "text": "到了第九天，天终于补好了！",
+          "pinyin": [
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "第",
+              "reading": "dì"
+            },
+            {
+              "text": "九",
+              "reading": "jiǔ"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "终",
+              "reading": "zhōng"
+            },
+            {
+              "text": "于",
+              "reading": "yú"
+            },
+            {
+              "text": "补",
+              "reading": "bǔ"
+            },
+            {
+              "text": "好",
+              "reading": "hǎo"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "！",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "到了第九天，天終於補好了！",
+          "zhuyin": [
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "第",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "九",
+              "reading": "ㄐㄧㄡˇ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "終",
+              "reading": "ㄓㄨㄥ"
+            },
+            {
+              "text": "於",
+              "reading": "ㄩˊ"
+            },
+            {
+              "text": "補",
+              "reading": "ㄅㄨˇ"
+            },
+            {
+              "text": "好",
+              "reading": "ㄏㄠˇ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "！",
+              "reading": ""
+            }
+          ],
+          "bpmf": "到了第九天，天終於補好了！"
+        },
+        "en": "On the ninth day, the sky was finally mended!"
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "安全",
+        "pinyin": [
+          {
+            "text": "安",
+            "reading": "ān"
+          },
+          {
+            "text": "全",
+            "reading": "quán"
+          }
+        ]
+      },
+      "trad": {
+        "text": "安全",
+        "zhuyin": [
+          {
+            "text": "安",
+            "reading": "ㄢ"
+          },
+          {
+            "text": "全",
+            "reading": "ㄑㄩㄢˊ"
+          }
+        ],
+        "bpmf": "安全"
+      },
+      "en": "safe, safety",
+      "example": {
+        "simp": {
+          "text": "他们找不到一个安全的地方可以躲。",
+          "pinyin": [
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "们",
+              "reading": "men"
+            },
+            {
+              "text": "找",
+              "reading": "zhǎo"
+            },
+            {
+              "text": "不",
+              "reading": "bú"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "安",
+              "reading": "ān"
+            },
+            {
+              "text": "全",
+              "reading": "quán"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "方",
+              "reading": "fāng"
+            },
+            {
+              "text": "可",
+              "reading": "kě"
+            },
+            {
+              "text": "以",
+              "reading": "yǐ"
+            },
+            {
+              "text": "躲",
+              "reading": "duǒ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "他們找不到一個安全的地方可以躲。",
+          "zhuyin": [
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "們",
+              "reading": "ㄇㄣ˙"
+            },
+            {
+              "text": "找",
+              "reading": "ㄓㄠˇ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˊ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "安",
+              "reading": "ㄢ"
+            },
+            {
+              "text": "全",
+              "reading": "ㄑㄩㄢˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "方",
+              "reading": "ㄈㄤ"
+            },
+            {
+              "text": "可",
+              "reading": "ㄎㄜˇ"
+            },
+            {
+              "text": "以",
+              "reading": "ㄧˇ"
+            },
+            {
+              "text": "躲",
+              "reading": "ㄉㄨㄛˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "他們找不󠇡到一󠇡個󠇡安全的地方可以躲。"
+        },
+        "en": "They could not find a single safe place to hide."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "永远",
+        "pinyin": [
+          {
+            "text": "永",
+            "reading": "yǒng"
+          },
+          {
+            "text": "远",
+            "reading": "yuǎn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "永遠",
+        "zhuyin": [
+          {
+            "text": "永",
+            "reading": "ㄩㄥˇ"
+          },
+          {
+            "text": "遠",
+            "reading": "ㄩㄢˇ"
+          }
+        ],
+        "bpmf": "永遠"
+      },
+      "en": "forever, always",
+      "example": {
+        "simp": {
+          "text": "后来，人们永远记得。",
+          "pinyin": [
+            {
+              "text": "后",
+              "reading": "hòu"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "们",
+              "reading": "men"
+            },
+            {
+              "text": "永",
+              "reading": "yǒng"
+            },
+            {
+              "text": "远",
+              "reading": "yuǎn"
+            },
+            {
+              "text": "记",
+              "reading": "jì"
+            },
+            {
+              "text": "得",
+              "reading": "de"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "後來，人們永遠記得。",
+          "zhuyin": [
+            {
+              "text": "後",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "們",
+              "reading": "ㄇㄣ˙"
+            },
+            {
+              "text": "永",
+              "reading": "ㄩㄥˇ"
+            },
+            {
+              "text": "遠",
+              "reading": "ㄩㄢˇ"
+            },
+            {
+              "text": "記",
+              "reading": "ㄐㄧˋ"
+            },
+            {
+              "text": "得",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "後來，人們永遠記得󠇡。"
+        },
+        "en": "Ever after, the people remembered."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "勇敢",
+        "pinyin": [
+          {
+            "text": "勇",
+            "reading": "yǒng"
+          },
+          {
+            "text": "敢",
+            "reading": "gǎn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "勇敢",
+        "zhuyin": [
+          {
+            "text": "勇",
+            "reading": "ㄩㄥˇ"
+          },
+          {
+            "text": "敢",
+            "reading": "ㄍㄢˇ"
+          }
+        ],
+        "bpmf": "勇敢"
+      },
+      "en": "brave, courageous",
+      "example": {
+        "simp": {
+          "text": "这位勇敢又慈祥的母亲，又忙著处理地上的洪水。",
+          "pinyin": [
+            {
+              "text": "这",
+              "reading": "zhè"
+            },
+            {
+              "text": "位",
+              "reading": "wèi"
+            },
+            {
+              "text": "勇",
+              "reading": "yǒng"
+            },
+            {
+              "text": "敢",
+              "reading": "gǎn"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "慈",
+              "reading": "cí"
+            },
+            {
+              "text": "祥",
+              "reading": "xiáng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "母",
+              "reading": "mǔ"
+            },
+            {
+              "text": "亲",
+              "reading": "qīn"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "忙",
+              "reading": "máng"
+            },
+            {
+              "text": "著",
+              "reading": "zhe"
+            },
+            {
+              "text": "处",
+              "reading": "chǔ"
+            },
+            {
+              "text": "理",
+              "reading": "lǐ"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "洪",
+              "reading": "hóng"
+            },
+            {
+              "text": "水",
+              "reading": "shuǐ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "這位勇敢又慈祥的母親，又忙著處理地上的洪水。",
+          "zhuyin": [
+            {
+              "text": "這",
+              "reading": "ㄓㄜˋ"
+            },
+            {
+              "text": "位",
+              "reading": "ㄨㄟˋ"
+            },
+            {
+              "text": "勇",
+              "reading": "ㄩㄥˇ"
+            },
+            {
+              "text": "敢",
+              "reading": "ㄍㄢˇ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "慈",
+              "reading": "ㄘˊ"
+            },
+            {
+              "text": "祥",
+              "reading": "ㄒㄧㄤˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "母",
+              "reading": "ㄇㄨˇ"
+            },
+            {
+              "text": "親",
+              "reading": "ㄑㄧㄣ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "忙",
+              "reading": "ㄇㄤˊ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "處",
+              "reading": "ㄔㄨˇ"
+            },
+            {
+              "text": "理",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "洪",
+              "reading": "ㄏㄨㄥˊ"
+            },
+            {
+              "text": "水",
+              "reading": "ㄕㄨㄟˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "這位勇敢又慈祥的母親，又忙著處理地上的洪水。"
+        },
+        "en": "This brave and kindly mother then set to work on the floodwater covering the land."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "脾气",
+        "pinyin": [
+          {
+            "text": "脾",
+            "reading": "pí"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          }
+        ]
+      },
+      "trad": {
+        "text": "脾氣",
+        "zhuyin": [
+          {
+            "text": "脾",
+            "reading": "ㄆㄧˊ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          }
+        ],
+        "bpmf": "脾氣"
+      },
+      "en": "temper, disposition",
+      "example": {
+        "simp": {
+          "text": "河里的水就会跟著他的脾气翻滚。",
+          "pinyin": [
+            {
+              "text": "河",
+              "reading": "hé"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "水",
+              "reading": "shuǐ"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "会",
+              "reading": "huì"
+            },
+            {
+              "text": "跟",
+              "reading": "gēn"
+            },
+            {
+              "text": "著",
+              "reading": "zhe"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "脾",
+              "reading": "pí"
+            },
+            {
+              "text": "气",
+              "reading": "qì"
+            },
+            {
+              "text": "翻",
+              "reading": "fān"
+            },
+            {
+              "text": "滚",
+              "reading": "gǔn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "河裡的水就會跟著他的脾氣翻滾。",
+          "zhuyin": [
+            {
+              "text": "河",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "水",
+              "reading": "ㄕㄨㄟˇ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "會",
+              "reading": "ㄏㄨㄟˋ"
+            },
+            {
+              "text": "跟",
+              "reading": "ㄍㄣ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "脾",
+              "reading": "ㄆㄧˊ"
+            },
+            {
+              "text": "氣",
+              "reading": "ㄑㄧˋ"
+            },
+            {
+              "text": "翻",
+              "reading": "ㄈㄢ"
+            },
+            {
+              "text": "滾",
+              "reading": "ㄍㄨㄣˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "河裡的水就會跟著他的脾氣翻滾。"
+        },
+        "en": "The water in the rivers would churn along with his temper."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "难过",
+        "pinyin": [
+          {
+            "text": "难",
+            "reading": "nán"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          }
+        ]
+      },
+      "trad": {
+        "text": "難過",
+        "zhuyin": [
+          {
+            "text": "難",
+            "reading": "ㄋㄢˊ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          }
+        ],
+        "bpmf": "難過"
+      },
+      "en": "sad, heartbroken",
+      "example": {
+        "simp": {
+          "text": "她的心很难过。",
+          "pinyin": [
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "很",
+              "reading": "hěn"
+            },
+            {
+              "text": "难",
+              "reading": "nán"
+            },
+            {
+              "text": "过",
+              "reading": "guò"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "她的心很難過。",
+          "zhuyin": [
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "很",
+              "reading": "ㄏㄣˇ"
+            },
+            {
+              "text": "難",
+              "reading": "ㄋㄢˊ"
+            },
+            {
+              "text": "過",
+              "reading": "ㄍㄨㄛˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "她的心很難過。"
+        },
+        "en": "Her heart ached with sorrow."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "创造",
+        "pinyin": [
+          {
+            "text": "创",
+            "reading": "chuàng"
+          },
+          {
+            "text": "造",
+            "reading": "zào"
+          }
+        ]
+      },
+      "trad": {
+        "text": "創造",
+        "zhuyin": [
+          {
+            "text": "創",
+            "reading": "ㄔㄨㄤˋ"
+          },
+          {
+            "text": "造",
+            "reading": "ㄗㄠˋ"
+          }
+        ],
+        "bpmf": "創造"
+      },
+      "en": "to create, to make",
+      "example": {
+        "simp": {
+          "text": "女娲创造的人们在大地上住了下来。",
+          "pinyin": [
+            {
+              "text": "女",
+              "reading": "nǚ"
+            },
+            {
+              "text": "娲",
+              "reading": "wā"
+            },
+            {
+              "text": "创",
+              "reading": "chuàng"
+            },
+            {
+              "text": "造",
+              "reading": "zào"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "们",
+              "reading": "men"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "女媧創造的人們在大地上住了下來。",
+          "zhuyin": [
+            {
+              "text": "女",
+              "reading": "ㄋㄩˇ"
+            },
+            {
+              "text": "媧",
+              "reading": "ㄨㄚ"
+            },
+            {
+              "text": "創",
+              "reading": "ㄔㄨㄤˋ"
+            },
+            {
+              "text": "造",
+              "reading": "ㄗㄠˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "們",
+              "reading": "ㄇㄣ˙"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "女媧創造的人們在大地上住了下來。"
+        },
+        "en": "The people Nuwa created settled down on the earth."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "洪水",
+        "pinyin": [
+          {
+            "text": "洪",
+            "reading": "hóng"
+          },
+          {
+            "text": "水",
+            "reading": "shuǐ"
+          }
+        ]
+      },
+      "trad": {
+        "text": "洪水",
+        "zhuyin": [
+          {
+            "text": "洪",
+            "reading": "ㄏㄨㄥˊ"
+          },
+          {
+            "text": "水",
+            "reading": "ㄕㄨㄟˇ"
+          }
+        ],
+        "bpmf": "洪水"
+      },
+      "en": "flood, floodwater",
+      "example": {
+        "simp": {
+          "text": "她一把一把地把灰撒进洪水里。",
+          "pinyin": [
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "灰",
+              "reading": "huī"
+            },
+            {
+              "text": "撒",
+              "reading": "sǎ"
+            },
+            {
+              "text": "进",
+              "reading": "jìn"
+            },
+            {
+              "text": "洪",
+              "reading": "hóng"
+            },
+            {
+              "text": "水",
+              "reading": "shuǐ"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "她一把一把地把灰撒進洪水裡。",
+          "zhuyin": [
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "灰",
+              "reading": "ㄏㄨㄟ"
+            },
+            {
+              "text": "撒",
+              "reading": "ㄙㄚˇ"
+            },
+            {
+              "text": "進",
+              "reading": "ㄐㄧㄣˋ"
+            },
+            {
+              "text": "洪",
+              "reading": "ㄏㄨㄥˊ"
+            },
+            {
+              "text": "水",
+              "reading": "ㄕㄨㄟˇ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "她一󠇢把一󠇢把地󠇡把灰撒進洪水裡。"
+        },
+        "en": "Handful by handful she scattered the ash into the floodwater."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "裂缝",
+        "pinyin": [
+          {
+            "text": "裂",
+            "reading": "liè"
+          },
+          {
+            "text": "缝",
+            "reading": "fèng"
+          }
+        ]
+      },
+      "trad": {
+        "text": "裂縫",
+        "zhuyin": [
+          {
+            "text": "裂",
+            "reading": "ㄌㄧㄝˋ"
+          },
+          {
+            "text": "縫",
+            "reading": "ㄈㄥˋ"
+          }
+        ],
+        "bpmf": "裂縫󠇡"
+      },
+      "en": "crack, split, fissure",
+      "example": {
+        "simp": {
+          "text": "大地也被震出许多裂缝。",
+          "pinyin": [
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "地",
+              "reading": "dì"
+            },
+            {
+              "text": "也",
+              "reading": "yě"
+            },
+            {
+              "text": "被",
+              "reading": "bèi"
+            },
+            {
+              "text": "震",
+              "reading": "zhèn"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "许",
+              "reading": "xǔ"
+            },
+            {
+              "text": "多",
+              "reading": "duō"
+            },
+            {
+              "text": "裂",
+              "reading": "liè"
+            },
+            {
+              "text": "缝",
+              "reading": "fèng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "大地也被震出許多裂縫。",
+          "zhuyin": [
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄧˋ"
+            },
+            {
+              "text": "也",
+              "reading": "ㄧㄝˇ"
+            },
+            {
+              "text": "被",
+              "reading": "ㄅㄟˋ"
+            },
+            {
+              "text": "震",
+              "reading": "ㄓㄣˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "許",
+              "reading": "ㄒㄩˇ"
+            },
+            {
+              "text": "多",
+              "reading": "ㄉㄨㄛ"
+            },
+            {
+              "text": "裂",
+              "reading": "ㄌㄧㄝˋ"
+            },
+            {
+              "text": "縫",
+              "reading": "ㄈㄥˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "大地也被震出許多裂縫󠇡。"
+        },
+        "en": "The earth was shaken until many cracks opened across it."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "撑住",
+        "pinyin": [
+          {
+            "text": "撑",
+            "reading": "chēng"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          }
+        ]
+      },
+      "trad": {
+        "text": "撐住",
+        "zhuyin": [
+          {
+            "text": "撐",
+            "reading": "ㄔㄥ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          }
+        ],
+        "bpmf": "撐住"
+      },
+      "en": "to prop up, to hold up",
+      "example": {
+        "simp": {
+          "text": "四只脚把天空稳稳地撑住了。",
+          "pinyin": [
+            {
+              "text": "四",
+              "reading": "sì"
+            },
+            {
+              "text": "只",
+              "reading": "zhī"
+            },
+            {
+              "text": "脚",
+              "reading": "jiǎo"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "空",
+              "reading": "kōng"
+            },
+            {
+              "text": "稳",
+              "reading": "wěn"
+            },
+            {
+              "text": "稳",
+              "reading": "wěn"
+            },
+            {
+              "text": "地",
+              "reading": "de"
+            },
+            {
+              "text": "撑",
+              "reading": "chēng"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "四隻腳把天空穩穩地撐住了。",
+          "zhuyin": [
+            {
+              "text": "四",
+              "reading": "ㄙˋ"
+            },
+            {
+              "text": "隻",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "腳",
+              "reading": "ㄐㄧㄠˇ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "空",
+              "reading": "ㄎㄨㄥ"
+            },
+            {
+              "text": "穩",
+              "reading": "ㄨㄣˇ"
+            },
+            {
+              "text": "穩",
+              "reading": "ㄨㄣˇ"
+            },
+            {
+              "text": "地",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "撐",
+              "reading": "ㄔㄥ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "四隻腳把天空穩穩地󠇡撐住了。"
+        },
+        "en": "The four legs held the sky up firm and steady."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "融化",
+        "pinyin": [
+          {
+            "text": "融",
+            "reading": "róng"
+          },
+          {
+            "text": "化",
+            "reading": "huà"
+          }
+        ]
+      },
+      "trad": {
+        "text": "融化",
+        "zhuyin": [
+          {
+            "text": "融",
+            "reading": "ㄖㄨㄥˊ"
+          },
+          {
+            "text": "化",
+            "reading": "ㄏㄨㄚˋ"
+          }
+        ],
+        "bpmf": "融化"
+      },
+      "en": "to melt, to dissolve",
+      "example": {
+        "simp": {
+          "text": "火炉越烧越旺，五彩石慢慢融化。",
+          "pinyin": [
+            {
+              "text": "火",
+              "reading": "huǒ"
+            },
+            {
+              "text": "炉",
+              "reading": "lú"
+            },
+            {
+              "text": "越",
+              "reading": "yuè"
+            },
+            {
+              "text": "烧",
+              "reading": "shāo"
+            },
+            {
+              "text": "越",
+              "reading": "yuè"
+            },
+            {
+              "text": "旺",
+              "reading": "wàng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "彩",
+              "reading": "cǎi"
+            },
+            {
+              "text": "石",
+              "reading": "shí"
+            },
+            {
+              "text": "慢",
+              "reading": "màn"
+            },
+            {
+              "text": "慢",
+              "reading": "màn"
+            },
+            {
+              "text": "融",
+              "reading": "róng"
+            },
+            {
+              "text": "化",
+              "reading": "huà"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "火爐越燒越旺，五彩石慢慢融化。",
+          "zhuyin": [
+            {
+              "text": "火",
+              "reading": "ㄏㄨㄛˇ"
+            },
+            {
+              "text": "爐",
+              "reading": "ㄌㄨˊ"
+            },
+            {
+              "text": "越",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "燒",
+              "reading": "ㄕㄠ"
+            },
+            {
+              "text": "越",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "旺",
+              "reading": "ㄨㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "彩",
+              "reading": "ㄘㄞˇ"
+            },
+            {
+              "text": "石",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "慢",
+              "reading": "ㄇㄢˋ"
+            },
+            {
+              "text": "慢",
+              "reading": "ㄇㄢˋ"
+            },
+            {
+              "text": "融",
+              "reading": "ㄖㄨㄥˊ"
+            },
+            {
+              "text": "化",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "火爐越燒越旺，五彩石慢慢融化。"
+        },
+        "en": "The furnace burned hotter and hotter, and the five-colored stones slowly melted."
+      }
+    },
+    {
+      "tier": "beyond",
+      "simp": {
+        "text": "灾难",
+        "pinyin": [
+          {
+            "text": "灾",
+            "reading": "zāi"
+          },
+          {
+            "text": "难",
+            "reading": "nàn"
+          }
+        ]
+      },
+      "trad": {
+        "text": "災難",
+        "zhuyin": [
+          {
+            "text": "災",
+            "reading": "ㄗㄞ"
+          },
+          {
+            "text": "難",
+            "reading": "ㄋㄢˋ"
+          }
+        ],
+        "bpmf": "災難󠇡"
+      },
+      "en": "disaster, catastrophe",
+      "example": {
+        "simp": {
+          "text": "她把人们一次又一次从灾难中救了回来。",
+          "pinyin": [
+            {
+              "text": "她",
+              "reading": "tā"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "们",
+              "reading": "men"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "次",
+              "reading": "cì"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "次",
+              "reading": "cì"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "灾",
+              "reading": "zāi"
+            },
+            {
+              "text": "难",
+              "reading": "nàn"
+            },
+            {
+              "text": "中",
+              "reading": "zhōng"
+            },
+            {
+              "text": "救",
+              "reading": "jiù"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "回",
+              "reading": "huí"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "她把人們一次又一次從災難中救了回來。",
+          "zhuyin": [
+            {
+              "text": "她",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "們",
+              "reading": "ㄇㄣ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "次",
+              "reading": "ㄘˋ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "次",
+              "reading": "ㄘˋ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "災",
+              "reading": "ㄗㄞ"
+            },
+            {
+              "text": "難",
+              "reading": "ㄋㄢˋ"
+            },
+            {
+              "text": "中",
+              "reading": "ㄓㄨㄥ"
+            },
+            {
+              "text": "救",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "回",
+              "reading": "ㄏㄨㄟˊ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "她把人們一󠇡次又一󠇡次從災難󠇡中救了回來。"
+        },
+        "en": "Again and again she brought the people back safely out of disaster."
+      }
+    }
+  ]
+}
