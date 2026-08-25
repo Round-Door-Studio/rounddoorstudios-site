@@ -30,17 +30,46 @@ const AUTH_DIR  = 'tests/e2e/.auth';
  * cache-concurrency-caveat memory, and the recurring gating.spec.ts:94 hang on
  * shard 1/3). Warming here single-threaded removes the "cold + concurrent"
  * precondition instead of just papering over the symptom with longer timeouts.
+ *
+ * This is a best-effort optimization, not a hard requirement — every step below
+ * is individually bounded and failures are swallowed. A manually-created context
+ * like this one doesn't inherit playwright.config.ts's `use.actionTimeout`, so
+ * without explicit timeouts a single stuck request would fall back to
+ * Playwright's 30s default and, worse, an uncaught throw here would abort
+ * globalSetup entirely — turning "one test flakes" into "zero tests run for
+ * this shard". We also skip `waitForLoadState('networkidle')`: `page.goto`'s
+ * default 'load' wait already guarantees the SSR response (and therefore the
+ * cache population) completed, and trailing image/font requests can keep the
+ * network non-idle long after the cache is already warm.
  */
 async function warmStoryCaches(page: Page, baseURL: string): Promise<void> {
-  await page.goto(baseURL);
-  await page.waitForLoadState('networkidle');
+  const WARMUP_TIMEOUT_MS = 20_000;
 
-  const slugs = await getReleasedStorySlugs(page);
-  for (const slug of slugs) {
-    await page.goto(`${baseURL}/story/${slug}`);
-    await page.waitForLoadState('networkidle');
+  try {
+    await page.goto(baseURL, { timeout: WARMUP_TIMEOUT_MS });
+  } catch (err) {
+    console.warn('[auth setup] Cache warmup: homepage request timed out, skipping story warmup:', (err as Error).message);
+    return;
   }
-  console.log(`[auth setup] Warmed story cache for ${slugs.length} released stor${slugs.length === 1 ? 'y' : 'ies'}`);
+
+  let slugs: string[] = [];
+  try {
+    slugs = await getReleasedStorySlugs(page);
+  } catch (err) {
+    console.warn('[auth setup] Cache warmup: could not list released story slugs, skipping story warmup:', (err as Error).message);
+    return;
+  }
+
+  let warmed = 0;
+  for (const slug of slugs) {
+    try {
+      await page.goto(`${baseURL}/story/${slug}`, { timeout: WARMUP_TIMEOUT_MS });
+      warmed++;
+    } catch (err) {
+      console.warn(`[auth setup] Cache warmup: /story/${slug} timed out, skipping:`, (err as Error).message);
+    }
+  }
+  console.log(`[auth setup] Warmed story cache for ${warmed}/${slugs.length} released stories`);
 }
 
 export default async function globalSetup(config: FullConfig) {
@@ -59,7 +88,13 @@ export default async function globalSetup(config: FullConfig) {
         extraHTTPHeaders: { 'x-vercel-protection-bypass': bypassSecret },
       } : {}),
     });
-    await warmStoryCaches(await warmupContext.newPage(), baseURL);
+    try {
+      await warmStoryCaches(await warmupContext.newPage(), baseURL);
+    } catch (err) {
+      // Belt-and-suspenders: warmStoryCaches already catches its own steps, but
+      // this must never be allowed to abort globalSetup regardless.
+      console.warn('[auth setup] Cache warmup pass failed, continuing without it:', (err as Error).message);
+    }
     await warmupContext.close();
 
     const email    = process.env.TEST_USER_EMAIL;
