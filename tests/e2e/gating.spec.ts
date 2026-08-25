@@ -98,7 +98,11 @@ test('every released story (except story 1) shows locked cards when logged out',
 
   for (const slug of gatedSlugs) {
     await page.goto(`/story/${slug}`);
-    await page.waitForLoadState('networkidle');
+    // No waitForLoadState('networkidle') here — this is the one spot that kept
+    // hanging in CI (see cache-concurrency-caveat memory / recurring shard 1
+    // flakiness). It's also redundant: the toBeVisible() below already
+    // auto-waits for the real signal we care about, so networkidle was only
+    // ever adding an unbounded, unrelated failure mode on top.
     await expect(
       page.locator('.locked-cards'),
       `Expected .locked-cards on /story/${slug}`
