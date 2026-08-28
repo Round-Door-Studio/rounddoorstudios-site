@@ -246,11 +246,12 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
 
-  /* ── Season 2 ── */
+   /* ── Season 2 ── */
   {
     num: 13, slug: 'hou-yi-shoots-nine-suns', season: 2, released: false, part: 1, parts: 2,
     title: { en: "Legend of the Mid-Autumn Festival P1: Hou Yi Shoots Nine Suns", simp: '中秋节传说 P1：后羿射日', trad: '中秋節傳說 P1：后羿射日' },
-    blurb: '', runtime: '', pub: '', coverColor: '#9B4761', coverImage: '/img/covers/story-covers-s2_SQ-1.png',
+    blurb: 'When ten suns refuse to come down, heaven sends its finest archer with a red bow and one strict instruction.',
+    runtime: '10-12 min', pub: 'Sep 16, 2026', coverColor: '#9B4761', coverImage: '/img/covers/story-covers-s2_SQ-1.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -260,7 +261,8 @@ export const STORIES: Story[] = [
   {
     num: 14, slug: 'changer-flies-to-the-moon', season: 2, released: false, part: 2, parts: 2,
     title: { en: "Legend of the Mid-Autumn Festival P2: Chang'er Flies to the Moon", simp: '中秋节传说 P2：嫦娥奔月', trad: '中秋節傳說 P2：嫦娥奔月' },
-    blurb: '', runtime: '', pub: '', coverColor: '#7B324A', coverImage: '/img/covers/story-covers-s2_SQ-2.png',
+    blurb: 'Why do we look up at the moon and eat mooncakes every Mid-Autumn Festival? The answer begins with a pill and a promise.',
+    runtime: '11 min', pub: 'Sep 23, 2026', coverColor: '#7B324A', coverImage: '/img/covers/story-covers-s2_SQ-2.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -270,7 +272,8 @@ export const STORIES: Story[] = [
   {
     num: 15, slug: 'marriage-of-the-mouses-daughter', season: 2, released: false,
     title: { en: "The Marriage of the Mouse's Daughter", simp: '老鼠嫁女儿', trad: '老鼠嫁女兒' },
-    blurb: '', runtime: '', pub: '', coverColor: '#436641', coverImage: '/img/covers/story-covers-s2_SQ-3.png',
+    blurb: 'Who is the greatest in all the world? A tiny mouse is determined to find the mightiest husband for his daughter.',
+    runtime: '13-14 min', pub: 'Sep 30, 2026', coverColor: '#436641', coverImage: '/img/covers/story-covers-s2_SQ-3.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -280,7 +283,8 @@ export const STORIES: Story[] = [
   {
     num: 16, slug: 'stealing-a-bell-with-covered-ears', season: 2, released: false,
     title: { en: 'Stealing a Bell with Covered Ears', simp: '掩耳盗铃', trad: '掩耳盜鈴' },
-    blurb: '', runtime: '', pub: '', coverColor: '#8B7355', coverImage: '/img/covers/story-covers-s2_SQ-4.png',
+    blurb: 'A young man wants the beautiful doorbell for himself, and he is certain no one has ever thought of a cleverer plan to steal it.',
+    runtime: '9-10 min', pub: 'Oct 7, 2026', coverColor: '#8B7355', coverImage: '/img/covers/story-covers-s2_SQ-4.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -290,7 +294,8 @@ export const STORIES: Story[] = [
   {
     num: 17, slug: 'bed-of-a-hundred-birds', season: 2, released: false,
     title: { en: 'The Bed of a Hundred Birds', simp: '百鸟床', trad: '百鳥床' },
-    blurb: '', runtime: '', pub: '', coverColor: '#43447F', coverImage: '/img/covers/story-covers-s2_SQ-5.png',
+    blurb: 'One small kindness on a mountain path, and every bird in the sky comes to repay it.',
+    runtime: '12-14 min', pub: 'Oct 14, 2026', coverColor: '#43447F', coverImage: '/img/covers/story-covers-s2_SQ-5.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -300,7 +305,8 @@ export const STORIES: Story[] = [
   {
     num: 18, slug: 'blind-men-and-the-elephant', season: 2, released: false,
     title: { en: 'The Blind Men and the Elephant', simp: '盲人摸象', trad: '盲人摸象' },
-    blurb: '', runtime: '', pub: '', coverColor: '#5C8358', coverImage: '/img/covers/story-covers-s2_SQ-6.png',
+    blurb: 'Five friends reach out to touch an elephant, and come away with five very different answers.',
+    runtime: '10-11 min', pub: 'Oct 21, 2026', coverColor: '#5C8358', coverImage: '/img/covers/story-covers-s2_SQ-6.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -310,7 +316,8 @@ export const STORIES: Story[] = [
   {
     num: 19, slug: 'auntie-tiger', season: 2, released: false,
     title: { en: 'Auntie Tiger', simp: '虎姑婆', trad: '虎姑婆' },
-    blurb: '', runtime: '', pub: '', coverColor: '#5B5C9D', coverImage: '/img/covers/story-covers-s2_SQ-7.png',
+    blurb: 'Never open the door after dark. A folktale about the night when two sisters did.',
+    runtime: '15-17 min', pub: 'Oct 28, 2026', coverColor: '#5B5C9D', coverImage: '/img/covers/story-covers-s2_SQ-7.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -320,7 +327,8 @@ export const STORIES: Story[] = [
   {
     num: 20, slug: 'legend-of-lady-meng-jiangnu', season: 2, released: false,
     title: { en: 'Legend of Lady Meng Jiangnu', simp: '孟姜女传说', trad: '孟姜女傳說' },
-    blurb: '', runtime: '', pub: '', coverColor: '#C4994F', coverImage: '/img/covers/story-covers-s2_SQ-8.png',
+    blurb: "The Great Wall built by thousands of men came crashing down because of one woman's tears and longing.",
+    runtime: '13-14 min', pub: 'Nov 4, 2026', coverColor: '#C4994F', coverImage: '/img/covers/story-covers-s2_SQ-8.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -330,7 +338,8 @@ export const STORIES: Story[] = [
   {
     num: 21, slug: 'ah-qiao-and-the-silkworms', season: 2, released: false,
     title: { en: 'Ah Qiao and the Silkworms', simp: '阿巧养蚕', trad: '阿巧養蠶' },
-    blurb: '', runtime: '', pub: '', coverColor: '#A8513A', coverImage: '/img/covers/story-covers-s2_SQ-9.png',
+    blurb: 'How did the first silkworms come down to the human world? A nine-year-old girl carried them home.',
+    runtime: '12 min', pub: 'Nov 11, 2026', coverColor: '#A8513A', coverImage: '/img/covers/story-covers-s2_SQ-9.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -340,7 +349,8 @@ export const STORIES: Story[] = [
   {
     num: 22, slug: 'silkworm-goddess', season: 2, released: false,
     title: { en: 'The Silkworm Goddess', simp: '蚕花娘娘', trad: '蠶花娘娘' },
-    blurb: '', runtime: '', pub: '', coverColor: '#9B4761', coverImage: '/img/covers/story-covers-s2_SQ-10.png',
+    blurb: 'A lonely girl makes a promise to her white horse, never thinking he might hold her to it.',
+    runtime: '10-11 min', pub: 'Nov 18, 2026', coverColor: '#9B4761', coverImage: '/img/covers/story-covers-s2_SQ-10.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -350,7 +360,8 @@ export const STORIES: Story[] = [
   {
     num: 23, slug: 'nuwa-creates-people', season: 2, released: false, part: 1, parts: 2,
     title: { en: 'The Story of Nüwa P1: Nüwa Creates People', simp: '女娲故事 P1：女娲造人', trad: '女媧故事 P1：女媧造人' },
-    blurb: '', runtime: '', pub: '', coverColor: '#7B324A', coverImage: '/img/covers/story-covers-s2_SQ-11.png',
+    blurb: 'The world is new and beautiful, and still one goddess cannot shake the feeling that something is missing. A Chinese mythology about the creation of people.',
+    runtime: '10 min', pub: 'Nov 25, 2026', coverColor: '#7B324A', coverImage: '/img/covers/story-covers-s2_SQ-11.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
@@ -360,7 +371,8 @@ export const STORIES: Story[] = [
   {
     num: 24, slug: 'nuwa-mends-the-sky', season: 2, released: false, part: 2, parts: 2,
     title: { en: 'The Story of Nüwa P2: Nüwa Mends the Sky', simp: '女娲故事 P2：女娲补天', trad: '女媧故事 P2：女媧補天' },
-    blurb: '', runtime: '', pub: '', coverColor: '#436641', coverImage: '/img/covers/story-covers-s2_SQ-12.png',
+    blurb: 'One goddess on a mission to fix the hole in the sky to save her children.',
+    runtime: '9-10 min', pub: 'Dec 2, 2026', coverColor: '#436641', coverImage: '/img/covers/story-covers-s2_SQ-12.png',
     audio: {
       en: { spotify: '', youtube: '', apple: '' },
       zh: { spotify: '', youtube: '', apple: '' },
