@@ -1,0 +1,5768 @@
+{
+  "slug": "bed-of-a-hundred-birds",
+  "title": {
+    "trad": "百鳥床",
+    "simp": "百鸟床",
+    "en": "The Bed of a Hundred Birds"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "老木匠一共做过多少张床？他自己家里，妈妈睡的是什么样的床？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "共",
+            "reading": "gòng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "少",
+            "reading": "shǎo"
+          },
+          {
+            "text": "张",
+            "reading": "zhāng"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "睡",
+            "reading": "shuì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老木匠一共做過多少張床？他自己家裡，媽媽睡的是什麼樣的床？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "共",
+            "reading": "ㄍㄨㄥˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "少",
+            "reading": "ㄕㄠˇ"
+          },
+          {
+            "text": "張",
+            "reading": "ㄓㄤ"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "睡",
+            "reading": "ㄕㄨㄟˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老木匠一󠇡共做過多少張床？他自己家裡，媽媽睡的是什麼樣的床？"
+      },
+      "en": "How many beds had the old carpenter made in all, and what kind of bed was his own mother sleeping on at home?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "老木匠心里一直藏着一个愿望，那个愿望是什么？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "藏",
+            "reading": "cáng"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "愿",
+            "reading": "yuàn"
+          },
+          {
+            "text": "望",
+            "reading": "wàng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "愿",
+            "reading": "yuàn"
+          },
+          {
+            "text": "望",
+            "reading": "wàng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老木匠心裡一直藏著一個願望，那個願望是什麼？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "藏",
+            "reading": "ㄘㄤˊ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "願",
+            "reading": "ㄩㄢˋ"
+          },
+          {
+            "text": "望",
+            "reading": "ㄨㄤˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "願",
+            "reading": "ㄩㄢˋ"
+          },
+          {
+            "text": "望",
+            "reading": "ㄨㄤˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老木匠心裡一󠇢直藏著一󠇡個󠇡願望，那個󠇡願望是什麼？"
+      },
+      "en": "The old carpenter had held one wish deep down for a long time. What was it?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "村口的老人家说，南山上有什么？用它做出来的床有多好？",
+        "pinyin": [
+          {
+            "text": "村",
+            "reading": "cūn"
+          },
+          {
+            "text": "口",
+            "reading": "kǒu"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "南",
+            "reading": "nán"
+          },
+          {
+            "text": "山",
+            "reading": "shān"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "它",
+            "reading": "tā"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "村口的老人家說，南山上有什麼？用它做出來的床有多好？",
+        "zhuyin": [
+          {
+            "text": "村",
+            "reading": "ㄘㄨㄣ"
+          },
+          {
+            "text": "口",
+            "reading": "ㄎㄡˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "南",
+            "reading": "ㄋㄢˊ"
+          },
+          {
+            "text": "山",
+            "reading": "ㄕㄢ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "它",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "村口的老人家說，南山上有什麼？用它做出來的床有多好？"
+      },
+      "en": "What did the old man at the edge of the village say was up on South Mountain, and how good was a bed made from it?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "老鹰扑向小凤凰的时候，老木匠做了什么？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "鹰",
+            "reading": "yīng"
+          },
+          {
+            "text": "扑",
+            "reading": "pū"
+          },
+          {
+            "text": "向",
+            "reading": "xiàng"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "凤",
+            "reading": "fèng"
+          },
+          {
+            "text": "凰",
+            "reading": "huáng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老鷹撲向小鳳凰的時候，老木匠做了什麼？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "鷹",
+            "reading": "ㄧㄥ"
+          },
+          {
+            "text": "撲",
+            "reading": "ㄆㄨ"
+          },
+          {
+            "text": "向",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "鳳",
+            "reading": "ㄈㄥˋ"
+          },
+          {
+            "text": "凰",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老鷹撲向小鳳凰的時候，老木匠做了什麼？"
+      },
+      "en": "What did the old carpenter do when the eagle dove at the little phoenix?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "小凤凰飞走以前，答应老木匠什么事？",
+        "pinyin": [
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "凤",
+            "reading": "fèng"
+          },
+          {
+            "text": "凰",
+            "reading": "huáng"
+          },
+          {
+            "text": "飞",
+            "reading": "fēi"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "前",
+            "reading": "qián"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "答",
+            "reading": "dā"
+          },
+          {
+            "text": "应",
+            "reading": "yìng"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "小鳳凰飛走以前，答應老木匠什麼事？",
+        "zhuyin": [
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "鳳",
+            "reading": "ㄈㄥˋ"
+          },
+          {
+            "text": "凰",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "飛",
+            "reading": "ㄈㄟ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "前",
+            "reading": "ㄑㄧㄢˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "答",
+            "reading": "ㄉㄚ"
+          },
+          {
+            "text": "應",
+            "reading": "ㄧㄥˋ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "小鳳凰飛走以前，答󠇡應󠇡老木匠什麼事？"
+      },
+      "en": "What did the little phoenix promise the old carpenter before it flew away?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "一大群山蚊子围上来的时候，是哪一种鸟把蚊子吃得干干净净？",
+        "pinyin": [
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "群",
+            "reading": "qún"
+          },
+          {
+            "text": "山",
+            "reading": "shān"
+          },
+          {
+            "text": "蚊",
+            "reading": "wén"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "围",
+            "reading": "wéi"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "种",
+            "reading": "zhǒng"
+          },
+          {
+            "text": "鸟",
+            "reading": "niǎo"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "蚊",
+            "reading": "wén"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "吃",
+            "reading": "chī"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "干",
+            "reading": "gān"
+          },
+          {
+            "text": "干",
+            "reading": "gān"
+          },
+          {
+            "text": "净",
+            "reading": "jìng"
+          },
+          {
+            "text": "净",
+            "reading": "jìng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "一大群山蚊子圍上來的時候，是哪一種鳥把蚊子吃得乾乾淨淨？",
+        "zhuyin": [
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "群",
+            "reading": "ㄑㄩㄣˊ"
+          },
+          {
+            "text": "山",
+            "reading": "ㄕㄢ"
+          },
+          {
+            "text": "蚊",
+            "reading": "ㄨㄣˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "圍",
+            "reading": "ㄨㄟˊ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "種",
+            "reading": "ㄓㄨㄥˇ"
+          },
+          {
+            "text": "鳥",
+            "reading": "ㄋㄧㄠˇ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "蚊",
+            "reading": "ㄨㄣˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "吃",
+            "reading": "ㄔ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "乾",
+            "reading": "ㄍㄢ"
+          },
+          {
+            "text": "乾",
+            "reading": "ㄍㄢ"
+          },
+          {
+            "text": "淨",
+            "reading": "ㄐㄧㄥˋ"
+          },
+          {
+            "text": "淨",
+            "reading": "ㄐㄧㄥˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "一󠇡大群山蚊子󠇡圍上來的時候，是哪一󠇢種鳥把蚊子󠇡吃得󠇡乾乾淨淨？"
+      },
+      "en": "When the swarm of mountain mosquitoes closed in, which kind of bird ate every last one of them?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "老虎跳出来的时候，天上飞来的小鸟用什么方法把它赶走？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "跳",
+            "reading": "tiào"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "飞",
+            "reading": "fēi"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "鸟",
+            "reading": "niǎo"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "它",
+            "reading": "tā"
+          },
+          {
+            "text": "赶",
+            "reading": "gǎn"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老虎跳出來的時候，天上飛來的小鳥用什麼方法把牠趕走？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "跳",
+            "reading": "ㄊㄧㄠˋ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "飛",
+            "reading": "ㄈㄟ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "鳥",
+            "reading": "ㄋㄧㄠˇ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "牠",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "趕",
+            "reading": "ㄍㄢˇ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老虎跳出來的時候，天上飛來的小鳥用什麼方法把牠趕走？"
+      },
+      "en": "When the tiger burst out, how did the little birds from the sky drive it away?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "在又高又密的大森林里，是哪一种鸟替老木匠带路？",
+        "pinyin": [
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "又",
+            "reading": "yòu"
+          },
+          {
+            "text": "高",
+            "reading": "gāo"
+          },
+          {
+            "text": "又",
+            "reading": "yòu"
+          },
+          {
+            "text": "密",
+            "reading": "mì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "森",
+            "reading": "sēn"
+          },
+          {
+            "text": "林",
+            "reading": "lín"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "种",
+            "reading": "zhǒng"
+          },
+          {
+            "text": "鸟",
+            "reading": "niǎo"
+          },
+          {
+            "text": "替",
+            "reading": "tì"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "带",
+            "reading": "dài"
+          },
+          {
+            "text": "路",
+            "reading": "lù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "在又高又密的大森林裡，是哪一種鳥替老木匠帶路？",
+        "zhuyin": [
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "又",
+            "reading": "ㄧㄡˋ"
+          },
+          {
+            "text": "高",
+            "reading": "ㄍㄠ"
+          },
+          {
+            "text": "又",
+            "reading": "ㄧㄡˋ"
+          },
+          {
+            "text": "密",
+            "reading": "ㄇㄧˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "森",
+            "reading": "ㄙㄣ"
+          },
+          {
+            "text": "林",
+            "reading": "ㄌㄧㄣˊ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "種",
+            "reading": "ㄓㄨㄥˇ"
+          },
+          {
+            "text": "鳥",
+            "reading": "ㄋㄧㄠˇ"
+          },
+          {
+            "text": "替",
+            "reading": "ㄊㄧˋ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "帶",
+            "reading": "ㄉㄞˋ"
+          },
+          {
+            "text": "路",
+            "reading": "ㄌㄨˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "在又高又密的大森林裡，是哪一󠇢種鳥替老木匠帶路？"
+      },
+      "en": "In the tall, dense forest, which kind of bird showed the old carpenter the way?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "老木匠还没动手，是谁先把宝树的树干弄断了？宝树后来怎么回到他家门口？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "手",
+            "reading": "shǒu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "先",
+            "reading": "xiān"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "宝",
+            "reading": "bǎo"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "干",
+            "reading": "gàn"
+          },
+          {
+            "text": "弄",
+            "reading": "nòng"
+          },
+          {
+            "text": "断",
+            "reading": "duàn"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "宝",
+            "reading": "bǎo"
+          },
+          {
+            "text": "树",
+            "reading": "shù"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "回",
+            "reading": "huí"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "门",
+            "reading": "mén"
+          },
+          {
+            "text": "口",
+            "reading": "kǒu"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老木匠還沒動手，是誰先把寶樹的樹幹弄斷了？寶樹後來怎麼回到他家門口？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "手",
+            "reading": "ㄕㄡˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "先",
+            "reading": "ㄒㄧㄢ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "寶",
+            "reading": "ㄅㄠˇ"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "幹",
+            "reading": "ㄍㄢˋ"
+          },
+          {
+            "text": "弄",
+            "reading": "ㄋㄨㄥˋ"
+          },
+          {
+            "text": "斷",
+            "reading": "ㄉㄨㄢˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "寶",
+            "reading": "ㄅㄠˇ"
+          },
+          {
+            "text": "樹",
+            "reading": "ㄕㄨˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "回",
+            "reading": "ㄏㄨㄟˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "門",
+            "reading": "ㄇㄣˊ"
+          },
+          {
+            "text": "口",
+            "reading": "ㄎㄡˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老木匠還沒動手，是誰先把寶樹的樹幹弄斷了？寶樹後來怎麼回到他家門口？"
+      },
+      "en": "Before the carpenter could swing his axe, who broke through the treasure tree's trunk first, and how did the tree get back to his front door?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "老木匠为什么把这张床叫做「百鸟床」？他一共刻了多少天？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "张",
+            "reading": "zhāng"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "叫",
+            "reading": "jiào"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "百",
+            "reading": "bǎi"
+          },
+          {
+            "text": "鸟",
+            "reading": "niǎo"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "共",
+            "reading": "gòng"
+          },
+          {
+            "text": "刻",
+            "reading": "kè"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "少",
+            "reading": "shǎo"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老木匠為什麼把這張床叫做「百鳥床」？他一共刻了多少天？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "張",
+            "reading": "ㄓㄤ"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "叫",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "百",
+            "reading": "ㄅㄞˇ"
+          },
+          {
+            "text": "鳥",
+            "reading": "ㄋㄧㄠˇ"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "共",
+            "reading": "ㄍㄨㄥˋ"
+          },
+          {
+            "text": "刻",
+            "reading": "ㄎㄜˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "少",
+            "reading": "ㄕㄠˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老木匠為󠇡什麼把這張床叫做「百鳥床」？他一󠇡共刻了多少天？"
+      },
+      "en": "Why did the old carpenter name this bed the Bed of a Hundred Birds, and how many days did he spend carving it?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "老木匠做了九百九十九张床给别人，却没有替妈妈做过一张。你觉得为什么会这样？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "九",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "百",
+            "reading": "bǎi"
+          },
+          {
+            "text": "九",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "十",
+            "reading": "shí"
+          },
+          {
+            "text": "九",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "张",
+            "reading": "zhāng"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "替",
+            "reading": "tì"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "张",
+            "reading": "zhāng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老木匠做了九百九十九張床給別人，卻沒有替媽媽做過一張。你覺得為什麼會這樣？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "九",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "百",
+            "reading": "ㄅㄞˇ"
+          },
+          {
+            "text": "九",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "十",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "九",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "張",
+            "reading": "ㄓㄤ"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "替",
+            "reading": "ㄊㄧˋ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "張",
+            "reading": "ㄓㄤ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老木匠做了九百九十九張床給別人，卻沒有替媽媽做過一󠇢張。你覺得󠇡為󠇡什麼會這樣？"
+      },
+      "en": "The old carpenter made nine hundred and ninety-nine beds for other people, but never one for his mother. Why do you think that happened?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "老木匠救小凤凰的时候，并不知道以后会有鸟来帮他。你觉得他为什么还是出手了？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "救",
+            "reading": "jiù"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "凤",
+            "reading": "fèng"
+          },
+          {
+            "text": "凰",
+            "reading": "huáng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "并",
+            "reading": "bìng"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "知",
+            "reading": "zhī"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "鸟",
+            "reading": "niǎo"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "帮",
+            "reading": "bāng"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "手",
+            "reading": "shǒu"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老木匠救小鳳凰的時候，並不知道以後會有鳥來幫他。你覺得他為什麼還是出手了？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "救",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "鳳",
+            "reading": "ㄈㄥˋ"
+          },
+          {
+            "text": "凰",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "並",
+            "reading": "ㄅㄧㄥˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "知",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "鳥",
+            "reading": "ㄋㄧㄠˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "幫",
+            "reading": "ㄅㄤ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "手",
+            "reading": "ㄕㄡˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老木匠救小鳳凰的時候，並不知道以後會有鳥來幫他。你覺得󠇡他為󠇡什麼還是出手了？"
+      },
+      "en": "When the carpenter saved the little phoenix, he had no idea birds would help him later. Why do you think he stepped in anyway?"
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "一路上，燕子替他赶蚊子，小鸟替他赶老虎，喜鹊替他带路。你觉得这些帮忙是运气，还是他自己换来的？",
+        "pinyin": [
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "路",
+            "reading": "lù"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "燕",
+            "reading": "yàn"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "替",
+            "reading": "tì"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "赶",
+            "reading": "gǎn"
+          },
+          {
+            "text": "蚊",
+            "reading": "wén"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "鸟",
+            "reading": "niǎo"
+          },
+          {
+            "text": "替",
+            "reading": "tì"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "赶",
+            "reading": "gǎn"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "喜",
+            "reading": "xǐ"
+          },
+          {
+            "text": "鹊",
+            "reading": "què"
+          },
+          {
+            "text": "替",
+            "reading": "tì"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "带",
+            "reading": "dài"
+          },
+          {
+            "text": "路",
+            "reading": "lù"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "些",
+            "reading": "xiē"
+          },
+          {
+            "text": "帮",
+            "reading": "bāng"
+          },
+          {
+            "text": "忙",
+            "reading": "máng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "运",
+            "reading": "yùn"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "换",
+            "reading": "huàn"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "一路上，燕子替他趕蚊子，小鳥替他趕老虎，喜鵲替他帶路。你覺得這些幫忙是運氣，還是他自己換來的？",
+        "zhuyin": [
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "路",
+            "reading": "ㄌㄨˋ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "燕",
+            "reading": "ㄧㄢˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "替",
+            "reading": "ㄊㄧˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "趕",
+            "reading": "ㄍㄢˇ"
+          },
+          {
+            "text": "蚊",
+            "reading": "ㄨㄣˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "鳥",
+            "reading": "ㄋㄧㄠˇ"
+          },
+          {
+            "text": "替",
+            "reading": "ㄊㄧˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "趕",
+            "reading": "ㄍㄢˇ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "喜",
+            "reading": "ㄒㄧˇ"
+          },
+          {
+            "text": "鵲",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "替",
+            "reading": "ㄊㄧˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "帶",
+            "reading": "ㄉㄞˋ"
+          },
+          {
+            "text": "路",
+            "reading": "ㄌㄨˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "些",
+            "reading": "ㄒㄧㄝ"
+          },
+          {
+            "text": "幫",
+            "reading": "ㄅㄤ"
+          },
+          {
+            "text": "忙",
+            "reading": "ㄇㄤˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "運",
+            "reading": "ㄩㄣˋ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "換",
+            "reading": "ㄏㄨㄢˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "一󠇡路上，燕子󠇡替他趕蚊子󠇡，小鳥替他趕老虎，喜鵲替他帶路。你覺得󠇡這些幫忙是運氣，還是他自己換來的？"
+      },
+      "en": "Along the way the swallows chased off the mosquitoes, the little birds chased off the tiger, and the magpie led him through the forest. Was all that help luck, or something he had earned?"
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "床做好以后，村里村外的人都跑来躺一躺。如果是你，你会把百鸟床留给妈妈一个人睡，还是让大家轮流睡？",
+        "pinyin": [
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "村",
+            "reading": "cūn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "村",
+            "reading": "cūn"
+          },
+          {
+            "text": "外",
+            "reading": "wài"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "跑",
+            "reading": "pǎo"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "躺",
+            "reading": "tǎng"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "躺",
+            "reading": "tǎng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "百",
+            "reading": "bǎi"
+          },
+          {
+            "text": "鸟",
+            "reading": "niǎo"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "留",
+            "reading": "liú"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "睡",
+            "reading": "shuì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "轮",
+            "reading": "lún"
+          },
+          {
+            "text": "流",
+            "reading": "liú"
+          },
+          {
+            "text": "睡",
+            "reading": "shuì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "床做好以後，村裡村外的人都跑來躺一躺。如果是你，你會把百鳥床留給媽媽一個人睡，還是讓大家輪流睡？",
+        "zhuyin": [
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "村",
+            "reading": "ㄘㄨㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "村",
+            "reading": "ㄘㄨㄣ"
+          },
+          {
+            "text": "外",
+            "reading": "ㄨㄞˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "跑",
+            "reading": "ㄆㄠˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "躺",
+            "reading": "ㄊㄤˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "躺",
+            "reading": "ㄊㄤˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "百",
+            "reading": "ㄅㄞˇ"
+          },
+          {
+            "text": "鳥",
+            "reading": "ㄋㄧㄠˇ"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "留",
+            "reading": "ㄌㄧㄡˊ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "睡",
+            "reading": "ㄕㄨㄟˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "輪",
+            "reading": "ㄌㄨㄣˊ"
+          },
+          {
+            "text": "流",
+            "reading": "ㄌㄧㄡˊ"
+          },
+          {
+            "text": "睡",
+            "reading": "ㄕㄨㄟˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "床做好以後，村裡村外的人都跑來躺一󠇢躺。如果是你，你會把百鳥床留給媽媽一󠇡個󠇡人睡，還是讓大家輪流睡？"
+      },
+      "en": "Once the bed was finished, people from all around came to lie on it. If it were up to you, would you keep the Bed of a Hundred Birds for your mother alone, or let everyone take turns?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "老木匠刻坏了就重来，刻累了就揉一揉手，整整刻了九百九十九天。你觉得是什么让他一直刻下去？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "刻",
+            "reading": "kè"
+          },
+          {
+            "text": "坏",
+            "reading": "huài"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "重",
+            "reading": "chóng"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "刻",
+            "reading": "kè"
+          },
+          {
+            "text": "累",
+            "reading": "lèi"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "揉",
+            "reading": "róu"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "揉",
+            "reading": "róu"
+          },
+          {
+            "text": "手",
+            "reading": "shǒu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "整",
+            "reading": "zhěng"
+          },
+          {
+            "text": "整",
+            "reading": "zhěng"
+          },
+          {
+            "text": "刻",
+            "reading": "kè"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "九",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "百",
+            "reading": "bǎi"
+          },
+          {
+            "text": "九",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "十",
+            "reading": "shí"
+          },
+          {
+            "text": "九",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "刻",
+            "reading": "kè"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老木匠刻壞了就重來，刻累了就揉一揉手，整整刻了九百九十九天。你覺得是什麼讓他一直刻下去？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "刻",
+            "reading": "ㄎㄜˋ"
+          },
+          {
+            "text": "壞",
+            "reading": "ㄏㄨㄞˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "重",
+            "reading": "ㄔㄨㄥˊ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "刻",
+            "reading": "ㄎㄜˋ"
+          },
+          {
+            "text": "累",
+            "reading": "ㄌㄟˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "揉",
+            "reading": "ㄖㄡˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "揉",
+            "reading": "ㄖㄡˊ"
+          },
+          {
+            "text": "手",
+            "reading": "ㄕㄡˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "整",
+            "reading": "ㄓㄥˇ"
+          },
+          {
+            "text": "整",
+            "reading": "ㄓㄥˇ"
+          },
+          {
+            "text": "刻",
+            "reading": "ㄎㄜˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "九",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "百",
+            "reading": "ㄅㄞˇ"
+          },
+          {
+            "text": "九",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "十",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "九",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "刻",
+            "reading": "ㄎㄜˋ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老木匠刻壞了就重󠇡來，刻累了就揉一󠇢揉手，整整刻了九百九十九天。你覺得󠇡是什麼讓他一󠇢直刻下去？"
+      },
+      "en": "When he made a mistake he started over, and when his hands ached he rubbed them and kept going, for nine hundred and ninety-nine days. What do you think kept him carving?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "村里村外的人都跑来夸这张床，可是老木匠最欢喜的是妈妈睡得舒服。你觉得他心里最看重的是什么？",
+        "pinyin": [
+          {
+            "text": "村",
+            "reading": "cūn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "村",
+            "reading": "cūn"
+          },
+          {
+            "text": "外",
+            "reading": "wài"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "跑",
+            "reading": "pǎo"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "夸",
+            "reading": "kuā"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "张",
+            "reading": "zhāng"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "欢",
+            "reading": "huān"
+          },
+          {
+            "text": "喜",
+            "reading": "xǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "睡",
+            "reading": "shuì"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "舒",
+            "reading": "shū"
+          },
+          {
+            "text": "服",
+            "reading": "fú"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "重",
+            "reading": "zhòng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "村裡村外的人都跑來誇這張床，可是老木匠最歡喜的是媽媽睡得舒服。你覺得他心裡最看重的是什麼？",
+        "zhuyin": [
+          {
+            "text": "村",
+            "reading": "ㄘㄨㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "村",
+            "reading": "ㄘㄨㄣ"
+          },
+          {
+            "text": "外",
+            "reading": "ㄨㄞˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "跑",
+            "reading": "ㄆㄠˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "誇",
+            "reading": "ㄎㄨㄚ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "張",
+            "reading": "ㄓㄤ"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "歡",
+            "reading": "ㄏㄨㄢ"
+          },
+          {
+            "text": "喜",
+            "reading": "ㄒㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "睡",
+            "reading": "ㄕㄨㄟˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "舒",
+            "reading": "ㄕㄨ"
+          },
+          {
+            "text": "服",
+            "reading": "ㄈㄨˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "重",
+            "reading": "ㄓㄨㄥˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "村裡村外的人都跑來誇這張床，可是老木匠最歡喜的是媽媽睡得󠇡舒服。你覺得󠇡他心裡最看重的是什麼？"
+      },
+      "en": "People came from all around to praise the bed, yet what made the carpenter happiest was seeing his mother sleep well. What do you think mattered most to him?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "小凤凰只是一只小鸟，却答应要告诉天上所有的鸟，而且真的做到了。你觉得答应别人的事，为什么一定要做到？",
+        "pinyin": [
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "凤",
+            "reading": "fèng"
+          },
+          {
+            "text": "凰",
+            "reading": "huáng"
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "鸟",
+            "reading": "niǎo"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "答",
+            "reading": "dā"
+          },
+          {
+            "text": "应",
+            "reading": "yìng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "告",
+            "reading": "gào"
+          },
+          {
+            "text": "诉",
+            "reading": "sù"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "所",
+            "reading": "suǒ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "鸟",
+            "reading": "niǎo"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "而",
+            "reading": "ér"
+          },
+          {
+            "text": "且",
+            "reading": "qiě"
+          },
+          {
+            "text": "真",
+            "reading": "zhēn"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "答",
+            "reading": "dā"
+          },
+          {
+            "text": "应",
+            "reading": "yìng"
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "定",
+            "reading": "dìng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "小鳳凰只是一隻小鳥，卻答應要告訴天上所有的鳥，而且真的做到了。你覺得答應別人的事，為什麼一定要做到？",
+        "zhuyin": [
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "鳳",
+            "reading": "ㄈㄥˋ"
+          },
+          {
+            "text": "凰",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "鳥",
+            "reading": "ㄋㄧㄠˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "答",
+            "reading": "ㄉㄚ"
+          },
+          {
+            "text": "應",
+            "reading": "ㄧㄥˋ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "告",
+            "reading": "ㄍㄠˋ"
+          },
+          {
+            "text": "訴",
+            "reading": "ㄙㄨˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "所",
+            "reading": "ㄙㄨㄛˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "鳥",
+            "reading": "ㄋㄧㄠˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "而",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "且",
+            "reading": "ㄑㄧㄝˇ"
+          },
+          {
+            "text": "真",
+            "reading": "ㄓㄣ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "答",
+            "reading": "ㄉㄚ"
+          },
+          {
+            "text": "應",
+            "reading": "ㄧㄥˋ"
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "定",
+            "reading": "ㄉㄧㄥˋ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "小鳳凰只是一󠇢隻小鳥，卻答󠇡應󠇡要告訴天上所有的鳥，而且真的做到了。你覺得󠇡答󠇡應󠇡別人的事，為󠇡什麼一󠇡定要做到？"
+      },
+      "en": "The little phoenix was only a small bird, yet it promised to tell every bird in the sky, and it kept that promise. Why does it matter that we do what we say we will do?"
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "老虎吼的时候，老木匠吓得腿一软，牙齿都在响。你觉得他那么害怕，为什么还是不肯回头？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "虎",
+            "reading": "hǔ"
+          },
+          {
+            "text": "吼",
+            "reading": "hǒu"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "吓",
+            "reading": "xià"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "腿",
+            "reading": "tuǐ"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "软",
+            "reading": "ruǎn"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "牙",
+            "reading": "yá"
+          },
+          {
+            "text": "齿",
+            "reading": "chǐ"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "响",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "肯",
+            "reading": "kěn"
+          },
+          {
+            "text": "回",
+            "reading": "huí"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老虎吼的時候，老木匠嚇得腿一軟，牙齒都在響。你覺得他那麼害怕，為什麼還是不肯回頭？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "虎",
+            "reading": "ㄏㄨˇ"
+          },
+          {
+            "text": "吼",
+            "reading": "ㄏㄡˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "嚇",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "腿",
+            "reading": "ㄊㄨㄟˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "軟",
+            "reading": "ㄖㄨㄢˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "牙",
+            "reading": "ㄧㄚˊ"
+          },
+          {
+            "text": "齒",
+            "reading": "ㄔˇ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "響",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "肯",
+            "reading": "ㄎㄣˇ"
+          },
+          {
+            "text": "回",
+            "reading": "ㄏㄨㄟˊ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老虎吼的時候，老木匠嚇得󠇡腿一󠇢軟，牙齒都在響。你覺得󠇡他那麼害怕，為󠇡什麼還是不肯回頭？"
+      },
+      "en": "When the tiger roared, the carpenter's legs went weak and his teeth chattered. He was that frightened, so why do you think he still refused to turn back?"
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "如果让你在一张床上刻东西，来记住帮过你的人，你会刻什么？说说你的理由。",
+        "pinyin": [
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "张",
+            "reading": "zhāng"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "刻",
+            "reading": "kè"
+          },
+          {
+            "text": "东",
+            "reading": "dōng"
+          },
+          {
+            "text": "西",
+            "reading": "xi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "记",
+            "reading": "jì"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "帮",
+            "reading": "bāng"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "刻",
+            "reading": "kè"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "理",
+            "reading": "lǐ"
+          },
+          {
+            "text": "由",
+            "reading": "yóu"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "如果讓你在一張床上刻東西，來記住幫過你的人，你會刻什麼？說說你的理由。",
+        "zhuyin": [
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "張",
+            "reading": "ㄓㄤ"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "刻",
+            "reading": "ㄎㄜˋ"
+          },
+          {
+            "text": "東",
+            "reading": "ㄉㄨㄥ"
+          },
+          {
+            "text": "西",
+            "reading": "ㄒㄧ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "記",
+            "reading": "ㄐㄧˋ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "幫",
+            "reading": "ㄅㄤ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "刻",
+            "reading": "ㄎㄜˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "理",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "由",
+            "reading": "ㄧㄡˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ],
+        "bpmf": "如果讓你在一󠇢張床上刻東西󠇡，來記住幫過你的人，你會刻什麼？說說你的理由。"
+      },
+      "en": "If you carved something onto a bed to remember the people who have helped you, what would you carve? Give your reason."
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "看到妈妈睡得那么舒服，老木匠心里比做出宝床还要开心。你为家人做过什么事，做完以后心里也很高兴？",
+        "pinyin": [
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "睡",
+            "reading": "shuì"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "舒",
+            "reading": "shū"
+          },
+          {
+            "text": "服",
+            "reading": "fú"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "木",
+            "reading": "mù"
+          },
+          {
+            "text": "匠",
+            "reading": "jiàng"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "比",
+            "reading": "bǐ"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "宝",
+            "reading": "bǎo"
+          },
+          {
+            "text": "床",
+            "reading": "chuáng"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "开",
+            "reading": "kāi"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "完",
+            "reading": "wán"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "高",
+            "reading": "gāo"
+          },
+          {
+            "text": "兴",
+            "reading": "xìng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "看到媽媽睡得那麼舒服，老木匠心裡比做出寶床還要開心。你為家人做過什麼事，做完以後心裡也很高興？",
+        "zhuyin": [
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "睡",
+            "reading": "ㄕㄨㄟˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "舒",
+            "reading": "ㄕㄨ"
+          },
+          {
+            "text": "服",
+            "reading": "ㄈㄨˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "木",
+            "reading": "ㄇㄨˋ"
+          },
+          {
+            "text": "匠",
+            "reading": "ㄐㄧㄤˋ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "比",
+            "reading": "ㄅㄧˇ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "寶",
+            "reading": "ㄅㄠˇ"
+          },
+          {
+            "text": "床",
+            "reading": "ㄔㄨㄤˊ"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "開",
+            "reading": "ㄎㄞ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "完",
+            "reading": "ㄨㄢˊ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "高",
+            "reading": "ㄍㄠ"
+          },
+          {
+            "text": "興",
+            "reading": "ㄒㄧㄥˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "看到媽媽睡得󠇡那麼舒服，老木匠心裡比做出寶床還要開心。你為󠇡家人做過什麼事，做完以後心裡也很高興󠇡？"
+      },
+      "en": "Seeing his mother sleep so comfortably made the old carpenter happier than building the treasure bed itself. What have you done for someone in your family that left you feeling really happy afterward?"
+    }
+  ]
+}

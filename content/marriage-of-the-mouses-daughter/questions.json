@@ -1,0 +1,5008 @@
+{
+  "slug": "marriage-of-the-mouses-daughter",
+  "title": {
+    "trad": "老鼠嫁女兒",
+    "simp": "老鼠嫁女儿",
+    "en": "The Marriage of the Mouse's Daughter"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "老鼠一家住在什么地方？他们的洞口有多大？",
+        "pinyin": [
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "鼠",
+            "reading": "shǔ"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "地",
+            "reading": "dì"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "洞",
+            "reading": "dòng"
+          },
+          {
+            "text": "口",
+            "reading": "kǒu"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "老鼠一家住在什麼地方？他們的洞口有多大？",
+        "zhuyin": [
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "鼠",
+            "reading": "ㄕㄨˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "洞",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "口",
+            "reading": "ㄎㄡˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "老鼠一󠇢家住在什麼地方？他們的洞口有多大？"
+      },
+      "en": "Where does the mouse family live, and how big is the opening of their hole?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "小老鼠长大以后，每天早上都帮妈妈做什么？",
+        "pinyin": [
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "鼠",
+            "reading": "shǔ"
+          },
+          {
+            "text": "长",
+            "reading": "zhǎng"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "每",
+            "reading": "měi"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "早",
+            "reading": "zǎo"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "帮",
+            "reading": "bāng"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "小老鼠長大以後，每天早上都幫媽媽做什麼？",
+        "zhuyin": [
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "鼠",
+            "reading": "ㄕㄨˇ"
+          },
+          {
+            "text": "長",
+            "reading": "ㄓㄤˇ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "每",
+            "reading": "ㄇㄟˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "早",
+            "reading": "ㄗㄠˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "幫",
+            "reading": "ㄅㄤ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "小老鼠長󠇡大以後，每天早上都幫媽媽做什麼？"
+      },
+      "en": "After the little mouse grew up, what did she help Mama do every morning?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "妈妈说，女儿一定要嫁给什么样的人？",
+        "pinyin": [
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "儿",
+            "reading": "ér"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "定",
+            "reading": "dìng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "嫁",
+            "reading": "jià"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "媽媽說，女兒一定要嫁給什麼樣的人？",
+        "zhuyin": [
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "兒",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "定",
+            "reading": "ㄉㄧㄥˋ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "嫁",
+            "reading": "ㄐㄧㄚˋ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "媽媽說，女兒一󠇡定要嫁給什麼樣的人？"
+      },
+      "en": "What kind of person did Mama say her daughter had to marry?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "爸爸出门以后，第一个想到的是谁？他爬到哪里去问？",
+        "pinyin": [
+          {
+            "text": "爸",
+            "reading": "bà"
+          },
+          {
+            "text": "爸",
+            "reading": "ba"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "门",
+            "reading": "mén"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "一",
+            "reading": "yī"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "爬",
+            "reading": "pá"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "问",
+            "reading": "wèn"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "爸爸出門以後，第一個想到的是誰？他爬到哪裡去問？",
+        "zhuyin": [
+          {
+            "text": "爸",
+            "reading": "ㄅㄚˋ"
+          },
+          {
+            "text": "爸",
+            "reading": "ㄅㄚ˙"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "門",
+            "reading": "ㄇㄣˊ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "爬",
+            "reading": "ㄆㄚˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "問",
+            "reading": "ㄨㄣˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "爸爸󠇡出門以後，第一個󠇡想到的是誰？他爬到哪裡去問？"
+      },
+      "en": "After Papa set out, who was the first one he thought of, and where did he climb to ask?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "太阳为什么说自己不是最厉害的？",
+        "pinyin": [
+          {
+            "text": "太",
+            "reading": "tài"
+          },
+          {
+            "text": "阳",
+            "reading": "yáng"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "厉",
+            "reading": "lì"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "太陽為什麼說自己不是最厲害的？",
+        "zhuyin": [
+          {
+            "text": "太",
+            "reading": "ㄊㄞˋ"
+          },
+          {
+            "text": "陽",
+            "reading": "ㄧㄤˊ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "厲",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "太陽為󠇡什麼說自己不󠇡是最厲害的？"
+      },
+      "en": "Why did the sun say that he was not the greatest of all?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "风一吹，乌云会变成什么样子？",
+        "pinyin": [
+          {
+            "text": "风",
+            "reading": "fēng"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "吹",
+            "reading": "chuī"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "乌",
+            "reading": "wū"
+          },
+          {
+            "text": "云",
+            "reading": "yún"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "風一吹，烏雲會變成什麼樣子？",
+        "zhuyin": [
+          {
+            "text": "風",
+            "reading": "ㄈㄥ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "吹",
+            "reading": "ㄔㄨㄟ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "烏",
+            "reading": "ㄨ"
+          },
+          {
+            "text": "雲",
+            "reading": "ㄩㄣˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "風一󠇢吹，烏雲會變成什麼樣子󠇡？"
+      },
+      "en": "What happens to the dark cloud when the wind blows?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "风说它从早吹到晚，还是吹不动什么东西？",
+        "pinyin": [
+          {
+            "text": "风",
+            "reading": "fēng"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "它",
+            "reading": "tā"
+          },
+          {
+            "text": "从",
+            "reading": "cóng"
+          },
+          {
+            "text": "早",
+            "reading": "zǎo"
+          },
+          {
+            "text": "吹",
+            "reading": "chuī"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "晚",
+            "reading": "wǎn"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "吹",
+            "reading": "chuī"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "东",
+            "reading": "dōng"
+          },
+          {
+            "text": "西",
+            "reading": "xi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "風說它從早吹到晚，還是吹不動什麼東西？",
+        "zhuyin": [
+          {
+            "text": "風",
+            "reading": "ㄈㄥ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "它",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "從",
+            "reading": "ㄘㄨㄥˊ"
+          },
+          {
+            "text": "早",
+            "reading": "ㄗㄠˇ"
+          },
+          {
+            "text": "吹",
+            "reading": "ㄔㄨㄟ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "晚",
+            "reading": "ㄨㄢˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "吹",
+            "reading": "ㄔㄨㄟ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "東",
+            "reading": "ㄉㄨㄥ"
+          },
+          {
+            "text": "西",
+            "reading": "ㄒㄧ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "風說它從早吹到晚，還是吹不󠇡動什麼東西󠇡？"
+      },
+      "en": "The wind said it blew from morning till night. What was the one thing it still could not budge?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "墙最怕的是什么？墙说老鼠会对它做什么事？",
+        "pinyin": [
+          {
+            "text": "墙",
+            "reading": "qiáng"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "墙",
+            "reading": "qiáng"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "鼠",
+            "reading": "shǔ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "对",
+            "reading": "duì"
+          },
+          {
+            "text": "它",
+            "reading": "tā"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牆最怕的是什麼？牆說老鼠會對它做什麼事？",
+        "zhuyin": [
+          {
+            "text": "牆",
+            "reading": "ㄑㄧㄤˊ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "牆",
+            "reading": "ㄑㄧㄤˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "鼠",
+            "reading": "ㄕㄨˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "對",
+            "reading": "ㄉㄨㄟˋ"
+          },
+          {
+            "text": "它",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牆最怕的是什麼？牆說老鼠會對它做什麼事？"
+      },
+      "en": "What was the wall most afraid of, and what did the wall say mice do to it?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "爸爸绕了好大一圈，最后发现最厉害的是谁？",
+        "pinyin": [
+          {
+            "text": "爸",
+            "reading": "bà"
+          },
+          {
+            "text": "爸",
+            "reading": "ba"
+          },
+          {
+            "text": "绕",
+            "reading": "rào"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "圈",
+            "reading": "quān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "现",
+            "reading": "xiàn"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "厉",
+            "reading": "lì"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "爸爸繞了好大一圈，最後發現最厲害的是誰？",
+        "zhuyin": [
+          {
+            "text": "爸",
+            "reading": "ㄅㄚˋ"
+          },
+          {
+            "text": "爸",
+            "reading": "ㄅㄚ˙"
+          },
+          {
+            "text": "繞",
+            "reading": "ㄖㄠˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "圈",
+            "reading": "ㄑㄩㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "現",
+            "reading": "ㄒㄧㄢˋ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "厲",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "爸爸󠇡繞了好大一󠇢圈，最後發現最厲害的是誰？"
+      },
+      "en": "After going round in one big circle, who did Papa finally find out was the mightiest of all?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "女儿最后嫁给了谁？",
+        "pinyin": [
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "儿",
+            "reading": "ér"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "嫁",
+            "reading": "jià"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "女兒最後嫁給了誰？",
+        "zhuyin": [
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "兒",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "嫁",
+            "reading": "ㄐㄧㄚˋ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "女兒最後嫁給了誰？"
+      },
+      "en": "Who did the daughter marry in the end?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "太阳怕乌云，乌云怕风，风怕墙，墙怕老鼠。你觉得这个故事想告诉我们什么？",
+        "pinyin": [
+          {
+            "text": "太",
+            "reading": "tài"
+          },
+          {
+            "text": "阳",
+            "reading": "yáng"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "乌",
+            "reading": "wū"
+          },
+          {
+            "text": "云",
+            "reading": "yún"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "乌",
+            "reading": "wū"
+          },
+          {
+            "text": "云",
+            "reading": "yún"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "风",
+            "reading": "fēng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "风",
+            "reading": "fēng"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "墙",
+            "reading": "qiáng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "墙",
+            "reading": "qiáng"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "鼠",
+            "reading": "shǔ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "告",
+            "reading": "gào"
+          },
+          {
+            "text": "诉",
+            "reading": "sù"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "太陽怕烏雲，烏雲怕風，風怕牆，牆怕老鼠。你覺得這個故事想告訴我們什麼？",
+        "zhuyin": [
+          {
+            "text": "太",
+            "reading": "ㄊㄞˋ"
+          },
+          {
+            "text": "陽",
+            "reading": "ㄧㄤˊ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "烏",
+            "reading": "ㄨ"
+          },
+          {
+            "text": "雲",
+            "reading": "ㄩㄣˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "烏",
+            "reading": "ㄨ"
+          },
+          {
+            "text": "雲",
+            "reading": "ㄩㄣˊ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "風",
+            "reading": "ㄈㄥ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "風",
+            "reading": "ㄈㄥ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "牆",
+            "reading": "ㄑㄧㄤˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "牆",
+            "reading": "ㄑㄧㄤˊ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "鼠",
+            "reading": "ㄕㄨˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "告",
+            "reading": "ㄍㄠˋ"
+          },
+          {
+            "text": "訴",
+            "reading": "ㄙㄨˋ"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "太陽怕烏雲，烏雲怕風，風怕牆，牆怕老鼠。你覺得󠇡這個󠇡故事想告訴我們什麼？"
+      },
+      "en": "The sun fears the clouds, the clouds fear the wind, the wind fears the wall, and the wall fears the mice. What do you think this story is trying to tell us?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "太阳、乌云、风和墙都老老实实说出自己怕什么。说出自己做不到的事，会不会很难？为什么？",
+        "pinyin": [
+          {
+            "text": "太",
+            "reading": "tài"
+          },
+          {
+            "text": "阳",
+            "reading": "yáng"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "乌",
+            "reading": "wū"
+          },
+          {
+            "text": "云",
+            "reading": "yún"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "风",
+            "reading": "fēng"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "墙",
+            "reading": "qiáng"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "怕",
+            "reading": "pà"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "难",
+            "reading": "nán"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "太陽、烏雲、風和牆都老老實實說出自己怕什麼。說出自己做不到的事，會不會很難？為什麼？",
+        "zhuyin": [
+          {
+            "text": "太",
+            "reading": "ㄊㄞˋ"
+          },
+          {
+            "text": "陽",
+            "reading": "ㄧㄤˊ"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "烏",
+            "reading": "ㄨ"
+          },
+          {
+            "text": "雲",
+            "reading": "ㄩㄣˊ"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "風",
+            "reading": "ㄈㄥ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "牆",
+            "reading": "ㄑㄧㄤˊ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "怕",
+            "reading": "ㄆㄚˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "難",
+            "reading": "ㄋㄢˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "太陽、烏雲、風和牆都老老實實說出自己怕什麼。說出自己做不󠇡到的事，會不󠇡會很難？為󠇡什麼？"
+      },
+      "en": "The sun, the clouds, the wind, and the wall all said honestly what they were afraid of. Is it hard to say out loud what you can't do? Why?"
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "妈妈想帮女儿找「世界上最厉害的人」。你觉得选一个一起生活的人，最重要的是什么？",
+        "pinyin": [
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "帮",
+            "reading": "bāng"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "儿",
+            "reading": "ér"
+          },
+          {
+            "text": "找",
+            "reading": "zhǎo"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "世",
+            "reading": "shì"
+          },
+          {
+            "text": "界",
+            "reading": "jiè"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "厉",
+            "reading": "lì"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "选",
+            "reading": "xuǎn"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "活",
+            "reading": "huó"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "重",
+            "reading": "zhòng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "媽媽想幫女兒找「世界上最厲害的人」。你覺得選一個一起生活的人，最重要的是什麼？",
+        "zhuyin": [
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "幫",
+            "reading": "ㄅㄤ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "兒",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "找",
+            "reading": "ㄓㄠˇ"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "世",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "界",
+            "reading": "ㄐㄧㄝˋ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "厲",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "選",
+            "reading": "ㄒㄩㄢˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "活",
+            "reading": "ㄏㄨㄛˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "重",
+            "reading": "ㄓㄨㄥˋ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "媽媽想幫女兒找「世界上最厲害的人」。你覺得󠇡選一󠇡個󠇡一󠇢起生活的人，最重要的是什麼？"
+      },
+      "en": "Mama wanted to find the most remarkable person in all the world for her daughter. When you choose someone to share a life with, what matters most?"
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "最厉害的女婿，其实就住在隔壁。你有没有找了很久的东西，后来发现它一直就在身边？",
+        "pinyin": [
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "厉",
+            "reading": "lì"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "婿",
+            "reading": "xù"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "其",
+            "reading": "qí"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "隔",
+            "reading": "gé"
+          },
+          {
+            "text": "壁",
+            "reading": "bì"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "找",
+            "reading": "zhǎo"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "久",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "东",
+            "reading": "dōng"
+          },
+          {
+            "text": "西",
+            "reading": "xi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "现",
+            "reading": "xiàn"
+          },
+          {
+            "text": "它",
+            "reading": "tā"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "身",
+            "reading": "shēn"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "最厲害的女婿，其實就住在隔壁。你有沒有找了很久的東西，後來發現它一直就在身邊？",
+        "zhuyin": [
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "厲",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "婿",
+            "reading": "ㄒㄩˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "其",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "隔",
+            "reading": "ㄍㄜˊ"
+          },
+          {
+            "text": "壁",
+            "reading": "ㄅㄧˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "找",
+            "reading": "ㄓㄠˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "久",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "東",
+            "reading": "ㄉㄨㄥ"
+          },
+          {
+            "text": "西",
+            "reading": "ㄒㄧ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "現",
+            "reading": "ㄒㄧㄢˋ"
+          },
+          {
+            "text": "它",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "身",
+            "reading": "ㄕㄣ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "最厲害的女婿，其實就住在隔壁。你有沒有找了很久的東西󠇡，後來發現它一󠇢直就在身邊？"
+      },
+      "en": "The greatest son-in-law was living right next door all along. Have you ever looked a long time for something and then found it had been beside you the whole time?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "爸爸妈妈讨论婚事的时候，并没有先问女儿的想法。你觉得这样好吗？为什么？",
+        "pinyin": [
+          {
+            "text": "爸",
+            "reading": "bà"
+          },
+          {
+            "text": "爸",
+            "reading": "ba"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "讨",
+            "reading": "tǎo"
+          },
+          {
+            "text": "论",
+            "reading": "lùn"
+          },
+          {
+            "text": "婚",
+            "reading": "hūn"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "并",
+            "reading": "bìng"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "先",
+            "reading": "xiān"
+          },
+          {
+            "text": "问",
+            "reading": "wèn"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "儿",
+            "reading": "ér"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "爸爸媽媽討論婚事的時候，並沒有先問女兒的想法。你覺得這樣好嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "爸",
+            "reading": "ㄅㄚˋ"
+          },
+          {
+            "text": "爸",
+            "reading": "ㄅㄚ˙"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "討",
+            "reading": "ㄊㄠˇ"
+          },
+          {
+            "text": "論",
+            "reading": "ㄌㄨㄣˋ"
+          },
+          {
+            "text": "婚",
+            "reading": "ㄏㄨㄣ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "並",
+            "reading": "ㄅㄧㄥˋ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "先",
+            "reading": "ㄒㄧㄢ"
+          },
+          {
+            "text": "問",
+            "reading": "ㄨㄣˋ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "兒",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "爸爸󠇡媽媽討論婚事的時候，並沒有先問女兒的想法。你覺得󠇡這樣好嗎？為󠇡什麼？"
+      },
+      "en": "When Papa and Mama talked the marriage over, they never asked their daughter what she thought. Do you think that was right? Why?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "女儿早就喜欢隔壁的小伙子，却因为害羞一直不敢说。心里有话说不出口的时候，可以怎么做？",
+        "pinyin": [
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "儿",
+            "reading": "ér"
+          },
+          {
+            "text": "早",
+            "reading": "zǎo"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "喜",
+            "reading": "xǐ"
+          },
+          {
+            "text": "欢",
+            "reading": "huān"
+          },
+          {
+            "text": "隔",
+            "reading": "gé"
+          },
+          {
+            "text": "壁",
+            "reading": "bì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "伙",
+            "reading": "huǒ"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "因",
+            "reading": "yīn"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "羞",
+            "reading": "xiū"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "敢",
+            "reading": "gǎn"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "口",
+            "reading": "kǒu"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "女兒早就喜歡隔壁的小伙子，卻因為害羞一直不敢說。心裡有話說不出口的時候，可以怎麼做？",
+        "zhuyin": [
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "兒",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "早",
+            "reading": "ㄗㄠˇ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "喜",
+            "reading": "ㄒㄧˇ"
+          },
+          {
+            "text": "歡",
+            "reading": "ㄏㄨㄢ"
+          },
+          {
+            "text": "隔",
+            "reading": "ㄍㄜˊ"
+          },
+          {
+            "text": "壁",
+            "reading": "ㄅㄧˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "伙",
+            "reading": "ㄏㄨㄛˇ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "因",
+            "reading": "ㄧㄣ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "羞",
+            "reading": "ㄒㄧㄡ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "敢",
+            "reading": "ㄍㄢˇ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "口",
+            "reading": "ㄎㄡˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "女兒早就喜歡隔壁的小伙子󠇡，卻因為󠇡害羞一󠇢直不敢說。心裡有話說不出口的時候，可以怎麼做？"
+      },
+      "en": "The daughter had liked the young mouse next door for a long time but was too shy to say so. When you have something to say and can't get it out, what can you do?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "那只小伙子力气大、做事勤快，还帮忙扛过一大袋米。你觉得爸爸妈妈为什么放心把女儿交给他？",
+        "pinyin": [
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "伙",
+            "reading": "huǒ"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "勤",
+            "reading": "qín"
+          },
+          {
+            "text": "快",
+            "reading": "kuài"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "帮",
+            "reading": "bāng"
+          },
+          {
+            "text": "忙",
+            "reading": "máng"
+          },
+          {
+            "text": "扛",
+            "reading": "káng"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "袋",
+            "reading": "dài"
+          },
+          {
+            "text": "米",
+            "reading": "mǐ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "爸",
+            "reading": "bà"
+          },
+          {
+            "text": "爸",
+            "reading": "ba"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "妈",
+            "reading": "mā"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "放",
+            "reading": "fàng"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "儿",
+            "reading": "ér"
+          },
+          {
+            "text": "交",
+            "reading": "jiāo"
+          },
+          {
+            "text": "给",
+            "reading": "gěi"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "那隻小伙子力氣大、做事勤快，還幫忙扛過一大袋米。你覺得爸爸媽媽為什麼放心把女兒交給他？",
+        "zhuyin": [
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "伙",
+            "reading": "ㄏㄨㄛˇ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "、",
+            "reading": ""
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "勤",
+            "reading": "ㄑㄧㄣˊ"
+          },
+          {
+            "text": "快",
+            "reading": "ㄎㄨㄞˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "幫",
+            "reading": "ㄅㄤ"
+          },
+          {
+            "text": "忙",
+            "reading": "ㄇㄤˊ"
+          },
+          {
+            "text": "扛",
+            "reading": "ㄎㄤˊ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "袋",
+            "reading": "ㄉㄞˋ"
+          },
+          {
+            "text": "米",
+            "reading": "ㄇㄧˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "爸",
+            "reading": "ㄅㄚˋ"
+          },
+          {
+            "text": "爸",
+            "reading": "ㄅㄚ˙"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "媽",
+            "reading": "ㄇㄚ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "放",
+            "reading": "ㄈㄤˋ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "兒",
+            "reading": "ㄦˊ"
+          },
+          {
+            "text": "交",
+            "reading": "ㄐㄧㄠ"
+          },
+          {
+            "text": "給",
+            "reading": "ㄍㄟˇ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "那隻小伙子󠇡力氣大、做事勤快，還幫忙扛過一󠇡大袋米。你覺得󠇡爸爸󠇡媽媽為󠇡什麼放心把女兒交給他？"
+      },
+      "en": "The young mouse was strong, hardworking, and had once carried a heavy sack of rice for the family. Why do you think Papa and Mama felt at ease about him?"
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "墙说老鼠今天挖一个洞，明天挖一个洞，挖久了整片墙就垮了。小小的事一直做下去，力量会不会变大？请你说一个例子。",
+        "pinyin": [
+          {
+            "text": "墙",
+            "reading": "qiáng"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "老",
+            "reading": "lǎo"
+          },
+          {
+            "text": "鼠",
+            "reading": "shǔ"
+          },
+          {
+            "text": "今",
+            "reading": "jīn"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "挖",
+            "reading": "wā"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "洞",
+            "reading": "dòng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "明",
+            "reading": "míng"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "挖",
+            "reading": "wā"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "洞",
+            "reading": "dòng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "挖",
+            "reading": "wā"
+          },
+          {
+            "text": "久",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "整",
+            "reading": "zhěng"
+          },
+          {
+            "text": "片",
+            "reading": "piàn"
+          },
+          {
+            "text": "墙",
+            "reading": "qiáng"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "垮",
+            "reading": "kuǎ"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "量",
+            "reading": "liàng"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "请",
+            "reading": "qǐng"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "例",
+            "reading": "lì"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牆說老鼠今天挖一個洞，明天挖一個洞，挖久了整片牆就垮了。小小的事一直做下去，力量會不會變大？請你說一個例子。",
+        "zhuyin": [
+          {
+            "text": "牆",
+            "reading": "ㄑㄧㄤˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "老",
+            "reading": "ㄌㄠˇ"
+          },
+          {
+            "text": "鼠",
+            "reading": "ㄕㄨˇ"
+          },
+          {
+            "text": "今",
+            "reading": "ㄐㄧㄣ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "挖",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "洞",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "明",
+            "reading": "ㄇㄧㄥˊ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "挖",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "洞",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "挖",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "久",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "整",
+            "reading": "ㄓㄥˇ"
+          },
+          {
+            "text": "片",
+            "reading": "ㄆㄧㄢˋ"
+          },
+          {
+            "text": "牆",
+            "reading": "ㄑㄧㄤˊ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "垮",
+            "reading": "ㄎㄨㄚˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "量",
+            "reading": "ㄌㄧㄤˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "請",
+            "reading": "ㄑㄧㄥˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "例",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牆說老鼠今天挖一󠇡個󠇡洞，明天挖一󠇡個󠇡洞，挖久了整片牆就垮了。小小的事一󠇢直做下去，力量會不󠇡會變大？請你說一󠇡個󠇡例子󠇡。"
+      },
+      "en": "The wall said the mice dig one hole today and another tomorrow, until the whole wall comes down. Can small things done again and again add up to real strength? Give an example."
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "爸爸走了一整天，脚都酸了，最后却笑了出来。如果你花了很多力气，才发现答案一直在身边，你会有什么感觉？",
+        "pinyin": [
+          {
+            "text": "爸",
+            "reading": "bà"
+          },
+          {
+            "text": "爸",
+            "reading": "ba"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "整",
+            "reading": "zhěng"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "脚",
+            "reading": "jiǎo"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "酸",
+            "reading": "suān"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "笑",
+            "reading": "xiào"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "花",
+            "reading": "huā"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "现",
+            "reading": "xiàn"
+          },
+          {
+            "text": "答",
+            "reading": "dá"
+          },
+          {
+            "text": "案",
+            "reading": "àn"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "身",
+            "reading": "shēn"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "感",
+            "reading": "gǎn"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "爸爸走了一整天，腳都痠了，最後卻笑了出來。如果你花了很多力氣，才發現答案一直在身邊，你會有什麼感覺？",
+        "zhuyin": [
+          {
+            "text": "爸",
+            "reading": "ㄅㄚˋ"
+          },
+          {
+            "text": "爸",
+            "reading": "ㄅㄚ˙"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "整",
+            "reading": "ㄓㄥˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "腳",
+            "reading": "ㄐㄧㄠˇ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "痠",
+            "reading": "ㄙㄨㄢ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "笑",
+            "reading": "ㄒㄧㄠˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "花",
+            "reading": "ㄏㄨㄚ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "現",
+            "reading": "ㄒㄧㄢˋ"
+          },
+          {
+            "text": "答",
+            "reading": "ㄉㄚˊ"
+          },
+          {
+            "text": "案",
+            "reading": "ㄢˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "身",
+            "reading": "ㄕㄣ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "感",
+            "reading": "ㄍㄢˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "爸爸󠇡走了一󠇢整天，腳都痠了，最後卻笑了出來。如果你花了很多力氣，才發現答案一󠇢直在身邊，你會有什麼感覺？"
+      },
+      "en": "Papa walked a whole day until his legs ached, and then he burst out laughing. If you spent a lot of effort and then found the answer had been beside you all along, how would you feel?"
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "谁最厉害，其实要看比的是什么。你觉得这句话有道理吗？为什么？",
+        "pinyin": [
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "厉",
+            "reading": "lì"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "其",
+            "reading": "qí"
+          },
+          {
+            "text": "实",
+            "reading": "shí"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "比",
+            "reading": "bǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "句",
+            "reading": "jù"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "理",
+            "reading": "lǐ"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "誰最厲害，其實要看比的是什麼。你覺得這句話有道理嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "厲",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "其",
+            "reading": "ㄑㄧˊ"
+          },
+          {
+            "text": "實",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "比",
+            "reading": "ㄅㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "句",
+            "reading": "ㄐㄩˋ"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "理",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "誰最厲害，其實要看比的是什麼。你覺得󠇡這句話有道理嗎？為󠇡什麼？"
+      },
+      "en": "Who is mightiest really depends on what you are comparing. Do you think that holds true? Why?"
+    }
+  ]
+}

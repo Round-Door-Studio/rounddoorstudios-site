@@ -1,0 +1,5256 @@
+{
+  "slug": "blind-men-and-the-elephant",
+  "title": {
+    "trad": "盲人摸象",
+    "simp": "盲人摸象",
+    "en": "The Blind Men and the Elephant"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "有一天，村子口来了什么动物？",
+        "pinyin": [
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "村",
+            "reading": "cūn"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "口",
+            "reading": "kǒu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "动",
+            "reading": "dòng"
+          },
+          {
+            "text": "物",
+            "reading": "wù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "有一天，村子口來了什麼動物？",
+        "zhuyin": [
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "村",
+            "reading": "ㄘㄨㄣ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "口",
+            "reading": "ㄎㄡˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "動",
+            "reading": "ㄉㄨㄥˋ"
+          },
+          {
+            "text": "物",
+            "reading": "ㄨˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "有一󠇢天，村子󠇡口來了什麼動物？"
+      },
+      "en": "One day, what animal arrived at the village gate?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "这五个好朋友从小就看不见，他们为什么那么想摸摸大象？",
+        "pinyin": [
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "五",
+            "reading": "wǔ"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "朋",
+            "reading": "péng"
+          },
+          {
+            "text": "友",
+            "reading": "yǒu"
+          },
+          {
+            "text": "从",
+            "reading": "cóng"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "见",
+            "reading": "jiàn"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "這五個好朋友從小就看不見，他們為什麼那麼想摸摸大象？",
+        "zhuyin": [
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "五",
+            "reading": "ㄨˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "朋",
+            "reading": "ㄆㄥˊ"
+          },
+          {
+            "text": "友",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "從",
+            "reading": "ㄘㄨㄥˊ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "見",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "這五個󠇡好朋友從小就看不󠇡見，他們為󠇡什麼那麼想摸摸大象？"
+      },
+      "en": "These five good friends had been unable to see since they were young. Why did they want so badly to touch the elephant?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "牵象的人请大家怎么摸大象？他说这头大象会不会伤人？",
+        "pinyin": [
+          {
+            "text": "牵",
+            "reading": "qiān"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "请",
+            "reading": "qǐng"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "伤",
+            "reading": "shāng"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "牽象的人請大家怎麼摸大象？他說這頭大象會不會傷人？",
+        "zhuyin": [
+          {
+            "text": "牽",
+            "reading": "ㄑㄧㄢ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "請",
+            "reading": "ㄑㄧㄥˇ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "傷",
+            "reading": "ㄕㄤ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "牽象的人請大家怎麼摸大象？他說這頭大象會不󠇡會傷人？"
+      },
+      "en": "How did the man leading the elephant ask everyone to touch it, and did he say the elephant would hurt anyone?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "第一个人摸到大象的腿。那条腿摸起来是什么感觉？他说大象像什么？",
+        "pinyin": [
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "一",
+            "reading": "yī"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "腿",
+            "reading": "tuǐ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "条",
+            "reading": "tiáo"
+          },
+          {
+            "text": "腿",
+            "reading": "tuǐ"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "感",
+            "reading": "gǎn"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "像",
+            "reading": "xiàng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "第一個人摸到大象的腿。那條腿摸起來是什麼感覺？他說大象像什麼？",
+        "zhuyin": [
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "腿",
+            "reading": "ㄊㄨㄟˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "條",
+            "reading": "ㄊㄧㄠˊ"
+          },
+          {
+            "text": "腿",
+            "reading": "ㄊㄨㄟˇ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "感",
+            "reading": "ㄍㄢˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "像",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "第一個󠇡人摸到大象的腿。那條腿摸起來是什麼感覺？他說大象像什麼？"
+      },
+      "en": "The first man touched the elephant's leg. How did that leg feel, and what did he say an elephant is like?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "第二个人摸到的尾巴是什么样子？他说大象像什么？",
+        "pinyin": [
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "二",
+            "reading": "èr"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "尾",
+            "reading": "wěi"
+          },
+          {
+            "text": "巴",
+            "reading": "bā"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "像",
+            "reading": "xiàng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "第二個人摸到的尾巴是什麼樣子？他說大象像什麼？",
+        "zhuyin": [
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "二",
+            "reading": "ㄦˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "尾",
+            "reading": "ㄨㄟˇ"
+          },
+          {
+            "text": "巴",
+            "reading": "ㄅㄚ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "像",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "第二個󠇡人摸到的尾巴是什麼樣子󠇡？他說大象像什麼？"
+      },
+      "en": "What was the tail the second man touched like, and what did he say an elephant is like?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "第三个人摸大象的鼻子时，鼻子做了什么，让他吓了一跳？",
+        "pinyin": [
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "三",
+            "reading": "sān"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "鼻",
+            "reading": "bí"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "鼻",
+            "reading": "bí"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "吓",
+            "reading": "xià"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "跳",
+            "reading": "tiào"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "第三個人摸大象的鼻子時，鼻子做了什麼，讓他嚇了一跳？",
+        "zhuyin": [
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "三",
+            "reading": "ㄙㄢ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "鼻",
+            "reading": "ㄅㄧˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "鼻",
+            "reading": "ㄅㄧˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "嚇",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "跳",
+            "reading": "ㄊㄧㄠˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "第三個󠇡人摸大象的鼻子󠇡時，鼻子󠇡做了什麼，讓他嚇了一󠇡跳？"
+      },
+      "en": "When the third man felt the elephant's trunk, what did the trunk do that gave him a fright?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "第四个人摸到一片大耳朵。那耳朵让他想到什么东西？",
+        "pinyin": [
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "四",
+            "reading": "sì"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "片",
+            "reading": "piàn"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "耳",
+            "reading": "ěr"
+          },
+          {
+            "text": "朵",
+            "reading": "duo"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "耳",
+            "reading": "ěr"
+          },
+          {
+            "text": "朵",
+            "reading": "duo"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "东",
+            "reading": "dōng"
+          },
+          {
+            "text": "西",
+            "reading": "xi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "第四個人摸到一片大耳朵。那耳朵讓他想到什麼東西？",
+        "zhuyin": [
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "四",
+            "reading": "ㄙˋ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "片",
+            "reading": "ㄆㄧㄢˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "耳",
+            "reading": "ㄦˇ"
+          },
+          {
+            "text": "朵",
+            "reading": "ㄉㄨㄛ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "耳",
+            "reading": "ㄦˇ"
+          },
+          {
+            "text": "朵",
+            "reading": "ㄉㄨㄛ˙"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "東",
+            "reading": "ㄉㄨㄥ"
+          },
+          {
+            "text": "西",
+            "reading": "ㄒㄧ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "第四個󠇡人摸到一󠇡片大耳朵󠇡。那耳朵󠇡讓他想到什麼東西󠇡？"
+      },
+      "en": "The fourth man touched a great big ear. What did that ear remind him of?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "最后一个人摸大象的身体，他摸了半天，为什么还摸不到边？",
+        "pinyin": [
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "身",
+            "reading": "shēn"
+          },
+          {
+            "text": "体",
+            "reading": "tǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "半",
+            "reading": "bàn"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "最後一個人摸大象的身體，他摸了半天，為什麼還摸不到邊？",
+        "zhuyin": [
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "身",
+            "reading": "ㄕㄣ"
+          },
+          {
+            "text": "體",
+            "reading": "ㄊㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "半",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "最後一󠇡個󠇡人摸大象的身體，他摸了半天，為󠇡什麼還摸不󠇡到邊？"
+      },
+      "en": "The last man felt the elephant's body. He kept feeling for a long time, so why could he still not find the edge?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "五个人吵起来的时候，他们肯不肯听别人说的话？",
+        "pinyin": [
+          {
+            "text": "五",
+            "reading": "wǔ"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "吵",
+            "reading": "chǎo"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "肯",
+            "reading": "kěn"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "肯",
+            "reading": "kěn"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "五個人吵起來的時候，他們肯不肯聽別人說的話？",
+        "zhuyin": [
+          {
+            "text": "五",
+            "reading": "ㄨˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "吵",
+            "reading": "ㄔㄠˇ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "肯",
+            "reading": "ㄎㄣˇ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "肯",
+            "reading": "ㄎㄣˇ"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "五個󠇡人吵起來的時候，他們肯不肯聽別人說的話？"
+      },
+      "en": "When the five men fell to arguing, were they willing to listen to what the others were saying?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "路人说，一头真正的大象要把哪些地方合在一起？",
+        "pinyin": [
+          {
+            "text": "路",
+            "reading": "lù"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          },
+          {
+            "text": "真",
+            "reading": "zhēn"
+          },
+          {
+            "text": "正",
+            "reading": "zhèng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "些",
+            "reading": "xiē"
+          },
+          {
+            "text": "地",
+            "reading": "dì"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "合",
+            "reading": "hé"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "路人說，一頭真正的大象要把哪些地方合在一起？",
+        "zhuyin": [
+          {
+            "text": "路",
+            "reading": "ㄌㄨˋ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          },
+          {
+            "text": "真",
+            "reading": "ㄓㄣ"
+          },
+          {
+            "text": "正",
+            "reading": "ㄓㄥˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "些",
+            "reading": "ㄒㄧㄝ"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "合",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "路人說，一󠇢頭真正的大象要把哪些地方合在一󠇢起？"
+      },
+      "en": "According to the passerby, which parts have to be put together to make a whole elephant?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "五个人摸到的地方不一样，说的话也就完全不一样。你觉得这是为什么？",
+        "pinyin": [
+          {
+            "text": "五",
+            "reading": "wǔ"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "地",
+            "reading": "dì"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "完",
+            "reading": "wán"
+          },
+          {
+            "text": "全",
+            "reading": "quán"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "五個人摸到的地方不一樣，說的話也就完全不一樣。你覺得這是為什麼？",
+        "zhuyin": [
+          {
+            "text": "五",
+            "reading": "ㄨˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "完",
+            "reading": "ㄨㄢˊ"
+          },
+          {
+            "text": "全",
+            "reading": "ㄑㄩㄢˊ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "五個󠇡人摸到的地方不一󠇡樣，說的話也就完全不一󠇡樣。你覺得󠇡這是為󠇡什麼？"
+      },
+      "en": "Each of the five touched a different part, so each of them described something completely different. Why do you think that happened?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "路人说：「你们每个人讲的都没有错。」一件事可以有很多种说法吗？说说你的想法。",
+        "pinyin": [
+          {
+            "text": "路",
+            "reading": "lù"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "：",
+            "reading": ""
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "每",
+            "reading": "měi"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "讲",
+            "reading": "jiǎng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "错",
+            "reading": "cuò"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "种",
+            "reading": "zhǒng"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "路人說：「你們每個人講的都沒有錯。」一件事可以有很多種說法嗎？說說你的想法。",
+        "zhuyin": [
+          {
+            "text": "路",
+            "reading": "ㄌㄨˋ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "：",
+            "reading": ""
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "每",
+            "reading": "ㄇㄟˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "講",
+            "reading": "ㄐㄧㄤˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "錯",
+            "reading": "ㄘㄨㄛˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "種",
+            "reading": "ㄓㄨㄥˇ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          }
+        ],
+        "bpmf": "路人說：「你們每個󠇡人講的都沒有錯。」一󠇡件事可以有很多種說法嗎？說說你的想法。"
+      },
+      "en": "The passerby said, \"None of you is wrong.\" Can one thing have many true descriptions? Tell us what you think."
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "他们越说越大声，脸都红了，可是谁也不肯听谁。你觉得说话大声，别人就会听你的吗？",
+        "pinyin": [
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "越",
+            "reading": "yuè"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "越",
+            "reading": "yuè"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "声",
+            "reading": "shēng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "脸",
+            "reading": "liǎn"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "红",
+            "reading": "hóng"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "肯",
+            "reading": "kěn"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "声",
+            "reading": "shēng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "他們越說越大聲，臉都紅了，可是誰也不肯聽誰。你覺得說話大聲，別人就會聽你的嗎？",
+        "zhuyin": [
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "越",
+            "reading": "ㄩㄝˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "越",
+            "reading": "ㄩㄝˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "聲",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "臉",
+            "reading": "ㄌㄧㄢˇ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "紅",
+            "reading": "ㄏㄨㄥˊ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "肯",
+            "reading": "ㄎㄣˇ"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "聲",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "他們越說越大聲，臉都紅了，可是誰也不肯聽誰。你覺得󠇡說話大聲，別人就會聽你的嗎？"
+      },
+      "en": "The louder they argued the redder their faces grew, and still no one would listen to anyone. Do you think talking louder makes people listen to you?"
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "如果那天没有人走过来告诉他们，你觉得这五个好朋友最后会怎么样？",
+        "pinyin": [
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "走",
+            "reading": "zǒu"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "告",
+            "reading": "gào"
+          },
+          {
+            "text": "诉",
+            "reading": "sù"
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "五",
+            "reading": "wǔ"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "朋",
+            "reading": "péng"
+          },
+          {
+            "text": "友",
+            "reading": "yǒu"
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "如果那天沒有人走過來告訴他們，你覺得這五個好朋友最後會怎麼樣？",
+        "zhuyin": [
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "走",
+            "reading": "ㄗㄡˇ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "告",
+            "reading": "ㄍㄠˋ"
+          },
+          {
+            "text": "訴",
+            "reading": "ㄙㄨˋ"
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "五",
+            "reading": "ㄨˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "朋",
+            "reading": "ㄆㄥˊ"
+          },
+          {
+            "text": "友",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "如果那天沒有人走過來告訴他們，你覺得󠇡這五個󠇡好朋友最後會怎麼樣？"
+      },
+      "en": "If no one had walked over to tell them, what do you think would have happened to the five friends in the end?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "五个人安静下来，把大家说的合在一起，才想出大象的样子。你跟别人有过不一样的看法吗？后来你们怎么找到完整的答案？",
+        "pinyin": [
+          {
+            "text": "五",
+            "reading": "wǔ"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "安",
+            "reading": "ān"
+          },
+          {
+            "text": "静",
+            "reading": "jìng"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "合",
+            "reading": "hé"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "起",
+            "reading": "qǐ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "跟",
+            "reading": "gēn"
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "看",
+            "reading": "kàn"
+          },
+          {
+            "text": "法",
+            "reading": "fǎ"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "找",
+            "reading": "zhǎo"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "完",
+            "reading": "wán"
+          },
+          {
+            "text": "整",
+            "reading": "zhěng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "答",
+            "reading": "dá"
+          },
+          {
+            "text": "案",
+            "reading": "àn"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "五個人安靜下來，把大家說的合在一起，才想出大象的樣子。你跟別人有過不一樣的看法嗎？後來你們怎麼找到完整的答案？",
+        "zhuyin": [
+          {
+            "text": "五",
+            "reading": "ㄨˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "安",
+            "reading": "ㄢ"
+          },
+          {
+            "text": "靜",
+            "reading": "ㄐㄧㄥˋ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "合",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "起",
+            "reading": "ㄑㄧˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "跟",
+            "reading": "ㄍㄣ"
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "看",
+            "reading": "ㄎㄢˋ"
+          },
+          {
+            "text": "法",
+            "reading": "ㄈㄚˇ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "找",
+            "reading": "ㄓㄠˇ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "完",
+            "reading": "ㄨㄢˊ"
+          },
+          {
+            "text": "整",
+            "reading": "ㄓㄥˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "答",
+            "reading": "ㄉㄚˊ"
+          },
+          {
+            "text": "案",
+            "reading": "ㄢˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "五個󠇡人安靜下來，把大家說的合在一󠇢起，才想出大象的樣子󠇡。你跟別人有過不一󠇡樣的看法嗎？後來你們怎麼找到完整的答案？"
+      },
+      "en": "The five men quieted down, put together everything they had each said, and only then could they picture the elephant. Have you and someone else ever seen the same thing differently? How did you get to the full answer?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "第一个人说「我知道啦」的时候，很有把握。你觉得很有把握的人，就一定是对的吗？",
+        "pinyin": [
+          {
+            "text": "第",
+            "reading": "dì"
+          },
+          {
+            "text": "一",
+            "reading": "yī"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "知",
+            "reading": "zhī"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "啦",
+            "reading": "la"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "握",
+            "reading": "wò"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "握",
+            "reading": "wò"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "定",
+            "reading": "dìng"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "对",
+            "reading": "duì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "第一個人說「我知道啦」的時候，很有把握。你覺得很有把握的人，就一定是對的嗎？",
+        "zhuyin": [
+          {
+            "text": "第",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "知",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "啦",
+            "reading": "ㄌㄚ˙"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "握",
+            "reading": "ㄨㄛˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "握",
+            "reading": "ㄨㄛˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "定",
+            "reading": "ㄉㄧㄥˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "對",
+            "reading": "ㄉㄨㄟˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "第一個󠇡人說「我知道啦」的時候，很有把握。你覺得󠇡很有把握的人，就一󠇡定是對的嗎？"
+      },
+      "en": "The first man was full of confidence when he said, \"I've got it!\" Do you think someone who feels sure is always right?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "遇到自己还不懂的事，你觉得先听听别人怎么说，会有什么好处？",
+        "pinyin": [
+          {
+            "text": "遇",
+            "reading": "yù"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "自",
+            "reading": "zì"
+          },
+          {
+            "text": "己",
+            "reading": "jǐ"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "懂",
+            "reading": "dǒng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "先",
+            "reading": "xiān"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "听",
+            "reading": "tīng"
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "处",
+            "reading": "chù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "遇到自己還不懂的事，你覺得先聽聽別人怎麼說，會有什麼好處？",
+        "zhuyin": [
+          {
+            "text": "遇",
+            "reading": "ㄩˋ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "自",
+            "reading": "ㄗˋ"
+          },
+          {
+            "text": "己",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "懂",
+            "reading": "ㄉㄨㄥˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "先",
+            "reading": "ㄒㄧㄢ"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "聽",
+            "reading": "ㄊㄧㄥ"
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "處",
+            "reading": "ㄔㄨˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "遇到自己還不懂的事，你覺得󠇡先聽聽別人怎麼說，會有什麼好處󠇡？"
+      },
+      "en": "When you come across something you don't understand yet, what good could come from listening to what others say first?"
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "五个人都很认真地摸，也都很认真地说，可是还是吵了半天。你觉得认真的人为什么也会说错？",
+        "pinyin": [
+          {
+            "text": "五",
+            "reading": "wǔ"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "认",
+            "reading": "rèn"
+          },
+          {
+            "text": "真",
+            "reading": "zhēn"
+          },
+          {
+            "text": "地",
+            "reading": "de"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "认",
+            "reading": "rèn"
+          },
+          {
+            "text": "真",
+            "reading": "zhēn"
+          },
+          {
+            "text": "地",
+            "reading": "de"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "吵",
+            "reading": "chǎo"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "半",
+            "reading": "bàn"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "认",
+            "reading": "rèn"
+          },
+          {
+            "text": "真",
+            "reading": "zhēn"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "错",
+            "reading": "cuò"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "五個人都很認真地摸，也都很認真地說，可是還是吵了半天。你覺得認真的人為什麼也會說錯？",
+        "zhuyin": [
+          {
+            "text": "五",
+            "reading": "ㄨˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "認",
+            "reading": "ㄖㄣˋ"
+          },
+          {
+            "text": "真",
+            "reading": "ㄓㄣ"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "認",
+            "reading": "ㄖㄣˋ"
+          },
+          {
+            "text": "真",
+            "reading": "ㄓㄣ"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "吵",
+            "reading": "ㄔㄠˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "半",
+            "reading": "ㄅㄢˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "認",
+            "reading": "ㄖㄣˋ"
+          },
+          {
+            "text": "真",
+            "reading": "ㄓㄣ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "錯",
+            "reading": "ㄘㄨㄛˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "五個󠇡人都很認真地󠇡摸，也都很認真地󠇡說，可是還是吵了半天。你覺得󠇡認真的人為󠇡什麼也會說錯？"
+      },
+      "en": "All five felt the elephant carefully and spoke sincerely, yet they still argued for a long time. Why do you think careful people can still get things wrong?"
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "我们平常也可能只知道一件事的一小部分。你能不能说一个这样的例子？",
+        "pinyin": [
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "平",
+            "reading": "píng"
+          },
+          {
+            "text": "常",
+            "reading": "cháng"
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "能",
+            "reading": "néng"
+          },
+          {
+            "text": "只",
+            "reading": "zhǐ"
+          },
+          {
+            "text": "知",
+            "reading": "zhī"
+          },
+          {
+            "text": "道",
+            "reading": "dào"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "小",
+            "reading": "xiǎo"
+          },
+          {
+            "text": "部",
+            "reading": "bù"
+          },
+          {
+            "text": "分",
+            "reading": "fèn"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "能",
+            "reading": "néng"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "能",
+            "reading": "néng"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "例",
+            "reading": "lì"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "我們平常也可能只知道一件事的一小部分。你能不能說一個這樣的例子？",
+        "zhuyin": [
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "平",
+            "reading": "ㄆㄧㄥˊ"
+          },
+          {
+            "text": "常",
+            "reading": "ㄔㄤˊ"
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "能",
+            "reading": "ㄋㄥˊ"
+          },
+          {
+            "text": "只",
+            "reading": "ㄓˇ"
+          },
+          {
+            "text": "知",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "道",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "小",
+            "reading": "ㄒㄧㄠˇ"
+          },
+          {
+            "text": "部",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "分",
+            "reading": "ㄈㄣˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "能",
+            "reading": "ㄋㄥˊ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "能",
+            "reading": "ㄋㄥˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "例",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "我們平常也可能只知道一󠇡件事的一󠇢小部分󠇡。你能不能說一󠇡個󠇡這樣的例子󠇡？"
+      },
+      "en": "We often know only a small part of something ourselves. Can you give an example of a time that happened to you?"
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "「盲人摸象」这句话，后来用来说什么样的人？你觉得我们可以怎么做，才不会变成那样的人？",
+        "pinyin": [
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "盲",
+            "reading": "máng"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "摸",
+            "reading": "mō"
+          },
+          {
+            "text": "象",
+            "reading": "xiàng"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "句",
+            "reading": "jù"
+          },
+          {
+            "text": "话",
+            "reading": "huà"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "「盲人摸象」這句話，後來用來說什麼樣的人？你覺得我們可以怎麼做，才不會變成那樣的人？",
+        "zhuyin": [
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "盲",
+            "reading": "ㄇㄤˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "摸",
+            "reading": "ㄇㄛ"
+          },
+          {
+            "text": "象",
+            "reading": "ㄒㄧㄤˋ"
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "句",
+            "reading": "ㄐㄩˋ"
+          },
+          {
+            "text": "話",
+            "reading": "ㄏㄨㄚˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "「盲人摸象」這句話，後來用來說什麼樣的人？你覺得󠇡我們可以怎麼做，才不󠇡會變成那樣的人？"
+      },
+      "en": "What kind of person does the phrase \"the blind men and the elephant\" describe? What can we do so that we don't become that kind of person?"
+    }
+  ]
+}

@@ -1,0 +1,5200 @@
+{
+  "slug": "nuwa-mends-the-sky",
+  "title": {
+    "trad": "女媧補天",
+    "simp": "女娲补天",
+    "en": "Nüwa Mends the Sky"
+  },
+  "open": [
+    {
+      "id": "q-open-001",
+      "simp": {
+        "text": "女娲创造的人们，白天做什么？晚上又做什么？",
+        "pinyin": [
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "创",
+            "reading": "chuàng"
+          },
+          {
+            "text": "造",
+            "reading": "zào"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "白",
+            "reading": "bái"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "晚",
+            "reading": "wǎn"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "又",
+            "reading": "yòu"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "女媧創造的人們，白天做什麼？晚上又做什麼？",
+        "zhuyin": [
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "創",
+            "reading": "ㄔㄨㄤˋ"
+          },
+          {
+            "text": "造",
+            "reading": "ㄗㄠˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "白",
+            "reading": "ㄅㄞˊ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "晚",
+            "reading": "ㄨㄢˇ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "又",
+            "reading": "ㄧㄡˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "女媧創造的人們，白天做什麼？晚上又做什麼？"
+      },
+      "en": "What did the people Nüwa created do during the day, and what did they do at night?"
+    },
+    {
+      "id": "q-open-002",
+      "simp": {
+        "text": "那时候，天上住着哪两位力气很大的神？",
+        "pinyin": [
+          {
+            "text": "那",
+            "reading": "nà"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "着",
+            "reading": "zhe"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "两",
+            "reading": "liǎng"
+          },
+          {
+            "text": "位",
+            "reading": "wèi"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "神",
+            "reading": "shén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "那時候，天上住著哪兩位力氣很大的神？",
+        "zhuyin": [
+          {
+            "text": "那",
+            "reading": "ㄋㄚˋ"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "著",
+            "reading": "ㄓㄜ˙"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "兩",
+            "reading": "ㄌㄧㄤˇ"
+          },
+          {
+            "text": "位",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "神",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "那時候，天上住著哪兩位力氣很大的神？"
+      },
+      "en": "In those times, which two mighty gods lived up in the heavens?"
+    },
+    {
+      "id": "q-open-003",
+      "simp": {
+        "text": "水神共工一生气的时候，河里的水会变成什么样子？",
+        "pinyin": [
+          {
+            "text": "水",
+            "reading": "shuǐ"
+          },
+          {
+            "text": "神",
+            "reading": "shén"
+          },
+          {
+            "text": "共",
+            "reading": "gòng"
+          },
+          {
+            "text": "工",
+            "reading": "gōng"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "河",
+            "reading": "hé"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "水",
+            "reading": "shuǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "水神共工一生氣的時候，河裡的水會變成什麼樣子？",
+        "zhuyin": [
+          {
+            "text": "水",
+            "reading": "ㄕㄨㄟˇ"
+          },
+          {
+            "text": "神",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "共",
+            "reading": "ㄍㄨㄥˋ"
+          },
+          {
+            "text": "工",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "河",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "水",
+            "reading": "ㄕㄨㄟˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "水神共工一󠇢生氣的時候，河裡的水會變成什麼樣子󠇡？"
+      },
+      "en": "When Gonggong the water god grew angry, what happened to the water in the rivers?"
+    },
+    {
+      "id": "q-open-004",
+      "simp": {
+        "text": "两位大神打了很久，最后是谁输了？",
+        "pinyin": [
+          {
+            "text": "两",
+            "reading": "liǎng"
+          },
+          {
+            "text": "位",
+            "reading": "wèi"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "神",
+            "reading": "shén"
+          },
+          {
+            "text": "打",
+            "reading": "dǎ"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "久",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "谁",
+            "reading": "shéi"
+          },
+          {
+            "text": "输",
+            "reading": "shū"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "兩位大神打了很久，最後是誰輸了？",
+        "zhuyin": [
+          {
+            "text": "兩",
+            "reading": "ㄌㄧㄤˇ"
+          },
+          {
+            "text": "位",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "神",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "打",
+            "reading": "ㄉㄚˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "久",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "誰",
+            "reading": "ㄕㄟˊ"
+          },
+          {
+            "text": "輸",
+            "reading": "ㄕㄨ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "兩位大神打了很久，最後是誰輸了？"
+      },
+      "en": "The two gods fought for a long time. Who lost in the end?"
+    },
+    {
+      "id": "q-open-005",
+      "simp": {
+        "text": "共工输了以后，他用全身的力气去撞哪一座山？",
+        "pinyin": [
+          {
+            "text": "共",
+            "reading": "gòng"
+          },
+          {
+            "text": "工",
+            "reading": "gōng"
+          },
+          {
+            "text": "输",
+            "reading": "shū"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "tā"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "全",
+            "reading": "quán"
+          },
+          {
+            "text": "身",
+            "reading": "shēn"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "撞",
+            "reading": "zhuàng"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "座",
+            "reading": "zuò"
+          },
+          {
+            "text": "山",
+            "reading": "shān"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "共工輸了以後，他用全身的力氣去撞哪一座山？",
+        "zhuyin": [
+          {
+            "text": "共",
+            "reading": "ㄍㄨㄥˋ"
+          },
+          {
+            "text": "工",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "輸",
+            "reading": "ㄕㄨ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "他",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "全",
+            "reading": "ㄑㄩㄢˊ"
+          },
+          {
+            "text": "身",
+            "reading": "ㄕㄣ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "撞",
+            "reading": "ㄓㄨㄤˋ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "座",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "山",
+            "reading": "ㄕㄢ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "共工輸了以後，他用全身的力氣去撞哪一󠇡座山？"
+      },
+      "en": "After Gonggong lost, which mountain did he hurl himself against with all his strength?"
+    },
+    {
+      "id": "q-open-006",
+      "simp": {
+        "text": "不周山断了以后，天空和大地变成了什么样子？",
+        "pinyin": [
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "周",
+            "reading": "zhōu"
+          },
+          {
+            "text": "山",
+            "reading": "shān"
+          },
+          {
+            "text": "断",
+            "reading": "duàn"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "空",
+            "reading": "kōng"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "地",
+            "reading": "dì"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "不周山斷了以後，天空和大地變成了什麼樣子？",
+        "zhuyin": [
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "周",
+            "reading": "ㄓㄡ"
+          },
+          {
+            "text": "山",
+            "reading": "ㄕㄢ"
+          },
+          {
+            "text": "斷",
+            "reading": "ㄉㄨㄢˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "空",
+            "reading": "ㄎㄨㄥ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "不周山斷了以後，天空和大地變成了什麼樣子󠇡？"
+      },
+      "en": "After Mount Buzhou snapped, what happened to the sky and to the earth?"
+    },
+    {
+      "id": "q-open-007",
+      "simp": {
+        "text": "天破了以后，人们住的地方为什么变成了一片大海？",
+        "pinyin": [
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "破",
+            "reading": "pò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "地",
+            "reading": "dì"
+          },
+          {
+            "text": "方",
+            "reading": "fāng"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "变",
+            "reading": "biàn"
+          },
+          {
+            "text": "成",
+            "reading": "chéng"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "片",
+            "reading": "piàn"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "海",
+            "reading": "hǎi"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "天破了以後，人們住的地方為什麼變成了一片大海？",
+        "zhuyin": [
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "破",
+            "reading": "ㄆㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "方",
+            "reading": "ㄈㄤ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "變",
+            "reading": "ㄅㄧㄢˋ"
+          },
+          {
+            "text": "成",
+            "reading": "ㄔㄥˊ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "片",
+            "reading": "ㄆㄧㄢˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "海",
+            "reading": "ㄏㄞˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "天破了以後，人們住的地方為󠇡什麼變成了一󠇡片大海？"
+      },
+      "en": "After the sky broke open, why did the places where people lived turn into a wide sea?"
+    },
+    {
+      "id": "q-open-008",
+      "simp": {
+        "text": "女娲从黄河里挑出什么样的石头？她把石头放进哪里？",
+        "pinyin": [
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "从",
+            "reading": "cóng"
+          },
+          {
+            "text": "黄",
+            "reading": "huáng"
+          },
+          {
+            "text": "河",
+            "reading": "hé"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "挑",
+            "reading": "tiāo"
+          },
+          {
+            "text": "出",
+            "reading": "chū"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "石",
+            "reading": "shí"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "她",
+            "reading": "tā"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "石",
+            "reading": "shí"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          },
+          {
+            "text": "放",
+            "reading": "fàng"
+          },
+          {
+            "text": "进",
+            "reading": "jìn"
+          },
+          {
+            "text": "哪",
+            "reading": "nǎ"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "女媧從黃河裡挑出什麼樣的石頭？她把石頭放進哪裡？",
+        "zhuyin": [
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "從",
+            "reading": "ㄘㄨㄥˊ"
+          },
+          {
+            "text": "黃",
+            "reading": "ㄏㄨㄤˊ"
+          },
+          {
+            "text": "河",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "挑",
+            "reading": "ㄊㄧㄠ"
+          },
+          {
+            "text": "出",
+            "reading": "ㄔㄨ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "石",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "她",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "石",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          },
+          {
+            "text": "放",
+            "reading": "ㄈㄤˋ"
+          },
+          {
+            "text": "進",
+            "reading": "ㄐㄧㄣˋ"
+          },
+          {
+            "text": "哪",
+            "reading": "ㄋㄚˇ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "女媧從黃河裡挑󠇡出什麼樣的石頭？她把石頭放進哪裡？"
+      },
+      "en": "What kind of stones did Nüwa pick out of the Yellow River, and where did she put them?"
+    },
+    {
+      "id": "q-open-009",
+      "simp": {
+        "text": "女娲一共补了几天几夜的天？补天的时候，她有没有吃东西和睡觉？",
+        "pinyin": [
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "共",
+            "reading": "gòng"
+          },
+          {
+            "text": "补",
+            "reading": "bǔ"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "几",
+            "reading": "jǐ"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "几",
+            "reading": "jǐ"
+          },
+          {
+            "text": "夜",
+            "reading": "yè"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "补",
+            "reading": "bǔ"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "她",
+            "reading": "tā"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "吃",
+            "reading": "chī"
+          },
+          {
+            "text": "东",
+            "reading": "dōng"
+          },
+          {
+            "text": "西",
+            "reading": "xi"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "睡",
+            "reading": "shuì"
+          },
+          {
+            "text": "觉",
+            "reading": "jiào"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "女媧一共補了幾天幾夜的天？補天的時候，她有沒有吃東西和睡覺？",
+        "zhuyin": [
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "共",
+            "reading": "ㄍㄨㄥˋ"
+          },
+          {
+            "text": "補",
+            "reading": "ㄅㄨˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "幾",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "幾",
+            "reading": "ㄐㄧˇ"
+          },
+          {
+            "text": "夜",
+            "reading": "ㄧㄝˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "補",
+            "reading": "ㄅㄨˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "她",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "吃",
+            "reading": "ㄔ"
+          },
+          {
+            "text": "東",
+            "reading": "ㄉㄨㄥ"
+          },
+          {
+            "text": "西",
+            "reading": "ㄒㄧ˙"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "睡",
+            "reading": "ㄕㄨㄟˋ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄧㄠˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "女媧一󠇡共補了幾天幾夜的天？補天的時候，她有沒有吃東西󠇡和睡覺󠇡？"
+      },
+      "en": "How many days and nights did Nüwa spend mending the sky, and did she eat or sleep while she worked?"
+    },
+    {
+      "id": "q-open-010",
+      "simp": {
+        "text": "天补好了以后，女娲用什么把天空稳稳地撑住？",
+        "pinyin": [
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "补",
+            "reading": "bǔ"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "空",
+            "reading": "kōng"
+          },
+          {
+            "text": "稳",
+            "reading": "wěn"
+          },
+          {
+            "text": "稳",
+            "reading": "wěn"
+          },
+          {
+            "text": "地",
+            "reading": "de"
+          },
+          {
+            "text": "撑",
+            "reading": "chēng"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "天補好了以後，女媧用什麼把天空穩穩地撐住？",
+        "zhuyin": [
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "補",
+            "reading": "ㄅㄨˇ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "空",
+            "reading": "ㄎㄨㄥ"
+          },
+          {
+            "text": "穩",
+            "reading": "ㄨㄣˇ"
+          },
+          {
+            "text": "穩",
+            "reading": "ㄨㄣˇ"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "撐",
+            "reading": "ㄔㄥ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "天補好了以後，女媧用什麼把天空穩穩地󠇡撐住？"
+      },
+      "en": "After the sky was mended, what did Nüwa use to hold it up steadily?"
+    }
+  ],
+  "beyond": [
+    {
+      "id": "q-beyond-001",
+      "simp": {
+        "text": "共工和祝融吵架，受苦的却是地上的人们。你觉得，两个人吵架的时候，为什么常常会影响到旁边的人？",
+        "pinyin": [
+          {
+            "text": "共",
+            "reading": "gòng"
+          },
+          {
+            "text": "工",
+            "reading": "gōng"
+          },
+          {
+            "text": "和",
+            "reading": "hé"
+          },
+          {
+            "text": "祝",
+            "reading": "zhù"
+          },
+          {
+            "text": "融",
+            "reading": "róng"
+          },
+          {
+            "text": "吵",
+            "reading": "chǎo"
+          },
+          {
+            "text": "架",
+            "reading": "jià"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "受",
+            "reading": "shòu"
+          },
+          {
+            "text": "苦",
+            "reading": "kǔ"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "却",
+            "reading": "què"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "地",
+            "reading": "dì"
+          },
+          {
+            "text": "上",
+            "reading": "shàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "两",
+            "reading": "liǎng"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "吵",
+            "reading": "chǎo"
+          },
+          {
+            "text": "架",
+            "reading": "jià"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "常",
+            "reading": "cháng"
+          },
+          {
+            "text": "常",
+            "reading": "cháng"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "影",
+            "reading": "yǐng"
+          },
+          {
+            "text": "响",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "旁",
+            "reading": "páng"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "共工和祝融吵架，受苦的卻是地上的人們。你覺得，兩個人吵架的時候，為什麼常常會影響到旁邊的人？",
+        "zhuyin": [
+          {
+            "text": "共",
+            "reading": "ㄍㄨㄥˋ"
+          },
+          {
+            "text": "工",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "和",
+            "reading": "ㄏㄜˊ"
+          },
+          {
+            "text": "祝",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "融",
+            "reading": "ㄖㄨㄥˊ"
+          },
+          {
+            "text": "吵",
+            "reading": "ㄔㄠˇ"
+          },
+          {
+            "text": "架",
+            "reading": "ㄐㄧㄚˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "受",
+            "reading": "ㄕㄡˋ"
+          },
+          {
+            "text": "苦",
+            "reading": "ㄎㄨˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "卻",
+            "reading": "ㄑㄩㄝˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "地",
+            "reading": "ㄉㄧˋ"
+          },
+          {
+            "text": "上",
+            "reading": "ㄕㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "兩",
+            "reading": "ㄌㄧㄤˇ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "吵",
+            "reading": "ㄔㄠˇ"
+          },
+          {
+            "text": "架",
+            "reading": "ㄐㄧㄚˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "常",
+            "reading": "ㄔㄤˊ"
+          },
+          {
+            "text": "常",
+            "reading": "ㄔㄤˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "影",
+            "reading": "ㄧㄥˇ"
+          },
+          {
+            "text": "響",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "旁",
+            "reading": "ㄆㄤˊ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "共工和祝融吵架，受苦的卻是地上的人們。你覺得󠇡，兩個󠇡人吵架的時候，為󠇡什麼常常會影響到旁邊的人？"
+      },
+      "en": "Gonggong and Zhurong quarreled, but it was the people on earth who suffered. Why do you think a fight between two people so often reaches the people around them?"
+    },
+    {
+      "id": "q-beyond-002",
+      "simp": {
+        "text": "共工输了以后，又丢脸又生气，就去撞不周山。你生气的时候，可以怎么做，才不会伤害别人？",
+        "pinyin": [
+          {
+            "text": "共",
+            "reading": "gòng"
+          },
+          {
+            "text": "工",
+            "reading": "gōng"
+          },
+          {
+            "text": "输",
+            "reading": "shū"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "又",
+            "reading": "yòu"
+          },
+          {
+            "text": "丢",
+            "reading": "diū"
+          },
+          {
+            "text": "脸",
+            "reading": "liǎn"
+          },
+          {
+            "text": "又",
+            "reading": "yòu"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "去",
+            "reading": "qù"
+          },
+          {
+            "text": "撞",
+            "reading": "zhuàng"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "周",
+            "reading": "zhōu"
+          },
+          {
+            "text": "山",
+            "reading": "shān"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "气",
+            "reading": "qì"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "时",
+            "reading": "shí"
+          },
+          {
+            "text": "候",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "伤",
+            "reading": "shāng"
+          },
+          {
+            "text": "害",
+            "reading": "hài"
+          },
+          {
+            "text": "别",
+            "reading": "bié"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "共工輸了以後，又丟臉又生氣，就去撞不周山。你生氣的時候，可以怎麼做，才不會傷害別人？",
+        "zhuyin": [
+          {
+            "text": "共",
+            "reading": "ㄍㄨㄥˋ"
+          },
+          {
+            "text": "工",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "輸",
+            "reading": "ㄕㄨ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "又",
+            "reading": "ㄧㄡˋ"
+          },
+          {
+            "text": "丟",
+            "reading": "ㄉㄧㄡ"
+          },
+          {
+            "text": "臉",
+            "reading": "ㄌㄧㄢˇ"
+          },
+          {
+            "text": "又",
+            "reading": "ㄧㄡˋ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "去",
+            "reading": "ㄑㄩˋ"
+          },
+          {
+            "text": "撞",
+            "reading": "ㄓㄨㄤˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "周",
+            "reading": "ㄓㄡ"
+          },
+          {
+            "text": "山",
+            "reading": "ㄕㄢ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "氣",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "時",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "候",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "傷",
+            "reading": "ㄕㄤ"
+          },
+          {
+            "text": "害",
+            "reading": "ㄏㄞˋ"
+          },
+          {
+            "text": "別",
+            "reading": "ㄅㄧㄝˊ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "共工輸了以後，又丟臉又生氣，就去撞不周山。你生氣的時候，可以怎麼做，才不󠇡會傷害別人？"
+      },
+      "en": "After Gonggong lost, he felt shamed and furious, so he smashed into Mount Buzhou. When you are angry, what can you do so that no one gets hurt?"
+    },
+    {
+      "id": "q-beyond-003",
+      "simp": {
+        "text": "女娲说：「不管多难，我一定要把孩子们都救回来！」你有没有做过一件很难的事，难到想放弃，最后还是做完了？",
+        "pinyin": [
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "：",
+            "reading": ""
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "管",
+            "reading": "guǎn"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "难",
+            "reading": "nán"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "我",
+            "reading": "wǒ"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "定",
+            "reading": "dìng"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "把",
+            "reading": "bǎ"
+          },
+          {
+            "text": "孩",
+            "reading": "hái"
+          },
+          {
+            "text": "子",
+            "reading": "zi"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "都",
+            "reading": "dōu"
+          },
+          {
+            "text": "救",
+            "reading": "jiù"
+          },
+          {
+            "text": "回",
+            "reading": "huí"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "！",
+            "reading": ""
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "没",
+            "reading": "méi"
+          },
+          {
+            "text": "有",
+            "reading": "yǒu"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "过",
+            "reading": "guò"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "件",
+            "reading": "jiàn"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "难",
+            "reading": "nán"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "难",
+            "reading": "nán"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "放",
+            "reading": "fàng"
+          },
+          {
+            "text": "弃",
+            "reading": "qì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "完",
+            "reading": "wán"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "女媧說：「不管多難，我一定要把孩子們都救回來！」你有沒有做過一件很難的事，難到想放棄，最後還是做完了？",
+        "zhuyin": [
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "：",
+            "reading": ""
+          },
+          {
+            "text": "「",
+            "reading": ""
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "管",
+            "reading": "ㄍㄨㄢˇ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "難",
+            "reading": "ㄋㄢˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "我",
+            "reading": "ㄨㄛˇ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "定",
+            "reading": "ㄉㄧㄥˋ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "把",
+            "reading": "ㄅㄚˇ"
+          },
+          {
+            "text": "孩",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "子",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "都",
+            "reading": "ㄉㄡ"
+          },
+          {
+            "text": "救",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "回",
+            "reading": "ㄏㄨㄟˊ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "！",
+            "reading": ""
+          },
+          {
+            "text": "」",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "沒",
+            "reading": "ㄇㄟˊ"
+          },
+          {
+            "text": "有",
+            "reading": "ㄧㄡˇ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "過",
+            "reading": "ㄍㄨㄛˋ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "件",
+            "reading": "ㄐㄧㄢˋ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "難",
+            "reading": "ㄋㄢˊ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "難",
+            "reading": "ㄋㄢˊ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "放",
+            "reading": "ㄈㄤˋ"
+          },
+          {
+            "text": "棄",
+            "reading": "ㄑㄧˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "完",
+            "reading": "ㄨㄢˊ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "女媧說：「不管多難，我一󠇡定要把孩子󠇡們都救回來！」你有沒有做過一󠇡件很難的事，難到想放棄，最後還是做完了？"
+      },
+      "en": "Nüwa said, no matter how hard it is, I will bring every one of them back. Have you ever done something so hard you wanted to give up, and finished it anyway?"
+    },
+    {
+      "id": "q-beyond-004",
+      "simp": {
+        "text": "女娲搬石头搬到手磨破了皮，她还是不停。你觉得是什么力量让她停不下来？",
+        "pinyin": [
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "搬",
+            "reading": "bān"
+          },
+          {
+            "text": "石",
+            "reading": "shí"
+          },
+          {
+            "text": "头",
+            "reading": "tóu"
+          },
+          {
+            "text": "搬",
+            "reading": "bān"
+          },
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "手",
+            "reading": "shǒu"
+          },
+          {
+            "text": "磨",
+            "reading": "mó"
+          },
+          {
+            "text": "破",
+            "reading": "pò"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "皮",
+            "reading": "pí"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "她",
+            "reading": "tā"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "停",
+            "reading": "tíng"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "力",
+            "reading": "lì"
+          },
+          {
+            "text": "量",
+            "reading": "liàng"
+          },
+          {
+            "text": "让",
+            "reading": "ràng"
+          },
+          {
+            "text": "她",
+            "reading": "tā"
+          },
+          {
+            "text": "停",
+            "reading": "tíng"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "女媧搬石頭搬到手磨破了皮，她還是不停。你覺得是什麼力量讓她停不下來？",
+        "zhuyin": [
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "搬",
+            "reading": "ㄅㄢ"
+          },
+          {
+            "text": "石",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "頭",
+            "reading": "ㄊㄡˊ"
+          },
+          {
+            "text": "搬",
+            "reading": "ㄅㄢ"
+          },
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "手",
+            "reading": "ㄕㄡˇ"
+          },
+          {
+            "text": "磨",
+            "reading": "ㄇㄛˊ"
+          },
+          {
+            "text": "破",
+            "reading": "ㄆㄛˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "皮",
+            "reading": "ㄆㄧˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "她",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "停",
+            "reading": "ㄊㄧㄥˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "力",
+            "reading": "ㄌㄧˋ"
+          },
+          {
+            "text": "量",
+            "reading": "ㄌㄧㄤˋ"
+          },
+          {
+            "text": "讓",
+            "reading": "ㄖㄤˋ"
+          },
+          {
+            "text": "她",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "停",
+            "reading": "ㄊㄧㄥˊ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "女媧搬石頭搬到手磨破了皮，她還是不停。你覺得󠇡是什麼力量讓她停不󠇡下來？"
+      },
+      "en": "Nüwa carried stones until the skin on her hands wore through, and still she did not stop. What do you think kept her going?"
+    },
+    {
+      "id": "q-beyond-005",
+      "simp": {
+        "text": "女娲补天补了九天九夜，不吃也不睡。你觉得这样做值得吗？为什么？",
+        "pinyin": [
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "补",
+            "reading": "bǔ"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "补",
+            "reading": "bǔ"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "九",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "九",
+            "reading": "jiǔ"
+          },
+          {
+            "text": "夜",
+            "reading": "yè"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "不",
+            "reading": "bù"
+          },
+          {
+            "text": "吃",
+            "reading": "chī"
+          },
+          {
+            "text": "也",
+            "reading": "yě"
+          },
+          {
+            "text": "不",
+            "reading": "bú"
+          },
+          {
+            "text": "睡",
+            "reading": "shuì"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "值",
+            "reading": "zhí"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "女媧補天補了九天九夜，不吃也不睡。你覺得這樣做值得嗎？為什麼？",
+        "zhuyin": [
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "補",
+            "reading": "ㄅㄨˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "補",
+            "reading": "ㄅㄨˇ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "九",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "九",
+            "reading": "ㄐㄧㄡˇ"
+          },
+          {
+            "text": "夜",
+            "reading": "ㄧㄝˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˋ"
+          },
+          {
+            "text": "吃",
+            "reading": "ㄔ"
+          },
+          {
+            "text": "也",
+            "reading": "ㄧㄝˇ"
+          },
+          {
+            "text": "不",
+            "reading": "ㄅㄨˊ"
+          },
+          {
+            "text": "睡",
+            "reading": "ㄕㄨㄟˋ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "值",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "女媧補天補了九天九夜，不吃也不󠇡睡。你覺得󠇡這樣做值得󠇡嗎？為󠇡什麼？"
+      },
+      "en": "Nüwa mended the sky for nine days and nine nights without eating or sleeping. Do you think it was worth it? Why?"
+    },
+    {
+      "id": "q-beyond-006",
+      "simp": {
+        "text": "为了撑住天空，女娲砍下了神龟的四只脚。你觉得为了救很多人，就可以这样做吗？",
+        "pinyin": [
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "撑",
+            "reading": "chēng"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "空",
+            "reading": "kōng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "砍",
+            "reading": "kǎn"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "神",
+            "reading": "shén"
+          },
+          {
+            "text": "龟",
+            "reading": "guī"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "四",
+            "reading": "sì"
+          },
+          {
+            "text": "只",
+            "reading": "zhī"
+          },
+          {
+            "text": "脚",
+            "reading": "jiǎo"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "救",
+            "reading": "jiù"
+          },
+          {
+            "text": "很",
+            "reading": "hěn"
+          },
+          {
+            "text": "多",
+            "reading": "duō"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "就",
+            "reading": "jiù"
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "為了撐住天空，女媧砍下了神龜的四隻腳。你覺得為了救很多人，就可以這樣做嗎？",
+        "zhuyin": [
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "撐",
+            "reading": "ㄔㄥ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "空",
+            "reading": "ㄎㄨㄥ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "砍",
+            "reading": "ㄎㄢˇ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "神",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "龜",
+            "reading": "ㄍㄨㄟ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "四",
+            "reading": "ㄙˋ"
+          },
+          {
+            "text": "隻",
+            "reading": "ㄓ"
+          },
+          {
+            "text": "腳",
+            "reading": "ㄐㄧㄠˇ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "救",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "很",
+            "reading": "ㄏㄣˇ"
+          },
+          {
+            "text": "多",
+            "reading": "ㄉㄨㄛ"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "就",
+            "reading": "ㄐㄧㄡˋ"
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "為󠇡了撐住天空，女媧砍下了神龜的四隻腳。你覺得󠇡為󠇡了救很多人，就可以這樣做嗎？"
+      },
+      "en": "To hold up the sky, Nüwa cut off the four legs of the giant turtle. Do you think that is all right to do if it saves many people?"
+    },
+    {
+      "id": "q-beyond-007",
+      "simp": {
+        "text": "共工闯的祸，最后是女娲来收拾。你觉得这样公平吗？如果你是女娲，你心里会怎么想？",
+        "pinyin": [
+          {
+            "text": "共",
+            "reading": "gòng"
+          },
+          {
+            "text": "工",
+            "reading": "gōng"
+          },
+          {
+            "text": "闯",
+            "reading": "chuǎng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "祸",
+            "reading": "huò"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "zuì"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "收",
+            "reading": "shōu"
+          },
+          {
+            "text": "拾",
+            "reading": "shí"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "这",
+            "reading": "zhè"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "公",
+            "reading": "gōng"
+          },
+          {
+            "text": "平",
+            "reading": "píng"
+          },
+          {
+            "text": "吗",
+            "reading": "ma"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "rú"
+          },
+          {
+            "text": "果",
+            "reading": "guǒ"
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "心",
+            "reading": "xīn"
+          },
+          {
+            "text": "里",
+            "reading": "lǐ"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "怎",
+            "reading": "zěn"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "想",
+            "reading": "xiǎng"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "共工闖的禍，最後是女媧來收拾。你覺得這樣公平嗎？如果你是女媧，你心裡會怎麼想？",
+        "zhuyin": [
+          {
+            "text": "共",
+            "reading": "ㄍㄨㄥˋ"
+          },
+          {
+            "text": "工",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "闖",
+            "reading": "ㄔㄨㄤˇ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "禍",
+            "reading": "ㄏㄨㄛˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "最",
+            "reading": "ㄗㄨㄟˋ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "收",
+            "reading": "ㄕㄡ"
+          },
+          {
+            "text": "拾",
+            "reading": "ㄕˊ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "這",
+            "reading": "ㄓㄜˋ"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "公",
+            "reading": "ㄍㄨㄥ"
+          },
+          {
+            "text": "平",
+            "reading": "ㄆㄧㄥˊ"
+          },
+          {
+            "text": "嗎",
+            "reading": "ㄇㄚ˙"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          },
+          {
+            "text": "如",
+            "reading": "ㄖㄨˊ"
+          },
+          {
+            "text": "果",
+            "reading": "ㄍㄨㄛˇ"
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "心",
+            "reading": "ㄒㄧㄣ"
+          },
+          {
+            "text": "裡",
+            "reading": "ㄌㄧˇ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "怎",
+            "reading": "ㄗㄣˇ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "想",
+            "reading": "ㄒㄧㄤˇ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "共工闖的禍，最後是女媧來收拾。你覺得󠇡這樣公平嗎？如果你是女媧，你心裡會怎麼想？"
+      },
+      "en": "Gonggong caused the disaster, but it was Nüwa who cleaned it up. Do you think that is fair? If you were Nüwa, how would you feel about it?"
+    },
+    {
+      "id": "q-beyond-008",
+      "simp": {
+        "text": "据说下雨后的彩虹，是女娲补天留下的痕迹。你觉得人们为什么喜欢用故事来解释身边发生的事？",
+        "pinyin": [
+          {
+            "text": "据",
+            "reading": "jù"
+          },
+          {
+            "text": "说",
+            "reading": "shuō"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "雨",
+            "reading": "yǔ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "彩",
+            "reading": "cǎi"
+          },
+          {
+            "text": "虹",
+            "reading": "hóng"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "补",
+            "reading": "bǔ"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "留",
+            "reading": "liú"
+          },
+          {
+            "text": "下",
+            "reading": "xià"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "痕",
+            "reading": "hén"
+          },
+          {
+            "text": "迹",
+            "reading": "jī"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "喜",
+            "reading": "xǐ"
+          },
+          {
+            "text": "欢",
+            "reading": "huān"
+          },
+          {
+            "text": "用",
+            "reading": "yòng"
+          },
+          {
+            "text": "故",
+            "reading": "gù"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "来",
+            "reading": "lái"
+          },
+          {
+            "text": "解",
+            "reading": "jiě"
+          },
+          {
+            "text": "释",
+            "reading": "shì"
+          },
+          {
+            "text": "身",
+            "reading": "shēn"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "发",
+            "reading": "fā"
+          },
+          {
+            "text": "生",
+            "reading": "shēng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "據說下雨後的彩虹，是女媧補天留下的痕跡。你覺得人們為什麼喜歡用故事來解釋身邊發生的事？",
+        "zhuyin": [
+          {
+            "text": "據",
+            "reading": "ㄐㄩˋ"
+          },
+          {
+            "text": "說",
+            "reading": "ㄕㄨㄛ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "雨",
+            "reading": "ㄩˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "彩",
+            "reading": "ㄘㄞˇ"
+          },
+          {
+            "text": "虹",
+            "reading": "ㄏㄨㄥˊ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "補",
+            "reading": "ㄅㄨˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "留",
+            "reading": "ㄌㄧㄡˊ"
+          },
+          {
+            "text": "下",
+            "reading": "ㄒㄧㄚˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "痕",
+            "reading": "ㄏㄣˊ"
+          },
+          {
+            "text": "跡",
+            "reading": "ㄐㄧ"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "喜",
+            "reading": "ㄒㄧˇ"
+          },
+          {
+            "text": "歡",
+            "reading": "ㄏㄨㄢ"
+          },
+          {
+            "text": "用",
+            "reading": "ㄩㄥˋ"
+          },
+          {
+            "text": "故",
+            "reading": "ㄍㄨˋ"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "來",
+            "reading": "ㄌㄞˊ"
+          },
+          {
+            "text": "解",
+            "reading": "ㄐㄧㄝˇ"
+          },
+          {
+            "text": "釋",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "身",
+            "reading": "ㄕㄣ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "發",
+            "reading": "ㄈㄚ"
+          },
+          {
+            "text": "生",
+            "reading": "ㄕㄥ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "據說下雨後的彩虹，是女媧補天留下的痕跡。你覺得󠇡人們為󠇡什麼喜歡用故事來解釋身邊發生的事？"
+      },
+      "en": "They say the rainbow after rain is the mark Nüwa left when she mended the sky. Why do you think people like to explain the everyday things around them with stories?"
+    },
+    {
+      "id": "q-beyond-009",
+      "simp": {
+        "text": "补好天以后，女娲累得靠在山边，可是她笑了。你觉得她为什么笑？",
+        "pinyin": [
+          {
+            "text": "补",
+            "reading": "bǔ"
+          },
+          {
+            "text": "好",
+            "reading": "hǎo"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "以",
+            "reading": "yǐ"
+          },
+          {
+            "text": "后",
+            "reading": "hòu"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "累",
+            "reading": "lèi"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "靠",
+            "reading": "kào"
+          },
+          {
+            "text": "在",
+            "reading": "zài"
+          },
+          {
+            "text": "山",
+            "reading": "shān"
+          },
+          {
+            "text": "边",
+            "reading": "biān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "kě"
+          },
+          {
+            "text": "是",
+            "reading": "shì"
+          },
+          {
+            "text": "她",
+            "reading": "tā"
+          },
+          {
+            "text": "笑",
+            "reading": "xiào"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "她",
+            "reading": "tā"
+          },
+          {
+            "text": "为",
+            "reading": "wèi"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "笑",
+            "reading": "xiào"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "補好天以後，女媧累得靠在山邊，可是她笑了。你覺得她為什麼笑？",
+        "zhuyin": [
+          {
+            "text": "補",
+            "reading": "ㄅㄨˇ"
+          },
+          {
+            "text": "好",
+            "reading": "ㄏㄠˇ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "以",
+            "reading": "ㄧˇ"
+          },
+          {
+            "text": "後",
+            "reading": "ㄏㄡˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "累",
+            "reading": "ㄌㄟˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "靠",
+            "reading": "ㄎㄠˋ"
+          },
+          {
+            "text": "在",
+            "reading": "ㄗㄞˋ"
+          },
+          {
+            "text": "山",
+            "reading": "ㄕㄢ"
+          },
+          {
+            "text": "邊",
+            "reading": "ㄅㄧㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "可",
+            "reading": "ㄎㄜˇ"
+          },
+          {
+            "text": "是",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "她",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "笑",
+            "reading": "ㄒㄧㄠˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "她",
+            "reading": "ㄊㄚ"
+          },
+          {
+            "text": "為",
+            "reading": "ㄨㄟˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "笑",
+            "reading": "ㄒㄧㄠˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "補好天以後，女媧累得󠇡靠在山邊，可是她笑了。你覺得󠇡她為󠇡什麼笑？"
+      },
+      "en": "When the sky was whole again, Nüwa leaned against the mountain, worn out, and yet she smiled. Why do you think she smiled?"
+    },
+    {
+      "id": "q-beyond-010",
+      "simp": {
+        "text": "到了今天，人们还记得女娲的名字。你觉得一个人要做什么样的事，才会被大家一直记住？",
+        "pinyin": [
+          {
+            "text": "到",
+            "reading": "dào"
+          },
+          {
+            "text": "了",
+            "reading": "le"
+          },
+          {
+            "text": "今",
+            "reading": "jīn"
+          },
+          {
+            "text": "天",
+            "reading": "tiān"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "们",
+            "reading": "men"
+          },
+          {
+            "text": "还",
+            "reading": "hái"
+          },
+          {
+            "text": "记",
+            "reading": "jì"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "女",
+            "reading": "nǚ"
+          },
+          {
+            "text": "娲",
+            "reading": "wā"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "名",
+            "reading": "míng"
+          },
+          {
+            "text": "字",
+            "reading": "zi"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "nǐ"
+          },
+          {
+            "text": "觉",
+            "reading": "jué"
+          },
+          {
+            "text": "得",
+            "reading": "de"
+          },
+          {
+            "text": "一",
+            "reading": "yí"
+          },
+          {
+            "text": "个",
+            "reading": "ge"
+          },
+          {
+            "text": "人",
+            "reading": "rén"
+          },
+          {
+            "text": "要",
+            "reading": "yào"
+          },
+          {
+            "text": "做",
+            "reading": "zuò"
+          },
+          {
+            "text": "什",
+            "reading": "shén"
+          },
+          {
+            "text": "么",
+            "reading": "me"
+          },
+          {
+            "text": "样",
+            "reading": "yàng"
+          },
+          {
+            "text": "的",
+            "reading": "de"
+          },
+          {
+            "text": "事",
+            "reading": "shì"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "cái"
+          },
+          {
+            "text": "会",
+            "reading": "huì"
+          },
+          {
+            "text": "被",
+            "reading": "bèi"
+          },
+          {
+            "text": "大",
+            "reading": "dà"
+          },
+          {
+            "text": "家",
+            "reading": "jiā"
+          },
+          {
+            "text": "一",
+            "reading": "yì"
+          },
+          {
+            "text": "直",
+            "reading": "zhí"
+          },
+          {
+            "text": "记",
+            "reading": "jì"
+          },
+          {
+            "text": "住",
+            "reading": "zhù"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ]
+      },
+      "trad": {
+        "text": "到了今天，人們還記得女媧的名字。你覺得一個人要做什麼樣的事，才會被大家一直記住？",
+        "zhuyin": [
+          {
+            "text": "到",
+            "reading": "ㄉㄠˋ"
+          },
+          {
+            "text": "了",
+            "reading": "ㄌㄜ˙"
+          },
+          {
+            "text": "今",
+            "reading": "ㄐㄧㄣ"
+          },
+          {
+            "text": "天",
+            "reading": "ㄊㄧㄢ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "們",
+            "reading": "ㄇㄣ˙"
+          },
+          {
+            "text": "還",
+            "reading": "ㄏㄞˊ"
+          },
+          {
+            "text": "記",
+            "reading": "ㄐㄧˋ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "女",
+            "reading": "ㄋㄩˇ"
+          },
+          {
+            "text": "媧",
+            "reading": "ㄨㄚ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "名",
+            "reading": "ㄇㄧㄥˊ"
+          },
+          {
+            "text": "字",
+            "reading": "ㄗ˙"
+          },
+          {
+            "text": "。",
+            "reading": ""
+          },
+          {
+            "text": "你",
+            "reading": "ㄋㄧˇ"
+          },
+          {
+            "text": "覺",
+            "reading": "ㄐㄩㄝˊ"
+          },
+          {
+            "text": "得",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˊ"
+          },
+          {
+            "text": "個",
+            "reading": "ㄍㄜ˙"
+          },
+          {
+            "text": "人",
+            "reading": "ㄖㄣˊ"
+          },
+          {
+            "text": "要",
+            "reading": "ㄧㄠˋ"
+          },
+          {
+            "text": "做",
+            "reading": "ㄗㄨㄛˋ"
+          },
+          {
+            "text": "什",
+            "reading": "ㄕㄣˊ"
+          },
+          {
+            "text": "麼",
+            "reading": "ㄇㄜ˙"
+          },
+          {
+            "text": "樣",
+            "reading": "ㄧㄤˋ"
+          },
+          {
+            "text": "的",
+            "reading": "ㄉㄜ˙"
+          },
+          {
+            "text": "事",
+            "reading": "ㄕˋ"
+          },
+          {
+            "text": "，",
+            "reading": ""
+          },
+          {
+            "text": "才",
+            "reading": "ㄘㄞˊ"
+          },
+          {
+            "text": "會",
+            "reading": "ㄏㄨㄟˋ"
+          },
+          {
+            "text": "被",
+            "reading": "ㄅㄟˋ"
+          },
+          {
+            "text": "大",
+            "reading": "ㄉㄚˋ"
+          },
+          {
+            "text": "家",
+            "reading": "ㄐㄧㄚ"
+          },
+          {
+            "text": "一",
+            "reading": "ㄧˋ"
+          },
+          {
+            "text": "直",
+            "reading": "ㄓˊ"
+          },
+          {
+            "text": "記",
+            "reading": "ㄐㄧˋ"
+          },
+          {
+            "text": "住",
+            "reading": "ㄓㄨˋ"
+          },
+          {
+            "text": "？",
+            "reading": ""
+          }
+        ],
+        "bpmf": "到了今天，人們還記得󠇡女媧的名字󠇡。你覺得󠇡一󠇡個󠇡人要做什麼樣的事，才會被大家一󠇢直記住？"
+      },
+      "en": "People still remember Nüwa's name today. What kind of thing does someone have to do to be remembered for that long?"
+    }
+  ]
+}
