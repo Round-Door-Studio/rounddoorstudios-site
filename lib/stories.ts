@@ -227,20 +227,20 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 12, slug: 'farmer-who-waited-for-the-rabbit', season: 1, released: false,
+    num: 12, slug: 'farmer-who-waited-for-the-rabbit', season: 1, released: true,
     title: { en: 'The Farmer Who Waited for the Rabbit', simp: '守株待兔', trad: '守株待兔' },
     blurb: 'A hardworking farmer gets lucky when a rabbit runs into a tree stump—but waiting for the next one may cost him everything.', 
     runtime: '13-14 min', pub: 'Aug 26, 2026', coverColor: '#A8513A', coverImage: '/img/covers/farmer-rabbit_SQ.png',
     audio: {
       en: {
-        spotify: 'https://open.spotify.com/episode/1vOpNWacCxIUvddnUnxJS9?si=P4AVksiUT7ul2nzlBfskNQ',
+        spotify: 'https://open.spotify.com/episode/1vOpNWacCxIUvddnUnxJS9?si=63uPInebRqaDLbfcPcIyyA',
         youtube: 'https://youtu.be/L3ruaj3kit4',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000786046705',
       },
       zh: {
-        spotify: 'https://open.spotify.com/episode/5LKwGy39eSm2j5GFFplB1D?si=z5d4afDiRCSvrNFih5R3WA',
+        spotify: 'https://open.spotify.com/episode/5LKwGy39eSm2j5GFFplB1D?si=0nSRQ_I3Q5qpRmhwuI0Wsg',
         youtube: 'https://youtu.be/eYODzDhIz48',
-        apple: '',
+        apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000786049500',
       },
     },
     hasBundle: true,
