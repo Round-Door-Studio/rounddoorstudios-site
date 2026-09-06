@@ -1,0 +1,6141 @@
+{
+  "slug": "changer-flies-to-the-moon",
+  "activities": [
+    {
+      "id": "a001",
+      "accent": "#A9603C",
+      "title": {
+        "en": "Mooncake Stamp Printing",
+        "simp": {
+          "text": "月饼印章",
+          "pinyin": [
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "饼",
+              "reading": "bǐng"
+            },
+            {
+              "text": "印",
+              "reading": "yìn"
+            },
+            {
+              "text": "章",
+              "reading": "zhāng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "月餅印章",
+          "zhuyin": [
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "餅",
+              "reading": "ㄅㄧㄥˇ"
+            },
+            {
+              "text": "印",
+              "reading": "ㄧㄣˋ"
+            },
+            {
+              "text": "章",
+              "reading": "ㄓㄤ"
+            }
+          ],
+          "bpmf": "月餅印章"
+        }
+      },
+      "desc": {
+        "en": "The round sweet cakes at the end of the story became mooncakes. Cut a stamp from a sponge and print a whole tray of your own.",
+        "simp": {
+          "text": "故事最后，圆圆的甜饼变成了月饼。用海绵剪一个印章，盖出一整盘自己的月饼。",
+          "pinyin": [
+            {
+              "text": "故",
+              "reading": "gù"
+            },
+            {
+              "text": "事",
+              "reading": "shì"
+            },
+            {
+              "text": "最",
+              "reading": "zuì"
+            },
+            {
+              "text": "后",
+              "reading": "hòu"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "圆",
+              "reading": "yuán"
+            },
+            {
+              "text": "圆",
+              "reading": "yuán"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "甜",
+              "reading": "tián"
+            },
+            {
+              "text": "饼",
+              "reading": "bǐng"
+            },
+            {
+              "text": "变",
+              "reading": "biàn"
+            },
+            {
+              "text": "成",
+              "reading": "chéng"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "饼",
+              "reading": "bǐng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "用",
+              "reading": "yòng"
+            },
+            {
+              "text": "海",
+              "reading": "hǎi"
+            },
+            {
+              "text": "绵",
+              "reading": "mián"
+            },
+            {
+              "text": "剪",
+              "reading": "jiǎn"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "印",
+              "reading": "yìn"
+            },
+            {
+              "text": "章",
+              "reading": "zhāng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "盖",
+              "reading": "gài"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "整",
+              "reading": "zhěng"
+            },
+            {
+              "text": "盘",
+              "reading": "pán"
+            },
+            {
+              "text": "自",
+              "reading": "zì"
+            },
+            {
+              "text": "己",
+              "reading": "jǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "饼",
+              "reading": "bǐng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "故事最後，圓圓的甜餅變成了月餅。用海綿剪一個印章，蓋出一整盤自己的月餅。",
+          "zhuyin": [
+            {
+              "text": "故",
+              "reading": "ㄍㄨˋ"
+            },
+            {
+              "text": "事",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "最",
+              "reading": "ㄗㄨㄟˋ"
+            },
+            {
+              "text": "後",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "圓",
+              "reading": "ㄩㄢˊ"
+            },
+            {
+              "text": "圓",
+              "reading": "ㄩㄢˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "甜",
+              "reading": "ㄊㄧㄢˊ"
+            },
+            {
+              "text": "餅",
+              "reading": "ㄅㄧㄥˇ"
+            },
+            {
+              "text": "變",
+              "reading": "ㄅㄧㄢˋ"
+            },
+            {
+              "text": "成",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "餅",
+              "reading": "ㄅㄧㄥˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "用",
+              "reading": "ㄩㄥˋ"
+            },
+            {
+              "text": "海",
+              "reading": "ㄏㄞˇ"
+            },
+            {
+              "text": "綿",
+              "reading": "ㄇㄧㄢˊ"
+            },
+            {
+              "text": "剪",
+              "reading": "ㄐㄧㄢˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "印",
+              "reading": "ㄧㄣˋ"
+            },
+            {
+              "text": "章",
+              "reading": "ㄓㄤ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "蓋",
+              "reading": "ㄍㄞˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "整",
+              "reading": "ㄓㄥˇ"
+            },
+            {
+              "text": "盤",
+              "reading": "ㄆㄢˊ"
+            },
+            {
+              "text": "自",
+              "reading": "ㄗˋ"
+            },
+            {
+              "text": "己",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "餅",
+              "reading": "ㄅㄧㄥˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "故事最後，圓圓的甜餅變成了月餅。用海綿剪一󠇡個󠇡印章，蓋出一󠇢整盤自己的月餅。"
+        }
+      },
+      "time": {
+        "en": "25 min",
+        "simp": {
+          "text": "二十五分钟",
+          "pinyin": [
+            {
+              "text": "二",
+              "reading": "èr"
+            },
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "二十五分鐘",
+          "zhuyin": [
+            {
+              "text": "二",
+              "reading": "ㄦˋ"
+            },
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "二十五分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "A kitchen sponge",
+          "simp": {
+            "text": "一块洗碗海绵",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "块",
+                "reading": "kuài"
+              },
+              {
+                "text": "洗",
+                "reading": "xǐ"
+              },
+              {
+                "text": "碗",
+                "reading": "wǎn"
+              },
+              {
+                "text": "海",
+                "reading": "hǎi"
+              },
+              {
+                "text": "绵",
+                "reading": "mián"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一塊洗碗海綿",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "塊",
+                "reading": "ㄎㄨㄞˋ"
+              },
+              {
+                "text": "洗",
+                "reading": "ㄒㄧˇ"
+              },
+              {
+                "text": "碗",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "海",
+                "reading": "ㄏㄞˇ"
+              },
+              {
+                "text": "綿",
+                "reading": "ㄇㄧㄢˊ"
+              }
+            ],
+            "bpmf": "一󠇡塊洗碗海綿"
+          }
+        },
+        {
+          "en": "Scissors",
+          "simp": {
+            "text": "剪刀",
+            "pinyin": [
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "刀",
+                "reading": "dāo"
+              }
+            ]
+          },
+          "trad": {
+            "text": "剪刀",
+            "zhuyin": [
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "刀",
+                "reading": "ㄉㄠ"
+              }
+            ],
+            "bpmf": "剪刀"
+          }
+        },
+        {
+          "en": "Paint, one or two colors",
+          "simp": {
+            "text": "一两种颜色的颜料",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "种",
+                "reading": "zhǒng"
+              },
+              {
+                "text": "颜",
+                "reading": "yán"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "颜",
+                "reading": "yán"
+              },
+              {
+                "text": "料",
+                "reading": "liào"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一兩種顏色的顏料",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "種",
+                "reading": "ㄓㄨㄥˇ"
+              },
+              {
+                "text": "顏",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "顏",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "料",
+                "reading": "ㄌㄧㄠˋ"
+              }
+            ],
+            "bpmf": "一󠇢兩種顏色的顏料"
+          }
+        },
+        {
+          "en": "A paper plate to hold the paint",
+          "simp": {
+            "text": "一个装颜料的纸盘",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "装",
+                "reading": "zhuāng"
+              },
+              {
+                "text": "颜",
+                "reading": "yán"
+              },
+              {
+                "text": "料",
+                "reading": "liào"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "盘",
+                "reading": "pán"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一個裝顏料的紙盤",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "裝",
+                "reading": "ㄓㄨㄤ"
+              },
+              {
+                "text": "顏",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "料",
+                "reading": "ㄌㄧㄠˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "盤",
+                "reading": "ㄆㄢˊ"
+              }
+            ],
+            "bpmf": "一󠇡個󠇡裝顏料的紙盤"
+          }
+        },
+        {
+          "en": "Paper",
+          "simp": {
+            "text": "纸",
+            "pinyin": [
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "紙",
+            "zhuyin": [
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "紙"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cut the sponge into a small circle. That circle is the size of your mooncake.",
+          "simp": {
+            "text": "把海绵剪成一个小圆形，这就是月饼的大小。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "海",
+                "reading": "hǎi"
+              },
+              {
+                "text": "绵",
+                "reading": "mián"
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "形",
+                "reading": "xíng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "饼",
+                "reading": "bǐng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把海綿剪成一個小圓形，這就是月餅的大小。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "海",
+                "reading": "ㄏㄞˇ"
+              },
+              {
+                "text": "綿",
+                "reading": "ㄇㄧㄢˊ"
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "形",
+                "reading": "ㄒㄧㄥˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "餅",
+                "reading": "ㄅㄧㄥˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把海綿剪成一󠇡個󠇡小圓形，這就是月餅的大小。"
+          }
+        },
+        {
+          "en": "Cut a simple pattern into the top of the circle: petals, a grid, or one character. Whatever you cut away stays white on the paper.",
+          "simp": {
+            "text": "在圆形上剪出简单的花纹，可以是花瓣、格子，或是一个字。剪掉的地方盖出来会是白的。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "形",
+                "reading": "xíng"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "简",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "单",
+                "reading": "dān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "花",
+                "reading": "huā"
+              },
+              {
+                "text": "纹",
+                "reading": "wén"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "花",
+                "reading": "huā"
+              },
+              {
+                "text": "瓣",
+                "reading": "bàn"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "字",
+                "reading": "zì"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "掉",
+                "reading": "diào"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "盖",
+                "reading": "gài"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "会",
+                "reading": "huì"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "白",
+                "reading": "bái"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在圓形上剪出簡單的花紋，可以是花瓣、格子，或是一個字。剪掉的地方蓋出來會是白的。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "形",
+                "reading": "ㄒㄧㄥˊ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "簡",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "單",
+                "reading": "ㄉㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "花",
+                "reading": "ㄏㄨㄚ"
+              },
+              {
+                "text": "紋",
+                "reading": "ㄨㄣˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "花",
+                "reading": "ㄏㄨㄚ"
+              },
+              {
+                "text": "瓣",
+                "reading": "ㄅㄢˋ"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "字",
+                "reading": "ㄗˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "掉",
+                "reading": "ㄉㄧㄠˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "蓋",
+                "reading": "ㄍㄞˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "會",
+                "reading": "ㄏㄨㄟˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "白",
+                "reading": "ㄅㄞˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在圓形上剪出簡單的花紋，可以是花瓣、格子󠇡，或是一󠇡個󠇡字。剪掉的地方蓋出來會是白的。"
+          }
+        },
+        {
+          "en": "Pour a little paint onto the plate and press the sponge in until it is covered.",
+          "simp": {
+            "text": "在纸盘里倒一点颜料，把海绵压进去沾满。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "盘",
+                "reading": "pán"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "倒",
+                "reading": "dào"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "点",
+                "reading": "diǎn"
+              },
+              {
+                "text": "颜",
+                "reading": "yán"
+              },
+              {
+                "text": "料",
+                "reading": "liào"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "海",
+                "reading": "hǎi"
+              },
+              {
+                "text": "绵",
+                "reading": "mián"
+              },
+              {
+                "text": "压",
+                "reading": "yā"
+              },
+              {
+                "text": "进",
+                "reading": "jìn"
+              },
+              {
+                "text": "去",
+                "reading": "qù"
+              },
+              {
+                "text": "沾",
+                "reading": "zhān"
+              },
+              {
+                "text": "满",
+                "reading": "mǎn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在紙盤裡倒一點顏料，把海綿壓進去沾滿。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "盤",
+                "reading": "ㄆㄢˊ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "倒",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "點",
+                "reading": "ㄉㄧㄢˇ"
+              },
+              {
+                "text": "顏",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "料",
+                "reading": "ㄌㄧㄠˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "海",
+                "reading": "ㄏㄞˇ"
+              },
+              {
+                "text": "綿",
+                "reading": "ㄇㄧㄢˊ"
+              },
+              {
+                "text": "壓",
+                "reading": "ㄧㄚ"
+              },
+              {
+                "text": "進",
+                "reading": "ㄐㄧㄣˋ"
+              },
+              {
+                "text": "去",
+                "reading": "ㄑㄩˋ"
+              },
+              {
+                "text": "沾",
+                "reading": "ㄓㄢ"
+              },
+              {
+                "text": "滿",
+                "reading": "ㄇㄢˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在紙盤裡倒一󠇢點顏料，把海綿壓進去沾滿。"
+          }
+        },
+        {
+          "en": "Press the sponge onto the paper, hold it still, then lift it straight up. There is your first mooncake.",
+          "simp": {
+            "text": "把海绵用力压在纸上，停一下，再直直的拿起来。第一个月饼就好了。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "海",
+                "reading": "hǎi"
+              },
+              {
+                "text": "绵",
+                "reading": "mián"
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "力",
+                "reading": "lì"
+              },
+              {
+                "text": "压",
+                "reading": "yā"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "停",
+                "reading": "tíng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "直",
+                "reading": "zhí"
+              },
+              {
+                "text": "直",
+                "reading": "zhí"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "拿",
+                "reading": "ná"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "一",
+                "reading": "yī"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "饼",
+                "reading": "bǐng"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把海綿用力壓在紙上，停一下，再直直的拿起來。第一個月餅就好了。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "海",
+                "reading": "ㄏㄞˇ"
+              },
+              {
+                "text": "綿",
+                "reading": "ㄇㄧㄢˊ"
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "力",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "壓",
+                "reading": "ㄧㄚ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "停",
+                "reading": "ㄊㄧㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "直",
+                "reading": "ㄓˊ"
+              },
+              {
+                "text": "直",
+                "reading": "ㄓˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "拿",
+                "reading": "ㄋㄚˊ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "餅",
+                "reading": "ㄅㄧㄥˇ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把海綿用力壓在紙上，停一󠇡下，再直直的拿起來。第一個󠇡月餅就好了。"
+          }
+        },
+        {
+          "en": "Fill the page to make a whole tray. Change colors, and stamp a few round moons beside the cakes.",
+          "simp": {
+            "text": "盖满一整张纸，就是一盘月饼了。可以换颜色，也可以在旁边盖几个圆圆的月亮。",
+            "pinyin": [
+              {
+                "text": "盖",
+                "reading": "gài"
+              },
+              {
+                "text": "满",
+                "reading": "mǎn"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "整",
+                "reading": "zhěng"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "盘",
+                "reading": "pán"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "饼",
+                "reading": "bǐng"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "换",
+                "reading": "huàn"
+              },
+              {
+                "text": "颜",
+                "reading": "yán"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "旁",
+                "reading": "páng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "盖",
+                "reading": "gài"
+              },
+              {
+                "text": "几",
+                "reading": "jǐ"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "亮",
+                "reading": "liàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "蓋滿一整張紙，就是一盤月餅了。可以換顏色，也可以在旁邊蓋幾個圓圓的月亮。",
+            "zhuyin": [
+              {
+                "text": "蓋",
+                "reading": "ㄍㄞˋ"
+              },
+              {
+                "text": "滿",
+                "reading": "ㄇㄢˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "整",
+                "reading": "ㄓㄥˇ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "盤",
+                "reading": "ㄆㄢˊ"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "餅",
+                "reading": "ㄅㄧㄥˇ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "換",
+                "reading": "ㄏㄨㄢˋ"
+              },
+              {
+                "text": "顏",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "旁",
+                "reading": "ㄆㄤˊ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "蓋",
+                "reading": "ㄍㄞˋ"
+              },
+              {
+                "text": "幾",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "亮",
+                "reading": "ㄌㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "蓋滿一󠇢整張紙，就是一󠇢盤月餅了。可以換顏色，也可以在旁邊蓋幾個󠇡圓圓的月亮。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a002",
+      "accent": "#6B5B95",
+      "title": {
+        "en": "Tell the Moon",
+        "simp": {
+          "text": "对月说思念",
+          "pinyin": [
+            {
+              "text": "对",
+              "reading": "duì"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "思",
+              "reading": "sī"
+            },
+            {
+              "text": "念",
+              "reading": "niàn"
+            }
+          ]
+        },
+        "trad": {
+          "text": "對月說思念",
+          "zhuyin": [
+            {
+              "text": "對",
+              "reading": "ㄉㄨㄟˋ"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "思",
+              "reading": "ㄙ"
+            },
+            {
+              "text": "念",
+              "reading": "ㄋㄧㄢˋ"
+            }
+          ],
+          "bpmf": "對月說思念"
+        }
+      },
+      "desc": {
+        "en": "The villagers told the bright moon what they were missing. Make a paper moon, write down someone you miss, and say it out loud tonight.",
+        "simp": {
+          "text": "故事里的村民对着月亮，说出心里的思念。做一个纸月亮，写下你想念的人，晚上对着月亮说给他听。",
+          "pinyin": [
+            {
+              "text": "故",
+              "reading": "gù"
+            },
+            {
+              "text": "事",
+              "reading": "shì"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "村",
+              "reading": "cūn"
+            },
+            {
+              "text": "民",
+              "reading": "mín"
+            },
+            {
+              "text": "对",
+              "reading": "duì"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "心",
+              "reading": "xīn"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "思",
+              "reading": "sī"
+            },
+            {
+              "text": "念",
+              "reading": "niàn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "做",
+              "reading": "zuò"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "写",
+              "reading": "xiě"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "你",
+              "reading": "nǐ"
+            },
+            {
+              "text": "想",
+              "reading": "xiǎng"
+            },
+            {
+              "text": "念",
+              "reading": "niàn"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "晚",
+              "reading": "wǎn"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "对",
+              "reading": "duì"
+            },
+            {
+              "text": "着",
+              "reading": "zhe"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "给",
+              "reading": "gěi"
+            },
+            {
+              "text": "他",
+              "reading": "tā"
+            },
+            {
+              "text": "听",
+              "reading": "tīng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "故事裡的村民對著月亮，說出心裡的思念。做一個紙月亮，寫下你想念的人，晚上對著月亮說給他聽。",
+          "zhuyin": [
+            {
+              "text": "故",
+              "reading": "ㄍㄨˋ"
+            },
+            {
+              "text": "事",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "村",
+              "reading": "ㄘㄨㄣ"
+            },
+            {
+              "text": "民",
+              "reading": "ㄇㄧㄣˊ"
+            },
+            {
+              "text": "對",
+              "reading": "ㄉㄨㄟˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "心",
+              "reading": "ㄒㄧㄣ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "思",
+              "reading": "ㄙ"
+            },
+            {
+              "text": "念",
+              "reading": "ㄋㄧㄢˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "做",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "寫",
+              "reading": "ㄒㄧㄝˇ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "你",
+              "reading": "ㄋㄧˇ"
+            },
+            {
+              "text": "想",
+              "reading": "ㄒㄧㄤˇ"
+            },
+            {
+              "text": "念",
+              "reading": "ㄋㄧㄢˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "晚",
+              "reading": "ㄨㄢˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "對",
+              "reading": "ㄉㄨㄟˋ"
+            },
+            {
+              "text": "著",
+              "reading": "ㄓㄜ˙"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "給",
+              "reading": "ㄍㄟˇ"
+            },
+            {
+              "text": "他",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "聽",
+              "reading": "ㄊㄧㄥ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "故事裡的村民對著月亮，說出心裡的思念。做一󠇡個󠇡紙月亮，寫下你想念的人，晚上對著月亮說給他聽。"
+        }
+      },
+      "time": {
+        "en": "15 min, plus a few minutes after dark",
+        "simp": {
+          "text": "十五分钟，晚上再花几分钟",
+          "pinyin": [
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "晚",
+              "reading": "wǎn"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "花",
+              "reading": "huā"
+            },
+            {
+              "text": "几",
+              "reading": "jǐ"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "十五分鐘，晚上再花幾分鐘",
+          "zhuyin": [
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "晚",
+              "reading": "ㄨㄢˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "花",
+              "reading": "ㄏㄨㄚ"
+            },
+            {
+              "text": "幾",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "十五分鐘，晚上再花幾分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "White or yellow paper",
+          "simp": {
+            "text": "白纸或黄纸",
+            "pinyin": [
+              {
+                "text": "白",
+                "reading": "bái"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "黄",
+                "reading": "huáng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "白紙或黃紙",
+            "zhuyin": [
+              {
+                "text": "白",
+                "reading": "ㄅㄞˊ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "黃",
+                "reading": "ㄏㄨㄤˊ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "白紙或黃紙"
+          }
+        },
+        {
+          "en": "Scissors",
+          "simp": {
+            "text": "剪刀",
+            "pinyin": [
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "刀",
+                "reading": "dāo"
+              }
+            ]
+          },
+          "trad": {
+            "text": "剪刀",
+            "zhuyin": [
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "刀",
+                "reading": "ㄉㄠ"
+              }
+            ],
+            "bpmf": "剪刀"
+          }
+        },
+        {
+          "en": "A pen",
+          "simp": {
+            "text": "一枝笔",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "枝",
+                "reading": "zhī"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一枝筆",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "枝",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "一󠇢枝筆"
+          }
+        },
+        {
+          "en": "String or tape, if you want to hang it up",
+          "simp": {
+            "text": "想挂起来的话，再准备线或胶带",
+            "pinyin": [
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "挂",
+                "reading": "guà"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "话",
+                "reading": "huà"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "准",
+                "reading": "zhǔn"
+              },
+              {
+                "text": "备",
+                "reading": "bèi"
+              },
+              {
+                "text": "线",
+                "reading": "xiàn"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              }
+            ]
+          },
+          "trad": {
+            "text": "想掛起來的話，再準備線或膠帶",
+            "zhuyin": [
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "掛",
+                "reading": "ㄍㄨㄚˋ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "話",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "準",
+                "reading": "ㄓㄨㄣˇ"
+              },
+              {
+                "text": "備",
+                "reading": "ㄅㄟˋ"
+              },
+              {
+                "text": "線",
+                "reading": "ㄒㄧㄢˋ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              }
+            ],
+            "bpmf": "想掛起來的話，再準備線或膠帶"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cut out a round paper moon, about the size of your palm.",
+          "simp": {
+            "text": "剪一个圆圆的纸月亮，大概和你的手掌一样大。",
+            "pinyin": [
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "亮",
+                "reading": "liàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "概",
+                "reading": "gài"
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "掌",
+                "reading": "zhǎng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "剪一個圓圓的紙月亮，大概和你的手掌一樣大。",
+            "zhuyin": [
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "亮",
+                "reading": "ㄌㄧㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "概",
+                "reading": "ㄍㄞˋ"
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "掌",
+                "reading": "ㄓㄤˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "剪一󠇡個󠇡圓圓的紙月亮，大概和你的手掌一󠇡樣大。"
+          }
+        },
+        {
+          "en": "Write the name of someone you miss on the moon. They might live far away, or you might not have seen them in a long time.",
+          "simp": {
+            "text": "在月亮上写下一个你想念的人的名字。他可能住在很远的地方，也可能你们很久没见面了。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "亮",
+                "reading": "liàng"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "念",
+                "reading": "niàn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "名",
+                "reading": "míng"
+              },
+              {
+                "text": "字",
+                "reading": "zi"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "他",
+                "reading": "tā"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "能",
+                "reading": "néng"
+              },
+              {
+                "text": "住",
+                "reading": "zhù"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "很",
+                "reading": "hěn"
+              },
+              {
+                "text": "远",
+                "reading": "yuǎn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "能",
+                "reading": "néng"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "们",
+                "reading": "men"
+              },
+              {
+                "text": "很",
+                "reading": "hěn"
+              },
+              {
+                "text": "久",
+                "reading": "jiǔ"
+              },
+              {
+                "text": "没",
+                "reading": "méi"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在月亮上寫下一個你想念的人的名字。他可能住在很遠的地方，也可能你們很久沒見面了。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "亮",
+                "reading": "ㄌㄧㄤˋ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "念",
+                "reading": "ㄋㄧㄢˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "名",
+                "reading": "ㄇㄧㄥˊ"
+              },
+              {
+                "text": "字",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "他",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "能",
+                "reading": "ㄋㄥˊ"
+              },
+              {
+                "text": "住",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "很",
+                "reading": "ㄏㄣˇ"
+              },
+              {
+                "text": "遠",
+                "reading": "ㄩㄢˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "能",
+                "reading": "ㄋㄥˊ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "們",
+                "reading": "ㄇㄣ˙"
+              },
+              {
+                "text": "很",
+                "reading": "ㄏㄣˇ"
+              },
+              {
+                "text": "久",
+                "reading": "ㄐㄧㄡˇ"
+              },
+              {
+                "text": "沒",
+                "reading": "ㄇㄟˊ"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在月亮上寫下一󠇡個󠇡你想念的人的名字󠇡。他可能住在很遠的地方，也可能你們很久沒見面了。"
+          }
+        },
+        {
+          "en": "Beside the name write one sentence, the one thing you most want to say to them tonight.",
+          "simp": {
+            "text": "在名字旁边写一句话，就是今天晚上你最想对他说的那一句。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "名",
+                "reading": "míng"
+              },
+              {
+                "text": "字",
+                "reading": "zi"
+              },
+              {
+                "text": "旁",
+                "reading": "páng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "句",
+                "reading": "jù"
+              },
+              {
+                "text": "话",
+                "reading": "huà"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "今",
+                "reading": "jīn"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "晚",
+                "reading": "wǎn"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "最",
+                "reading": "zuì"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "对",
+                "reading": "duì"
+              },
+              {
+                "text": "他",
+                "reading": "tā"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "句",
+                "reading": "jù"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在名字旁邊寫一句話，就是今天晚上你最想對他說的那一句。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "名",
+                "reading": "ㄇㄧㄥˊ"
+              },
+              {
+                "text": "字",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "旁",
+                "reading": "ㄆㄤˊ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "句",
+                "reading": "ㄐㄩˋ"
+              },
+              {
+                "text": "話",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "今",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "晚",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "最",
+                "reading": "ㄗㄨㄟˋ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "對",
+                "reading": "ㄉㄨㄟˋ"
+              },
+              {
+                "text": "他",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "句",
+                "reading": "ㄐㄩˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在名字󠇡旁邊寫一󠇡句話，就是今天晚上你最想對他說的那一󠇡句。"
+          }
+        },
+        {
+          "en": "After dark, step outside, look up until you find the moon, and read your sentence out loud, softly.",
+          "simp": {
+            "text": "天黑以后走到外面，抬头找到月亮，把那句话轻轻的念出来。",
+            "pinyin": [
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "黑",
+                "reading": "hēi"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "走",
+                "reading": "zǒu"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "外",
+                "reading": "wài"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "抬",
+                "reading": "tái"
+              },
+              {
+                "text": "头",
+                "reading": "tóu"
+              },
+              {
+                "text": "找",
+                "reading": "zhǎo"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "亮",
+                "reading": "liàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "句",
+                "reading": "jù"
+              },
+              {
+                "text": "话",
+                "reading": "huà"
+              },
+              {
+                "text": "轻",
+                "reading": "qīng"
+              },
+              {
+                "text": "轻",
+                "reading": "qīng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "念",
+                "reading": "niàn"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "天黑以後走到外面，抬頭找到月亮，把那句話輕輕的念出來。",
+            "zhuyin": [
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "黑",
+                "reading": "ㄏㄟ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "後",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "走",
+                "reading": "ㄗㄡˇ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "外",
+                "reading": "ㄨㄞˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "抬",
+                "reading": "ㄊㄞˊ"
+              },
+              {
+                "text": "頭",
+                "reading": "ㄊㄡˊ"
+              },
+              {
+                "text": "找",
+                "reading": "ㄓㄠˇ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "亮",
+                "reading": "ㄌㄧㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "句",
+                "reading": "ㄐㄩˋ"
+              },
+              {
+                "text": "話",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "輕",
+                "reading": "ㄑㄧㄥ"
+              },
+              {
+                "text": "輕",
+                "reading": "ㄑㄧㄥ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "念",
+                "reading": "ㄋㄧㄢˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "天黑以後走到外面，抬頭找到月亮，把那句話輕輕的念出來。"
+          }
+        },
+        {
+          "en": "Tape the paper moon by your window, or hang it up. The people in the story did the same thing, year after year, on this one night.",
+          "simp": {
+            "text": "把纸月亮贴在窗边，或是挂起来。故事里的人也是这样，一年又一年，在同一个晚上想起远方的家人。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "亮",
+                "reading": "liàng"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "窗",
+                "reading": "chuāng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "挂",
+                "reading": "guà"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "故",
+                "reading": "gù"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "年",
+                "reading": "nián"
+              },
+              {
+                "text": "又",
+                "reading": "yòu"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "年",
+                "reading": "nián"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "同",
+                "reading": "tóng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "晚",
+                "reading": "wǎn"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "远",
+                "reading": "yuǎn"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "家",
+                "reading": "jiā"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把紙月亮貼在窗邊，或是掛起來。故事裡的人也是這樣，一年又一年，在同一個晚上想起遠方的家人。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "亮",
+                "reading": "ㄌㄧㄤˋ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "窗",
+                "reading": "ㄔㄨㄤ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "掛",
+                "reading": "ㄍㄨㄚˋ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "故",
+                "reading": "ㄍㄨˋ"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "年",
+                "reading": "ㄋㄧㄢˊ"
+              },
+              {
+                "text": "又",
+                "reading": "ㄧㄡˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "年",
+                "reading": "ㄋㄧㄢˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "同",
+                "reading": "ㄊㄨㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "晚",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "遠",
+                "reading": "ㄩㄢˇ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "家",
+                "reading": "ㄐㄧㄚ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把紙月亮貼在窗邊，或是掛起來。故事裡的人也是這樣，一󠇢年又一󠇢年，在同一󠇡個󠇡晚上想起遠方的家人。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a003",
+      "accent": "#3E6E8E",
+      "title": {
+        "en": "Moon Diary",
+        "simp": {
+          "text": "月亮日记",
+          "pinyin": [
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "日",
+              "reading": "rì"
+            },
+            {
+              "text": "记",
+              "reading": "jì"
+            }
+          ]
+        },
+        "trad": {
+          "text": "月亮日記",
+          "zhuyin": [
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "日",
+              "reading": "ㄖˋ"
+            },
+            {
+              "text": "記",
+              "reading": "ㄐㄧˋ"
+            }
+          ],
+          "bpmf": "月亮日記"
+        }
+      },
+      "desc": {
+        "en": "The night Hou Yi looked up, the moon was big and round, and the day was the fifteenth of the eighth lunar month. Draw the moon for seven nights and watch it fill out.",
+        "simp": {
+          "text": "后羿抬头的那一晚，月亮又大又圆，正好是农历八月十五。连续七个晚上画下月亮的形状，看它一天一天变圆。",
+          "pinyin": [
+            {
+              "text": "后",
+              "reading": "hòu"
+            },
+            {
+              "text": "羿",
+              "reading": "yì"
+            },
+            {
+              "text": "抬",
+              "reading": "tái"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "晚",
+              "reading": "wǎn"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "又",
+              "reading": "yòu"
+            },
+            {
+              "text": "圆",
+              "reading": "yuán"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "正",
+              "reading": "zhèng"
+            },
+            {
+              "text": "好",
+              "reading": "hǎo"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "农",
+              "reading": "nóng"
+            },
+            {
+              "text": "历",
+              "reading": "lì"
+            },
+            {
+              "text": "八",
+              "reading": "bā"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "连",
+              "reading": "lián"
+            },
+            {
+              "text": "续",
+              "reading": "xù"
+            },
+            {
+              "text": "七",
+              "reading": "qī"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "晚",
+              "reading": "wǎn"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "月",
+              "reading": "yuè"
+            },
+            {
+              "text": "亮",
+              "reading": "liàng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "形",
+              "reading": "xíng"
+            },
+            {
+              "text": "状",
+              "reading": "zhuàng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "它",
+              "reading": "tā"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "变",
+              "reading": "biàn"
+            },
+            {
+              "text": "圆",
+              "reading": "yuán"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "后羿抬頭的那一晚，月亮又大又圓，正好是農曆八月十五。連續七個晚上畫下月亮的形狀，看它一天一天變圓。",
+          "zhuyin": [
+            {
+              "text": "后",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "羿",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "抬",
+              "reading": "ㄊㄞˊ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "晚",
+              "reading": "ㄨㄢˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "又",
+              "reading": "ㄧㄡˋ"
+            },
+            {
+              "text": "圓",
+              "reading": "ㄩㄢˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "正",
+              "reading": "ㄓㄥˋ"
+            },
+            {
+              "text": "好",
+              "reading": "ㄏㄠˇ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "農",
+              "reading": "ㄋㄨㄥˊ"
+            },
+            {
+              "text": "曆",
+              "reading": "ㄌㄧˋ"
+            },
+            {
+              "text": "八",
+              "reading": "ㄅㄚ"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "連",
+              "reading": "ㄌㄧㄢˊ"
+            },
+            {
+              "text": "續",
+              "reading": "ㄒㄩˋ"
+            },
+            {
+              "text": "七",
+              "reading": "ㄑㄧ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "晚",
+              "reading": "ㄨㄢˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "月",
+              "reading": "ㄩㄝˋ"
+            },
+            {
+              "text": "亮",
+              "reading": "ㄌㄧㄤˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "形",
+              "reading": "ㄒㄧㄥˊ"
+            },
+            {
+              "text": "狀",
+              "reading": "ㄓㄨㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "它",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "變",
+              "reading": "ㄅㄧㄢˋ"
+            },
+            {
+              "text": "圓",
+              "reading": "ㄩㄢˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "后羿抬頭的那一󠇢晚，月亮又大又圓，正好是農曆八月十五。連續七個󠇡晚上畫下月亮的形狀，看它一󠇢天一󠇢天變圓。"
+        }
+      },
+      "time": {
+        "en": "5 minutes a night for one week",
+        "simp": {
+          "text": "每天晚上五分钟，连续七天",
+          "pinyin": [
+            {
+              "text": "每",
+              "reading": "měi"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "晚",
+              "reading": "wǎn"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "连",
+              "reading": "lián"
+            },
+            {
+              "text": "续",
+              "reading": "xù"
+            },
+            {
+              "text": "七",
+              "reading": "qī"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            }
+          ]
+        },
+        "trad": {
+          "text": "每天晚上五分鐘，連續七天",
+          "zhuyin": [
+            {
+              "text": "每",
+              "reading": "ㄇㄟˇ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "晚",
+              "reading": "ㄨㄢˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "連",
+              "reading": "ㄌㄧㄢˊ"
+            },
+            {
+              "text": "續",
+              "reading": "ㄒㄩˋ"
+            },
+            {
+              "text": "七",
+              "reading": "ㄑㄧ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            }
+          ],
+          "bpmf": "每天晚上五分鐘，連續七天"
+        }
+      },
+      "materials": [
+        {
+          "en": "A sheet of paper",
+          "simp": {
+            "text": "一张纸",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一張紙",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "一󠇢張紙"
+          }
+        },
+        {
+          "en": "A pencil",
+          "simp": {
+            "text": "一枝铅笔",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "枝",
+                "reading": "zhī"
+              },
+              {
+                "text": "铅",
+                "reading": "qiān"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一枝鉛筆",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "枝",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "鉛",
+                "reading": "ㄑㄧㄢ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "一󠇢枝鉛筆"
+          }
+        },
+        {
+          "en": "A window or doorway where you can see the night sky",
+          "simp": {
+            "text": "晚上可以看到天空的窗边或门口",
+            "pinyin": [
+              {
+                "text": "晚",
+                "reading": "wǎn"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "空",
+                "reading": "kōng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "窗",
+                "reading": "chuāng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "门",
+                "reading": "mén"
+              },
+              {
+                "text": "口",
+                "reading": "kǒu"
+              }
+            ]
+          },
+          "trad": {
+            "text": "晚上可以看到天空的窗邊或門口",
+            "zhuyin": [
+              {
+                "text": "晚",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "空",
+                "reading": "ㄎㄨㄥ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "窗",
+                "reading": "ㄔㄨㄤ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "門",
+                "reading": "ㄇㄣˊ"
+              },
+              {
+                "text": "口",
+                "reading": "ㄎㄡˇ"
+              }
+            ],
+            "bpmf": "晚上可以看到天空的窗邊或門口"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Divide the paper into seven boxes and write a date in each one.",
+          "simp": {
+            "text": "把纸分成七格，每一格写上一天的日期。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "分",
+                "reading": "fēn"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "七",
+                "reading": "qī"
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "日",
+                "reading": "rì"
+              },
+              {
+                "text": "期",
+                "reading": "qí"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把紙分成七格，每一格寫上一天的日期。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "分",
+                "reading": "ㄈㄣ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "七",
+                "reading": "ㄑㄧ"
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "日",
+                "reading": "ㄖˋ"
+              },
+              {
+                "text": "期",
+                "reading": "ㄑㄧˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把紙分成七格，每一󠇢格寫上一󠇢天的日期。"
+          }
+        },
+        {
+          "en": "Each night, go to the window and find the moon in the sky.",
+          "simp": {
+            "text": "每天晚上走到窗边，在天上找到月亮。",
+            "pinyin": [
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "晚",
+                "reading": "wǎn"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "走",
+                "reading": "zǒu"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "窗",
+                "reading": "chuāng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "找",
+                "reading": "zhǎo"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "亮",
+                "reading": "liàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "每天晚上走到窗邊，在天上找到月亮。",
+            "zhuyin": [
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "晚",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "走",
+                "reading": "ㄗㄡˇ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "窗",
+                "reading": "ㄔㄨㄤ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "找",
+                "reading": "ㄓㄠˇ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "亮",
+                "reading": "ㄌㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "每天晚上走到窗邊，在天上找到月亮。"
+          }
+        },
+        {
+          "en": "Draw its shape in tonight's box. Some nights it is a thin curve, some nights half a circle, and some nights you cannot see it at all.",
+          "simp": {
+            "text": "把今天的形状画在今天的格子里。有时候是细细的一弯，有时候是半个圆，有时候什么都看不到。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "今",
+                "reading": "jīn"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "形",
+                "reading": "xíng"
+              },
+              {
+                "text": "状",
+                "reading": "zhuàng"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "今",
+                "reading": "jīn"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "时",
+                "reading": "shí"
+              },
+              {
+                "text": "候",
+                "reading": "hòu"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "细",
+                "reading": "xì"
+              },
+              {
+                "text": "细",
+                "reading": "xì"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "弯",
+                "reading": "wān"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "时",
+                "reading": "shí"
+              },
+              {
+                "text": "候",
+                "reading": "hòu"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "半",
+                "reading": "bàn"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "时",
+                "reading": "shí"
+              },
+              {
+                "text": "候",
+                "reading": "hòu"
+              },
+              {
+                "text": "什",
+                "reading": "shén"
+              },
+              {
+                "text": "么",
+                "reading": "me"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "不",
+                "reading": "bú"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把今天的形狀畫在今天的格子裡。有時候是細細的一彎，有時候是半個圓，有時候什麼都看不到。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "今",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "形",
+                "reading": "ㄒㄧㄥˊ"
+              },
+              {
+                "text": "狀",
+                "reading": "ㄓㄨㄤˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "今",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "時",
+                "reading": "ㄕˊ"
+              },
+              {
+                "text": "候",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "細",
+                "reading": "ㄒㄧˋ"
+              },
+              {
+                "text": "細",
+                "reading": "ㄒㄧˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "彎",
+                "reading": "ㄨㄢ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "時",
+                "reading": "ㄕˊ"
+              },
+              {
+                "text": "候",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "半",
+                "reading": "ㄅㄢˋ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "時",
+                "reading": "ㄕˊ"
+              },
+              {
+                "text": "候",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "什",
+                "reading": "ㄕㄣˊ"
+              },
+              {
+                "text": "麼",
+                "reading": "ㄇㄜ˙"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˊ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把今天的形狀畫在今天的格子󠇡裡。有時候是細細的一󠇢彎，有時候是半個󠇡圓，有時候什麼都看不󠇡到。"
+          }
+        },
+        {
+          "en": "After seven nights, lay all seven boxes side by side. The moon changes a little each night, never all at once.",
+          "simp": {
+            "text": "七天以后，把七个格子排在一起看。月亮每天变一点点，不是一下子就变的。",
+            "pinyin": [
+              {
+                "text": "七",
+                "reading": "qī"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "七",
+                "reading": "qī"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "格",
+                "reading": "gé"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "排",
+                "reading": "pái"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "亮",
+                "reading": "liàng"
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "变",
+                "reading": "biàn"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "点",
+                "reading": "diǎn"
+              },
+              {
+                "text": "点",
+                "reading": "diǎn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "不",
+                "reading": "bú"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "变",
+                "reading": "biàn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "七天以後，把七個格子排在一起看。月亮每天變一點點，不是一下子就變的。",
+            "zhuyin": [
+              {
+                "text": "七",
+                "reading": "ㄑㄧ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "後",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "七",
+                "reading": "ㄑㄧ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "格",
+                "reading": "ㄍㄜˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "排",
+                "reading": "ㄆㄞˊ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "亮",
+                "reading": "ㄌㄧㄤˋ"
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "變",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "點",
+                "reading": "ㄉㄧㄢˇ"
+              },
+              {
+                "text": "點",
+                "reading": "ㄉㄧㄢˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˊ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "變",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "七天以後，把七個󠇡格子󠇡排在一󠇢起看。月亮每天變一󠇢點點，不󠇡是一󠇡下子󠇡就變的。"
+          }
+        },
+        {
+          "en": "The moon is fullest on the fifteenth night of the eighth lunar month. That night is the Mid-Autumn Festival, the same night Hou Yi looked up and saw Chang'e.",
+          "simp": {
+            "text": "农历八月十五那天晚上，月亮最圆。那就是中秋节，也是故事里后羿抬头看见嫦娥的那一晚。",
+            "pinyin": [
+              {
+                "text": "农",
+                "reading": "nóng"
+              },
+              {
+                "text": "历",
+                "reading": "lì"
+              },
+              {
+                "text": "八",
+                "reading": "bā"
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "十",
+                "reading": "shí"
+              },
+              {
+                "text": "五",
+                "reading": "wǔ"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "晚",
+                "reading": "wǎn"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "月",
+                "reading": "yuè"
+              },
+              {
+                "text": "亮",
+                "reading": "liàng"
+              },
+              {
+                "text": "最",
+                "reading": "zuì"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "秋",
+                "reading": "qiū"
+              },
+              {
+                "text": "节",
+                "reading": "jié"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "故",
+                "reading": "gù"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "羿",
+                "reading": "yì"
+              },
+              {
+                "text": "抬",
+                "reading": "tái"
+              },
+              {
+                "text": "头",
+                "reading": "tóu"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "嫦",
+                "reading": "cháng"
+              },
+              {
+                "text": "娥",
+                "reading": "é"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "晚",
+                "reading": "wǎn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "農曆八月十五那天晚上，月亮最圓。那就是中秋節，也是故事裡后羿抬頭看見嫦娥的那一晚。",
+            "zhuyin": [
+              {
+                "text": "農",
+                "reading": "ㄋㄨㄥˊ"
+              },
+              {
+                "text": "曆",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "八",
+                "reading": "ㄅㄚ"
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "十",
+                "reading": "ㄕˊ"
+              },
+              {
+                "text": "五",
+                "reading": "ㄨˇ"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "晚",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "月",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "亮",
+                "reading": "ㄌㄧㄤˋ"
+              },
+              {
+                "text": "最",
+                "reading": "ㄗㄨㄟˋ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "秋",
+                "reading": "ㄑㄧㄡ"
+              },
+              {
+                "text": "節",
+                "reading": "ㄐㄧㄝˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "故",
+                "reading": "ㄍㄨˋ"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "后",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "羿",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "抬",
+                "reading": "ㄊㄞˊ"
+              },
+              {
+                "text": "頭",
+                "reading": "ㄊㄡˊ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "嫦",
+                "reading": "ㄔㄤˊ"
+              },
+              {
+                "text": "娥",
+                "reading": "ㄜˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "晚",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "農曆八月十五那天晚上，月亮最圓。那就是中秋節，也是故事裡后羿抬頭看見嫦娥的那一󠇢晚。"
+          }
+        }
+      ]
+    }
+  ]
+}
