@@ -1,0 +1,5733 @@
+{
+  "slug": "hou-yi-shoots-nine-suns",
+  "activities": [
+    {
+      "id": "a001",
+      "accent": "#D08A3C",
+      "title": {
+        "en": "Golden Bird Sun Catcher",
+        "simp": {
+          "text": "金鸟窗花",
+          "pinyin": [
+            {
+              "text": "金",
+              "reading": "jīn"
+            },
+            {
+              "text": "鸟",
+              "reading": "niǎo"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            },
+            {
+              "text": "花",
+              "reading": "huā"
+            }
+          ]
+        },
+        "trad": {
+          "text": "金鳥窗花",
+          "zhuyin": [
+            {
+              "text": "金",
+              "reading": "ㄐㄧㄣ"
+            },
+            {
+              "text": "鳥",
+              "reading": "ㄋㄧㄠˇ"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            },
+            {
+              "text": "花",
+              "reading": "ㄏㄨㄚ"
+            }
+          ],
+          "bpmf": "金鳥窗花"
+        }
+      },
+      "desc": {
+        "en": "The sun that came crashing down turned out to be a three-legged golden bird. Make a paper bird and tape it to the window, so daylight shines right through it.",
+        "simp": {
+          "text": "故事里掉下来的太阳，其实是一只三脚金鸟。做一个金鸟窗花贴在窗户上，让阳光从它身上透过来。",
+          "pinyin": [
+            {
+              "text": "故",
+              "reading": "gù"
+            },
+            {
+              "text": "事",
+              "reading": "shì"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "掉",
+              "reading": "diào"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "太",
+              "reading": "tài"
+            },
+            {
+              "text": "阳",
+              "reading": "yáng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "其",
+              "reading": "qí"
+            },
+            {
+              "text": "实",
+              "reading": "shí"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "只",
+              "reading": "zhī"
+            },
+            {
+              "text": "三",
+              "reading": "sān"
+            },
+            {
+              "text": "脚",
+              "reading": "jiǎo"
+            },
+            {
+              "text": "金",
+              "reading": "jīn"
+            },
+            {
+              "text": "鸟",
+              "reading": "niǎo"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "做",
+              "reading": "zuò"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "金",
+              "reading": "jīn"
+            },
+            {
+              "text": "鸟",
+              "reading": "niǎo"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            },
+            {
+              "text": "花",
+              "reading": "huā"
+            },
+            {
+              "text": "贴",
+              "reading": "tiē"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            },
+            {
+              "text": "户",
+              "reading": "hù"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "让",
+              "reading": "ràng"
+            },
+            {
+              "text": "阳",
+              "reading": "yáng"
+            },
+            {
+              "text": "光",
+              "reading": "guāng"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "它",
+              "reading": "tā"
+            },
+            {
+              "text": "身",
+              "reading": "shēn"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "透",
+              "reading": "tòu"
+            },
+            {
+              "text": "过",
+              "reading": "guò"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "故事裡掉下來的太陽，其實是一隻三腳金鳥。做一個金鳥窗花貼在窗戶上，讓陽光從牠身上透過來。",
+          "zhuyin": [
+            {
+              "text": "故",
+              "reading": "ㄍㄨˋ"
+            },
+            {
+              "text": "事",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "掉",
+              "reading": "ㄉㄧㄠˋ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "太",
+              "reading": "ㄊㄞˋ"
+            },
+            {
+              "text": "陽",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "其",
+              "reading": "ㄑㄧˊ"
+            },
+            {
+              "text": "實",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "隻",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "三",
+              "reading": "ㄙㄢ"
+            },
+            {
+              "text": "腳",
+              "reading": "ㄐㄧㄠˇ"
+            },
+            {
+              "text": "金",
+              "reading": "ㄐㄧㄣ"
+            },
+            {
+              "text": "鳥",
+              "reading": "ㄋㄧㄠˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "做",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "金",
+              "reading": "ㄐㄧㄣ"
+            },
+            {
+              "text": "鳥",
+              "reading": "ㄋㄧㄠˇ"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            },
+            {
+              "text": "花",
+              "reading": "ㄏㄨㄚ"
+            },
+            {
+              "text": "貼",
+              "reading": "ㄊㄧㄝ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            },
+            {
+              "text": "戶",
+              "reading": "ㄏㄨˋ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "讓",
+              "reading": "ㄖㄤˋ"
+            },
+            {
+              "text": "陽",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "光",
+              "reading": "ㄍㄨㄤ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "牠",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "身",
+              "reading": "ㄕㄣ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "透",
+              "reading": "ㄊㄡˋ"
+            },
+            {
+              "text": "過",
+              "reading": "ㄍㄨㄛˋ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "故事裡掉下來的太陽，其實是一󠇢隻三腳金鳥。做一󠇡個󠇡金鳥窗花貼在窗戶上，讓陽光從牠身上透過來。"
+        }
+      },
+      "time": {
+        "en": "20 min",
+        "simp": {
+          "text": "二十分钟",
+          "pinyin": [
+            {
+              "text": "二",
+              "reading": "èr"
+            },
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "二十分鐘",
+          "zhuyin": [
+            {
+              "text": "二",
+              "reading": "ㄦˋ"
+            },
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "二十分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "One sheet of yellow or orange paper",
+          "simp": {
+            "text": "一张黄色或橘色的纸",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "黄",
+                "reading": "huáng"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "橘",
+                "reading": "jú"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一張黃色或橘色的紙",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "黃",
+                "reading": "ㄏㄨㄤˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "橘",
+                "reading": "ㄐㄩˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "一󠇢張黃色或橘色的紙"
+          }
+        },
+        {
+          "en": "Colored cellophane, the kind light can pass through",
+          "simp": {
+            "text": "彩色玻璃纸",
+            "pinyin": [
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "玻",
+                "reading": "bō"
+              },
+              {
+                "text": "璃",
+                "reading": "lí"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "彩色玻璃紙",
+            "zhuyin": [
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "玻",
+                "reading": "ㄅㄛ"
+              },
+              {
+                "text": "璃",
+                "reading": "ㄌㄧˊ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "彩色玻璃紙"
+          }
+        },
+        {
+          "en": "Scissors",
+          "simp": {
+            "text": "剪刀",
+            "pinyin": [
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "刀",
+                "reading": "dāo"
+              }
+            ]
+          },
+          "trad": {
+            "text": "剪刀",
+            "zhuyin": [
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "刀",
+                "reading": "ㄉㄠ"
+              }
+            ],
+            "bpmf": "剪刀"
+          }
+        },
+        {
+          "en": "Glue",
+          "simp": {
+            "text": "胶水",
+            "pinyin": [
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "水",
+                "reading": "shuǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "膠水",
+            "zhuyin": [
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "水",
+                "reading": "ㄕㄨㄟˇ"
+              }
+            ],
+            "bpmf": "膠水"
+          }
+        },
+        {
+          "en": "Tape",
+          "simp": {
+            "text": "胶带",
+            "pinyin": [
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              }
+            ]
+          },
+          "trad": {
+            "text": "膠帶",
+            "zhuyin": [
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              }
+            ],
+            "bpmf": "膠帶"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Draw a big circle on the paper and cut it out. This is your sun.",
+          "simp": {
+            "text": "在纸上画一个大圆，把它剪下来。这就是你的太阳。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "它",
+                "reading": "tā"
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "太",
+                "reading": "tài"
+              },
+              {
+                "text": "阳",
+                "reading": "yáng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在紙上畫一個大圓，把它剪下來。這就是你的太陽。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "它",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "太",
+                "reading": "ㄊㄞˋ"
+              },
+              {
+                "text": "陽",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在紙上畫一󠇡個󠇡大圓，把它剪下來。這就是你的太陽。"
+          }
+        },
+        {
+          "en": "Cut a smaller circle out of the middle, so the sun becomes a ring with a hole in it.",
+          "simp": {
+            "text": "在圆的中间再剪掉一个小圆，太阳就变成一个有洞的圈圈。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "间",
+                "reading": "jiān"
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "掉",
+                "reading": "diào"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "太",
+                "reading": "tài"
+              },
+              {
+                "text": "阳",
+                "reading": "yáng"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "变",
+                "reading": "biàn"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "洞",
+                "reading": "dòng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在圓的中間再剪掉一個小圓，太陽就變成一個有洞的圈圈。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "間",
+                "reading": "ㄐㄧㄢ"
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "掉",
+                "reading": "ㄉㄧㄠˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "太",
+                "reading": "ㄊㄞˋ"
+              },
+              {
+                "text": "陽",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "變",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "洞",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在圓的中間再剪掉一󠇡個󠇡小圓，太陽就變成一󠇡個󠇡有洞的圈圈。"
+          }
+        },
+        {
+          "en": "Glue cellophane behind the hole so it covers the whole opening.",
+          "simp": {
+            "text": "把彩色玻璃纸贴在洞的后面，盖住整个洞。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "玻",
+                "reading": "bō"
+              },
+              {
+                "text": "璃",
+                "reading": "lí"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "洞",
+                "reading": "dòng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "盖",
+                "reading": "gài"
+              },
+              {
+                "text": "住",
+                "reading": "zhù"
+              },
+              {
+                "text": "整",
+                "reading": "zhěng"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "洞",
+                "reading": "dòng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把彩色玻璃紙貼在洞的後面，蓋住整個洞。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "玻",
+                "reading": "ㄅㄛ"
+              },
+              {
+                "text": "璃",
+                "reading": "ㄌㄧˊ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "洞",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "後",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "蓋",
+                "reading": "ㄍㄞˋ"
+              },
+              {
+                "text": "住",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "整",
+                "reading": "ㄓㄥˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "洞",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把彩色玻璃紙貼在洞的後面，蓋住整個󠇡洞。"
+          }
+        },
+        {
+          "en": "Cut out three legs and a beak. The golden bird in the story has three legs, not two.",
+          "simp": {
+            "text": "剪出三只脚和一张嘴。故事里的金鸟有三只脚，不是两只。",
+            "pinyin": [
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "三",
+                "reading": "sān"
+              },
+              {
+                "text": "只",
+                "reading": "zhī"
+              },
+              {
+                "text": "脚",
+                "reading": "jiǎo"
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "嘴",
+                "reading": "zuǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "故",
+                "reading": "gù"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "金",
+                "reading": "jīn"
+              },
+              {
+                "text": "鸟",
+                "reading": "niǎo"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "三",
+                "reading": "sān"
+              },
+              {
+                "text": "只",
+                "reading": "zhī"
+              },
+              {
+                "text": "脚",
+                "reading": "jiǎo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "不",
+                "reading": "bú"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "只",
+                "reading": "zhī"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "剪出三隻腳和一張嘴。故事裡的金鳥有三隻腳，不是兩隻。",
+            "zhuyin": [
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "三",
+                "reading": "ㄙㄢ"
+              },
+              {
+                "text": "隻",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "腳",
+                "reading": "ㄐㄧㄠˇ"
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "嘴",
+                "reading": "ㄗㄨㄟˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "故",
+                "reading": "ㄍㄨˋ"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "金",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "鳥",
+                "reading": "ㄋㄧㄠˇ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "三",
+                "reading": "ㄙㄢ"
+              },
+              {
+                "text": "隻",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "腳",
+                "reading": "ㄐㄧㄠˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˊ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "隻",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "剪出三隻腳和一󠇢張嘴。故事裡的金鳥有三隻腳，不󠇡是兩隻。"
+          }
+        },
+        {
+          "en": "Glue or tape the three legs under the circle and the beak on one side. Press each one down so it holds on the paper.",
+          "simp": {
+            "text": "用胶水或胶带把三只脚贴在圆的下面，把嘴贴在旁边，压一压固定好。",
+            "pinyin": [
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "水",
+                "reading": "shuǐ"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "三",
+                "reading": "sān"
+              },
+              {
+                "text": "只",
+                "reading": "zhī"
+              },
+              {
+                "text": "脚",
+                "reading": "jiǎo"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "圆",
+                "reading": "yuán"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "嘴",
+                "reading": "zuǐ"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "旁",
+                "reading": "páng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "压",
+                "reading": "yā"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "压",
+                "reading": "yā"
+              },
+              {
+                "text": "固",
+                "reading": "gù"
+              },
+              {
+                "text": "定",
+                "reading": "dìng"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "用膠水或膠帶把三隻腳貼在圓的下面，把嘴貼在旁邊，壓一壓固定好。",
+            "zhuyin": [
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "水",
+                "reading": "ㄕㄨㄟˇ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "三",
+                "reading": "ㄙㄢ"
+              },
+              {
+                "text": "隻",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "腳",
+                "reading": "ㄐㄧㄠˇ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "圓",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "嘴",
+                "reading": "ㄗㄨㄟˇ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "旁",
+                "reading": "ㄆㄤˊ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "壓",
+                "reading": "ㄧㄚ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "壓",
+                "reading": "ㄧㄚ"
+              },
+              {
+                "text": "固",
+                "reading": "ㄍㄨˋ"
+              },
+              {
+                "text": "定",
+                "reading": "ㄉㄧㄥˋ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "用膠水或膠帶把三隻腳貼在圓的下面，把嘴貼在旁邊，壓一󠇢壓固定好。"
+          }
+        },
+        {
+          "en": "Tape it to a sunny window. Look at what color the light turns as it comes through.",
+          "simp": {
+            "text": "把窗花贴在有阳光的窗户上。看看光透过来以后变成什么颜色。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "窗",
+                "reading": "chuāng"
+              },
+              {
+                "text": "花",
+                "reading": "huā"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "阳",
+                "reading": "yáng"
+              },
+              {
+                "text": "光",
+                "reading": "guāng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "窗",
+                "reading": "chuāng"
+              },
+              {
+                "text": "户",
+                "reading": "hù"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "光",
+                "reading": "guāng"
+              },
+              {
+                "text": "透",
+                "reading": "tòu"
+              },
+              {
+                "text": "过",
+                "reading": "guò"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "变",
+                "reading": "biàn"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "什",
+                "reading": "shén"
+              },
+              {
+                "text": "么",
+                "reading": "me"
+              },
+              {
+                "text": "颜",
+                "reading": "yán"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把窗花貼在有陽光的窗戶上。看看光透過來以後變成什麼顏色。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "窗",
+                "reading": "ㄔㄨㄤ"
+              },
+              {
+                "text": "花",
+                "reading": "ㄏㄨㄚ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "陽",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "光",
+                "reading": "ㄍㄨㄤ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "窗",
+                "reading": "ㄔㄨㄤ"
+              },
+              {
+                "text": "戶",
+                "reading": "ㄏㄨˋ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "光",
+                "reading": "ㄍㄨㄤ"
+              },
+              {
+                "text": "透",
+                "reading": "ㄊㄡˋ"
+              },
+              {
+                "text": "過",
+                "reading": "ㄍㄨㄛˋ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "後",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "變",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "什",
+                "reading": "ㄕㄣˊ"
+              },
+              {
+                "text": "麼",
+                "reading": "ㄇㄜ˙"
+              },
+              {
+                "text": "顏",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把窗花貼在有陽光的窗戶上。看看光透過來以後變成什麼顏色。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a002",
+      "accent": "#4E7A9B",
+      "title": {
+        "en": "The Shadow Walk",
+        "simp": {
+          "text": "影子会走路",
+          "pinyin": [
+            {
+              "text": "影",
+              "reading": "yǐng"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "会",
+              "reading": "huì"
+            },
+            {
+              "text": "走",
+              "reading": "zǒu"
+            },
+            {
+              "text": "路",
+              "reading": "lù"
+            }
+          ]
+        },
+        "trad": {
+          "text": "影子會走路",
+          "zhuyin": [
+            {
+              "text": "影",
+              "reading": "ㄧㄥˇ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "會",
+              "reading": "ㄏㄨㄟˋ"
+            },
+            {
+              "text": "走",
+              "reading": "ㄗㄡˇ"
+            },
+            {
+              "text": "路",
+              "reading": "ㄌㄨˋ"
+            }
+          ],
+          "bpmf": "影子󠇡會走路"
+        }
+      },
+      "desc": {
+        "en": "One sun crosses the sky each day. Trace your shadow in the morning, trace it again in the afternoon, and you can see how far that sun has moved.",
+        "simp": {
+          "text": "太阳每天从天空走过一次。早上描一次影子，下午再描一次，就知道太阳移动了多少。",
+          "pinyin": [
+            {
+              "text": "太",
+              "reading": "tài"
+            },
+            {
+              "text": "阳",
+              "reading": "yáng"
+            },
+            {
+              "text": "每",
+              "reading": "měi"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "从",
+              "reading": "cóng"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "空",
+              "reading": "kōng"
+            },
+            {
+              "text": "走",
+              "reading": "zǒu"
+            },
+            {
+              "text": "过",
+              "reading": "guò"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "次",
+              "reading": "cì"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "早",
+              "reading": "zǎo"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "描",
+              "reading": "miáo"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "次",
+              "reading": "cì"
+            },
+            {
+              "text": "影",
+              "reading": "yǐng"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "午",
+              "reading": "wǔ"
+            },
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "描",
+              "reading": "miáo"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "次",
+              "reading": "cì"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "知",
+              "reading": "zhī"
+            },
+            {
+              "text": "道",
+              "reading": "dào"
+            },
+            {
+              "text": "太",
+              "reading": "tài"
+            },
+            {
+              "text": "阳",
+              "reading": "yáng"
+            },
+            {
+              "text": "移",
+              "reading": "yí"
+            },
+            {
+              "text": "动",
+              "reading": "dòng"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "多",
+              "reading": "duō"
+            },
+            {
+              "text": "少",
+              "reading": "shǎo"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "太陽每天從天空走過一次。早上描一次影子，下午再描一次，就知道太陽移動了多少。",
+          "zhuyin": [
+            {
+              "text": "太",
+              "reading": "ㄊㄞˋ"
+            },
+            {
+              "text": "陽",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "每",
+              "reading": "ㄇㄟˇ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "從",
+              "reading": "ㄘㄨㄥˊ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "空",
+              "reading": "ㄎㄨㄥ"
+            },
+            {
+              "text": "走",
+              "reading": "ㄗㄡˇ"
+            },
+            {
+              "text": "過",
+              "reading": "ㄍㄨㄛˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "次",
+              "reading": "ㄘˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "早",
+              "reading": "ㄗㄠˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "描",
+              "reading": "ㄇㄧㄠˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "次",
+              "reading": "ㄘˋ"
+            },
+            {
+              "text": "影",
+              "reading": "ㄧㄥˇ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "午",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "描",
+              "reading": "ㄇㄧㄠˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "次",
+              "reading": "ㄘˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "知",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "道",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "太",
+              "reading": "ㄊㄞˋ"
+            },
+            {
+              "text": "陽",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "移",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "動",
+              "reading": "ㄉㄨㄥˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "多",
+              "reading": "ㄉㄨㄛ"
+            },
+            {
+              "text": "少",
+              "reading": "ㄕㄠˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "太陽每天從天空走過一󠇡次。早上描一󠇡次影子󠇡，下午再描一󠇡次，就知道太陽移動了多少。"
+        }
+      },
+      "time": {
+        "en": "10 minutes in the morning, 10 more in the afternoon",
+        "simp": {
+          "text": "早上十分钟，下午十分钟",
+          "pinyin": [
+            {
+              "text": "早",
+              "reading": "zǎo"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "午",
+              "reading": "wǔ"
+            },
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "早上十分鐘，下午十分鐘",
+          "zhuyin": [
+            {
+              "text": "早",
+              "reading": "ㄗㄠˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "午",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "早上十分鐘，下午十分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "Sidewalk chalk in two colors",
+          "simp": {
+            "text": "两种颜色的粉笔",
+            "pinyin": [
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "种",
+                "reading": "zhǒng"
+              },
+              {
+                "text": "颜",
+                "reading": "yán"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "粉",
+                "reading": "fěn"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "兩種顏色的粉筆",
+            "zhuyin": [
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "種",
+                "reading": "ㄓㄨㄥˇ"
+              },
+              {
+                "text": "顏",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "粉",
+                "reading": "ㄈㄣˇ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "兩種顏色的粉筆"
+          }
+        },
+        {
+          "en": "A sunny patch of ground outside",
+          "simp": {
+            "text": "外面一块有阳光的地面",
+            "pinyin": [
+              {
+                "text": "外",
+                "reading": "wài"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "块",
+                "reading": "kuài"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "阳",
+                "reading": "yáng"
+              },
+              {
+                "text": "光",
+                "reading": "guāng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              }
+            ]
+          },
+          "trad": {
+            "text": "外面一塊有陽光的地面",
+            "zhuyin": [
+              {
+                "text": "外",
+                "reading": "ㄨㄞˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "塊",
+                "reading": "ㄎㄨㄞˋ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "陽",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "光",
+                "reading": "ㄍㄨㄤ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              }
+            ],
+            "bpmf": "外面一󠇡塊有陽光的地面"
+          }
+        },
+        {
+          "en": "Someone to do the tracing for you",
+          "simp": {
+            "text": "一个帮你画的人",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "帮",
+                "reading": "bāng"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一個幫你畫的人",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "幫",
+                "reading": "ㄅㄤ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              }
+            ],
+            "bpmf": "一󠇡個󠇡幫你畫的人"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "In the morning, stand still on the sunny ground and have someone trace all the way around your shadow with chalk.",
+          "simp": {
+            "text": "早上站在有阳光的地面上，请人用粉笔沿着你的影子画一圈。",
+            "pinyin": [
+              {
+                "text": "早",
+                "reading": "zǎo"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "站",
+                "reading": "zhàn"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "阳",
+                "reading": "yáng"
+              },
+              {
+                "text": "光",
+                "reading": "guāng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "请",
+                "reading": "qǐng"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "粉",
+                "reading": "fěn"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              },
+              {
+                "text": "沿",
+                "reading": "yán"
+              },
+              {
+                "text": "着",
+                "reading": "zhe"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "影",
+                "reading": "yǐng"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "早上站在有陽光的地面上，請人用粉筆沿著你的影子畫一圈。",
+            "zhuyin": [
+              {
+                "text": "早",
+                "reading": "ㄗㄠˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "站",
+                "reading": "ㄓㄢˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "陽",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "光",
+                "reading": "ㄍㄨㄤ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "請",
+                "reading": "ㄑㄧㄥˇ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "粉",
+                "reading": "ㄈㄣˇ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "沿",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "著",
+                "reading": "ㄓㄜ˙"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "影",
+                "reading": "ㄧㄥˇ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "早上站在有陽光的地面上，請人用粉筆沿著你的影子󠇡畫一󠇢圈。"
+          }
+        },
+        {
+          "en": "Draw a circle around each shoe, so you can come back and stand in exactly the same place.",
+          "simp": {
+            "text": "在两只鞋子旁边各画一个圈，下午才能站回同样的位置。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "只",
+                "reading": "zhī"
+              },
+              {
+                "text": "鞋",
+                "reading": "xié"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "旁",
+                "reading": "páng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "各",
+                "reading": "gè"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "午",
+                "reading": "wǔ"
+              },
+              {
+                "text": "才",
+                "reading": "cái"
+              },
+              {
+                "text": "能",
+                "reading": "néng"
+              },
+              {
+                "text": "站",
+                "reading": "zhàn"
+              },
+              {
+                "text": "回",
+                "reading": "huí"
+              },
+              {
+                "text": "同",
+                "reading": "tóng"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "位",
+                "reading": "wèi"
+              },
+              {
+                "text": "置",
+                "reading": "zhì"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在兩隻鞋子旁邊各畫一個圈，下午才能站回同樣的位置。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "隻",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "鞋",
+                "reading": "ㄒㄧㄝˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "旁",
+                "reading": "ㄆㄤˊ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "各",
+                "reading": "ㄍㄜˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "午",
+                "reading": "ㄨˇ"
+              },
+              {
+                "text": "才",
+                "reading": "ㄘㄞˊ"
+              },
+              {
+                "text": "能",
+                "reading": "ㄋㄥˊ"
+              },
+              {
+                "text": "站",
+                "reading": "ㄓㄢˋ"
+              },
+              {
+                "text": "回",
+                "reading": "ㄏㄨㄟˊ"
+              },
+              {
+                "text": "同",
+                "reading": "ㄊㄨㄥˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "位",
+                "reading": "ㄨㄟˋ"
+              },
+              {
+                "text": "置",
+                "reading": "ㄓˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在兩隻鞋子󠇡旁邊各畫一󠇡個󠇡圈，下午才能站回同樣的位置。"
+          }
+        },
+        {
+          "en": "Write the time next to the shadow.",
+          "simp": {
+            "text": "在影子旁边写下现在几点。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "影",
+                "reading": "yǐng"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "旁",
+                "reading": "páng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "现",
+                "reading": "xiàn"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "几",
+                "reading": "jǐ"
+              },
+              {
+                "text": "点",
+                "reading": "diǎn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在影子旁邊寫下現在幾點。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "影",
+                "reading": "ㄧㄥˇ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "旁",
+                "reading": "ㄆㄤˊ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "現",
+                "reading": "ㄒㄧㄢˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "幾",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "點",
+                "reading": "ㄉㄧㄢˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在影子󠇡旁邊寫下現在幾點。"
+          }
+        },
+        {
+          "en": "Come back in the afternoon, stand on the same two circles, and trace your shadow again in the other color.",
+          "simp": {
+            "text": "下午回到同一个地方，站回两个圈里，用另一种颜色的粉笔再画一次影子。",
+            "pinyin": [
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "午",
+                "reading": "wǔ"
+              },
+              {
+                "text": "回",
+                "reading": "huí"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "同",
+                "reading": "tóng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "站",
+                "reading": "zhàn"
+              },
+              {
+                "text": "回",
+                "reading": "huí"
+              },
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "另",
+                "reading": "lìng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "种",
+                "reading": "zhǒng"
+              },
+              {
+                "text": "颜",
+                "reading": "yán"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "粉",
+                "reading": "fěn"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "次",
+                "reading": "cì"
+              },
+              {
+                "text": "影",
+                "reading": "yǐng"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "下午回到同一個地方，站回兩個圈裡，用另一種顏色的粉筆再畫一次影子。",
+            "zhuyin": [
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "午",
+                "reading": "ㄨˇ"
+              },
+              {
+                "text": "回",
+                "reading": "ㄏㄨㄟˊ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "同",
+                "reading": "ㄊㄨㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "站",
+                "reading": "ㄓㄢˋ"
+              },
+              {
+                "text": "回",
+                "reading": "ㄏㄨㄟˊ"
+              },
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "另",
+                "reading": "ㄌㄧㄥˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "種",
+                "reading": "ㄓㄨㄥˇ"
+              },
+              {
+                "text": "顏",
+                "reading": "ㄧㄢˊ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "粉",
+                "reading": "ㄈㄣˇ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "次",
+                "reading": "ㄘˋ"
+              },
+              {
+                "text": "影",
+                "reading": "ㄧㄥˇ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "下午回到同一󠇡個󠇡地方，站回兩個󠇡圈裡，用另一󠇢種顏色的粉筆再畫一󠇡次影子󠇡。"
+          }
+        },
+        {
+          "en": "Compare the two shadows. They point different ways and they are different lengths, because that one sun has moved to the other side of the sky.",
+          "simp": {
+            "text": "比一比两个影子：方向不一样，长短也不一样。天上那一个太阳，已经走到另一边了。",
+            "pinyin": [
+              {
+                "text": "比",
+                "reading": "bǐ"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "比",
+                "reading": "bǐ"
+              },
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "影",
+                "reading": "yǐng"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "向",
+                "reading": "xiàng"
+              },
+              {
+                "text": "不",
+                "reading": "bù"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "长",
+                "reading": "cháng"
+              },
+              {
+                "text": "短",
+                "reading": "duǎn"
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "不",
+                "reading": "bù"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "太",
+                "reading": "tài"
+              },
+              {
+                "text": "阳",
+                "reading": "yáng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "已",
+                "reading": "yǐ"
+              },
+              {
+                "text": "经",
+                "reading": "jīng"
+              },
+              {
+                "text": "走",
+                "reading": "zǒu"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "另",
+                "reading": "lìng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "比一比兩個影子：方向不一樣，長短也不一樣。天上那一個太陽，已經走到另一邊了。",
+            "zhuyin": [
+              {
+                "text": "比",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "比",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "影",
+                "reading": "ㄧㄥˇ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "向",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "長",
+                "reading": "ㄔㄤˊ"
+              },
+              {
+                "text": "短",
+                "reading": "ㄉㄨㄢˇ"
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "太",
+                "reading": "ㄊㄞˋ"
+              },
+              {
+                "text": "陽",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "已",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "經",
+                "reading": "ㄐㄧㄥ"
+              },
+              {
+                "text": "走",
+                "reading": "ㄗㄡˇ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "另",
+                "reading": "ㄌㄧㄥˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "比一󠇢比兩個󠇡影子󠇡：方向不一󠇡樣，長短也不一󠇡樣。天上那一󠇡個󠇡太陽，已經走到另一󠇢邊了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a003",
+      "accent": "#A2523E",
+      "title": {
+        "en": "What the Sun Dried Up",
+        "simp": {
+          "text": "太阳晒干了什么",
+          "pinyin": [
+            {
+              "text": "太",
+              "reading": "tài"
+            },
+            {
+              "text": "阳",
+              "reading": "yáng"
+            },
+            {
+              "text": "晒",
+              "reading": "shài"
+            },
+            {
+              "text": "干",
+              "reading": "gān"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "什",
+              "reading": "shén"
+            },
+            {
+              "text": "么",
+              "reading": "me"
+            }
+          ]
+        },
+        "trad": {
+          "text": "太陽曬乾了什麼",
+          "zhuyin": [
+            {
+              "text": "太",
+              "reading": "ㄊㄞˋ"
+            },
+            {
+              "text": "陽",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "曬",
+              "reading": "ㄕㄞˋ"
+            },
+            {
+              "text": "乾",
+              "reading": "ㄍㄢ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "什",
+              "reading": "ㄕㄣˊ"
+            },
+            {
+              "text": "麼",
+              "reading": "ㄇㄜ˙"
+            }
+          ],
+          "bpmf": "太陽曬乾了什麼"
+        }
+      },
+      "desc": {
+        "en": "Ten suns dried the rivers up in a single day. Set out two dishes of water, one in the sun and one in the shade, and watch which one empties first.",
+        "simp": {
+          "text": "十个太阳一起晒，河水一天就干了。放两碟水，一碟放在太阳下，一碟放在阴影里，看看哪一碟先干。",
+          "pinyin": [
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "太",
+              "reading": "tài"
+            },
+            {
+              "text": "阳",
+              "reading": "yáng"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "起",
+              "reading": "qǐ"
+            },
+            {
+              "text": "晒",
+              "reading": "shài"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "河",
+              "reading": "hé"
+            },
+            {
+              "text": "水",
+              "reading": "shuǐ"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "天",
+              "reading": "tiān"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "干",
+              "reading": "gān"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "放",
+              "reading": "fàng"
+            },
+            {
+              "text": "两",
+              "reading": "liǎng"
+            },
+            {
+              "text": "碟",
+              "reading": "dié"
+            },
+            {
+              "text": "水",
+              "reading": "shuǐ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "碟",
+              "reading": "dié"
+            },
+            {
+              "text": "放",
+              "reading": "fàng"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "太",
+              "reading": "tài"
+            },
+            {
+              "text": "阳",
+              "reading": "yáng"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "碟",
+              "reading": "dié"
+            },
+            {
+              "text": "放",
+              "reading": "fàng"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "阴",
+              "reading": "yīn"
+            },
+            {
+              "text": "影",
+              "reading": "yǐng"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "哪",
+              "reading": "nǎ"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "碟",
+              "reading": "dié"
+            },
+            {
+              "text": "先",
+              "reading": "xiān"
+            },
+            {
+              "text": "干",
+              "reading": "gān"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "十個太陽一起曬，河水一天就乾了。放兩碟水，一碟放在太陽下，一碟放在陰影裡，看看哪一碟先乾。",
+          "zhuyin": [
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "太",
+              "reading": "ㄊㄞˋ"
+            },
+            {
+              "text": "陽",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "起",
+              "reading": "ㄑㄧˇ"
+            },
+            {
+              "text": "曬",
+              "reading": "ㄕㄞˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "河",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "水",
+              "reading": "ㄕㄨㄟˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "天",
+              "reading": "ㄊㄧㄢ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "乾",
+              "reading": "ㄍㄢ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "放",
+              "reading": "ㄈㄤˋ"
+            },
+            {
+              "text": "兩",
+              "reading": "ㄌㄧㄤˇ"
+            },
+            {
+              "text": "碟",
+              "reading": "ㄉㄧㄝˊ"
+            },
+            {
+              "text": "水",
+              "reading": "ㄕㄨㄟˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "碟",
+              "reading": "ㄉㄧㄝˊ"
+            },
+            {
+              "text": "放",
+              "reading": "ㄈㄤˋ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "太",
+              "reading": "ㄊㄞˋ"
+            },
+            {
+              "text": "陽",
+              "reading": "ㄧㄤˊ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "碟",
+              "reading": "ㄉㄧㄝˊ"
+            },
+            {
+              "text": "放",
+              "reading": "ㄈㄤˋ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "陰",
+              "reading": "ㄧㄣ"
+            },
+            {
+              "text": "影",
+              "reading": "ㄧㄥˇ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "哪",
+              "reading": "ㄋㄚˇ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "碟",
+              "reading": "ㄉㄧㄝˊ"
+            },
+            {
+              "text": "先",
+              "reading": "ㄒㄧㄢ"
+            },
+            {
+              "text": "乾",
+              "reading": "ㄍㄢ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "十個󠇡太陽一󠇢起曬，河水一󠇢天就乾了。放兩碟水，一󠇢碟放在太陽下，一󠇢碟放在陰影裡，看看哪一󠇢碟先乾。"
+        }
+      },
+      "time": {
+        "en": "5 minutes to set up, then a quick look every hour",
+        "simp": {
+          "text": "五分钟准备，之后每小时看一次",
+          "pinyin": [
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            },
+            {
+              "text": "准",
+              "reading": "zhǔn"
+            },
+            {
+              "text": "备",
+              "reading": "bèi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "之",
+              "reading": "zhī"
+            },
+            {
+              "text": "后",
+              "reading": "hòu"
+            },
+            {
+              "text": "每",
+              "reading": "měi"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "时",
+              "reading": "shí"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "次",
+              "reading": "cì"
+            }
+          ]
+        },
+        "trad": {
+          "text": "五分鐘準備，之後每小時看一次",
+          "zhuyin": [
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            },
+            {
+              "text": "準",
+              "reading": "ㄓㄨㄣˇ"
+            },
+            {
+              "text": "備",
+              "reading": "ㄅㄟˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "之",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "後",
+              "reading": "ㄏㄡˋ"
+            },
+            {
+              "text": "每",
+              "reading": "ㄇㄟˇ"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "時",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "次",
+              "reading": "ㄘˋ"
+            }
+          ],
+          "bpmf": "五分鐘準備，之後每小時看一󠇡次"
+        }
+      },
+      "materials": [
+        {
+          "en": "Two small dishes the same size",
+          "simp": {
+            "text": "两个一样大的小碟子",
+            "pinyin": [
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "碟",
+                "reading": "dié"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              }
+            ]
+          },
+          "trad": {
+            "text": "兩個一樣大的小碟子",
+            "zhuyin": [
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "碟",
+                "reading": "ㄉㄧㄝˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              }
+            ],
+            "bpmf": "兩個󠇡一󠇡樣大的小碟子󠇡"
+          }
+        },
+        {
+          "en": "Water",
+          "simp": {
+            "text": "水",
+            "pinyin": [
+              {
+                "text": "水",
+                "reading": "shuǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "水",
+            "zhuyin": [
+              {
+                "text": "水",
+                "reading": "ㄕㄨㄟˇ"
+              }
+            ],
+            "bpmf": "水"
+          }
+        },
+        {
+          "en": "Paper and a pencil",
+          "simp": {
+            "text": "一张纸和一枝铅笔",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "枝",
+                "reading": "zhī"
+              },
+              {
+                "text": "铅",
+                "reading": "qiān"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一張紙和一枝鉛筆",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "枝",
+                "reading": "ㄓ"
+              },
+              {
+                "text": "鉛",
+                "reading": "ㄑㄧㄢ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "一󠇢張紙和一󠇢枝鉛筆"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Pour the same amount of water into both dishes.",
+          "simp": {
+            "text": "在两个碟子里倒进一样多的水。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "碟",
+                "reading": "dié"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "倒",
+                "reading": "dào"
+              },
+              {
+                "text": "进",
+                "reading": "jìn"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "多",
+                "reading": "duō"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "水",
+                "reading": "shuǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在兩個碟子裡倒進一樣多的水。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "碟",
+                "reading": "ㄉㄧㄝˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "倒",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "進",
+                "reading": "ㄐㄧㄣˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "多",
+                "reading": "ㄉㄨㄛ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "水",
+                "reading": "ㄕㄨㄟˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在兩個󠇡碟子󠇡裡倒進一󠇡樣多的水。"
+          }
+        },
+        {
+          "en": "Put one dish out in the sun and the other in the shade right beside it.",
+          "simp": {
+            "text": "一碟放在太阳下面，一碟放在旁边的阴影里。",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "碟",
+                "reading": "dié"
+              },
+              {
+                "text": "放",
+                "reading": "fàng"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "太",
+                "reading": "tài"
+              },
+              {
+                "text": "阳",
+                "reading": "yáng"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "碟",
+                "reading": "dié"
+              },
+              {
+                "text": "放",
+                "reading": "fàng"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "旁",
+                "reading": "páng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "阴",
+                "reading": "yīn"
+              },
+              {
+                "text": "影",
+                "reading": "yǐng"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "一碟放在太陽下面，一碟放在旁邊的陰影裡。",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "碟",
+                "reading": "ㄉㄧㄝˊ"
+              },
+              {
+                "text": "放",
+                "reading": "ㄈㄤˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "太",
+                "reading": "ㄊㄞˋ"
+              },
+              {
+                "text": "陽",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "碟",
+                "reading": "ㄉㄧㄝˊ"
+              },
+              {
+                "text": "放",
+                "reading": "ㄈㄤˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "旁",
+                "reading": "ㄆㄤˊ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "陰",
+                "reading": "ㄧㄣ"
+              },
+              {
+                "text": "影",
+                "reading": "ㄧㄥˇ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "一󠇢碟放在太陽下面，一󠇢碟放在旁邊的陰影裡。"
+          }
+        },
+        {
+          "en": "Every hour, go and look at both dishes, and draw the water level on your paper.",
+          "simp": {
+            "text": "每过一个小时就去看一次，把两碟水的高度画在纸上。",
+            "pinyin": [
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "过",
+                "reading": "guò"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "时",
+                "reading": "shí"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "去",
+                "reading": "qù"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "次",
+                "reading": "cì"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "两",
+                "reading": "liǎng"
+              },
+              {
+                "text": "碟",
+                "reading": "dié"
+              },
+              {
+                "text": "水",
+                "reading": "shuǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "高",
+                "reading": "gāo"
+              },
+              {
+                "text": "度",
+                "reading": "dù"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "每過一個小時就去看一次，把兩碟水的高度畫在紙上。",
+            "zhuyin": [
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "過",
+                "reading": "ㄍㄨㄛˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "時",
+                "reading": "ㄕˊ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "去",
+                "reading": "ㄑㄩˋ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "次",
+                "reading": "ㄘˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "兩",
+                "reading": "ㄌㄧㄤˇ"
+              },
+              {
+                "text": "碟",
+                "reading": "ㄉㄧㄝˊ"
+              },
+              {
+                "text": "水",
+                "reading": "ㄕㄨㄟˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "高",
+                "reading": "ㄍㄠ"
+              },
+              {
+                "text": "度",
+                "reading": "ㄉㄨˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "每過一󠇡個󠇡小時就去看一󠇡次，把兩碟水的高度畫在紙上。"
+          }
+        },
+        {
+          "en": "By evening one dish is empty and the other still has water in it. Which one dried up first?",
+          "simp": {
+            "text": "到了晚上，一碟已经空了，另一碟还有水。是哪一碟先干的呢？",
+            "pinyin": [
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "晚",
+                "reading": "wǎn"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "碟",
+                "reading": "dié"
+              },
+              {
+                "text": "已",
+                "reading": "yǐ"
+              },
+              {
+                "text": "经",
+                "reading": "jīng"
+              },
+              {
+                "text": "空",
+                "reading": "kōng"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "另",
+                "reading": "lìng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "碟",
+                "reading": "dié"
+              },
+              {
+                "text": "还",
+                "reading": "hái"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "水",
+                "reading": "shuǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "哪",
+                "reading": "nǎ"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "碟",
+                "reading": "dié"
+              },
+              {
+                "text": "先",
+                "reading": "xiān"
+              },
+              {
+                "text": "干",
+                "reading": "gān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "呢",
+                "reading": "ne"
+              },
+              {
+                "text": "？",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "到了晚上，一碟已經空了，另一碟還有水。是哪一碟先乾的呢？",
+            "zhuyin": [
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "晚",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "碟",
+                "reading": "ㄉㄧㄝˊ"
+              },
+              {
+                "text": "已",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "經",
+                "reading": "ㄐㄧㄥ"
+              },
+              {
+                "text": "空",
+                "reading": "ㄎㄨㄥ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "另",
+                "reading": "ㄌㄧㄥˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "碟",
+                "reading": "ㄉㄧㄝˊ"
+              },
+              {
+                "text": "還",
+                "reading": "ㄏㄞˊ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "水",
+                "reading": "ㄕㄨㄟˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "哪",
+                "reading": "ㄋㄚˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "碟",
+                "reading": "ㄉㄧㄝˊ"
+              },
+              {
+                "text": "先",
+                "reading": "ㄒㄧㄢ"
+              },
+              {
+                "text": "乾",
+                "reading": "ㄍㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "呢",
+                "reading": "ㄋㄜ˙"
+              },
+              {
+                "text": "？",
+                "reading": ""
+              }
+            ],
+            "bpmf": "到了晚上，一󠇢碟已經空了，另一󠇢碟還有水。是哪一󠇢碟先乾的呢？"
+          }
+        },
+        {
+          "en": "Now picture ten suns instead of one. In the story the rivers dried up in a day and every field of rice turned brown.",
+          "simp": {
+            "text": "现在想一想，天上有十个太阳会怎么样。故事里的河水一天就干了，田里的稻子也全都枯黄了。",
+            "pinyin": [
+              {
+                "text": "现",
+                "reading": "xiàn"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "十",
+                "reading": "shí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "太",
+                "reading": "tài"
+              },
+              {
+                "text": "阳",
+                "reading": "yáng"
+              },
+              {
+                "text": "会",
+                "reading": "huì"
+              },
+              {
+                "text": "怎",
+                "reading": "zěn"
+              },
+              {
+                "text": "么",
+                "reading": "me"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "故",
+                "reading": "gù"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "河",
+                "reading": "hé"
+              },
+              {
+                "text": "水",
+                "reading": "shuǐ"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "天",
+                "reading": "tiān"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "干",
+                "reading": "gān"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "田",
+                "reading": "tián"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "稻",
+                "reading": "dào"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "全",
+                "reading": "quán"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "枯",
+                "reading": "kū"
+              },
+              {
+                "text": "黄",
+                "reading": "huáng"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "現在想一想，天上有十個太陽會怎麼樣。故事裡的河水一天就乾了，田裡的稻子也全都枯黃了。",
+            "zhuyin": [
+              {
+                "text": "現",
+                "reading": "ㄒㄧㄢˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "十",
+                "reading": "ㄕˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "太",
+                "reading": "ㄊㄞˋ"
+              },
+              {
+                "text": "陽",
+                "reading": "ㄧㄤˊ"
+              },
+              {
+                "text": "會",
+                "reading": "ㄏㄨㄟˋ"
+              },
+              {
+                "text": "怎",
+                "reading": "ㄗㄣˇ"
+              },
+              {
+                "text": "麼",
+                "reading": "ㄇㄜ˙"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "故",
+                "reading": "ㄍㄨˋ"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "河",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "水",
+                "reading": "ㄕㄨㄟˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "天",
+                "reading": "ㄊㄧㄢ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "乾",
+                "reading": "ㄍㄢ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "田",
+                "reading": "ㄊㄧㄢˊ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "稻",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "全",
+                "reading": "ㄑㄩㄢˊ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "枯",
+                "reading": "ㄎㄨ"
+              },
+              {
+                "text": "黃",
+                "reading": "ㄏㄨㄤˊ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "現在想一󠇢想，天上有十個󠇡太陽會怎麼樣。故事裡的河水一󠇢天就乾了，田裡的稻子󠇡也全都枯黃了。"
+          }
+        }
+      ]
+    }
+  ]
+}

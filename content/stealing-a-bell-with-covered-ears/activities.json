@@ -1,0 +1,6499 @@
+{
+  "slug": "stealing-a-bell-with-covered-ears",
+  "activities": [
+    {
+      "id": "a001",
+      "accent": "#B08442",
+      "title": {
+        "en": "Make a Doorbell That Rings",
+        "simp": {
+          "text": "做一个会响的门铃",
+          "pinyin": [
+            {
+              "text": "做",
+              "reading": "zuò"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "会",
+              "reading": "huì"
+            },
+            {
+              "text": "响",
+              "reading": "xiǎng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "门",
+              "reading": "mén"
+            },
+            {
+              "text": "铃",
+              "reading": "líng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "做一個會響的門鈴",
+          "zhuyin": [
+            {
+              "text": "做",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "會",
+              "reading": "ㄏㄨㄟˋ"
+            },
+            {
+              "text": "響",
+              "reading": "ㄒㄧㄤˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "門",
+              "reading": "ㄇㄣˊ"
+            },
+            {
+              "text": "鈴",
+              "reading": "ㄌㄧㄥˊ"
+            }
+          ],
+          "bpmf": "做一󠇡個󠇡會響的門鈴"
+        }
+      },
+      "desc": {
+        "en": "The bell in the story rang at the lightest touch. Turn a paper cup and a few beads into a doorbell that calls out the moment anyone brushes it.",
+        "simp": {
+          "text": "故事里的门铃，轻轻一碰就会响。用一个纸杯和几颗珠子，做一个有人一碰就叫的门铃。",
+          "pinyin": [
+            {
+              "text": "故",
+              "reading": "gù"
+            },
+            {
+              "text": "事",
+              "reading": "shì"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "门",
+              "reading": "mén"
+            },
+            {
+              "text": "铃",
+              "reading": "líng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "轻",
+              "reading": "qīng"
+            },
+            {
+              "text": "轻",
+              "reading": "qīng"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "碰",
+              "reading": "pèng"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "会",
+              "reading": "huì"
+            },
+            {
+              "text": "响",
+              "reading": "xiǎng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "用",
+              "reading": "yòng"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "杯",
+              "reading": "bēi"
+            },
+            {
+              "text": "和",
+              "reading": "hé"
+            },
+            {
+              "text": "几",
+              "reading": "jǐ"
+            },
+            {
+              "text": "颗",
+              "reading": "kē"
+            },
+            {
+              "text": "珠",
+              "reading": "zhū"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "做",
+              "reading": "zuò"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "碰",
+              "reading": "pèng"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "叫",
+              "reading": "jiào"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "门",
+              "reading": "mén"
+            },
+            {
+              "text": "铃",
+              "reading": "líng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "故事裡的門鈴，輕輕一碰就會響。用一個紙杯和幾顆珠子，做一個有人一碰就叫的門鈴。",
+          "zhuyin": [
+            {
+              "text": "故",
+              "reading": "ㄍㄨˋ"
+            },
+            {
+              "text": "事",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "門",
+              "reading": "ㄇㄣˊ"
+            },
+            {
+              "text": "鈴",
+              "reading": "ㄌㄧㄥˊ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "輕",
+              "reading": "ㄑㄧㄥ"
+            },
+            {
+              "text": "輕",
+              "reading": "ㄑㄧㄥ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "碰",
+              "reading": "ㄆㄥˋ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "會",
+              "reading": "ㄏㄨㄟˋ"
+            },
+            {
+              "text": "響",
+              "reading": "ㄒㄧㄤˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "用",
+              "reading": "ㄩㄥˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "杯",
+              "reading": "ㄅㄟ"
+            },
+            {
+              "text": "和",
+              "reading": "ㄏㄜˊ"
+            },
+            {
+              "text": "幾",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "顆",
+              "reading": "ㄎㄜ"
+            },
+            {
+              "text": "珠",
+              "reading": "ㄓㄨ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "做",
+              "reading": "ㄗㄨㄛˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "碰",
+              "reading": "ㄆㄥˋ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "叫",
+              "reading": "ㄐㄧㄠˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "門",
+              "reading": "ㄇㄣˊ"
+            },
+            {
+              "text": "鈴",
+              "reading": "ㄌㄧㄥˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "故事裡的門鈴，輕輕一󠇡碰就會響。用一󠇡個󠇡紙杯和幾顆珠子󠇡，做一󠇡個󠇡有人一󠇡碰就叫的門鈴。"
+        }
+      },
+      "time": {
+        "en": "20 min",
+        "simp": {
+          "text": "二十分钟",
+          "pinyin": [
+            {
+              "text": "二",
+              "reading": "èr"
+            },
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "二十分鐘",
+          "zhuyin": [
+            {
+              "text": "二",
+              "reading": "ㄦˋ"
+            },
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "二十分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "A paper cup",
+          "simp": {
+            "text": "一个纸杯",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "杯",
+                "reading": "bēi"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一個紙杯",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "杯",
+                "reading": "ㄅㄟ"
+              }
+            ],
+            "bpmf": "一󠇡個󠇡紙杯"
+          }
+        },
+        {
+          "en": "A piece of string about as long as your arm",
+          "simp": {
+            "text": "一条线，大概和手臂一样长",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "条",
+                "reading": "tiáo"
+              },
+              {
+                "text": "线",
+                "reading": "xiàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "概",
+                "reading": "gài"
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "臂",
+                "reading": "bì"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "长",
+                "reading": "cháng"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一條線，大概和手臂一樣長",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "條",
+                "reading": "ㄊㄧㄠˊ"
+              },
+              {
+                "text": "線",
+                "reading": "ㄒㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "概",
+                "reading": "ㄍㄞˋ"
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "臂",
+                "reading": "ㄅㄧˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "長",
+                "reading": "ㄔㄤˊ"
+              }
+            ],
+            "bpmf": "一󠇢條線，大概和手臂一󠇡樣長"
+          }
+        },
+        {
+          "en": "A few beads, or small jingle bells",
+          "simp": {
+            "text": "几颗珠子或小铃铛",
+            "pinyin": [
+              {
+                "text": "几",
+                "reading": "jǐ"
+              },
+              {
+                "text": "颗",
+                "reading": "kē"
+              },
+              {
+                "text": "珠",
+                "reading": "zhū"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              }
+            ]
+          },
+          "trad": {
+            "text": "幾顆珠子或小鈴鐺",
+            "zhuyin": [
+              {
+                "text": "幾",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "顆",
+                "reading": "ㄎㄜ"
+              },
+              {
+                "text": "珠",
+                "reading": "ㄓㄨ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              }
+            ],
+            "bpmf": "幾顆珠子󠇡或小鈴鐺"
+          }
+        },
+        {
+          "en": "Scissors",
+          "simp": {
+            "text": "剪刀",
+            "pinyin": [
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "刀",
+                "reading": "dāo"
+              }
+            ]
+          },
+          "trad": {
+            "text": "剪刀",
+            "zhuyin": [
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "刀",
+                "reading": "ㄉㄠ"
+              }
+            ],
+            "bpmf": "剪刀"
+          }
+        },
+        {
+          "en": "Tape",
+          "simp": {
+            "text": "胶带",
+            "pinyin": [
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              }
+            ]
+          },
+          "trad": {
+            "text": "膠帶",
+            "zhuyin": [
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              }
+            ],
+            "bpmf": "膠帶"
+          }
+        },
+        {
+          "en": "Markers or stickers",
+          "simp": {
+            "text": "色笔或贴纸",
+            "pinyin": [
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "色筆或貼紙",
+            "zhuyin": [
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "色筆或貼紙"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Cut a small hole in the middle of the bottom of the cup.",
+          "simp": {
+            "text": "在纸杯的底部中间剪一个小洞。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "杯",
+                "reading": "bēi"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "底",
+                "reading": "dǐ"
+              },
+              {
+                "text": "部",
+                "reading": "bù"
+              },
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "间",
+                "reading": "jiān"
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "洞",
+                "reading": "dòng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在紙杯的底部中間剪一個小洞。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "杯",
+                "reading": "ㄅㄟ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "底",
+                "reading": "ㄉㄧˇ"
+              },
+              {
+                "text": "部",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "間",
+                "reading": "ㄐㄧㄢ"
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "洞",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在紙杯的底部中間剪一󠇡個󠇡小洞。"
+          }
+        },
+        {
+          "en": "Push one end of the string up through the hole from inside the cup, and tie a knot inside so it cannot slip out.",
+          "simp": {
+            "text": "把线的一头从杯子里面穿过小洞，在里面打一个结，线就不会掉出来。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "线",
+                "reading": "xiàn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "头",
+                "reading": "tóu"
+              },
+              {
+                "text": "从",
+                "reading": "cóng"
+              },
+              {
+                "text": "杯",
+                "reading": "bēi"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "穿",
+                "reading": "chuān"
+              },
+              {
+                "text": "过",
+                "reading": "guò"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "洞",
+                "reading": "dòng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "打",
+                "reading": "dǎ"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "结",
+                "reading": "jié"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "线",
+                "reading": "xiàn"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "不",
+                "reading": "bú"
+              },
+              {
+                "text": "会",
+                "reading": "huì"
+              },
+              {
+                "text": "掉",
+                "reading": "diào"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把線的一頭從杯子裡面穿過小洞，在裡面打一個結，線就不會掉出來。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "線",
+                "reading": "ㄒㄧㄢˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "頭",
+                "reading": "ㄊㄡˊ"
+              },
+              {
+                "text": "從",
+                "reading": "ㄘㄨㄥˊ"
+              },
+              {
+                "text": "杯",
+                "reading": "ㄅㄟ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "穿",
+                "reading": "ㄔㄨㄢ"
+              },
+              {
+                "text": "過",
+                "reading": "ㄍㄨㄛˋ"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "洞",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "打",
+                "reading": "ㄉㄚˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "結",
+                "reading": "ㄐㄧㄝˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "線",
+                "reading": "ㄒㄧㄢˋ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˊ"
+              },
+              {
+                "text": "會",
+                "reading": "ㄏㄨㄟˋ"
+              },
+              {
+                "text": "掉",
+                "reading": "ㄉㄧㄠˋ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把線的一󠇢頭從杯子󠇡裡面穿過小洞，在裡面打一󠇡個󠇡結，線就不󠇡會掉出來。"
+          }
+        },
+        {
+          "en": "Tie the beads onto the lower part of the string, close enough that they knock into each other.",
+          "simp": {
+            "text": "在线的下面绑上几颗珠子，让它们可以互相碰到。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "线",
+                "reading": "xiàn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "绑",
+                "reading": "bǎng"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "几",
+                "reading": "jǐ"
+              },
+              {
+                "text": "颗",
+                "reading": "kē"
+              },
+              {
+                "text": "珠",
+                "reading": "zhū"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "它",
+                "reading": "tā"
+              },
+              {
+                "text": "们",
+                "reading": "men"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "互",
+                "reading": "hù"
+              },
+              {
+                "text": "相",
+                "reading": "xiāng"
+              },
+              {
+                "text": "碰",
+                "reading": "pèng"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在線的下面綁上幾顆珠子，讓它們可以互相碰到。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "線",
+                "reading": "ㄒㄧㄢˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "綁",
+                "reading": "ㄅㄤˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "幾",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "顆",
+                "reading": "ㄎㄜ"
+              },
+              {
+                "text": "珠",
+                "reading": "ㄓㄨ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "它",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "們",
+                "reading": "ㄇㄣ˙"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "互",
+                "reading": "ㄏㄨˋ"
+              },
+              {
+                "text": "相",
+                "reading": "ㄒㄧㄤ"
+              },
+              {
+                "text": "碰",
+                "reading": "ㄆㄥˋ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在線的下面綁上幾顆珠子󠇡，讓它們可以互相󠇡碰到。"
+          }
+        },
+        {
+          "en": "Decorate the outside of the cup so your bell shines like the one in the story.",
+          "simp": {
+            "text": "在杯子外面画上花纹，让你的门铃也亮晶晶的。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "杯",
+                "reading": "bēi"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "外",
+                "reading": "wài"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "花",
+                "reading": "huā"
+              },
+              {
+                "text": "纹",
+                "reading": "wén"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "你",
+                "reading": "nǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "门",
+                "reading": "mén"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "亮",
+                "reading": "liàng"
+              },
+              {
+                "text": "晶",
+                "reading": "jīng"
+              },
+              {
+                "text": "晶",
+                "reading": "jīng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在杯子外面畫上花紋，讓你的門鈴也亮晶晶的。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "杯",
+                "reading": "ㄅㄟ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "外",
+                "reading": "ㄨㄞˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "花",
+                "reading": "ㄏㄨㄚ"
+              },
+              {
+                "text": "紋",
+                "reading": "ㄨㄣˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "你",
+                "reading": "ㄋㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "門",
+                "reading": "ㄇㄣˊ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "亮",
+                "reading": "ㄌㄧㄤˋ"
+              },
+              {
+                "text": "晶",
+                "reading": "ㄐㄧㄥ"
+              },
+              {
+                "text": "晶",
+                "reading": "ㄐㄧㄥ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在杯子󠇡外面畫上花紋，讓你的門鈴也亮晶晶的。"
+          }
+        },
+        {
+          "en": "Tape it to the door handle and touch it with one finger. Then walk to the far side of the room. Can you still hear it?",
+          "simp": {
+            "text": "用胶带把门铃黏在门把上，用一根手指轻轻碰它一下。走到房间的另一头，还听得见吗？",
+            "pinyin": [
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "门",
+                "reading": "mén"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "黏",
+                "reading": "nián"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "门",
+                "reading": "mén"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "根",
+                "reading": "gēn"
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "指",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "轻",
+                "reading": "qīng"
+              },
+              {
+                "text": "轻",
+                "reading": "qīng"
+              },
+              {
+                "text": "碰",
+                "reading": "pèng"
+              },
+              {
+                "text": "它",
+                "reading": "tā"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "走",
+                "reading": "zǒu"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "房",
+                "reading": "fáng"
+              },
+              {
+                "text": "间",
+                "reading": "jiān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "另",
+                "reading": "lìng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "头",
+                "reading": "tóu"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "还",
+                "reading": "hái"
+              },
+              {
+                "text": "听",
+                "reading": "tīng"
+              },
+              {
+                "text": "得",
+                "reading": "de"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "吗",
+                "reading": "ma"
+              },
+              {
+                "text": "？",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "用膠帶把門鈴黏在門把上，用一根手指輕輕碰它一下。走到房間的另一頭，還聽得見嗎？",
+            "zhuyin": [
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "門",
+                "reading": "ㄇㄣˊ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "黏",
+                "reading": "ㄋㄧㄢˊ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "門",
+                "reading": "ㄇㄣˊ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "根",
+                "reading": "ㄍㄣ"
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "指",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "輕",
+                "reading": "ㄑㄧㄥ"
+              },
+              {
+                "text": "輕",
+                "reading": "ㄑㄧㄥ"
+              },
+              {
+                "text": "碰",
+                "reading": "ㄆㄥˋ"
+              },
+              {
+                "text": "它",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "走",
+                "reading": "ㄗㄡˇ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "房",
+                "reading": "ㄈㄤˊ"
+              },
+              {
+                "text": "間",
+                "reading": "ㄐㄧㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "另",
+                "reading": "ㄌㄧㄥˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "頭",
+                "reading": "ㄊㄡˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "還",
+                "reading": "ㄏㄞˊ"
+              },
+              {
+                "text": "聽",
+                "reading": "ㄊㄧㄥ"
+              },
+              {
+                "text": "得",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "嗎",
+                "reading": "ㄇㄚ˙"
+              },
+              {
+                "text": "？",
+                "reading": ""
+              }
+            ],
+            "bpmf": "用膠帶把門鈴黏在門把上，用一󠇢根手指輕輕碰它一󠇡下。走到房間的另一󠇢頭，還聽得󠇡見嗎？"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a002",
+      "accent": "#3E6E8E",
+      "title": {
+        "en": "Pass the Bell Without a Sound",
+        "simp": {
+          "text": "传铃不出声",
+          "pinyin": [
+            {
+              "text": "传",
+              "reading": "chuán"
+            },
+            {
+              "text": "铃",
+              "reading": "líng"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "声",
+              "reading": "shēng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "傳鈴不出聲",
+          "zhuyin": [
+            {
+              "text": "傳",
+              "reading": "ㄔㄨㄢˊ"
+            },
+            {
+              "text": "鈴",
+              "reading": "ㄌㄧㄥˊ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "聲",
+              "reading": "ㄕㄥ"
+            }
+          ],
+          "bpmf": "傳鈴不出聲"
+        }
+      },
+      "desc": {
+        "en": "Pass the bell around the circle without letting the listener in the middle hear a thing. No pinching the little ball inside, that would be too easy.",
+        "simp": {
+          "text": "把铃铛一个一个传下去，不要让中间的人听见。手不可以捏住里面那颗会响的小珠，那样就太简单了。",
+          "pinyin": [
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "铃",
+              "reading": "líng"
+            },
+            {
+              "text": "铛",
+              "reading": "dāng"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "传",
+              "reading": "chuán"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "去",
+              "reading": "qù"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "不",
+              "reading": "bú"
+            },
+            {
+              "text": "要",
+              "reading": "yào"
+            },
+            {
+              "text": "让",
+              "reading": "ràng"
+            },
+            {
+              "text": "中",
+              "reading": "zhōng"
+            },
+            {
+              "text": "间",
+              "reading": "jiān"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "听",
+              "reading": "tīng"
+            },
+            {
+              "text": "见",
+              "reading": "jiàn"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "手",
+              "reading": "shǒu"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "可",
+              "reading": "kě"
+            },
+            {
+              "text": "以",
+              "reading": "yǐ"
+            },
+            {
+              "text": "捏",
+              "reading": "niē"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "面",
+              "reading": "miàn"
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "颗",
+              "reading": "kē"
+            },
+            {
+              "text": "会",
+              "reading": "huì"
+            },
+            {
+              "text": "响",
+              "reading": "xiǎng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "珠",
+              "reading": "zhū"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "那",
+              "reading": "nà"
+            },
+            {
+              "text": "样",
+              "reading": "yàng"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "太",
+              "reading": "tài"
+            },
+            {
+              "text": "简",
+              "reading": "jiǎn"
+            },
+            {
+              "text": "单",
+              "reading": "dān"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "把鈴鐺一個一個傳下去，不要讓中間的人聽見。手不可以捏住裡面那顆會響的小珠，那樣就太簡單了。",
+          "zhuyin": [
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "鈴",
+              "reading": "ㄌㄧㄥˊ"
+            },
+            {
+              "text": "鐺",
+              "reading": "ㄉㄤ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "傳",
+              "reading": "ㄔㄨㄢˊ"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "去",
+              "reading": "ㄑㄩˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˊ"
+            },
+            {
+              "text": "要",
+              "reading": "ㄧㄠˋ"
+            },
+            {
+              "text": "讓",
+              "reading": "ㄖㄤˋ"
+            },
+            {
+              "text": "中",
+              "reading": "ㄓㄨㄥ"
+            },
+            {
+              "text": "間",
+              "reading": "ㄐㄧㄢ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "聽",
+              "reading": "ㄊㄧㄥ"
+            },
+            {
+              "text": "見",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "手",
+              "reading": "ㄕㄡˇ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "可",
+              "reading": "ㄎㄜˇ"
+            },
+            {
+              "text": "以",
+              "reading": "ㄧˇ"
+            },
+            {
+              "text": "捏",
+              "reading": "ㄋㄧㄝ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "面",
+              "reading": "ㄇㄧㄢˋ"
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "顆",
+              "reading": "ㄎㄜ"
+            },
+            {
+              "text": "會",
+              "reading": "ㄏㄨㄟˋ"
+            },
+            {
+              "text": "響",
+              "reading": "ㄒㄧㄤˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "珠",
+              "reading": "ㄓㄨ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "那",
+              "reading": "ㄋㄚˋ"
+            },
+            {
+              "text": "樣",
+              "reading": "ㄧㄤˋ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "太",
+              "reading": "ㄊㄞˋ"
+            },
+            {
+              "text": "簡",
+              "reading": "ㄐㄧㄢˇ"
+            },
+            {
+              "text": "單",
+              "reading": "ㄉㄢ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "把鈴鐺一󠇡個󠇡一󠇡個󠇡傳下去，不󠇡要讓中間的人聽見。手不可以捏住裡面那顆會響的小珠，那樣就太簡單了。"
+        }
+      },
+      "time": {
+        "en": "15 min",
+        "simp": {
+          "text": "十五分钟",
+          "pinyin": [
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "十五分鐘",
+          "zhuyin": [
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "十五分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "A bell, or the doorbell from the first activity",
+          "simp": {
+            "text": "一个铃铛，或是第一个活动做的门铃",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "一",
+                "reading": "yī"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "活",
+                "reading": "huó"
+              },
+              {
+                "text": "动",
+                "reading": "dòng"
+              },
+              {
+                "text": "做",
+                "reading": "zuò"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "门",
+                "reading": "mén"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一個鈴鐺，或是第一個活動做的門鈴",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "活",
+                "reading": "ㄏㄨㄛˊ"
+              },
+              {
+                "text": "動",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "做",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "門",
+                "reading": "ㄇㄣˊ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              }
+            ],
+            "bpmf": "一󠇡個󠇡鈴鐺，或是第一個󠇡活動做的門鈴"
+          }
+        },
+        {
+          "en": "A handkerchief to cover the eyes",
+          "simp": {
+            "text": "一条手帕，用来遮住眼睛",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "条",
+                "reading": "tiáo"
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "帕",
+                "reading": "pà"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "遮",
+                "reading": "zhē"
+              },
+              {
+                "text": "住",
+                "reading": "zhù"
+              },
+              {
+                "text": "眼",
+                "reading": "yǎn"
+              },
+              {
+                "text": "睛",
+                "reading": "jīng"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一條手帕，用來遮住眼睛",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "條",
+                "reading": "ㄊㄧㄠˊ"
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "帕",
+                "reading": "ㄆㄚˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "遮",
+                "reading": "ㄓㄜ"
+              },
+              {
+                "text": "住",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "眼",
+                "reading": "ㄧㄢˇ"
+              },
+              {
+                "text": "睛",
+                "reading": "ㄐㄧㄥ"
+              }
+            ],
+            "bpmf": "一󠇢條手帕，用來遮住眼睛"
+          }
+        },
+        {
+          "en": "Enough people to sit in a circle",
+          "simp": {
+            "text": "几个可以围成一圈的人",
+            "pinyin": [
+              {
+                "text": "几",
+                "reading": "jǐ"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "围",
+                "reading": "wéi"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              }
+            ]
+          },
+          "trad": {
+            "text": "幾個可以圍成一圈的人",
+            "zhuyin": [
+              {
+                "text": "幾",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "圍",
+                "reading": "ㄨㄟˊ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              }
+            ],
+            "bpmf": "幾個󠇡可以圍成一󠇢圈的人"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Sit in a circle. Choose one person to be the listener, sitting in the middle.",
+          "simp": {
+            "text": "大家围成一圈坐好，选一个人当听声音的人，坐在中间。",
+            "pinyin": [
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "家",
+                "reading": "jiā"
+              },
+              {
+                "text": "围",
+                "reading": "wéi"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "圈",
+                "reading": "quān"
+              },
+              {
+                "text": "坐",
+                "reading": "zuò"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "选",
+                "reading": "xuǎn"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "当",
+                "reading": "dāng"
+              },
+              {
+                "text": "听",
+                "reading": "tīng"
+              },
+              {
+                "text": "声",
+                "reading": "shēng"
+              },
+              {
+                "text": "音",
+                "reading": "yīn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "坐",
+                "reading": "zuò"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "间",
+                "reading": "jiān"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "大家圍成一圈坐好，選一個人當聽聲音的人，坐在中間。",
+            "zhuyin": [
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "家",
+                "reading": "ㄐㄧㄚ"
+              },
+              {
+                "text": "圍",
+                "reading": "ㄨㄟˊ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "圈",
+                "reading": "ㄑㄩㄢ"
+              },
+              {
+                "text": "坐",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "選",
+                "reading": "ㄒㄩㄢˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "當",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "聽",
+                "reading": "ㄊㄧㄥ"
+              },
+              {
+                "text": "聲",
+                "reading": "ㄕㄥ"
+              },
+              {
+                "text": "音",
+                "reading": "ㄧㄣ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "坐",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "間",
+                "reading": "ㄐㄧㄢ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "大家圍成一󠇢圈坐好，選一󠇡個󠇡人當聽聲音的人，坐在中間。"
+          }
+        },
+        {
+          "en": "The listener covers their eyes with the handkerchief and may not peek.",
+          "simp": {
+            "text": "中间的人用手帕遮住眼睛，不可以偷看。",
+            "pinyin": [
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "间",
+                "reading": "jiān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "帕",
+                "reading": "pà"
+              },
+              {
+                "text": "遮",
+                "reading": "zhē"
+              },
+              {
+                "text": "住",
+                "reading": "zhù"
+              },
+              {
+                "text": "眼",
+                "reading": "yǎn"
+              },
+              {
+                "text": "睛",
+                "reading": "jīng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "不",
+                "reading": "bù"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "偷",
+                "reading": "tōu"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "中間的人用手帕遮住眼睛，不可以偷看。",
+            "zhuyin": [
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "間",
+                "reading": "ㄐㄧㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "帕",
+                "reading": "ㄆㄚˋ"
+              },
+              {
+                "text": "遮",
+                "reading": "ㄓㄜ"
+              },
+              {
+                "text": "住",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "眼",
+                "reading": "ㄧㄢˇ"
+              },
+              {
+                "text": "睛",
+                "reading": "ㄐㄧㄥ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "偷",
+                "reading": "ㄊㄡ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "中間的人用手帕遮住眼睛，不可以偷看。"
+          }
+        },
+        {
+          "en": "Everyone else passes the bell from hand to hand around the circle. The slower the better.",
+          "simp": {
+            "text": "其他的人开始传铃铛，一个人传给一个人，越慢越好。",
+            "pinyin": [
+              {
+                "text": "其",
+                "reading": "qí"
+              },
+              {
+                "text": "他",
+                "reading": "tā"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "始",
+                "reading": "shǐ"
+              },
+              {
+                "text": "传",
+                "reading": "chuán"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "传",
+                "reading": "chuán"
+              },
+              {
+                "text": "给",
+                "reading": "gěi"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "越",
+                "reading": "yuè"
+              },
+              {
+                "text": "慢",
+                "reading": "màn"
+              },
+              {
+                "text": "越",
+                "reading": "yuè"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "其他的人開始傳鈴鐺，一個人傳給一個人，越慢越好。",
+            "zhuyin": [
+              {
+                "text": "其",
+                "reading": "ㄑㄧˊ"
+              },
+              {
+                "text": "他",
+                "reading": "ㄊㄚ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "始",
+                "reading": "ㄕˇ"
+              },
+              {
+                "text": "傳",
+                "reading": "ㄔㄨㄢˊ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "傳",
+                "reading": "ㄔㄨㄢˊ"
+              },
+              {
+                "text": "給",
+                "reading": "ㄍㄟˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "越",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "慢",
+                "reading": "ㄇㄢˋ"
+              },
+              {
+                "text": "越",
+                "reading": "ㄩㄝˋ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "其他的人開始傳鈴鐺，一󠇡個󠇡人傳給一󠇡個󠇡人，越慢越好。"
+          }
+        },
+        {
+          "en": "One rule: your hand may not pinch the little ball inside the bell. Keeping the bell itself quiet is the real skill.",
+          "simp": {
+            "text": "有一个规定：手不可以捏住铃铛里面那颗会响的小珠。要让铃铛自己安安静静的，才算厉害。",
+            "pinyin": [
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "规",
+                "reading": "guī"
+              },
+              {
+                "text": "定",
+                "reading": "dìng"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "不",
+                "reading": "bù"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "捏",
+                "reading": "niē"
+              },
+              {
+                "text": "住",
+                "reading": "zhù"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "颗",
+                "reading": "kē"
+              },
+              {
+                "text": "会",
+                "reading": "huì"
+              },
+              {
+                "text": "响",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "珠",
+                "reading": "zhū"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "要",
+                "reading": "yào"
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "自",
+                "reading": "zì"
+              },
+              {
+                "text": "己",
+                "reading": "jǐ"
+              },
+              {
+                "text": "安",
+                "reading": "ān"
+              },
+              {
+                "text": "安",
+                "reading": "ān"
+              },
+              {
+                "text": "静",
+                "reading": "jìng"
+              },
+              {
+                "text": "静",
+                "reading": "jìng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "才",
+                "reading": "cái"
+              },
+              {
+                "text": "算",
+                "reading": "suàn"
+              },
+              {
+                "text": "厉",
+                "reading": "lì"
+              },
+              {
+                "text": "害",
+                "reading": "hài"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "有一個規定：手不可以捏住鈴鐺裡面那顆會響的小珠。要讓鈴鐺自己安安靜靜的，才算厲害。",
+            "zhuyin": [
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "規",
+                "reading": "ㄍㄨㄟ"
+              },
+              {
+                "text": "定",
+                "reading": "ㄉㄧㄥˋ"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "捏",
+                "reading": "ㄋㄧㄝ"
+              },
+              {
+                "text": "住",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "顆",
+                "reading": "ㄎㄜ"
+              },
+              {
+                "text": "會",
+                "reading": "ㄏㄨㄟˋ"
+              },
+              {
+                "text": "響",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "珠",
+                "reading": "ㄓㄨ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "要",
+                "reading": "ㄧㄠˋ"
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "自",
+                "reading": "ㄗˋ"
+              },
+              {
+                "text": "己",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "安",
+                "reading": "ㄢ"
+              },
+              {
+                "text": "安",
+                "reading": "ㄢ"
+              },
+              {
+                "text": "靜",
+                "reading": "ㄐㄧㄥˋ"
+              },
+              {
+                "text": "靜",
+                "reading": "ㄐㄧㄥˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "才",
+                "reading": "ㄘㄞˊ"
+              },
+              {
+                "text": "算",
+                "reading": "ㄙㄨㄢˋ"
+              },
+              {
+                "text": "厲",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "害",
+                "reading": "ㄏㄞˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "有一󠇡個󠇡規定：手不可以捏住鈴鐺裡面那顆會響的小珠。要讓鈴鐺自己安安靜靜的，才算厲害。"
+          }
+        },
+        {
+          "en": "The moment the listener hears a ring, they point at where the sound came from. If they point correctly, that person takes the middle.",
+          "simp": {
+            "text": "中间的人一听见铃声，就马上指出声音的方向。指对了，就换那个人坐到中间。",
+            "pinyin": [
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "间",
+                "reading": "jiān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "听",
+                "reading": "tīng"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "声",
+                "reading": "shēng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "马",
+                "reading": "mǎ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "指",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "声",
+                "reading": "shēng"
+              },
+              {
+                "text": "音",
+                "reading": "yīn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "向",
+                "reading": "xiàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "指",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "对",
+                "reading": "duì"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "换",
+                "reading": "huàn"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "坐",
+                "reading": "zuò"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "间",
+                "reading": "jiān"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "中間的人一聽見鈴聲，就馬上指出聲音的方向。指對了，就換那個人坐到中間。",
+            "zhuyin": [
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "間",
+                "reading": "ㄐㄧㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "聽",
+                "reading": "ㄊㄧㄥ"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "聲",
+                "reading": "ㄕㄥ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "馬",
+                "reading": "ㄇㄚˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "指",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "聲",
+                "reading": "ㄕㄥ"
+              },
+              {
+                "text": "音",
+                "reading": "ㄧㄣ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "向",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "指",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "對",
+                "reading": "ㄉㄨㄟˋ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "換",
+                "reading": "ㄏㄨㄢˋ"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "坐",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "間",
+                "reading": "ㄐㄧㄢ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "中間的人一󠇢聽見鈴聲，就馬上指出聲音的方向。指對了，就換那個󠇡人坐到中間。"
+          }
+        },
+        {
+          "en": "If the bell travels all the way back to where it started without a sound, the whole circle wins together.",
+          "simp": {
+            "text": "如果铃铛一路传回原来的地方都没有响，大家就一起赢了。",
+            "pinyin": [
+              {
+                "text": "如",
+                "reading": "rú"
+              },
+              {
+                "text": "果",
+                "reading": "guǒ"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "路",
+                "reading": "lù"
+              },
+              {
+                "text": "传",
+                "reading": "chuán"
+              },
+              {
+                "text": "回",
+                "reading": "huí"
+              },
+              {
+                "text": "原",
+                "reading": "yuán"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "没",
+                "reading": "méi"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "响",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "家",
+                "reading": "jiā"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "赢",
+                "reading": "yíng"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "如果鈴鐺一路傳回原來的地方都沒有響，大家就一起贏了。",
+            "zhuyin": [
+              {
+                "text": "如",
+                "reading": "ㄖㄨˊ"
+              },
+              {
+                "text": "果",
+                "reading": "ㄍㄨㄛˇ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "路",
+                "reading": "ㄌㄨˋ"
+              },
+              {
+                "text": "傳",
+                "reading": "ㄔㄨㄢˊ"
+              },
+              {
+                "text": "回",
+                "reading": "ㄏㄨㄟˊ"
+              },
+              {
+                "text": "原",
+                "reading": "ㄩㄢˊ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "沒",
+                "reading": "ㄇㄟˊ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "響",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "家",
+                "reading": "ㄐㄧㄚ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "贏",
+                "reading": "ㄧㄥˊ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "如果鈴鐺一󠇡路傳回原來的地方都沒有響，大家就一󠇢起贏了。"
+          }
+        },
+        {
+          "en": "Then think about it: if the listener had covered their ears instead, would the bell really have stopped ringing?",
+          "simp": {
+            "text": "最后想一想：如果中间的人把耳朵捂起来，铃铛就真的不会响了吗？",
+            "pinyin": [
+              {
+                "text": "最",
+                "reading": "zuì"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "想",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "如",
+                "reading": "rú"
+              },
+              {
+                "text": "果",
+                "reading": "guǒ"
+              },
+              {
+                "text": "中",
+                "reading": "zhōng"
+              },
+              {
+                "text": "间",
+                "reading": "jiān"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "耳",
+                "reading": "ěr"
+              },
+              {
+                "text": "朵",
+                "reading": "duo"
+              },
+              {
+                "text": "捂",
+                "reading": "wǔ"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "真",
+                "reading": "zhēn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "不",
+                "reading": "bú"
+              },
+              {
+                "text": "会",
+                "reading": "huì"
+              },
+              {
+                "text": "响",
+                "reading": "xiǎng"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "吗",
+                "reading": "ma"
+              },
+              {
+                "text": "？",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "最後想一想：如果中間的人把耳朵摀起來，鈴鐺就真的不會響了嗎？",
+            "zhuyin": [
+              {
+                "text": "最",
+                "reading": "ㄗㄨㄟˋ"
+              },
+              {
+                "text": "後",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "想",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "如",
+                "reading": "ㄖㄨˊ"
+              },
+              {
+                "text": "果",
+                "reading": "ㄍㄨㄛˇ"
+              },
+              {
+                "text": "中",
+                "reading": "ㄓㄨㄥ"
+              },
+              {
+                "text": "間",
+                "reading": "ㄐㄧㄢ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "耳",
+                "reading": "ㄦˇ"
+              },
+              {
+                "text": "朵",
+                "reading": "ㄉㄨㄛ˙"
+              },
+              {
+                "text": "摀",
+                "reading": "ㄨˇ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "真",
+                "reading": "ㄓㄣ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˊ"
+              },
+              {
+                "text": "會",
+                "reading": "ㄏㄨㄟˋ"
+              },
+              {
+                "text": "響",
+                "reading": "ㄒㄧㄤˇ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "嗎",
+                "reading": "ㄇㄚ˙"
+              },
+              {
+                "text": "？",
+                "reading": ""
+              }
+            ],
+            "bpmf": "最後想一󠇢想：如果中間的人把耳朵󠇡摀起來，鈴鐺就真的不󠇡會響了嗎？"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a003",
+      "accent": "#5C8358",
+      "title": {
+        "en": "See the Sound Move",
+        "simp": {
+          "text": "看见声音在动",
+          "pinyin": [
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "见",
+              "reading": "jiàn"
+            },
+            {
+              "text": "声",
+              "reading": "shēng"
+            },
+            {
+              "text": "音",
+              "reading": "yīn"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "动",
+              "reading": "dòng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "看見聲音在動",
+          "zhuyin": [
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "見",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "聲",
+              "reading": "ㄕㄥ"
+            },
+            {
+              "text": "音",
+              "reading": "ㄧㄣ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "動",
+              "reading": "ㄉㄨㄥˋ"
+            }
+          ],
+          "bpmf": "看見聲音在動"
+        }
+      },
+      "desc": {
+        "en": "Sound is invisible, but it makes rice grains jump. Ring a bell beside a bowl of rice and you will see why covering your own ears changes nothing.",
+        "simp": {
+          "text": "声音看不见，可是它会让米粒跳起来。在铃铛旁边放一碗米，就知道捂住耳朵为什么没有用。",
+          "pinyin": [
+            {
+              "text": "声",
+              "reading": "shēng"
+            },
+            {
+              "text": "音",
+              "reading": "yīn"
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "不",
+              "reading": "bú"
+            },
+            {
+              "text": "见",
+              "reading": "jiàn"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "可",
+              "reading": "kě"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "它",
+              "reading": "tā"
+            },
+            {
+              "text": "会",
+              "reading": "huì"
+            },
+            {
+              "text": "让",
+              "reading": "ràng"
+            },
+            {
+              "text": "米",
+              "reading": "mǐ"
+            },
+            {
+              "text": "粒",
+              "reading": "lì"
+            },
+            {
+              "text": "跳",
+              "reading": "tiào"
+            },
+            {
+              "text": "起",
+              "reading": "qǐ"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "铃",
+              "reading": "líng"
+            },
+            {
+              "text": "铛",
+              "reading": "dāng"
+            },
+            {
+              "text": "旁",
+              "reading": "páng"
+            },
+            {
+              "text": "边",
+              "reading": "biān"
+            },
+            {
+              "text": "放",
+              "reading": "fàng"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "碗",
+              "reading": "wǎn"
+            },
+            {
+              "text": "米",
+              "reading": "mǐ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "知",
+              "reading": "zhī"
+            },
+            {
+              "text": "道",
+              "reading": "dào"
+            },
+            {
+              "text": "捂",
+              "reading": "wǔ"
+            },
+            {
+              "text": "住",
+              "reading": "zhù"
+            },
+            {
+              "text": "耳",
+              "reading": "ěr"
+            },
+            {
+              "text": "朵",
+              "reading": "duo"
+            },
+            {
+              "text": "为",
+              "reading": "wèi"
+            },
+            {
+              "text": "什",
+              "reading": "shén"
+            },
+            {
+              "text": "么",
+              "reading": "me"
+            },
+            {
+              "text": "没",
+              "reading": "méi"
+            },
+            {
+              "text": "有",
+              "reading": "yǒu"
+            },
+            {
+              "text": "用",
+              "reading": "yòng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "聲音看不見，可是它會讓米粒跳起來。在鈴鐺旁邊放一碗米，就知道摀住耳朵為什麼沒有用。",
+          "zhuyin": [
+            {
+              "text": "聲",
+              "reading": "ㄕㄥ"
+            },
+            {
+              "text": "音",
+              "reading": "ㄧㄣ"
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˊ"
+            },
+            {
+              "text": "見",
+              "reading": "ㄐㄧㄢˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "可",
+              "reading": "ㄎㄜˇ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "它",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "會",
+              "reading": "ㄏㄨㄟˋ"
+            },
+            {
+              "text": "讓",
+              "reading": "ㄖㄤˋ"
+            },
+            {
+              "text": "米",
+              "reading": "ㄇㄧˇ"
+            },
+            {
+              "text": "粒",
+              "reading": "ㄌㄧˋ"
+            },
+            {
+              "text": "跳",
+              "reading": "ㄊㄧㄠˋ"
+            },
+            {
+              "text": "起",
+              "reading": "ㄑㄧˇ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "鈴",
+              "reading": "ㄌㄧㄥˊ"
+            },
+            {
+              "text": "鐺",
+              "reading": "ㄉㄤ"
+            },
+            {
+              "text": "旁",
+              "reading": "ㄆㄤˊ"
+            },
+            {
+              "text": "邊",
+              "reading": "ㄅㄧㄢ"
+            },
+            {
+              "text": "放",
+              "reading": "ㄈㄤˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "碗",
+              "reading": "ㄨㄢˇ"
+            },
+            {
+              "text": "米",
+              "reading": "ㄇㄧˇ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "知",
+              "reading": "ㄓ"
+            },
+            {
+              "text": "道",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "摀",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "住",
+              "reading": "ㄓㄨˋ"
+            },
+            {
+              "text": "耳",
+              "reading": "ㄦˇ"
+            },
+            {
+              "text": "朵",
+              "reading": "ㄉㄨㄛ˙"
+            },
+            {
+              "text": "為",
+              "reading": "ㄨㄟˋ"
+            },
+            {
+              "text": "什",
+              "reading": "ㄕㄣˊ"
+            },
+            {
+              "text": "麼",
+              "reading": "ㄇㄜ˙"
+            },
+            {
+              "text": "沒",
+              "reading": "ㄇㄟˊ"
+            },
+            {
+              "text": "有",
+              "reading": "ㄧㄡˇ"
+            },
+            {
+              "text": "用",
+              "reading": "ㄩㄥˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "聲音看不󠇡見，可是它會讓米粒跳起來。在鈴鐺旁邊放一󠇢碗米，就知道摀住耳朵󠇡為󠇡什麼沒有用。"
+        }
+      },
+      "time": {
+        "en": "20 min",
+        "simp": {
+          "text": "二十分钟",
+          "pinyin": [
+            {
+              "text": "二",
+              "reading": "èr"
+            },
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "二十分鐘",
+          "zhuyin": [
+            {
+              "text": "二",
+              "reading": "ㄦˋ"
+            },
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "二十分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "A bowl",
+          "simp": {
+            "text": "一个碗",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "碗",
+                "reading": "wǎn"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一個碗",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "碗",
+                "reading": "ㄨㄢˇ"
+              }
+            ],
+            "bpmf": "一󠇡個󠇡碗"
+          }
+        },
+        {
+          "en": "Plastic wrap",
+          "simp": {
+            "text": "保鲜膜",
+            "pinyin": [
+              {
+                "text": "保",
+                "reading": "bǎo"
+              },
+              {
+                "text": "鲜",
+                "reading": "xiān"
+              },
+              {
+                "text": "膜",
+                "reading": "mó"
+              }
+            ]
+          },
+          "trad": {
+            "text": "保鮮膜",
+            "zhuyin": [
+              {
+                "text": "保",
+                "reading": "ㄅㄠˇ"
+              },
+              {
+                "text": "鮮",
+                "reading": "ㄒㄧㄢ"
+              },
+              {
+                "text": "膜",
+                "reading": "ㄇㄛˊ"
+              }
+            ],
+            "bpmf": "保鮮膜"
+          }
+        },
+        {
+          "en": "A rubber band",
+          "simp": {
+            "text": "一条橡皮筋",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "条",
+                "reading": "tiáo"
+              },
+              {
+                "text": "橡",
+                "reading": "xiàng"
+              },
+              {
+                "text": "皮",
+                "reading": "pí"
+              },
+              {
+                "text": "筋",
+                "reading": "jīn"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一條橡皮筋",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "條",
+                "reading": "ㄊㄧㄠˊ"
+              },
+              {
+                "text": "橡",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "皮",
+                "reading": "ㄆㄧˊ"
+              },
+              {
+                "text": "筋",
+                "reading": "ㄐㄧㄣ"
+              }
+            ],
+            "bpmf": "一󠇢條橡皮筋"
+          }
+        },
+        {
+          "en": "A small handful of rice",
+          "simp": {
+            "text": "一小把米",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "米",
+                "reading": "mǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一小把米",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "米",
+                "reading": "ㄇㄧˇ"
+              }
+            ],
+            "bpmf": "一󠇢小把米"
+          }
+        },
+        {
+          "en": "A bell, or the doorbell from the first activity",
+          "simp": {
+            "text": "一个铃铛，或是第一个活动做的门铃",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "一",
+                "reading": "yī"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "活",
+                "reading": "huó"
+              },
+              {
+                "text": "动",
+                "reading": "dòng"
+              },
+              {
+                "text": "做",
+                "reading": "zuò"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "门",
+                "reading": "mén"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一個鈴鐺，或是第一個活動做的門鈴",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "活",
+                "reading": "ㄏㄨㄛˊ"
+              },
+              {
+                "text": "動",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "做",
+                "reading": "ㄗㄨㄛˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "門",
+                "reading": "ㄇㄣˊ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              }
+            ],
+            "bpmf": "一󠇡個󠇡鈴鐺，或是第一個󠇡活動做的門鈴"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Stretch the plastic wrap tightly over the mouth of the bowl and hold it with the rubber band, pulled flat like a drum.",
+          "simp": {
+            "text": "把保鲜膜紧紧地盖在碗口上，用橡皮筋绑好，拉得像鼓面一样平。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "保",
+                "reading": "bǎo"
+              },
+              {
+                "text": "鲜",
+                "reading": "xiān"
+              },
+              {
+                "text": "膜",
+                "reading": "mó"
+              },
+              {
+                "text": "紧",
+                "reading": "jǐn"
+              },
+              {
+                "text": "紧",
+                "reading": "jǐn"
+              },
+              {
+                "text": "地",
+                "reading": "de"
+              },
+              {
+                "text": "盖",
+                "reading": "gài"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "碗",
+                "reading": "wǎn"
+              },
+              {
+                "text": "口",
+                "reading": "kǒu"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "橡",
+                "reading": "xiàng"
+              },
+              {
+                "text": "皮",
+                "reading": "pí"
+              },
+              {
+                "text": "筋",
+                "reading": "jīn"
+              },
+              {
+                "text": "绑",
+                "reading": "bǎng"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "拉",
+                "reading": "lā"
+              },
+              {
+                "text": "得",
+                "reading": "de"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "鼓",
+                "reading": "gǔ"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "平",
+                "reading": "píng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把保鮮膜緊緊地蓋在碗口上，用橡皮筋綁好，拉得像鼓面一樣平。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "保",
+                "reading": "ㄅㄠˇ"
+              },
+              {
+                "text": "鮮",
+                "reading": "ㄒㄧㄢ"
+              },
+              {
+                "text": "膜",
+                "reading": "ㄇㄛˊ"
+              },
+              {
+                "text": "緊",
+                "reading": "ㄐㄧㄣˇ"
+              },
+              {
+                "text": "緊",
+                "reading": "ㄐㄧㄣˇ"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "蓋",
+                "reading": "ㄍㄞˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "碗",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "口",
+                "reading": "ㄎㄡˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "橡",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "皮",
+                "reading": "ㄆㄧˊ"
+              },
+              {
+                "text": "筋",
+                "reading": "ㄐㄧㄣ"
+              },
+              {
+                "text": "綁",
+                "reading": "ㄅㄤˇ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "拉",
+                "reading": "ㄌㄚ"
+              },
+              {
+                "text": "得",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "鼓",
+                "reading": "ㄍㄨˇ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "平",
+                "reading": "ㄆㄧㄥˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把保鮮膜緊緊地󠇡蓋在碗口上，用橡皮筋綁好，拉得󠇡像鼓面一󠇡樣平。"
+          }
+        },
+        {
+          "en": "Sprinkle a little rice on top.",
+          "simp": {
+            "text": "在上面撒一点米。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "撒",
+                "reading": "sǎ"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "点",
+                "reading": "diǎn"
+              },
+              {
+                "text": "米",
+                "reading": "mǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在上面撒一點米。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "撒",
+                "reading": "ㄙㄚˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "點",
+                "reading": "ㄉㄧㄢˇ"
+              },
+              {
+                "text": "米",
+                "reading": "ㄇㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在上面撒一󠇢點米。"
+          }
+        },
+        {
+          "en": "Hold the bell right beside the bowl and shake it hard. Watch whether the grains jump.",
+          "simp": {
+            "text": "把铃铛拿到碗的旁边，用力摇一摇，看看米粒有没有跳起来。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "拿",
+                "reading": "ná"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "碗",
+                "reading": "wǎn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "旁",
+                "reading": "páng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "力",
+                "reading": "lì"
+              },
+              {
+                "text": "摇",
+                "reading": "yáo"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "摇",
+                "reading": "yáo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "米",
+                "reading": "mǐ"
+              },
+              {
+                "text": "粒",
+                "reading": "lì"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "没",
+                "reading": "méi"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "跳",
+                "reading": "tiào"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把鈴鐺拿到碗的旁邊，用力搖一搖，看看米粒有沒有跳起來。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "拿",
+                "reading": "ㄋㄚˊ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "碗",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "旁",
+                "reading": "ㄆㄤˊ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "力",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "搖",
+                "reading": "ㄧㄠˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "搖",
+                "reading": "ㄧㄠˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "米",
+                "reading": "ㄇㄧˇ"
+              },
+              {
+                "text": "粒",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "沒",
+                "reading": "ㄇㄟˊ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "跳",
+                "reading": "ㄊㄧㄠˋ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把鈴鐺拿到碗的旁邊，用力搖一󠇢搖，看看米粒有沒有跳起來。"
+          }
+        },
+        {
+          "en": "Now shake it further away. Do the grains still jump as high?",
+          "simp": {
+            "text": "再把铃铛拿远一点摇，米粒还跳得一样高吗？",
+            "pinyin": [
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "拿",
+                "reading": "ná"
+              },
+              {
+                "text": "远",
+                "reading": "yuǎn"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "点",
+                "reading": "diǎn"
+              },
+              {
+                "text": "摇",
+                "reading": "yáo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "米",
+                "reading": "mǐ"
+              },
+              {
+                "text": "粒",
+                "reading": "lì"
+              },
+              {
+                "text": "还",
+                "reading": "hái"
+              },
+              {
+                "text": "跳",
+                "reading": "tiào"
+              },
+              {
+                "text": "得",
+                "reading": "de"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "高",
+                "reading": "gāo"
+              },
+              {
+                "text": "吗",
+                "reading": "ma"
+              },
+              {
+                "text": "？",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "再把鈴鐺拿遠一點搖，米粒還跳得一樣高嗎？",
+            "zhuyin": [
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "拿",
+                "reading": "ㄋㄚˊ"
+              },
+              {
+                "text": "遠",
+                "reading": "ㄩㄢˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "點",
+                "reading": "ㄉㄧㄢˇ"
+              },
+              {
+                "text": "搖",
+                "reading": "ㄧㄠˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "米",
+                "reading": "ㄇㄧˇ"
+              },
+              {
+                "text": "粒",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "還",
+                "reading": "ㄏㄞˊ"
+              },
+              {
+                "text": "跳",
+                "reading": "ㄊㄧㄠˋ"
+              },
+              {
+                "text": "得",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "高",
+                "reading": "ㄍㄠ"
+              },
+              {
+                "text": "嗎",
+                "reading": "ㄇㄚ˙"
+              },
+              {
+                "text": "？",
+                "reading": ""
+              }
+            ],
+            "bpmf": "再把鈴鐺拿遠一󠇢點搖，米粒還跳得󠇡一󠇡樣高嗎？"
+          }
+        },
+        {
+          "en": "Next, one person covers their own ears while another shakes the bell beside the bowl.",
+          "simp": {
+            "text": "接下来，一个人捂住自己的耳朵，另一个人在碗旁边摇铃铛。",
+            "pinyin": [
+              {
+                "text": "接",
+                "reading": "jiē"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "捂",
+                "reading": "wǔ"
+              },
+              {
+                "text": "住",
+                "reading": "zhù"
+              },
+              {
+                "text": "自",
+                "reading": "zì"
+              },
+              {
+                "text": "己",
+                "reading": "jǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "耳",
+                "reading": "ěr"
+              },
+              {
+                "text": "朵",
+                "reading": "duo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "另",
+                "reading": "lìng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "碗",
+                "reading": "wǎn"
+              },
+              {
+                "text": "旁",
+                "reading": "páng"
+              },
+              {
+                "text": "边",
+                "reading": "biān"
+              },
+              {
+                "text": "摇",
+                "reading": "yáo"
+              },
+              {
+                "text": "铃",
+                "reading": "líng"
+              },
+              {
+                "text": "铛",
+                "reading": "dāng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "接下來，一個人摀住自己的耳朵，另一個人在碗旁邊搖鈴鐺。",
+            "zhuyin": [
+              {
+                "text": "接",
+                "reading": "ㄐㄧㄝ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "摀",
+                "reading": "ㄨˇ"
+              },
+              {
+                "text": "住",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "自",
+                "reading": "ㄗˋ"
+              },
+              {
+                "text": "己",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "耳",
+                "reading": "ㄦˇ"
+              },
+              {
+                "text": "朵",
+                "reading": "ㄉㄨㄛ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "另",
+                "reading": "ㄌㄧㄥˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "碗",
+                "reading": "ㄨㄢˇ"
+              },
+              {
+                "text": "旁",
+                "reading": "ㄆㄤˊ"
+              },
+              {
+                "text": "邊",
+                "reading": "ㄅㄧㄢ"
+              },
+              {
+                "text": "搖",
+                "reading": "ㄧㄠˊ"
+              },
+              {
+                "text": "鈴",
+                "reading": "ㄌㄧㄥˊ"
+              },
+              {
+                "text": "鐺",
+                "reading": "ㄉㄤ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "接下來，一󠇡個󠇡人摀住自己的耳朵󠇡，另一󠇡個󠇡人在碗旁邊搖鈴鐺。"
+          }
+        },
+        {
+          "en": "The one with covered ears hears nothing, but the rice keeps jumping. The sound is still travelling through the air, out to every ear around.",
+          "simp": {
+            "text": "捂住耳朵的人听不见，可是米粒还是一直在跳。声音还在空气里往外跑，跑到每一个人的耳朵里。",
+            "pinyin": [
+              {
+                "text": "捂",
+                "reading": "wǔ"
+              },
+              {
+                "text": "住",
+                "reading": "zhù"
+              },
+              {
+                "text": "耳",
+                "reading": "ěr"
+              },
+              {
+                "text": "朵",
+                "reading": "duo"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "听",
+                "reading": "tīng"
+              },
+              {
+                "text": "不",
+                "reading": "bú"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "米",
+                "reading": "mǐ"
+              },
+              {
+                "text": "粒",
+                "reading": "lì"
+              },
+              {
+                "text": "还",
+                "reading": "hái"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "直",
+                "reading": "zhí"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "跳",
+                "reading": "tiào"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "声",
+                "reading": "shēng"
+              },
+              {
+                "text": "音",
+                "reading": "yīn"
+              },
+              {
+                "text": "还",
+                "reading": "hái"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "空",
+                "reading": "kōng"
+              },
+              {
+                "text": "气",
+                "reading": "qì"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "往",
+                "reading": "wǎng"
+              },
+              {
+                "text": "外",
+                "reading": "wài"
+              },
+              {
+                "text": "跑",
+                "reading": "pǎo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "跑",
+                "reading": "pǎo"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "耳",
+                "reading": "ěr"
+              },
+              {
+                "text": "朵",
+                "reading": "duo"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "摀住耳朵的人聽不見，可是米粒還是一直在跳。聲音還在空氣裡往外跑，跑到每一個人的耳朵裡。",
+            "zhuyin": [
+              {
+                "text": "摀",
+                "reading": "ㄨˇ"
+              },
+              {
+                "text": "住",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "耳",
+                "reading": "ㄦˇ"
+              },
+              {
+                "text": "朵",
+                "reading": "ㄉㄨㄛ˙"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "聽",
+                "reading": "ㄊㄧㄥ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˊ"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "米",
+                "reading": "ㄇㄧˇ"
+              },
+              {
+                "text": "粒",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "還",
+                "reading": "ㄏㄞˊ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "直",
+                "reading": "ㄓˊ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "跳",
+                "reading": "ㄊㄧㄠˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "聲",
+                "reading": "ㄕㄥ"
+              },
+              {
+                "text": "音",
+                "reading": "ㄧㄣ"
+              },
+              {
+                "text": "還",
+                "reading": "ㄏㄞˊ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "空",
+                "reading": "ㄎㄨㄥ"
+              },
+              {
+                "text": "氣",
+                "reading": "ㄑㄧˋ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "往",
+                "reading": "ㄨㄤˇ"
+              },
+              {
+                "text": "外",
+                "reading": "ㄨㄞˋ"
+              },
+              {
+                "text": "跑",
+                "reading": "ㄆㄠˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "跑",
+                "reading": "ㄆㄠˇ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "耳",
+                "reading": "ㄦˇ"
+              },
+              {
+                "text": "朵",
+                "reading": "ㄉㄨㄛ˙"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "摀住耳朵󠇡的人聽不󠇡見，可是米粒還是一󠇢直在跳。聲音還在空氣裡往外跑，跑到每一󠇡個󠇡人的耳朵󠇡裡。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6615 @@
+{
+  "slug": "blind-men-and-the-elephant",
+  "activities": [
+    {
+      "id": "a001",
+      "accent": "#4E7A9B",
+      "title": {
+        "en": "Build One Elephant",
+        "simp": {
+          "text": "拼成一头大象",
+          "pinyin": [
+            {
+              "text": "拼",
+              "reading": "pīn"
+            },
+            {
+              "text": "成",
+              "reading": "chéng"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "象",
+              "reading": "xiàng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "拼成一頭大象",
+          "zhuyin": [
+            {
+              "text": "拼",
+              "reading": "ㄆㄧㄣ"
+            },
+            {
+              "text": "成",
+              "reading": "ㄔㄥˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "象",
+              "reading": "ㄒㄧㄤˋ"
+            }
+          ],
+          "bpmf": "拼成一󠇢頭大象"
+        }
+      },
+      "desc": {
+        "en": "Nobody can draw the whole elephant alone. Each person draws one part, then all the parts go onto one big sheet and the elephant appears.",
+        "simp": {
+          "text": "一个人画不出整头大象。每个人只画一个部分，再把大家的画贴到同一张大纸上，大象就出现了。",
+          "pinyin": [
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "整",
+              "reading": "zhěng"
+            },
+            {
+              "text": "头",
+              "reading": "tóu"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "象",
+              "reading": "xiàng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "每",
+              "reading": "měi"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "人",
+              "reading": "rén"
+            },
+            {
+              "text": "只",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "部",
+              "reading": "bù"
+            },
+            {
+              "text": "分",
+              "reading": "fèn"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "zài"
+            },
+            {
+              "text": "把",
+              "reading": "bǎ"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "家",
+              "reading": "jiā"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "画",
+              "reading": "huà"
+            },
+            {
+              "text": "贴",
+              "reading": "tiē"
+            },
+            {
+              "text": "到",
+              "reading": "dào"
+            },
+            {
+              "text": "同",
+              "reading": "tóng"
+            },
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "张",
+              "reading": "zhāng"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "象",
+              "reading": "xiàng"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "现",
+              "reading": "xiàn"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "一個人畫不出整頭大象。每個人只畫一個部分，再把大家的畫貼到同一張大紙上，大象就出現了。",
+          "zhuyin": [
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "整",
+              "reading": "ㄓㄥˇ"
+            },
+            {
+              "text": "頭",
+              "reading": "ㄊㄡˊ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "象",
+              "reading": "ㄒㄧㄤˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "每",
+              "reading": "ㄇㄟˇ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "人",
+              "reading": "ㄖㄣˊ"
+            },
+            {
+              "text": "只",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "部",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "再",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "把",
+              "reading": "ㄅㄚˇ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "家",
+              "reading": "ㄐㄧㄚ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "畫",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "貼",
+              "reading": "ㄊㄧㄝ"
+            },
+            {
+              "text": "到",
+              "reading": "ㄉㄠˋ"
+            },
+            {
+              "text": "同",
+              "reading": "ㄊㄨㄥˊ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "張",
+              "reading": "ㄓㄤ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "象",
+              "reading": "ㄒㄧㄤˋ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "現",
+              "reading": "ㄒㄧㄢˋ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "一󠇡個󠇡人畫不出整頭大象。每個󠇡人只畫一󠇡個󠇡部分󠇡，再把大家的畫貼到同一󠇢張大紙上，大象就出現了。"
+        }
+      },
+      "time": {
+        "en": "25 min",
+        "simp": {
+          "text": "二十五分钟",
+          "pinyin": [
+            {
+              "text": "二",
+              "reading": "èr"
+            },
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "二十五分鐘",
+          "zhuyin": [
+            {
+              "text": "二",
+              "reading": "ㄦˋ"
+            },
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "二十五分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "One big sheet of paper",
+          "simp": {
+            "text": "一大张纸",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一大張紙",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "一󠇡大張紙"
+          }
+        },
+        {
+          "en": "One sheet of paper for each person",
+          "simp": {
+            "text": "每人一张纸",
+            "pinyin": [
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "每人一張紙",
+            "zhuyin": [
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "每人一󠇢張紙"
+          }
+        },
+        {
+          "en": "Markers",
+          "simp": {
+            "text": "彩色笔",
+            "pinyin": [
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "彩色筆",
+            "zhuyin": [
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "彩色筆"
+          }
+        },
+        {
+          "en": "Tape",
+          "simp": {
+            "text": "胶带",
+            "pinyin": [
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              }
+            ]
+          },
+          "trad": {
+            "text": "膠帶",
+            "zhuyin": [
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              }
+            ],
+            "bpmf": "膠帶"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Split up the parts first. One person draws the legs, one draws the tail, one draws the trunk, one draws the ears, and one draws the body.",
+          "simp": {
+            "text": "先分好部分。有人画腿，有人画尾巴，有人画鼻子，有人画耳朵，有人画身体。",
+            "pinyin": [
+              {
+                "text": "先",
+                "reading": "xiān"
+              },
+              {
+                "text": "分",
+                "reading": "fēn"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "部",
+                "reading": "bù"
+              },
+              {
+                "text": "分",
+                "reading": "fèn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "腿",
+                "reading": "tuǐ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "尾",
+                "reading": "wěi"
+              },
+              {
+                "text": "巴",
+                "reading": "ba"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "鼻",
+                "reading": "bí"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "耳",
+                "reading": "ěr"
+              },
+              {
+                "text": "朵",
+                "reading": "duǒ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "身",
+                "reading": "shēn"
+              },
+              {
+                "text": "体",
+                "reading": "tǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "先分好部分。有人畫腿，有人畫尾巴，有人畫鼻子，有人畫耳朵，有人畫身體。",
+            "zhuyin": [
+              {
+                "text": "先",
+                "reading": "ㄒㄧㄢ"
+              },
+              {
+                "text": "分",
+                "reading": "ㄈㄣ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "部",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "分",
+                "reading": "ㄈㄣˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "腿",
+                "reading": "ㄊㄨㄟˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "尾",
+                "reading": "ㄨㄟˇ"
+              },
+              {
+                "text": "巴",
+                "reading": "ㄅㄚ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "鼻",
+                "reading": "ㄅㄧˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "耳",
+                "reading": "ㄦˇ"
+              },
+              {
+                "text": "朵",
+                "reading": "ㄉㄨㄛˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "身",
+                "reading": "ㄕㄣ"
+              },
+              {
+                "text": "體",
+                "reading": "ㄊㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "先分好部分󠇡。有人畫腿，有人畫尾巴，有人畫鼻子󠇡，有人畫耳朵，有人畫身體。"
+          }
+        },
+        {
+          "en": "Draw your part on your own sheet. Make it big and clear.",
+          "simp": {
+            "text": "在自己的纸上，把那个部分画得又大又清楚。",
+            "pinyin": [
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "自",
+                "reading": "zì"
+              },
+              {
+                "text": "己",
+                "reading": "jǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "部",
+                "reading": "bù"
+              },
+              {
+                "text": "分",
+                "reading": "fèn"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "得",
+                "reading": "de"
+              },
+              {
+                "text": "又",
+                "reading": "yòu"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "又",
+                "reading": "yòu"
+              },
+              {
+                "text": "清",
+                "reading": "qīng"
+              },
+              {
+                "text": "楚",
+                "reading": "chǔ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "在自己的紙上，把那個部分畫得又大又清楚。",
+            "zhuyin": [
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "自",
+                "reading": "ㄗˋ"
+              },
+              {
+                "text": "己",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "部",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "分",
+                "reading": "ㄈㄣˋ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "得",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "又",
+                "reading": "ㄧㄡˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "又",
+                "reading": "ㄧㄡˋ"
+              },
+              {
+                "text": "清",
+                "reading": "ㄑㄧㄥ"
+              },
+              {
+                "text": "楚",
+                "reading": "ㄔㄨˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "在自己的紙上，把那個󠇡部分󠇡畫得󠇡又大又清楚。"
+          }
+        },
+        {
+          "en": "Draw it the way the story says. Legs thick like pillars, a tail thin like a rope, a trunk long like a snake.",
+          "simp": {
+            "text": "照故事里的样子画。腿粗粗的像柱子，尾巴细细的像绳子，鼻子长长的像大蛇。",
+            "pinyin": [
+              {
+                "text": "照",
+                "reading": "zhào"
+              },
+              {
+                "text": "故",
+                "reading": "gù"
+              },
+              {
+                "text": "事",
+                "reading": "shì"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "腿",
+                "reading": "tuǐ"
+              },
+              {
+                "text": "粗",
+                "reading": "cū"
+              },
+              {
+                "text": "粗",
+                "reading": "cū"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "柱",
+                "reading": "zhù"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "尾",
+                "reading": "wěi"
+              },
+              {
+                "text": "巴",
+                "reading": "ba"
+              },
+              {
+                "text": "细",
+                "reading": "xì"
+              },
+              {
+                "text": "细",
+                "reading": "xì"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "绳",
+                "reading": "shéng"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "鼻",
+                "reading": "bí"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "长",
+                "reading": "cháng"
+              },
+              {
+                "text": "长",
+                "reading": "cháng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "蛇",
+                "reading": "shé"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "照故事裡的樣子畫。腿粗粗的像柱子，尾巴細細的像繩子，鼻子長長的像大蛇。",
+            "zhuyin": [
+              {
+                "text": "照",
+                "reading": "ㄓㄠˋ"
+              },
+              {
+                "text": "故",
+                "reading": "ㄍㄨˋ"
+              },
+              {
+                "text": "事",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "腿",
+                "reading": "ㄊㄨㄟˇ"
+              },
+              {
+                "text": "粗",
+                "reading": "ㄘㄨ"
+              },
+              {
+                "text": "粗",
+                "reading": "ㄘㄨ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "柱",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "尾",
+                "reading": "ㄨㄟˇ"
+              },
+              {
+                "text": "巴",
+                "reading": "ㄅㄚ˙"
+              },
+              {
+                "text": "細",
+                "reading": "ㄒㄧˋ"
+              },
+              {
+                "text": "細",
+                "reading": "ㄒㄧˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "繩",
+                "reading": "ㄕㄥˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "鼻",
+                "reading": "ㄅㄧˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "長",
+                "reading": "ㄔㄤˊ"
+              },
+              {
+                "text": "長",
+                "reading": "ㄔㄤˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "蛇",
+                "reading": "ㄕㄜˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "照故事裡的樣子󠇡畫。腿粗粗的像柱子󠇡，尾巴細細的像繩子󠇡，鼻子󠇡長長的像大蛇。"
+          }
+        },
+        {
+          "en": "Lay the big sheet flat on the table. This is where the elephant will stand.",
+          "simp": {
+            "text": "把大纸平平地铺在桌上。这是大象要站的地方。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "平",
+                "reading": "píng"
+              },
+              {
+                "text": "平",
+                "reading": "píng"
+              },
+              {
+                "text": "地",
+                "reading": "de"
+              },
+              {
+                "text": "铺",
+                "reading": "pū"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "桌",
+                "reading": "zhuō"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "象",
+                "reading": "xiàng"
+              },
+              {
+                "text": "要",
+                "reading": "yào"
+              },
+              {
+                "text": "站",
+                "reading": "zhàn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "地",
+                "reading": "dì"
+              },
+              {
+                "text": "方",
+                "reading": "fāng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把大紙平平地鋪在桌上。這是大象要站的地方。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "平",
+                "reading": "ㄆㄧㄥˊ"
+              },
+              {
+                "text": "平",
+                "reading": "ㄆㄧㄥˊ"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "鋪",
+                "reading": "ㄆㄨ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "桌",
+                "reading": "ㄓㄨㄛ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "象",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "要",
+                "reading": "ㄧㄠˋ"
+              },
+              {
+                "text": "站",
+                "reading": "ㄓㄢˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "地",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "方",
+                "reading": "ㄈㄤ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把大紙平平地󠇡鋪在桌上。這是大象要站的地方。"
+          }
+        },
+        {
+          "en": "Put the drawings onto the big sheet one at a time and move them around until they make one elephant.",
+          "simp": {
+            "text": "把画好的纸一张一张放到大纸上，排成一头大象的样子。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "放",
+                "reading": "fàng"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "排",
+                "reading": "pái"
+              },
+              {
+                "text": "成",
+                "reading": "chéng"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "头",
+                "reading": "tóu"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "象",
+                "reading": "xiàng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把畫好的紙一張一張放到大紙上，排成一頭大象的樣子。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "放",
+                "reading": "ㄈㄤˋ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "排",
+                "reading": "ㄆㄞˊ"
+              },
+              {
+                "text": "成",
+                "reading": "ㄔㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "頭",
+                "reading": "ㄊㄡˊ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "象",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把畫好的紙一󠇢張一󠇢張放到大紙上，排成一󠇢頭大象的樣子󠇡。"
+          }
+        },
+        {
+          "en": "Once every part is in the right place, tape each sheet down so it holds.",
+          "simp": {
+            "text": "位置排好了，就用胶带把每一张纸贴牢。",
+            "pinyin": [
+              {
+                "text": "位",
+                "reading": "wèi"
+              },
+              {
+                "text": "置",
+                "reading": "zhì"
+              },
+              {
+                "text": "排",
+                "reading": "pái"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "牢",
+                "reading": "láo"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "位置排好了，就用膠帶把每一張紙貼牢。",
+            "zhuyin": [
+              {
+                "text": "位",
+                "reading": "ㄨㄟˋ"
+              },
+              {
+                "text": "置",
+                "reading": "ㄓˋ"
+              },
+              {
+                "text": "排",
+                "reading": "ㄆㄞˊ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "牢",
+                "reading": "ㄌㄠˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "位置排好了，就用膠帶把每一󠇢張紙貼牢。"
+          }
+        },
+        {
+          "en": "Look at the finished elephant together. Then take turns saying which part you drew.",
+          "simp": {
+            "text": "一起看这头拼好的大象，再说出自己画的是哪一个部分。",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "头",
+                "reading": "tóu"
+              },
+              {
+                "text": "拼",
+                "reading": "pīn"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "象",
+                "reading": "xiàng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "自",
+                "reading": "zì"
+              },
+              {
+                "text": "己",
+                "reading": "jǐ"
+              },
+              {
+                "text": "画",
+                "reading": "huà"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "哪",
+                "reading": "nǎ"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "部",
+                "reading": "bù"
+              },
+              {
+                "text": "分",
+                "reading": "fèn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "一起看這頭拼好的大象，再說出自己畫的是哪一個部分。",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "頭",
+                "reading": "ㄊㄡˊ"
+              },
+              {
+                "text": "拼",
+                "reading": "ㄆㄧㄣ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "象",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "自",
+                "reading": "ㄗˋ"
+              },
+              {
+                "text": "己",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "畫",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "哪",
+                "reading": "ㄋㄚˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "部",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "分",
+                "reading": "ㄈㄣˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "一󠇢起看這頭拼好的大象，再說出自己畫的是哪一󠇡個󠇡部分󠇡。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a002",
+      "accent": "#C0763C",
+      "title": {
+        "en": "One Window at a Time",
+        "simp": {
+          "text": "一次开一个小窗",
+          "pinyin": [
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "次",
+              "reading": "cì"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "一次開一個小窗",
+          "zhuyin": [
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "次",
+              "reading": "ㄘˋ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            }
+          ],
+          "bpmf": "一󠇡次開一󠇡個󠇡小窗"
+        }
+      },
+      "desc": {
+        "en": "A picture hides under a sheet of paper with little windows in it. Open one window, call out a guess, and see who needs the fewest windows.",
+        "simp": {
+          "text": "一张图片藏在纸的下面，纸上开了几个小窗。一次只掀开一个窗就大声猜，看谁用的窗最少。",
+          "pinyin": [
+            {
+              "text": "一",
+              "reading": "yì"
+            },
+            {
+              "text": "张",
+              "reading": "zhāng"
+            },
+            {
+              "text": "图",
+              "reading": "tú"
+            },
+            {
+              "text": "片",
+              "reading": "piàn"
+            },
+            {
+              "text": "藏",
+              "reading": "cáng"
+            },
+            {
+              "text": "在",
+              "reading": "zài"
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "下",
+              "reading": "xià"
+            },
+            {
+              "text": "面",
+              "reading": "miàn"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "纸",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "上",
+              "reading": "shàng"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "了",
+              "reading": "le"
+            },
+            {
+              "text": "几",
+              "reading": "jǐ"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "小",
+              "reading": "xiǎo"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "次",
+              "reading": "cì"
+            },
+            {
+              "text": "只",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "掀",
+              "reading": "xiān"
+            },
+            {
+              "text": "开",
+              "reading": "kāi"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "个",
+              "reading": "ge"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            },
+            {
+              "text": "就",
+              "reading": "jiù"
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "声",
+              "reading": "shēng"
+            },
+            {
+              "text": "猜",
+              "reading": "cāi"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "看",
+              "reading": "kàn"
+            },
+            {
+              "text": "谁",
+              "reading": "shéi"
+            },
+            {
+              "text": "用",
+              "reading": "yòng"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "窗",
+              "reading": "chuāng"
+            },
+            {
+              "text": "最",
+              "reading": "zuì"
+            },
+            {
+              "text": "少",
+              "reading": "shǎo"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "一張圖片藏在紙的下面，紙上開了幾個小窗。一次只掀開一個窗就大聲猜，看誰用的窗最少。",
+          "zhuyin": [
+            {
+              "text": "一",
+              "reading": "ㄧˋ"
+            },
+            {
+              "text": "張",
+              "reading": "ㄓㄤ"
+            },
+            {
+              "text": "圖",
+              "reading": "ㄊㄨˊ"
+            },
+            {
+              "text": "片",
+              "reading": "ㄆㄧㄢˋ"
+            },
+            {
+              "text": "藏",
+              "reading": "ㄘㄤˊ"
+            },
+            {
+              "text": "在",
+              "reading": "ㄗㄞˋ"
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "下",
+              "reading": "ㄒㄧㄚˋ"
+            },
+            {
+              "text": "面",
+              "reading": "ㄇㄧㄢˋ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "紙",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "上",
+              "reading": "ㄕㄤˋ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "了",
+              "reading": "ㄌㄜ˙"
+            },
+            {
+              "text": "幾",
+              "reading": "ㄐㄧˇ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "小",
+              "reading": "ㄒㄧㄠˇ"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "次",
+              "reading": "ㄘˋ"
+            },
+            {
+              "text": "只",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "掀",
+              "reading": "ㄒㄧㄢ"
+            },
+            {
+              "text": "開",
+              "reading": "ㄎㄞ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "個",
+              "reading": "ㄍㄜ˙"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            },
+            {
+              "text": "就",
+              "reading": "ㄐㄧㄡˋ"
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "聲",
+              "reading": "ㄕㄥ"
+            },
+            {
+              "text": "猜",
+              "reading": "ㄘㄞ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "看",
+              "reading": "ㄎㄢˋ"
+            },
+            {
+              "text": "誰",
+              "reading": "ㄕㄟˊ"
+            },
+            {
+              "text": "用",
+              "reading": "ㄩㄥˋ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "窗",
+              "reading": "ㄔㄨㄤ"
+            },
+            {
+              "text": "最",
+              "reading": "ㄗㄨㄟˋ"
+            },
+            {
+              "text": "少",
+              "reading": "ㄕㄠˇ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "一󠇢張圖片藏在紙的下面，紙上開了幾個󠇡小窗。一󠇡次只掀開一󠇡個󠇡窗就大聲猜，看誰用的窗最少。"
+        }
+      },
+      "time": {
+        "en": "20 min",
+        "simp": {
+          "text": "二十分钟",
+          "pinyin": [
+            {
+              "text": "二",
+              "reading": "èr"
+            },
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "二十分鐘",
+          "zhuyin": [
+            {
+              "text": "二",
+              "reading": "ㄦˋ"
+            },
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "二十分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "Pictures of animals or everyday things",
+          "simp": {
+            "text": "动物或东西的图片",
+            "pinyin": [
+              {
+                "text": "动",
+                "reading": "dòng"
+              },
+              {
+                "text": "物",
+                "reading": "wù"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "东",
+                "reading": "dōng"
+              },
+              {
+                "text": "西",
+                "reading": "xi"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "图",
+                "reading": "tú"
+              },
+              {
+                "text": "片",
+                "reading": "piàn"
+              }
+            ]
+          },
+          "trad": {
+            "text": "動物或東西的圖片",
+            "zhuyin": [
+              {
+                "text": "動",
+                "reading": "ㄉㄨㄥˋ"
+              },
+              {
+                "text": "物",
+                "reading": "ㄨˋ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "東",
+                "reading": "ㄉㄨㄥ"
+              },
+              {
+                "text": "西",
+                "reading": "ㄒㄧ˙"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "圖",
+                "reading": "ㄊㄨˊ"
+              },
+              {
+                "text": "片",
+                "reading": "ㄆㄧㄢˋ"
+              }
+            ],
+            "bpmf": "動物或東西󠇡的圖片"
+          }
+        },
+        {
+          "en": "A sheet of paper bigger than the picture",
+          "simp": {
+            "text": "一张比图片大的纸",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "比",
+                "reading": "bǐ"
+              },
+              {
+                "text": "图",
+                "reading": "tú"
+              },
+              {
+                "text": "片",
+                "reading": "piàn"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一張比圖片大的紙",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "比",
+                "reading": "ㄅㄧˇ"
+              },
+              {
+                "text": "圖",
+                "reading": "ㄊㄨˊ"
+              },
+              {
+                "text": "片",
+                "reading": "ㄆㄧㄢˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              }
+            ],
+            "bpmf": "一󠇢張比圖片大的紙"
+          }
+        },
+        {
+          "en": "Scissors for an adult to use",
+          "simp": {
+            "text": "大人用的剪刀",
+            "pinyin": [
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "刀",
+                "reading": "dāo"
+              }
+            ]
+          },
+          "trad": {
+            "text": "大人用的剪刀",
+            "zhuyin": [
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "刀",
+                "reading": "ㄉㄠ"
+              }
+            ],
+            "bpmf": "大人用的剪刀"
+          }
+        },
+        {
+          "en": "Sticky notes",
+          "simp": {
+            "text": "便利贴",
+            "pinyin": [
+              {
+                "text": "便",
+                "reading": "biàn"
+              },
+              {
+                "text": "利",
+                "reading": "lì"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              }
+            ]
+          },
+          "trad": {
+            "text": "便利貼",
+            "zhuyin": [
+              {
+                "text": "便",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "利",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              }
+            ],
+            "bpmf": "便利貼"
+          }
+        },
+        {
+          "en": "Tape",
+          "simp": {
+            "text": "胶带",
+            "pinyin": [
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              }
+            ]
+          },
+          "trad": {
+            "text": "膠帶",
+            "zhuyin": [
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              }
+            ],
+            "bpmf": "膠帶"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Pick a picture. An elephant, a house, or a piece of fruit all work.",
+          "simp": {
+            "text": "选一张图片，可以是大象、房子或水果。",
+            "pinyin": [
+              {
+                "text": "选",
+                "reading": "xuǎn"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "图",
+                "reading": "tú"
+              },
+              {
+                "text": "片",
+                "reading": "piàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "象",
+                "reading": "xiàng"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "房",
+                "reading": "fáng"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "水",
+                "reading": "shuǐ"
+              },
+              {
+                "text": "果",
+                "reading": "guǒ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "選一張圖片，可以是大象、房子或水果。",
+            "zhuyin": [
+              {
+                "text": "選",
+                "reading": "ㄒㄩㄢˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "圖",
+                "reading": "ㄊㄨˊ"
+              },
+              {
+                "text": "片",
+                "reading": "ㄆㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "象",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "房",
+                "reading": "ㄈㄤˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "水",
+                "reading": "ㄕㄨㄟˇ"
+              },
+              {
+                "text": "果",
+                "reading": "ㄍㄨㄛˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "選一󠇢張圖片，可以是大象、房子󠇡或水果。"
+          }
+        },
+        {
+          "en": "Cover the picture with the big sheet and tape down all four corners.",
+          "simp": {
+            "text": "把大纸盖在图片上面，四个角都用胶带贴好。",
+            "pinyin": [
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "盖",
+                "reading": "gài"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "图",
+                "reading": "tú"
+              },
+              {
+                "text": "片",
+                "reading": "piàn"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "面",
+                "reading": "miàn"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "四",
+                "reading": "sì"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "角",
+                "reading": "jiǎo"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "胶",
+                "reading": "jiāo"
+              },
+              {
+                "text": "带",
+                "reading": "dài"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "好",
+                "reading": "hǎo"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "把大紙蓋在圖片上面，四個角都用膠帶貼好。",
+            "zhuyin": [
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "蓋",
+                "reading": "ㄍㄞˋ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "圖",
+                "reading": "ㄊㄨˊ"
+              },
+              {
+                "text": "片",
+                "reading": "ㄆㄧㄢˋ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "面",
+                "reading": "ㄇㄧㄢˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "四",
+                "reading": "ㄙˋ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "角",
+                "reading": "ㄐㄧㄠˇ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "膠",
+                "reading": "ㄐㄧㄠ"
+              },
+              {
+                "text": "帶",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "好",
+                "reading": "ㄏㄠˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "把大紙蓋在圖片上面，四個󠇡角都用膠帶貼好。"
+          }
+        },
+        {
+          "en": "An adult cuts five small windows in the big sheet, spread far apart. Each window is small, so only one little patch shows.",
+          "simp": {
+            "text": "大人在大纸上剪出五个小窗，位置分开一点。每个窗都很小，一次只看得到一小块。",
+            "pinyin": [
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "剪",
+                "reading": "jiǎn"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "五",
+                "reading": "wǔ"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "窗",
+                "reading": "chuāng"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "位",
+                "reading": "wèi"
+              },
+              {
+                "text": "置",
+                "reading": "zhì"
+              },
+              {
+                "text": "分",
+                "reading": "fēn"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "点",
+                "reading": "diǎn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "窗",
+                "reading": "chuāng"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "很",
+                "reading": "hěn"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "次",
+                "reading": "cì"
+              },
+              {
+                "text": "只",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "得",
+                "reading": "de"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "块",
+                "reading": "kuài"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "大人在大紙上剪出五個小窗，位置分開一點。每個窗都很小，一次只看得到一小塊。",
+            "zhuyin": [
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "剪",
+                "reading": "ㄐㄧㄢˇ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "五",
+                "reading": "ㄨˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "窗",
+                "reading": "ㄔㄨㄤ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "位",
+                "reading": "ㄨㄟˋ"
+              },
+              {
+                "text": "置",
+                "reading": "ㄓˋ"
+              },
+              {
+                "text": "分",
+                "reading": "ㄈㄣ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "點",
+                "reading": "ㄉㄧㄢˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "窗",
+                "reading": "ㄔㄨㄤ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "很",
+                "reading": "ㄏㄣˇ"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "次",
+                "reading": "ㄘˋ"
+              },
+              {
+                "text": "只",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "得",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "塊",
+                "reading": "ㄎㄨㄞˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "大人在大紙上剪出五個󠇡小窗，位置分開一󠇢點。每個󠇡窗都很小，一󠇡次只看得󠇡到一󠇢小塊。"
+          }
+        },
+        {
+          "en": "Cover every window with a sticky note.",
+          "simp": {
+            "text": "用便利贴把每一个小窗盖住。",
+            "pinyin": [
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "便",
+                "reading": "biàn"
+              },
+              {
+                "text": "利",
+                "reading": "lì"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "每",
+                "reading": "měi"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "窗",
+                "reading": "chuāng"
+              },
+              {
+                "text": "盖",
+                "reading": "gài"
+              },
+              {
+                "text": "住",
+                "reading": "zhù"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "用便利貼把每一個小窗蓋住。",
+            "zhuyin": [
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "便",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "利",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "每",
+                "reading": "ㄇㄟˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "窗",
+                "reading": "ㄔㄨㄤ"
+              },
+              {
+                "text": "蓋",
+                "reading": "ㄍㄞˋ"
+              },
+              {
+                "text": "住",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "用便利貼把每一󠇡個󠇡小窗蓋住。"
+          }
+        },
+        {
+          "en": "The first person lifts one sticky note, looks at that one small patch, and guesses what the picture is.",
+          "simp": {
+            "text": "第一个人掀开一张便利贴，只看那一小块，然后猜这是什么。",
+            "pinyin": [
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "一",
+                "reading": "yī"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "掀",
+                "reading": "xiān"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "便",
+                "reading": "biàn"
+              },
+              {
+                "text": "利",
+                "reading": "lì"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "只",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "块",
+                "reading": "kuài"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "然",
+                "reading": "rán"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "猜",
+                "reading": "cāi"
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "什",
+                "reading": "shén"
+              },
+              {
+                "text": "么",
+                "reading": "me"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "第一個人掀開一張便利貼，只看那一小塊，然後猜這是什麼。",
+            "zhuyin": [
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "掀",
+                "reading": "ㄒㄧㄢ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "便",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "利",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "只",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "塊",
+                "reading": "ㄎㄨㄞˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "然",
+                "reading": "ㄖㄢˊ"
+              },
+              {
+                "text": "後",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "猜",
+                "reading": "ㄘㄞ"
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "什",
+                "reading": "ㄕㄣˊ"
+              },
+              {
+                "text": "麼",
+                "reading": "ㄇㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "第一個󠇡人掀開一󠇢張便利貼，只看那一󠇢小塊，然後猜這是什麼。"
+          }
+        },
+        {
+          "en": "A wrong guess passes the turn to the next person, who lifts one more sticky note.",
+          "simp": {
+            "text": "猜错了就换下一个人，再掀开一张便利贴。",
+            "pinyin": [
+              {
+                "text": "猜",
+                "reading": "cāi"
+              },
+              {
+                "text": "错",
+                "reading": "cuò"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "换",
+                "reading": "huàn"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "掀",
+                "reading": "xiān"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "便",
+                "reading": "biàn"
+              },
+              {
+                "text": "利",
+                "reading": "lì"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "猜錯了就換下一個人，再掀開一張便利貼。",
+            "zhuyin": [
+              {
+                "text": "猜",
+                "reading": "ㄘㄞ"
+              },
+              {
+                "text": "錯",
+                "reading": "ㄘㄨㄛˋ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "換",
+                "reading": "ㄏㄨㄢˋ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "掀",
+                "reading": "ㄒㄧㄢ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "便",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "利",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "猜錯了就換下一󠇡個󠇡人，再掀開一󠇢張便利貼。"
+          }
+        },
+        {
+          "en": "When someone guesses right, lift every sticky note off and look at the whole picture.",
+          "simp": {
+            "text": "有人猜对了，就把所有的便利贴都掀开，看整张图片。",
+            "pinyin": [
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "猜",
+                "reading": "cāi"
+              },
+              {
+                "text": "对",
+                "reading": "duì"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "所",
+                "reading": "suǒ"
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "便",
+                "reading": "biàn"
+              },
+              {
+                "text": "利",
+                "reading": "lì"
+              },
+              {
+                "text": "贴",
+                "reading": "tiē"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "掀",
+                "reading": "xiān"
+              },
+              {
+                "text": "开",
+                "reading": "kāi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "整",
+                "reading": "zhěng"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "图",
+                "reading": "tú"
+              },
+              {
+                "text": "片",
+                "reading": "piàn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "有人猜對了，就把所有的便利貼都掀開，看整張圖片。",
+            "zhuyin": [
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "猜",
+                "reading": "ㄘㄞ"
+              },
+              {
+                "text": "對",
+                "reading": "ㄉㄨㄟˋ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "所",
+                "reading": "ㄙㄨㄛˇ"
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "便",
+                "reading": "ㄅㄧㄢˋ"
+              },
+              {
+                "text": "利",
+                "reading": "ㄌㄧˋ"
+              },
+              {
+                "text": "貼",
+                "reading": "ㄊㄧㄝ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "掀",
+                "reading": "ㄒㄧㄢ"
+              },
+              {
+                "text": "開",
+                "reading": "ㄎㄞ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "整",
+                "reading": "ㄓㄥˇ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "圖",
+                "reading": "ㄊㄨˊ"
+              },
+              {
+                "text": "片",
+                "reading": "ㄆㄧㄢˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "有人猜對了，就把所有的便利貼都掀開，看整張圖片。"
+          }
+        },
+        {
+          "en": "Play again with a new picture. Whoever used the fewest windows wins.",
+          "simp": {
+            "text": "换一张新的图片再玩。谁用的小窗最少，谁就赢。",
+            "pinyin": [
+              {
+                "text": "换",
+                "reading": "huàn"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "张",
+                "reading": "zhāng"
+              },
+              {
+                "text": "新",
+                "reading": "xīn"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "图",
+                "reading": "tú"
+              },
+              {
+                "text": "片",
+                "reading": "piàn"
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "玩",
+                "reading": "wán"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "谁",
+                "reading": "shéi"
+              },
+              {
+                "text": "用",
+                "reading": "yòng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "小",
+                "reading": "xiǎo"
+              },
+              {
+                "text": "窗",
+                "reading": "chuāng"
+              },
+              {
+                "text": "最",
+                "reading": "zuì"
+              },
+              {
+                "text": "少",
+                "reading": "shǎo"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "谁",
+                "reading": "shéi"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "赢",
+                "reading": "yíng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "換一張新的圖片再玩。誰用的小窗最少，誰就贏。",
+            "zhuyin": [
+              {
+                "text": "換",
+                "reading": "ㄏㄨㄢˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "張",
+                "reading": "ㄓㄤ"
+              },
+              {
+                "text": "新",
+                "reading": "ㄒㄧㄣ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "圖",
+                "reading": "ㄊㄨˊ"
+              },
+              {
+                "text": "片",
+                "reading": "ㄆㄧㄢˋ"
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "玩",
+                "reading": "ㄨㄢˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "誰",
+                "reading": "ㄕㄟˊ"
+              },
+              {
+                "text": "用",
+                "reading": "ㄩㄥˋ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "小",
+                "reading": "ㄒㄧㄠˇ"
+              },
+              {
+                "text": "窗",
+                "reading": "ㄔㄨㄤ"
+              },
+              {
+                "text": "最",
+                "reading": "ㄗㄨㄟˋ"
+              },
+              {
+                "text": "少",
+                "reading": "ㄕㄠˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "誰",
+                "reading": "ㄕㄟˊ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "贏",
+                "reading": "ㄧㄥˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "換一󠇢張新的圖片再玩。誰用的小窗最少，誰就贏。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a003",
+      "accent": "#5C8358",
+      "title": {
+        "en": "Like What?",
+        "simp": {
+          "text": "像什么？",
+          "pinyin": [
+            {
+              "text": "像",
+              "reading": "xiàng"
+            },
+            {
+              "text": "什",
+              "reading": "shén"
+            },
+            {
+              "text": "么",
+              "reading": "me"
+            },
+            {
+              "text": "？",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "像什麼？",
+          "zhuyin": [
+            {
+              "text": "像",
+              "reading": "ㄒㄧㄤˋ"
+            },
+            {
+              "text": "什",
+              "reading": "ㄕㄣˊ"
+            },
+            {
+              "text": "麼",
+              "reading": "ㄇㄜ˙"
+            },
+            {
+              "text": "？",
+              "reading": ""
+            }
+          ],
+          "bpmf": "像什麼？"
+        }
+      },
+      "desc": {
+        "en": "One thing goes into the bag. Everyone feels that same thing and finishes the same sentence, and no two answers come out alike.",
+        "simp": {
+          "text": "袋子里只放一样东西。大家摸的都是它，说出来的话却都不一样。",
+          "pinyin": [
+            {
+              "text": "袋",
+              "reading": "dài"
+            },
+            {
+              "text": "子",
+              "reading": "zi"
+            },
+            {
+              "text": "里",
+              "reading": "lǐ"
+            },
+            {
+              "text": "只",
+              "reading": "zhǐ"
+            },
+            {
+              "text": "放",
+              "reading": "fàng"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "样",
+              "reading": "yàng"
+            },
+            {
+              "text": "东",
+              "reading": "dōng"
+            },
+            {
+              "text": "西",
+              "reading": "xi"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "dà"
+            },
+            {
+              "text": "家",
+              "reading": "jiā"
+            },
+            {
+              "text": "摸",
+              "reading": "mō"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "都",
+              "reading": "dōu"
+            },
+            {
+              "text": "是",
+              "reading": "shì"
+            },
+            {
+              "text": "它",
+              "reading": "tā"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "说",
+              "reading": "shuō"
+            },
+            {
+              "text": "出",
+              "reading": "chū"
+            },
+            {
+              "text": "来",
+              "reading": "lái"
+            },
+            {
+              "text": "的",
+              "reading": "de"
+            },
+            {
+              "text": "话",
+              "reading": "huà"
+            },
+            {
+              "text": "却",
+              "reading": "què"
+            },
+            {
+              "text": "都",
+              "reading": "dōu"
+            },
+            {
+              "text": "不",
+              "reading": "bù"
+            },
+            {
+              "text": "一",
+              "reading": "yí"
+            },
+            {
+              "text": "样",
+              "reading": "yàng"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ]
+        },
+        "trad": {
+          "text": "袋子裡只放一樣東西。大家摸的都是它，說出來的話卻都不一樣。",
+          "zhuyin": [
+            {
+              "text": "袋",
+              "reading": "ㄉㄞˋ"
+            },
+            {
+              "text": "子",
+              "reading": "ㄗ˙"
+            },
+            {
+              "text": "裡",
+              "reading": "ㄌㄧˇ"
+            },
+            {
+              "text": "只",
+              "reading": "ㄓˇ"
+            },
+            {
+              "text": "放",
+              "reading": "ㄈㄤˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "樣",
+              "reading": "ㄧㄤˋ"
+            },
+            {
+              "text": "東",
+              "reading": "ㄉㄨㄥ"
+            },
+            {
+              "text": "西",
+              "reading": "ㄒㄧ˙"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            },
+            {
+              "text": "大",
+              "reading": "ㄉㄚˋ"
+            },
+            {
+              "text": "家",
+              "reading": "ㄐㄧㄚ"
+            },
+            {
+              "text": "摸",
+              "reading": "ㄇㄛ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "都",
+              "reading": "ㄉㄡ"
+            },
+            {
+              "text": "是",
+              "reading": "ㄕˋ"
+            },
+            {
+              "text": "它",
+              "reading": "ㄊㄚ"
+            },
+            {
+              "text": "，",
+              "reading": ""
+            },
+            {
+              "text": "說",
+              "reading": "ㄕㄨㄛ"
+            },
+            {
+              "text": "出",
+              "reading": "ㄔㄨ"
+            },
+            {
+              "text": "來",
+              "reading": "ㄌㄞˊ"
+            },
+            {
+              "text": "的",
+              "reading": "ㄉㄜ˙"
+            },
+            {
+              "text": "話",
+              "reading": "ㄏㄨㄚˋ"
+            },
+            {
+              "text": "卻",
+              "reading": "ㄑㄩㄝˋ"
+            },
+            {
+              "text": "都",
+              "reading": "ㄉㄡ"
+            },
+            {
+              "text": "不",
+              "reading": "ㄅㄨˋ"
+            },
+            {
+              "text": "一",
+              "reading": "ㄧˊ"
+            },
+            {
+              "text": "樣",
+              "reading": "ㄧㄤˋ"
+            },
+            {
+              "text": "。",
+              "reading": ""
+            }
+          ],
+          "bpmf": "袋子󠇡裡只放一󠇡樣東西󠇡。大家摸的都是它，說出來的話卻都不一󠇡樣。"
+        }
+      },
+      "time": {
+        "en": "15 min",
+        "simp": {
+          "text": "十五分钟",
+          "pinyin": [
+            {
+              "text": "十",
+              "reading": "shí"
+            },
+            {
+              "text": "五",
+              "reading": "wǔ"
+            },
+            {
+              "text": "分",
+              "reading": "fēn"
+            },
+            {
+              "text": "钟",
+              "reading": "zhōng"
+            }
+          ]
+        },
+        "trad": {
+          "text": "十五分鐘",
+          "zhuyin": [
+            {
+              "text": "十",
+              "reading": "ㄕˊ"
+            },
+            {
+              "text": "五",
+              "reading": "ㄨˇ"
+            },
+            {
+              "text": "分",
+              "reading": "ㄈㄣ"
+            },
+            {
+              "text": "鐘",
+              "reading": "ㄓㄨㄥ"
+            }
+          ],
+          "bpmf": "十五分鐘"
+        }
+      },
+      "materials": [
+        {
+          "en": "A cloth bag or a box",
+          "simp": {
+            "text": "一个布袋或一个盒子",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "布",
+                "reading": "bù"
+              },
+              {
+                "text": "袋",
+                "reading": "dài"
+              },
+              {
+                "text": "或",
+                "reading": "huò"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "盒",
+                "reading": "hé"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一個布袋或一個盒子",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "布",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "袋",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "或",
+                "reading": "ㄏㄨㄛˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "盒",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              }
+            ],
+            "bpmf": "一󠇡個󠇡布袋或一󠇡個󠇡盒子󠇡"
+          }
+        },
+        {
+          "en": "One thing with an interesting shape",
+          "simp": {
+            "text": "一样形状特别的东西",
+            "pinyin": [
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "形",
+                "reading": "xíng"
+              },
+              {
+                "text": "状",
+                "reading": "zhuàng"
+              },
+              {
+                "text": "特",
+                "reading": "tè"
+              },
+              {
+                "text": "别",
+                "reading": "bié"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "东",
+                "reading": "dōng"
+              },
+              {
+                "text": "西",
+                "reading": "xi"
+              }
+            ]
+          },
+          "trad": {
+            "text": "一樣形狀特別的東西",
+            "zhuyin": [
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "形",
+                "reading": "ㄒㄧㄥˊ"
+              },
+              {
+                "text": "狀",
+                "reading": "ㄓㄨㄤˋ"
+              },
+              {
+                "text": "特",
+                "reading": "ㄊㄜˋ"
+              },
+              {
+                "text": "別",
+                "reading": "ㄅㄧㄝˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "東",
+                "reading": "ㄉㄨㄥ"
+              },
+              {
+                "text": "西",
+                "reading": "ㄒㄧ˙"
+              }
+            ],
+            "bpmf": "一󠇡樣形狀特別的東西󠇡"
+          }
+        },
+        {
+          "en": "Paper and markers",
+          "simp": {
+            "text": "纸和彩色笔",
+            "pinyin": [
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "和",
+                "reading": "hé"
+              },
+              {
+                "text": "彩",
+                "reading": "cǎi"
+              },
+              {
+                "text": "色",
+                "reading": "sè"
+              },
+              {
+                "text": "笔",
+                "reading": "bǐ"
+              }
+            ]
+          },
+          "trad": {
+            "text": "紙和彩色筆",
+            "zhuyin": [
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "和",
+                "reading": "ㄏㄜˊ"
+              },
+              {
+                "text": "彩",
+                "reading": "ㄘㄞˇ"
+              },
+              {
+                "text": "色",
+                "reading": "ㄙㄜˋ"
+              },
+              {
+                "text": "筆",
+                "reading": "ㄅㄧˇ"
+              }
+            ],
+            "bpmf": "紙和彩色筆"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "An adult puts one thing into the bag without letting anyone see.",
+          "simp": {
+            "text": "大人先把一样东西放进袋子里，不要让大家看见。",
+            "pinyin": [
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "先",
+                "reading": "xiān"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "东",
+                "reading": "dōng"
+              },
+              {
+                "text": "西",
+                "reading": "xi"
+              },
+              {
+                "text": "放",
+                "reading": "fàng"
+              },
+              {
+                "text": "进",
+                "reading": "jìn"
+              },
+              {
+                "text": "袋",
+                "reading": "dài"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "不",
+                "reading": "bú"
+              },
+              {
+                "text": "要",
+                "reading": "yào"
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "家",
+                "reading": "jiā"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "见",
+                "reading": "jiàn"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "大人先把一樣東西放進袋子裡，不要讓大家看見。",
+            "zhuyin": [
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "先",
+                "reading": "ㄒㄧㄢ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "東",
+                "reading": "ㄉㄨㄥ"
+              },
+              {
+                "text": "西",
+                "reading": "ㄒㄧ˙"
+              },
+              {
+                "text": "放",
+                "reading": "ㄈㄤˋ"
+              },
+              {
+                "text": "進",
+                "reading": "ㄐㄧㄣˋ"
+              },
+              {
+                "text": "袋",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˊ"
+              },
+              {
+                "text": "要",
+                "reading": "ㄧㄠˋ"
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "家",
+                "reading": "ㄐㄧㄚ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "見",
+                "reading": "ㄐㄧㄢˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "大人先把一󠇡樣東西󠇡放進袋子󠇡裡，不󠇡要讓大家看見。"
+          }
+        },
+        {
+          "en": "The first person reaches into the bag, feels that one thing, and leaves it inside.",
+          "simp": {
+            "text": "第一个人把手伸进袋子，摸到那样东西，先不要拿出来。",
+            "pinyin": [
+              {
+                "text": "第",
+                "reading": "dì"
+              },
+              {
+                "text": "一",
+                "reading": "yī"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "手",
+                "reading": "shǒu"
+              },
+              {
+                "text": "伸",
+                "reading": "shēn"
+              },
+              {
+                "text": "进",
+                "reading": "jìn"
+              },
+              {
+                "text": "袋",
+                "reading": "dài"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "摸",
+                "reading": "mō"
+              },
+              {
+                "text": "到",
+                "reading": "dào"
+              },
+              {
+                "text": "那",
+                "reading": "nà"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "东",
+                "reading": "dōng"
+              },
+              {
+                "text": "西",
+                "reading": "xi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "先",
+                "reading": "xiān"
+              },
+              {
+                "text": "不",
+                "reading": "bú"
+              },
+              {
+                "text": "要",
+                "reading": "yào"
+              },
+              {
+                "text": "拿",
+                "reading": "ná"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "第一個人把手伸進袋子，摸到那樣東西，先不要拿出來。",
+            "zhuyin": [
+              {
+                "text": "第",
+                "reading": "ㄉㄧˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "手",
+                "reading": "ㄕㄡˇ"
+              },
+              {
+                "text": "伸",
+                "reading": "ㄕㄣ"
+              },
+              {
+                "text": "進",
+                "reading": "ㄐㄧㄣˋ"
+              },
+              {
+                "text": "袋",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "摸",
+                "reading": "ㄇㄛ"
+              },
+              {
+                "text": "到",
+                "reading": "ㄉㄠˋ"
+              },
+              {
+                "text": "那",
+                "reading": "ㄋㄚˋ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "東",
+                "reading": "ㄉㄨㄥ"
+              },
+              {
+                "text": "西",
+                "reading": "ㄒㄧ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "先",
+                "reading": "ㄒㄧㄢ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˊ"
+              },
+              {
+                "text": "要",
+                "reading": "ㄧㄠˋ"
+              },
+              {
+                "text": "拿",
+                "reading": "ㄋㄚˊ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "第一個󠇡人把手伸進袋子󠇡，摸到那樣東西󠇡，先不󠇡要拿出來。"
+          }
+        },
+        {
+          "en": "Say one sentence out loud: it feels like. Like a pillar, like a rope, like a fan, anything works.",
+          "simp": {
+            "text": "说出一句话：摸起来像……。像柱子、像绳子、像扇子都可以。",
+            "pinyin": [
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "句",
+                "reading": "jù"
+              },
+              {
+                "text": "话",
+                "reading": "huà"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "摸",
+                "reading": "mō"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "…",
+                "reading": ""
+              },
+              {
+                "text": "…",
+                "reading": ""
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "柱",
+                "reading": "zhù"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "绳",
+                "reading": "shéng"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "扇",
+                "reading": "shàn"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "可",
+                "reading": "kě"
+              },
+              {
+                "text": "以",
+                "reading": "yǐ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "說出一句話：摸起來像……。像柱子、像繩子、像扇子都可以。",
+            "zhuyin": [
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "句",
+                "reading": "ㄐㄩˋ"
+              },
+              {
+                "text": "話",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "：",
+                "reading": ""
+              },
+              {
+                "text": "摸",
+                "reading": "ㄇㄛ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "…",
+                "reading": ""
+              },
+              {
+                "text": "…",
+                "reading": ""
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "柱",
+                "reading": "ㄓㄨˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "繩",
+                "reading": "ㄕㄥˊ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "、",
+                "reading": ""
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "扇",
+                "reading": "ㄕㄢˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "可",
+                "reading": "ㄎㄜˇ"
+              },
+              {
+                "text": "以",
+                "reading": "ㄧˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "說出一󠇡句話：摸起來像……。像柱子󠇡、像繩子󠇡、像扇子󠇡都可以。"
+          }
+        },
+        {
+          "en": "The next person feels the very same thing in the bag and says their own sentence.",
+          "simp": {
+            "text": "换下一个人摸袋子里同一样东西，也说出自己的一句话。",
+            "pinyin": [
+              {
+                "text": "换",
+                "reading": "huàn"
+              },
+              {
+                "text": "下",
+                "reading": "xià"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "人",
+                "reading": "rén"
+              },
+              {
+                "text": "摸",
+                "reading": "mō"
+              },
+              {
+                "text": "袋",
+                "reading": "dài"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "同",
+                "reading": "tóng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "东",
+                "reading": "dōng"
+              },
+              {
+                "text": "西",
+                "reading": "xi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "自",
+                "reading": "zì"
+              },
+              {
+                "text": "己",
+                "reading": "jǐ"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "句",
+                "reading": "jù"
+              },
+              {
+                "text": "话",
+                "reading": "huà"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "換下一個人摸袋子裡同一樣東西，也說出自己的一句話。",
+            "zhuyin": [
+              {
+                "text": "換",
+                "reading": "ㄏㄨㄢˋ"
+              },
+              {
+                "text": "下",
+                "reading": "ㄒㄧㄚˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "人",
+                "reading": "ㄖㄣˊ"
+              },
+              {
+                "text": "摸",
+                "reading": "ㄇㄛ"
+              },
+              {
+                "text": "袋",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "同",
+                "reading": "ㄊㄨㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "東",
+                "reading": "ㄉㄨㄥ"
+              },
+              {
+                "text": "西",
+                "reading": "ㄒㄧ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "自",
+                "reading": "ㄗˋ"
+              },
+              {
+                "text": "己",
+                "reading": "ㄐㄧˇ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "句",
+                "reading": "ㄐㄩˋ"
+              },
+              {
+                "text": "話",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "換下一󠇡個󠇡人摸袋子󠇡裡同一󠇡樣東西󠇡，也說出自己的一󠇡句話。"
+          }
+        },
+        {
+          "en": "Once everyone has touched it and spoken, guess together what is in the bag.",
+          "simp": {
+            "text": "大家都摸过，也都说过了，再一起猜袋子里是什么。",
+            "pinyin": [
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "家",
+                "reading": "jiā"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "摸",
+                "reading": "mō"
+              },
+              {
+                "text": "过",
+                "reading": "guò"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "yě"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "过",
+                "reading": "guò"
+              },
+              {
+                "text": "了",
+                "reading": "le"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "zài"
+              },
+              {
+                "text": "一",
+                "reading": "yì"
+              },
+              {
+                "text": "起",
+                "reading": "qǐ"
+              },
+              {
+                "text": "猜",
+                "reading": "cāi"
+              },
+              {
+                "text": "袋",
+                "reading": "dài"
+              },
+              {
+                "text": "子",
+                "reading": "zi"
+              },
+              {
+                "text": "里",
+                "reading": "lǐ"
+              },
+              {
+                "text": "是",
+                "reading": "shì"
+              },
+              {
+                "text": "什",
+                "reading": "shén"
+              },
+              {
+                "text": "么",
+                "reading": "me"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "大家都摸過，也都說過了，再一起猜袋子裡是什麼。",
+            "zhuyin": [
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "家",
+                "reading": "ㄐㄧㄚ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "摸",
+                "reading": "ㄇㄛ"
+              },
+              {
+                "text": "過",
+                "reading": "ㄍㄨㄛˋ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "也",
+                "reading": "ㄧㄝˇ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "過",
+                "reading": "ㄍㄨㄛˋ"
+              },
+              {
+                "text": "了",
+                "reading": "ㄌㄜ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "再",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˋ"
+              },
+              {
+                "text": "起",
+                "reading": "ㄑㄧˇ"
+              },
+              {
+                "text": "猜",
+                "reading": "ㄘㄞ"
+              },
+              {
+                "text": "袋",
+                "reading": "ㄉㄞˋ"
+              },
+              {
+                "text": "子",
+                "reading": "ㄗ˙"
+              },
+              {
+                "text": "裡",
+                "reading": "ㄌㄧˇ"
+              },
+              {
+                "text": "是",
+                "reading": "ㄕˋ"
+              },
+              {
+                "text": "什",
+                "reading": "ㄕㄣˊ"
+              },
+              {
+                "text": "麼",
+                "reading": "ㄇㄜ˙"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "大家都摸過，也都說過了，再一󠇢起猜袋子󠇡裡是什麼。"
+          }
+        },
+        {
+          "en": "Take the thing out and let everyone see it clearly.",
+          "simp": {
+            "text": "猜完就把东西拿出来，让大家看清楚。",
+            "pinyin": [
+              {
+                "text": "猜",
+                "reading": "cāi"
+              },
+              {
+                "text": "完",
+                "reading": "wán"
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "东",
+                "reading": "dōng"
+              },
+              {
+                "text": "西",
+                "reading": "xi"
+              },
+              {
+                "text": "拿",
+                "reading": "ná"
+              },
+              {
+                "text": "出",
+                "reading": "chū"
+              },
+              {
+                "text": "来",
+                "reading": "lái"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "让",
+                "reading": "ràng"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "家",
+                "reading": "jiā"
+              },
+              {
+                "text": "看",
+                "reading": "kàn"
+              },
+              {
+                "text": "清",
+                "reading": "qīng"
+              },
+              {
+                "text": "楚",
+                "reading": "chǔ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "猜完就把東西拿出來，讓大家看清楚。",
+            "zhuyin": [
+              {
+                "text": "猜",
+                "reading": "ㄘㄞ"
+              },
+              {
+                "text": "完",
+                "reading": "ㄨㄢˊ"
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "東",
+                "reading": "ㄉㄨㄥ"
+              },
+              {
+                "text": "西",
+                "reading": "ㄒㄧ˙"
+              },
+              {
+                "text": "拿",
+                "reading": "ㄋㄚˊ"
+              },
+              {
+                "text": "出",
+                "reading": "ㄔㄨ"
+              },
+              {
+                "text": "來",
+                "reading": "ㄌㄞˊ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "讓",
+                "reading": "ㄖㄤˋ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "家",
+                "reading": "ㄐㄧㄚ"
+              },
+              {
+                "text": "看",
+                "reading": "ㄎㄢˋ"
+              },
+              {
+                "text": "清",
+                "reading": "ㄑㄧㄥ"
+              },
+              {
+                "text": "楚",
+                "reading": "ㄔㄨˇ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "猜完就把東西󠇡拿出來，讓大家看清楚。"
+          }
+        },
+        {
+          "en": "Write all the sentences on the paper at the end. One thing, this many different answers, just like five friends touching one elephant.",
+          "simp": {
+            "text": "最后把大家说的话都写在纸上。同一样东西，有这么多不同的说法，就像五个朋友摸大象一样。",
+            "pinyin": [
+              {
+                "text": "最",
+                "reading": "zuì"
+              },
+              {
+                "text": "后",
+                "reading": "hòu"
+              },
+              {
+                "text": "把",
+                "reading": "bǎ"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "家",
+                "reading": "jiā"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "话",
+                "reading": "huà"
+              },
+              {
+                "text": "都",
+                "reading": "dōu"
+              },
+              {
+                "text": "写",
+                "reading": "xiě"
+              },
+              {
+                "text": "在",
+                "reading": "zài"
+              },
+              {
+                "text": "纸",
+                "reading": "zhǐ"
+              },
+              {
+                "text": "上",
+                "reading": "shàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "同",
+                "reading": "tóng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "东",
+                "reading": "dōng"
+              },
+              {
+                "text": "西",
+                "reading": "xi"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "yǒu"
+              },
+              {
+                "text": "这",
+                "reading": "zhè"
+              },
+              {
+                "text": "么",
+                "reading": "me"
+              },
+              {
+                "text": "多",
+                "reading": "duō"
+              },
+              {
+                "text": "不",
+                "reading": "bù"
+              },
+              {
+                "text": "同",
+                "reading": "tóng"
+              },
+              {
+                "text": "的",
+                "reading": "de"
+              },
+              {
+                "text": "说",
+                "reading": "shuō"
+              },
+              {
+                "text": "法",
+                "reading": "fǎ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "jiù"
+              },
+              {
+                "text": "像",
+                "reading": "xiàng"
+              },
+              {
+                "text": "五",
+                "reading": "wǔ"
+              },
+              {
+                "text": "个",
+                "reading": "ge"
+              },
+              {
+                "text": "朋",
+                "reading": "péng"
+              },
+              {
+                "text": "友",
+                "reading": "yǒu"
+              },
+              {
+                "text": "摸",
+                "reading": "mō"
+              },
+              {
+                "text": "大",
+                "reading": "dà"
+              },
+              {
+                "text": "象",
+                "reading": "xiàng"
+              },
+              {
+                "text": "一",
+                "reading": "yí"
+              },
+              {
+                "text": "样",
+                "reading": "yàng"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ]
+          },
+          "trad": {
+            "text": "最後把大家說的話都寫在紙上。同一樣東西，有這麼多不同的說法，就像五個朋友摸大象一樣。",
+            "zhuyin": [
+              {
+                "text": "最",
+                "reading": "ㄗㄨㄟˋ"
+              },
+              {
+                "text": "後",
+                "reading": "ㄏㄡˋ"
+              },
+              {
+                "text": "把",
+                "reading": "ㄅㄚˇ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "家",
+                "reading": "ㄐㄧㄚ"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "話",
+                "reading": "ㄏㄨㄚˋ"
+              },
+              {
+                "text": "都",
+                "reading": "ㄉㄡ"
+              },
+              {
+                "text": "寫",
+                "reading": "ㄒㄧㄝˇ"
+              },
+              {
+                "text": "在",
+                "reading": "ㄗㄞˋ"
+              },
+              {
+                "text": "紙",
+                "reading": "ㄓˇ"
+              },
+              {
+                "text": "上",
+                "reading": "ㄕㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              },
+              {
+                "text": "同",
+                "reading": "ㄊㄨㄥˊ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "東",
+                "reading": "ㄉㄨㄥ"
+              },
+              {
+                "text": "西",
+                "reading": "ㄒㄧ˙"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "有",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "這",
+                "reading": "ㄓㄜˋ"
+              },
+              {
+                "text": "麼",
+                "reading": "ㄇㄜ˙"
+              },
+              {
+                "text": "多",
+                "reading": "ㄉㄨㄛ"
+              },
+              {
+                "text": "不",
+                "reading": "ㄅㄨˋ"
+              },
+              {
+                "text": "同",
+                "reading": "ㄊㄨㄥˊ"
+              },
+              {
+                "text": "的",
+                "reading": "ㄉㄜ˙"
+              },
+              {
+                "text": "說",
+                "reading": "ㄕㄨㄛ"
+              },
+              {
+                "text": "法",
+                "reading": "ㄈㄚˇ"
+              },
+              {
+                "text": "，",
+                "reading": ""
+              },
+              {
+                "text": "就",
+                "reading": "ㄐㄧㄡˋ"
+              },
+              {
+                "text": "像",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "五",
+                "reading": "ㄨˇ"
+              },
+              {
+                "text": "個",
+                "reading": "ㄍㄜ˙"
+              },
+              {
+                "text": "朋",
+                "reading": "ㄆㄥˊ"
+              },
+              {
+                "text": "友",
+                "reading": "ㄧㄡˇ"
+              },
+              {
+                "text": "摸",
+                "reading": "ㄇㄛ"
+              },
+              {
+                "text": "大",
+                "reading": "ㄉㄚˋ"
+              },
+              {
+                "text": "象",
+                "reading": "ㄒㄧㄤˋ"
+              },
+              {
+                "text": "一",
+                "reading": "ㄧˊ"
+              },
+              {
+                "text": "樣",
+                "reading": "ㄧㄤˋ"
+              },
+              {
+                "text": "。",
+                "reading": ""
+              }
+            ],
+            "bpmf": "最後把大家說的話都寫在紙上。同一󠇡樣東西󠇡，有這麼多不同的說法，就像五個󠇡朋友摸大象一󠇡樣。"
+          }
+        }
+      ]
+    }
+  ]
+}
