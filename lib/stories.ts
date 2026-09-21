@@ -248,13 +248,13 @@ export const STORIES: Story[] = [
 
    /* ── Season 2 ── */
   {
-    num: 13, slug: 'hou-yi-shoots-nine-suns', season: 2, released: false, part: 1, parts: 2,
+    num: 13, slug: 'hou-yi-shoots-nine-suns', season: 2, released: true, part: 1, parts: 2,
     title: { en: "Legend of the Mid-Autumn Festival P1: Hou Yi Shoots Nine Suns", simp: '中秋节传说 P1：后羿射日', trad: '中秋節傳說 P1：后羿射日' },
     blurb: 'When ten suns refuse to come down, heaven sends its finest archer with a red bow and one strict instruction.',
     runtime: '10-12 min', pub: 'Sep 16, 2026', coverColor: '#9B4761', coverImage: '/img/covers/story-covers-s2_SQ-1.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/4nmXoKb0a0v5twgNmImiZX?si=CQ8cOsvGTpyy-CrudD1S-g', youtube: 'https://youtu.be/dvFPf0E5pr0', apple: 'https://podcasts.apple.com/us/podcast/s2-ep1-eng-hou-yi-shoots-nine-suns-%E4%B8%AD%E7%A7%8B%E8%8A%82%E4%BC%A0%E8%AF%B4-%E7%AC%AC%E4%B8%80%E9%9B%86-%E5%90%8E%E7%BE%BF%E5%B0%84%E6%97%A5-%E4%B8%AD%E7%A7%8B%E7%AF%80%E5%82%B3%E8%AA%AA/id1896903747?i=1000790025427' },
+      zh: { spotify: 'https://open.spotify.com/episode/27lgItsv8ICEOS5uKAlpqP?si=RlycKaJuTNuh5VoKdjq3xQ', youtube: 'https://youtu.be/ijzr0W-bR64', apple: 'https://podcasts.apple.com/us/podcast/s2-ep2-%E4%B8%AD%E6%96%87-%E4%B8%AD%E7%A7%8B%E8%8A%82%E4%BC%A0%E8%AF%B4-%E7%AC%AC%E4%B8%80%E9%9B%86-%E5%90%8E%E7%BE%BF%E5%B0%84%E6%97%A5-%E4%B8%AD%E7%A7%8B%E7%AF%80%E5%82%B3%E8%AA%AA-%E7%AC%AC%E4%B8%80%E9%9B%86-%E5%90%8E%E7%BE%BF%E5%B0%84%E6%97%A5-hou-yi-shoots-nine-suns/id1896903747?i=1000790025985' },
     },
     hasBundle: true,
   },
