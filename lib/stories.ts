@@ -270,13 +270,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 15, slug: 'marriage-of-the-mouses-daughter', season: 2, released: false,
+    num: 15, slug: 'marriage-of-the-mouses-daughter', season: 2, released: true,
     title: { en: "The Marriage of the Mouse's Daughter", simp: '老鼠嫁女儿', trad: '老鼠嫁女兒' },
     blurb: 'Who is the greatest in all the world? A tiny mouse is determined to find the mightiest husband for his daughter.',
     runtime: '13-14 min', pub: 'Sep 30, 2026', coverColor: '#436641', coverImage: '/img/covers/story-covers-s2_SQ-3.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/0Gk0fGjtI7Gp1Wu4EcKxpv?si=AvtUAeOlRXWGFIlTYOJx3g', youtube: 'https://youtu.be/hvfFcBcKbkY', apple: 'https://podcasts.apple.com/us/podcast/s2-ep5-eng-the-marriage-of-the-mouses-daughter-%E8%80%81%E9%BC%A0%E5%AB%81%E5%A5%B3%E5%84%BF-%E8%80%81%E9%BC%A0%E5%AB%81%E5%A5%B3%E5%85%92/id1896903747?i=1000792382602' },
+      zh: { spotify: 'https://open.spotify.com/episode/76wZT9pEeqP6vbN5wLmImR?si=exhZp84vRhyqmAllYC-Llg', youtube: 'https://youtu.be/AOrYl57qzWs', apple: 'https://podcasts.apple.com/us/podcast/s2-ep6-%E4%B8%AD%E6%96%87-%E8%80%81%E9%BC%A0%E5%AB%81%E5%A5%B3%E5%84%BF-%E8%80%81%E9%BC%A0%E5%AB%81%E5%A5%B3%E5%85%92-the-marriage-of-the-mouses-daughter/id1896903747?i=1000792383674' },
     },
     hasBundle: true,
   },
