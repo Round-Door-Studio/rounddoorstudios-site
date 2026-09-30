@@ -259,13 +259,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 14, slug: 'changer-flies-to-the-moon', season: 2, released: false, part: 2, parts: 2,
+    num: 14, slug: 'changer-flies-to-the-moon', season: 2, released: true, part: 2, parts: 2,
     title: { en: "Legend of the Mid-Autumn Festival P2: Chang'er Flies to the Moon", simp: '中秋节传说 P2：嫦娥奔月', trad: '中秋節傳說 P2：嫦娥奔月' },
     blurb: 'Why do we look up at the moon and eat mooncakes every Mid-Autumn Festival? The answer begins with a pill and a promise.',
     runtime: '11 min', pub: 'Sep 23, 2026', coverColor: '#7B324A', coverImage: '/img/covers/story-covers-s2_SQ-2.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/0li9i7WzBWlBG96vz0d5G6?si=gkRf0yMfR7S0fUHK9R9UXg', youtube: 'https://youtu.be/VffRSNxzkro', apple: 'https://podcasts.apple.com/us/podcast/s2-ep3-eng-change-flies-to-the-moon-%E4%B8%AD%E7%A7%8B%E8%8A%82%E4%BC%A0%E8%AF%B4-%E7%AC%AC%E4%BA%8C%E9%9B%86-%E5%AB%A6%E5%A8%A5%E5%A5%94%E6%9C%88/id1896903747?i=1000791281247' },
+      zh: { spotify: 'https://open.spotify.com/episode/4DknFrCWOsKx7YqCL4sLNH?si=Fr-HBTfWTOqU69M_ONMc2A', youtube: 'https://youtu.be/g8gw6jo8qis', apple: 'https://podcasts.apple.com/us/podcast/s2-ep4-%E4%B8%AD%E6%96%87-%E4%B8%AD%E7%A7%8B%E8%8A%82%E4%BC%A0%E8%AF%B4-%E7%AC%AC%E4%BA%8C%E9%9B%86-%E5%AB%A6%E5%A8%A5%E5%A5%94%E6%9C%88-%E4%B8%AD%E7%A7%8B%E7%AF%80%E5%82%B3%E8%AA%AA-%E7%AC%AC%E4%BA%8C%E9%9B%86-%E5%AB%A6%E5%A8%A5%E5%A5%94%E6%9C%88-change-flies/id1896903747?i=1000791282225' },
     },
     hasBundle: true,
   },
