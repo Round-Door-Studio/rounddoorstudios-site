@@ -281,13 +281,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 16, slug: 'stealing-a-bell-with-covered-ears', season: 2, released: false,
+    num: 16, slug: 'stealing-a-bell-with-covered-ears', season: 2, released: true,
     title: { en: 'Stealing a Bell with Covered Ears', simp: '掩耳盗铃', trad: '掩耳盜鈴' },
     blurb: 'A young man wants the beautiful doorbell for himself, and he is certain no one has ever thought of a cleverer plan to steal it.',
     runtime: '9-10 min', pub: 'Oct 7, 2026', coverColor: '#8B7355', coverImage: '/img/covers/story-covers-s2_SQ-4.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/1qkkYt3Q5o4j9W2H9l2oax?si=O55y6q87S_CPm5qVve3xBQ', youtube: 'https://youtu.be/pY2lnoK7YgM', apple: 'https://podcasts.apple.com/us/podcast/s2-ep7-eng-stealing-a-bell-with-covered-ears-%E6%8E%A9%E8%80%B3%E7%9B%97%E9%93%83-%E6%8E%A9%E8%80%B3%E7%9B%9C%E9%88%B4/id1896903747?i=1000793655753' },
+      zh: { spotify: 'https://open.spotify.com/episode/5Cduqqx0E7jAH9hE7l3TzK?si=vXSV6yrFSjekw6kjjA2qBg', youtube: 'https://youtu.be/-qsUCHjAm6I', apple: 'https://podcasts.apple.com/us/podcast/s2-ep8-%E4%B8%AD%E6%96%87-%E6%8E%A9%E8%80%B3%E7%9B%97%E9%93%83-%E6%8E%A9%E8%80%B3%E7%9B%9C%E9%88%B4-stealing-a-bell-with-covered-ears/id1896903747?i=1000793658267' },
     },
     hasBundle: true,
   },
