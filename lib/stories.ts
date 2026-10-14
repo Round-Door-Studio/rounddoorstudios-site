@@ -292,13 +292,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 17, slug: 'bed-of-a-hundred-birds', season: 2, released: false,
+    num: 17, slug: 'bed-of-a-hundred-birds', season: 2, released: true,
     title: { en: 'The Bed of a Hundred Birds', simp: '百鸟床', trad: '百鳥床' },
     blurb: 'One small kindness on a mountain path, and every bird in the sky comes to repay it.',
     runtime: '12-14 min', pub: 'Oct 14, 2026', coverColor: '#43447F', coverImage: '/img/covers/story-covers-s2_SQ-5.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/713gcMa3HKEK748cyhMQPj?si=YQkWjE7dTV6OeZ4E-kXamg', youtube: 'https://youtu.be/ceqqjFlSlmk', apple: 'https://podcasts.apple.com/us/podcast/s2-ep9-eng-the-bed-of-a-hundred-birds-%E7%99%BE%E9%B8%9F%E5%BA%8A-%E7%99%BE%E9%B3%A5%E5%BA%8A/id1896903747?i=1000796304592' },
+      zh: { spotify: 'https://open.spotify.com/episode/5LW6ZRTnGzjpJYimTeF7cP?si=g9GRYVO8QJO0u9_uePfj5A', youtube: 'https://youtu.be/FG8zbAeb23g', apple: 'https://podcasts.apple.com/us/podcast/s2-ep10-%E4%B8%AD%E6%96%87-%E7%99%BE%E9%B8%9F%E5%BA%8A-%E7%99%BE%E9%B3%A5%E5%BA%8A-the-bed-of-a-hundred-birds/id1896903747?i=1000796307045' },
     },
     hasBundle: true,
   },
