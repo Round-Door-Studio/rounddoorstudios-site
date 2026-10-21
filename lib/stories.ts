@@ -303,13 +303,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 18, slug: 'blind-men-and-the-elephant', season: 2, released: false,
+    num: 18, slug: 'blind-men-and-the-elephant', season: 2, released: true,
     title: { en: 'The Blind Men and the Elephant', simp: '盲人摸象', trad: '盲人摸象' },
     blurb: 'Five friends reach out to touch an elephant, and come away with five very different answers.',
     runtime: '10-11 min', pub: 'Oct 21, 2026', coverColor: '#5C8358', coverImage: '/img/covers/story-covers-s2_SQ-6.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/7qcSKWxvNgtenqsFetkoZS?si=JogRtyDTShGCTI2lJWwwVg', youtube: 'https://youtu.be/uASjfxyIUEI', apple: 'https://podcasts.apple.com/us/podcast/s2-ep11-eng-the-blind-men-and-the-elephant-%E7%9B%B2%E4%BA%BA%E6%91%B8%E8%B1%A1/id1896903747?i=1000797435001' },
+      zh: { spotify: 'https://open.spotify.com/episode/1zeJyP2VSMK0znIfGS6qUt?si=pHU8qwvkQiyMBbgZwNRi_A', youtube: 'https://youtu.be/yvOb8BII1hY', apple: 'https://podcasts.apple.com/us/podcast/s2-ep12-%E4%B8%AD%E6%96%87-%E7%9B%B2%E4%BA%BA%E6%91%B8%E8%B1%A1-the-blind-men-and-the-elephant/id1896903747?i=1000797436419' },
     },
     hasBundle: true,
   },
