@@ -314,13 +314,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 19, slug: 'auntie-tiger', season: 2, released: false,
+    num: 19, slug: 'auntie-tiger', season: 2, released: true,
     title: { en: 'Auntie Tiger', simp: '虎姑婆', trad: '虎姑婆' },
     blurb: 'Never open the door after dark. A folktale about the night when two sisters did.',
     runtime: '15-17 min', pub: 'Oct 28, 2026', coverColor: '#5B5C9D', coverImage: '/img/covers/story-covers-s2_SQ-7.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/6ZypyPFsdN1956ibAwEPkt?si=iyG_ljfARQyXMglUDmmWXQ', youtube: 'https://youtu.be/5ZChATqeYac', apple: 'https://podcasts.apple.com/us/podcast/s2-ep13-eng-auntie-tiger-%E8%99%8E%E5%A7%91%E5%A9%86/id1896903747?i=1000798520461' },
+      zh: { spotify: 'https://open.spotify.com/episode/00xAh5hWiiIICiymqvchpc?si=eQtCFhIDTa-SVam1hE6Bdg', youtube: 'https://youtu.be/r2-_9mz1owU', apple: 'https://podcasts.apple.com/us/podcast/s2-ep14-%E4%B8%AD%E6%96%87-%E8%99%8E%E5%A7%91%E5%A9%86-auntie-tiger/id1896903747?i=1000798522527' },
     },
     hasBundle: true,
   },
