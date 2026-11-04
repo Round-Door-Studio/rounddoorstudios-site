@@ -325,13 +325,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 20, slug: 'legend-of-lady-meng-jiangnu', season: 2, released: false,
+    num: 20, slug: 'legend-of-lady-meng-jiangnu', season: 2, released: true,
     title: { en: 'Legend of Lady Meng Jiangnu', simp: '孟姜女传说', trad: '孟姜女傳說' },
     blurb: "The Great Wall built by thousands of men came crashing down because of one woman's tears and longing.",
     runtime: '13-14 min', pub: 'Nov 4, 2026', coverColor: '#C4994F', coverImage: '/img/covers/story-covers-s2_SQ-8.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/2aKHY7djw4LdA2pdy5fvl7?si=R_7_YiPvSbaM7rH0gQfo4A', youtube: 'https://youtu.be/XnG8WrIJsno', apple: 'https://podcasts.apple.com/us/podcast/s2-ep15-eng-the-legend-of-lady-meng-jiangnu-%E5%AD%9F%E5%A7%9C%E5%A5%B3%E4%BC%A0%E8%AF%B4-%E5%AD%9F%E5%A7%9C%E5%A5%B3%E5%82%B3%E8%AA%AA/id1896903747?i=1000799809037' },
+      zh: { spotify: 'https://open.spotify.com/episode/1kTIkpK6mui27iKGZ1TtLg?si=OpYFYaNJSvWi6RQlo_cKKg', youtube: 'https://youtu.be/mY6BdV_mFRE', apple: 'https://podcasts.apple.com/us/podcast/s2-ep16-%E4%B8%AD%E6%96%87-%E5%AD%9F%E5%A7%9C%E5%A5%B3%E4%BC%A0%E8%AF%B4-%E5%AD%9F%E5%A7%9C%E5%A5%B3%E5%82%B3%E8%AA%AA-the-legend-of-lady-meng-jiangnu/id1896903747?i=1000799811332' },
     },
     hasBundle: true,
   },
