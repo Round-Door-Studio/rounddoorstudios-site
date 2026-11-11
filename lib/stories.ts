@@ -336,13 +336,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 21, slug: 'ah-qiao-and-the-silkworms', season: 2, released: false,
+    num: 21, slug: 'ah-qiao-and-the-silkworms', season: 2, released: true,
     title: { en: 'Ah Qiao and the Silkworms', simp: '阿巧养蚕', trad: '阿巧養蠶' },
     blurb: 'How did the first silkworms come down to the human world? A nine-year-old girl carried them home.',
     runtime: '12 min', pub: 'Nov 11, 2026', coverColor: '#A8513A', coverImage: '/img/covers/story-covers-s2_SQ-9.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/15udYGIKhFHUt5BjXxiXTK?si=jMQfU48CR-qUf4v3T47Baw', youtube: 'https://youtu.be/IkCTCTmM_Zs', apple: 'https://podcasts.apple.com/us/podcast/s2-ep17-eng-ah-qiao-and-the-silkworms-%E9%98%BF%E5%B7%A7%E5%85%BB%E8%9A%95-%E9%98%BF%E5%B7%A7%E9%A4%8A%E8%A0%B6/id1896903747?i=1000801215130' },
+      zh: { spotify: 'https://open.spotify.com/episode/1ucgJIRbjzsKtnH5YtZQWw?si=nCaOh9-HQfe6gn6_5xPvGA', youtube: 'https://youtu.be/4QsOjPFMiqQ', apple: 'https://podcasts.apple.com/us/podcast/s2-ep18-%E4%B8%AD%E6%96%87-%E9%98%BF%E5%B7%A7%E5%85%BB%E8%9A%95-%E9%98%BF%E5%B7%A7%E9%A4%8A%E8%A0%B6-ah-qiao-and-the-silkworms/id1896903747?i=1000801217613' },
     },
     hasBundle: true,
   },
