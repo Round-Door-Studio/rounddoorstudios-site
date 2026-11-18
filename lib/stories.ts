@@ -347,13 +347,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 22, slug: 'silkworm-goddess', season: 2, released: false,
+    num: 22, slug: 'silkworm-goddess', season: 2, released: true,
     title: { en: 'The Silkworm Goddess', simp: '蚕花娘娘', trad: '蠶花娘娘' },
     blurb: 'A lonely girl makes a promise to her white horse, never thinking he might hold her to it.',
     runtime: '10-11 min', pub: 'Nov 18, 2026', coverColor: '#9B4761', coverImage: '/img/covers/story-covers-s2_SQ-10.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/0fQkUh0YxuQNy4Q3KGBFLB?si=c34f326ba38745ef', youtube: 'https://youtu.be/sffhoRZA0EE', apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000802707459' },
+      zh: { spotify: 'https://open.spotify.com/episode/7JJN3TpCy9bxYTuXa5XeWf?si=ef6eae42947945c2', youtube: 'https://youtu.be/Ke2meh-p7j4', apple: 'https://podcasts.apple.com/us/podcast/the-round-door/id1896903747?i=1000802709811' },
     },
     hasBundle: true,
   },
