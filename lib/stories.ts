@@ -358,13 +358,13 @@ export const STORIES: Story[] = [
     hasBundle: true,
   },
   {
-    num: 23, slug: 'nuwa-creates-people', season: 2, released: false, part: 1, parts: 2,
+    num: 23, slug: 'nuwa-creates-people', season: 2, released: true, part: 1, parts: 2,
     title: { en: 'The Story of Nüwa P1: Nüwa Creates People', simp: '女娲故事 P1：女娲造人', trad: '女媧故事 P1：女媧造人' },
     blurb: 'The world is new and beautiful, and still one goddess cannot shake the feeling that something is missing. A Chinese mythology about the creation of people.',
     runtime: '10 min', pub: 'Nov 25, 2026', coverColor: '#7B324A', coverImage: '/img/covers/story-covers-s2_SQ-11.png',
     audio: {
-      en: { spotify: '', youtube: '', apple: '' },
-      zh: { spotify: '', youtube: '', apple: '' },
+      en: { spotify: 'https://open.spotify.com/episode/50SeacSeFneOihc7P53CwD?si=4rQMn8YLSPSNDoUT2nnMKA', youtube: 'https://youtu.be/ltczaaGH8y8', apple: 'https://podcasts.apple.com/us/podcast/s2-ep21-eng-n%C3%BCwa-creates-people-%E5%A5%B3%E5%A8%B2%E9%80%A0%E4%BA%BA-%E5%A5%B3%E5%AA%A7%E9%80%A0%E4%BA%BA/id1896903747?i=1000803988958' },
+      zh: { spotify: 'https://open.spotify.com/episode/2UOGN6KVeToDxx2cmnxFuY?si=5x0Xma3sSy2d1fEDDxXfiQ', youtube: 'https://youtu.be/8gRKOGNgW_g', apple: 'https://podcasts.apple.com/us/podcast/s2-ep22-%E4%B8%AD%E6%96%87-%E5%A5%B3%E5%A8%B2%E9%80%A0%E4%BA%BA-%E5%A5%B3%E5%AA%A7%E9%80%A0%E4%BA%BA-n%C3%BCwa-creates-people/id1896903747?i=1000803991585' },
     },
     hasBundle: true,
   },
